@@ -1,0 +1,8 @@
+[
+  { "id": "rules", "name": { "tr": "Trafik kuralları ve levhalar", "en": "Traffic rules and signs" } },
+  { "id": "safety", "name": { "tr": "Trafik güvenliği ve davranış", "en": "Road safety and behaviour" } },
+  { "id": "vehicle", "name": { "tr": "Araç bilgisi", "en": "Vehicle knowledge" } },
+  { "id": "environment", "name": { "tr": "Çevre", "en": "Environment" } },
+  { "id": "personal", "name": { "tr": "Sürücünün kişisel durumu", "en": "Driver fitness" } },
+  { "id": "firstaid", "name": { "tr": "İlk yardım", "en": "First aid" } }
+]

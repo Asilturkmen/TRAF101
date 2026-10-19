@@ -1,0 +1,35 @@
+[
+  {
+    "id": "car",
+    "slug": { "tr": "otomobil", "en": "car" },
+    "name": { "tr": "Otomobil", "en": "Car" },
+    "description": { "tr": "Otomobil, kamyonet ve en çok 8 yolculu araçlar", "en": "Cars, pick-ups and vehicles with up to 8 passengers" },
+    "classesNow": ["D"],
+    "classesNew": ["B"],
+    "minAge": 18,
+    "exam": "written-standard",
+    "sourceId": "s10"
+  },
+  {
+    "id": "moto",
+    "slug": { "tr": "motosiklet", "en": "motorcycle" },
+    "name": { "tr": "Motosiklet", "en": "Motorcycle" },
+    "description": { "tr": "Moped ve her güçte motosiklet", "en": "Mopeds and motorcycles of every power" },
+    "classesNow": ["J", "H1", "H2", "H"],
+    "classesNew": ["M", "A1", "A2", "A"],
+    "minAge": null,
+    "exam": "written-standard",
+    "sourceId": "s10"
+  },
+  {
+    "id": "heavy",
+    "slug": { "tr": "agir-vasita", "en": "heavy-vehicle" },
+    "name": { "tr": "Ağır vasıta", "en": "Heavy vehicle" },
+    "description": { "tr": "Otobüs, minibüs ve ağır kamyon", "en": "Buses, minibuses and heavy goods vehicles" },
+    "classesNow": ["A", "B", "C"],
+    "classesNew": ["C1", "C", "D1", "D"],
+    "minAge": null,
+    "exam": "written-heavy",
+    "sourceId": "s10"
+  }
+]

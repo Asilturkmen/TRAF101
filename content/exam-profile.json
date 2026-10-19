@@ -1,0 +1,33 @@
+{
+  "checkedAt": "2026-10-20",
+  "oral": {
+    "status": "current",
+    "sampleSize": 10,
+    "sourceId": "s26",
+    "sourceRef": null
+  },
+  "formats": [
+    {
+      "id": "written-standard",
+      "status": "regulation-not-in-force",
+      "questions": 50,
+      "passMark": 40,
+      "minutes": 60,
+      "split": { "rules": 22, "safety": 15, "vehicle": 4, "environment": 3, "personal": 3, "firstaid": 3 },
+      "splitBasis": "law",
+      "sourceId": "s3",
+      "sourceRef": "md. 13"
+    },
+    {
+      "id": "written-heavy",
+      "status": "regulation-not-in-force",
+      "questions": 100,
+      "passMark": 80,
+      "minutes": 120,
+      "split": { "rules": 44, "safety": 30, "vehicle": 8, "environment": 6, "personal": 6, "firstaid": 6 },
+      "splitBasis": "test2drive",
+      "sourceId": "s3",
+      "sourceRef": "md. 13"
+    }
+  ]
+}
