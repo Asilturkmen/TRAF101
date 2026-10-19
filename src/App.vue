@@ -126,9 +126,10 @@ const footer = computed(() => [
         </ul>
 
         <div class="nav-tools">
-          <a :href="otherPath" class="lang-switch" :hreflang="other" :lang="other" :aria-label="t('nav.switchLabel')">
+          <a :href="otherPath" class="lang-switch" :hreflang="other" :lang="other">
             <Languages :size="18" aria-hidden="true" />
             <span>{{ t('nav.switchToShort') }}</span>
+            <span class="visually-hidden">, {{ t('nav.switchTo') }}</span>
           </a>
           <RouterLink :to="to('practise', lang)" class="btn btn-primary nav-cta">{{ t('nav.practise') }}</RouterLink>
           <button ref="menuButton" type="button" class="menu-button" aria-haspopup="dialog" @click="openMenu">

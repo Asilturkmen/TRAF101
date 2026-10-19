@@ -161,7 +161,7 @@ const progressPct = computed(() => (queue.value.length ? (index.value / queue.va
             <span>{{ t('common.question', { n: index + 1, total: queue.length }) }}</span>
             <span>{{ t('common.correct') }}: {{ firstCorrect }} / {{ firstCount }}</span>
           </div>
-          <div class="progress-bar" role="progressbar" :aria-valuenow="Math.round(progressPct)" aria-valuemin="0" aria-valuemax="100">
+          <div class="progress-bar" role="progressbar" :aria-label="heading" :aria-valuenow="Math.round(progressPct)" aria-valuemin="0" aria-valuemax="100">
             <div class="progress-fill" :style="{ width: progressPct + '%' }" />
           </div>
         </div>

@@ -1,7 +1,7 @@
 import { ViteSSG } from 'vite-ssg';
 import { createPinia } from 'pinia';
 import { createI18n } from 'vue-i18n';
-import '@fontsource-variable/inter/wght.css';
+import './styles/fonts.css';
 import App from './App.vue';
 import routes from './router/routes.js';
 import tr from './locales/tr.json';

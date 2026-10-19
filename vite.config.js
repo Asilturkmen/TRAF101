@@ -45,12 +45,15 @@ function contentStats() {
   const signs = jsonFiles('content/signs').filter((f) => !f.endsWith('categories.json')).flatMap(readJson);
   const written = jsonFiles('content/questions').flatMap(readJson);
   const scenarios = fs.existsSync(path.join(root, 'content/scenarios.json')) ? readJson('content/scenarios.json') : [];
-  return { signs: signs.length, questions: written.length + signs.length, scenarios: scenarios.length };
+  // Questions per lesson (generated sign questions belong to signs-basics).
+  const byLesson = { 'signs-basics': signs.length };
+  for (const q of written) byLesson[q.lesson] = (byLesson[q.lesson] || 0) + 1;
+  return { signs: signs.length, questions: written.length + signs.length, scenarios: scenarios.length, byLesson };
 }
 
 export default defineConfig({
   plugins: [vue()],
-  define: { __CONTENT_STATS__: JSON.stringify(contentStats()) },
+  define: { __CONTENT_STATS__: JSON.stringify(contentStats()), __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: JSON.stringify(!!process.env.HYDRATION_DEBUG) },
   server: { port: Number(process.env.PORT) || 5173 },
   cacheDir: process.env.VITE_CACHE_DIR || 'node_modules/.vite',
   test: {

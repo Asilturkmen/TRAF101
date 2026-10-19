@@ -28,9 +28,18 @@ function send(res, status, file) {
   const headers = { 'Content-Type': TYPES[ext] || 'application/octet-stream' };
   if (file.includes(`${path.sep}assets${path.sep}`)) headers['Cache-Control'] = 'public, max-age=31536000, immutable';
   else headers['Cache-Control'] = 'no-cache';
-  res.writeHead(status, headers);
-  fs.createReadStream(file).pipe(res);
+  const stream = fs.createReadStream(file);
+  stream.on('error', () => {
+    if (!res.headersSent) res.writeHead(500);
+    res.end();
+  });
+  stream.on('open', () => {
+    res.writeHead(status, headers);
+    stream.pipe(res);
+  });
 }
+
+process.on('uncaughtException', (e) => console.error('[serve]', e.message));
 
 http
   .createServer((req, res) => {

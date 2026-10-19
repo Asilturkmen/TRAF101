@@ -54,8 +54,9 @@ const { locale } = useI18n();
   border-top: 1px solid var(--color-border-light);
 }
 .key-points {
-  background: rgba(55, 114, 114, 0.06);
-  border: 1px solid rgba(55, 114, 114, 0.25);
+  background: white;
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-primary);
   border-radius: var(--radius-xl);
   padding: 1.5rem 1.75rem;
 }

@@ -7,7 +7,8 @@ import { usePage, useLang, absolute } from '../composables/usePage.js';
 import { lessonBySlug } from '../content/docs.js';
 import { topicById } from '../content/meta.js';
 import { signById } from '../content/signs.js';
-import { questionCount } from '../content/questions.js';
+// eslint-disable-next-line no-undef
+const questionCount = ({ lesson }) => __CONTENT_STATS__.byLesson[lesson] || 0;
 import { to, lessonPath, lessonPracticePath, signPath } from '../lib/paths.js';
 import { tx, fmtDate } from '../lib/text.js';
 import PageHero from '../components/PageHero.vue';
