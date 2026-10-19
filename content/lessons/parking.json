@@ -1,0 +1,133 @@
+{
+  "id": "parking",
+  "title": {
+    "tr": "Duraklama ve park",
+    "en": "Stopping and parking"
+  },
+  "summary": {
+    "tr": "Yolun sol kenarına, trafikle aynı yöne bakarak park et ve kimsenin yolunu ya da görüşünü kapatma.",
+    "en": "Park on the left-hand side, facing the direction of traffic, and do not block anyone's way or view."
+  },
+  "sections": [
+    {
+      "heading": {
+        "tr": "Duraklama mı, park mı",
+        "en": "Stopping or parking"
+      },
+      "body": {
+        "tr": "**Duraklama**, yolcu indirip bindirmek ya da kısa bir yükleme yapmak için aracın kısa süre durmasıdır. **Park**, aracı bırakıp ayrılmak ya da uzun süre beklemektir.\n\nİki levha bu farkı gösterir:\n\n- **Park yasağı:** mavi zemin, kırmızı halka ve tek çapraz çizgi. Park edemezsin, ama kısa duraklama yapabilirsin.\n- **Duraklama ve park yasağı:** mavi zemin, kırmızı halka ve çarpı biçiminde iki çizgi. Orada hiç durmazsın.\n\nLevhanın altında saat ya da gün yazan bir ek levha varsa yasak yalnız o zamanlarda geçerlidir.",
+        "en": "**Stopping** means halting briefly to let passengers in or out or to load something quickly. **Parking** means leaving the vehicle or waiting for longer.\n\nTwo signs show the difference:\n\n- **No parking:** blue background, red ring and one diagonal bar. You may not park, but you may stop briefly.\n- **No stopping:** blue background, red ring and two bars forming a cross. You do not stop there at all.\n\nIf a plate under the sign shows hours or days, the ban applies only at those times."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Park edilmeyecek yerler",
+        "en": "Where parking is an offence"
+      },
+      "body": {
+        "tr": "KKTC ceza listesinde şu yerlere park etmek ayrı suçlar olarak geçer:\n\n- itfaiye istasyonu, hastane ve okul önleri,\n- kavşaklar,\n- otobüs durakları,\n- kaldırımlar.\n\nKaldırıma park etmek yayaları, özellikle bebek arabası iten ya da tekerlekli sandalye kullanan insanları yola inmeye zorlar.",
+        "en": "The KKTC penalty list names parking in these places as offences:\n\n- in front of fire stations, hospitals and schools,\n- at junctions,\n- at bus stops,\n- on pavements.\n\nParking on the pavement forces pedestrians, especially people with pushchairs or wheelchairs, out into the road."
+      },
+      "basis": "secondary",
+      "sourceId": "s31",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Görüşü ve geçişi kapatma",
+        "en": "Don't block the way or the view"
+      },
+      "body": {
+        "tr": "Listede açıkça yazmasa da şu yerlerde de park etme:\n\n- yaya geçidinin üstünde ve hemen önünde,\n- virajda ve tepe üstünde,\n- yangın musluğunun önünde,\n- garaj ve bina girişlerinin önünde,\n- kartın yoksa engelli park yerlerinde.\n\nKaldırım kenarında sarı çizgi görürsen orayı bekleme yasağı gibi düşün ve yakındaki levhayı oku.",
+        "en": "Even where the list does not say so, do not park:\n\n- on or just before a pedestrian crossing,\n- on a bend or a hill crest,\n- in front of a fire hydrant,\n- across garage or building entrances,\n- in a disabled space unless you hold the permit.\n\nIf you see a yellow line along the kerb, treat it as a no-waiting line and read the nearby sign."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Doğru taraf ve yokuşta park",
+        "en": "The right side, and parking on hills"
+      },
+      "body": {
+        "tr": "Yolun **sol** kenarına, trafik akışıyla aynı yöne bakacak biçimde park et. Karşı yöne bakarak park etmek hem çıkarken karşı şeridi kesmeni gerektirir hem de gece aracının görünmesini zorlaştırır.\n\nKKTC'de kaldırım soldadır. Yokuşta tekerleri bu yüzden şöyle çevirirsin:\n\n- **Yokuş yukarı, kaldırım varsa:** tekerleri **sağa**, kaldırımdan uzağa çevir.\n- **Yokuş aşağı:** tekerleri **sola**, kaldırıma doğru çevir.\n\nBöylece fren boşalırsa araç kaldırıma dayanır ve yola kaçmaz. El frenini çek ve vitese tak; otomatik vitesli araçta P konumunu seç.",
+        "en": "Park on the **left** side of the road, facing the same way as the traffic. Parking against the flow means cutting across the other lane when you leave, and makes your car harder to see at night.\n\nIn KKTC the kerb is on the left. On a hill you therefore turn the wheels like this:\n\n- **Uphill, with a kerb:** turn the wheels to the **right**, away from the kerb.\n- **Downhill:** turn the wheels to the **left**, towards the kerb.\n\nIf the brakes let go, the car rolls into the kerb instead of into the road. Apply the handbrake and leave it in gear; in an automatic, select P."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Araçtan inerken",
+        "en": "Getting out of the car"
+      },
+      "body": {
+        "tr": "- Motoru durdur, el frenini çek, farları kapat.\n- Kapıyı açmadan önce aynalarına, sonra omzunun üstünden arkaya bak. Bir bisikletli ya da motosikletli yaklaşıyor olabilir.\n- Kapıyı ondan uzak olan elinle aç. Bu hareket gövdeni arkaya döndürür ve arkayı görmeni kolaylaştırır.\n- Yolcular, özellikle çocuklar, kaldırım tarafından, yani soldan insin.",
+        "en": "- Switch off the engine, apply the handbrake and turn off the lights.\n- Before opening the door, check your mirrors and then look back over your shoulder. A cyclist or motorcyclist may be coming.\n- Open the door with the hand furthest from it. This turns your body and makes it easier to see behind you.\n- Passengers, especially children, should get out on the kerb side, which is the left."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    }
+  ],
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Yolun sol kenarına, trafikle aynı yöne bakarak park et.",
+        "en": "Park on the left-hand side, facing the direction of traffic."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Kavşak, otobüs durağı, kaldırım ile itfaiye, hastane ve okul önü park edilmeyecek yerlerdir.",
+        "en": "Junctions, bus stops, pavements and the fronts of fire stations, hospitals and schools are no-parking places."
+      },
+      "basis": "secondary",
+      "sourceId": "s31",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Duraklama ve park yasağı levhasında hiç durmazsın; park yasağında kısa duraklama yapabilirsin.",
+        "en": "At a no-stopping sign you do not stop at all; at a no-parking sign you may stop briefly."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Yokuş aşağı park ederken tekerleri sola, kaldırıma doğru çevir.",
+        "en": "Parking downhill, turn the wheels left, towards the kerb."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Kapıyı açmadan önce arkadan gelen bisikletli ve motosikletliye bak.",
+        "en": "Before opening the door, look for cyclists and motorcyclists coming from behind."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    }
+  ],
+  "relatedSigns": [
+    "prohibitory.no-parking",
+    "prohibitory.no-stopping",
+    "information.parking",
+    "information.bus-stop",
+    "information.hospital"
+  ],
+  "reviewedAt": "2026-10-20"
+}

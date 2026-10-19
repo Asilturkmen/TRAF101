@@ -1,0 +1,1514 @@
+[
+  {
+    "id": "moto.faster-e-moped-licence",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir elektrikli moped, ehliyetsiz kullanılabilen e-mopedlerden daha hızlı gidebiliyor. Bu aracı kullanmak için ne gerekir?",
+      "en": "An electric moped can go faster than the e-mopeds that may be ridden without a licence. What do you need to ride it?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hiçbir belge, çünkü elektriklidir",
+          "en": "Nothing, because it is electric"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "J, H1, H2 ya da H sınıfı bir ehliyet",
+          "en": "A class J, H1, H2 or H licence"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız aracın ruhsatı",
+          "en": "Only the vehicle registration document"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız kask ve yansıtıcı yelek",
+          "en": "Only a helmet and a reflective vest"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Ehliyetsiz kullanılabilen e-moped ve e-scooterlar en çok 30 km/sa hıza ve 351 W'tan düşük güce sahiptir. Daha hızlı araçlar için motosiklet grubundan bir ehliyet gerekir: J, H1, H2 ya da H.",
+      "en": "E-mopeds and e-scooters that need no licence are limited to 30 km/h and less than 351 W. Faster vehicles need a licence from the motorcycle group: J, H1, H2 or H."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s39",
+    "sourceRef": "Trafik Dairesi duyurusu, 2026",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.class-h1",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "125 cc ve 11 kW'ı geçmeyen bir motosiklet için bugün hangi ehliyet sınıfı gerekir?",
+      "en": "Which licence class do you need today for a motorcycle of up to 125 cc and 11 kW?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "H2",
+          "en": "H2"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "J",
+          "en": "J"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "H1",
+          "en": "H1"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "B",
+          "en": "B"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "H1 sınıfı 125 cc'ye, 11 kW'a ve 0,1 kW/kg güç-ağırlık oranına kadar olan motosikletleri kapsar. H2 daha güçlü motosikletler, J mopedler içindir. B bugün ağır kamyon sınıfıdır.",
+      "en": "Class H1 covers motorcycles up to 125 cc, 11 kW and 0.1 kW/kg. H2 is for more powerful motorcycles and J for mopeds. In KKTC today, B is the heavy truck class."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s10",
+    "sourceRef": "Tüzük md. 33(2)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.class-h2-power",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "H2 sınıfı ehliyet en çok hangi güçteki motosikletleri kapsar?",
+      "en": "Up to what power does a class H2 licence cover motorcycles?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "11 kW",
+          "en": "11 kW"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "25 kW",
+          "en": "25 kW"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "35 kW",
+          "en": "35 kW"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Güç sınırı yoktur",
+          "en": "There is no power limit"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "H2 sınıfı en çok 35 kW ve 0,2 kW/kg olan, ayrıca iki katından fazla güçlü bir araçtan türetilmemiş motosikletleri kapsar. Güç sınırı olmayan motosikletler için H sınıfı gerekir.",
+      "en": "Class H2 covers motorcycles of up to 35 kW and 0.2 kW/kg that are not derived from a vehicle of more than twice that power. Motorcycles without a power limit need class H."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s10",
+    "sourceRef": "Tüzük md. 33(2)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.basic-course",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "2013 Tüzük değişikliğine göre motosiklet ve moped adaylarının temel kursu nasıl düzenlenmiştir?",
+      "en": "Under the 2013 regulation amendment, how is the basic course for motorcycle and moped learners set out?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "12 saat sürer ve günde en çok 3 saat yapılır",
+          "en": "It lasts 12 hours, with at most 3 hours a day"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Tek bir günde 8 saat olarak yapılır",
+          "en": "It is done in a single 8-hour day"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "İsteğe bağlıdır, yalnız sınavda kalanlar katılır",
+          "en": "It is optional and only for those who fail the test"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız teoriktir, kursta motosiklet kullanılmaz",
+          "en": "It is theory only, with no riding"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Tüzük md. 29(7) motosiklet ve moped adaylarına 12 saatlik bir temel kurs öngörür ve günde en çok 3 saat ders yapılabilir. Güncel ders sayısını sürücü kursuna sor.",
+      "en": "Regulation art. 29(7) requires a 12-hour basic course for motorcycle and moped learners, with at most 3 hours of lessons a day. Ask your driving school for the current number of lessons."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s10",
+    "sourceRef": "Tüzük md. 29(7)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.speed-village-road",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Üçüncü sınıf yollarda ve köy yollarında motosiklet için hız sınırı nedir?",
+      "en": "What is the motorcycle speed limit on third-class and village roads?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "50 km/sa",
+          "en": "50 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "60 km/sa",
+          "en": "60 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "70 km/sa",
+          "en": "70 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "75 km/sa",
+          "en": "75 km/h"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "2019 bildirisine göre köy yollarında motosiklet saatte 60 km, otomobil 70 km ile sınırlıdır. Birinci ve ikinci sınıf yollarda motosiklet sınırı saatte 75 km'dir.",
+      "en": "Under the 2019 notice, motorcycles are limited to 60 km/h and cars to 70 km/h on village roads. On first- and second-class roads the motorcycle limit is 75 km/h."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.speed-built-up-area",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Başka bir levha yoksa yerleşim yeri içinde motosikletle en çok hangi hızla gidebilirsin?",
+      "en": "If no sign says otherwise, what is your speed limit on a motorcycle in a built-up area?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "30 km/sa",
+          "en": "30 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "50 km/sa",
+          "en": "50 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "65 km/sa",
+          "en": "65 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "85 km/sa",
+          "en": "85 km/h"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "BUB broşürüne göre yerleşim yerlerinde hız sınırı saatte 50 km'dir. Bu sınır motosikletler için de geçerlidir.",
+      "en": "According to the ministry leaflet, the limit in built-up areas is 50 km/h. It applies to motorcycles too."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "BUB broşürü, hız sınırları",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.lane-position",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "motorcycle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Sol trafikte, açık ve düz bir yolda şeridin içinde normalde nerede gitmelisin?",
+      "en": "In left-hand traffic, on a clear, straight road, where in your lane should you normally ride?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Genellikle şeridin ortasına yakın, görülebileceğin yerde",
+          "en": "Usually near the centre of your lane, where you can be seen"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kaldırıma olabildiğince yakın, yolun sol kenarında",
+          "en": "As close to the kerb as possible, at the left edge of the road"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Orta çizginin hemen yanında, karşı şeride taşarak",
+          "en": "Right next to the centre line, drifting into the oncoming lane"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Öndeki aracın tam arkasında, ona yakın",
+          "en": "Directly behind the vehicle in front, close to it"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Yolun sol kenarında kum, çakıl ve rögar kapakları olur ve yan yoldan çıkan sürücüler seni geç görür. Şeridin ortasına yakın gitmek hem görüşünü hem görünürlüğünü artırır. Konumunu yola ve trafiğe göre değiştir.",
+      "en": "The left edge of the road collects sand, gravel and drain covers, and drivers coming out of side roads see you late. Riding near the centre of the lane improves both your view and how visible you are. Adjust your position to the road and traffic."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.daytime-visibility",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "motorcycle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Gündüz sürücülerin seni daha kolay fark etmesine en çok ne yardım eder?",
+      "en": "In daylight, what helps other drivers notice you most?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sürekli korna çalmak",
+          "en": "Sounding the horn all the time"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kalın, koyu renkli bir deri ceket ve siyah kask",
+          "en": "A thick, dark leather jacket and a black helmet"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Daha yüksek sesli bir egzoz",
+          "en": "A louder exhaust"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kısa far ve parlak renkli ya da yansıtıcı giysi",
+          "en": "A dipped headlight and bright or reflective clothing"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Motosiklet küçük bir araçtır ve diğer sürücüler onu kolayca gözden kaçırır. Açık far ve parlak ya da yansıtıcı giysi seni daha erken fark ettirir. Ses görünürlüğün yerini tutmaz.",
+      "en": "A motorcycle is small and other drivers easily miss it. A headlight and bright or reflective clothing get you noticed sooner. Noise is no substitute for being seen."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.protective-clothing",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "motorcycle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Sıcak bir yaz gününde kısa bir yola çıkıyorsun. Kaskın yanında neden motosiklet ceketi, eldiven ve bot giymelisin?",
+      "en": "On a hot summer day you are going on a short trip. Why should you wear a motorcycle jacket, gloves and boots as well as a helmet?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yasa her yolculukta deri giysi ister",
+          "en": "The law requires leather clothing on every trip"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Düşersen derini ve eklemlerini korurlar",
+          "en": "They protect your skin and joints if you fall"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız rüzgârı keserler, güvenlikle ilgileri yoktur",
+          "en": "They only keep the wind off and do nothing for safety"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız uzun yolculuklarda işe yararlar",
+          "en": "They are only useful on long trips"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "KKTC mevzuatında kask dışında bir koruyucu giysi zorunluluğu bulunamadı. Ama düşen bir sürücü yola sürtünür ve çarpar. Koruyucu ceket, eldiven ve bot yaraları ve kırıkları azaltır.",
+      "en": "No rule requiring protective clothing other than a helmet was found in KKTC law. But a rider who falls slides along and hits the road. A protective jacket, gloves and boots reduce cuts, grazes and fractures."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.using-both-brakes",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "motorcycle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kuru ve düz bir yolda motosikletle çabuk ama kontrollü durman gerekiyor. Ne yaparsın?",
+      "en": "On a dry, straight road you need to stop quickly but under control. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Ön ve arka freni birlikte, giderek artan bir kuvvetle kullanırım",
+          "en": "Use the front and rear brakes together, squeezing progressively"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız arka freni kullanırım, ön fren motosikleti devirir",
+          "en": "Use only the rear brake, because the front brake will throw me off"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Ön fren kolunu bir anda sonuna kadar sıkarım",
+          "en": "Grab the front brake lever fully in one go"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Debriyajı tutup motosikletin kendi kendine yavaşlamasını beklerim",
+          "en": "Pull in the clutch and let the motorcycle roll to a stop"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Kuru yolda durma gücünün büyük bölümünü ön fren sağlar, ama fren kolu bir anda değil, giderek sıkılır. Ön ve arka freni birlikte kullanmak motosikleti dengede tutar.",
+      "en": "On a dry road the front brake gives most of the stopping power, but you squeeze it progressively, not in one grab. Using both brakes together keeps the motorcycle stable."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.brake-before-bend",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "motorcycle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir virajı rahatça almak için fazla hızlısın. Ne zaman yavaşlamalısın?",
+      "en": "You are going too fast to take a bend comfortably. When should you slow down?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Virajın ortasında, en çok yattığın yerde",
+          "en": "In the middle of the bend, at full lean"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Virajdan çıkarken, gazı açmadan hemen önce",
+          "en": "On the way out, just before accelerating"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Virajdan önce, motosiklet dikken",
+          "en": "Before the bend, while the motorcycle is upright"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hiç yavaşlamadan, daha çok yatarak",
+          "en": "Not at all; lean further instead"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Yatmış bir motosiklette lastiğin tutunma gücünün bir kısmı dönüş için harcanır. Bu sırada sert fren kaymaya yol açabilir. Hızını viraja girmeden, motosiklet dikken ayarla.",
+      "en": "When a motorcycle is leaned over, part of the tyre's grip is used for turning. Hard braking at that point can cause a skid. Set your speed before the bend, while you are upright."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.wet-slippery-surfaces",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "motorcycle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bu levhayı gördün ve yağmur başladı. Motosikletle hangi yüzeylerde en çok dikkat etmelisin?",
+      "en": "You have seen this sign and it has started to rain. On a motorcycle, which surfaces need the most care?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Pürüzlü asfaltın ortası",
+          "en": "The middle of a rough asphalt surface"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Boyalı yol çizgileri ve metal rögar kapakları",
+          "en": "Painted road markings and metal drain covers"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Önündeki aracın tekerlek izleri",
+          "en": "The tyre tracks of the vehicle in front"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Çizgisi olmayan düz asfalt",
+          "en": "Plain asphalt with no markings"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Islak boya, metal kapaklar ve yağ lekeleri asfalttan çok daha az tutunur. Bunların üzerinde fren yapma, yatma ve gazı birden açma.",
+      "en": "Wet paint, metal covers and oil patches give far less grip than asphalt. Do not brake, lean or open the throttle sharply on them."
+    },
+    "signId": "warning.slippery-road",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.passenger-behaviour",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "motorcycle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Arkana bir yolcu aldın. Yolcuna ne söylemelisin?",
+      "en": "You are carrying a passenger. What should you tell them?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Virajlarda dengeyi korumak için ters yöne yaslansın",
+          "en": "Lean the opposite way in bends to balance the bike"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ayaklarını yere yakın tutsun, durunca destek olsun",
+          "en": "Keep their feet near the ground to help when you stop"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Trafiği görmek için sık sık yana eğilsin",
+          "en": "Lean out to the side often to see the traffic"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Tutunsun, ayakları basamakta kalsın, virajda seninle yatsın",
+          "en": "Hold on, keep their feet on the footrests and lean with you"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Yolcunun hareketi motosikletin dengesini doğrudan etkiler. Sakin oturan, tutunan ve virajda seninle aynı yöne yatan bir yolcu motosikleti dengede tutar.",
+      "en": "A passenger's movements directly affect the motorcycle's balance. A passenger who sits still, holds on and leans the same way as you keeps the bike stable."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.passenger-and-luggage",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "motorcycle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yolcu ve bagajla yola çıkacaksın. Motosikletin nasıl etkilenir ve ne yapmalısın?",
+      "en": "You will ride with a passenger and luggage. How is the motorcycle affected, and what should you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Ağırlık lastikleri yola bastırdığı için motosiklet daha kısa mesafede durur",
+          "en": "The extra weight presses the tyres down, so the bike stops in a shorter distance"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Bir şey değişmez, her zamanki gibi sürersin",
+          "en": "Nothing changes, so you ride as usual"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Fren mesafesi uzar; lastikleri ve süspansiyonu el kitabına göre ayarla",
+          "en": "Braking distances get longer; set the tyres and suspension as the handbook says"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Lastik basıncını düşürürsün, motosiklet daha iyi tutunur",
+          "en": "You lower the tyre pressures for more grip"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Ek ağırlık frenlemeyi, hızlanmayı ve virajda dengeyi değiştirir. Üreticinin el kitabı yüklü sürüş için lastik basıncı ve süspansiyon ayarı verir. Daha erken fren yap ve mesafeyi açık tut.",
+      "en": "Extra weight changes braking, acceleration and balance in bends. The maker's handbook gives tyre pressures and suspension settings for a loaded bike. Brake earlier and keep a bigger gap."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.child-passenger",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "motorcycle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Mopedinde bir çocuğu yolcu olarak taşımak istiyorsun. Tüzüğe göre hangisi gerekir?",
+      "en": "You want to carry a child as a passenger on your moped. Under the regulation, what is required?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Uygun bir oturak, basamağa yetişen ayaklar ve kask",
+          "en": "A proper seat, feet that reach the footrests, and a helmet"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Çocuk önde, kollarının arasında oturursa kask gerekmez",
+          "en": "No helmet is needed if the child sits in front, between your arms"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Çocuk her yaşta taşınabilir, yeter ki sıkı tutunsun",
+          "en": "A child of any age may ride, as long as they hold on tight"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Çocuk yalnız gündüz ve köy yollarında taşınabilir",
+          "en": "A child may only ride in daylight on village roads"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Tüzük md. 58(2) mopette çocuk yolcuyu şu koşullara bağlar: 7 ile 12 yaş arası, uygun bir oturak, basamağa yetişen ayaklar ve kask.",
+      "en": "Regulation art. 58(2) allows a child passenger on a moped only if the child is aged 7 to 12, sits on a proper seat, can reach the footrests and wears a helmet."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s10",
+    "sourceRef": "Tüzük md. 58(2)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.looking-through-bend",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "motorcycle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir virajı alırken nereye bakmalısın?",
+      "en": "Where should you look as you ride through a bend?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Ön tekerleğin hemen önündeki yola",
+          "en": "At the road just in front of your front wheel"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Virajın dış kenarındaki bariyere",
+          "en": "At the barrier on the outside of the bend"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Virajın çıkışına, gitmek istediğin yere",
+          "en": "Through the bend, towards where you want to go"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hız göstergesine, hızını denetlemek için",
+          "en": "At the speedometer, to check your speed"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Motosiklet baktığın yöne gitme eğilimindedir. Bariyere ya da tekerleğin önüne bakmak seni o yöne çeker. Gözünü virajın çıkışına ver.",
+      "en": "A motorcycle tends to go where you look. Staring at the barrier or just ahead of the wheel draws you towards it. Look through the bend to the exit."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.oncoming-car-turning-right",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "motorcycle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Ana yolda gidiyorsun. Karşıdan gelen bir otomobil, sağa dönüp senin önünden geçmek için kavşakta bekliyor. Ne yaparsın?",
+      "en": "You are on a main road. An oncoming car is waiting at a junction to turn right across your path. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Önceliğim olduğu ve sürücü beklemek zorunda olduğu için hızımı korurum",
+          "en": "I keep my speed, because I have priority and the driver must wait"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Hızlanıp o dönmeden önünden geçerim",
+          "en": "I speed up to get past before it turns"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Şeridimin sol kenarına geçip korna çalarım",
+          "en": "I move to the left edge of my lane and sound the horn"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sürücü beni görmemiş olabilir; yavaşlar ve frene hazır olurum",
+          "en": "The driver may not have seen me, so I slow down and cover the brakes"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Sol trafikte sağa dönen araç senin şeridini keser. Sağa dönen sürücü karşıdan gelene yol vermelidir, ama motosikletleri kolayca gözden kaçırır. Önceliğin olsa da çarpışmayı önlemek için yavaşla.",
+      "en": "In left-hand traffic, a car turning right cuts across your lane. The turning driver must give way to oncoming traffic but can easily miss a motorcycle. Even with priority, slow down to avoid a crash."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.overtaking-side",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Trafik akarken motosikletle bir aracı hangi yanından sollarsın?",
+      "en": "In moving traffic, on which side do you overtake a vehicle on a motorcycle?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sağından, diğer araçlar gibi",
+          "en": "On its right, like any other vehicle"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Solundan, kaldırım tarafından",
+          "en": "On its left, on the kerb side"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hangi taraf boşsa oradan",
+          "en": "On whichever side is free"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Banketin ya da kaldırımın üzerinden",
+          "en": "Along the verge or the pavement"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Yol Kuralları Yasası md. 2'ye göre KKTC'de sağdan sollanır. Bu kural motosikletler için de geçerlidir. Bir aracı solundan geçmek ceza listesinde ayrı bir suçtur.",
+      "en": "Under the Road Rules Law, art. 2, you overtake on the right in KKTC. This applies to motorcycles too. Passing a vehicle on its left is a separate offence in the fines list."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s7",
+    "sourceRef": "md. 2(b)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.pre-ride-check",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Yola çıkmadan önce motosikletinde neyi düzenli olarak denetlemelisin?",
+      "en": "Before riding, what should you check regularly on your motorcycle?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız yakıtı; gerisini yıllık servis denetler",
+          "en": "Only the fuel; the yearly service checks the rest"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız aynaları ve plakayı, çünkü polis bunlara bakar",
+          "en": "Only the mirrors and number plate, because police look at those"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Lastikleri, frenleri, ışıkları ve zinciri",
+          "en": "Tyres, brakes, lights and the chain"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız korna ve egzoz sesini",
+          "en": "Only the horn and the exhaust note"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "İki tekerlekli bir araçta lastik ya da fren sorunu hemen düşmeye yol açabilir. Lastik basıncı ve dişi, frenler, ışıklar ve zincir gerginliği için kısa bir denetimi alışkanlık edin.",
+      "en": "On two wheels, a tyre or brake problem can put you on the ground at once. Make a short check of tyre pressure and tread, brakes, lights and chain tension a habit."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.lorry-turning-left",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "motorcycle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir kavşakta sola dönmek üzere olan bir kamyonun sol yanında, kaldırım tarafında bekliyorsun. Ne yapmalısın?",
+      "en": "At a junction you are waiting on the left-hand side of a lorry, on the kerb side, and it is about to turn left. What should you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kamyonun arkasına çekilip dönmesini beklerim",
+          "en": "Drop back behind the lorry and let it turn"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kamyon dönmeden hızlanıp önüne geçerim",
+          "en": "Accelerate to get ahead before it turns"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yerimde kalırım, sürücü beni aynada görür",
+          "en": "Stay where I am; the driver will see me in the mirror"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Korna çalıp kamyonun beklemesini isterim",
+          "en": "Sound the horn so the lorry waits"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Sol trafikte kamyonun en tehlikeli kör noktası sol ön köşesi ve sol yanıdır. Sola dönerken arka tekerlekler köşeyi keser ve kaldırım tarafındaki sürücüyü ezebilir. Kamyonun yanında değil, arkasında kal.",
+      "en": "In left-hand traffic, a lorry's most dangerous blind spot is its left front corner and left side. When it turns left, the rear wheels cut the corner and can crush a rider on the kerb side. Stay behind the lorry, not beside it."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.h1-covers-mopeds",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "H1 sınıfı ehliyetin var. 50 cc'lik bir mopedi kullanabilir misin?",
+      "en": "You hold a class H1 licence. May you ride a 50 cc moped?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hayır, moped için ayrıca J sınıfı almalısın",
+          "en": "No, you need a separate class J licence"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Hayır, mopedi yalnız H2 ya da H sınıfı kapsar",
+          "en": "No, only class H2 or H covers mopeds"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Evet, H1 sınıfı J sınıfını da kapsar",
+          "en": "Yes, class H1 also covers class J"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız moped elektrikliyse kullanabilirsin",
+          "en": "Only if the moped is electric"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Tüzük md. 34(4)'e göre üst motosiklet sınıfları alttakileri kapsar: H1, J'yi kapsar. H2, H1 ve J'yi; H ise H2, H1 ve J'yi kapsar.",
+      "en": "Under Regulation art. 34(4), higher motorcycle classes cover the lower ones: H1 covers J, H2 covers H1 and J, and H covers H2, H1 and J."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s10",
+    "sourceRef": "Tüzük md. 34(4)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.shoulder-check-before-overtaking",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "motorcycle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir aracı sollamak için sağa çıkmadan hemen önce, aynalara baktıktan sonra ne yapmalısın?",
+      "en": "Just before moving out to the right to overtake, after checking your mirrors, what should you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hiçbir şey, aynalar arkadaki her yeri gösterir",
+          "en": "Nothing; the mirrors show everything behind me"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sağ omzumun üzerinden kısa bir bakış atarım",
+          "en": "Take a quick look over my right shoulder"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sola bakıp kaldırım tarafını denetlerim",
+          "en": "Look left to check the kerb side"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Korna çalıp hemen çıkarım",
+          "en": "Sound the horn and pull out at once"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Motosiklet aynalarında da kör nokta vardır. Sollamadan ya da şerit değiştirmeden önce gideceğin tarafa kısa bir omuz bakışı at. KKTC'de sağdan sollandığı için bu bakış sağ omzunun üzerinden olur.",
+      "en": "Motorcycle mirrors have blind spots too. Before overtaking or changing lanes, glance over your shoulder on the side you are moving to. In KKTC you overtake on the right, so that is your right shoulder."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.lorry-buffeting",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "motorcycle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bölünmüş yolda büyük bir kamyonu sollarken motosikletin rüzgârla sarsılıyor. Ne yapmalısın?",
+      "en": "On a dual carriageway your motorcycle is buffeted by the wind as you overtake a large lorry. What should you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Rüzgârdan kurtulmak için kamyonun olabildiğince yakınından geçerim",
+          "en": "Pass as close to the lorry as possible to get out of the wind"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Gidonu sıkmadan kavrar, kamyondan geniş boşluk bırakırım",
+          "en": "Keep a firm but relaxed grip and leave a wide gap from the lorry"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sarsıntı başlayınca sert fren yaparım",
+          "en": "Brake hard as soon as the buffeting starts"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Gidona tüm gücümle asılıp gövdemi kaskatı tutarım",
+          "en": "Grip the bars as hard as I can and keep my whole body stiff"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Büyük araçların çevresindeki hava akımı motosikleti iter. Geniş boşluk bırak, gidonu sıkmadan kavra ve gövdeni gevşek tut; kaskatı kollar sarsıntıyı gidona aktarır.",
+      "en": "The air flow around large vehicles pushes a motorcycle about. Leave a wide gap, hold the bars firmly but without tension and stay loose; stiff arms pass every jolt into the steering."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.scratched-visor",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Kaskının vizörü çizik ve gece karşıdan gelen farlar gözünü kamaştırıyor. Ne yapmalısın?",
+      "en": "Your helmet visor is scratched, and at night oncoming headlights dazzle you. What should you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Vizörü yenisiyle değiştiririm",
+          "en": "Replace the visor"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Gece için koyu renk bir vizör takarım",
+          "en": "Fit a dark tinted visor for night riding"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Vizörü açık bırakıp göz koruması olmadan sürerim",
+          "en": "Ride with the visor up and no eye protection"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Çizikleri cilayla kapatıp kullanmaya devam ederim",
+          "en": "Polish over the scratches and keep using it"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Çizik vizör ışığı dağıtır ve gece görüşü ciddi biçimde azaltır. Koyu renk vizör gece görüşü daha da kısaltır. Temiz, çiziksiz ve renksiz bir vizör kullan.",
+      "en": "A scratched visor scatters light and badly cuts your vision at night. A tinted visor makes it worse still. Use a clean, unscratched, clear visor."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.carrying-a-bag",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Motosikletle bir çanta taşıyacaksın. En güvenli yol hangisidir?",
+      "en": "You need to carry a bag on your motorcycle. What is the safest way?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Gözümün önünde olsun diye gidona asarım",
+          "en": "Hang it from the handlebars so I can see it"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Bağlamadan depo üzerine koyar, dizlerimle tutarım",
+          "en": "Rest it unstrapped on the tank and grip it with my knees"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yolcunun bir eliyle tutmasını, diğeriyle tutunmasını isterim",
+          "en": "Ask my passenger to hold it with one hand and hold on with the other"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Arka taşıyıcıya ya da yan çantaya sıkıca bağlarım",
+          "en": "Strap it firmly to a rear rack or into panniers"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Gidona asılan yük direksiyonu etkiler, bağlanmamış yük kayıp düşebilir. Yükü taşıyıcıya ya da çantalara bağla ve ağırlığı motosikletin ortasına yakın, alçakta tut.",
+      "en": "A load on the handlebars affects the steering, and an unsecured load can slip off. Strap it to a rack or into panniers and keep the weight low and near the middle of the bike."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.check-after-a-fall",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Park yerinde motosikletin devrildi. Yola çıkmadan önce ne yapmalısın?",
+      "en": "Your motorcycle has fallen over in a car park. What should you do before riding off?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Motor çalışıyorsa hemen yola çıkarım",
+          "en": "Ride off straight away if the engine starts"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız boyada çizik var mı diye bakarım",
+          "en": "Only look for scratches in the paint"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Frenleri ilk virajda sert fren yaparak denerim",
+          "en": "Test the brakes by braking hard in the first bend"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Fren ve debriyaj kollarını, basamakları ve ışıkları denetlerim",
+          "en": "Check the brake and clutch levers, footrests and lights"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Devrilen bir motosiklette kol kırılabilir, basamak bükülebilir ya da far çatlayabilir. Kumandaları, frenleri ve ışıkları sürmeden önce denetle; frenleri düz ve boş bir yerde, düşük hızda dene.",
+      "en": "After a fall a lever can snap, a footrest bend or a light crack. Check the controls, brakes and lights before riding, and test the brakes at low speed on a clear, level stretch."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.no-overtaking-near-junction",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Önündeki otomobil sağda bir yan yolun olduğu kavşağa yaklaşırken yavaşlıyor ama sinyal vermiyor. Onu sağdan sollamayı düşünüyorsun. Ne yaparsın?",
+      "en": "The car ahead slows down as it approaches a junction with a side road on the right, but it is not signalling. You are thinking of overtaking it on the right. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sinyal vermediği için düz gideceğini varsayıp sollarım",
+          "en": "It is not signalling, so I assume it is going straight and overtake"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Korna çalıp hızla sollarım",
+          "en": "Sound the horn and overtake quickly"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Solundan, kaldırım tarafından geçerim",
+          "en": "Pass it on the left, on the kerb side"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sollamam; sağa dönebilir, arkasında kalırım",
+          "en": "I do not overtake; it may turn right, so I stay behind"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Sol trafikte sağa dönecek araç orta çizgiye yaklaşır ve tam senin sollayacağın yere döner. Sinyal unutulmuş olabilir. Kavşak yakınında sollama.",
+      "en": "In left-hand traffic a car about to turn right moves towards the centre line and turns across exactly the path you would use to overtake. The driver may have forgotten to signal. Do not overtake near junctions."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "moto.group-riding-overtake",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "motorcycle",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Arkadaşlarınla grup halinde sürüyorsun. Öndeki motosikletli bir kamyonu sollayıp geçti ve sen karşı şeridi tam göremiyorsun. Ne yaparsın?",
+      "en": "You are riding in a group. The rider ahead has just overtaken a lorry, and you cannot see the oncoming lane clearly. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Gruptan kopmamak için hemen onun arkasından sollarım",
+          "en": "Overtake straight after them so as not to lose the group"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Öndeki geçebildiyse yol boştur, ben de sollarım",
+          "en": "If they got past, the road must be clear, so I overtake too"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Korna çalıp kamyonun kenara çekmesini beklerim",
+          "en": "Sound the horn and wait for the lorry to pull over"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kendi kararımı verir, yolu görene kadar sollamam",
+          "en": "Make my own decision and wait until I can see the road is clear"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Öndekinin geçtiği an yol boştu; senin geçeceğin an boş olmayabilir. Grup halinde de her sürücü kendi sollamasına kendisi karar verir. Grup ileride bekleyebilir.",
+      "en": "The road was clear when the rider ahead went; it may not be when you go. In a group, every rider still makes their own overtaking decision. The group can wait for you further on."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  }
+]

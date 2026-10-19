@@ -1,0 +1,2331 @@
+[
+  {
+    "id": "sc.children-near-school",
+    "rev": 1,
+    "lesson": "vulnerable",
+    "category": "urban",
+    "difficulty": "easy",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Okul yakınında çocuklar",
+      "en": "Children near a school"
+    },
+    "situation": {
+      "tr": "Bir okulun önünden geçiyorsun. Çocuk levhası var ve kaldırımda oynayan çocuklar görüyorsun. Ayrı bir hız sınırı levhası yok.",
+      "en": "You are driving past a school. There is a children warning sign and you can see children playing on the pavement. No separate speed limit is posted."
+    },
+    "signId": "warning.children",
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yola çıkan bir çocuk yoksa hızını korursun, çünkü sınırı aşmıyorsun",
+          "en": "Keep your speed as long as no child steps out, since you are within the limit"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Çocuklar park etmiş araçların arasından ya da kaldırımdan bir anda çıkabilir. Tehlike görünmeden önce yavaşla.",
+          "en": "Children can appear suddenly from between parked cars or off the pavement. Slow down before the danger is visible."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Korna çalıp çocukları uyarır, yoluna devam edersin",
+          "en": "Sound the horn to warn the children and carry on"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Korna çocukları ürkütebilir ve ne yapacaklarını kestiremezsin. Kornaya değil, düşük hıza güven.",
+          "en": "The horn can startle children and you cannot predict what they will do. Rely on low speed, not the horn."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hızını iyice düşürür, frene hazır olur ve çocukları izlersin",
+          "en": "Slow right down, cover the brake and watch the children"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Çocuklar yola birden çıkabilir. Düşük hız sana durmak için zaman kazandırır. Okulun önünde bir hız sınırı levhası varsa ona uy.",
+          "en": "Right. Children can run into the road without warning, and a low speed gives you time to stop. If a speed limit is posted near the school, obey it."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "KKTC mevzuatında genel bir okul bölgesi hız sınırı bulunamadı. Okul yakınındaki sınırları levhalar belirler. Levha olsun olmasın, çocuk gördüğün yerde yavaşla ve durmaya hazır ol.",
+      "en": "No general school-zone speed limit was found in KKTC law; limits near schools are set by signs. Sign or no sign, slow down and be ready to stop wherever you see children."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.pedestrian-waiting-at-crossing",
+    "rev": 1,
+    "lesson": "vulnerable",
+    "category": "urban",
+    "difficulty": "easy",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Geçidin başında bekleyen yaya",
+      "en": "Pedestrian waiting at a crossing"
+    },
+    "situation": {
+      "tr": "Bir yaya geçidine yaklaşıyorsun. Kaldırımdaki bir kişi karşıya geçmek ister gibi yola bakıyor.",
+      "en": "You are approaching a pedestrian crossing. A person on the pavement is looking at the road as if about to cross."
+    },
+    "signId": "information.pedestrian-crossing",
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yaya adım atmadan geçmek için hızlanırsın",
+          "en": "Speed up to get past before they step out"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Yaya geçide adım atmak üzereyken hızlanmak çok tehlikelidir. Kural hazırlanan yayayı da kapsar.",
+          "en": "Speeding up just as someone is about to step out is very dangerous. The rule covers pedestrians getting ready to cross."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yaya henüz yola çıkmadığı için aynı hızla devam edersin",
+          "en": "Carry on at the same speed, because they have not stepped out yet"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Kural yalnız yoldaki yayayı değil, geçmeye hazırlanan yayayı da korur.",
+          "en": "The rule protects pedestrians preparing to cross, not only those already in the road."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yavaşlar, durur ve yayaya yol verirsin",
+          "en": "Slow down, stop and give way"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Yaya geçidini kullanmaya hazırlanan yayaya da yol verirsin.",
+          "en": "Right. You give way to a pedestrian who is getting ready to use the crossing, not only to one already on it."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "BUB broşürüne göre yaya geçidine yaklaşırken yavaşlarsın. Geçidi kullanan ya da kullanmaya hazırlanan bir yaya varsa durur ve yol verirsin. Geçitte yayaya yol vermemek ceza listesinde ayrı bir suçtur.",
+      "en": "According to the ministry leaflet, you slow down when approaching a pedestrian crossing. If someone is using it or getting ready to use it, you stop and give way. Failing to give way at a crossing is a separate offence in the fines list."
+    },
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "BUB broşürü, yaya geçitleri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.overtaking-slow-lorry",
+    "rev": 1,
+    "lesson": "overtaking",
+    "category": "rural",
+    "difficulty": "medium",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Yavaş bir kamyonun arkasında",
+      "en": "Behind a slow lorry"
+    },
+    "situation": {
+      "tr": "Her yöne birer şeritli bir yolda yavaş bir kamyonun arkasındasın. Orta çizgi kesikli ve yol uzun bir mesafe boyunca düz.",
+      "en": "You are behind a slow lorry on a road with one lane in each direction. The centre line is broken and the road is straight for a long way."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Aynalara bakar, karşı şerit yeterince boşsa sağa sinyal verip sağdan sollarsın",
+          "en": "Check your mirrors and, if the oncoming lane is clear far enough, overtake on the right"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. KKTC'de sağdan sollanır. Kamyonu iç aynada gördüğünde sola, kendi şeridine dönersin.",
+          "en": "Right. In KKTC you overtake on the right. Move back to the left when you can see the lorry in your rear-view mirror."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kamyonun solundan, banket tarafından geçersin, çünkü orada karşıdan araç gelmez",
+          "en": "Pass the lorry on its left, along the verge, where no oncoming traffic can reach you"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "KKTC'de bir aracı solundan geçmek suçtur ve kamyon sürücüsü seni o tarafta göremez.",
+          "en": "Passing a vehicle on its left is an offence in KKTC, and the lorry driver cannot see you on that side."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kamyona iyice yaklaşıp sürücüyü kenara çekmeye zorlarsın",
+          "en": "Close right up behind the lorry to push the driver to pull over"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Çok yakın gidersen kamyonun aynasında görünmezsin ve ilerideki yolu göremezsin. Mesafeni koru.",
+          "en": "Too close, you disappear from the lorry's mirrors and cannot see the road ahead. Keep your distance."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Yol Kuralları Yasası md. 2'ye göre soldan gidilir, sağdan sollanır. Sollamadan önce aynalara bak, karşı şeridin yeterince uzun bir mesafe boyunca boş olduğundan emin ol, sinyal ver ve yalnız kesikli çizgi olan yerde solla.",
+      "en": "Under the Road Rules Law, art. 2, you keep left and overtake on the right. Before overtaking, check your mirrors, make sure the oncoming lane is clear for long enough, signal, and only overtake where the line is broken."
+    },
+    "basis": "law",
+    "sourceId": "s7",
+    "sourceRef": "md. 2(b)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.heavy-rain-car-brakes",
+    "rev": 1,
+    "lesson": "lights-weather",
+    "category": "weather",
+    "difficulty": "hard",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Şiddetli yağmurda öndeki araç fren yapıyor",
+      "en": "Car ahead brakes in heavy rain"
+    },
+    "situation": {
+      "tr": "Şiddetli yağmur yağıyor. Öndeki araç birden fren yapıyor. Kuru yolda bıraktığın takip mesafesiyle gidiyordun.",
+      "en": "It is raining heavily. The car in front suddenly brakes. You were keeping the same gap you would leave on a dry road."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sert fren yapıp aracı hemen durdurursun",
+          "en": "Brake hard to stop at once"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Islak yolda ani ve sert fren aracı kaydırabilir. ABS olsa bile durma mesafesi uzar.",
+          "en": "Sudden hard braking on a wet road can cause a skid. Even with ABS, the stopping distance is longer."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Mesafen yeterli olduğu için normal sürersin, ABS seni zaten durdurur",
+          "en": "Carry on as normal; your gap is enough and ABS will stop you anyway"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Kuru yol için yeterli olan mesafe ıslak yolda yetmez. ABS tekerleklerin kilitlenmesini önler ama durma mesafesini kısaltmaz.",
+          "en": "A gap that is enough on a dry road is not enough in the wet. ABS stops the wheels locking but does not shorten the stopping distance."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yumuşakça fren yapar, sonra mesafeyi belirgin biçimde açarsın",
+          "en": "Brake smoothly, then open up the gap considerably"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Islak yolda durma mesafesi uzar. Yumuşak fren kaymayı önler, geniş mesafe sana zaman kazandırır.",
+          "en": "Right. Stopping distances are longer in the wet. Smooth braking avoids a skid and a bigger gap gives you time."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Yağmurda lastikler daha az tutunur ve durma mesafesi uzar. Hızını düşür, takip mesafesini kuru yola göre çok daha fazla tut ve frenleri yumuşak kullan.",
+      "en": "In rain your tyres grip less and stopping distances grow. Slow down, leave a much bigger gap than on a dry road and brake gently."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.ambulance-behind",
+    "rev": 1,
+    "lesson": "emergencies",
+    "category": "emergency",
+    "difficulty": "easy",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Arkadan ambulans geliyor",
+      "en": "Ambulance coming up behind"
+    },
+    "situation": {
+      "tr": "Şehir içinde trafikte gidiyorsun. Arkandan sireni ve tepe lambaları açık bir ambulans yaklaşıyor.",
+      "en": "You are driving in town traffic. An ambulance with its siren and blue lights on is coming up behind you."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sağa, yolun ortasına doğru çeker ve durursun, böylece ambulans soldan geçer",
+          "en": "Pull over to the right, towards the centre, and stop so it can pass on your left"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Bu sağdan trafikli ülkelerin alışkanlığıdır. KKTC'de sağa çekersen ambulansın geçeceği yolu kapatırsın.",
+          "en": "That is the habit from right-hand-traffic countries. In KKTC, pulling right blocks the path the ambulance needs."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ambulansın önünden çekilmek için hızlanırsın",
+          "en": "Speed up to get out of its way"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Hızlanmak seni ve çevreni tehlikeye sokar ve ambulansın geçişini kolaylaştırmaz.",
+          "en": "Speeding up puts you and others at risk and does not help the ambulance get through."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sola sinyal verir, güvenli olunca sola çekip yavaşlar ya da durursun",
+          "en": "Signal left, move over to the left when safe, and slow down or stop"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. KKTC'de soldan gidildiği için ambulans seni sağdan geçer. Sola çekilerek ona yol açarsın. Ani fren yapma ve kaldırıma çıkma.",
+          "en": "Right. Traffic keeps left in KKTC, so the ambulance will pass on your right. Moving left clears its path. Do not brake suddenly or mount the kerb."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Acil araca yol vermemek ceza listesinde ayrı bir suçtur. Hangi yana çekileceğin KKTC mevzuatında yazılı bulunamadı. Sol trafikte güvenli olan, sola çekilip acil aracın sağdan geçmesine izin vermektir. Kavşaktaysan ya da yol darsa durmadan önce açık bir yere kadar sakince ilerle.",
+      "en": "Failing to give way to an emergency vehicle is a separate offence in the fines list. KKTC law does not say which side to pull over to. In left-hand traffic the safe choice is to move left and let the emergency vehicle pass on your right. If you are at a junction or the road is narrow, move on calmly to an open spot before stopping."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.roundabout-car-circulating",
+    "rev": 1,
+    "lesson": "junctions",
+    "category": "urban",
+    "difficulty": "medium",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Çemberde dönen araç",
+      "en": "A car already on the roundabout"
+    },
+    "situation": {
+      "tr": "Bir çembere (dönel kavşağa) yaklaşıyorsun. Çemberde dönen bir otomobil sağından sana doğru geliyor.",
+      "en": "You are approaching a roundabout. A car already going round is coming towards you from your right."
+    },
+    "signId": "mandatory.roundabout",
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yavaşlar, çemberdeki araca yol verir, boşluk olunca girersin",
+          "en": "Slow down, give way to the car on the roundabout, then enter in a gap"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. BUB'a göre çemberdeki araç önceliklidir ve sağdan araç geliyorsa çembere girmezsin.",
+          "en": "Right. According to the ministry, the vehicle on the roundabout has priority, and you do not enter if a vehicle is coming from your right."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "O araçtan önce girmek için hızlanırsın",
+          "en": "Speed up to get in before it"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Çemberdeki aracın geçiş üstünlüğü vardır. Önüne girmek çarpışmaya yol açar.",
+          "en": "The car on the roundabout has priority. Cutting in front of it invites a crash."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Çember tamamen boşalana kadar, arkandakiler korna çalsa da beklersin",
+          "en": "Wait until the roundabout is completely empty, even if drivers behind hoot"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Yol vermen gereken araç geçtikten sonra güvenli bir boşluk varsa girebilirsin. Gereksiz beklemek arkandakileri şaşırtır.",
+          "en": "Once the car you must give way to has passed and there is a safe gap, you can go. Waiting for no reason confuses drivers behind you."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Çembere yaklaşırken yavaşla. Sağdan gelen ya da çemberde dönen araca yol ver. Sol trafikte çember saat yönünde dönülür, yani girişte sola dönersin.",
+      "en": "Slow down as you approach a roundabout. Give way to vehicles coming from your right or already going round. In left-hand traffic you go round clockwise, so you turn left to enter."
+    },
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "BUB broşürü, çember",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.parking-uphill-kerb",
+    "rev": 1,
+    "lesson": "parking",
+    "category": "parking",
+    "difficulty": "easy",
+    "tracks": [
+      "car",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Yokuş yukarı, kaldırım kenarına park",
+      "en": "Parking uphill next to a kerb"
+    },
+    "situation": {
+      "tr": "Yokuş yukarı bakan bir sokakta, yolun sol kenarındaki kaldırımın yanına park ediyorsun.",
+      "en": "You are parking facing uphill on a street, next to the kerb on the left-hand side of the road."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Tekerlekleri sola, kaldırıma doğru çevirirsin",
+          "en": "Turn the wheels to the left, towards the kerb"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Bu yokuş aşağı park için doğrudur. Yokuş yukarıda araç geri kayarsa ön tekerlek kaldırımdan uzaklaşır ve araç yola doğru gider.",
+          "en": "That is right for parking downhill. Facing uphill, if the car rolls back the front wheel moves away from the kerb and the car runs out into the road."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Tekerlekleri sağa, kaldırımdan uzağa çevirirsin",
+          "en": "Turn the wheels to the right, away from the kerb"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Araç geriye kayarsa sol ön tekerleğin arkası kaldırıma dayanır ve aracı durdurur. El frenini çek ve aracı vitese ya da P konumuna al.",
+          "en": "Right. If the car rolls back, the back of the left front wheel comes to rest against the kerb and stops it. Apply the handbrake and leave the car in gear or in P."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Tekerlekleri düz bırakırsın, el freni yeterlidir",
+          "en": "Leave the wheels straight; the handbrake is enough"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Düz tekerlekler aracı hiçbir şeye dayamaz. Fren boşalırsa araç yokuş aşağı kayar.",
+          "en": "Straight wheels rest against nothing. If the brake slips, the car rolls down the hill."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "KKTC'de soldan gidildiği için kaldırım genellikle soldadır. Yokuş yukarı ve kaldırım varsa tekerlekleri sağa çevir; yokuş aşağı tekerlekleri sola, kaldırıma doğru çevir. İki durumda da ön tekerlek kaldırıma dayanır. Kaldırım yoksa tekerlekleri yolun kenarına, sola doğru çevir. Bu bir sürüş tekniğidir, KKTC mevzuatında yazılı değildir.",
+      "en": "Traffic keeps left in KKTC, so the kerb is usually on your left. Uphill with a kerb, turn the wheels right; downhill, turn them left, towards the kerb. Either way it is a front wheel that rests on the kerb. With no kerb, turn the wheels towards the edge of the road, to the left. This is driving technique, not written KKTC law."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.tyre-blowout",
+    "rev": 1,
+    "lesson": "emergencies",
+    "category": "rural",
+    "difficulty": "hard",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Bölünmüş yolda lastik patladı",
+      "en": "Tyre blowout on a dual carriageway"
+    },
+    "situation": {
+      "tr": "Bölünmüş bir yolda sınıra yakın bir hızla gidiyorsun. Birden ön lastiklerden biri patlıyor ve araç bir yana çekiyor.",
+      "en": "You are driving close to the limit on a dual carriageway. Suddenly a front tyre bursts and the car pulls to one side."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Aracı en kısa mesafede durdurmak için hemen sert fren yaparsın",
+          "en": "Brake hard at once to stop in the shortest distance"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Patlak lastikle sert fren aracı savurabilir. Önce kontrolü sağla.",
+          "en": "Hard braking on a burst tyre can spin the car. Get control first."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Direksiyonu hızla sola kırıp bankete, trafikten uzağa çıkarsın",
+          "en": "Steer sharply left onto the verge straight away, clear of the traffic"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Ani direksiyon hareketi aracı savurabilir ya da devirebilir. Kenara ancak hız düştükten sonra, yavaşça çek.",
+          "en": "A sudden steering movement can spin or roll the car. Only pull over gently once your speed has dropped."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Direksiyonu sıkı tutar, gazı bırakır, toparlanınca hafifçe frenlersin",
+          "en": "Grip the wheel, ease off, and brake gently once the car is under control"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Önce aracı düz tut. Hız düşünce sola, yolun kenarına çek ve dörtlü flaşörü yak.",
+          "en": "Right. Keep the car straight first. When your speed has dropped, pull over to the left edge and switch on the hazard lights."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Lastik patlayınca araç patlayan tarafa çeker. Direksiyonu iki elinle sıkı tut, gazı yavaşça bırak ve araç düz gidince fren yap. Sonra güvenli olunca sola, yolun kenarına çek, dörtlü flaşörü yak ve yolcuları trafikten uzak bir yere al.",
+      "en": "When a tyre bursts the car pulls towards that side. Hold the wheel firmly with both hands, ease off gently and brake once the car is running straight. Then, when safe, pull over to the left, switch on the hazard lights and get passengers away from the traffic."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.dense-fog",
+    "rev": 1,
+    "lesson": "lights-weather",
+    "category": "weather",
+    "difficulty": "medium",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Yoğun sis",
+      "en": "Dense fog"
+    },
+    "situation": {
+      "tr": "Yoğun sis var ve ilerisini çok kısa bir mesafeden sonra göremiyorsun.",
+      "en": "There is dense fog and you can only see a short distance ahead."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Uzun farları yakarsın, yolu daha uzaktan görürsün",
+          "en": "Switch on main beam to see further down the road"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Uzun far sisteki su damlacıklarından geri yansır ve görüşü daha da azaltır.",
+          "en": "Main beam reflects off the water droplets in the fog and makes visibility worse."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kısa farı ve varsa sis farını yakıp yavaşlarsın",
+          "en": "Use dipped headlights and fog lights if fitted, and slow down"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Kısa far ve sis farı seni görünür kılar ve yolu aydınlatır. Görebildiğin mesafe içinde durabileceğin hızda git.",
+          "en": "Right. Dipped headlights and fog lights make you visible and light the road. Drive at a speed that lets you stop within the distance you can see."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız sis farlarını yakar, hızını korursun",
+          "en": "Use only your fog lights and keep your speed"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Sis farı tek başına yetmez ve hızını korumak tehlikelidir. Kısa farla birlikte kullan ve yavaşla.",
+          "en": "Fog lights alone are not enough, and keeping your speed is dangerous. Use them with dipped headlights and slow down."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "KKTC'ye özgü bir sis farı kuralı bulunamadı. Genel uygulama şudur: kısa far, varsa sis farı, düşük hız ve geniş takip mesafesi. Sis kalkınca arka sis lambasını kapat, çünkü arkandakileri kamaştırır.",
+      "en": "No KKTC-specific fog-light rule was found. Good practice is dipped headlights, fog lights if fitted, low speed and a long following distance. Switch the rear fog light off when the fog clears, because it dazzles drivers behind."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.brake-failure-downhill",
+    "rev": 1,
+    "lesson": "emergencies",
+    "category": "emergency",
+    "difficulty": "medium",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Yokuş aşağı fren tutmuyor",
+      "en": "Brakes fail going downhill"
+    },
+    "situation": {
+      "tr": "Uzun bir yokuştan iniyorsun ve fren pedalı birden boşa gidiyor.",
+      "en": "You are going down a long hill and the brake pedal suddenly goes down with no effect."
+    },
+    "signId": "warning.steep-descent",
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Aracın daha fazla hız kazanmaması için motoru hemen kapatırsın",
+          "en": "Switch off the engine at once so the car stops gaining speed"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Motor kapanınca direksiyon ve fren desteği azalır, motor freni de kaybolur.",
+          "en": "With the engine off you lose steering and brake assistance and engine braking too."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Pedala art arda basar, vites küçültür, el frenini yavaş çekersin",
+          "en": "Pump the pedal, change down and apply the handbrake gradually"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Pedala art arda basmak basıncı geri getirebilir, küçük vites motor freni sağlar. Dörtlü flaşör ve kornayla çevreni uyar.",
+          "en": "Right. Pumping the pedal may restore pressure and a lower gear gives engine braking. Warn others with your hazard lights and horn."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "El frenini bir anda sonuna kadar çekersin",
+          "en": "Pull the handbrake on fully in one go"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Ani el freni arka tekerlekleri kilitleyip aracı savurabilir. Yavaş yavaş çek.",
+          "en": "A sudden pull can lock the rear wheels and spin the car. Apply it gradually."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Fren tutmazsa panik yapma. Pedala art arda bas, vitesi küçült, el frenini yavaş çek ve dörtlü flaşörle diğerlerini uyar. Araç durmuyorsa hızını yokuş yukarı bir yan yolda ya da açık bir alanda kesmeyi düşün.",
+      "en": "If the brakes fail, do not panic. Pump the pedal, change down, apply the handbrake gradually and warn others with your hazard lights. If the car will not stop, look for an uphill side road or open ground to lose speed."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.amber-light",
+    "rev": 1,
+    "lesson": "junctions",
+    "category": "urban",
+    "difficulty": "easy",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Işık sarıya döndü",
+      "en": "The light turns amber"
+    },
+    "situation": {
+      "tr": "Şehir içinde ışıklı bir kavşağa yaklaşıyorsun. Durma çizgisine az kala ışık sarıya dönüyor. Arkanda yakın bir araç yok.",
+      "en": "You are approaching traffic lights in town. The light turns amber when you are a short way from the stop line. Nobody is close behind you."
+    },
+    "signId": "warning.traffic-signals",
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kırmızıya dönmeden geçmek için hızlanırsın",
+          "en": "Speed up to get through before it turns red"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Hızlanmak, kavşakta kalkan ya da dönen araçlarla çarpışma riskini artırır.",
+          "en": "Speeding up raises the risk of hitting vehicles moving off or turning in the junction."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Güvenle durabildiğin için durma çizgisinde durursun",
+          "en": "Stop at the stop line, since you can do so safely"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Sabit sarı ışık kırmızının geleceğini gösterir. Güvenle durabiliyorsan durursun.",
+          "en": "Right. A steady amber means red is coming. If you can stop safely, you stop."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Aynı hızla devam edersin, sarıda geçmek her zaman serbesttir",
+          "en": "Carry on at the same speed; amber always means you may go"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Sarı bir geçiş izni değildir. Durabiliyorsan durursun.",
+          "en": "Amber is not permission to go. If you can stop, you stop."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Sabit sarı ışık, ışığın kırmızıya döneceğini gösterir. Güvenle durabiliyorsan dur. Çizgiye çok yakınsan ve ani fren arkadan çarpmaya yol açacaksa dikkatle geç. KKTC'deki ışık sırası resmi bir metinde doğrulanamadı; bu genel uygulamadır.",
+      "en": "A steady amber light means the signal is about to turn red. If you can stop safely, stop. If you are very close to the line and braking hard would risk a rear-end crash, go on with care. The KKTC light sequence could not be confirmed in an official text, so this is general practice."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.joining-dual-carriageway",
+    "rev": 1,
+    "lesson": "junctions",
+    "category": "rural",
+    "difficulty": "medium",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Bölünmüş yola katılmak",
+      "en": "Joining a dual carriageway"
+    },
+    "situation": {
+      "tr": "Bir yan yoldan bölünmüş yola çıkıyorsun. Kısa bir katılma şeridi var ve yolun sol şeridinde araçlar arka arkaya geliyor.",
+      "en": "You are joining a dual carriageway from a side road. There is a short slip lane, and vehicles are coming steadily along the left-hand lane."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Katılma şeridinin sonunda durup yolun tamamen boşalmasını beklersin",
+          "en": "Stop at the end of the slip lane and wait for the road to be completely empty"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Uygun bir boşluk varken durmak arkandakileri şaşırtır ve sonra düşük hızla katılmak zorunda kalırsın. Yalnız boşluk yoksa dur.",
+          "en": "Stopping when there is a suitable gap surprises drivers behind and forces you to join at low speed. Only stop if there is no gap."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sinyal verip girersin, yoldaki araçlar sana yer açmak zorundadır",
+          "en": "Signal and pull in; traffic on the road must make room for you"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Bölünmüş yoldaki araçların önceliği vardır. Katılan sürücü uygun boşluğu bekler.",
+          "en": "Traffic already on the dual carriageway has priority. The joining driver waits for a suitable gap."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hızını trafiğe uydurur, sağ arkana bakıp bir boşluğa katılırsın",
+          "en": "Match the traffic's speed, check over your right shoulder and merge into a gap"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Sol trafikte yoldaki araçlar senin sağ arkandan gelir. Sinyal ver ve sol şeritteki bir boşluğa yumuşakça gir.",
+          "en": "Right. In left-hand traffic the vehicles on the road come up behind you on your right. Signal and merge smoothly into a gap in the left-hand lane."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "KKTC'de otoyol sınıfı yoktur; en üst yol sınıfı bölünmüş yoldur. Yan yoldan katılırken yoldaki trafiğe yol ver, hızını uydur ve sol şeritte boşluk olunca katıl. Bölünmüş yolda ters yöne girme, geri gitme ve U dönüşü yapma.",
+      "en": "KKTC has no motorway class; the highest road class is the dual carriageway. When joining from a side road, give way to traffic on the road, match its speed and merge into a gap in the left-hand lane. Never drive the wrong way, reverse or make a U-turn on a dual carriageway."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.parallel-parking-left-kerb",
+    "rev": 1,
+    "lesson": "parking",
+    "category": "parking",
+    "difficulty": "medium",
+    "tracks": [
+      "car"
+    ],
+    "title": {
+      "tr": "Sol kaldırıma paralel park",
+      "en": "Parallel parking on the left-hand kerb"
+    },
+    "situation": {
+      "tr": "Yolun sol tarafında, park etmiş iki aracın arasında dar bir boşluk var. Geri geri park edeceksin.",
+      "en": "There is a tight space between two parked cars on the left-hand side of the road. You are going to reverse into it."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Öndeki aracın yanında durur, geri giderken önce sağa, sonra sola kırarsın",
+          "en": "Stop beside the front car, then reverse steering right first, then left"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Bu, kaldırımın sağda olduğu sağdan trafikteki harekettir. Sol kaldırımda aracın arkasını boşluktan uzaklaştırır.",
+          "en": "That is the move for a kerb on the right, in right-hand traffic. With the kerb on the left it swings the back of the car away from the space."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Öndeki aracın yanında durur, geri giderken önce sola, sonra sağa kırarsın",
+          "en": "Stop beside the front car, then reverse steering left first, then right"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Kaldırım soldayken önce sola kırmak aracın arkasını boşluğa sokar, sonra sağa kırmak önünü içeri alır. Aynalarına ve arkadaki yayalara dikkat et.",
+          "en": "Right. With the kerb on your left, steering left first swings the back of the car into the space, and steering right then brings the front in. Watch your mirrors and any pedestrians behind."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Boşluğa önden, ileri giderek girersin",
+          "en": "Drive into the space forwards"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Dar bir boşluğa önden girersen aracın arkası yola taşar ve kaldırıma paralel duramazsın.",
+          "en": "Driving forwards into a tight space leaves the back of the car sticking out into the road, not parallel to the kerb."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "KKTC'de araçlar yolun sol kenarına park edilir. Paralel parkta önce aynalara bak ve sola sinyal ver. Geri giderken önce sola, araç açı aldıktan sonra sağa kır. Park bitince kaldırıma yakın ve paralel dur. Bu bir sürüş tekniğidir, mevzuatta yazılı değildir.",
+      "en": "In KKTC you park at the left-hand edge of the road. Check your mirrors and signal left first. Reverse steering left, then steer right once the car is angled in. Finish close to and parallel with the kerb. This is driving technique, not written law."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.aquaplaning",
+    "rev": 1,
+    "lesson": "lights-weather",
+    "category": "weather",
+    "difficulty": "hard",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Su birikintisinde kayma",
+      "en": "Aquaplaning"
+    },
+    "situation": {
+      "tr": "Islak yolda bir su birikintisine giriyorsun. Direksiyon birden hafifliyor ve motor sesi yükseliyor.",
+      "en": "You drive into standing water on a wet road. The steering suddenly feels light and the engine note rises."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Gazı yavaşça bırakır, fren yapmadan direksiyonu sabit tutarsın",
+          "en": "Ease off gently, do not brake, and hold the steering steady"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Araç yavaşlayınca lastikler yeniden yola tutunur.",
+          "en": "Right. As the car slows, the tyres regain contact with the road."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kontrolü geri almak için sert fren yaparsın",
+          "en": "Brake hard to regain control"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Lastikler suyun üstündeyken fren yapmak aracı savurabilir.",
+          "en": "Braking while the tyres are riding on water can spin the car."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Lastikler yeniden tutunsun diye gaz verip birikintiden çabuk çıkarsın",
+          "en": "Accelerate so the tyres grip again and you get out of the water quickly"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Gaz vermek lastiklerin suyun üstüne daha çok çıkmasına yol açar.",
+          "en": "Accelerating lifts the tyres further onto the water."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Kayma, lastik ile yol arasına su girince olur. Gazı bırak, fren yapma ve ani direksiyon hareketinden kaçın. Önlemek için yağmurda yavaş git ve lastiklerinin diş derinliğini düzenli denetle.",
+      "en": "Aquaplaning happens when water gets between the tyre and the road. Ease off, do not brake and avoid sudden steering. To prevent it, slow down in rain and check your tyre tread regularly."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.crash-scene-injured",
+    "rev": 1,
+    "lesson": "emergencies",
+    "category": "emergency",
+    "difficulty": "hard",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Yaralı olan bir kaza",
+      "en": "A crash with injured people"
+    },
+    "situation": {
+      "tr": "Bir köy yolunda yeni olmuş bir kazaya rastlıyorsun. Bir araç yolun kenarında yan yatmış ve içinden inleme sesi geliyor.",
+      "en": "On a village road you come across a crash that has just happened. A car is on its side at the edge of the road and someone inside is groaning."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Güvenli bir yerde durur, dörtlü flaşörü yakar, 112'yi ve 155'i ararsın",
+          "en": "Stop somewhere safe, switch on your hazard lights and call 112 and 155"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. 112 ambulans, 155 polistir. Yalnız 155'i aramak yanlış değildir, ama yaralı varsa ambulansı da hemen çağır.",
+          "en": "Right. 112 is the ambulance and 155 the police. Calling only 155 is not wrong, but with injured people call the ambulance straight away too."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Hiç zaman kaybetmemek için aracını yolda bırakıp hemen yaralıya koşarsın",
+          "en": "Leave your car in the road and run straight to the injured person to save time"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Yolun ortasındaki araç ikinci bir kazaya yol açabilir. Önce kendini ve olay yerini güvene al.",
+          "en": "A car left in the road can cause a second crash. Make yourself and the scene safe first."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız 199'u arar, itfaiyenin gelmesini beklersin",
+          "en": "Call only 199 and wait for the fire service"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "199 itfaiyedir. Yangın varsa ya da biri sıkıştıysa onu da ara, ama yaralı için 112, kaza için 155 gerekir.",
+          "en": "199 is the fire service. Call it too if there is a fire or someone is trapped, but injuries need 112 and the crash needs 155."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Olay yerinde önce güvenlik: aracını trafiği engellemeyen bir yere çek, dörtlü flaşörü yak, varsa uyarı işaretini koy. Sonra 112'yi (ambulans) ve 155'i (polis) ara. Yangın gibi yakın bir tehlike yoksa yaralıyı yerinden oynatma.",
+      "en": "Safety comes first at the scene: park where you do not block traffic, switch on your hazard lights and put out a warning sign if you have one. Then call 112 (ambulance) and 155 (police). Do not move an injured person unless there is an immediate danger such as fire."
+    },
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "BUB broşürü, acil telefonlar",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.first-roundabout-on-the-left",
+    "rev": 1,
+    "lesson": "junctions",
+    "category": "urban",
+    "difficulty": "easy",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Sol trafikte ilk çember",
+      "en": "Your first roundabout on the left"
+    },
+    "situation": {
+      "tr": "Sağdan trafiğin olduğu bir ülkeden yeni geldin ve Lefkoşa'da ilk kez bir çembere yaklaşıyorsun. Düz karşıdaki çıkışı alacaksın.",
+      "en": "You have just come from a country that drives on the right and are approaching a roundabout in Lefkoşa for the first time. You want the exit straight ahead."
+    },
+    "signId": "mandatory.roundabout",
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Soldan gelene yol verir, sağa dönerek girersin",
+          "en": "Give way to traffic from the left and turn right to enter"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Bu sağdan trafikteki alışkanlıktır. KKTC'de sağa dönerek girersen çemberde ters yöne gidersin.",
+          "en": "That is the right-hand-traffic habit. In KKTC, turning right to enter sends you the wrong way round."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Çember boşsa vakit kazanmak için saatin tersi yönünde, kısa yoldan gidersin",
+          "en": "If it is empty, save time by going anticlockwise, the short way round"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Çember boş görünse de ters yöne girmek, birden gelen bir araçla kafa kafaya çarpışmaya yol açabilir.",
+          "en": "Even if it looks empty, going the wrong way can lead to a head-on crash with a car that appears suddenly."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sağdan gelene yol verir, sola dönerek girer, saat yönünde dönersin",
+          "en": "Give way to the right, turn left to enter and go round clockwise"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Sol trafikte çember saat yönünde dönülür ve öncelik çemberdeki, yani sağdan gelen araçtadır.",
+          "en": "Right. In left-hand traffic you go round clockwise, and priority belongs to traffic already on the roundabout, coming from your right."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "KKTC'de soldan gidildiği için çember saat yönünde dönülür. Girişte yavaşla, sağdan gelen ve çemberde dönen araçlara yol ver, sola dönerek gir. Çıkacağın yere yaklaşınca sola sinyal ver.",
+      "en": "Because traffic keeps left in KKTC, you go round roundabouts clockwise. Slow down on the approach, give way to traffic from the right and on the roundabout, and turn left to enter. Signal left as you approach your exit."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.roundabout-first-exit",
+    "rev": 1,
+    "lesson": "junctions",
+    "category": "urban",
+    "difficulty": "easy",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Çemberden ilk çıkış",
+      "en": "Taking the first exit at a roundabout"
+    },
+    "situation": {
+      "tr": "Bir çembere yaklaşıyorsun ve ilk çıkışı, yani sola sapan yolu alacaksın.",
+      "en": "You are approaching a roundabout and want the first exit, the road to the left."
+    },
+    "signId": "warning.roundabout-ahead",
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sağa sinyal verip çemberin iç tarafına yaklaşırsın",
+          "en": "Signal right and move towards the centre"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Sağa sinyal ve iç taraf, çemberde ilerleyeceğini gösterir. Diğer sürücüler seni yanlış anlar.",
+          "en": "A right signal and an inside position say you are going further round. Other drivers will misread you."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sola sinyal verir, solda kalır ve çıkana kadar sinyali sürdürürsün",
+          "en": "Signal left on the approach, keep left and keep signalling until you exit"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Sola sinyal, diğerlerine ilk çıkışı alacağını gösterir. Çıkışta yaya ve bisikletlilere dikkat et.",
+          "en": "Right. Signalling left tells others you are taking the first exit. Watch for pedestrians and cyclists as you leave."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sinyal vermezsin, çünkü ilk çıkış çok yakın ve niyetin zaten belli",
+          "en": "Do not signal, as the first exit is very close and your intention is obvious"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Sinyal vermezsen çembere girmek isteyen sürücüler senin çıkacağını bilemez ve gereksiz yere bekler ya da önüne çıkar.",
+          "en": "Without a signal, drivers waiting to enter cannot tell you are leaving, so they wait needlessly or pull out in front of you."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Çok şeritli çemberlerde şerit kullanımını yol çizgileri ve levhalar belirler. Genel uygulama: ilk çıkış için solda kal ve sola sinyal ver. Çemberde saat yönünde ilerle ve çıkmadan önce aynalarına bak.",
+      "en": "On multi-lane roundabouts, road markings and signs decide lane use. As general practice, for the first exit keep left and signal left. Go round clockwise and check your mirrors before you leave."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.roundabout-later-exit",
+    "rev": 1,
+    "lesson": "junctions",
+    "category": "urban",
+    "difficulty": "medium",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Çemberde ileriki bir çıkış",
+      "en": "Taking a later exit at a roundabout"
+    },
+    "situation": {
+      "tr": "Çemberden sağ taraftaki çıkışı alacaksın. Bu çıkış, girdiğin yerden bakınca yarım turdan daha ileride.",
+      "en": "You want the exit on the right of the roundabout, more than halfway round from where you enter."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sağa sinyal verir, bir önceki çıkışı geçince sola sinyal verip çıkarsın",
+          "en": "Signal right on the approach, then signal left after passing the exit before yours"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Böylece diğerleri önce çemberde kalacağını, sonra çıkacağını anlar. Yol çizgileri bir şerit gösteriyorsa ona uy.",
+          "en": "Right. Others can see that you are staying on, and then that you are leaving. If road markings show a lane, follow them."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sağa dönüp saatin tersi yönünde, kısa yoldan gidersin",
+          "en": "Turn right and go anticlockwise, the short way"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Çemberde ters yöne gidilmez. KKTC'de çember her zaman saat yönünde dönülür.",
+          "en": "You never go the wrong way round. In KKTC you always go round clockwise."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kimseyi şaşırtmamak için sinyal vermeden dolaşır, çıkışta sola kırarsın",
+          "en": "Go round without signalling so as not to confuse anyone, then turn off left at your exit"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Sinyalsiz ve ani şerit değişimi, solundaki ya da çıkıştaki araçlarla çarpışmaya yol açabilir.",
+          "en": "An unsignalled, sudden move can lead to a crash with vehicles on your left or at the exit."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Sol trafikte sağa giden çıkış çemberdeki uzun yoldur. Saat yönünde dön, niyetini sinyalle göster ve çıkmadan önce sol aynaya bak. Çok şeritli çemberler için KKTC'ye özgü bir şerit kuralı bulunamadı; yol çizgilerine ve levhalara uy.",
+      "en": "In left-hand traffic, an exit to the right is the long way round. Go clockwise, signal your intentions and check your left mirror before leaving. No KKTC-specific lane rule for multi-lane roundabouts was found, so follow road markings and signs."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.lorry-at-roundabout",
+    "rev": 1,
+    "lesson": "junctions",
+    "category": "urban",
+    "difficulty": "medium",
+    "tracks": [
+      "car",
+      "moto"
+    ],
+    "title": {
+      "tr": "Çemberde uzun bir kamyon",
+      "en": "A long lorry at a roundabout"
+    },
+    "situation": {
+      "tr": "Bir çembere girerken önündeki uzun kamyon iki şeridi birden kullanıyor ve sağa sinyal veriyor.",
+      "en": "As you enter a roundabout, the long lorry ahead of you is using both lanes and signalling right."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sol şeritten kamyonun yanından geçersin",
+          "en": "Pass the lorry on its left in the left-hand lane"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Kamyon çıkışına yönelirken sol şeridi keser ve seni aynada göremeyebilir.",
+          "en": "When the lorry heads for its exit it will cross the left lane, and it may not see you in its mirror."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Korna çalıp kamyonun tek şeritte kalmasını istersin",
+          "en": "Sound the horn so the lorry keeps to one lane"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Uzun bir araç tek şeritte dönemeyebilir. Korna yalnız sürücüyü şaşırtır.",
+          "en": "A long vehicle may simply not fit in one lane. The horn only distracts the driver."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Geride kalır, kamyonun dönmesi için ona yer bırakırsın",
+          "en": "Hang back and give the lorry room to turn"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Uzun araçlar çemberde dönebilmek için birden fazla şerit kullanır. Yanına girersen seni sıkıştırabilir.",
+          "en": "Right. Long vehicles need more than one lane to get round. If you go alongside, it may squeeze you."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Uzun araçlar çemberde ve kavşakta geniş döner, arka tekerlekleri köşeyi keser. Kamyonun yanında değil, arkasında ve aynalarında görülebileceğin bir yerde kal. Kamyon çıkana kadar sabırlı ol.",
+      "en": "Long vehicles swing wide at roundabouts and junctions, and their rear wheels cut corners. Stay behind the lorry, where you can be seen in its mirrors, not beside it. Be patient until it has left."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.turning-right-across-traffic",
+    "rev": 1,
+    "lesson": "right-of-way",
+    "category": "urban",
+    "difficulty": "medium",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Karşı trafiğin önünden sağa dönüş",
+      "en": "Turning right across oncoming traffic"
+    },
+    "situation": {
+      "tr": "Sağdan trafiğe alışkınsın. Bir kavşakta sağa döneceksin ve karşıdan araçlar geliyor.",
+      "en": "You are used to driving on the right. At a junction you want to turn right, and there is oncoming traffic."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Karşıdan gelenlere yol verir, boşluk olunca dönüp yolun sol tarafına girersin",
+          "en": "Give way to oncoming traffic, then turn into the left-hand side of the new road when there is a gap"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Sol trafikte sağa dönüş karşı trafiğin önünden geçer. Karşıdan gelene yol vermemek ceza listesinde ayrı bir suçtur.",
+          "en": "Right. In left-hand traffic a right turn crosses the oncoming traffic. Failing to give way to it is a separate offence in the fines list."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Karşıdan gelenler yaklaşmadan dönmek için hızlanırsın",
+          "en": "Speed up to turn before the oncoming cars arrive"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Karşıdan gelen aracın hızını yanlış tahmin etmek kolaydır. Çarpışma riski yüksektir.",
+          "en": "It is easy to misjudge the speed of oncoming traffic. The risk of a crash is high."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Karşıdan gelenlere yol verir, döndükten sonra yeni yolun sağ şeridine girersin",
+          "en": "Give way to oncoming traffic, then move into the right-hand lane of the new road"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Bu eski alışkanlıktır. KKTC'de döndüğün yolda da solda kalırsın.",
+          "en": "That is the old habit. In KKTC you keep left on the new road too."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Sağdan trafikte sola dönüş ne kadar dikkat istiyorsa, KKTC'de sağa dönüş de o kadar dikkat ister: karşı trafiği keser. Bekle, karşıdan gelenlere ve gireceğin yoldaki yayalara yol ver, dönünce yolun sol tarafına gir.",
+      "en": "A right turn in KKTC needs the same care as a left turn in right-hand traffic, because it crosses the oncoming flow. Wait, give way to oncoming vehicles and to pedestrians in the road you are entering, and turn into the left-hand side."
+    },
+    "basis": "secondary",
+    "sourceId": "s31",
+    "sourceRef": "2023 ceza listesi",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.keep-left-after-turning",
+    "rev": 1,
+    "lesson": "overtaking",
+    "category": "urban",
+    "difficulty": "easy",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Boş yolda yanlış tarafa geçme",
+      "en": "Drifting to the wrong side on an empty road"
+    },
+    "situation": {
+      "tr": "Sabah erken bir otoparktan boş bir yola sola dönerek çıkıyorsun. Yolda hiç araç yok ve alışkanlıkla sağ tarafa yöneliyorsun.",
+      "en": "Early in the morning you turn left out of a car park onto an empty road. There is no traffic, and out of habit you start heading for the right-hand side."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yol boş olduğu için bir sonraki kavşağa kadar sağda kalırsın",
+          "en": "Stay on the right until the next junction, as the road is empty"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Bir virajdan ya da tepenin ardından birden araç çıkabilir ve karşı karşıya gelirsiniz.",
+          "en": "A car can appear suddenly round a bend or over a rise, and you will meet head-on."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yolun ortasından gidersin, iki yanı da görürsün",
+          "en": "Drive down the middle so you can see both sides"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Yolun ortası iki yöndeki araçlar için de tehlikelidir. Kural açıktır: solda git.",
+          "en": "The middle of the road is dangerous for traffic in both directions. The rule is clear: keep left."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hemen yolun sol tarafına girersin",
+          "en": "Move straight to the left-hand side of the road"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. KKTC'de yol boş olsa da solda gidilir. Boş yollar, eski alışkanlığın en kolay geri döndüğü yerlerdir.",
+          "en": "Right. In KKTC you keep left even on an empty road. Empty roads are exactly where old habits return most easily."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Yol Kuralları Yasası md. 2'ye göre soldan gidilir ve karşıdan gelen araç sağında kalır. Sağdan trafiğe alışkın sürücüler özellikle dönüşlerden, otopark çıkışlarından ve boş yollardan sonra dikkatli olmalıdır.",
+      "en": "Under the Road Rules Law, art. 2, you keep left and pass oncoming vehicles with them on your right. Drivers used to right-hand traffic need extra care after turns, when leaving car parks and on empty roads."
+    },
+    "basis": "law",
+    "sourceId": "s7",
+    "sourceRef": "md. 2(a)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.moto-passenger-without-helmet",
+    "rev": 1,
+    "lesson": "occupants",
+    "category": "urban",
+    "difficulty": "easy",
+    "tracks": [
+      "moto"
+    ],
+    "title": {
+      "tr": "Kaskı olmayan yolcu",
+      "en": "A passenger without a helmet"
+    },
+    "situation": {
+      "tr": "Bir arkadaşın onu motosikletle eve bırakmanı istiyor. Senin kaskın var ama onun yok. Yol yalnız birkaç sokak.",
+      "en": "A friend asks you to give them a lift home on your motorcycle. You have a helmet but they do not. It is only a few streets."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yavaş gidersen kısa bir yolda kask gerekmez",
+          "en": "On a short trip at low speed, no helmet is needed"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Kask kuralı hıza ve mesafeye bakmaz. Düşük hızda düşmek de kafa yaralanmasına yol açabilir.",
+          "en": "The helmet rule ignores speed and distance. A fall at low speed can still injure the head."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Arkadaşını kasksız taşımazsın",
+          "en": "Do not carry your friend without a helmet"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Tüzüğe göre motosiklette yolcunun da kask takması zorunludur. Yolun kısa olması kuralı değiştirmez.",
+          "en": "Right. Under the regulation, passengers must wear a helmet too. A short trip does not change the rule."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kendi kaskını arkadaşına verir, sen kasksız sürersin",
+          "en": "Give your helmet to your friend and ride without one"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Kural hem sürücüyü hem yolcuyu kapsar. Biriniz kasksızsa yola çıkamazsınız.",
+          "en": "The rule covers both rider and passenger. If either of you has no helmet, you cannot go."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Tüzük md. 58(3) motosiklet, moped, motorlu üç teker ve ATV'de sürücü ile yolcunun kask takmasını, motor hacmi ve gücü ne olursa olsun zorunlu tutar.",
+      "en": "Regulation art. 58(3) requires the rider and the passenger of a motorcycle, moped, motor tricycle or ATV to wear a helmet, whatever the engine size or power."
+    },
+    "basis": "law",
+    "sourceId": "s9",
+    "sourceRef": "Tüzük md. 58(3)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.moto-gravel-on-bend",
+    "rev": 1,
+    "lesson": "motorcycle",
+    "category": "rural",
+    "difficulty": "medium",
+    "tracks": [
+      "moto"
+    ],
+    "title": {
+      "tr": "Virajda çakıl",
+      "en": "Gravel on a bend"
+    },
+    "situation": {
+      "tr": "Bir köy yolunda sola dönen bir virajın girişindesin. İleride, virajın içinde yola saçılmış çakıl görüyorsun.",
+      "en": "You are entering a left-hand bend on a village road. Ahead, in the bend, you see loose gravel spread across the road."
+    },
+    "signId": "warning.bend--left",
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Önceden yavaşlar, çakılı olabildiğince dik ve fren yapmadan geçersin",
+          "en": "Slow down early and cross it as upright as you can, without braking"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Çakılda tutunma azdır. Hızını önceden düşür; çakılın üzerinde fren, gaz ve yatış değişikliğinden kaçın.",
+          "en": "Right. Gravel gives little grip. Lose speed beforehand and avoid braking, throttle changes or changes of lean on it."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Çakılın üzerinde sert fren yaparsın",
+          "en": "Brake hard on the gravel"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Gevşek yüzeyde sert fren tekerleği kilitler ve motosiklet kayar.",
+          "en": "Hard braking on a loose surface locks the wheel and the bike slides."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Tutunmayı kaybetmemek için çakılın çevresinden, karşı şeritten dolaşırsın",
+          "en": "Ride round the gravel through the oncoming lane so you do not lose grip"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Kör bir virajda karşı şeride geçmek kafa kafaya çarpışmaya yol açabilir.",
+          "en": "Crossing into the oncoming lane on a blind bend can end in a head-on crash."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Kırsal yollarda virajlarda çakıl, kum ve hayvan dışkısı olabilir. Viraja, görebildiğin mesafe içinde durabileceğin hızla gir. Tehlikeyi görünce motosiklet dikken yavaşla ve gevşek yüzeyde sakin kal.",
+      "en": "Rural bends can hold gravel, sand or animal mess. Enter a bend at a speed that lets you stop within the distance you can see. When you spot a hazard, slow down while upright and stay smooth on the loose surface."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.moto-car-at-side-road",
+    "rev": 1,
+    "lesson": "motorcycle",
+    "category": "urban",
+    "difficulty": "medium",
+    "tracks": [
+      "moto"
+    ],
+    "title": {
+      "tr": "Yan yoldan çıkmak üzere olan otomobil",
+      "en": "A car about to pull out of a side road"
+    },
+    "situation": {
+      "tr": "Ana yolda motosikletle gidiyorsun. Solundaki bir yan yolda bir otomobil çıkmak için bekliyor ve sürücü senin geldiğin yöne bakıyor gibi.",
+      "en": "You are riding along a main road. A car is waiting to pull out of a side road on your left, and the driver seems to be looking your way."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yavaşlar, frene hazır olur ve görülebileceğin bir konumda gidersin",
+          "en": "Slow down, cover the brake and ride where you can be seen"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Sürücü sana baksa bile seni görmemiş olabilir. Durabileceğin bir hızla geç.",
+          "en": "Right. Even if the driver is looking at you, they may not have seen you. Pass at a speed at which you could stop."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sürücü doğrudan sana baktığı için seni gördüğünü varsayıp hızını korursun",
+          "en": "Keep your speed, as the driver is looking straight at you and must have seen you"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Bakmak görmek demek değildir. Motosikletler kolayca gözden kaçar.",
+          "en": "Looking is not the same as seeing. Motorcycles are easily missed."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Korna çalıp hızlanarak çıkışın önünden geçersin",
+          "en": "Sound the horn and accelerate past the side road"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Hızlanırsan sürücü çıktığında durma şansın azalır.",
+          "en": "If you speed up, you have less chance of stopping if the driver pulls out."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Yan yoldan çıkan ve motosikletliyi görmeyen sürücü, her kavşakta beklemen gereken bir tehlikedir. Kavşağa yaklaşırken yavaşla, frenlere hazır ol ve gerekirse şeritteki konumunu değiştirerek görünür ol.",
+      "en": "A driver pulling out of a side road without seeing a motorcyclist is a hazard to expect at every junction. Slow down as you approach, cover the brakes and adjust your lane position to be seen."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.heavy-left-turn-cyclist",
+    "rev": 1,
+    "lesson": "heavy",
+    "category": "urban",
+    "difficulty": "hard",
+    "tracks": [
+      "heavy"
+    ],
+    "title": {
+      "tr": "Sola dönerken soldaki bisikletli",
+      "en": "Cyclist on your left as you turn left"
+    },
+    "situation": {
+      "tr": "Kamyonla bir kavşakta sola döneceksin. Işık yeşil. Az önce sol aynada bir bisikletli görmüştün, şimdi göremiyorsun.",
+      "en": "You are about to turn left at a junction in your lorry. The light is green. A moment ago you saw a cyclist in your left mirror, but now you cannot see them."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Dönmeyi bekletir, bisikletliyi görene kadar sol aynaları denetlersin",
+          "en": "Hold the turn and check your left mirrors until you have found the cyclist"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Bisikletli büyük olasılıkla kör noktandadır. Nerede olduğunu bilmeden dönme.",
+          "en": "Right. The cyclist is very likely in your blind spot. Do not turn until you know where they are."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sinyalin açık olduğu için bisikletlinin beklediğini varsayıp dönersin",
+          "en": "Assume the cyclist will wait because your indicator is on, and turn"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Bisikletli sinyalini görmemiş ya da önüne geçmeye çalışıyor olabilir. Arka tekerleklerin köşeyi keser ve onu ezebilir.",
+          "en": "The cyclist may not have seen your signal or may be trying to get ahead. Your rear wheels cut the corner and can crush them."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Arkandakiler beklemesin diye dönüşü hızlı yaparsın",
+          "en": "Turn quickly so that traffic behind you does not have to wait"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Hızlı dönüş kör noktadaki bisikletliyi görme şansını ortadan kaldırır ve kamyonu dengesizleştirir.",
+          "en": "A quick turn removes any chance of spotting the cyclist and unsettles the lorry."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Sol trafikte kamyonun kaldırım tarafı soldur. Bisikletliler, motosikletliler ve yayalar en çok bu tarafta kör noktada kalır. Sola dönmeden önce sol aynaları, kabinin önünü ve yan camı denetle, gerekirse bekle.",
+      "en": "In left-hand traffic a lorry's kerb side is the left. Cyclists, motorcyclists and pedestrians are most often hidden on that side. Before turning left, check the left mirrors, the front of the cab and the side window, and wait if you need to."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.heavy-mountain-descent",
+    "rev": 1,
+    "lesson": "heavy",
+    "category": "rural",
+    "difficulty": "hard",
+    "tracks": [
+      "heavy"
+    ],
+    "title": {
+      "tr": "Dağ yolunda yüklü iniş",
+      "en": "Loaded descent on the mountain road"
+    },
+    "situation": {
+      "tr": "Yüklü bir kamyonla Lefkoşa–Girne dağ yolundan Girne'ye iniyorsun. Önünde uzun ve dik bir iniş var.",
+      "en": "You are driving a loaded lorry down the Lefkoşa–Girne mountain road towards Girne. A long, steep descent lies ahead."
+    },
+    "signId": "warning.steep-descent",
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "İnişten önce küçük vitese geçer, motor freniyle inersin",
+          "en": "Change down before the descent and use engine braking"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. 2019 bildirisi bu yolda kamyon ve otobüsleri 3. viteste saatte 35 km ile sınırlar. Küçük vites frenlerin ısınmasını önler.",
+          "en": "Right. The 2019 notice limits trucks and buses on this road to 35 km/h in third gear. A low gear keeps the brakes from overheating."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yakıt tasarrufu için boşa alıp inersin",
+          "en": "Coast down in neutral to save fuel"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Boşta motor freni olmaz, hız artar ve frenler kısa sürede ısınır.",
+          "en": "In neutral there is no engine braking, your speed builds and the brakes soon overheat."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Büyük viteste kalıp hızı yalnız ayak freniyle tutarsın",
+          "en": "Stay in a high gear and control your speed with the footbrake alone"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Sürekli fren, fren yorulmasına yol açar. Frenler en çok gerektiği anda tutmayabilir.",
+          "en": "Constant braking causes brake fade. The brakes may fail just when you need them most."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Uzun inişte vitesi inişe başlamadan seç. Motor freni hızı sabit tutar; ayak frenini kısa ve kararlı basışlarla kullan. Bildiriye göre bu yolda 10 ve daha yaşlı kamyon ve otobüslerin sınırı saatte 20 km'dir.",
+      "en": "On a long descent, choose your gear before you start down. Engine braking holds your speed; use the footbrake in short, firm applications. Under the notice, trucks and buses 10 or more years old are limited to 20 km/h on this road."
+    },
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.heavy-low-underpass",
+    "rev": 1,
+    "lesson": "heavy",
+    "category": "rural",
+    "difficulty": "medium",
+    "tracks": [
+      "heavy"
+    ],
+    "title": {
+      "tr": "Alt geçit önünde yükseklik sınırı",
+      "en": "Height limit before an underpass"
+    },
+    "situation": {
+      "tr": "Bilmediğin bir yolda kamyonla gidiyorsun. Bir alt geçidin önünde bu levhayı görüyorsun. Levhadaki değer kamyonunun yüksekliğinden düşük.",
+      "en": "You are driving your lorry on an unfamiliar road. You see this sign before an underpass. The figure on it is lower than your lorry's height."
+    },
+    "signId": "prohibitory.height-limit",
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Geçide girmeden güvenli bir yerde durur, başka bir yol bulursun",
+          "en": "Stop somewhere safe before the underpass and find another route"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Levha bu yüksekliğin üstündeki araçların geçmesini yasaklar. Geri manevra gerekiyorsa yardım iste.",
+          "en": "Right. The sign bans vehicles taller than the height shown. If you need to reverse out, get someone to guide you."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yavaşça girip tavana değip değmediğine bakarsın",
+          "en": "Creep in slowly to see whether you touch the roof"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Yük ya da kabin sıkışabilir ve geçit zarar görebilir. Değer aracınınkinden düşükse girmezsin.",
+          "en": "The load or cab can jam and damage the structure. If the figure is lower than your vehicle, you do not go in."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Levhadaki değerde her zaman bir güvenlik payı vardır, yavaşça devam edersin",
+          "en": "The figure always includes a safety margin, so carry on slowly"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Bir pay olduğunu varsayamazsın. Yeni asfalt ya da yol çalışması gerçek yüksekliği değiştirebilir.",
+          "en": "You cannot assume there is a margin. New surfacing or roadworks can change the real clearance."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Ağır vasıta sürücüsü aracının yük dahil yüksekliğini ve ağırlığını bilmelidir. Yükseklik ve ağırlık levhalarını önceden fark et ve rotanı buna göre planla.",
+      "en": "A heavy-vehicle driver must know the vehicle's height and weight, including the load. Spot height and weight signs early and plan your route around them."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.first-rain-after-summer",
+    "rev": 1,
+    "lesson": "lights-weather",
+    "category": "weather",
+    "difficulty": "medium",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Kurak bir yazdan sonra ilk yağmur",
+      "en": "First rain after a dry summer"
+    },
+    "situation": {
+      "tr": "Uzun ve kurak bir yazın ardından ilk yağmur başladı. Yol parlak görünüyor ve kaygan yol levhası var.",
+      "en": "After a long, dry summer the first rain has started. The road looks shiny and there is a slippery-road sign."
+    },
+    "signId": "warning.slippery-road",
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yağmur hafif olduğu için normal sürersin",
+          "en": "Drive normally, since it is only light rain"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Hafif yağmur da birikmiş yağı yüzeye çıkarır. Tehlike yağmurun başında büyüktür.",
+          "en": "Even light rain brings the built-up oil to the surface. The danger is greatest when the rain starts."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yağmurdan çabuk çıkmak için hızlanırsın",
+          "en": "Speed up to get out of the rain sooner"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Kaygan yolda hız, kayma riskini ve durma mesafesini artırır.",
+          "en": "On a slippery road, speed increases the risk of skidding and the stopping distance."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yavaşlar, yumuşak fren yapar ve mesafeyi açarsın",
+          "en": "Slow down, brake gently and leave a bigger gap"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. İlk yağmur, yolda birikmiş yağ ve tozla karışır ve yüzeyi çok kaygan yapar.",
+          "en": "Right. The first rain mixes with oil and dust that have built up on the road and makes the surface very slippery."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Uzun kurak dönemlerde yolda yağ, lastik tozu ve toz birikir. İlk yağmur bunları kaygan bir tabakaya çevirir. Yavaşla, ani hareketlerden kaçın ve motosikletli ile bisikletlilere ek pay bırak.",
+      "en": "During long dry spells, oil, rubber and dust build up on the road. The first rain turns them into a slippery film. Slow down, avoid sudden movements and give motorcyclists and cyclists extra room."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.dazzled-at-night",
+    "rev": 1,
+    "lesson": "lights-weather",
+    "category": "rural",
+    "difficulty": "medium",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Gece karşıdan gelen uzun far",
+      "en": "Dazzled by oncoming headlights at night"
+    },
+    "situation": {
+      "tr": "Gece aydınlatmasız bir köy yolundasın. Karşıdan gelen sürücü uzun farlarını kısmıyor ve gözlerin kamaşıyor.",
+      "en": "You are on an unlit village road at night. An oncoming driver does not dip their main beam and you are dazzled."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sen de uzun farlarını yakıp karşılık verirsin",
+          "en": "Switch on your own main beam in return"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "İki sürücü de kamaşır ve kaza riski artar.",
+          "en": "Both drivers are then dazzled and the risk of a crash rises."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yavaşlar, yolun sol kenarına bakar, gerekirse durursun",
+          "en": "Slow down, look at the left edge of the road, and stop if needed"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Sol trafikte yolun sol kenarı şeridinin sınırıdır. Ona bakmak kamaşmayı azaltır ve şeridinde kalmanı sağlar.",
+          "en": "Right. In left-hand traffic the left edge marks the side of your lane. Looking at it reduces the glare and keeps you in your lane."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Aracın nerede olduğunu bilmek için gözünü onun farlarından ayırmazsın",
+          "en": "Keep your eyes on the oncoming headlights so you know where the car is"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Farlara bakmak kamaşmayı artırır ve gözlerinin toparlanması uzar.",
+          "en": "Looking into the lights makes the glare worse and your eyes take longer to recover."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Karşıdan araç gelince kendi uzun farını kıs. Kamaşınca yavaşla ve bakışını yolun sol kenarına çevir. Işık kurallarına uymamak ceza listesinde yer alır.",
+      "en": "Dip your own main beam when a vehicle comes towards you. If you are dazzled, slow down and look towards the left-hand edge of the road. Breaking the lighting rules is an offence in the fines list."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.goats-on-village-road",
+    "rev": 1,
+    "lesson": "speed",
+    "category": "rural",
+    "difficulty": "easy",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Köy yolunda keçi sürüsü",
+      "en": "A herd of goats on a village road"
+    },
+    "situation": {
+      "tr": "Bir köy yolunda virajı dönünce yolun bir kısmını kaplayan bir keçi sürüsü ve yanında bir çoban görüyorsun.",
+      "en": "On a village road you come round a bend to find a herd of goats, with a shepherd, partly blocking the road."
+    },
+    "signId": "warning.domestic-animals",
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hayvanları dağıtmak için korna çalarsın",
+          "en": "Sound the horn to scatter the animals"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Korna hayvanları ürkütür ve aracının önüne kaçmalarına yol açabilir.",
+          "en": "The horn frightens animals and can make them bolt in front of you."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yavaşlar ya da durur, sürü geçince yavaşça ilerlersin",
+          "en": "Slow down or stop, and go past slowly once the herd has moved"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Hayvanlar ne yapacakları belli olmadan yön değiştirebilir. Yavaş ve sessizce geçmek en güvenlisidir.",
+          "en": "Right. Animals can change direction without warning. Passing slowly and quietly is safest."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hızını koruyup sürünün arasındaki boşluktan geçersin",
+          "en": "Keep your speed and drive through a gap in the herd"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Bir hayvan boşluğa atlayabilir. Çarpışma hayvana ve araca zarar verir, çobanı da tehlikeye atar.",
+          "en": "An animal can jump into the gap. A collision harms the animal and your vehicle and puts the shepherd at risk."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Evcil hayvan levhası yolda hayvan olabileceğini söyler. Kırsalda virajlara, görebildiğin mesafe içinde durabileceğin hızla gir. Sürüyle karşılaşınca yavaşla, gerekirse motoru durdur ve çobanın işaretlerine uy.",
+      "en": "The domestic-animals sign warns that animals may be on the road. In the countryside, take bends at a speed that lets you stop within the distance you can see. When you meet a herd, slow down, switch off if needed and follow the shepherd's signals."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.narrow-bridge-oncoming",
+    "rev": 1,
+    "lesson": "right-of-way",
+    "category": "rural",
+    "difficulty": "medium",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Dar köprüde karşıdan gelen araç",
+      "en": "Oncoming car on a narrow bridge"
+    },
+    "situation": {
+      "tr": "Dar bir köprüye yaklaşıyorsun ve senin tarafındaki girişte bu levha var. Karşı taraftan bir otomobil köprüye girmiş bile.",
+      "en": "You are approaching a narrow bridge and this sign stands at your end. An oncoming car is already on the bridge."
+    },
+    "signId": "priority.give-way-to-oncoming",
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Köprüye girersin; karşıdaki otomobil küçük, kolayca geri gider",
+          "en": "Drive on; the other car is small and can easily back up"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Levha önceliği karşıdan gelene verir. Köprüde karşılaşırsanız ikiniz de sıkışırsınız.",
+          "en": "The sign gives priority to oncoming traffic. If you meet on the bridge, you will both be stuck."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Girişte bekler, karşıdan gelen araç geçince köprüye girersin",
+          "en": "Wait at your end until the oncoming car is across, then go"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Bu levha darlıkta karşıdan gelen araçlara yol vermen gerektiğini gösterir.",
+          "en": "Right. This sign means you must give way to oncoming traffic through the narrow section."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Farlarını yakıp söndürerek önceliği kendine alırsın",
+          "en": "Flash your headlights to claim priority"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Far yakıp söndürmek öncelik hakkı yaratmaz ve karşıdaki sürücüyü yanıltabilir.",
+          "en": "Flashing your headlights creates no right of way and can mislead the other driver."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Karşıdan gelene yol ver levhası, darlıkta ya da köprü girişinde hangi yönün bekleyeceğini gösterir. Karşı yöndeki sürücüler önceliği gösteren levhayı görür. Öncelik sende olsa bile karşıdaki sürücünün yol verdiğinden emin ol.",
+      "en": "The give-way-to-oncoming sign shows which direction must wait at a narrow section or bridge. Drivers coming the other way see a sign giving them priority. Even when priority is yours, make sure the other driver is actually giving way."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.unmarked-crossroads",
+    "rev": 1,
+    "lesson": "right-of-way",
+    "category": "urban",
+    "difficulty": "medium",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Işıksız ve levhasız kavşak",
+      "en": "Crossroads with no signs or lights"
+    },
+    "situation": {
+      "tr": "Bir mahallede levhası ve ışığı olmayan bir kavşağa geliyorsun. Aynı anda sağındaki yoldan bir otomobil geliyor.",
+      "en": "In a residential area you reach a crossroads with no signs or lights. At the same moment a car arrives from the road on your right."
+    },
+    "signId": "warning.crossroads",
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Soldan gidildiği için soldan gelene yol verir, sağdan gelenin önünden geçersin",
+          "en": "Since traffic keeps left, give way to the left and go ahead of the car on your right"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Soldan gidilmesi önceliğin yönünü değiştirmez. KKTC'de kontrolsüz kavşakta sağdan gelene yol verilir.",
+          "en": "Keeping left does not change the priority rule. In KKTC you give way to the right at an uncontrolled junction."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sağdan gelen otomobile yol verirsin",
+          "en": "Give way to the car from your right"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. BUB'a göre kontrolsüz kavşakta öncelik sağdan gelen aracındır.",
+          "en": "Right. According to the ministry, at an uncontrolled junction priority belongs to the vehicle from the right."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Ana yolda olduğunu varsayıp devam edersin",
+          "en": "Assume you are on the main road and carry on"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Levha yoksa hangi yolun ana yol olduğunu varsayamazsın. Genel kural sağdan gelene yol vermektir.",
+          "en": "Without signs you cannot assume which road is the main one. The general rule is to give way to the right."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Levha, ışık ya da polis yoksa kavşakta öncelik sağdan gelen aracındır. Bu kural İngiltere'dekinden farklıdır; KKTC'de BUB broşürü bunu açıkça söyler. Böyle kavşaklara her zaman durabileceğin hızda yaklaş.",
+      "en": "With no signs, lights or police, priority at a junction belongs to the vehicle from the right. This differs from the UK; in KKTC the ministry leaflet states it plainly. Always approach such junctions at a speed at which you can stop."
+    },
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "BUB broşürü, öncelik",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.phone-rings-while-driving",
+    "rev": 1,
+    "lesson": "fitness",
+    "category": "urban",
+    "difficulty": "easy",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Sürüş sırasında telefon çalıyor",
+      "en": "Your phone rings while you drive"
+    },
+    "situation": {
+      "tr": "Şehir içinde giderken telefonun çalıyor ve ekranda annenin adını görüyorsun. Araçta eller serbest sistem yok.",
+      "en": "Your phone rings while you are driving in town and you can see it is your mother. The car has no hands-free system."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Çalmasına izin verir, gerekirse park edip geri ararsın",
+          "en": "Let it ring, and call back later once you have parked"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Sürüş sırasında cep telefonu kullanmak yasaktır. Park ettikten sonra rahatça konuşabilirsin.",
+          "en": "Right. Using a mobile phone while driving is banned. Once parked, you can talk freely."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kırmızı ışıkta durunca açarsın",
+          "en": "Answer it when you stop at a red light"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Trafikte beklemek park etmek değildir. Işık değişince dikkatin hâlâ telefonda olur.",
+          "en": "Waiting in traffic is not the same as being parked. When the light changes, your attention is still on the call."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Telefonu omzunla kulağının arasına sıkıştırıp kısa konuşursun",
+          "en": "Hold it between your ear and shoulder for a quick call"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Bu da telefonu tutarak kullanmaktır ve dikkatini ciddi biçimde dağıtır.",
+          "en": "That is still holding and using the phone, and it badly distracts you."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "BUB broşürüne göre sürüş sırasında cep telefonu kullanmak yasaktır. 2025 açıklamalarına göre telefonu tutmadan Bluetooth ile konuşmak suç sayılmıyor, ama dikkat yine dağılır. Telefon cezası ağırdır ve yüksek ceza puanı getirir.",
+      "en": "According to the ministry leaflet, using a mobile phone while driving is banned. Statements in 2025 say talking over Bluetooth without holding the phone is not an offence, but it still distracts you. The phone penalty is heavy and carries a high number of penalty points."
+    },
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "BUB broşürü, cep telefonu",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.parking-at-bus-stop",
+    "rev": 1,
+    "lesson": "parking",
+    "category": "parking",
+    "difficulty": "easy",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Otobüs durağına park",
+      "en": "Parking at a bus stop"
+    },
+    "situation": {
+      "tr": "Bir markete hızlıca uğrayacaksın. Marketin önündeki tek boş yer bir otobüs durağı.",
+      "en": "You want to pop into a shop. The only free space in front of it is a bus stop."
+    },
+    "signId": "information.bus-stop",
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kısa süreceği için dörtlü flaşörü yakıp park edersin",
+          "en": "Park there with your hazard lights on, since you will be quick"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Dörtlü flaşör park yasağını kaldırmaz. Yolcular yolun ortasında inip binmek zorunda kalır.",
+          "en": "Hazard lights do not lift a parking ban. Passengers end up getting on and off in the road."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Durağa park etmez, biraz ileride yasal bir yer ararsın",
+          "en": "Do not park there; look for a legal space further on"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Otobüs durağına park etmek ceza listesinde yer alır ve otobüsü yolun ortasında durmaya zorlar.",
+          "en": "Right. Parking at a bus stop is in the fines list and forces the bus to stop in the road."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Görünürde otobüs yoksa park edersin",
+          "en": "Park there if no bus is in sight"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Otobüs her an gelebilir. Durak, otobüs olmasa da park yeri değildir.",
+          "en": "A bus can arrive at any moment. A stop is not a parking space even when no bus is there."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Ceza listelerinde otobüs durağına, kavşağa, kaldırıma, okul, hastane ve itfaiye önüne park etmek ayrı suçlardır. Kısa bir alışveriş için de yasal bir yer bul.",
+      "en": "The fines lists treat parking at a bus stop, at a junction, on the pavement, or outside a school, hospital or fire station as separate offences. Find a legal space even for a quick errand."
+    },
+    "basis": "secondary",
+    "sourceId": "s31",
+    "sourceRef": "2023 ceza listesi",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "sc.breakdown-on-dual-carriageway",
+    "rev": 1,
+    "lesson": "emergencies",
+    "category": "emergency",
+    "difficulty": "medium",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "title": {
+      "tr": "Bölünmüş yolda arıza",
+      "en": "Breakdown on a dual carriageway"
+    },
+    "situation": {
+      "tr": "Bölünmüş yolda sağ şeritte giderken bir uyarı ışığı yanıyor ve aracın gücü düşmeye başlıyor.",
+      "en": "You are in the right-hand lane of a dual carriageway when a warning light comes on and the car starts to lose power."
+    },
+    "signId": null,
+    "choices": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Şerit değiştirmek riskli olduğu için sağ şeritte durup dörtlü flaşörü yakarsın",
+          "en": "Stop in the right-hand lane with hazards on, as changing lanes is risky"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Sağ şerit sollama şerididir. Orada durmak arkadan çarpılmana yol açabilir. Güç tamamen bitmeden aynalara bakıp sol kenara geç.",
+          "en": "The right-hand lane is the overtaking lane. Stopping there invites a rear-end crash. Check your mirrors and get to the left edge before the power goes completely."
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Az önce geçtiğin kavşağa geri geri dönersin",
+          "en": "Reverse back to the junction you have just passed"
+        },
+        "correct": false,
+        "feedback": {
+          "tr": "Bölünmüş yolda geri gitmek çok tehlikelidir. Kenara çek ya da bir sonraki kavşağa kadar yavaşça ilerle.",
+          "en": "Reversing on a dual carriageway is very dangerous. Pull over, or carry on slowly to the next junction."
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Dörtlü flaşörü yakar, sola geçip yolun sol kenarına çekersin",
+          "en": "Switch on the hazard lights and move over to the left edge of the road"
+        },
+        "correct": true,
+        "feedback": {
+          "tr": "Doğru. Sonra yolcuları sol kapılardan, trafikten uzak tarafa indir ve yardım çağır.",
+          "en": "Right. Then get passengers out through the left-hand doors, away from the traffic, and call for help."
+        }
+      }
+    ],
+    "explanation": {
+      "tr": "Arıza olunca sol kenara çek ve dörtlü flaşörü yak. Varsa uyarı üçgenini ancak güvenle koyabiliyorsan koy. Yolcuları trafikten uzağa al. Araç trafiği tehlikeye sokuyorsa 155'i ara.",
+      "en": "If you break down, pull over to the left edge and switch on the hazard lights. Only put out a warning triangle, if you have one, when it is safe to do so. Get passengers away from the traffic. If the car is a danger to traffic, call 155."
+    },
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  }
+]

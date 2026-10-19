@@ -1,0 +1,139 @@
+{
+  "id": "junctions",
+  "title": {
+    "tr": "Kavşaklar ve dönel kavşaklar",
+    "en": "Junctions and roundabouts"
+  },
+  "summary": {
+    "tr": "Sol trafikte dönel kavşakta saat yönünde dönülür ve içerideki araç önceliklidir; denetimsiz kavşakta sağdan gelene yol verirsin.",
+    "en": "In left-hand traffic you go round a roundabout clockwise and traffic already on it has priority; at an uncontrolled junction you give way to the right."
+  },
+  "sections": [
+    {
+      "heading": {
+        "tr": "Sağdan trafiğe alışkınsan",
+        "en": "If you learned to drive on the right"
+      },
+      "body": {
+        "tr": "Kendi ülkende sağdan sürdüysen KKTC'de çoğu şey ayna görüntüsüdür:\n\n- Yolun **sol** şeridinde gidersin, karşıdan gelenler senin sağından geçer.\n- **Sola dönüş kısa** dönüştür: sol kenara yakın kalırsın, karşı şeridi kesmezsin.\n- **Sağa dönüş uzun** dönüştür: karşı yönün şeridini keserek dönersin, bu yüzden karşıdan gelene yol verirsin.\n- Dönel kavşakta **saat yönünde** dönersin.\n\nBir kural ise değişmez: işaretsiz kavşakta **sağdan gelen** önceliklidir. Kıta Avrupası'nda sürdüysen bu kural sana tanıdık gelir.\n\nAlışkanlık seni en çok boş yollarda, sabah ilk çıkışta ve bir kavşaktan çıktıktan hemen sonra sağ şeride çeker. Her dönüşten sonra kendine \"solda kal\" de.",
+        "en": "If you learned to drive on the right, most things in KKTC are a mirror image:\n\n- You drive in the **left** lane, and oncoming traffic passes on your right.\n- **Turning left is the short turn**: you stay close to the left edge and do not cross the other lane.\n- **Turning right is the long turn**: you cut across the opposite lane, so you give way to oncoming traffic.\n- At a roundabout you go round **clockwise**.\n\nOne rule does not change: at an unmarked junction, traffic **from the right** has priority. If you have driven in continental Europe, this will feel familiar.\n\nHabit pulls you back to the right most often on empty roads, on your first drive of the morning and just after leaving a junction. After every turn, tell yourself \"keep left\"."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Dönel kavşak nasıl işler",
+        "en": "How a roundabout works"
+      },
+      "body": {
+        "tr": "Dönel kavşakta (çember) trafik saat yönünde akar. Bakanlığın trafik broşüründeki zorunlu dönel kavşak levhası da okları saat yönünde gösterir.\n\nBroşürdeki kurallar şöyle:\n\n- Çembere yaklaşırken yavaşla.\n- Sağdan araç geliyorsa çembere girme.\n- Çemberin içindeki araç önceliklidir.\n\nSaat yönünde dönüldüğü için çemberin içindeki araçlar sana hep **sağından** gelir. Yani \"içerideki önceliklidir\" ile \"sağdan gelene yol ver\" aynı şeyi söyler: girişte sağına bak.",
+        "en": "On a roundabout (*çember*) traffic flows clockwise. The mandatory roundabout sign in the ministry's traffic leaflet also shows its arrows going clockwise.\n\nThe leaflet's rules are:\n\n- Slow down as you approach the roundabout.\n- Do not enter if a vehicle is coming from the right.\n- A vehicle already on the roundabout has priority.\n\nBecause traffic goes round clockwise, vehicles on the roundabout always reach you from your **right**. So \"traffic on the roundabout has priority\" and \"give way to the right\" say the same thing: as you arrive, look right."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Dönel kavşağa adım adım",
+        "en": "A roundabout step by step"
+      },
+      "body": {
+        "tr": "- Yaklaşırken levhalardan hangi çıkışı kullanacağını belirle ve erken doğru şeride geç.\n- Hızını düşür ve sağına bak. Sağdan gelen ya da çemberde dönen araç varsa dur ve bekle.\n- Boşluk olunca **sola** doğru girerek çembere katıl ve saat yönünde dön.\n- Çıkacağın yoldan bir önceki çıkışı geçerken sol sinyal ver.\n- Sola doğru çık. Çıkışta yaya geçidi olabilir, ona da dikkat et.\n\nÇok şeritli çemberlerde yoldaki oklara ve levhalara uy. Çember içinde şerit değiştireceksen aynalarına ve kör noktana bak.",
+        "en": "- As you approach, use the signs to decide which exit you need and move into the right lane early.\n- Slow down and look right. If a vehicle is coming from the right or circulating on the roundabout, stop and wait.\n- When there is a gap, join by turning **left** onto the roundabout and go round clockwise.\n- As you pass the exit before yours, signal left.\n- Leave by turning left. There may be a pedestrian crossing at the exit, so watch for it.\n\nOn roundabouts with several lanes, follow the road arrows and signs. If you need to change lane on the roundabout, check your mirrors and blind spot."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Denetimsiz kavşak",
+        "en": "Uncontrolled junctions"
+      },
+      "body": {
+        "tr": "Işığı, levhası ve polisi olmayan kavşakta öncelik sağdan gelen aracındır.\n\nBir örnek: dört yollu, işaretsiz bir kavşağa geliyorsun.\n\n- Sağından bir araç geliyorsa önce o geçer.\n- Solundan bir araç geliyorsa o sana yol vermelidir. Yine de yavaşladığını görmeden ilerleme.\n- Hem sağından hem solundan araç geliyorsa sağdakinin geçmesini bekle, sonra soldakinin sana yol verdiğinden emin ol.\n\nKavşağa yaklaşırken hızını düşür; önce sağına, sonra soluna, sonra yeniden sağına bak.",
+        "en": "At a junction with no lights, signs or police, priority belongs to the vehicle coming from the right.\n\nAn example: you reach an unmarked crossroads.\n\n- If a vehicle is coming from your right, it goes first.\n- If a vehicle is coming from your left, it should give way to you. Even so, do not move until you see it slowing down.\n- If vehicles are coming from both sides, wait for the one on the right, then make sure the one on the left is giving way to you.\n\nSlow down as you approach; look right, then left, then right again."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Işıklı kavşak",
+        "en": "Junctions with traffic lights"
+      },
+      "body": {
+        "tr": "- **Kırmızı:** durma çizgisinde dur.\n- **Sarı:** dur. Sarı yandığında çizgiye çok yakınsan ve güvenle duramayacaksan geç.\n- **Yeşil:** yol boşsa geç. Yeşil sana geçiş üstünlüğü verir, ama kavşakta kalmış araçlara ve geçen yayalara yine yol verirsin.\n\nYanıp sönen sarı ışıkta yavaşla ve kavşağa ışık yokmuş gibi yaklaş: levha varsa levhaya uy, yoksa sağdan gelene yol ver.\n\nKavşağın içinde durmak zorunda kalacaksan yeşil yansa bile girme. Çıkacağın yol boşalana kadar bekle.",
+        "en": "- **Red:** stop at the stop line.\n- **Amber:** stop. Go on only if the light changes when you are so close to the line that you cannot stop safely.\n- **Green:** go if the way is clear. Green gives you priority, but you still give way to vehicles left in the junction and to pedestrians crossing.\n\nAt a flashing amber light, slow down and treat the junction as if it had no lights: follow any sign, and if there is none, give way to the right.\n\nIf you would have to stop inside the junction, do not enter it, even on green. Wait until your exit is clear."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    }
+  ],
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Dönel kavşakta saat yönünde dönülür; çemberin içindeki araç önceliklidir.",
+        "en": "You go round a roundabout clockwise; traffic already on it has priority."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Çembere yaklaşırken yavaşla, sağdan araç geliyorsa girme.",
+        "en": "Slow down as you approach a roundabout and do not enter if a vehicle is coming from the right."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Işık, levha ve polis yoksa sağdan gelene yol ver.",
+        "en": "With no lights, signs or police, give way to traffic from the right."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Sola dönüş kısa, sağa dönüş uzun dönüştür; sağa dönerken karşıdan gelene yol verirsin.",
+        "en": "Turning left is the short turn and turning right the long one; when turning right you give way to oncoming traffic."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Kırmızı ışıkta geçmek cezalıdır.",
+        "en": "Going through a red light is a fineable offence."
+      },
+      "basis": "secondary",
+      "sourceId": "s30",
+      "sourceRef": null
+    }
+  ],
+  "relatedSigns": [
+    "mandatory.roundabout",
+    "warning.roundabout-ahead",
+    "warning.crossroads",
+    "warning.junction-priority-right",
+    "warning.side-road--left",
+    "warning.traffic-signals",
+    "priority.give-way",
+    "priority.stop",
+    "prohibitory.no-left-turn",
+    "prohibitory.no-right-turn",
+    "prohibitory.no-u-turn"
+  ],
+  "reviewedAt": "2026-10-20"
+}

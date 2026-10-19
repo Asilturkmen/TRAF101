@@ -1,0 +1,156 @@
+{
+  "id": "heavy",
+  "title": {
+    "tr": "Ağır vasıtalar",
+    "en": "Heavy vehicles"
+  },
+  "summary": {
+    "tr": "Otobüs, minibüs ve kamyonda daha düşük hız sınırları, sıfır alkol, geniş dönüşler ve büyük kör noktalar işin parçasıdır.",
+    "en": "Buses, minibuses and lorries come with lower speed limits, zero alcohol for public transport, wide turns and big blind spots."
+  },
+  "sections": [
+    {
+      "heading": {
+        "tr": "Ağır vasıta sınıfları",
+        "en": "Heavy-vehicle classes"
+      },
+      "body": {
+        "tr": "KKTC'de bugün kullanılan sınıflar:\n\n- **A:** 22 ve daha fazla oturan yolcu taşıyan otobüsler.\n- **B:** ağır kamyonlar ve 2.032 kg'ı aşan, başka sınıfa girmeyen motorlu araçlar.\n- **C:** 8'den fazla, 22'den az yolcu taşıyan minibüsler.\n\n2017 yönetmeliği yürürlüğe girerse bu sınıflar Avrupa tipi harflerle anılacak; örneğin otobüs için D, kamyon için C. Bu yönetmelik henüz yürürlükte değildir.\n\nBu sınıfların yaş ve deneyim şartlarını kursuna ya da Trafik Dairesi'ne sor.",
+        "en": "The classes in use in KKTC today are:\n\n- **A:** buses with 22 or more passenger seats.\n- **B:** heavy lorries and other motor vehicles over 2,032 kg not listed elsewhere.\n- **C:** minibuses with more than 8 and fewer than 22 passenger seats.\n\nIf the 2017 regulation comes into force, these classes will use EU-style letters, for example D for buses and C for lorries. That regulation is not yet in force.\n\nAsk your driving school or the Traffic Department (*Trafik Dairesi*) about the age and experience requirements for these classes."
+      },
+      "basis": "law",
+      "sourceId": "s10",
+      "sourceRef": "md. 33(2)"
+    },
+    {
+      "heading": {
+        "tr": "Hız sınırları",
+        "en": "Speed limits"
+      },
+      "body": {
+        "tr": "2019 hız bildirisine göre, basında yer aldığı biçimiyle (km/sa):\n\n- **Bölünmüş yollar:** minibüs, otobüs ve kamyonet 80; kamyon ve yarı römorklu çekici 75; tam römorklu çekici 65; tehlikeli madde taşıyan araç 65; damperli kamyon ve beton mikseri 60\n- **Birinci sınıf yollar:** minibüs, otobüs ve kamyonet 75; kamyon 50\n- **İkinci sınıf yollar:** minibüs, otobüs ve kamyonet 65; kamyon 45\n- **Üçüncü sınıf ve köy yolları:** minibüs, otobüs ve kamyonet 60; kamyon 35\n\nYerleşim yerinde tehlikeli madde taşıyan araçların sınırı 25 km/sa. Lefkoşa–Girne dağ yolunda kamyon ve otobüsler üçüncü viteste 35 km/sa ile, 10 yaşından büyük araçlarsa 20 km/sa ile sınırlıdır.",
+        "en": "According to the 2019 speed notice, as reported in the press (km/h):\n\n- **Divided roads:** minibus, bus and van 80; lorry and semi-trailer tractor 75; full-trailer tractor 65; dangerous-goods vehicle 65; tipper and concrete mixer 60\n- **First-class roads:** minibus, bus and van 75; lorry 50\n- **Second-class roads:** minibus, bus and van 65; lorry 45\n- **Third-class and village roads:** minibus, bus and van 60; lorry 35\n\nIn built-up areas the limit for dangerous-goods vehicles is 25 km/h. On the Lefkoşa–Girne mountain road, lorries and buses are limited to 35 km/h in third gear, or 20 km/h if the vehicle is more than 10 years old."
+      },
+      "basis": "secondary",
+      "sourceId": "s27",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Alkol ve yorgunluk",
+        "en": "Alcohol and tiredness"
+      },
+      "body": {
+        "tr": "Toplu taşıma aracı kullanan sürücüler için alkol sınırı **sıfırdır**. Otobüs ya da dolmuş sürücüsü olarak tek bir içki bile seni sınırın üstüne çıkarır.\n\nAşırı yorgunken araç kullanmak da suçtur. Uzun yolda düzenli mola ver ve uykusuz direksiyona geçme.",
+        "en": "For drivers of public-transport vehicles the alcohol limit is **zero**. As a bus or *dolmuş* driver, a single drink puts you over the limit.\n\nDriving when overtired is also an offence. On long journeys take regular breaks and never start a shift without sleep."
+      },
+      "basis": "law",
+      "sourceId": "s8",
+      "sourceRef": "md. 2"
+    },
+    {
+      "heading": {
+        "tr": "Kör noktalar ve geniş dönüşler",
+        "en": "Blind spots and wide turns"
+      },
+      "body": {
+        "tr": "Büyük bir aracın çevresinde aynalarda görünmeyen geniş kör noktalar vardır: hemen önü, hemen arkası ve iki yanı. Sol trafikte kaldırım tarafının, yani sol yanın kör noktası özellikle tehlikelidir; bisikletli, motosikletli ve yaya oraya girebilir.\n\n- Dönmeden önce bütün aynalarını kontrol et ve yavaş dön.\n- Sola dönerken arka tekerlekler köşeyi keser. Kaldırıma ya da orada bekleyen birine çarpmamak için önce biraz ileri git, sonra dön.\n- Dar bir kavşakta geniş dönmen gerekebilir. Sinyalini erken ver ve çevrendekilerin seni anladığından emin ol.\n- Geri giderken mümkünse birinden yardım iste.",
+        "en": "A large vehicle has big blind spots that the mirrors do not cover: right in front, right behind and along both sides. In left-hand traffic the kerb-side (left) blind spot is the most dangerous; cyclists, motorcyclists and pedestrians can end up there.\n\n- Check all your mirrors before turning and turn slowly.\n- When turning left, the rear wheels cut the corner. Pull forward a little before turning so you do not clip the kerb or someone standing there.\n- At a tight junction you may need to swing wide. Signal early and make sure others understand what you are doing.\n- When reversing, get someone to guide you if you can."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Yokuşlar, yük ve ölçüler",
+        "en": "Hills, loads and dimensions"
+      },
+      "body": {
+        "tr": "- **Uzun inişlerde** inişten önce vitesi küçült ve motor freninden yararlan. Sürekli fren yapmak frenleri ısıtır ve etkisini azaltır.\n- **Uzun çıkışlarda** yavaş gidiyorsan sol kenarda kal ve mümkünse arkandakilere yol ver.\n- **Yük** sağlam bağlanmalı ve aracın taşıma sınırını aşmamalı. Kayan yük aracı devirebilir.\n- **Yükseklik ve ağırlık sınırı** levhalarına dikkat et. Aracının yüksekliğini ve dolu ağırlığını bil; köprü ve alt geçitlere ondan sonra gir.",
+        "en": "- **On long descents**, change down before the hill and use engine braking. Constant braking heats the brakes and makes them less effective.\n- **On long climbs**, if you are slow, keep to the left edge and let others pass when you can.\n- **Loads** must be firmly secured and within the vehicle's limit. A shifting load can tip the vehicle over.\n- **Watch for height and weight limit signs.** Know your vehicle's height and laden weight before you go under a bridge or over a structure."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Yangın söndürücü",
+        "en": "Fire extinguisher"
+      },
+      "body": {
+        "tr": "Polis, kamyon ve otobüslerde en az 6 kg'lık bir yangın söndürücü bulunması gerektiğini söyler. Söndürücünün dolu ve kolay ulaşılır bir yerde olduğunu kontrol et.",
+        "en": "The police say lorries and buses must carry a fire extinguisher of at least 6 kg. Check that it is charged and easy to reach."
+      },
+      "basis": "secondary",
+      "sourceId": "s38",
+      "sourceRef": null
+    }
+  ],
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Bugün otobüs A, ağır kamyon B, minibüs C sınıfıdır.",
+        "en": "Today buses are class A, heavy lorries class B and minibuses class C."
+      },
+      "basis": "law",
+      "sourceId": "s10",
+      "sourceRef": "md. 33(2)"
+    },
+    {
+      "text": {
+        "tr": "Toplu taşıma sürücüleri için alkol sınırı sıfırdır.",
+        "en": "For public-transport drivers the alcohol limit is zero."
+      },
+      "basis": "law",
+      "sourceId": "s8",
+      "sourceRef": "md. 2"
+    },
+    {
+      "text": {
+        "tr": "Bölünmüş yolda otobüs ve minibüs için sınır 80, kamyon için 75 km/sa.",
+        "en": "On divided roads the limit is 80 km/h for buses and minibuses and 75 km/h for lorries."
+      },
+      "basis": "secondary",
+      "sourceId": "s27",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Sola dönerken arka tekerlekler köşeyi keser; kaldırım tarafındaki kör noktaya dikkat et.",
+        "en": "When turning left the rear wheels cut the corner; watch the kerb-side blind spot."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Uzun inişte vitesi küçült ve motor freni kullan.",
+        "en": "On a long descent, change down and use engine braking."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Kamyon ve otobüste en az 6 kg'lık yangın söndürücü bulunmalıdır.",
+        "en": "Lorries and buses should carry a fire extinguisher of at least 6 kg."
+      },
+      "basis": "secondary",
+      "sourceId": "s38",
+      "sourceRef": null
+    }
+  ],
+  "relatedSigns": [
+    "prohibitory.height-limit",
+    "prohibitory.weight-limit",
+    "prohibitory.no-goods-vehicles",
+    "warning.steep-descent",
+    "warning.steep-ascent",
+    "warning.road-narrows--both"
+  ],
+  "reviewedAt": "2026-10-20"
+}

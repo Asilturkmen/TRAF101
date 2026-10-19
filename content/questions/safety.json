@@ -1,0 +1,5087 @@
+[
+  {
+    "id": "safety.pedestrian-waiting-at-crossing",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "vulnerable",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Yaya geçidine yaklaşıyorsun. Kaldırımda bir kişi geçmek için bekliyor ama henüz yola adım atmadı. Ne yaparsın?",
+      "en": "You are approaching a pedestrian crossing. Someone is waiting on the pavement to cross but has not stepped into the road yet. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yavaşlar, durur ve geçmesine izin verirsin",
+          "en": "Slow down, stop and let them cross"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yola çıkmadığı için hızını koruyup geçersin",
+          "en": "Keep your speed, as they are not in the road yet"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Korna çalıp yayanın beklemesini sağlarsın",
+          "en": "Sound your horn so the pedestrian waits"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız geçide adım atarsa yavaşlarsın, o zamana kadar yol senindir",
+          "en": "Slow down only once they step onto the crossing; until then the road is yours"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Bakanlığın kuralına göre yaya geçidini kullanan ya da kullanmaya hazırlanan yayaya durup yol verirsin. Geçmek için bekleyen yaya da buna girer.",
+      "en": "The ministry rule is to stop and give way to a pedestrian who is using or preparing to use the crossing. Someone waiting to cross counts."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Yaya geçitleri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.vehicle-stopped-at-crossing",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "vulnerable",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Çift şeritli bir yolda sol şeritte gidiyorsun. Sağ şeritteki araç yaya geçidinin önünde durdu. Ne yaparsın?",
+      "en": "You are in the left lane of a dual carriageway. The vehicle in the right lane has stopped just before a pedestrian crossing. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yavaşlar ve durursun, önünde bir yaya olabilir",
+          "en": "Slow down and stop, as someone may be crossing in front of it"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kendi şeridin boş olduğu için aynı hızla devam edersin",
+          "en": "Carry on at the same speed, since your lane is clear"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Selektör yapıp yayaya beklemesini işaret edersin",
+          "en": "Flash your headlights to tell the pedestrian to wait"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hızlanıp yaya yola çıkmadan geçidi geçersin",
+          "en": "Speed up to clear the crossing before anyone steps out"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Geçidin önünde duran araç çoğu zaman bir yayaya yol veriyordur ve o yayayı senden gizler. Yanından geçmek yerine durmaya hazır ol.",
+      "en": "A vehicle stopped at a crossing is usually giving way to someone it hides from you. Be ready to stop rather than pass it."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-road",
+    "sourceRef": "rule 191",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.ball-into-road",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "vulnerable",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Park etmiş araçların arasından yola bir top yuvarlandı. En büyük tehlike nedir?",
+      "en": "A ball rolls into the road from between parked cars. What is the main danger?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Topa çarparsan lastiğin zarar görebilir",
+          "en": "Hitting the ball could damage your tyre"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Arkasından bir çocuk koşarak yola çıkabilir",
+          "en": "A child may run out after it"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Arkandaki sürücü topu görmeyip seni sollamaya kalkabilir",
+          "en": "The driver behind may not see the ball and try to overtake you"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Top park etmiş bir aracın camını kırabilir",
+          "en": "The ball could break a parked car window"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Topun peşinden çoğu zaman onu kovalayan bir çocuk gelir. Hemen yavaşla ve durmaya hazır ol.",
+      "en": "Where a ball goes, a child often follows. Slow down at once and be ready to stop."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-extra-care",
+    "sourceRef": "rule 207",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.older-pedestrian-still-crossing",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "vulnerable",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Işık sana yeşil yandı ama yaşlı bir yaya karşıya geçmeyi henüz bitirmedi. Ne yaparsın?",
+      "en": "Your light has turned green, but an older pedestrian has not finished crossing. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Motoru kükreterek acele etmesini sağlarsın",
+          "en": "Rev the engine so they hurry up"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yavaşça ilerleyip arkasından dolaşarak geçersin",
+          "en": "Creep forward and drive round behind them"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Bitirmesini sabırla bekler, sonra hareket edersin",
+          "en": "Wait patiently for them to finish, then move off"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Işık yeşil olduğu için korna çalıp geçersin",
+          "en": "Sound your horn and go, since your light is green"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Işık sana dönse de yolda kalan yayaya yol verirsin. Yaşlılar daha yavaş yürür; motor sesi ya da yaklaşan bir araç onları korkutur.",
+      "en": "Even when the light changes in your favour, give way to anyone still crossing. Older people walk more slowly, and revving or edging closer frightens them."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-extra-care",
+    "sourceRef": "rule 207",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.passing-a-cyclist",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "vulnerable",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Önünde bir bisikletli var ve onu geçmek istiyorsun. Doğru olan hangisi?",
+      "en": "There is a cyclist ahead of you and you want to pass. What is right?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Solundan, kaldırımla bisikletli arasındaki boşluktan geçmek",
+          "en": "Pass on their left, through the gap next to the kerb"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Korna çalıp kenara çekilmesini bekledikten sonra yakından geçmek",
+          "en": "Sound your horn, wait for them to move over, then pass close by"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sağından, bir otomobile bıraktığın kadar boşlukla geçmek",
+          "en": "Pass on their right, leaving as much room as for a car"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Şeridinden hiç çıkmadan, bisikletliye yakın geçmek",
+          "en": "Pass close to them without leaving your lane at all"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "KKTC'de sağdan sollanır. Bisikletli bir çukur ya da rüzgâr yüzünden yalpalayabilir; bu yüzden otomobili geçer gibi geniş boşluk bırak.",
+      "en": "In KKTC you overtake on the right. A cyclist may wobble round a pothole or in a gust, so give as much room as you would give a car."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-extra-care",
+    "sourceRef": "rule 212",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.left-turn-across-cyclist",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "vulnerable",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Sola döneceksin. Solunda, aynı yönde düz giden bir bisikletli var. Ne yaparsın?",
+      "en": "You are about to turn left. A cyclist on your left is going straight ahead. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Bisikletliyi hızla geçip önünden dönersin",
+          "en": "Overtake the cyclist quickly and turn in front of them"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Bisikletlinin geçmesini bekler, sonra dönersin",
+          "en": "Wait for the cyclist to pass, then turn"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sinyal verip dönersin, bisikletli durmak zorundadır",
+          "en": "Signal and turn; the cyclist has to stop"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Korna çalıp bisikletlinin yavaşlamasını sağladıktan sonra dönersin",
+          "en": "Sound your horn so the cyclist slows down, then turn"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Sol trafikte sola dönerken soldaki bisikletlinin yolunu kesersin. Dönüşün onu durmaya ya da kaçmaya zorlayacaksa geçmesini bekle.",
+      "en": "In left-hand traffic a left turn cuts across a cyclist on your left. If turning would make them stop or swerve, wait until they have passed."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-road",
+    "sourceRef": "rule 182",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.motorcyclists-at-junctions",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "vulnerable",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Ana yola çıkmak için kavşakta bekliyorsun. Motosikletliler için neden ayrıca dikkatli bakarsın?",
+      "en": "You are waiting at a junction to join a main road. Why do you look out especially for motorcyclists?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Görmesi zordur ve sandığından hızlı yaklaşabilirler",
+          "en": "They are hard to see and may be approaching faster than you think"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kavşaklarda her zaman geçiş üstünlükleri vardır",
+          "en": "They always have priority at junctions"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Ana yolda yalnız sağ şeritte gidebildikleri için",
+          "en": "Because on a main road they may only use the right-hand lane"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Durma mesafeleri her koşulda otomobilinkinden daha kısa olduğu için",
+          "en": "Because their stopping distance is always shorter than a car's"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Motosiklet dar bir görüntü verir; bir direk, park etmiş araç ya da ön cam direği onu gizleyebilir. Çıkmadan önce iki yöne de yeniden dikkatle bak.",
+      "en": "A motorcycle is a narrow shape that a post, parked car or windscreen pillar can hide. Look again carefully both ways before you pull out."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-extra-care",
+    "sourceRef": "rule 211",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.opening-the-drivers-door",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "vulnerable",
+    "tracks": [
+      "car",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Aracını yolun sol kenarına park ettin. Sürücü kapısını açmadan önce ne yaparsın?",
+      "en": "You have parked on the left-hand side of the road. What do you do before opening the driver's door?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Dörtlüleri yakıp kapıyı hemen açarsın",
+          "en": "Switch on the hazard lights and open the door at once"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Aynaya ve omzunun üstünden arkaya bakarsın",
+          "en": "Check the mirror and look over your shoulder"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kapıyı biraz aralayıp biri gelirse hemen kapatırsın",
+          "en": "Open the door slightly and shut it if someone comes"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kapıyı açarsın, arkadan gelenler seni görmek ve yavaşlamak zorundadır",
+          "en": "Open it; traffic behind has to see you and slow down"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Sol kenarda park edince sürücü kapın trafiğe açılır. Arkadan gelen bir bisikletli ya da motosikletli kapıya çarpabilir.",
+      "en": "When you park on the left, the driver's door opens into traffic. A cyclist or motorcyclist coming from behind could ride into it."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.bus-at-a-stop",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "vulnerable",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Durakta duran bir otobüsün yanından geçeceksin. Neye dikkat edersin?",
+      "en": "You are about to pass a bus waiting at a stop. What should you watch for?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Otobüsten inenlerin önünden yola çıkmasına",
+          "en": "Passengers stepping out from in front of the bus"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Otobüsün aniden geri geri gelmesine",
+          "en": "The bus suddenly reversing towards you"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Durağın yanındaki park yerlerinin boş olup olmadığına",
+          "en": "Whether the parking spaces next to the stop are free"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Otobüs şoförünün sana selektör yapmasına",
+          "en": "The bus driver flashing their lights at you"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Otobüsten inen biri çoğu zaman otobüsün önünden karşıya geçmeye çalışır ve sen onu son anda görürsün. Yavaş geç ve durmaya hazır ol.",
+      "en": "People getting off often cross in front of the bus, where you see them only at the last moment. Pass slowly and be ready to stop."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-extra-care",
+    "sourceRef": "rule 209",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.children-sign",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "vulnerable",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bu levhayı gördün. Ne yaparsın?",
+      "en": "You see this sign. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yavaşlar ve durmaya hazır olursun",
+          "en": "Slow down and be ready to stop"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız okul saatlerinde hızını düşürürsün",
+          "en": "Slow down only during school hours"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hızını korur, korna çalarak geldiğini bildirirsin",
+          "en": "Keep your speed and sound the horn to warn them"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Levhayı yalnız okul servisleri dikkate alır",
+          "en": "Only school buses need to take notice of it"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Bu levha yakında okul, park ya da oyun alanı olduğunu söyler. Çocuklar hızını iyi kestiremez ve aniden yola çıkabilir.",
+      "en": "This sign warns of a school, park or play area nearby. Children cannot judge your speed well and may step out suddenly."
+    },
+    "signId": "warning.children",
+    "basis": "practice",
+    "sourceId": "sa-hc-extra-care",
+    "sourceRef": "rule 208",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.pedestrian-with-white-cane",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "vulnerable",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Elinde beyaz baston olan bir yaya yolun kenarında, karşıya geçmek üzere duruyor. Ne yaparsın?",
+      "en": "A pedestrian with a white cane is standing at the kerb, about to cross. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Korna çalarak geldiğini haber verirsin",
+          "en": "Sound your horn to let them know you are coming"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Durur, geçmesini sessizce beklersin",
+          "en": "Stop and wait quietly for them to cross"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yavaşlamadan geçersin, seni duyup bekleyecektir",
+          "en": "Pass without slowing; they will hear you and wait"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Camı açıp ne zaman geçmek istediğini sorarsın",
+          "en": "Open the window and ask when they want to cross"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Beyaz baston, kişinin görme engelli olduğunu gösterir. Seni göremez ve korna onu şaşırtabilir; dur ve geçmesini bekle.",
+      "en": "A white cane shows that the person is blind or partially sighted. They cannot see you and a horn may startle them, so stop and let them cross."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-extra-care",
+    "sourceRef": "rule 207",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.walkers-on-a-road-without-pavement",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "vulnerable",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kaldırımı olmayan bir köy yolunda önünde yürüyen insanlar var. Ne yaparsın?",
+      "en": "On a village road with no pavement, people are walking ahead of you. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yavaşlar, geniş bir boşlukla sağlarından geçersin",
+          "en": "Slow down and pass on their right with plenty of room"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Korna çalıp kenara çekilmelerini beklersin",
+          "en": "Sound your horn and wait for them to step aside"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hızını koruyup yanlarından çabucak geçersin",
+          "en": "Keep your speed and get past them quickly"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Onları sollarından, yolun kenarına yakın geçersin",
+          "en": "Pass them on their left, close to the edge of the road"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Kaldırım yoksa yayalar yolu seninle paylaşır. Sol trafikte onları sağlarından, yavaş ve geniş bir boşlukla geç; karşıdan araç geliyorsa bekle.",
+      "en": "Without a pavement, pedestrians share the road with you. In left-hand traffic pass on their right, slowly and with plenty of room, and wait if something is coming the other way."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-road",
+    "sourceRef": "rule 163",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.e-scooter-banned-roads",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "vulnerable",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Ehliyet gerektirmeyen e-scooter ve e-mopedler hangi yollarda kullanılamaz?",
+      "en": "On which roads may licence-free e-scooters and e-mopeds not be used?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Şehirlerarası yollarda ve sınırı 50 km/sa üstü yollarda",
+          "en": "Intercity roads and roads with a limit above 50 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız yerleşim yerlerindeki ara sokaklarda",
+          "en": "Only on side streets in built-up areas"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Bütün yollarda, ama yalnız gece",
+          "en": "Any road, but only at night"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hiçbir yolda yasak yoktur, yalnız kaldırımda kullanılamazlar",
+          "en": "No road is banned; they are only banned from the pavement"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Trafik Dairesi'nin 2026 kurallarına göre bu araçlar şehirlerarası yollarda ve sınırı 50 km/sa üstü yollarda kullanılamaz. Hızlı trafikte bu araçların sürücüleri çok korunmasızdır.",
+      "en": "Under the Traffic Department rules of 2026, these vehicles may not be used on intercity roads or on roads with a limit above 50 km/h. Their riders are very exposed in fast traffic."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s39",
+    "sourceRef": "E-moped ve e-scooter kuralları, 2026",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.e-scooter-minimum-age",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "vulnerable",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Ehliyet gerektirmeyen bir e-scooter ya da e-mopedi kullanmak için en az kaç yaşında olmak gerekir?",
+      "en": "What is the minimum age for riding an e-scooter or e-moped that needs no licence?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "14",
+          "en": "14"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "16",
+          "en": "16"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "18",
+          "en": "18"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yaş sınırı yoktur",
+          "en": "There is no age limit"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Bu araçlar için ehliyet gerekmez ama sürücü 18 yaşını doldurmuş olmalıdır. Daha hızlı modeller için J, H1, H2 ya da H ehliyeti gerekir.",
+      "en": "These vehicles need no licence, but riders must be 18 or over. Faster models need a J, H1, H2 or H licence."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s39",
+    "sourceRef": "E-moped ve e-scooter kuralları, 2026",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.animals-on-the-road",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "vulnerable",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bu levhayı gördün ve biraz ileride yol kenarında bir koyun sürüsü var. Ne yaparsın?",
+      "en": "You see this sign, and there is a flock of sheep at the roadside ahead. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Korna çalarak hayvanları yoldan kaçırırsın",
+          "en": "Sound your horn to scare the animals off the road"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yavaşlar, gerekirse durup sürünün geçmesini beklersin",
+          "en": "Slow down and, if needed, stop until the flock has passed"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hızını koruyup sürünün arasından dikkatle geçersin",
+          "en": "Keep your speed and weave carefully through the flock"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Selektör yaparak çobandan sürüyü hemen yoldan çekmesini istersin",
+          "en": "Flash your headlights so the shepherd clears the road at once"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Hayvanlar ürkünce ne yapacakları belli olmaz. Korna ve motor sesi onları önüne kaçırabilir; yavaş ve sessiz ol.",
+      "en": "Animals are unpredictable when frightened. A horn or a revving engine can send them into your path, so be slow and quiet."
+    },
+    "signId": "warning.domestic-animals",
+    "basis": "practice",
+    "sourceId": "sa-hc-extra-care",
+    "sourceRef": "rule 214",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.blind-spot-before-changing-lanes",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "vulnerable",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Şerit değiştirmeden önce aynalara baktın. Neden omzunun üstünden de bakarsın?",
+      "en": "You have checked your mirrors before changing lanes. Why do you also look over your shoulder?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Arkandaki sürücüye şerit değiştireceğini göstermek için",
+          "en": "To show the driver behind that you are changing lanes"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Aynalar araçları olduğundan çok daha yakın gösterdiği için",
+          "en": "Because mirrors make vehicles look much closer than they are"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sinyal lambanın çalıştığını görmek için",
+          "en": "To check that your indicator is working"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Aynaların göstermediği yerde bir motosiklet olabilir",
+          "en": "A motorcycle could be where the mirrors do not reach"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Aynalar aracın yanındaki her yeri göstermez. Kör noktadaki bir motosikletli ya da bisikletliyi ancak başını çevirerek görürsün.",
+      "en": "Mirrors do not cover the areas beside your car. You only see a motorcyclist or cyclist in the blind spot by turning your head."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-road",
+    "sourceRef": "rule 159",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.no-overtaking-near-crossing",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "vulnerable",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bu levhayı gördün. Önünde yavaş giden bir araç var. Ne yaparsın?",
+      "en": "You see this sign. There is a slow vehicle ahead of you. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Geçide varmadan onu hızla sollarsın",
+          "en": "Overtake it quickly before the crossing"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Önce selektör, sonra korna yapıp yol istersin",
+          "en": "Flash and then sound your horn to get past"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Geçitte kimseyi görmüyorsan yine de sollarsın",
+          "en": "Overtake anyway if you cannot see anyone on the crossing"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Geçidi geçene kadar arkasında kalırsın",
+          "en": "Stay behind it until you are past the crossing"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Önündeki araç, senin göremediğin bir yaya için durabilir. Yaya geçidine yaklaşırken sollama.",
+      "en": "The vehicle ahead may stop for a pedestrian you cannot see. Do not overtake on the approach to a crossing."
+    },
+    "signId": "warning.pedestrian-crossing",
+    "basis": "practice",
+    "sourceId": "sa-hc-road",
+    "sourceRef": "rule 167",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.fog-headlights",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "lights-weather",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Yoğun sise girdin ve görüş çok düştü. Hangi farları kullanırsın?",
+      "en": "You have driven into thick fog and visibility is very poor. Which headlights do you use?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Uzun farları",
+          "en": "Main beam"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kısa farları",
+          "en": "Dipped headlights"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız park lambalarını",
+          "en": "Sidelights only"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Farlar kapalıyken dörtlüleri",
+          "en": "Hazard lights, with headlights off"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Uzun far sisten geri yansır ve gözünü alır. Kısa farlar hem görmeni hem görülmeni sağlar.",
+      "en": "Main beam reflects back off the fog and dazzles you. Dipped headlights help you see and be seen."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-weather",
+    "sourceRef": "rule 226",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.fog-light-after-fog-clears",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "lights-weather",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Sis dağıldı ve görüş yeniden iyi. Arka sis lamban hâlâ açık. Ne yaparsın?",
+      "en": "The fog has cleared and visibility is good again. Your rear fog light is still on. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hemen kapatırsın",
+          "en": "Switch it off straight away"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Şehre girene kadar açık bırakırsın",
+          "en": "Leave it on until you reach town"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hava karardığı için açık bırakırsın",
+          "en": "Leave it on, since it is getting dark"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Arkandaki araç yakın geldiği sürece açık tutarsın",
+          "en": "Keep it on while the car behind is close"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Sis lambası yalnız görüş ciddi biçimde düştüğünde kullanılır. Açık kalırsa arkandakinin gözünü alır ve fren lambalarını gizleyebilir.",
+      "en": "Fog lights are only for seriously reduced visibility. Left on, they dazzle drivers behind and can hide your brake lights."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-weather",
+    "sourceRef": "rule 236",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.gap-in-the-rain",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "lights-weather",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yağmur başladı. Önündeki araçla aranda, kuru yola göre ne kadar boşluk bırakırsın?",
+      "en": "It has started to rain. Compared with a dry road, how much gap do you leave to the vehicle ahead?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Aynı boşluk yeterlidir",
+          "en": "The same gap is enough"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yarısı kadar, çünkü daha yavaş gidiyorsun",
+          "en": "Half as much, because you are driving more slowly"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "En az iki katı",
+          "en": "At least double"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız ağır vasıtaların arkasında daha fazla",
+          "en": "More only when behind heavy vehicles"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Islak yolda durma mesafesi kuru yoldakinin en az iki katıdır. Lastikler daha az tutar; boşluğu buna göre artır.",
+      "en": "On a wet road stopping distances are at least double those on a dry one. Tyres grip less, so leave more space."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "sa-hc-weather",
+    "sourceRef": "rule 227",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.aquaplaning",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "lights-weather",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Su birikintisinden geçerken direksiyon birden hafifledi ve tepki vermiyor. Ne yaparsın?",
+      "en": "Driving through standing water, the steering suddenly feels light and unresponsive. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sert frenle aracı hemen durdurursun",
+          "en": "Brake hard to stop the car at once"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Direksiyonu iki yana hızla çevirip tutuş ararsın",
+          "en": "Turn the wheel quickly from side to side to find grip"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Gazı bırakır, direksiyonu düz tutarsın",
+          "en": "Ease off the accelerator and keep the steering straight"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Gaza basıp sudan bir an önce çıkarsın",
+          "en": "Accelerate to get out of the water quickly"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Bu, lastiklerin suyun üstünde kaydığını gösterir. Sert fren ya da ani direksiyon kaymayı büyütür; gazı bırakırsan araç yavaşlar ve tutuş geri gelir.",
+      "en": "This means the tyres are riding on water. Harsh braking or steering makes the skid worse; ease off and grip returns as the car slows."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-weather",
+    "sourceRef": "rule 227",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.dazzled-by-oncoming-lights",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "lights-weather",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Gece karşıdan gelen bir aracın farları gözünü aldı. Ne yaparsın?",
+      "en": "At night the headlights of an oncoming vehicle dazzle you. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yavaşlar, gözünü yolun sol kenarına çevirirsin",
+          "en": "Slow down and look towards the left-hand edge of the road"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Uzun farlarını yakarak ona karşılık verirsin",
+          "en": "Switch to main beam to answer them"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hızını koruyup gözlerini kısarak farlara bakarsın",
+          "en": "Keep your speed and squint into the lights"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Gözlerini bir an kapatıp direksiyonu sabit tutarsın",
+          "en": "Close your eyes for a moment and hold the wheel steady"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Göremediğin bir yolda hızla ilerlememelisin. Yavaşla, gerekirse dur ve bakışını sol kenara kaydır; böylece kendi şeridinde kalırsın.",
+      "en": "Never drive fast into road you cannot see. Slow down, stop if necessary, and look to the left-hand edge so you stay in your lane."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-general",
+    "sourceRef": "rule 115",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.dip-for-oncoming-traffic",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "lights-weather",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Aydınlatması olmayan bir yolda uzun farla gidiyorsun ve karşıdan bir araç geliyor. Ne yaparsın?",
+      "en": "You are using main beam on an unlit road and a vehicle is coming towards you. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yol karanlık olduğu için uzun farı açık tutarsın",
+          "en": "Keep main beam on, as the road is dark"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kısa fara geçersin",
+          "en": "Switch to dipped headlights"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Farları tamamen kapatırsın",
+          "en": "Switch your headlights off completely"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Uzun farla birkaç kez selektör yaparsın",
+          "en": "Flash main beam at them a few times"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Uzun far karşıdaki sürücünün gözünü alır ve onu bir an kör eder. Karşılaşırken ve bir aracı arkadan izlerken kısa far kullan.",
+      "en": "Main beam dazzles the other driver and can blind them for a moment. Dip your lights when meeting or following another vehicle."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-general",
+    "sourceRef": "rule 114",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.headlights-when-overtaking-at-night",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "lights-weather",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Gece aydınlatmasız bir yolda bir aracı sollayacaksın. Farlarını nasıl kullanırsın?",
+      "en": "At night on an unlit road you are about to overtake a vehicle. How do you use your headlights?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Aracın hizasına gelene kadar kısa farda kalırsın",
+          "en": "Keep them dipped until you are level with the vehicle"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Arkasına yaklaşınca uzun fara geçersin",
+          "en": "Switch to main beam as you close up behind it"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sollamaya başlarken uzun farla birkaç kez selektör yaparsın",
+          "en": "Flash main beam a few times as you start to overtake"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sollama boyunca farları kapatırsın",
+          "en": "Switch your headlights off while you overtake"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Arkadan gelen uzun far, öndeki sürücünün aynalarından gözünü alır. Hizasına gelince, karşıdan araç yoksa uzun fara geçebilirsin.",
+      "en": "Main beam from behind dazzles the other driver through their mirrors. Once you are level, and if nothing is coming, you can switch to main beam."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-general",
+    "sourceRef": "rule 115",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.brake-lights-in-a-night-queue",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "lights-weather",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Gece duran bir araç kuyruğundasın ve arkandaki araç da durdu. Ne yaparsın?",
+      "en": "At night you are in a stationary queue and the vehicle behind has stopped too. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Fren pedalına basılı tutar, fren lambalarını yanık bırakırsın",
+          "en": "Keep the footbrake pressed so your brake lights stay on"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Öndeki aracı görmek için uzun farları yakarsın",
+          "en": "Switch on main beam so you can see the vehicle ahead"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "El frenini çeker, ayağını fren pedalından kaldırırsın",
+          "en": "Apply the parking brake and take your foot off the footbrake"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kuyruk açılana kadar dörtlüleri yakarsın",
+          "en": "Turn on the hazard lights until the queue moves"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Fren lambaları yakındaki sürücünün gözünü alır. Arkandaki durunca el frenini çek ve ayağını frenden kaldır; araç yine güvenle durur.",
+      "en": "Brake lights dazzle a driver close behind. Once they have stopped, apply the parking brake and lift your foot; the car still stays put."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-general",
+    "sourceRef": "rule 114",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.hazard-lights-in-heavy-rain",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "lights-weather",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Şiddetli yağmurda bazı sürücüler dörtlüleri yakarak gidiyor. Doğru olan hangisi?",
+      "en": "In heavy rain some drivers drive with their hazard lights on. What is correct?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Dörtlüleri yakıp aynı hızla devam etmek",
+          "en": "Switch on hazard lights and carry on at the same speed"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Dörtlülerle birlikte uzun farları da yakmak",
+          "en": "Use hazard lights together with main beam"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Farları kapatıp yalnız dörtlüleri kullanmak",
+          "en": "Turn the headlights off and use only hazard lights"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kısa farları yakıp hızını düşürmek",
+          "en": "Use dipped headlights and slow down"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Dörtlüler aracın durduğunu ya da yolu kapattığını anlatır. Giderken yakılırsa sinyallerin görünmez ve başkaları seni yanlış anlar.",
+      "en": "Hazard lights tell others you are stopped or blocking the road. Used on the move, they hide your indicators and confuse other drivers."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-general",
+    "sourceRef": "rule 116",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.first-rain-after-dry-spell",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "lights-weather",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Uzun bir kuru dönemden sonra ilk yağmur yağıyor. Yol neden özellikle kaygandır?",
+      "en": "It is the first rain after a long dry spell. Why is the road especially slippery?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yağmur asfaltı soğutup sertleştirir",
+          "en": "Rain cools the asphalt and makes it hard"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Lastik basıncı yağmurda kendiliğinden düşer",
+          "en": "Tyre pressure drops by itself in the rain"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yol çizgileri yağmurda tamamen görünmez olur ve sürücüler şaşırır",
+          "en": "Road markings disappear in the rain and drivers get confused"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yoldaki yağ ve toz suyla karışıp kaygan bir tabaka olur",
+          "en": "Oil and dust on the road mix with water into a slippery film"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Kuru günlerde yolda yağ, lastik tozu ve kir birikir. İlk yağmurda bunlar yüzeye çıkar; yavaşla ve boşluğu artır.",
+      "en": "In dry weather oil, rubber dust and dirt build up on the road. The first rain lifts them to the surface, so slow down and leave a larger gap."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.low-sun-glare",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "lights-weather",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Akşamüstü alçak güneş tam karşından geliyor ve yolu zor görüyorsun. Ne yaparsın?",
+      "en": "In the late afternoon the low sun is straight ahead and you can hardly see the road. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Güneşliği indirir, yavaşlar, gerekirse durursun",
+          "en": "Lower the sun visor, slow down and stop if necessary"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Hızlanıp güneşin karşısından bir an önce çıkarsın",
+          "en": "Speed up to get out of the glare sooner"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Uzun farları yakarak yolu aydınlatırsın",
+          "en": "Switch on main beam to light up the road"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Önündeki aracı yakından izleyip yalnız onun fren lambalarına bakarsın",
+          "en": "Follow the car ahead closely and watch only its brake lights"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Göremediğin bir yola hızla girmek tehlikelidir. Gözün kamaşınca yavaşla, gerekirse güvenli bir yerde dur.",
+      "en": "Driving fast into road you cannot see is dangerous. When dazzled, slow down and stop somewhere safe if you need to."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-weather",
+    "sourceRef": "rule 237",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.strong-crosswind",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "lights-weather",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Şiddetli yan rüzgâr var. Hangi yol kullanıcılarına karşı özellikle dikkatli olursun?",
+      "en": "There is a strong crosswind. Which road users do you take extra care with?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız arkandan gelen otomobiller",
+          "en": "Only cars coming up behind you"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız yayalar, çünkü rüzgâr araçları etkilemez",
+          "en": "Only pedestrians, because wind does not affect vehicles"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Bisikletli, motosikletli ve yüksek kasalı araçlar",
+          "en": "Cyclists, motorcyclists and high-sided vehicles"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hiç kimse, rüzgâr yalnız yakıt tüketimini etkiler",
+          "en": "Nobody; wind only affects fuel use"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Rüzgâr bisikletli ve motosikletliyi aniden yana itebilir, yüksek kasalı araçları savurabilir. Onları geçerken daha geniş boşluk bırak.",
+      "en": "A gust can push a cyclist or motorcyclist sideways and make high-sided vehicles sway. Give them more room when you pass."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-weather",
+    "sourceRef": "rule 232",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.flooded-road",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "lights-weather",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Önündeki yolu su basmış ve derinliğini kestiremiyorsun. Ne yaparsın?",
+      "en": "The road ahead is flooded and you cannot tell how deep the water is. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Motor stop etmesin diye hızla girersin",
+          "en": "Drive in fast so the engine does not stall"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Önündeki araç geçtiyse sen de aynı hızla geçersin",
+          "en": "Follow the car ahead at the same speed if it got through"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Girmez, başka bir yol bulursun",
+          "en": "Stay out and find another route"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Ortadan değil, yolun en kenarından yavaşça geçersin",
+          "en": "Go slowly along the very edge rather than the middle"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Suyun derinliği ve altındaki çukur görünmez; araç sürüklenebilir ya da motor su alabilir. Emin değilsen girme.",
+      "en": "You cannot see how deep the water is or what lies beneath; the car can be swept along or the engine flooded. If in doubt, stay out."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.speed-on-an-unlit-road",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "lights-weather",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Gece aydınlatmasız bir yolda hızını neye göre ayarlarsın?",
+      "en": "At night on an unlit road, what should set your speed?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız levhadaki hız sınırına",
+          "en": "Only the speed limit on the sign"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Farlarının aydınlattığı alanda durabilmeye",
+          "en": "Being able to stop within the area your lights show"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Önündeki aracın fren lambalarına",
+          "en": "The brake lights of the vehicle ahead"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Gündüz aynı yolda gittiğin hıza, çünkü yol aynı yoldur",
+          "en": "Your daytime speed on the same road, as the road has not changed"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Göremediğin bir engelin önünde duramazsın. Gece hızını, ışıklarının gösterdiği alan içinde durabileceğin biçimde seç.",
+      "en": "You cannot stop for something you cannot see. At night choose a speed that lets you stop within the area your lights show."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-general",
+    "sourceRef": "rule 126",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.flashed-at-a-junction",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "lights-weather",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Kavşakta bekliyorsun. Ana yoldaki bir sürücü sana selektör yaptı. Bunu nasıl yorumlarsın?",
+      "en": "You are waiting at a junction. A driver on the main road flashes their headlights at you. How do you take it?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Geçiş üstünlüğünü sana bıraktığını düşünüp hemen çıkarsın",
+          "en": "They are giving you priority, so you pull out at once"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Farında arıza olduğunu anlar, ona işaret edersin",
+          "en": "Their headlights are faulty, so you signal back"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kesin bir izin değildir; yolu kendin kontrol edersin",
+          "en": "It is not a clear signal to go; you check the road yourself"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "İleride polis kontrolü var, hızını düşürürsün",
+          "en": "There is a police check ahead, so you slow down"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Selektör yalnız varlığını bildirmek içindir; başka bir anlam taşıdığı kesin değildir. Çıkmadan önce iki yöne kendin bak, başka bir araç yaklaşıyor olabilir.",
+      "en": "Flashing headlights should only say that someone is there; any other meaning is a guess. Check both ways yourself, as another vehicle may be coming."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-general",
+    "sourceRef": "rule 111",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.lights-at-dusk",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "lights-weather",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Hava kararmaya başladı ve görüş azalıyor ama sokak lambaları henüz yanmadı. Ne yaparsın?",
+      "en": "It is getting dark and visibility is falling, but the street lights are not on yet. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Tam kararana kadar farsız gidersin",
+          "en": "Drive without lights until it is fully dark"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız sis lambalarını yakarsın",
+          "en": "Switch on only the fog lights"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kısa farları yakarsın",
+          "en": "Switch on dipped headlights"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Uzun farları yakarsın",
+          "en": "Switch on main beam"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Alacakaranlıkta gri ya da koyu renkli bir araç neredeyse görünmez olur. Kısa farlar seni gösterir ve kimsenin gözünü almaz.",
+      "en": "At dusk a grey or dark car can almost disappear. Dipped headlights make you visible without dazzling anyone."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-general",
+    "sourceRef": "rule 115",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.following-rear-lights-in-fog",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "lights-weather",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Siste önündeki aracın arka lambalarını yakından izlemek neden risklidir?",
+      "en": "Why is it risky to follow the rear lights of the car ahead closely in fog?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Arka lambaları gözünü alır ve seni yorar",
+          "en": "Its rear lights dazzle you and tire your eyes"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Öndeki sürücü yolu bilmiyor olabilir",
+          "en": "The driver ahead may not know the way"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kendi arka sis lambanı yakmak zorunda kalırsın",
+          "en": "You would have to switch on your own rear fog light"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Aniden durursa zamanında duramazsın",
+          "en": "If it stops suddenly, you cannot stop in time"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Arka lambalar sana yolun açık olduğu duygusunu verir ama siste mesafeyi kestirmek zordur. Boşluğu artır ve gördüğün mesafede durabileceğin hızla git.",
+      "en": "Rear lights give a false sense of security, and distances are hard to judge in fog. Leave a larger gap and drive so you can stop within what you can see."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-weather",
+    "sourceRef": "rule 235",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.seat-belts-for-everyone",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "occupants",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Emniyet kemeri takmak kimin için zorunludur?",
+      "en": "Who must wear a seat belt?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Araçtaki herkes için",
+          "en": "Everyone in the vehicle"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız sürücü için",
+          "en": "The driver only"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sürücü ve ön koltuktaki yolcu için",
+          "en": "The driver and the front-seat passenger"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Herkes için, ama yalnız şehirlerarası yolda",
+          "en": "Everyone, but only on intercity roads"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Emniyet Kemeri Yasası'na göre kemer, arka koltuktakiler dahil araçtaki bütün yolcular için zorunludur.",
+      "en": "Under the Seat Belt Law, belts are compulsory for every occupant, including those in the back."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Emniyet kemeri (Emniyet Kemeri Yasası 29/2012)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.rear-belt-on-a-short-trip",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "occupants",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Arka koltuktaki arkadaşın, yol kısa olduğu için kemer takmak istemiyor. Doğru olan hangisi?",
+      "en": "Your friend in the back does not want to wear a belt because the trip is short. What is correct?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Arkada da her yolculukta kemer zorunludur",
+          "en": "Belts are compulsory in the back too, on every trip"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Şehir içinde arka koltukta kemer gerekmez",
+          "en": "Rear belts are not needed in town"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Arka koltukta kemer yalnız çocuklar için zorunludur",
+          "en": "In the back, belts are compulsory only for children"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hız sınırının altında gidiyorsan kemer isteğe bağlıdır",
+          "en": "Belts are optional if you stay under the speed limit"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Kemer zorunluluğu araçtaki herkesi kapsar. Kemersiz arka yolcu bir çarpışmada öne fırlar ve öndekileri de yaralayabilir.",
+      "en": "The duty covers everyone in the vehicle. An unbelted rear passenger is thrown forward in a crash and can injure those in front."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Emniyet kemeri (Emniyet Kemeri Yasası 29/2012)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.child-under-150-cm",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "occupants",
+    "tracks": [
+      "car",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Boyu 150 cm'nin altında olan bir çocuk araçta nerede oturabilir?",
+      "en": "Where in a car may a child shorter than 150 cm sit?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kemer takarsa ön koltukta",
+          "en": "In the front, if belted"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız arka koltukta",
+          "en": "Only in the back"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Ön hava yastığı kapalıysa ön koltukta",
+          "en": "In the front, if the front airbag is switched off"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kısa yolculuklarda ön koltukta",
+          "en": "In the front on short trips"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "KKTC'de boyu 150 cm'nin altındaki çocukların ön koltukta taşınması yasaktır. Arka koltuk çocuk için en güvenli yerdir.",
+      "en": "In KKTC children under 150 cm may not travel in the front seat. The back is the safest place for a child."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Emniyet kemeri ve çocuklar",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.child-under-135-cm",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "occupants",
+    "tracks": [
+      "car",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Boyu 135 cm'nin altında olan bir çocuğu araçta nasıl taşırsın?",
+      "en": "How do you carry a child shorter than 135 cm in a car?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Arka koltukta, yalnız yetişkin kemeriyle",
+          "en": "In the back, with just the adult belt"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Arka koltukta, çocuk koltuğunda",
+          "en": "In the back, in a child restraint"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Ön koltukta, çocuk koltuğunda",
+          "en": "In the front, in a child restraint"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Arka koltukta, bir yetişkinin kucağında",
+          "en": "In the back, on an adult's lap"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "135 cm'nin altındaki çocuk arka koltukta ve çocuk koltuğunda taşınır. Yetişkin kemeri bu boydaki bir çocuğa doğru oturmaz.",
+      "en": "A child under 135 cm travels in the back in a child restraint. An adult belt does not fit a child of that size properly."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Emniyet kemeri ve çocuklar",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.child-between-135-and-150-cm",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "occupants",
+    "tracks": [
+      "car",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Boyu 140 cm olan bir çocuk için doğru olan hangisi?",
+      "en": "Which is correct for a child who is 140 cm tall?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Ön koltukta emniyet kemeriyle oturur",
+          "en": "Sits in the front wearing a seat belt"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Arka koltukta kemersiz oturabilir",
+          "en": "May sit in the back without a belt"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Ön koltukta, çocuk koltuğunda oturmak zorundadır",
+          "en": "Must sit in the front in a child seat"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Arka koltukta emniyet kemeriyle oturur",
+          "en": "Sits in the back wearing a seat belt"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Polisin açıklamasına göre 135 ile 150 cm arasındaki çocuk arka koltukta oturur ve emniyet kemeri takar. Ön koltuk 150 cm'ye kadar yasaktır.",
+      "en": "According to the police, a child between 135 and 150 cm sits in the back and wears a seat belt. The front seat is off limits until 150 cm."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s37",
+    "sourceRef": "Çocuk koltuğu ve emniyet kemeri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.baby-on-a-lap",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "occupants",
+    "tracks": [
+      "car",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir yolcu bebeğini arka koltukta kucağında tutarak taşımak istiyor. Doğru olan hangisi?",
+      "en": "A passenger wants to hold their baby on their lap in the back. What is correct?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yolcu kemer takarsa olur",
+          "en": "Fine, if the passenger wears a belt"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız şehir içinde olur",
+          "en": "Fine, but only in town"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Bebek uyuyorsa ve yolculuk kısaysa olur",
+          "en": "Fine, if the baby is asleep and the trip is short"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Olmaz, bebek çocuk koltuğunda taşınır",
+          "en": "Not allowed; the baby travels in a child seat"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Polisin açıklamasına göre 3 yaşından küçük çocuk çocuk koltuğu olmadan taşınamaz. Çarpışmada hiç kimse bebeği kollarında tutamaz.",
+      "en": "According to the police, a child under 3 may not travel without a child seat. In a crash nobody can hold on to a baby."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s37",
+    "sourceRef": "Çocuk koltuğu",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.seat-belt-penalty-points",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "occupants",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "5 Nisan 2025'ten bu yana emniyet kemeri ya da çocuk koltuğu kuralına uymamak kaç ceza puanı getirir?",
+      "en": "Since 5 April 2025, how many penalty points does a seat-belt or child-seat offence carry?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "5",
+          "en": "5"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "10",
+          "en": "10"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "20",
+          "en": "20"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "50",
+          "en": "50"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Polisin açıkladığı 2025 değişikliklerine göre bu suç asgari ücretin yüzde 20'si kadar para cezası ve 10 ceza puanı getirir.",
+      "en": "Under the 2025 changes announced by the police, it brings a fine of 20% of the minimum wage and 10 penalty points."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s28",
+    "sourceRef": "05.04.2025 değişiklikleri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.wearing-a-seat-belt-correctly",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "occupants",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Emniyet kemerini doğru taktığını nasıl anlarsın?",
+      "en": "How do you know you are wearing your seat belt correctly?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Bel kısmı karnın üstünde, omuz kısmı kolunun altında",
+          "en": "Lap part over the stomach, shoulder part under your arm"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Bel kısmı kalçada, omuz kısmı göğüs ve omuz üstünde",
+          "en": "Lap part low on the hips, shoulder part across chest and shoulder"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Rahat olsun diye gevşek ve bükülmüş",
+          "en": "Loose and twisted so that it is comfortable"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Omuz kısmı boynunun üstünden geçecek biçimde ve gevşek",
+          "en": "Shoulder part across the neck and fairly loose"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Kemer çarpışmadaki gücü kalça kemiği ve göğüs kafesi gibi sağlam yerlere vermelidir. Gevşek ya da boyna değen kemer yaralar.",
+      "en": "The belt should put the force on the strong parts of the body, the hips and the rib cage. A loose belt or one across the neck causes injury."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.helmet-rider-and-passenger",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "occupants",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Motosiklette kask kimin için zorunludur?",
+      "en": "Who must wear a helmet on a motorcycle?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız sürücü için",
+          "en": "The rider only"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız şehirlerarası yolda sürücü için",
+          "en": "The rider, but only on intercity roads"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sürücü ve yolcu için",
+          "en": "The rider and the passenger"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız büyük motosikletlerde sürücü için",
+          "en": "The rider, but only on large motorcycles"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Tüzüğe göre kask, motosiklet, moped, motorlu üç teker ve ATV'nin hem sürücüsü hem yolcusu için zorunludur.",
+      "en": "Under the regulation, helmets are compulsory for both riders and passengers of motorcycles, mopeds, motor tricycles and ATVs."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s9",
+    "sourceRef": "md. 58(3)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.helmet-on-a-small-moped",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "occupants",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Arkadaşın küçük motorlu bir mopedle yalnız mahalle içinde gidecek. Kask takması gerekir mi?",
+      "en": "A friend is riding a small moped just around the neighbourhood. Do they need a helmet?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hayır, küçük motorlu mopedlerde kask isteğe bağlıdır",
+          "en": "No, helmets are optional on small mopeds"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Evet, motor hacmi ve yol ne olursa olsun",
+          "en": "Yes, whatever the engine size and road"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız gece kullanıyorsa",
+          "en": "Only if riding at night"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız arkasında yolcu taşıyorsa",
+          "en": "Only if carrying a passenger"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Kask zorunluluğu motor hacmi ve gücü fark etmeksizin bütün motosiklet ve mopedler için geçerlidir. Kısa yolda da düşme ve kafa yaralanması olur.",
+      "en": "The helmet rule applies to every motorcycle and moped whatever its engine size or power. Falls and head injuries happen on short trips too."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s9",
+    "sourceRef": "md. 58(3)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.helmet-on-an-atv",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "occupants",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Tatilde kiraladığın bir ATV ile toprak ve asfalt yolda gideceksin. Kask için doğru olan hangisi?",
+      "en": "You have hired an ATV on holiday to ride on tracks and tarmac. What is true about helmets?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sen ve yolcun kask takmak zorundasınız",
+          "en": "You and your passenger must both wear one"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "ATV dört tekerli olduğu için kask gerekmez",
+          "en": "No helmet is needed, as an ATV has four wheels"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız toprak yolda kask takarsın",
+          "en": "You only need one off the tarmac"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kiralık araçlarda kask, kiralayan şirketin tercihine bağlıdır",
+          "en": "On hire vehicles it is up to the hire company"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Tüzük kask zorunluluğunu ATV'ler için de açıkça yazar. Sürücü de yolcu da kasksız binemez.",
+      "en": "The regulation names ATVs in the helmet rule. Neither the rider nor the passenger may ride without one."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s9",
+    "sourceRef": "md. 58(3)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.helmet-on-an-e-moped",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "occupants",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "E-moped kullananlar için 2026'da getirilen kask kuralı nedir?",
+      "en": "What helmet rule for e-moped riders was introduced in 2026?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kask yalnız gece zorunludur",
+          "en": "A helmet is compulsory only at night"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kask yalnız yolcu taşırken zorunludur",
+          "en": "A helmet is compulsory only with a passenger"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kask önerilir ama zorunlu değildir",
+          "en": "A helmet is advised but not compulsory"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kask zorunludur",
+          "en": "A helmet is compulsory"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Trafik Dairesi 2026'da e-moped kullananlar için kaskı zorunlu yaptı. E-moped yavaş görünse de bir düşüşte baş korunmasız kalır.",
+      "en": "In 2026 the Traffic Department made helmets compulsory for e-moped riders. An e-moped may seem slow, but a fall still leaves the head exposed."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s39",
+    "sourceRef": "E-moped ve e-scooter kuralları, 2026",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.helmet-strap-fastened",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "occupants",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Kaskın bir kazada işe yaraması için ne gerekir?",
+      "en": "What makes a helmet work in a crash?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Başa tam oturması ve çene kayışının bağlı olması",
+          "en": "A snug fit and a fastened chin strap"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kayışı gevşek bırakılıp başa konması",
+          "en": "Resting it on the head with the strap left loose"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yolculuk boyunca motosikletin aynasına asılı durması",
+          "en": "Hanging it on the mirror for the journey"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Rengi parlak olduğu sürece nasıl takıldığının önemi yoktur",
+          "en": "How it is worn does not matter as long as it is brightly coloured"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Kayışı bağlı olmayan kask çarpışmanın ilk anında başından çıkar. Kask başına tam oturmalı ve kayışı sıkıca bağlı olmalıdır.",
+      "en": "An unfastened helmet comes off in the first moment of a crash. It must fit snugly with the strap done up."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.children-get-out-on-the-kerb-side",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "occupants",
+    "tracks": [
+      "car",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Çocukları okul önünde indireceksin ve aracı yolun sol kenarına çektin. Çocuklar hangi kapılardan inmeli?",
+      "en": "You are dropping children at school and have pulled in on the left of the road. Which doors should they get out of?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Trafik tarafındaki sağ kapılardan",
+          "en": "The right-hand doors, on the traffic side"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Hangisi yakınsa o kapıdan",
+          "en": "Whichever door is nearest"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sağ kapılardan inip aracın arkasından dolaşarak",
+          "en": "The right-hand doors, then round the back of the car"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kaldırım tarafındaki sol kapılardan",
+          "en": "The left-hand doors, on the kerb side"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "KKTC'de kaldırım soldadır. Kaldırım tarafından inen çocuklar trafiğe hiç çıkmadan güvende kalır.",
+      "en": "In KKTC the kerb is on the left. Getting out on the kerb side keeps children away from passing traffic."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.loose-objects-in-the-car",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "occupants",
+    "tracks": [
+      "car",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Arka rafta ağır bir çanta ve su şişeleri duruyor. Bu neden tehlikelidir?",
+      "en": "There is a heavy bag and some water bottles on the rear shelf. Why is that dangerous?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sert frende öne fırlayıp birini yaralayabilir",
+          "en": "In hard braking they can fly forward and hurt someone"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Aracın yakıt tüketimini çok artırır",
+          "en": "They greatly increase fuel consumption"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Arka camın buğulanmasına yol açar",
+          "en": "They make the rear window steam up"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Ağırlıkları yüzünden arka fren lambalarının yanmasını engeller",
+          "en": "Their weight stops the rear brake lights from working"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Bir çarpışmada araçtaki gevşek eşya aracın hızıyla ileri savrulur. Ağır eşyayı bagaja koy ya da sabitle.",
+      "en": "In a crash any loose object keeps moving at the car's speed. Put heavy items in the boot or secure them."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.head-restraint",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "occupants",
+    "tracks": [
+      "car",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Koltuğun baş desteğini neden doğru ayarlarsın?",
+      "en": "Why do you adjust the head restraint correctly?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Dikiz aynasını daha iyi görmek için",
+          "en": "To see better in the rear-view mirror"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Uzun yolda uyuklamamak için",
+          "en": "To stop you nodding off on long trips"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Ön hava yastığının zamanında açılmasını sağlamak için",
+          "en": "So the front airbag opens at the right moment"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Arkadan çarpmada boynunu korumak için",
+          "en": "To protect your neck if you are hit from behind"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Arkadan çarpmada baş geriye savrulur. Başın arkasını destekleyen bir baş desteği boyun yaralanmasını azaltır.",
+      "en": "In a rear impact the head is thrown backwards. A head restraint that supports the back of your head reduces neck injury."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.driver-checks-childrens-belts",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "occupants",
+    "tracks": [
+      "car",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Çocukların kemerini ya da çocuk koltuğunu kim kontrol etmelidir?",
+      "en": "Who should check that children are belted in or in their child seat?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Çocuklar kendi kemerlerinden sorumludur",
+          "en": "The children themselves"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız yanlarında oturan yetişkin",
+          "en": "Only the adult sitting next to them"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yola çıkmadan önce sürücü",
+          "en": "The driver, before moving off"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Bir kontrolde seni durduran polis",
+          "en": "A police officer who stops you at a check"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Aracı sen sürüyorsun; herkes güvenle bağlanmadan yola çıkma. Küçük çocuklar kemeri çözebilir, yolculuk boyunca da göz kulak ol.",
+      "en": "You are driving, so do not move off until everyone is safely restrained. Young children can undo belts, so keep an eye on them during the trip."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-drivers",
+    "sourceRef": "rule 100",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.breakdown-hazard-lights",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Aracın yolda arızalandı ve yolu kısmen kapatıyor. İlk yapacağın şey nedir?",
+      "en": "Your car has broken down and is partly blocking the road. What do you do first?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kaputu açıp arızayı ararsın",
+          "en": "Open the bonnet and look for the fault"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yardım istemek için yolun ortasına çıkarsın",
+          "en": "Step into the road to ask for help"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Dörtlüleri yakarsın",
+          "en": "Switch on the hazard lights"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Motoru tekrar tekrar çalıştırmayı denersin",
+          "en": "Keep trying to restart the engine"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Dörtlüler, yaklaşan sürücülere aracın durduğunu hemen gösterir. Sonra aracı mümkünse yoldan çıkar ve yolcuları güvenli bir yere al.",
+      "en": "Hazard lights tell approaching drivers at once that you have stopped. Then move the car off the road if you can and get passengers to safety."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-breakdowns",
+    "sourceRef": "rule 276",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.pull-over-to-the-left",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Giderken motorunda bir sorun olduğunu fark ettin ama araç hâlâ ilerliyor. Ne yaparsın?",
+      "en": "While driving you notice an engine problem, but the car still moves. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Olduğun şeritte durup yardım beklersin",
+          "en": "Stop in your lane and wait for help"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sinyal verip yolun soluna, güvenli bir yere çekersin",
+          "en": "Signal and pull over to the left, somewhere safe"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yolun sağ kenarına, karşı şeride yakın durursun",
+          "en": "Stop at the right-hand edge, next to oncoming traffic"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Görünmemek için bir virajın hemen sonrasında durursun",
+          "en": "Stop just after a bend, out of the way"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "KKTC'de soldan gidildiği için güvenli kenar soldur. Viraj ve tepe gibi görüşün kısıtlı olduğu yerlerden uzakta, trafiği engellemeyen bir yer seç.",
+      "en": "In KKTC you drive on the left, so the safe edge is on the left. Choose a spot away from bends and hill crests where you do not block traffic."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-breakdowns",
+    "sourceRef": "rule 275",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.passengers-after-a-breakdown",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Aracın trafiğin hızlı aktığı bir yolun sol kenarında arızalandı. Yolcular ne yapmalı?",
+      "en": "Your car has broken down at the left-hand edge of a road with fast traffic. What should the passengers do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sağ kapılardan inip aracın arkasında beklemeli",
+          "en": "Get out on the right and wait behind the car"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Aracın önünde durup gelen trafiğe el sallamalı",
+          "en": "Stand in front of the car and wave at traffic"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Aracın yanında, trafik tarafında durup arızayı izlemeli",
+          "en": "Stand beside the car on the traffic side and watch the repair"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sol kapılardan inip yoldan uzakta beklemeli",
+          "en": "Get out on the left and wait well away from the road"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Arkadan gelen bir araç duran araca çarpabilir. Yolcular trafikten uzak taraftan inmeli ve araçla trafik arasında durmamalıdır.",
+      "en": "A vehicle from behind could run into the stopped car. Passengers should get out on the side away from traffic and never stand between the car and oncoming traffic."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-breakdowns",
+    "sourceRef": "rule 276",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.warning-triangle-placement",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Aracında reflektör (uyarı üçgeni) varsa arıza sırasında onu nereye koyarsın?",
+      "en": "If you carry a warning triangle, where do you place it after a breakdown?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Aracın tavanına, herkes görsün diye",
+          "en": "On the roof of the car, so everyone sees it"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Aracın arkasına, gelenlerin zamanında göreceği yere",
+          "en": "Behind the car, where drivers see it in time"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Aracın hemen önüne, kaputun yanına",
+          "en": "Just in front of the car, by the bonnet"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Karşı şeridin ortasına, iki yönü de uyarmak için",
+          "en": "In the middle of the oncoming lane, to warn both ways"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Üçgen, sürücülere araca varmadan önce yavaşlama zamanı verir. Virajdaysan virajdan önce görülecek yere koy ve koyarken trafiğe dikkat et.",
+      "en": "The triangle gives drivers time to slow down before they reach you. On a bend, place it where it is seen before the bend, and watch for traffic while you do it."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-breakdowns",
+    "sourceRef": "rule 276",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.injury-crash-112-and-155",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bir kazada yaralı var. Hangi numaraları ararsın?",
+      "en": "Someone is injured in a crash. Which numbers do you call?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "112 ambulans ve 155 polis",
+          "en": "112 for an ambulance and 155 for the police"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız 199",
+          "en": "199 only"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "155 ambulans ve 112 polis",
+          "en": "155 for an ambulance and 112 for the police"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız 177",
+          "en": "177 only"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "KKTC'de 112 ambulans, 155 polis numarasıdır. Yaralı varsa ikisini de ara; 199 itfaiyedir.",
+      "en": "In KKTC 112 is the ambulance and 155 the police. If someone is hurt, call both; 199 is the fire service."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Acil telefonlar",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.vehicle-fire-199",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Yol kenarında duran bir aracın motorundan alev çıktığını görüyorsun. Hangi numarayı ararsın?",
+      "en": "You see flames coming from the engine of a car stopped at the roadside. Which number do you call?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "112",
+          "en": "112"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "155",
+          "en": "155"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "158",
+          "en": "158"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "199",
+          "en": "199"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "199 itfaiye numarasıdır. Yaralı varsa ayrıca 112'yi arayıp ambulans iste.",
+      "en": "199 is the fire service. If anyone is hurt, also call 112 for an ambulance."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s15",
+    "sourceRef": "Acil telefonlar",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.forest-fire-177",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Dağ yolunda giderken yol kenarındaki çamlıkta duman ve alev görüyorsun. Bu durum için ayrılmış numara hangisidir?",
+      "en": "On a mountain road you see smoke and flames in the pine forest by the road. Which number is set aside for this?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "101 sivil savunma",
+          "en": "101, civil defence"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "156 narkotik",
+          "en": "156, narcotics"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "158 sahil güvenlik",
+          "en": "158, coast guard"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "177 orman yangını",
+          "en": "177, forest fire"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Polis Genel Müdürlüğü'nün listesinde orman yangını için ayrı bir numara vardır: 177. Yangına yaklaşma, güvenli bir yerden ihbar et.",
+      "en": "The police list has a separate number for forest fires: 177. Do not go near the fire; report it from a safe place."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s15",
+    "sourceRef": "Acil telefonlar",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.road-hazard-155",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bir kamyondan yola büyük bir eşya düştü ve trafiği tehlikeye atıyor. Yaralanan yok. Hangi numarayı ararsın?",
+      "en": "A large object has fallen from a lorry and is endangering traffic. Nobody is hurt. Which number do you call?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "155 polis",
+          "en": "155, police"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "112 ambulans",
+          "en": "112, ambulance"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "199 itfaiye",
+          "en": "199, fire service"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "101 sivil savunma",
+          "en": "101, civil defence"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Polis İmdat numarası 155'tir. Yolu tehlikeye atan durumlarda trafiği polis yönetir; hızlı bir yolda eşyayı kendin kaldırmaya çalışma.",
+      "en": "The police emergency number is 155. The police deal with hazards that put traffic at risk; on a fast road, do not try to remove the object yourself."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s15",
+    "sourceRef": "Acil telefonlar",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.first-at-a-crash-scene",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir kazaya ilk ulaşan sensin. Önce ne yaparsın?",
+      "en": "You are the first to arrive at a crash. What do you do first?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Güvenle durur, olay yerini güvene alırsın",
+          "en": "Stop safely and make the scene safe"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yaralıları hemen araçlardan çıkarırsın",
+          "en": "Pull the injured out of the vehicles straight away"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kazayı kaydetmek için fotoğraf çekersin",
+          "en": "Take photos to record the crash"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kazaya karışan araçları yolun kenarına itersin",
+          "en": "Push the crashed vehicles to the side of the road"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Önce sen ve diğerleri yeni bir çarpışmadan korunmalısınız. Dörtlüleri yak, ardından ambulansı ve polisi ara, sonra yaralılara yardım et.",
+      "en": "First you and others must be protected from a second collision. Switch on your hazard lights, call the ambulance and the police, then help the injured."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-breakdowns",
+    "sourceRef": "rule 283",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.do-not-move-the-injured",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kazada yaralanan biri aracında oturuyor. Yangın ya da başka bir tehlike yok. Ne yaparsın?",
+      "en": "An injured person is sitting in their car after a crash. There is no fire or other danger. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hemen araçtan çıkarıp yere yatırırsın",
+          "en": "Get them out at once and lay them on the ground"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Onu yerinden oynatmaz, yardım gelene kadar yanında kalırsın",
+          "en": "Leave them where they are and stay with them until help arrives"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kendi aracınla en yakın hastaneye götürürsün",
+          "en": "Drive them to the nearest hospital yourself"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Su içirip ayağa kalkmasına yardım edersin",
+          "en": "Give them water and help them stand up"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Yaralıyı gereksiz yere oynatmak omurga yaralanmasını ağırlaştırabilir. Yalnız yangın gibi hemen bir tehlike varsa yerinden çıkar.",
+      "en": "Moving an injured person unnecessarily can worsen a spinal injury. Only move them if they are in immediate danger, such as fire."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-breakdowns",
+    "sourceRef": "rule 283",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.motorcyclist-helmet-after-a-crash",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Kazada yere düşen motosikletlinin bilinci açık ve kaskı başında. Ne yaparsın?",
+      "en": "A motorcyclist has come off in a crash, is conscious and still has their helmet on. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Rahat nefes alsın diye kaskı hemen çıkarırsın",
+          "en": "Take the helmet off at once so they can breathe easily"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ayağa kaldırıp yol kenarına yürütürsün",
+          "en": "Help them up and walk them to the roadside"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kaskı çıkarmaz, kıpırdamamasını söylersin",
+          "en": "Leave the helmet on and tell them to keep still"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kaskı çıkarıp başının altına bir yastık koyarsın",
+          "en": "Remove the helmet and put a cushion under their head"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Kaskı çıkarmak boyun yaralanmasını ağırlaştırabilir. Gerçekten gerekmedikçe ve bu konuda eğitimin yoksa kaska dokunma.",
+      "en": "Removing a helmet can worsen a neck injury. Leave it on unless it is essential and you are trained to do it."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-breakdowns",
+    "sourceRef": "rule 283",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.fuel-smell-at-a-crash",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kaza yerinde yakıt kokusu var. Orada bulunanlardan ne istersin?",
+      "en": "At a crash scene you can smell fuel. What do you ask people there to do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Buhar dağılsın diye motorları çalıştırmalarını",
+          "en": "Run their engines to clear the vapour"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yakıtı bol suyla yola yaymalarını",
+          "en": "Spread the fuel over the road with plenty of water"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Motorları kapatmalarını ve sigara içmemelerini",
+          "en": "Switch off engines and not smoke"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Dörtlüleri kapatıp yolu hemen açmalarını",
+          "en": "Turn off their hazard lights and clear the road at once"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Yakıt buharı bir kıvılcım ya da sigarayla tutuşabilir. Motorları kapattır, sigaraları söndürt ve gerekiyorsa itfaiyeyi ara.",
+      "en": "Fuel vapour can be lit by a spark or a cigarette. Get engines switched off and cigarettes put out, and call the fire service if needed."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-breakdowns",
+    "sourceRef": "rule 283",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.fire-extinguisher-in-a-car",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Polisin uyarısına göre bir otomobilde en az ne büyüklükte yangın söndürme cihazı bulunmalıdır?",
+      "en": "According to the police, what is the smallest fire extinguisher a car should carry?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "0,5 kg",
+          "en": "0.5 kg"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "1 kg",
+          "en": "1 kg"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "3 kg",
+          "en": "3 kg"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "6 kg",
+          "en": "6 kg"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Polise göre moped ve motosiklet dışındaki bütün motorlu araçlarda en az 1 kg söndürücü bulunmalıdır. Kamyon ve otobüslerde bu 6 kg'dır.",
+      "en": "The police say every motor vehicle except mopeds and motorcycles must carry at least a 1 kg extinguisher. Trucks and buses need 6 kg."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s38",
+    "sourceRef": "Yangın söndürme cihazı",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.fire-extinguisher-exempt-vehicles",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Polisin açıklamasına göre hangi araçlarda yangın söndürme cihazı aranmaz?",
+      "en": "According to the police, which vehicles do not have to carry a fire extinguisher?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız kiralık otomobillerde",
+          "en": "Hire cars only"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız şehir içinde kullanılan otomobillerde",
+          "en": "Cars used only in town"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Moped ve motosikletlerde",
+          "en": "Mopeds and motorcycles"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kamyonet ve çift kabinlerde",
+          "en": "Pick-ups and double-cab vehicles"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Moped ve motosikletler dışındaki bütün motorlu araçlarda söndürücü bulunmalıdır. Küçük bir motor yangını çoğu zaman ilk anlarda söndürülebilir.",
+      "en": "Every motor vehicle except mopeds and motorcycles should carry one. A small engine fire can often be put out in its first moments."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s38",
+    "sourceRef": "Yangın söndürme cihazı",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.ambulance-behind-pull-left",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Arkandan sireni çalan bir ambulans geliyor. Ne yaparsın?",
+      "en": "An ambulance with its siren on is coming up behind you. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sinyal verip hemen sağa çekilirsin",
+          "en": "Signal and move over to the right at once"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Olduğun yerde sert fren yapıp durursun",
+          "en": "Brake hard and stop where you are"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hızlanıp ambulansın önünde kalmaya çalışırsın",
+          "en": "Speed up and try to stay ahead of it"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Güvenli olunca sinyal verip sola çekilirsin",
+          "en": "When safe, signal and move over to the left"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "KKTC'de soldan gidildiği için yol vermek için sola çekilirsin ve ambulans sağından geçer. Ani fren yapma, kaldırıma çıkma.",
+      "en": "In KKTC you keep left, so you move over to the left and the ambulance passes on your right. Do not brake suddenly or mount the kerb."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.fire-engine-before-a-blind-bend",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Dar ve virajlı bir yolda arkana sirenli bir itfaiye aracı geldi. Hemen önünde kör bir viraj var. Ne yaparsın?",
+      "en": "On a narrow, winding road a fire engine with its siren on comes up behind you. There is a blind bend just ahead. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Virajın tam ortasında durursun",
+          "en": "Stop right in the middle of the bend"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Karşı şeride geçip yolu açarsın",
+          "en": "Move into the oncoming lane to clear the way"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Virajı geçip görüşün açık olduğu yerde sola çekilirsin",
+          "en": "Get past the bend and pull in to the left where it is clear"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Çekilmeden, hiç yavaşlamadan yoluna devam edersin",
+          "en": "Carry on without slowing and without pulling over"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Virajda ya da tepe üstünde durmak hem seni hem karşıdan geleni tehlikeye atar. Görüşün açık olduğu ilk güvenli yerde sola çekil.",
+      "en": "Stopping on a bend or a hill crest puts you and oncoming traffic at risk. Pull in to the left at the first safe place with a clear view."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-extra-care",
+    "sourceRef": "rule 219",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.failing-to-give-way-to-emergency-vehicles",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Sireni çalan bir ambulansa, itfaiyeye ya da polis aracına yol vermemek için hangisi doğrudur?",
+      "en": "What is true about failing to give way to an ambulance, fire engine or police car using its siren?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız bir kazaya yol açarsa suç sayılır",
+          "en": "It is an offence only if it causes a crash"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız şehir içinde suç sayılır",
+          "en": "It is an offence only in town"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız sözlü uyarı verilir, ceza uygulanmaz",
+          "en": "You only get a verbal warning, never a penalty"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Para cezası ve ceza puanı gerektiren bir suçtur",
+          "en": "It is an offence with a fine and penalty points"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Basında yer alan ceza listesine göre geçiş üstünlüğü olan araca yol vermemek para cezası ve ceza puanı gerektirir. O araç birinin hayatına yetişmeye çalışıyor olabilir.",
+      "en": "Under the published fine list, failing to give way to an emergency vehicle brings a fine and penalty points. That vehicle may be racing to save a life."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s31",
+    "sourceRef": "Ceza listesi, 2023",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.tyre-blowout",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Giderken ön lastiğin patladı ve araç bir yana çekiyor. Ne yaparsın?",
+      "en": "A front tyre bursts while you are driving and the car pulls to one side. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hemen sert frene basarsın",
+          "en": "Brake hard straight away"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Aracın çektiği yönün tersine sertçe direksiyon kırarsın",
+          "en": "Steer sharply the opposite way to the pull"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Gaza basıp aracı düzeltmeye çalışırsın",
+          "en": "Accelerate to straighten the car"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Direksiyonu sıkı tutar, gazı bırakıp yavaşça durursun",
+          "en": "Grip the wheel firmly, ease off and slow down gently"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Patlak lastikle sert fren ya da ani direksiyon aracı savurabilir. Yönünü koru, araç yavaşlasın, sonra sol kenara çek.",
+      "en": "Harsh braking or steering on a burst tyre can make the car spin. Hold your course, let it slow down, then pull over to the left."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.passing-a-crash-scene",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "emergencies",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Karşı yönde bir kaza olmuş ve polis olay yerinde. Yanından geçerken ne yaparsın?",
+      "en": "There has been a crash on the other side of the road and the police are there. What do you do as you pass?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kazayı görmek için iyice yavaşlarsın",
+          "en": "Slow right down to get a good look"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Gözünü kendi yoluna verir, durmaya hazır geçersin",
+          "en": "Watch your own road and pass ready to stop"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Telefonla kısa bir video çekersin",
+          "en": "Take a short video on your phone"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Durup polise yardım teklif edersin",
+          "en": "Stop and offer to help the police"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Kazaya bakan sürücüler önlerindeki trafiği kaçırır ve yeni çarpışmalara yol açar. Polis olay yerindeyse dikkatini kendi yoluna ver.",
+      "en": "Drivers staring at a crash miss what is happening ahead and cause new collisions. With the police already there, concentrate on your own road."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-breakdowns",
+    "sourceRef": "rules 281-282",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.two-second-gap",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kuru ve hızlı bir yolda önündeki araçla aranda en az ne kadar zaman boşluğu bırakırsın?",
+      "en": "On a dry, fast road, what is the smallest time gap to leave behind the vehicle ahead?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yarım saniye",
+          "en": "Half a second"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Bir saniye",
+          "en": "One second"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Gerek yok, hız sınırına uyman yeterlidir",
+          "en": "None, as long as you keep to the speed limit"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "İki saniye",
+          "en": "Two seconds"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Öndeki araç bir direği geçince saymaya başla; sen aynı yere iki saniyeden önce varıyorsan çok yakınsın. Islak yolda bu boşluk en az iki katına çıkar.",
+      "en": "Start counting when the vehicle ahead passes a fixed point. If you reach it in less than two seconds, you are too close; on a wet road at least double it."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "sa-hc-general",
+    "sourceRef": "rule 126",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.defensive-driving",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Savunmalı sürüş ne demektir?",
+      "en": "What does defensive driving mean?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kimse önüne geçmesin diye sert ve hızlı sürmek",
+          "en": "Driving hard and fast so nobody cuts in"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Her zaman hız sınırının çok altında gitmek",
+          "en": "Always driving far below the speed limit"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Tehlikeleri ve başkalarının hatalarını önceden kestirmek",
+          "en": "Anticipating hazards and other people's mistakes"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Başkalarını uyarmak için yolculuk boyunca sık sık korna çalmak",
+          "en": "Sounding the horn often throughout the trip to warn others"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Savunmalı sürücü başkasının hata yapabileceğini hesaba katar ve buna yer bırakır. Boşluk, dikkat ve sabır bu sürüşün temelidir.",
+      "en": "A defensive driver expects others to make mistakes and leaves room for them. Space, attention and patience are at its heart."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "s3",
+    "sourceRef": "md. 29",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.speed-limit-is-not-a-target",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Hız sınırı levhası sana neyi söyler?",
+      "en": "What does a speed-limit sign tell you?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Her koşulda gitmen gereken hızı",
+          "en": "The speed you should drive at in all conditions"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Önerilen en düşük hızı",
+          "en": "The recommended minimum speed"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız gündüz geçerli olan hızı",
+          "en": "A speed that applies only in daylight"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "En yüksek hızı; koşullar kötüyse daha yavaş gidersin",
+          "en": "The maximum; in poor conditions you go slower"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Sınır, iyi koşullarda çıkabileceğin en yüksek hızdır. Yağmur, kalabalık ya da kötü görüşte güvenli hız bunun altındadır.",
+      "en": "The limit is the most you may do in good conditions. In rain, crowds or poor visibility, the safe speed is lower."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "s3",
+    "sourceRef": "md. 22(7)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.tailgater-behind",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Arkandaki araç sana çok yakın geliyor ve seni sıkıştırıyor. Ne yaparsın?",
+      "en": "The vehicle behind is far too close and pushing you. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Önündeki boşluğu artırır, solda kalıp geçmesine izin verirsin",
+          "en": "Leave more room ahead, keep left and let it pass"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ona ders vermek için ani fren yaparsın",
+          "en": "Brake sharply to teach the driver a lesson"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Arayı açmak için hız sınırının üstüne çıkarsın",
+          "en": "Go over the speed limit to pull away"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Dörtlüleri yakıp geçemesin diye yolun ortasından gidersin",
+          "en": "Put on your hazards and drive in the middle so it cannot pass"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Arkandaki çok yakınsa ani bir durumda sana çarpabilir. Önündeki boşluğu artırırsan yumuşak fren yaparsın ve ona da durmak için zaman kalır.",
+      "en": "A driver too close behind may hit you if you stop suddenly. A bigger gap ahead lets you brake gently, giving them time to stop as well."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.slow-down-before-the-bend",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Kırsal bir yolda bu levhayı gördün. Hızını ne zaman düşürürsün?",
+      "en": "You see this sign on a country road. When do you slow down?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Virajın ortasında, fren yaparak",
+          "en": "In the middle of the bend, by braking"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Virajdan çıkarken",
+          "en": "As you leave the bend"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Viraja girmeden önce",
+          "en": "Before you enter the bend"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hiç düşürmezsin, bu levha yalnız bilgi verir",
+          "en": "You do not; this sign is only information"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Virajda fren yapmak tutuşu azaltır ve aracı savurabilir. Hızını virajdan önce, yol düzken ayarla.",
+      "en": "Braking in a bend reduces grip and can cause a skid. Set your speed before the bend, while the road is straight."
+    },
+    "signId": "warning.bend--left",
+    "basis": "practice",
+    "sourceId": "sa-hc-general",
+    "sourceRef": "rule 154",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.parked-car-with-driver",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Park etmiş bir aracın içinde sürücü var ve egzozundan duman çıkıyor. Ne beklersin?",
+      "en": "There is a driver in a parked car and exhaust is coming from it. What should you expect?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Aniden yola çıkabileceğini ya da kapının açılabileceğini",
+          "en": "It may pull out, or a door may open, without warning"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Uzun süre orada kalacağını",
+          "en": "It will stay there for a long time"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sürücünün sana selektörle yol vereceğini",
+          "en": "The driver will flash you through"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Aracın arızalı olduğunu ve sürücünün senden yardım beklediğini",
+          "en": "It has broken down and the driver is waiting for your help"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Motoru çalışan ve içinde sürücü olan araç her an hareket edebilir. Hızını düşür ve ona yer bırak.",
+      "en": "A parked car with its engine running and a driver inside can move at any moment. Slow down and give it room."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.gap-in-slow-traffic",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Yavaş ilerleyen şehir trafiğinde önündeki araçla aranda nasıl bir boşluk bırakırsın?",
+      "en": "In slow-moving town traffic, what gap do you leave to the vehicle ahead?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Araya kimse girmesin diye neredeyse tampon tampona",
+          "en": "Almost bumper to bumper, so nobody cuts in"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yavaş gidildiği için boşluğun önemi yoktur",
+          "en": "The gap does not matter at low speed"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Güvenle durabileceğin kadar",
+          "en": "Enough to stop safely"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız önündeki ağır vasıtaysa boşluk bırakırsın",
+          "en": "You leave a gap only behind heavy vehicles"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Yavaş trafikte de öndeki araç aniden durabilir. Ondan, güvenle durabileceğin kadar uzak kal.",
+      "en": "In slow traffic the vehicle ahead can still stop suddenly. Stay far enough back to stop safely."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-general",
+    "sourceRef": "rule 151",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.angry-driver-following-you",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Başka bir sürücü sana öfkeyle el kol hareketi yapıyor ve peşinden geliyor. Ne yaparsın?",
+      "en": "Another driver is gesturing angrily at you and following you. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Durup inersin ve onunla konuşarak sorunu çözersin",
+          "en": "Stop, get out and talk it through with them"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Karşılık vermez, sakin kalır, gerekirse polise gidersin",
+          "en": "Do not react, stay calm, and go to the police if needed"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Aynı hareketle karşılık verirsin",
+          "en": "Answer with the same gesture"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Önüne geçip ani fren yaparak onu durmaya zorlarsın",
+          "en": "Get in front and brake suddenly to force them to stop"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Öfkeli bir sürücüye karşılık vermek tartışmayı büyütür. Kapıları kilitli tut, göz teması kurma; peşini bırakmazsa kalabalık bir yere ya da polise git.",
+      "en": "Responding to an angry driver makes things worse. Keep the doors locked and avoid eye contact; if they keep following, go to a busy place or to the police."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.using-the-horn",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Korna ne için kullanılır?",
+      "en": "What is the horn for?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Önündeki sürücüye kızdığını göstermek için",
+          "en": "Showing the driver ahead that you are angry"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yeşil ışıkta öndeki aracı hemen kaldırmak için",
+          "en": "Hurrying the car ahead the moment the light turns green"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Başkasını bir tehlikeye karşı uyarmak için",
+          "en": "Warning someone of a danger"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yolda tanıdığın birini selamlamak için",
+          "en": "Greeting someone you know"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Korna yalnız varlığını bildirip bir tehlikeyi önlemek içindir. Öfke ya da acele için çalınan korna başkalarını şaşırtır ve gerginlik yaratır.",
+      "en": "The horn is only for letting others know you are there so that danger is avoided. Using it in anger or impatience startles people and raises tension."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-general",
+    "sourceRef": "rule 112",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.scanning-for-hazards",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Trafikte tehlikeleri erken fark etmek için gözünü nerede tutarsın?",
+      "en": "Where do you keep your eyes to spot hazards early?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız önündeki aracın tamponunda",
+          "en": "Only on the bumper of the car ahead"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Uzağa ve çevreye bakar, aynaları sık kontrol edersin",
+          "en": "Far ahead and around you, with regular mirror checks"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Çoğunlukla gösterge panelinde, hızını izleyerek",
+          "en": "Mostly on the dashboard, watching your speed"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız şeridindeki yol çizgilerinde",
+          "en": "Only on the lane markings"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Uzağa bakan sürücü fren lambalarını, yola çıkacak yayaları ve kavşakları erken görür. Böylece sert fren yerine zamanında yavaşlar.",
+      "en": "Looking far ahead lets you see brake lights, people about to cross and junctions early. You can then slow down in time instead of braking hard."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.being-overtaken",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bir araç seni sollamaya başladı. Ne yaparsın?",
+      "en": "A vehicle has started to overtake you. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sağa açılıp onu engellersin",
+          "en": "Move right to block it"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Hızlanıp onunla yarışırsın",
+          "en": "Speed up and race it"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Solda kalır, hızını artırmazsın",
+          "en": "Keep left and do not speed up"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sert fren yapıp hemen yolun ortasında durursun",
+          "en": "Brake hard and stop in the middle of the road"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Yol Kuralları Yasası'na göre sollanan sürücü solda kalır. Hızını koru, gerekirse biraz yavaşlayarak sollamayı kolaylaştır.",
+      "en": "Under the Road Rules Law, a driver being overtaken keeps left. Hold your speed, or slow a little to make it easier."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s7",
+    "sourceRef": "md. 2(c)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.lorry-swinging-out-to-turn-left",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Önündeki uzun bir kamyon sola dönmek için sinyal veriyor ama önce sağa doğru açılıyor. Ne yaparsın?",
+      "en": "A long lorry ahead is signalling left but first swings out to the right. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Solunda açılan boşluktan geçersin",
+          "en": "Go through the gap opening on its left"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sinyalin yanlış olduğunu düşünüp sağından sollarsın",
+          "en": "Assume the signal is wrong and overtake on its right"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Korna çalıp dönüşten vazgeçmesini istersin",
+          "en": "Sound your horn so it gives up the turn"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Geride kalır, dönüşünü bitirmesini beklersin",
+          "en": "Stay back and wait for it to finish turning"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Uzun araçlar dar bir dönüş için önce ters yöne açılabilir. Solunda kalan boşluğa girersen kamyon dönerken seni ezebilir.",
+      "en": "Long vehicles may swing the other way first to make a tight turn. If you go into the gap on its left, it can crush you as it turns."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-extra-care",
+    "sourceRef": "rules 221-222",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.staying-back-from-a-lorry",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir kamyonun arkasında gidiyorsun. Neden biraz geride kalırsın?",
+      "en": "You are following a lorry. Why do you drop back a little?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kamyonların arkasında hız sınırı daha düşük olduğu için",
+          "en": "Because the speed limit is lower behind lorries"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yolu görmek ve kamyonun aynasında görünmek için",
+          "en": "To see the road ahead and be seen in its mirrors"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kamyonun fren lambaları gözünü almasın diye",
+          "en": "So its brake lights do not dazzle you"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Egzoz dumanı aracına girmesin diye, başka nedeni yoktur",
+          "en": "Only to keep its exhaust fumes out of your car"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Kamyona çok yaklaşırsan önünü göremezsin ve sürücü de seni aynasında göremez. Sürücünün aynasını göremiyorsan o da seni görmüyordur.",
+      "en": "Close behind a lorry you cannot see ahead, and its driver cannot see you. If you cannot see the driver's mirrors, they cannot see you."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-road",
+    "sourceRef": "rule 164",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.overtaking-a-long-lorry",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Uzun bir kamyonu sollamayı düşünüyorsun. Hangisi doğrudur?",
+      "en": "You are thinking of overtaking a long lorry. Which is true?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kamyon yavaş olduğu için her yerde sollanabilir",
+          "en": "Lorries are slow, so you can overtake anywhere"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Otomobile göre daha uzun bir açık yol gerekir",
+          "en": "You need a longer stretch of clear road than for a car"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kamyonu solundan geçmek daha güvenlidir",
+          "en": "It is safer to pass a lorry on its left"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Virajda sollamak kolaydır, çünkü kamyonlar virajda iyice yavaşlar",
+          "en": "Overtaking on a bend is easy, because lorries slow right down there"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Uzun aracı geçmek daha uzun sürer ve kamyon karşıdan geleni gizler. Emin değilsen sollama; sollarsan sağından geç.",
+      "en": "A long vehicle takes longer to pass and hides oncoming traffic. If in doubt, do not overtake, and if you do, pass on its right."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-road",
+    "sourceRef": "rule 164",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.bus-pulling-out",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Duraktaki otobüs sağ sinyalini yakıp yola çıkmak istiyor. Ne yaparsın?",
+      "en": "A bus at a stop is signalling right to pull out. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hızlanıp o çıkmadan yanından geçersin",
+          "en": "Speed up and get past before it pulls out"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Korna çalıp beklemesini sağlarsın",
+          "en": "Sound your horn so it waits"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sağa yaklaşıp otobüsün çıkacağı yeri kapatırsın",
+          "en": "Move right to close the gap it needs"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Güvenliyse yavaşlayıp çıkmasına izin verirsin",
+          "en": "If it is safe, slow down and let it out"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Otobüsler sık durup kalkar ve yola çıkmak için yere ihtiyaç duyar. Güvenli olduğunda ona yol vermek trafiği rahatlatır ve çarpışmaları önler.",
+      "en": "Buses stop and start often and need space to pull out. Letting them out when safe keeps traffic moving and prevents collisions."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-extra-care",
+    "sourceRef": "rule 223",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.spray-when-overtaking-a-lorry",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yağmurlu bir günde bir kamyonu sollarken neye hazırlıklı olursun?",
+      "en": "Overtaking a lorry in the rain, what should you be ready for?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kamyonun ıslak yolda aniden hızlanmasına",
+          "en": "The lorry suddenly speeding up on the wet road"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yolun ıslakken daha iyi tutmasına",
+          "en": "The road gripping better when wet"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kamyonun sana yer açmak için sağ şeride geçmesine",
+          "en": "The lorry moving into the right lane to make room for you"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Tekerleklerinden sıçrayan suyun görüşünü kapatmasına",
+          "en": "Spray from its wheels blocking your view"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Ağır araçların tekerlekleri ıslak yolda yoğun su sıçratır. Silecekleri önceden hızlandır; görüşün yetmiyorsa sollamaktan vazgeç.",
+      "en": "Heavy vehicles throw up a lot of spray on wet roads. Speed up your wipers beforehand, and give up the overtake if you cannot see well enough."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.texting-in-slow-traffic",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Trafikte yavaş ilerlerken telefondan mesaj yazmak için hangisi doğrudur?",
+      "en": "What is true about texting while moving slowly in traffic?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yasaktır; sürerken mobil cihaz kullanılmaz",
+          "en": "It is banned; no mobile device use while driving"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yavaş gidiyorsan serbesttir",
+          "en": "It is allowed if you are moving slowly"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kısa mesajlar için serbesttir",
+          "en": "Short messages are allowed"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız şehir içinde, trafik sıkışıkken serbesttir",
+          "en": "It is allowed only in town, when traffic is jammed"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Bakanlığa göre araç kullanırken her türlü mobil cihaz kullanımı yasaktır. Mesaj yazarken gözün de aklın da yoldan ayrılır.",
+      "en": "According to the ministry, any use of a mobile device while driving is banned. Texting takes your eyes and your mind off the road."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Cep telefonu",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.phone-penalty-points",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "5 Nisan 2025'ten bu yana sürerken telefon kullanmanın ceza puanı kaçtır?",
+      "en": "Since 5 April 2025, how many penalty points does using a phone while driving carry?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "10",
+          "en": "10"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "20",
+          "en": "20"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "50",
+          "en": "50"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "100",
+          "en": "100"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "2025 değişiklikleriyle telefon kullanmanın cezası asgari ücretin tamamı kadar para cezası ve 50 ceza puanı oldu. 15 ay içinde 100 puana ulaşan sürücünün ehliyeti 3 ay geri alınır.",
+      "en": "Since the 2025 changes, phone use brings a fine equal to the full minimum wage and 50 penalty points. A driver who reaches 100 points within 15 months loses their licence for 3 months."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s28",
+    "sourceRef": "05.04.2025 değişiklikleri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.bluetooth-hands-free",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Telefonu eline almadan araçtaki Bluetooth sistemiyle konuşmak için 2025 düzenlemesi ne der?",
+      "en": "What does the 2025 change say about talking through the car's Bluetooth system without holding the phone?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Suç sayılmaz, ama dikkatini yine dağıtabilir",
+          "en": "It is not an offence, but it can still distract you"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Telefonu elde tutmakla aynı cezayı gerektirir",
+          "en": "It carries the same penalty as holding the phone"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız taksi sürücüleri için serbesttir",
+          "en": "It is allowed only for taxi drivers"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız şehirlerarası yolda, trafik azken serbesttir",
+          "en": "It is allowed only on intercity roads when traffic is light"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Basına yansıyan 2025 düzenlemesine göre telefonu tutmadan Bluetooth ile konuşmak suç değildir. Yine de konuşma dikkatini yoldan alabilir; zor koşullarda aramayı ertele.",
+      "en": "Under the 2025 change as reported in the press, using Bluetooth without holding the phone is not an offence. A call can still pull your attention from the road, so leave it for later in difficult conditions."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s29",
+    "sourceRef": "Bluetooth kullanımı",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.setting-up-navigation",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Telefondaki navigasyonu nasıl kullanırsın?",
+      "en": "How do you use navigation on your phone?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Giderken elinde tutup haritaya bakarsın",
+          "en": "Hold it in your hand and check the map as you go"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kırmızı ışıkta beklerken yeni rotayı hızlıca yazarsın",
+          "en": "Quickly type a new route while waiting at a red light"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kucağına koyup yolculuk boyunca ara ara aşağı bakarsın",
+          "en": "Put it on your lap and glance down now and then on the way"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yola çıkmadan ayarlar, değiştirmek için güvenli yerde durursun",
+          "en": "Set it before leaving and stop somewhere safe to change it"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Telefonla uğraşmak gözünü ve elini yoldan alır. Rotayı yola çıkmadan gir, sonra yalnız sesli yönlendirmeyi dinle.",
+      "en": "Handling the phone takes your eyes and hands off the road. Enter the route before you set off and then just follow the spoken directions."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "sa-hc-general",
+    "sourceRef": "rule 150",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "safety.phone-rings-while-driving",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Sürerken telefonun çalıyor ve önemli bir arama bekliyorsun. Ne yaparsın?",
+      "en": "Your phone rings while you are driving and you are expecting an important call. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hızla açıp kısa konuşursun",
+          "en": "Answer quickly and keep it short"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Telefonu omzunla kulağın arasına sıkıştırıp konuşursun",
+          "en": "Talk with the phone wedged between ear and shoulder"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hoparlöre alıp telefonu elinde tutarak konuşursun",
+          "en": "Put it on speaker and talk while holding it"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Güvenli bir yere çekip durunca geri ararsın",
+          "en": "Pull over somewhere safe and call back once stopped"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Elinde telefonla konuşmak yasaktır ve aracın kontrolünü zayıflatır. Arama bekleyebilir; güvenli bir yerde durunca geri dön.",
+      "en": "Talking with the phone in your hand is banned and weakens your control of the car. The call can wait until you have stopped safely."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  }
+]

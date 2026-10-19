@@ -1,0 +1,16 @@
+{
+  "name": "Test2Drive",
+  "short_name": "Test2Drive",
+  "description": "KKTC ehliyet sınavına hazırlık: levhalar, kurallar ve deneme sınavları.",
+  "lang": "tr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F8FAFA",
+  "theme_color": "#377272",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

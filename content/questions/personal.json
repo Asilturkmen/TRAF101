@@ -1,0 +1,1121 @@
+[
+  {
+    "id": "personal.alcohol-blood-limit",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "KKTC'de sürücüler için kandaki yasal alkol sınırı nedir?",
+      "en": "What is the legal blood alcohol limit for drivers in KKTC?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "100 ml kanda 20 mg",
+          "en": "20 mg per 100 ml of blood"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "100 ml kanda 50 mg",
+          "en": "50 mg per 100 ml of blood"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "100 ml kanda 80 mg",
+          "en": "80 mg per 100 ml of blood"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "100 ml kanda 100 mg",
+          "en": "100 mg per 100 ml of blood"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Yol Güvenliği Yasası sınırı 100 ml kanda 50 mg olarak koyar. Kamu taşımacılığı yapan sürücüler için sınır sıfırdır.",
+      "en": "The Road Safety Law sets the limit at 50 mg per 100 ml of blood. For public-transport drivers the limit is zero."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s8",
+    "sourceRef": "md. 2, saptanan sınır",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.alcohol-breath-limit",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Nefes testinde KKTC'deki yasal alkol sınırı nedir?",
+      "en": "What is the legal alcohol limit in a breath test in KKTC?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "100 ml nefeste 9 mikrogram",
+          "en": "9 micrograms per 100 ml of breath"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "100 ml nefeste 24 mikrogram",
+          "en": "24 micrograms per 100 ml of breath"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "100 ml nefeste 35 mikrogram",
+          "en": "35 micrograms per 100 ml of breath"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "100 ml nefeste 50 mikrogram",
+          "en": "50 micrograms per 100 ml of breath"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Yol Güvenliği Yasası nefesteki sınırı 100 ml'de 24 mikrogram olarak koyar. Kandaki sınır ise 100 ml'de 50 mg'dır.",
+      "en": "The Road Safety Law sets the breath limit at 24 micrograms per 100 ml. The blood limit is 50 mg per 100 ml."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s8",
+    "sourceRef": "md. 2, saptanan sınır",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.alcohol-public-transport",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kamu taşımacılığı yapan bir aracın sürücüsü için alkol sınırı nedir?",
+      "en": "What is the alcohol limit for the driver of a public-transport vehicle?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sıfır, hiç alkol olmamalı",
+          "en": "Zero: no alcohol at all"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Diğer sürücülerle aynı, 100 ml kanda 50 mg",
+          "en": "The same as other drivers, 50 mg per 100 ml of blood"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Diğer sürücülere tanınan sınırın iki katı",
+          "en": "Twice the limit for other drivers"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız gece seferlerinde sıfır",
+          "en": "Zero only on night services"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Yol Güvenliği Yasası, kamu taşımacılığı yapan araç şoförleri için alkol sınırını sıfır olarak belirler.",
+      "en": "The Road Safety Law sets a zero limit for drivers of public-transport vehicles."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s8",
+    "sourceRef": "md. 2, saptanan sınır",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.alcohol-time-only",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Alkol aldıktan sonra kanındaki alkolü ne düşürür?",
+      "en": "After drinking, what lowers the alcohol in your blood?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sert bir kahve",
+          "en": "Strong coffee"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Soğuk bir duş",
+          "en": "A cold shower"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Bol su içip bir şeyler yemek",
+          "en": "Drinking plenty of water and eating something"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız zaman",
+          "en": "Only time"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Vücut alkolü kendi hızında atar ve bunu hiçbir şey hızlandırmaz. Kahve ya da duş seni yalnız daha uyanık hissettirir.",
+      "en": "Your body clears alcohol at its own pace and nothing speeds it up. Coffee or a shower only makes you feel more alert."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.alcohol-morning-after",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Dün gece geç saate kadar çok içtin. Sabah işe araçla gitmek için hangisi doğru?",
+      "en": "You drank a lot until late last night. What is true about driving to work in the morning?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Uyku alkolü vücuttan tamamen atar",
+          "en": "Sleep clears all the alcohol from your body"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kendini iyi hissediyorsan sınırın altındasındır",
+          "en": "If you feel fine, you are under the limit"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Uyumuş olsan da hâlâ sınırın üstünde olabilirsin",
+          "en": "You may still be over the limit even after sleeping"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kahvaltı yaptıktan sonra sürmek güvenlidir",
+          "en": "It is safe to drive once you have had breakfast"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Çok alkol alındığında vücudun onu atması sabaha kadar bitmeyebilir. Emin değilsen aracı kullanma.",
+      "en": "After heavy drinking, your body may not have cleared the alcohol by morning. If in doubt, do not drive."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.alcohol-effects",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Az miktarda alkol bile sürüşünü nasıl etkiler?",
+      "en": "How does even a small amount of alcohol affect your driving?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Dikkatini artırır, daha tetikte olursun",
+          "en": "It sharpens your attention and keeps you alert"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Tepkini yavaşlatır, fazla özgüven verir",
+          "en": "It slows your reactions and makes you overconfident"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız gece görüşünü etkiler, gündüz etkisi yoktur",
+          "en": "It only affects night vision, not daytime driving"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sınırın altında kaldıkça hiçbir etkisi olmaz",
+          "en": "It has no effect as long as you stay under the limit"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Alkol, sınırın altında bile tepkiyi ve mesafe tahminini bozar. Aynı anda kişiyi daha cesur hissettirir, bu da riski artırır.",
+      "en": "Alcohol slows reactions and blurs judgement of distance even below the limit. At the same time it makes you feel bolder, which raises the risk."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.alcohol-over-150",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Nisan 2025'ten bu yana uygulanan kurala göre sürücünün kanındaki alkol 100 ml'de 150 mg'ı aşarsa ne olur?",
+      "en": "Under the rules applied since April 2025, what happens if a driver's blood alcohol is over 150 mg per 100 ml?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız sabit bir para cezası kesilir",
+          "en": "Only a fixed fine is issued"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sabit ceza kesilmez, sürücü mahkemeye çıkarılır",
+          "en": "No fixed penalty is issued; the driver goes to court"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız ceza puanı yazılır",
+          "en": "Only penalty points are given"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sürücüye sözlü uyarı yapılır ve yoluna devam etmesine izin verilir",
+          "en": "The driver is given a verbal warning and allowed to carry on"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Bu düzeyde alkolle yakalanan sürücü için sabit ceza yoktur. Dava mahkemeye gider; hapis ve ehliyetten men cezası verilebilir.",
+      "en": "At this level there is no fixed penalty. The case goes to court, which can impose prison and a driving ban."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s28",
+    "sourceRef": "5.4.2025 tarihinden itibaren uygulanan değişiklikler",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.alcohol-points",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "2025'ten bu yana kandaki alkolü 100 ml'de 51 ile 100 mg arasında çıkan sürücüye kaç ceza puanı yazılır?",
+      "en": "Since 2025, how many penalty points does a driver get for a blood alcohol reading of 51 to 100 mg per 100 ml?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "100 puan",
+          "en": "100 points"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "10 puan",
+          "en": "10 points"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "20 puan",
+          "en": "20 points"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "50 puan",
+          "en": "50 points"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Sınırı az farkla aşmak bile para cezasına ek olarak 100 ceza puanı getirir. Alkollü sürüşün küçük bir ihlal sayılmadığını gösterir.",
+      "en": "Even a small excess brings 100 penalty points on top of a fine. Drink-driving is never treated as a minor offence."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s28",
+    "sourceRef": "5.4.2025 tarihinden itibaren uygulanan değişiklikler",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.fatigue-law",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "KKTC'de aşırı yorgunken araç kullanmak için yasa ne der?",
+      "en": "What does KKTC law say about driving while over-tired?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yasada yer almaz, sürücünün kendi kararıdır",
+          "en": "The law says nothing; it is up to the driver"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız ağır vasıta sürücüleri için suçtur",
+          "en": "It is an offence only for heavy-vehicle drivers"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız gece saatlerinde suçtur",
+          "en": "It is an offence only at night"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yasaya göre suçtur",
+          "en": "It is an offence under the law"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Motorlu Araçlar ve Yol Trafik Yasası'nın 10. maddesi aşırı yorgunken araç kullanmayı suç sayar. Yorgunluk tepkini ve dikkatini ciddi biçimde bozar.",
+      "en": "Article 10 of the Motor Vehicles and Road Traffic Law makes driving while over-tired an offence. Fatigue seriously impairs your reactions and attention."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s6",
+    "sourceRef": "md. 10",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.fatigue-signs",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Hangisi yorgunluğun erken bir işaretidir?",
+      "en": "Which is an early sign of fatigue?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yolu her zamankinden daha net görmek",
+          "en": "Seeing the road more clearly than usual"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Aynalara her zamankinden sık bakmak",
+          "en": "Checking your mirrors more often than usual"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hızını daha kolay sabit tutabilmek",
+          "en": "Finding it easier to hold a steady speed"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Az önce geçtiğin yolu hatırlamamak",
+          "en": "Not remembering the stretch of road you just drove"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Esneme, ağırlaşan göz kapakları, şeritte kayma ve yolun bir bölümünü hatırlamamak yorgunluk işaretleridir. Bunları fark edince durup dinlen.",
+      "en": "Yawning, heavy eyelids, drifting in your lane and losing memory of the road are signs of fatigue. When you notice them, stop and rest."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.fatigue-remedy",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Sürerken uykunun geldiğini hissediyorsun. En doğru davranış hangisi?",
+      "en": "You start to feel sleepy while driving. What is the right thing to do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Camı açıp yola devam etmek",
+          "en": "Open the window and carry on"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Müziğin sesini sonuna kadar açmak",
+          "en": "Turn the music right up"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Güvenli bir yerde durup dinlenmek",
+          "en": "Stop somewhere safe and rest"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Biraz hızlanıp yolculuğu kısaltmak",
+          "en": "Speed up a little to finish the journey sooner"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Açık cam ve yüksek müzik uykuyu ancak kısa süre erteler. Tek gerçek çözüm durup dinlenmek, gerekirse kısa bir süre uyumaktır.",
+      "en": "Fresh air and loud music only delay sleep briefly. The only real fix is to stop and rest, with a short nap if needed."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.fatigue-plan",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yarın uzun bir yolculuk yapacaksın. Yorgunluğu önlemek için ne yaparsın?",
+      "en": "You have a long drive tomorrow. How do you avoid fatigue?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Trafiğe takılmamak için gece geç saatte yola çıkarsın",
+          "en": "Set off late at night to avoid the traffic"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yolu erken bitirmek için hiç mola vermezsin",
+          "en": "Take no breaks so you finish early"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "İyi uyur, molaları önceden planlarsın",
+          "en": "Sleep well and plan your breaks in advance"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Bol enerji içeceği alıp uykuyu ertelersin",
+          "en": "Buy energy drinks and put off sleeping"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Dinlenmiş başlamak ve düzenli mola vermek yorgunluğu önler. Normalde uyuduğun saatlerde sürmek riski artırır.",
+      "en": "Starting rested and taking regular breaks prevents fatigue. Driving at times when you would normally be asleep raises the risk."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.medicine-drowsy",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Doktorun yeni bir ilaç yazdı ve prospektüste uyku hali yapabileceği yazıyor. Ne yaparsın?",
+      "en": "Your doctor has prescribed a new medicine and the leaflet says it may cause drowsiness. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kendini iyi hissettiğin sürece her zamanki gibi sürersin",
+          "en": "Drive as usual as long as you feel fine"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Doktoruna sorar, etkisini öğrenene kadar sürmezsin",
+          "en": "Ask your doctor and do not drive until you know how it affects you"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "İlacı bir kahveyle alıp sürersin",
+          "en": "Take it with a coffee and drive"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Dozu kendi kararınla azaltıp sürersin",
+          "en": "Cut the dose yourself and drive"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Bazı ilaçlar tepkiyi ve dikkati alkol gibi bozar. Prospektüsteki uyarıyı ciddiye al; ilacı kendi başına bırakma ya da değiştirme.",
+      "en": "Some medicines slow reactions and attention in the same way as alcohol. Take the leaflet warning seriously, and do not stop or change your medicine without advice."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.drugs-feel-fine",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir arkadaşın keyif verici bir madde kullandı ve araç kullanacak kadar iyi olduğunu söylüyor. Doğru olan hangisi?",
+      "en": "A friend has taken a recreational drug and says they are fine to drive. What is true?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kendini iyi hissediyorsa ve yol kısaysa sürmesinde sakınca yoktur",
+          "en": "If they feel fine and the trip is short, it is safe for them to drive"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız gece sürmemesi yeterlidir",
+          "en": "It is enough for them to avoid driving at night"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yavaş giderse güvenle sürebilir",
+          "en": "They can drive safely if they go slowly"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Bu maddeler, kişi fark etmese de algıyı ve tepkiyi bozar",
+          "en": "These drugs impair perception and reactions even if the user does not notice"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Uyuşturucular mesafe ve hız algısını, dikkati ve tepkiyi bozar; kullanan kişi bunu çoğu zaman fark etmez. Ona araç kullandırma, başka bir yol bul.",
+      "en": "Drugs distort judgement of distance and speed, attention and reactions, and users often do not notice. Do not let them drive; find another way home."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.glasses",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Uzağı net görmek için gözlük kullanıyorsun. Araç kullanırken ne yaparsın?",
+      "en": "You need glasses to see clearly at a distance. What do you do when driving?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Her sürüşte gözlüğünü takarsın",
+          "en": "Wear them every time you drive"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız uzun yolculuklarda takarsın",
+          "en": "Wear them only on long journeys"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız gece sürerken takarsın",
+          "en": "Wear them only when driving at night"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "İyi bildiğin yollarda takmazsın",
+          "en": "Leave them off on roads you know well"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Levhaları, yayaları ve tehlikeleri zamanında görmek için net görüş gerekir. İyi bildiğin bir yolda da beklenmedik bir tehlike çıkabilir.",
+      "en": "You need clear vision to see signs, pedestrians and hazards in time. Something unexpected can happen on a familiar road too."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.eyesight-worse",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Son zamanlarda levhaları her zamankinden geç okuyabildiğini fark ettin. Ne yaparsın?",
+      "en": "Lately you notice you can only read signs later than you used to. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Levhalara yaklaşınca daha çok yavaşlarsın, başka bir şey gerekmez",
+          "en": "Slow down more near signs; nothing else is needed"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız gündüz sürersin, muayeneye gerek görmezsin",
+          "en": "Drive only by day and see no need for a test"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Levhaları yolcunun okumasını istersin",
+          "en": "Ask your passenger to read the signs for you"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Gözlerini muayene ettirirsin",
+          "en": "Get your eyes tested"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Görme çoğu zaman yavaş yavaş zayıflar ve insanlar bunu geç fark eder. Göz muayenesi sorunu erkenden bulur, çoğu zaman bir gözlük yeterli olur.",
+      "en": "Eyesight often fades slowly and people notice late. An eye test finds the problem early, and glasses are often enough."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.unwell",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Ateşin var ve kendini halsiz hissediyorsun. Kısa bir yolculuk için ne yaparsın?",
+      "en": "You have a fever and feel weak. What do you do about a short journey?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sürmez, başka birinden yardım istersin",
+          "en": "Do not drive; ask someone else for help"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kısa bir yol olduğu için her zamanki gibi sürersin",
+          "en": "Drive as usual, as it is only a short trip"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Camı açıp daha dikkatli sürersin",
+          "en": "Open the window and drive more carefully"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Ateş düşürücü alıp hemen yola çıkarsın",
+          "en": "Take something for the fever and set off straight away"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Hastalık ve halsizlik tepkini yavaşlatır, dikkatini azaltır. Kısa bir yolculuk da tam dikkat ister.",
+      "en": "Illness and weakness slow your reactions and reduce your attention. A short trip still needs full attention."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.anger",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bir sürücü önüne tehlikeli biçimde kırdı ve çok sinirlendin. Ne yaparsın?",
+      "en": "A driver cuts in dangerously in front of you and you feel very angry. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Arkasına yaklaşıp selektörle uyarırsın",
+          "en": "Close up behind and flash your headlights at them"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Onu hemen sollayıp önüne kırarak ona bir ders vermeye çalışırsın",
+          "en": "Overtake straight away and cut in front of them to teach them a lesson"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Mesafeni açar, sakinleşip kendi sürüşüne odaklanırsın",
+          "en": "Drop back, calm down and focus on your own driving"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yanına gelip camdan tartışırsın",
+          "en": "Pull alongside and argue through the window"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Öfke risk almayı artırır ve dikkatini yoldan alır. Karşılık vermek tartışmayı büyütür; geri çekilmek seni ve diğerlerini korur.",
+      "en": "Anger makes you take more risks and takes your mind off the road. Retaliating makes things worse; backing off keeps everyone safe."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.upset-news",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Çok üzücü bir haber aldın ve hemen yola çıkman gerekiyor. En güvenli seçim hangisi?",
+      "en": "You have just had very upsetting news and need to travel at once. What is the safest choice?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hemen yola çıkıp hızlı sürmek",
+          "en": "Set off at once and drive fast"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Aklını dağıtmak için müziği yüksek sesle açıp yola çıkmak",
+          "en": "Put loud music on to take your mind off it and set off"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sakinleşene kadar beklemek ya da başkasının sürmesi",
+          "en": "Wait until you are calmer, or let someone else drive"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Tenha ara yolları seçip sürmek",
+          "en": "Take quiet back roads and drive"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Yoğun duygular dikkatini yoldan alır ve tehlikeyi geç fark etmene yol açar. Kısa bir bekleme bile fark yaratır.",
+      "en": "Strong emotions pull your attention away from the road and make you slow to spot danger. Even a short wait helps."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "personal.glance-away",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Sürerken gözünü yoldan kısa bir an ayırmak neden tehlikelidir?",
+      "en": "Why is it dangerous to take your eyes off the road even briefly?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Araç o sırada görmeden epey yol alır",
+          "en": "The vehicle covers a lot of ground while you are not looking"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Tehlikeli değildir, kenar görüşün her şeyi yakalar",
+          "en": "It is not; your side vision catches everything"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız gece tehlikelidir, gündüz değildir",
+          "en": "It is only dangerous at night, not by day"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız şehir dışında, yüksek hızda bir sorun olur",
+          "en": "It only matters at high speed outside town"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Hızın ne olursa olsun, bakmadığın sürede araç ilerlemeye devam eder; yola çıkan bir yayayı ya da öndeki aracın frenini kaçırabilirsin. Radyo, yemek ve yolcular da bu anlara yol açar.",
+      "en": "Whatever your speed, the vehicle keeps moving while you look away, and you can miss a pedestrian stepping out or the car ahead braking. Radio, food and passengers can all cause these moments."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  }
+]

@@ -1,0 +1,1346 @@
+[
+  {
+    "id": "vehicle.pre-trip-checks",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Uzun bir yolculuğa çıkmadan önce aracında neleri kontrol edersin?",
+      "en": "Before a long journey, what do you check on your vehicle?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız yakıtı, çünkü gerisine serviste bakılır",
+          "en": "Only the fuel, because the garage looks after the rest"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız gösterge panelinde uyarı ışığı yanıp yanmadığını",
+          "en": "Only whether a warning lamp is lit on the dashboard"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız lastiklerin dışarıdan nasıl göründüğünü",
+          "en": "Only how the tyres look from the outside"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Lastikleri, motor yağını, soğutma suyunu, ışıkları ve frenleri",
+          "en": "Tyres, engine oil, coolant, lights and brakes"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Önlenebilir arızaların ve kazaların çoğuna lastik, fren, ışık ve sıvı eksikliği yol açar. Kısa bir kontrol bunları yola çıkmadan yakalar.",
+      "en": "Tyres, brakes, lights and low fluids cause most avoidable breakdowns and crashes. A short check catches them before you set off."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.tyre-pressure-cold",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Lastik basıncını ne zaman ölçmelisin?",
+      "en": "When should you check your tyre pressures?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Uzun bir yolculuğun hemen ardından, lastikler ısınmışken",
+          "en": "Straight after a long drive, while the tyres are warm"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız lastik gözle basık göründüğünde",
+          "en": "Only when a tyre looks flat"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Lastikler soğukken, yola çıkmadan önce",
+          "en": "When the tyres are cold, before you set off"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız serviste bakım yapılırken",
+          "en": "Only when the vehicle is serviced"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Isınan lastikte basınç olduğundan yüksek görünür. Ölçümü soğuk lastikte yap ve aracın kitapçığındaki değerlere göre ayarla.",
+      "en": "A warm tyre reads higher than it really is. Check the tyres cold and set them to the values in the vehicle handbook."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.worn-tread",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Lastik dişleri aşınmışsa ıslak yolda ne olur?",
+      "en": "What happens on a wet road if your tyre tread is worn?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Lastik yola daha iyi oturur, araç daha kısa mesafede durur",
+          "en": "The tyre sits better on the road and stops in a shorter distance"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız yakıt tüketimi artar, yol tutuşu değişmez",
+          "en": "Only fuel use rises; grip stays the same"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız lastikten gelen ses artar",
+          "en": "Only the tyre noise increases"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yol tutuşu azalır, durma mesafesi uzar",
+          "en": "Grip falls and stopping distances get longer"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Lastik dişleri suyu lastiğin altından dışarı atar. Diş azaldıkça su altta kalır, lastik kayar ve durman uzar.",
+      "en": "Tread grooves push water out from under the tyre. With less tread, water stays underneath, the tyre slides and you need longer to stop."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.shock-absorbers",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Araç tümseklerden sonra uzun süre yaylanıyor ve virajda yalpalıyor. Bu neyi gösterir?",
+      "en": "After bumps the vehicle keeps bouncing and it wallows in bends. What does this show?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Lastik basıncının tam olması gerektiği gibi olduğunu",
+          "en": "The tyre pressures are exactly right"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Aracın yeni ve yumuşak bir süspansiyonu olduğunu, bunun iyi olduğunu",
+          "en": "The vehicle has a new, soft suspension, which is a good thing"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız yolun bozuk olduğunu, araçta sorun olmadığını",
+          "en": "Only that the road is poor, not that anything is wrong with the vehicle"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Amortisörler aşınmış, kontrol ettirmelisin",
+          "en": "Worn shock absorbers that need checking"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Aşınmış amortisör lastiğin yola basmasını zayıflatır; fren mesafesi uzar ve araç virajda dengesizleşir.",
+      "en": "Worn shock absorbers stop the tyres pressing firmly on the road, so braking distances grow and the vehicle becomes unstable in bends."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.sidewall-damage",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Lastiğin yan yüzünde bir şişlik ya da derin bir kesik görüyorsun. Ne yaparsın?",
+      "en": "You see a bulge or a deep cut on the side wall of a tyre. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "O lastikle sürmez, lastiği değiştirirsin",
+          "en": "Do not drive on it; have the tyre changed"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Biraz hava ekleyip yola devam edersin",
+          "en": "Add a little air and carry on"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yavaş sürdüğün sürece kullanmaya devam edersin",
+          "en": "Keep using it as long as you drive slowly"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Bir sonraki bakımda bakılmasını beklersin",
+          "en": "Wait for it to be looked at during the next service"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Yan yüzdeki hasar lastiğin iç yapısının zayıfladığını gösterir. Böyle bir lastik yolda birden patlayabilir.",
+      "en": "Side-wall damage means the inner structure of the tyre is weakened. A tyre like this can burst without warning."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.spongy-brake",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Fren pedalı her zamankinden yumuşak ve daha derine iniyor. Bu neyi gösterebilir?",
+      "en": "The brake pedal feels softer than usual and goes further down. What could this mean?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Balataların yeni değiştiğini, durumun normal olduğunu",
+          "en": "The pads have just been changed and this is normal"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Lastik basıncının biraz yüksek olduğunu",
+          "en": "The tyre pressures are slightly high"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Frenlerin ısındığını ve daha iyi tuttuğunu",
+          "en": "The brakes have warmed up and grip better"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Fren sisteminde hava ya da sıvı kaçağı olabilir",
+          "en": "There may be air or a fluid leak in the brake system"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Yumuşak pedal, frenin tam basınç kuramadığını gösterir. Yola devam etmeden önce frenleri kontrol ettir.",
+      "en": "A soft pedal means the brakes cannot build full pressure. Have them checked before you drive on."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.brake-pulls",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Fren yaptığında araç bir yana çekiyor. En olası neden nedir?",
+      "en": "When you brake, the car pulls to one side. What is the most likely cause?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yolun hafif eğimli olması; bu durum her zaman normaldir",
+          "en": "A slight slope in the road, which is always quite normal"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yakıt deposunun neredeyse boş olması",
+          "en": "The fuel tank being nearly empty"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Tek taraflı fren arızası ya da farklı lastik basıncı",
+          "en": "A brake fault on one side or uneven tyre pressures"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Direksiyonun fazla sıkı tutulması",
+          "en": "Holding the steering wheel too tightly"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "İki taraftaki frenler ya da lastikler eşit tutmazsa araç fren altında yön değiştirir. Basınçları ölç, düzelmezse frenleri kontrol ettir.",
+      "en": "If the brakes or tyres on each side do not grip equally, the car changes direction under braking. Check the pressures and have the brakes inspected if it continues."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.brake-fluid-low",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Fren hidroliği, haznedeki en düşük seviye çizgisinin altına inmiş. Doğru yaklaşım hangisi?",
+      "en": "The brake fluid has dropped below the minimum mark on the reservoir. What is the right approach?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sıvıyı tamamlayıp nedenini serviste araştırtmak",
+          "en": "Top it up and have the cause checked at a garage"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Beklemek, çünkü seviye zamanla kendiliğinden yükselir",
+          "en": "Wait, because the level rises again on its own"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hazneyi suyla tamamlamak",
+          "en": "Top up the reservoir with water"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız fren pedalına daha sert basmak",
+          "en": "Just press the brake pedal harder"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Fren hidroliği kendiliğinden azalmaz; düşüş kaçağa ya da aşınmış balataya işaret eder. Hazneye yalnız aracın kitapçığında yazan sıvıyı koy.",
+      "en": "Brake fluid does not disappear on its own; a drop points to a leak or worn pads. Use only the fluid named in the handbook."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.oil-check",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Motor yağı seviyesini doğru ölçmek için ne yaparsın?",
+      "en": "How do you check the engine oil level correctly?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Motor çalışırken, araç yokuştayken yağ çubuğuna bakarsın",
+          "en": "Read the dipstick with the engine running on a slope"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Düz bir yerde motoru kapatıp yağ çubuğuna bakarsın",
+          "en": "Switch off on level ground and read the dipstick"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız gösterge panelindeki yağ ışığını izlersin",
+          "en": "Only watch the oil lamp on the dashboard"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yağ kapağını açıp içeri el feneriyle bakarsın",
+          "en": "Open the filler cap and look inside with a torch"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Eğimli yerde ya da motor çalışırken çubuk yanlış seviye gösterir. Yağ, çubuktaki en düşük ve en yüksek işaretler arasında olmalıdır.",
+      "en": "On a slope or with the engine running the dipstick gives a false reading. The oil should be between the minimum and maximum marks."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.oil-pressure-lamp",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Sürerken kırmızı yağ basıncı uyarı ışığı yandı. Ne yaparsın?",
+      "en": "While you are driving, the red oil pressure warning lamp comes on. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Gideceğin yere kadar sürüp orada bakarsın",
+          "en": "Drive to where you are going and look at it there"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Motoru yüksek devirde çalıştırıp ışığın sönmesini beklersin",
+          "en": "Rev the engine hard and wait for the lamp to go out"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Güvenli bir yerde en kısa sürede durup motoru kapatırsın",
+          "en": "Stop somewhere safe as soon as you can and switch off the engine"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Işığı önemsemezsin, çünkü yalnız bakım zamanını gösterir",
+          "en": "Ignore it, because it only shows that a service is due"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Bu ışık motorun yeterince yağlanmadığını söyler. Sürmeye devam edersen motor kısa sürede ağır hasar görebilir.",
+      "en": "This lamp means the engine is not being lubricated properly. If you keep driving, the engine can be badly damaged within a short time."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.red-warning-lamp",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Gösterge panelinde yanan kırmızı bir uyarı ışığı genelde ne anlama gelir?",
+      "en": "What does a red warning lamp on the dashboard usually mean?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Ciddi bir sorun var, güvenli bir yerde durmalısın",
+          "en": "A serious problem; you should stop somewhere safe"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Bir sistem açık, örneğin uzun farlar yanıyor",
+          "en": "A system is switched on, for example main beam"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız bir sonraki bakımın yaklaştığını",
+          "en": "Only that the next service is coming up"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sorun yok, ışık bir süre sonra kendiliğinden söner",
+          "en": "Nothing is wrong; it goes out by itself after a while"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Çoğu araçta kırmızı ışık ciddi bir arızayı, sarı ışık yakında kontrol gereken bir durumu gösterir. Her ışığın anlamı aracın kitapçığında yazar.",
+      "en": "In most vehicles red marks a serious fault and amber means something needs checking soon. The handbook explains each lamp."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.brake-warning-lamp",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "El frenini indirdiğin halde fren uyarı ışığı sönmüyor. Bu neyi gösterebilir?",
+      "en": "The brake warning lamp stays on after you release the handbrake. What could it mean?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Aracın yokuşta durduğunu, bunun normal olduğunu",
+          "en": "The car is standing on a slope, which is normal"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Motorun henüz ısınmadığını",
+          "en": "The engine has not warmed up yet"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Farların kısa huzmede açık olduğunu",
+          "en": "The headlights are on dipped beam"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Fren hidroliği azalmış ya da fren sisteminde arıza var",
+          "en": "Low brake fluid or a fault in the brake system"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "El freni indirilmişken bu ışık yanıyorsa fren sisteminde sorun olabilir. Aracı kullanmadan önce kontrol ettir.",
+      "en": "If this lamp stays on with the handbrake off, the brake system may have a problem. Have it checked before you drive."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.coolant-cap-hot",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Motor aşırı ısındı. Soğutma suyu kapağı için doğru olan hangisi?",
+      "en": "The engine has overheated. What is right about the coolant cap?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kapağı hemen açıp soğuk su eklersin",
+          "en": "Open it straight away and pour in cold water"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Motor soğuyana kadar kapağı açmazsın",
+          "en": "Do not open it until the engine has cooled"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Buhar çıksın diye kapağı motor çalışırken açarsın",
+          "en": "Open it with the engine running to let the steam out"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kapağı çıkarıp yola kapaksız devam edersin",
+          "en": "Take the cap off and drive on without it"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Sıcak motorda soğutma suyu basınç altındadır. Kapağı açarsan kaynar sıvı fışkırıp seni yakabilir.",
+      "en": "Hot coolant is under pressure. Opening the cap can spray boiling liquid over you."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.lights-walkaround",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Araç ışıklarının çalıştığını nasıl kontrol edersin?",
+      "en": "How do you check that your vehicle lights work?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız gece sürerken önüne düşen ışığa bakarsın",
+          "en": "Only look at the beam in front of you when driving at night"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Panelde ışık simgesi yanıyorsa hepsinin çalıştığını kabul edersin",
+          "en": "Assume they all work if the light symbol shows on the dashboard"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Aracın çevresinde dolaşır, stop lambaları için yardım alırsın",
+          "en": "Walk round the vehicle and get help with the brake lights"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız serviste kontrol edilmesini beklersin",
+          "en": "Wait for them to be checked at a service"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Panel simgesi düğmenin açık olduğunu söyler, ampulün yandığını söylemez. Stop lambalarını kendin göremezsin; bir yardımcı ya da cam veya duvardaki yansıma işini görür.",
+      "en": "The dashboard symbol shows the switch is on, not that the bulb works. You cannot see your own brake lights, so use a helper or a reflection in a window or wall."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.faulty-lights-offence",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Aracının ışıkları kurallara uygun çalışmıyor. KKTC'deki ceza listesine göre bu nedir?",
+      "en": "Your vehicle lights do not work as the rules require. Under the KKTC fines list, what is this?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız sözlü uyarı gerektiren bir eksiklik",
+          "en": "A defect that only earns a verbal warning"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız ticari araçlar için suç olan bir durum",
+          "en": "An offence only for commercial vehicles"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Para cezası ve ceza puanı gerektiren bir suç",
+          "en": "An offence with a fine and penalty points"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız kaza olursa önem taşıyan bir durum",
+          "en": "Something that matters only if there is a crash"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Basında yayımlanan ceza listesinde ışık kurallarına aykırılık, para cezası ve ceza puanıyla yer alır. Işıklar seni görünür kılar; bozuksa yola çıkmadan onar.",
+      "en": "The fines list published in the press includes light offences, with a fine and penalty points. Lights make you visible, so fix a fault before you drive."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s31",
+    "sourceRef": "ışık kurallarına aykırılık, 2023 ceza listesi",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.indicator-fast",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Sinyal lambası her zamankinden çok daha hızlı yanıp sönüyor. Bu genelde neyi gösterir?",
+      "en": "An indicator flashes much faster than usual. What does this usually mean?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Akünün tam dolu olduğunu",
+          "en": "The battery is fully charged"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sinyal ampullerinden birinin yanmadığını",
+          "en": "One of the indicator bulbs has failed"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Dörtlü flaşörlerin açık olduğunu",
+          "en": "The hazard warning lights are on"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Aracın hızlı gittiğini",
+          "en": "The vehicle is going fast"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Çoğu araçta bir ampul yandığında sinyal hızlanır. Diğerleri dönüşünü göremeyebilir, ampulü hemen değiştir.",
+      "en": "In most vehicles the flash rate speeds up when a bulb fails. Others may not see your signal, so replace the bulb soon."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.mirrors-before-moving",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Aynalarını ne zaman ayarlarsın?",
+      "en": "When do you adjust your mirrors?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Koltuğu ayarladıktan sonra, yola çıkmadan önce",
+          "en": "After setting your seat, before moving off"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sürerken, trafiğin sakin olduğu ilk düz yola geldiğinde",
+          "en": "While driving, on the first quiet straight road you reach"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız geri manevra yapacağın zaman",
+          "en": "Only when you are about to reverse"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız aracı başka biri kullandıysa",
+          "en": "Only if someone else has driven the car"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Göz hizan koltuğa göre değişir, bu yüzden önce koltuk ayarlanır. Sürerken ayna ayarlamak dikkatini yoldan alır.",
+      "en": "Your eye position depends on the seat, so set the seat first. Adjusting mirrors on the move takes your attention off the road."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.mirror-blind-spot",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Soldaki kaldırım kenarından yola çıkacaksın ve aynalarda kimse görünmüyor. Son olarak ne yaparsın?",
+      "en": "You are about to pull out from the left-hand kerb and the mirrors look clear. What do you do last?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Aynalarda kimse görünmediği için beklemeden hemen çıkarsın",
+          "en": "Pull out at once without waiting, since the mirrors are clear"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sol omzunun üstünden kaldırıma bakarsın",
+          "en": "Look over your left shoulder at the pavement"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sağ omzunun üstünden bakıp kör noktayı kontrol edersin",
+          "en": "Look over your right shoulder to check the blind spot"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kornaya basıp çıkacağını haber verirsin",
+          "en": "Sound the horn to say you are pulling out"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Aynalar aracın hemen yanındaki bir bölümü göstermez. KKTC'de kaldırımdan yola sağa doğru çıktığın için sağ omzunun üstünden bakarsın.",
+      "en": "Mirrors leave an area beside the vehicle unseen. In KKTC you pull out from the kerb to the right, so you look over your right shoulder."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.wipers-smear",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Silecekler camda iz bırakıp görüşü bulanıklaştırıyor. Ne yaparsın?",
+      "en": "The wipers leave smears and blur your view. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Silecek lastiklerini değiştirir, cam suyunu tamamlarsın",
+          "en": "Replace the wiper blades and top up the washer fluid"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız yağmurda biraz daha yavaş sürersin",
+          "en": "Just drive a little slower in the rain"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Silecekleri hep en hızlı konumda çalıştırırsın",
+          "en": "Always run the wipers on the fastest setting"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Camı kuru bir bezle silip eski lastiklerle devam edersin",
+          "en": "Wipe the glass with a dry cloth and keep the old blades"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Aşınmış silecek, özellikle gece ve karşıdan gelen farlarda görüşü ciddi biçimde bozar. Silecek lastiği ucuz ve kolay değişen bir parçadır.",
+      "en": "Worn blades badly reduce your view, especially at night against oncoming headlights. Blades are cheap and quick to replace."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.heavy-steering",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Direksiyon birden her zamankinden çok ağırlaştı. Ne yaparsın?",
+      "en": "The steering suddenly becomes much heavier than usual. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Güvenli bir yerde durup lastikleri ve direksiyonu kontrol ettirirsin",
+          "en": "Stop somewhere safe and have the tyres and steering checked"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Direksiyonu daha sert çevirerek yola devam edersin",
+          "en": "Turn the wheel harder and carry on"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hızlanırsın, çünkü direksiyon hızla birlikte hafifler",
+          "en": "Speed up, because the steering gets lighter as you go faster"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Önemsemezsin, çünkü sıcak havada bu her zaman olur",
+          "en": "Ignore it, because this always happens in hot weather"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Ağırlaşan direksiyon inmiş bir lastiğe ya da direksiyon desteğinin arızasına işaret eder. Böyle bir araçta ani bir manevra yapmak zorlaşır.",
+      "en": "Heavy steering points to a flat tyre or a fault in the power steering. In that state the vehicle is hard to steer in an emergency."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.battery-warning-lamp",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Sürerken akü biçimindeki kırmızı uyarı ışığı yandı. Bu genelde neyi gösterir?",
+      "en": "While you are driving, the red battery-shaped warning lamp comes on. What does this usually show?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Akünün tam dolduğunu, şarjın kesildiğini",
+          "en": "The battery is fully charged and charging has stopped"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Farların açık unutulduğunu, başka bir sorun olmadığını",
+          "en": "The headlights have been left on and nothing else is wrong"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Radyonun sesinin çok yüksek olduğunu",
+          "en": "The radio volume is too high"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Şarj sisteminde arıza var, araç kısa sürede durabilir",
+          "en": "A charging fault; the vehicle may soon stop running"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Bu ışık aküyü dolduran sistemin çalışmadığını söyler; araç akü bitene kadar gider, sonra durur. Güvenli bir yerde dur ve kontrol ettir.",
+      "en": "This lamp means the system that charges the battery has stopped working; the vehicle runs until the battery is flat and then stops. Stop somewhere safe and have it checked."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.headlight-aim",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kısa farla gittiğin halde karşıdan gelen sürücüler sürekli selektör yapıyor. En olası neden nedir?",
+      "en": "You are on dipped beam, yet oncoming drivers keep flashing their headlights at you. What is the most likely cause?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Farların çok zayıf, seni göremiyorlar",
+          "en": "Your headlights are too dim for them to see you"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Farların ayarı bozuk, karşıdakileri kamaştırıyor",
+          "en": "Your headlights are aimed too high and dazzle them"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sana yol vermek istiyorlar",
+          "en": "They want to give way to you"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hız sınırını aştığını haber veriyorlar",
+          "en": "They are telling you that you are speeding"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Ampul değişimi ya da ağır yük farların yukarı bakmasına yol açabilir. Varsa far ayar düğmesini kullan, yoksa ayarı serviste yaptır.",
+      "en": "A bulb change or a heavy load can tilt the beam upwards. Use the headlight levelling control if there is one, or have the aim adjusted at a garage."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.heavy-load-handling",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Aracın yolcu ve eşyayla tam dolu. Sürüşte ne değişir?",
+      "en": "Your vehicle is full of passengers and luggage. What changes when you drive?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yük aracı yola bastırdığı için daha kısa mesafede durur",
+          "en": "It stops in a shorter distance because the load presses it onto the road"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Durma mesafesi uzar, araç virajlarda daha ağır davranır",
+          "en": "Stopping distances grow and the vehicle feels heavier in bends"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yakıt tüketiminin biraz artması dışında hiçbir şey değişmez",
+          "en": "Nothing changes apart from a slight rise in fuel use"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız geri manevra zorlaşır",
+          "en": "Only reversing becomes harder"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Ağırlık arttıkça fren ve lastiklerin durdurması gereken kütle artar. Takip mesafesini aç; kitapçık istiyorsa lastik basıncını ve far ayarını yüke göre düzelt.",
+      "en": "More weight means more mass for the brakes and tyres to stop. Leave a bigger gap, and adjust tyre pressures and headlight aim for the load if the handbook says so."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "vehicle.overloading",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Aracı üreticinin izin verdiğinden fazla yüklemek neye yol açar?",
+      "en": "What happens if you load a vehicle beyond the maker's limit?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yol tutuşu artar, virajlar daha kolay alınır",
+          "en": "Road holding improves and bends are easier"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Fren, direksiyon ve lastikler zorlanır, kaza riski artar",
+          "en": "Brakes, steering and tyres are overworked and crash risk rises"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız bagaj kapağı zor kapanır",
+          "en": "Only the boot lid becomes hard to close"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Ağır yüklü araç zaten daha yavaş gittiği için kaza riski azalır",
+          "en": "Crash risk falls because a heavily loaded vehicle goes slower anyway"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Her aracın taşıyabileceği bir yük sınırı vardır. Sınır aşılırsa frenler geç durdurur, lastikler aşırı ısınıp patlayabilir.",
+      "en": "Every vehicle has a load limit. Above it the brakes take longer to stop you and the tyres can overheat and burst."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  }
+]

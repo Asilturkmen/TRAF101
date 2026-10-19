@@ -1,0 +1,134 @@
+{
+  "id": "vulnerable",
+  "title": {
+    "tr": "Yayalar ve iki tekerlekliler",
+    "en": "Pedestrians and riders"
+  },
+  "summary": {
+    "tr": "Yayalar, bisikletliler, motosikletliler ve çocuklar bir çarpışmada korunmasızdır; onları erken gör ve onlara yer bırak.",
+    "en": "Pedestrians, cyclists, motorcyclists and children have no protection in a crash; spot them early and give them room."
+  },
+  "sections": [
+    {
+      "heading": {
+        "tr": "Yaya geçidinde",
+        "en": "At pedestrian crossings"
+      },
+      "body": {
+        "tr": "Yaya geçidine yaklaşırken yavaşla. Geçitte bir yaya varsa ya da geçmeye **hazırlanıyorsa** dur ve yol ver.\n\nHazırlanan yaya, kaldırımın kenarında bekleyen, geçide doğru yürüyen ya da sana bakıp bekleyen kişidir. Durduğunda çizginin biraz gerisinde dur ki yan şeritteki sürücüler de yayayı görsün.\n\nGeçidin önünde duran bir aracı geçme. Önünde senin göremediğin bir yaya olabilir.",
+        "en": "Slow down as you approach a pedestrian crossing. If a pedestrian is on the crossing or **preparing to cross**, stop and give way.\n\nSomeone preparing to cross may be waiting at the kerb, walking towards the crossing or looking at you and waiting. When you stop, stop a little before the line so drivers in the next lane can see the pedestrian too.\n\nNever pass a vehicle that has stopped at a crossing. There may be a pedestrian in front of it whom you cannot see."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Çocuklar, yaşlılar ve okul çevresi",
+        "en": "Children, older people and schools"
+      },
+      "body": {
+        "tr": "Çocuklar mesafeyi ve hızı iyi tahmin edemez; top ya da bir arkadaşının peşinden yola fırlayabilir. Yaşlılar ve engelli insanlar yolu daha yavaş geçer.\n\n- Okul ve park çevresinde hızını düşür ve yerel levhaya uy.\n- Park etmiş araçların arasını izle; oradan bir çocuk çıkabilir.\n- Okul servisi ya da otobüs dururken yanından yavaş geç.\n- Yaya geçidin dışında yoldaysa bile ona çarpmamak için her şeyi yap.",
+        "en": "Children cannot judge distance and speed well and may run into the road after a ball or a friend. Older and disabled people cross more slowly.\n\n- Slow down around schools and parks and obey the local sign.\n- Watch the gaps between parked cars; a child may step out.\n- Pass a stopped school bus or service bus slowly.\n- Even if a pedestrian is in the road away from a crossing, do everything you can to avoid them."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Bisikletliler ve motosikletliler",
+        "en": "Cyclists and motorcyclists"
+      },
+      "body": {
+        "tr": "İki tekerlekliler küçük oldukları için aynada ve kör noktada kaybolur. Sol trafikte en tehlikeli anlar şunlardır:\n\n- **Sola dönerken:** bisikletli ya da motosikletli senin solundan, kaldırım tarafından gelebilir. Dönmeden önce sol aynana ve sol omzunun üstüne bak.\n- **Sağa dönerken:** karşıdan gelen motosikletin hızını tahmin etmek zordur. Emin değilsen bekle.\n- **Sollarken:** iki tekerliyi bir otomobil gibi sağından ve geniş bir boşluk bırakarak solla.\n- **Kapı açarken:** önce arkana bak.\n\nBozuk yol, rüzgar ya da bir çukur yüzünden bisikletlinin aniden yana kayabileceğini unutma.",
+        "en": "Two-wheelers are small and disappear in mirrors and blind spots. In left-hand traffic the most dangerous moments are:\n\n- **Turning left:** a cyclist or motorcyclist may be coming up on your left, on the kerb side. Before you turn, check your left mirror and look over your left shoulder.\n- **Turning right:** an oncoming motorcycle's speed is hard to judge. If you are not sure, wait.\n- **Overtaking:** pass a two-wheeler as you would a car, on its right and with plenty of room.\n- **Opening a door:** look behind you first.\n\nRemember that a cyclist may swerve suddenly because of a bad surface, wind or a pothole."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Elektrikli scooter ve e-moped",
+        "en": "E-scooters and e-mopeds"
+      },
+      "body": {
+        "tr": "Hızı en fazla 30 km/sa, gücü 351 W'tan az olan elektrikli scooter ve e-mopedler için ehliyet gerekmez. Ama sürücü en az 18 yaşında olmalıdır.\n\nBu araçlar şehirler arası yollarda ve hız sınırı 50 km/sa üzerinde olan yollarda kullanılamaz. E-moped sürücüsünün kask takması zorunludur. Daha hızlı araçlar için J, H1, H2 ya da H ehliyeti gerekir.",
+        "en": "E-scooters and e-mopeds with a top speed of 30 km/h and less than 351 W of power need no licence. The rider must be at least 18, though.\n\nThey may not be used on intercity roads or on roads with a limit above 50 km/h. E-moped riders must wear a helmet. Faster vehicles need a J, H1, H2 or H licence."
+      },
+      "basis": "law",
+      "sourceId": "s39",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Hayvanlar",
+        "en": "Animals"
+      },
+      "body": {
+        "tr": "Kırsal yollarda koyun, keçi ya da inek sürüsüyle karşılaşabilirsin. Evcil hayvan levhasını gördüğünde yavaşla.\n\n- Sürüye yaklaşınca dur ya da çok yavaş geç.\n- Korna çalma, motoru bağırtma; hayvanlar ürker.\n- Çobanın işaretlerine uy.",
+        "en": "On rural roads you may meet a flock of sheep or goats or a herd of cows. Slow down when you see the domestic-animals sign.\n\n- When you reach the animals, stop or pass very slowly.\n- Do not sound the horn or rev the engine; animals panic.\n- Follow the herder's signals."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    }
+  ],
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Geçitte olan ya da geçmeye hazırlanan yayaya durup yol verirsin.",
+        "en": "You stop and give way to a pedestrian on a crossing or preparing to cross."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Yaya geçidinde yayaya yol vermemek 2023 ceza listesinde 20 ceza puanıdır.",
+        "en": "Failing to give way to a pedestrian on a crossing carries 20 penalty points in the 2023 list."
+      },
+      "basis": "secondary",
+      "sourceId": "s31",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Sola dönmeden önce sol aynana ve sol omzunun üstüne bak; iki tekerli solundan gelebilir.",
+        "en": "Before turning left, check your left mirror and look over your left shoulder; a two-wheeler may be on your left."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "E-scooter ve e-moped sürücüleri en az 18 yaşında olmalı; e-mopedde kask zorunludur.",
+        "en": "E-scooter and e-moped riders must be at least 18; e-moped riders must wear a helmet."
+      },
+      "basis": "law",
+      "sourceId": "s39",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Okul çevresinde hızını düşür ve yerel levhaya uy.",
+        "en": "Slow down near schools and obey the local sign."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    }
+  ],
+  "relatedSigns": [
+    "warning.pedestrian-crossing",
+    "information.pedestrian-crossing",
+    "warning.children",
+    "mandatory.cycle-route",
+    "prohibitory.no-pedestrians",
+    "warning.domestic-animals"
+  ],
+  "reviewedAt": "2026-10-20"
+}

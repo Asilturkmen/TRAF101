@@ -1,0 +1,54 @@
+{
+  "id": "sources",
+  "slug": { "tr": "kaynaklar", "en": "sources" },
+  "title": { "tr": "Kaynaklar", "en": "Sources" },
+  "summary": {
+    "tr": "Test2Drive'daki bilgilerin nereden geldiği, etiketlerin ne anlama geldiği ve bir hatayı nasıl bildireceğin. Kaynak listesi sayfanın altında.",
+    "en": "Where the information on Test2Drive comes from, what the labels mean and how to report a mistake. The list of sources is at the bottom of the page."
+  },
+  "sections": [
+    {
+      "heading": { "tr": "İçerik nasıl hazırlanıyor", "en": "How the content is prepared" },
+      "body": {
+        "tr": "Her kural, soru ve açıklama bir kaynağa dayanır. Önce KKTC yasalarını ve tüzüklerini, Resmi Gazete'yi, Bayındırlık ve Ulaştırma Bakanlığı ile Polis Genel Müdürlüğü'nün yayınlarını okuyoruz. Resmi bir metin bulamadığımızda yerel basına bakıyoruz. Bu haberler çoğu zaman polisin, bakanlığın ya da sürücü kursları birliğinin açıklamalarını aktarır.\n\nİki kural uyguluyoruz:\n\n- Kaynaklar birbiriyle çelişiyorsa o bilgiyi yayınlamıyoruz. Ağır kamyon ehliyeti için yaş sınırını bu yüzden yazmıyoruz.\n- Sayı içeren bir kuralın kaynağı yoksa sayıyı yazmıyoruz. Örneğin okul önünde hızını düşürmen gerektiğini söylüyoruz, ama kaynak bulamadığımız için bir hız değeri vermiyoruz.\n\nTürkiye'nin, güney Kıbrıs'ın ya da başka ülkelerin kurallarını KKTC kuralı gibi sunmuyoruz.",
+        "en": "Every rule, question and explanation rests on a source. We start with the laws and regulations of North Cyprus, the Official Gazette, and publications of the Ministry of Public Works and Transport and the Police. When we cannot find an official text, we look at the local press. These reports usually quote the police, the ministry or the driving-school union.\n\nWe follow two rules:\n\n- If sources contradict each other, we do not publish that information. That is why we do not give an age limit for the heavy goods licence.\n- If a rule with a number has no source, we leave the number out. For example, we say you should slow down near schools, but we give no speed because we found no source for one.\n\nWe do not present rules from Turkey, the south of Cyprus or other countries as North Cyprus rules."
+      }
+    },
+    {
+      "heading": { "tr": "Üç etiket", "en": "Three labels" },
+      "body": {
+        "tr": "Her bilginin altında bu üç etiketten biri görünür:\n\n- **Kaynak:** bilgi bir KKTC yasasında, tüzüğünde ya da resmi bir kurumun yayınında yazılı. Etiketin yanında kaynağın adı ve varsa maddesi yazar, örneğin Yol Kuralları Yasası, md. 2.\n- **İkincil kaynak:** bilgi yalnız basında ya da bir sürücü kursunun açıklamasında geçiyor. Doğru olması muhtemel, ama resmi bir metinde görmedik. Haberin adı ve tarihi yazar.\n- **Genel uygulama:** KKTC mevzuatında yazılı bir kural bulamadık, ama soldan trafikte ve güvenli sürüşte doğru olan bu. Bu etiketi taşıyan hiçbir bilgide hız, alkol, ceza ya da süre gibi bir sayı yer almaz.",
+        "en": "One of these three labels appears under every piece of information:\n\n- **Source:** the information is written in a North Cyprus law or regulation, or in a publication of an official body. The label gives the name of the source and, where there is one, the article, for example Yol Kuralları Yasası, art. 2.\n- **Secondary source:** the information appears only in the press or in a driving school's statement. It is probably right, but we have not seen it in an official text. The label gives the title and date of the report.\n- **General practice:** we found no written rule in North Cyprus law, but this is what is right for driving on the left and for safe driving. Nothing with this label contains a number such as a speed, an alcohol limit, a fine or a time period."
+      }
+    },
+    {
+      "heading": { "tr": "Resmi bir kurum değiliz", "en": "We are not an official body" },
+      "body": {
+        "tr": "Test2Drive; Trafik Dairesi'nin, Bakanlığın ya da Polis'in sitesi değildir. Sınav, başvuru ve ücretlerde son sözü Trafik Dairesi ve sürücü kursun söyler. Burada okuduğun bir bilgi kursunun söylediğiyle çelişiyorsa kursuna uy ve bize bildir.",
+        "en": "Test2Drive is not a site of the Traffic Department, the ministry or the police. On exams, applications and fees, the Traffic Department and your driving school have the final word. If something you read here contradicts what your school tells you, follow your school and let us know."
+      }
+    },
+    {
+      "heading": { "tr": "Henüz doğrulanamayanlar", "en": "What we could not confirm yet" },
+      "body": {
+        "tr": "Bazı konularda resmi bir metin bulamadık. Örneğin acil araca hangi tarafa yanaşılacağı, çok şeritli çemberlerde şerit kuralları ve yanıp sönen sarı ışığın anlamı bunlardan. Bu maddelerin listesini tutuyoruz ve Trafik Dairesi'ne ya da bir sürücü kursuna sormayı planlıyoruz. Doğrulanan bir madde **Kaynak** etiketi alır ve kontrol tarihi güncellenir.",
+        "en": "On some points we found no official text, for example which side to pull over to for an emergency vehicle, lane rules on multi-lane roundabouts and the meaning of a flashing amber light. We keep a list of these points and plan to ask the Traffic Department or a driving school. When a point is confirmed, it gets the **Source** label and a new check date."
+      }
+    },
+    {
+      "heading": { "tr": "Hata bildir", "en": "Report a mistake" },
+      "body": {
+        "tr": "Yanlış ya da eskimiş bir bilgi gördüysen sayfanın altındaki **Hata bildir** bağlantısını kullan. Şunları yazman işimizi kolaylaştırır:\n\n- Hangi sayfada ya da hangi soruda olduğu\n- Neyin yanlış olduğu\n- Biliyorsan doğru bilginin kaynağı\n\nHer bildirimi kaynağıyla karşılaştırıyoruz. Doğrulanırsa içeriği ve kontrol tarihini güncelliyoruz.",
+        "en": "If you spot something wrong or out of date, use the **Report a mistake** link at the bottom of the page. It helps if you tell us:\n\n- Which page or question it is on\n- What is wrong\n- The source of the correct information, if you know it\n\nWe check every report against its source. If it holds up, we update the content and its check date."
+      }
+    },
+    {
+      "heading": { "tr": "Son kontrol", "en": "Last check" },
+      "body": {
+        "tr": "Kaynakların hepsi en son **20 Ekim 2026**'da kontrol edildi. Her kaynağın kendi kontrol tarihi aşağıdaki listede yazar. Bir yasa ya da tüzük değişirse ilgili sayfalar ve sorular yeniden gözden geçirilir.",
+        "en": "All sources were last checked on **20 October 2026**. Each source has its own check date in the list below. When a law or regulation changes, the pages and questions that depend on it are reviewed again."
+      }
+    }
+  ],
+  "reviewedAt": "2026-10-20"
+}

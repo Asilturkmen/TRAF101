@@ -1,0 +1,54 @@
+{
+  "id": "about",
+  "slug": { "tr": "hakkinda", "en": "about" },
+  "title": { "tr": "Hakkında", "en": "About" },
+  "summary": {
+    "tr": "Test2Drive, Doğu Akdeniz Üniversitesi'ndeki TRAF101 Trafik Güvenliği dersinde başlayan, KKTC ehliyet sınavına ücretsiz hazırlık sitesidir.",
+    "en": "Test2Drive is a free site for preparing for the North Cyprus driving theory exam. It began as a project in the TRAF101 Traffic Safety course at Eastern Mediterranean University."
+  },
+  "sections": [
+    {
+      "heading": { "tr": "Nasıl başladı", "en": "How it started" },
+      "body": {
+        "tr": "Test2Drive, Doğu Akdeniz Üniversitesi'nde (DAÜ) **TRAF101 Trafik Güvenliği** dersi için bir proje olarak başladı. Dersin öğretim üyesi Doç. Dr. Metin Kurt'tur. İlk sürüm yalnız İngilizceydi ve sloganı \"Practice. Evaluate. Drive Safe.\" idi.\n\nDers bittikten sonra siteyi herkesin kullanabileceği bir hazırlık aracına dönüştürmeye karar verdik. Bu sürümde içerik baştan yazıldı, her kural bir kaynağa ya da açık bir etikete bağlandı ve site Türkçe ile İngilizce olarak hazırlandı.",
+        "en": "Test2Drive started as a project for the **TRAF101 Traffic Safety** course at Eastern Mediterranean University (EMU, DAÜ in Turkish). The course instructor is Assoc. Prof. Dr. Metin Kurt. The first version was in English only, with the tagline \"Practice. Evaluate. Drive Safe.\"\n\nAfter the course we decided to turn the site into a preparation tool anyone can use. In this version the content was rewritten from scratch, every rule was tied to a source or a clear label, and the site was built in Turkish and English."
+      }
+    },
+    {
+      "heading": { "tr": "Kim yapıyor", "en": "Who makes it" },
+      "body": {
+        "tr": "Siteyi **Asil Türkmen** ve **Arda Günsüren** hazırlıyor. Projeye DAÜ'de öğrenciyken başladık.",
+        "en": "The site is made by **Asil Türkmen** and **Arda Günsüren**. We started the project as students at EMU."
+      }
+    },
+    {
+      "heading": { "tr": "Neden var", "en": "Why it exists" },
+      "body": {
+        "tr": "KKTC'de ehliyet almak isteyen biri için kuralları tek yerde, iki dilde ve kaynağıyla anlatan bir kaynak bulmak zor. Resmi trafik eğitim kitabının herkese açık bir kopyasını bulamadık. İnternetteki soruların bir kısmı Türkiye'nin, güney Kıbrıs'ın ya da sağdan trafiğin kurallarına göre yazılmış.\n\nUluslararası öğrenciler için iş daha da zor: hem soldan trafiğe alışmaları hem de ehliyetlerini çevirmeleri gerekiyor. Test2Drive bu boşluğu KKTC'nin kendi kurallarıyla ve soldan trafiğe göre yazılmış sorularla doldurmaya çalışıyor.",
+        "en": "If you want a licence in North Cyprus, it is hard to find one place that explains the rules in two languages and says where each rule comes from. We could not find a public copy of the official traffic education book. Some of the questions online are written for Turkey, for the south of Cyprus or for right-hand traffic.\n\nIt is harder still for international students, who have to get used to driving on the left and convert their licence. Test2Drive tries to fill this gap with North Cyprus's own rules and questions written for driving on the left."
+      }
+    },
+    {
+      "heading": { "tr": "Ücretsiz, hesapsız, resmi değil", "en": "Free, no account, not official" },
+      "body": {
+        "tr": "- Site ücretsizdir.\n- Hesap açman gerekmez. İlerlemen yalnız bu tarayıcıda tutulur. Ayrıntılar Gizlilik sayfasında.\n- Test2Drive resmi bir hizmet değildir. Trafik Dairesi, Bakanlık, Polis ya da DAÜ adına konuşmaz. Sınavla ilgili son söz Trafik Dairesi'nindir.",
+        "en": "- The site is free.\n- You do not need an account. Your progress is kept only in this browser. See the Privacy page for details.\n- Test2Drive is not an official service. It does not speak for the Traffic Department, the ministry, the police or EMU. The Traffic Department has the final word on the exam."
+      }
+    },
+    {
+      "heading": { "tr": "Teşekkür", "en": "Thanks" },
+      "body": {
+        "tr": "Projenin başladığı yer olduğu için TRAF101 dersine ve Doç. Dr. Metin Kurt'a teşekkür ederiz. Sitedeki içeriğin doğruluğundan biz sorumluyuz.",
+        "en": "We thank the TRAF101 course and Assoc. Prof. Dr. Metin Kurt, because this is where the project began. We are responsible for the accuracy of the content on this site."
+      }
+    },
+    {
+      "heading": { "tr": "Bize ulaş", "en": "Contact" },
+      "body": {
+        "tr": "Bir hata gördüysen ya da önerin varsa sayfanın altındaki **Hata bildir** bağlantısını kullan. İçeriğin nasıl hazırlandığını Kaynaklar sayfasında anlatıyoruz.",
+        "en": "If you spot a mistake or have a suggestion, use the **Report a mistake** link at the bottom of the page. The Sources page explains how the content is prepared."
+      }
+    }
+  ],
+  "reviewedAt": "2026-10-20"
+}

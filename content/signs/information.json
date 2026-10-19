@@ -1,0 +1,605 @@
+[
+  {
+    "id": "information.parking",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/parking.svg",
+      "alt": {
+        "tr": "Mavi kare; ortasında büyük beyaz P harfi.",
+        "en": "Blue square with a large white letter P."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "park-yeri",
+      "en": "parking"
+    },
+    "name": {
+      "tr": "Park yeri",
+      "en": "Parking"
+    },
+    "meaning": {
+      "tr": "Burada ya da gösterilen yönde park yeri var.",
+      "en": "There is a parking place here or in the direction shown."
+    },
+    "driverAction": {
+      "tr": "Park edeceksen burayı kullan ve ek levhada süre ya da ücret yazıyorsa ona uy.",
+      "en": "Use this place if you want to park, and follow any time or charge shown on a plate."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-parking",
+        "tip": {
+          "tr": "Kare levhadaki P park yerini gösterir; kırmızı halkalı mavi daire park yasağıdır.",
+          "en": "A P on a square sign marks parking; a blue disc with a red ring bans it."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-parking",
+      "prohibitory.no-stopping"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.hospital",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/hospital.svg",
+      "alt": {
+        "tr": "Mavi kare; ortasında büyük beyaz H harfi.",
+        "en": "Blue square with a large white letter H."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "hastane",
+      "en": "hospital"
+    },
+    "name": {
+      "tr": "Hastane",
+      "en": "Hospital"
+    },
+    "meaning": {
+      "tr": "Yakında bir hastane var.",
+      "en": "There is a hospital nearby."
+    },
+    "driverAction": {
+      "tr": "Sessiz ve dikkatli sür; ambulanslara ve yola çıkabilecek hastalara karşı hazırlıklı ol.",
+      "en": "Drive quietly and carefully; be ready for ambulances and for patients crossing the road."
+    },
+    "confusions": [
+      {
+        "with": "information.first-aid",
+        "tip": {
+          "tr": "H harfi hastaneyi, kızılay simgesi ilk yardım noktasını gösterir.",
+          "en": "The letter H shows a hospital; the red crescent shows a first-aid point."
+        }
+      }
+    ],
+    "related": [
+      "information.first-aid",
+      "prohibitory.no-horns"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.pedestrian-crossing",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/pedestrian-crossing.svg",
+      "alt": {
+        "tr": "Mavi kare; içinde beyaz üçgen, üçgenin içinde yaya geçidi çizgileri üzerinde yürüyen siyah figür.",
+        "en": "Blue square containing a white triangle with a black figure walking over zebra stripes."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yaya-gecidi",
+      "en": "pedestrian-crossing"
+    },
+    "name": {
+      "tr": "Yaya geçidi",
+      "en": "Pedestrian crossing"
+    },
+    "meaning": {
+      "tr": "Yaya geçidi tam burada.",
+      "en": "This is the pedestrian crossing."
+    },
+    "driverAction": {
+      "tr": "Geçitte ya da geçmeye hazırlanan yaya varsa dur ve yol ver. Geçidin üzerinde ve hemen yakınında sollama yapma, park etme.",
+      "en": "Stop and give way to anyone on the crossing or about to step onto it. Do not overtake or park on or near the crossing."
+    },
+    "confusions": [
+      {
+        "with": "warning.pedestrian-crossing",
+        "tip": {
+          "tr": "Mavi kare geçidin yerini, kırmızı üçgen ise geçidin yaklaştığını gösterir.",
+          "en": "The blue square marks the crossing itself; the red triangle warns that one is coming."
+        }
+      }
+    ],
+    "related": [
+      "warning.pedestrian-crossing",
+      "warning.children"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Kalkanlı ve Lefkoşa'da fotoğraflandı.",
+        "en": "Photographed in Kalkanlı and Lefkoşa."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.one-way-street",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/one-way-street.svg",
+      "alt": {
+        "tr": "Mavi kare; ortasında yukarı bakan beyaz ok.",
+        "en": "Blue square with a white arrow pointing up."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "tek-yonlu-yol",
+      "en": "one-way-street"
+    },
+    "name": {
+      "tr": "Tek yönlü yol",
+      "en": "One-way street"
+    },
+    "meaning": {
+      "tr": "Bu yolda trafik yalnız okun gösterdiği yönde akar.",
+      "en": "Traffic on this road runs only in the direction of the arrow."
+    },
+    "driverAction": {
+      "tr": "Yalnız ok yönünde git ve döneceğin tarafa göre şeridini erken seç.",
+      "en": "Drive only in the direction of the arrow and choose your lane early for the way you will turn."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.ahead-only",
+        "tip": {
+          "tr": "Mavi kare yolun tek yönlü olduğunu bildirir; mavi daire düz gitmeyi zorunlu kılar.",
+          "en": "The blue square tells you the road is one-way; the blue disc orders you to go straight on."
+        }
+      },
+      {
+        "with": "prohibitory.no-entry",
+        "tip": {
+          "tr": "Tek yönlü yolun öbür ucunda girilmez levhası bulunur.",
+          "en": "The other end of a one-way road has a no-entry sign."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-entry",
+      "mandatory.ahead-only"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.dead-end",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/dead-end.svg",
+      "alt": {
+        "tr": "Mavi kare; içinde beyaz dikey çubuk ve üstünde kırmızı yatay çubuk.",
+        "en": "Blue square with a white vertical bar topped by a red horizontal bar."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "cikmaz-yol",
+      "en": "no-through-road"
+    },
+    "name": {
+      "tr": "Çıkmaz yol",
+      "en": "No through road"
+    },
+    "meaning": {
+      "tr": "İleride yol kapalı; başka bir yola çıkış yok.",
+      "en": "The road ahead is closed at the end; there is no way through."
+    },
+    "driverAction": {
+      "tr": "Bu yola yalnız gideceğin yer oradaysa gir; geri dönüşe yer olmayabilir.",
+      "en": "Only drive in if your destination is there; there may be little room to turn round."
+    },
+    "confusions": [
+      {
+        "with": "warning.t-junction",
+        "tip": {
+          "tr": "Mavi levhadaki kırmızı çubuk yolun bittiğini, üçgendeki T ise yolun bir kavşakla bittiğini gösterir.",
+          "en": "The red bar on a blue sign shows a dead end; the T in a triangle shows the road ends at a junction."
+        }
+      }
+    ],
+    "related": [
+      "warning.t-junction"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Kuzeyde fotoğraflandı.",
+        "en": "Photographed in the north."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.first-aid",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/first-aid.svg",
+      "alt": {
+        "tr": "Mavi kare; içinde beyaz kare üzerinde kırmızı hilal (kızılay), altında beyaz İLK YARDIM yazısı.",
+        "en": "Blue square with a red crescent on a white square and the words İLK YARDIM in white below."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "ilk-yardim",
+      "en": "first-aid"
+    },
+    "name": {
+      "tr": "İlk yardım",
+      "en": "First aid"
+    },
+    "meaning": {
+      "tr": "Yakında bir ilk yardım noktası var.",
+      "en": "There is a first-aid point nearby."
+    },
+    "driverAction": {
+      "tr": "Yaralı varsa ilk yardım için burayı kullanabilirsin; yine de 112 ve 155'i ara.",
+      "en": "You can use this point if someone is hurt; still call 112 and 155."
+    },
+    "confusions": [
+      {
+        "with": "information.hospital",
+        "tip": {
+          "tr": "Kızılay simgesi ilk yardım noktasını, H harfi hastaneyi gösterir.",
+          "en": "The red crescent marks a first-aid point; the letter H marks a hospital."
+        }
+      }
+    ],
+    "related": [
+      "information.hospital"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Kuzeyde kızılay simgeli Türkçe biçim kullanılır; levhanın ayrıntılı tasarımı doğrulanmadı.",
+        "en": "The north uses a Turkish version with a red crescent; the exact design has not been confirmed."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.bus-stop",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/bus-stop.svg",
+      "alt": {
+        "tr": "Mavi kare; içinde beyaz zemin üzerinde yandan görülen siyah otobüs.",
+        "en": "Blue square with a black bus seen from the side on a white panel."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "otobus-duragi",
+      "en": "bus-stop"
+    },
+    "name": {
+      "tr": "Otobüs durağı",
+      "en": "Bus stop"
+    },
+    "meaning": {
+      "tr": "Burada otobüs durağı var.",
+      "en": "There is a bus stop here."
+    },
+    "driverAction": {
+      "tr": "Durağa park etme. Duraktan kalkan otobüse ve inip binen yolculara dikkat et.",
+      "en": "Do not park at the stop. Watch for buses pulling out and for passengers getting on and off."
+    },
+    "confusions": [
+      {
+        "with": "information.taxi-rank",
+        "tip": {
+          "tr": "Otobüs çizimi otobüs durağını, TAKSİ yazısı taksi durağını gösterir.",
+          "en": "A bus drawing marks a bus stop; the word TAKSİ marks a taxi rank."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-stopping"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "Kuzeydeki durak levhalarının biçimi doğrulanmadı.",
+        "en": "The design of bus-stop signs in the north has not been confirmed."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.town-start",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/town-start.svg",
+      "alt": {
+        "tr": "Beyaz kenarlı mavi dikdörtgen; ortasında beyaz harflerle yerleşim yerinin adı (örnekte GİRNE).",
+        "en": "Blue rectangle with a white border and the place name in white letters (GİRNE in the example)."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yerlesim-yeri-girisi",
+      "en": "town-entry"
+    },
+    "name": {
+      "tr": "Yerleşim yeri girişi",
+      "en": "Entering a town or village"
+    },
+    "meaning": {
+      "tr": "Bir yerleşim yerine giriyorsun. Aksi bir levha yoksa şehir içi hız sınırı başlar.",
+      "en": "You are entering a town or village. Unless another sign says otherwise, the urban speed limit starts here."
+    },
+    "driverAction": {
+      "tr": "Hızını şehir içi sınırına düşür ve yayalara, kavşaklara, park eden araçlara dikkat et.",
+      "en": "Slow down to the urban limit and watch for pedestrians, junctions and parked cars."
+    },
+    "confusions": [
+      {
+        "with": "information.town-end",
+        "tip": {
+          "tr": "Adın üzerinde kırmızı çapraz çizgi varsa yerleşim yerinden çıkıyorsun.",
+          "en": "If the name is crossed by a red diagonal line, you are leaving the town."
+        }
+      }
+    ],
+    "related": [
+      "information.town-end",
+      "prohibitory.speed-limit--50"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Kalkanlı girişinde bu biçimde fotoğraflandı.",
+        "en": "Photographed in this form at the entrance to Kalkanlı."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.town-end",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/town-end.svg",
+      "alt": {
+        "tr": "Beyaz kenarlı mavi dikdörtgen; beyaz harflerle yerleşim yerinin adı ve üzerinden geçen kırmızı çapraz çizgi.",
+        "en": "Blue rectangle with a white border; the place name in white letters, crossed by a red diagonal line."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yerlesim-yeri-cikisi",
+      "en": "town-exit"
+    },
+    "name": {
+      "tr": "Yerleşim yeri çıkışı",
+      "en": "Leaving a town or village"
+    },
+    "meaning": {
+      "tr": "Yerleşim yerinden çıkıyorsun. Şehir içi hız sınırı burada biter.",
+      "en": "You are leaving the town or village. The urban speed limit ends here."
+    },
+    "driverAction": {
+      "tr": "Yolun genel hız sınırına ve koşullara göre hızını ayarla.",
+      "en": "Adjust your speed to the general limit for the road and to the conditions."
+    },
+    "confusions": [
+      {
+        "with": "information.town-start",
+        "tip": {
+          "tr": "Kırmızı çizgisiz ad girişi, kırmızı çizgili ad çıkışı gösterir.",
+          "en": "A name without a red line marks the entry; a name with a red line marks the exit."
+        }
+      }
+    ],
+    "related": [
+      "information.town-start",
+      "prohibitory.end-of-restrictions"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Kalkanlı çıkışında bu biçimde fotoğraflandı.",
+        "en": "Photographed in this form at the exit from Kalkanlı."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.speed-camera",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/speed-camera.svg",
+      "alt": {
+        "tr": "Mavi kare; içinde beyaz kare ve kare üzerinde siyah kamera çizimi.",
+        "en": "Blue square containing a white square with a black camera drawing."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "hiz-kamerasi",
+      "en": "speed-camera"
+    },
+    "name": {
+      "tr": "Hız kamerası",
+      "en": "Speed camera"
+    },
+    "meaning": {
+      "tr": "Bu yolda hız kamerası ile denetim yapılıyor.",
+      "en": "Speed is checked by camera on this road."
+    },
+    "driverAction": {
+      "tr": "Hız sınırına uy. Kameranın önünde ani fren yapma; sınırda sürekli kal.",
+      "en": "Keep to the speed limit. Do not brake suddenly at the camera; stay within the limit all the time."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.speed-limit--50",
+        "tip": {
+          "tr": "Kamera levhası denetimi bildirir, hız sınırını belirlemez. Sınır kırmızı halkalı levhadadır.",
+          "en": "The camera sign tells you about enforcement; it does not set the limit. The limit is on the red-ringed sign."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.speed-limit--50",
+      "prohibitory.speed-limit--65"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Bakanlığın KKTC trafik broşüründe yer alır ve Kalkanlı yakınında fotoğraflandı.",
+        "en": "Shown on the ministry's KKTC traffic leaflet and photographed near Kalkanlı."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.petrol-station",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/petrol-station.svg",
+      "alt": {
+        "tr": "Mavi kare; içinde beyaz kare ve kare üzerinde siyah akaryakıt pompası.",
+        "en": "Blue square containing a white square with a black fuel pump."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "akaryakit-istasyonu",
+      "en": "petrol-station"
+    },
+    "name": {
+      "tr": "Akaryakıt istasyonu",
+      "en": "Petrol station"
+    },
+    "meaning": {
+      "tr": "Yakında akaryakıt istasyonu var.",
+      "en": "There is a petrol station nearby."
+    },
+    "driverAction": {
+      "tr": "Yakıt alacaksan istasyona girmeden önce sinyal ver ve zamanında yavaşla.",
+      "en": "If you need fuel, signal and slow down in good time before turning in."
+    },
+    "confusions": [
+      {
+        "with": "information.parking",
+        "tip": {
+          "tr": "Pompa çizimi akaryakıt, P harfi park yeri demektir.",
+          "en": "A pump drawing means fuel; the letter P means parking."
+        }
+      }
+    ],
+    "related": [
+      "information.parking"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.taxi-rank",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/taxi-rank.svg",
+      "alt": {
+        "tr": "Mavi kare; ortasında beyaz harflerle TAKSİ yazısı.",
+        "en": "Blue square with the word TAKSİ in white letters."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "taksi-duragi",
+      "en": "taxi-rank"
+    },
+    "name": {
+      "tr": "Taksi durağı",
+      "en": "Taxi rank"
+    },
+    "meaning": {
+      "tr": "Bu alan taksilere ayrılmıştır.",
+      "en": "This space is reserved for taxis."
+    },
+    "driverAction": {
+      "tr": "Taksi değilsen burada durma ve park etme.",
+      "en": "Unless you drive a taxi, do not stop or park here."
+    },
+    "confusions": [
+      {
+        "with": "information.bus-stop",
+        "tip": {
+          "tr": "TAKSİ yazısı taksi durağını, otobüs çizimi otobüs durağını gösterir.",
+          "en": "The word TAKSİ marks a taxi rank; a bus drawing marks a bus stop."
+        }
+      }
+    ],
+    "related": [
+      "information.bus-stop",
+      "information.parking"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Kuzeydeki taksi durağı levhasının biçimi doğrulanmadı.",
+        "en": "The design of taxi-rank signs in the north has not been confirmed."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  }
+]

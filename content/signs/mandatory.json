@@ -1,0 +1,688 @@
+[
+  {
+    "id": "mandatory.ahead-only",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/ahead-only.svg",
+      "alt": {
+        "tr": "Mavi daire; içinde yukarı bakan beyaz ok.",
+        "en": "Blue disc with a white arrow pointing up."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "ileri-mecburi-yon",
+      "en": "ahead-only"
+    },
+    "name": {
+      "tr": "İleri mecburi yön",
+      "en": "Ahead only"
+    },
+    "meaning": {
+      "tr": "Yalnız düz ileri gidebilirsin; sağa ve sola dönüş yoktur.",
+      "en": "You may only go straight ahead; no turning left or right."
+    },
+    "driverAction": {
+      "tr": "Kavşakta dönmeden düz devam et.",
+      "en": "Go straight on through the junction without turning."
+    },
+    "confusions": [
+      {
+        "with": "information.one-way-street",
+        "tip": {
+          "tr": "Mavi dairedeki ok bir zorunluluktur. Mavi kare levhadaki ok yolun tek yönlü olduğunu bildirir.",
+          "en": "An arrow on a blue disc is an order. An arrow on a blue square tells you the road is one-way."
+        }
+      },
+      {
+        "with": "warning.two-way-traffic",
+        "tip": {
+          "tr": "Üçgendeki siyah oklar uyarıdır, mavi dairedeki beyaz ok emirdir.",
+          "en": "Black arrows in a triangle warn; a white arrow on a blue disc orders."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.ahead-or-left",
+      "mandatory.ahead-or-right",
+      "information.one-way-street"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.turn-left",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/turn-left.svg",
+      "alt": {
+        "tr": "Mavi daire; içinde sola bakan yatay beyaz ok.",
+        "en": "Blue disc with a white arrow pointing left."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "sola-mecburi-yon",
+      "en": "turn-left"
+    },
+    "name": {
+      "tr": "Sola mecburi yön",
+      "en": "Turn left"
+    },
+    "meaning": {
+      "tr": "Bu noktada sola dönmek zorundasın.",
+      "en": "You must turn left at this point."
+    },
+    "driverAction": {
+      "tr": "Sola dönmek için sinyal ver ve şeridini koruyarak dön.",
+      "en": "Signal and turn left, keeping to your lane."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.turn-left-ahead",
+        "tip": {
+          "tr": "Yatay ok burada dönmeni, kıvrık ok ileride dönmeni ister.",
+          "en": "A straight horizontal arrow means turn here; a bent arrow means turn further ahead."
+        }
+      },
+      {
+        "with": "mandatory.keep-left",
+        "tip": {
+          "tr": "Aşağı eğik ok bir engelin solundan geçmeni ister, dönmeni değil.",
+          "en": "An arrow slanting downwards means pass to the left of an obstruction, not turn."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.turn-right",
+      "mandatory.turn-left-ahead"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.turn-right",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/turn-right.svg",
+      "alt": {
+        "tr": "Mavi daire; içinde sağa bakan yatay beyaz ok.",
+        "en": "Blue disc with a white arrow pointing right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "saga-mecburi-yon",
+      "en": "turn-right"
+    },
+    "name": {
+      "tr": "Sağa mecburi yön",
+      "en": "Turn right"
+    },
+    "meaning": {
+      "tr": "Bu noktada sağa dönmek zorundasın.",
+      "en": "You must turn right at this point."
+    },
+    "driverAction": {
+      "tr": "Sinyal ver, karşıdan gelen trafiğe yol ver ve sağa dön.",
+      "en": "Signal, give way to oncoming traffic and turn right."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-right-turn",
+        "tip": {
+          "tr": "Mavi dairedeki beyaz ok sağa dönmeyi zorunlu kılar; kırmızı çizgili siyah ok yasaklar.",
+          "en": "A white arrow on a blue disc makes the right turn compulsory; a black arrow with a red bar bans it."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.turn-left",
+      "mandatory.turn-right-ahead"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.turn-left-ahead",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/turn-left-ahead.svg",
+      "alt": {
+        "tr": "Mavi daire; içinde yukarı çıkıp sola kıvrılan beyaz ok.",
+        "en": "Blue disc with a white arrow going up and turning left."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "ileriden-sola-mecburi-yon",
+      "en": "turn-left-ahead"
+    },
+    "name": {
+      "tr": "İleriden sola mecburi yön",
+      "en": "Turn left ahead"
+    },
+    "meaning": {
+      "tr": "İleride, ilk uygun noktada sola dönmek zorundasın.",
+      "en": "You must turn left at the next junction ahead."
+    },
+    "driverAction": {
+      "tr": "Sola dönüşe zamanında hazırlan, solda kal ve sinyal ver.",
+      "en": "Get ready for the left turn in good time, keep left and signal."
+    },
+    "confusions": [
+      {
+        "with": "warning.bend--left",
+        "tip": {
+          "tr": "Kırmızı üçgendeki siyah çizgi virajı uyarır; mavi dairedeki beyaz ok dönüşü emreder.",
+          "en": "A black line in a red triangle warns of a bend; a white arrow on a blue disc orders a turn."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.turn-left",
+      "mandatory.turn-right-ahead"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.turn-right-ahead",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/turn-right-ahead.svg",
+      "alt": {
+        "tr": "Mavi daire; içinde yukarı çıkıp sağa kıvrılan beyaz ok.",
+        "en": "Blue disc with a white arrow going up and turning right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "ileriden-saga-mecburi-yon",
+      "en": "turn-right-ahead"
+    },
+    "name": {
+      "tr": "İleriden sağa mecburi yön",
+      "en": "Turn right ahead"
+    },
+    "meaning": {
+      "tr": "İleride, ilk uygun noktada sağa dönmek zorundasın.",
+      "en": "You must turn right at the next junction ahead."
+    },
+    "driverAction": {
+      "tr": "Sağa dönüşe zamanında hazırlan, sinyal ver ve karşıdan gelenlere yol ver.",
+      "en": "Prepare for the right turn in good time, signal and give way to oncoming traffic."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.turn-right",
+        "tip": {
+          "tr": "Kıvrık ok ileride, yatay ok burada dönmeni ister.",
+          "en": "A bent arrow means turn ahead; a horizontal arrow means turn here."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.turn-right",
+      "mandatory.turn-left-ahead"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.ahead-or-left",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/ahead-or-left.svg",
+      "alt": {
+        "tr": "Mavi daire; içinde yukarı bakan beyaz ok ve ondan sola ayrılan ikinci beyaz ok.",
+        "en": "Blue disc with a white arrow pointing up and a second white arrow branching off to the left."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "ileri-ve-sola-mecburi-yon",
+      "en": "ahead-or-turn-left"
+    },
+    "name": {
+      "tr": "İleri ve sola mecburi yön",
+      "en": "Ahead or turn left"
+    },
+    "meaning": {
+      "tr": "Kavşakta yalnız düz gidebilir ya da sola dönebilirsin.",
+      "en": "At the junction you may only go straight on or turn left."
+    },
+    "driverAction": {
+      "tr": "Sağa dönme; düz devam et ya da sola dön.",
+      "en": "Do not turn right; go straight on or turn left."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.ahead-or-right",
+        "tip": {
+          "tr": "Yan ok hangi tarafa ayrılıyorsa izin verilen dönüş o taraftır.",
+          "en": "The permitted turn is on the side the branch arrow points to."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.ahead-or-right",
+      "mandatory.ahead-only"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.ahead-or-right",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/ahead-or-right.svg",
+      "alt": {
+        "tr": "Mavi daire; içinde yukarı bakan beyaz ok ve ondan sağa ayrılan ikinci beyaz ok.",
+        "en": "Blue disc with a white arrow pointing up and a second white arrow branching off to the right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "ileri-ve-saga-mecburi-yon",
+      "en": "ahead-or-turn-right"
+    },
+    "name": {
+      "tr": "İleri ve sağa mecburi yön",
+      "en": "Ahead or turn right"
+    },
+    "meaning": {
+      "tr": "Kavşakta yalnız düz gidebilir ya da sağa dönebilirsin.",
+      "en": "At the junction you may only go straight on or turn right."
+    },
+    "driverAction": {
+      "tr": "Sola dönme; düz devam et ya da sağa dön.",
+      "en": "Do not turn left; go straight on or turn right."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.ahead-or-left",
+        "tip": {
+          "tr": "Yan ok sağdaysa sola dönüş yoktur.",
+          "en": "If the branch arrow is on the right, there is no left turn."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.ahead-or-left",
+      "mandatory.ahead-only"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.keep-left",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/keep-left.svg",
+      "alt": {
+        "tr": "Mavi daire; içinde sol alta doğru eğik bakan beyaz ok.",
+        "en": "Blue disc with a white arrow pointing diagonally down to the left."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "soldan-gidiniz",
+      "en": "keep-left"
+    },
+    "name": {
+      "tr": "Soldan gidiniz",
+      "en": "Keep left"
+    },
+    "meaning": {
+      "tr": "Önündeki ada, refüj ya da engelin solundan geçmek zorundasın.",
+      "en": "You must pass to the left of the island, central reservation or obstruction ahead."
+    },
+    "driverAction": {
+      "tr": "Engelin solundan geç. KKTC'de soldan gidildiği için bu, ada başlarında en sık görülen zorunluluk levhasıdır.",
+      "en": "Pass on the left of the obstruction. As traffic keeps left in KKTC, this is the usual sign at the start of traffic islands."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.keep-right",
+        "tip": {
+          "tr": "Ok sol alta bakıyorsa soldan, sağ alta bakıyorsa sağdan geçersin.",
+          "en": "An arrow pointing down-left means pass on the left; down-right means pass on the right."
+        }
+      },
+      {
+        "with": "mandatory.turn-left",
+        "tip": {
+          "tr": "Eğik ok engelin yanından geçmeyi, yatay ok dönmeyi söyler.",
+          "en": "A slanting arrow means pass beside the obstruction; a horizontal arrow means turn."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.keep-right",
+      "mandatory.pass-either-side"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.keep-right",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/keep-right.svg",
+      "alt": {
+        "tr": "Mavi daire; içinde sağ alta doğru eğik bakan beyaz ok.",
+        "en": "Blue disc with a white arrow pointing diagonally down to the right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "sagdan-gidiniz",
+      "en": "keep-right"
+    },
+    "name": {
+      "tr": "Sağdan gidiniz",
+      "en": "Keep right"
+    },
+    "meaning": {
+      "tr": "Önündeki engelin sağından geçmek zorundasın. Soldan akan trafikte bu levha yalnız özel durumlarda kullanılır.",
+      "en": "You must pass to the right of the obstruction ahead. In left-hand traffic this sign is only used in special layouts."
+    },
+    "driverAction": {
+      "tr": "Engelin sağından geç ve karşı yönden gelen taşıtlara dikkat et.",
+      "en": "Pass on the right of the obstruction and watch for traffic from the opposite direction."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.keep-left",
+        "tip": {
+          "tr": "KKTC'de olağan levha soldan gidinizdir; sağ alta bakan ok istisnadır.",
+          "en": "In KKTC the usual sign is keep left; an arrow pointing down-right is the exception."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.keep-left",
+      "mandatory.pass-either-side"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Kuzeyde kullanıldığına dair kanıt bulunamadı; soldan gidiniz levhasıyla karşılaştırma için sette yer alır.",
+        "en": "No evidence of use in the north was found; it is included to compare with the keep-left sign."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.pass-either-side",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/pass-either-side.svg",
+      "alt": {
+        "tr": "Mavi daire; içinde aynı noktadan çıkıp sol alta ve sağ alta bakan iki beyaz ok.",
+        "en": "Blue disc with two white arrows starting from one point and pointing down to the left and down to the right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "her-iki-yandan-gidilebilir",
+      "en": "pass-either-side"
+    },
+    "name": {
+      "tr": "Her iki yandan gidilebilir",
+      "en": "Pass either side"
+    },
+    "meaning": {
+      "tr": "Önündeki engelin solundan ya da sağından geçebilirsin; iki yol da aynı yere çıkar.",
+      "en": "You may pass the obstruction ahead on either side; both ways lead to the same place."
+    },
+    "driverAction": {
+      "tr": "Uygun tarafı seç, ama karşıdan gelen trafiği gözden kaçırma.",
+      "en": "Choose the suitable side, but keep an eye on oncoming traffic."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.keep-left",
+        "tip": {
+          "tr": "İki ok iki taraftan da geçebileceğini, tek ok yalnız o taraftan geçmen gerektiğini söyler.",
+          "en": "Two arrows mean either side is allowed; one arrow means that side only."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.keep-left",
+      "mandatory.keep-right"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.roundabout",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/roundabout.svg",
+      "alt": {
+        "tr": "Mavi daire; içinde daire biçiminde saat yönünde dönen üç beyaz ok.",
+        "en": "Blue disc with three white arrows going round clockwise in a circle."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "mecburi-donel-kavsak",
+      "en": "roundabout"
+    },
+    "name": {
+      "tr": "Mecburi dönel kavşak (çember)",
+      "en": "Roundabout"
+    },
+    "meaning": {
+      "tr": "Çemberde okların yönünde, yani saat yönünde dönmek zorundasın. Çemberin içindeki taşıtların önceliği vardır.",
+      "en": "You must go round the roundabout in the direction of the arrows, that is clockwise. Vehicles already on the roundabout have priority."
+    },
+    "driverAction": {
+      "tr": "Çembere girmeden önce yavaşla, içerideki taşıtlara yol ver ve saat yönünde dön.",
+      "en": "Slow down before the roundabout, give way to vehicles on it and go round clockwise."
+    },
+    "confusions": [
+      {
+        "with": "warning.roundabout-ahead",
+        "tip": {
+          "tr": "Kırmızı üçgen çemberi önceden haber verir; mavi daire dönüş yönünü zorunlu kılar.",
+          "en": "The red triangle warns of the roundabout; the blue disc makes the direction compulsory."
+        }
+      },
+      {
+        "with": "mandatory.pass-either-side",
+        "tip": {
+          "tr": "Daire biçiminde dönen oklar çember, ayrılan iki ok ise engelin iki yanından geçiş demektir.",
+          "en": "Arrows going round in a circle mean a roundabout; two diverging arrows mean pass either side."
+        }
+      }
+    ],
+    "related": [
+      "warning.roundabout-ahead",
+      "priority.give-way"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Bakanlığın KKTC trafik broşüründe saat yönünde oklarla gösterilir.",
+        "en": "Shown with clockwise arrows on the ministry's KKTC traffic leaflet."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.cycle-route",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/cycle-route.svg",
+      "alt": {
+        "tr": "Mavi daire; içinde yandan görülen beyaz bisiklet.",
+        "en": "Blue disc with a white bicycle seen from the side."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "bisiklet-yolu",
+      "en": "cycle-route"
+    },
+    "name": {
+      "tr": "Bisiklet yolu",
+      "en": "Cycle route"
+    },
+    "meaning": {
+      "tr": "Bu yol ya da şerit yalnız bisikletlilere ayrılmıştır.",
+      "en": "This path or lane is for cyclists only."
+    },
+    "driverAction": {
+      "tr": "Motorlu taşıtla bisiklet yoluna girme ve burada park etme.",
+      "en": "Do not drive or park a motor vehicle on the cycle route."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-cycling",
+        "tip": {
+          "tr": "Mavi dairedeki beyaz bisiklet bisikletlilere ayrılmış yoldur; kırmızı halka bisikleti yasaklar.",
+          "en": "A white bicycle on a blue disc marks a route for cyclists; a red ring bans cycles."
+        }
+      },
+      {
+        "with": "warning.cyclists",
+        "tip": {
+          "tr": "Kırmızı üçgendeki bisiklet bisikletlilere karşı uyarır, yolu onlara ayırmaz.",
+          "en": "A bicycle in a red triangle warns of cyclists; it does not reserve the road for them."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-cycling",
+      "warning.cyclists"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.pedestrian-route",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/pedestrian-route.svg",
+      "alt": {
+        "tr": "Mavi daire; içinde yürüyen beyaz insan figürü.",
+        "en": "Blue disc with a white walking figure."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yaya-yolu",
+      "en": "pedestrians-only"
+    },
+    "name": {
+      "tr": "Yaya yolu",
+      "en": "Pedestrians only"
+    },
+    "meaning": {
+      "tr": "Bu yol yalnız yayalara ayrılmıştır.",
+      "en": "This route is for pedestrians only."
+    },
+    "driverAction": {
+      "tr": "Taşıtla bu yola girme.",
+      "en": "Do not drive into this route."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-pedestrians",
+        "tip": {
+          "tr": "Mavi daire yolu yayalara ayırır; kırmızı halka yayaları yasaklar.",
+          "en": "The blue disc reserves the route for pedestrians; the red ring bans them."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-pedestrians",
+      "information.pedestrian-crossing"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  }
+]

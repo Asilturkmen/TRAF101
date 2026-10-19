@@ -1,0 +1,152 @@
+{
+  "id": "first-aid",
+  "title": {
+    "tr": "İlk yardım",
+    "en": "First aid"
+  },
+  "summary": {
+    "tr": "Kaza yerinde önce güvenlik, sonra 112; bilinci ve solunumu kontrol et, gerekirse kalp masajına başla.",
+    "en": "At a crash, safety first, then 112; check whether the person responds and breathes, and start CPR if needed."
+  },
+  "sections": [
+    {
+      "heading": {
+        "tr": "Önce güvenlik, sonra yardım çağır",
+        "en": "Safety first, then call for help"
+      },
+      "body": {
+        "tr": "Yardım etmeden önce kendini koru. Aracını güvenli bir yere çek, flaşörünü yak, kazalı araçların motorunu durdur. Yaralanan bir kurtarıcı kimseye yardım edemez.\n\nSonra **112**'yi ara; bir trafik kazasında **155**'i de ara. Telefonu hoparlöre alırsan görevli sana ne yapacağını adım adım söyleyebilir.",
+        "en": "Protect yourself before you help. Park somewhere safe, switch on your hazard lights and switch off the engines of the crashed vehicles. An injured rescuer cannot help anyone.\n\nThen call **112**, and at a road crash call **155** as well. If you put the phone on speaker, the call handler can talk you through what to do."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Bilinç ve solunum",
+        "en": "Response and breathing"
+      },
+      "body": {
+        "tr": "Yaralıya yaklaş, omzuna hafifçe dokun ve yüksek sesle seslen.\n\n- **Cevap veriyorsa:** olduğu gibi bırak, nerede ağrıdığını sor, üşümesin, yardım gelene kadar yanında kal.\n- **Cevap vermiyorsa:** başını hafifçe geriye eğip çenesini kaldırarak hava yolunu aç ve normal nefes alıp almadığına bak.\n- **Cevap vermiyor ama normal nefes alıyorsa** ve yaralanma yoksa yan yatış pozisyonuna getir. Trafik kazasında yaralıyı yan yatırma; başını ve boynunu olduğu gibi destekle. Hava yolunu açmak her zaman önce gelir.\n\nNefesini sürekli izle. Nefes durursa ya da düzensizleşirse hemen kalp masajına başla.",
+        "en": "Approach the person, tap their shoulder gently and speak loudly.\n\n- **If they respond:** leave them as they are, ask where it hurts, keep them warm and stay with them until help arrives.\n- **If they do not respond:** open the airway by gently tilting the head back and lifting the chin, and check whether they are breathing normally.\n- **If they do not respond but are breathing normally** and are not injured, put them in the recovery position. After a road crash do not roll them onto their side; support the head and neck as they are. Opening the airway always comes first.\n\nKeep watching their breathing. If it stops or becomes abnormal, start CPR at once."
+      },
+      "basis": "secondary",
+      "sourceId": "le-erc-2025-first-aid",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Kalp masajı",
+        "en": "CPR"
+      },
+      "body": {
+        "tr": "Yaralı cevap vermiyor ve normal nefes almıyorsa:\n\n- 112'yi ara ve hoparlörü aç.\n- Ellerini üst üste, göğsün ortasına koy.\n- Kollarını düz tutarak göğsü **5–6 cm** derinliğe bastır, dakikada **100–120** kez.\n- Eğitimliysen **30 bası, 2 soluk** sırasıyla devam et. Eğitimli değilsen yalnız bası yap.\n- Yakında bir otomatik eksternal defibrilatör (OED) varsa getirt, aç ve sesli talimatlara uy.\n\nYardım gelene, yaralı normal nefes almaya başlayana ya da sen devam edemeyecek kadar yorulana kadar sürdür.",
+        "en": "If the person does not respond and is not breathing normally:\n\n- Call 112 and switch to speaker.\n- Place one hand on top of the other in the centre of the chest.\n- With straight arms, push down **5–6 cm**, at **100–120** compressions a minute.\n- If you are trained, continue with **30 compressions and 2 breaths**. If not, give compressions only.\n- If an automated external defibrillator (AED) is nearby, have someone fetch it, switch it on and follow the voice prompts.\n\nKeep going until help arrives, the person starts breathing normally or you are too exhausted to continue."
+      },
+      "basis": "secondary",
+      "sourceId": "le-erc-2025-summary",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Kanama",
+        "en": "Bleeding"
+      },
+      "body": {
+        "tr": "Ciddi bir kanamada temiz bir bez ya da gazlı bezle yaranın üstüne doğrudan ve sıkıca bastır. Bez kanla dolarsa çıkarma, üstüne yenisini koyup bastırmaya devam et.\n\nKolda ya da bacakta bastırmakla durmayan, hayatı tehdit eden bir kanamada turnike kullanılır. Turnikeyi eğitim aldıysan uygula ve uyguladığın saati not et.",
+        "en": "For serious bleeding, press directly and firmly on the wound with a clean cloth or gauze. If it soaks through, do not remove it; put another on top and keep pressing.\n\nFor life-threatening bleeding from an arm or leg that pressure does not stop, a tourniquet is used. Apply one only if you are trained, and note the time you put it on."
+      },
+      "basis": "secondary",
+      "sourceId": "le-erc-2025-first-aid",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Yanık ve şok",
+        "en": "Burns and shock"
+      },
+      "body": {
+        "tr": "**Yanık:** yanığı hemen serin ya da soğuk, ama buzlu olmayan suyla en az 20 dakika soğut. Yanığa yapışmamış yüzük ve saat gibi takıları çıkar. Yanığa yağ, diş macunu ya da buz sürme. Soğuttuktan sonra temiz ve yapışmayan bir örtüyle gevşekçe kapat.\n\n**Şok:** solgun, soğuk terli, hızlı nefes alan ve bilinci bulanıklaşan bir yaralı şokta olabilir. Onu sırt üstü yatır, üstünü ört, yiyecek ya da içecek verme ve yanından ayrılma.",
+        "en": "**Burns:** cool the burn straight away with cool or cold, but not icy, water for at least 20 minutes. Remove rings and watches unless they are stuck to the burn. Do not put oil, toothpaste or ice on it. After cooling, cover it loosely with a clean, non-stick dressing.\n\n**Shock:** someone who is pale, cold and sweaty, breathing fast and becoming confused may be in shock. Lay them on their back, cover them, give nothing to eat or drink and stay with them."
+      },
+      "basis": "secondary",
+      "sourceId": "le-erc-2021-first-aid",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Motosiklet kazasında kask",
+        "en": "Helmets after a motorcycle crash"
+      },
+      "body": {
+        "tr": "Yaralı bir motosikletlinin kaskını çıkarmak boynunu zorlayabilir. Kaskı yalnız yaralı nefes almıyorsa ve hava yolunu açmak ya da kalp masajı yapmak için gerekliyse çıkar. Mümkünse bunu iki kişi yapsın: biri başı ve boynu sabit tutsun, öbürü kaskı yavaşça çıkarsın.\n\nBilinci yerinde olan yaralıyı kaskını çıkarmaya zorlama; kıpırdamamasını söyle.",
+        "en": "Removing an injured rider's helmet can strain the neck. Take it off only if the person is not breathing and you need to open the airway or give CPR. If possible, do it with two people: one holds the head and neck still while the other eases the helmet off.\n\nDo not push a conscious rider to take their helmet off; tell them to keep still."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    }
+  ],
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Önce kendini ve kaza yerini güvenli hale getir, sonra 112 ve 155'i ara.",
+        "en": "Make yourself and the scene safe first, then call 112 and 155."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Kalp masajında göğsün ortasına 5–6 cm derinliğe, dakikada 100–120 kez bastır.",
+        "en": "For CPR, push the centre of the chest 5–6 cm deep, 100–120 times a minute."
+      },
+      "basis": "secondary",
+      "sourceId": "le-erc-2025-summary",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Eğitimliysen 30 bası, 2 soluk; eğitimli değilsen yalnız bası yap.",
+        "en": "If trained, give 30 compressions and 2 breaths; if not, give compressions only."
+      },
+      "basis": "secondary",
+      "sourceId": "le-erc-2025-summary",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Ciddi kanamada yaranın üstüne doğrudan ve sıkıca bastır.",
+        "en": "For serious bleeding, press directly and firmly on the wound."
+      },
+      "basis": "secondary",
+      "sourceId": "le-erc-2025-first-aid",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Yanığı serin suyla en az 20 dakika soğut.",
+        "en": "Cool a burn with cool water for at least 20 minutes."
+      },
+      "basis": "secondary",
+      "sourceId": "le-erc-2021-first-aid",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Doğrudan bir tehlike yoksa kaza yaralısını yerinden oynatma.",
+        "en": "Do not move a crash casualty unless there is direct danger."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    }
+  ],
+  "relatedSigns": [
+    "information.first-aid",
+    "information.hospital"
+  ],
+  "reviewedAt": "2026-10-20"
+}

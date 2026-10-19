@@ -1,0 +1,2540 @@
+[
+  {
+    "id": "heavy.class-b-truck",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bugünkü KKTC sisteminde ağır kamyonlar ve başka sınıfa girmeyen, 2.032 kg'ı aşan motorlu araçlar hangi sınıftadır?",
+      "en": "In today's KKTC system, which class covers heavy trucks and other motor vehicles over 2,032 kg that are not listed elsewhere?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "A",
+          "en": "A"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "B",
+          "en": "B"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "C",
+          "en": "C"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "F",
+          "en": "F"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "B sınıfı ağır kamyonları ve 2.032 kg'ı aşan, başka sınıfa girmeyen araçları kapsar. F sınıfı paletli traktör ve ağır iş makineleri içindir.",
+      "en": "Class B covers heavy trucks and vehicles over 2,032 kg not listed in another class. Class F is for tracked tractors and heavy machinery."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s10",
+    "sourceRef": "Tüzük md. 33(2)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.d-licence-minibus",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yalnız D sınıfı ehliyetin var. Bir okul servisi için 14 yolcu taşıyan bir minibüsü kullanman isteniyor. Hangisi doğrudur?",
+      "en": "You hold only a class D licence. You are asked to drive a 14-passenger minibus on a school run. Which is true?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kullanamazsın, bunun için C sınıfı gerekir",
+          "en": "You may not; it needs a class C licence"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kullanabilirsin, D sınıfı bütün yolcu araçlarını kapsar",
+          "en": "You may, because class D covers all passenger vehicles"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız şehir içinde kullanabilirsin",
+          "en": "You may, but only in towns"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yolcular çocuksa kullanabilirsin",
+          "en": "You may if the passengers are children"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "D sınıfı en çok 8 yolcu taşıyan araçları kapsar. 8'den fazla, 22'den az oturan yolcu taşıyan bir minibüs C sınıfıdır.",
+      "en": "Class D covers vehicles carrying up to 8 passengers. A minibus with more than 8 and fewer than 22 seated passengers is class C."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s10",
+    "sourceRef": "Tüzük md. 33(2)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.written-exam-format",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "2017 sınav yönetmeliği ağır vasıta sınıfları için nasıl bir yazılı sınav tanımlar?",
+      "en": "What written exam does the 2017 exam regulation set out for heavy vehicle classes?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "50 soru, 40 doğru geçer, 60 dakika; bugün uygulanıyor",
+          "en": "50 questions, 40 to pass, 60 minutes; in use today"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ağır vasıtalar için yazılı sınav yoktur, yalnız direksiyon sınavı vardır",
+          "en": "There is no written exam for heavy vehicles, only a driving test"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "100 soru, 80 doğru geçer, 120 dakika; henüz uygulanmıyor",
+          "en": "100 questions, 80 to pass, 120 minutes; not yet in use"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "30 soru, 20 doğru geçer, süre sınırı yok",
+          "en": "30 questions, 20 to pass, no time limit"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Yönetmeliğe göre ağır sınıflarda bilgisayarlı sınav 100 sorudur, 80 doğru geçer ve süre 120 dakikadır. Otomobil ve motosiklet için 50 soru, 40 doğru, 60 dakikadır. Bu biçim yönetmelikte tanımlıdır ama henüz uygulanmıyor; bugün öğrenci ehliyeti sınavı sözlüdür.",
+      "en": "Under the regulation, the computer-based exam for heavy classes has 100 questions, a pass mark of 80 and 120 minutes. For car and motorcycle classes it is 50 questions, 40 to pass, 60 minutes. The format is written into the regulation but not yet in use; today the learner exam is oral."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s3",
+    "sourceRef": "md. 13",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.drawbar-trailer-speed",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Bölünmüş bir yolda tam römork (çeki demirli römork) çeken bir çekici kullanıyorsun. Hız sınırın nedir?",
+      "en": "On a dual carriageway you drive a tractor unit pulling a drawbar trailer. What is your speed limit?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "55 km/sa",
+          "en": "55 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "65 km/sa",
+          "en": "65 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "75 km/sa",
+          "en": "75 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "80 km/sa",
+          "en": "80 km/h"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "2019 bildirisine göre tam römorklu çekiciler bölünmüş yolda saatte 65 km ile sınırlıdır. Yarı römorklu çekici ve kamyon için sınır 75 km'dir.",
+      "en": "Under the 2019 notice, tractors with a drawbar trailer are limited to 65 km/h on dual carriageways. Articulated tractor units and trucks are limited to 75 km/h."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.bus-speed-second-class-road",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "İkinci sınıf bir yolda otobüs ya da minibüs kullanıyorsun. Hız sınırın nedir?",
+      "en": "You drive a bus or minibus on a second-class road. What is your speed limit?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "45 km/sa",
+          "en": "45 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "60 km/sa",
+          "en": "60 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "65 km/sa",
+          "en": "65 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "80 km/sa",
+          "en": "80 km/h"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Bildiriye göre ikinci sınıf yollarda minibüs, kamyonet ve otobüs saatte 65 km, kamyon 45 km, otomobil 80 km ile sınırlıdır.",
+      "en": "Under the notice, on second-class roads minibuses, vans and buses are limited to 65 km/h, trucks to 45 km/h and cars to 80 km/h."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.truck-speed-village-road",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Üçüncü sınıf yollarda ve köy yollarında kamyon için hız sınırı nedir?",
+      "en": "What is the truck speed limit on third-class and village roads?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "35 km/sa",
+          "en": "35 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "45 km/sa",
+          "en": "45 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "50 km/sa",
+          "en": "50 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "60 km/sa",
+          "en": "60 km/h"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Bildiriye göre köy yollarında kamyon saatte 35 km, otobüs ve minibüs 60 km, otomobil 70 km ile sınırlıdır.",
+      "en": "Under the notice, on village roads trucks are limited to 35 km/h, buses and minibuses to 60 km/h and cars to 70 km/h."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.mountain-road-limit",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Lefkoşa–Girne dağ yolunda 10 yaşından genç bir otobüs kullanıyorsun. 2019 bildirisine göre hız sınırın nedir?",
+      "en": "You drive a bus less than 10 years old on the Lefkoşa–Girne mountain road. Under the 2019 notice, what is your speed limit?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "20 km/sa, 3. viteste",
+          "en": "20 km/h, in third gear"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "35 km/sa, 3. viteste",
+          "en": "35 km/h, in third gear"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "45 km/sa, 4. viteste",
+          "en": "45 km/h, in fourth gear"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "65 km/sa",
+          "en": "65 km/h"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Bildiri bu yolda kamyon ve otobüsleri 3. viteste saatte 35 km ile, 10 ve daha yaşlı olanları 20 km ile sınırlar. Otomobil, minibüs ve kamyonet için sınır 45 km'dir.",
+      "en": "The notice limits trucks and buses on this road to 35 km/h in third gear, or 20 km/h if they are 10 or more years old. Cars, minibuses and vans are limited to 45 km/h."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.towing-broken-down-vehicle",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kurtarıcıyla arızalı bir aracı çekerek bölünmüş yolda gidiyorsun. Hız sınırın nedir?",
+      "en": "You are towing a broken-down vehicle with a recovery truck on a dual carriageway. What is your speed limit?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "25 km/sa",
+          "en": "25 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "50 km/sa",
+          "en": "50 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "65 km/sa",
+          "en": "65 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "75 km/sa",
+          "en": "75 km/h"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Bildiriye göre arızalı araç çeken araçlar bölünmüş yolda saatte 50 km, birinci sınıf yolda 25 km, ikinci sınıf yolda 20 km, köy yolunda 10 km ile sınırlıdır. Yerleşim yerinde sınır 25 km'dir.",
+      "en": "Under the notice, vehicles towing a broken-down vehicle are limited to 50 km/h on dual carriageways, 25 km/h on first-class roads, 20 km/h on second-class roads and 10 km/h on village roads. In built-up areas the limit is 25 km/h."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.built-up-area-limit",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Başka bir levha yoksa yerleşim yeri içinde otobüsle en çok hangi hızla gidebilirsin?",
+      "en": "If no sign says otherwise, what is your speed limit in a bus in a built-up area?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "30 km/sa",
+          "en": "30 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "40 km/sa",
+          "en": "40 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "50 km/sa",
+          "en": "50 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "65 km/sa",
+          "en": "65 km/h"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "BUB broşürüne göre yerleşim yerlerinde genel hız sınırı saatte 50 km'dir. Bu sınır ağır vasıtalar için de geçerlidir.",
+      "en": "According to the ministry leaflet, the general limit in built-up areas is 50 km/h. It applies to heavy vehicles too."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "BUB broşürü, hız sınırları",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.why-lower-limits",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Ağır vasıtaların hız sınırları neden otomobillerinkinden düşüktür?",
+      "en": "Why are speed limits for heavy vehicles lower than for cars?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Frenleri otomobillerinkinden zayıf olduğu için",
+          "en": "Because their brakes are weaker than a car's"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız yakıt tasarrufu için",
+          "en": "Only to save fuel"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Daha ağırdırlar ve daha geç dururlar",
+          "en": "They are heavier and take longer to stop"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Lastikleri yüksek hıza dayanmadığı için",
+          "en": "Because their tyres cannot take high speeds"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Ağır bir aracın frenleri güçlüdür, ama durdurması gereken kütle çok büyüktür. Bu yüzden durma mesafesi uzar ve çarpışmanın etkisi ağır olur.",
+      "en": "A heavy vehicle has powerful brakes, but the mass it has to stop is very large. Its stopping distance is longer and the effect of a crash is far worse."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.beer-before-bus-shift",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Öğle yemeğinde bir bardak bira içtin. Öğleden sonra toplu taşıma otobüsüyle seferin var. Ne yapmalısın?",
+      "en": "You had one glass of beer at lunch. You have a public bus shift this afternoon. What should you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sürerim, bir bardak yasal sınırın altında kalır",
+          "en": "I drive, because one glass stays under the legal limit"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kahve içip biraz bekler, sonra sürerim",
+          "en": "I drink a coffee, wait a while and then drive"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yolcu azsa sürerim",
+          "en": "I drive if there are only a few passengers"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sefere çıkmam; benim için sınır sıfırdır",
+          "en": "I do not drive; my limit is zero"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Kamu taşımacılığı yapan şoförler için alkol sınırı sıfırdır, yani tek bir içki bile sınırı aşar. Kahve ya da kısa bir bekleme vücuttaki alkolü atmaz. Durumu işverenine bildir.",
+      "en": "The alcohol limit for public-transport drivers is zero, so even one drink is over it. Coffee or a short wait does not remove alcohol from your body. Tell your employer."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s8",
+    "sourceRef": "md. 2",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.morning-after-drinking",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Dün gece geç saate kadar içtin. Bu sabah erkenden toplu taşıma otobüsüyle seferin var. Hangisi doğrudur?",
+      "en": "You were drinking late last night. You have an early public bus shift this morning. Which is true?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Uyuduğun için alkol tamamen geçmiştir",
+          "en": "Sleep has cleared all the alcohol"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Soğuk bir duş ve sert bir kahve kalan alkolü hızla atar",
+          "en": "A cold shower and strong coffee will quickly clear what is left"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sıfır sınırı yalnız gece seferlerinde geçerlidir",
+          "en": "The zero limit applies only to night shifts"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kanında hâlâ alkol olabilir, bu yüzden sürmemelisin",
+          "en": "There may still be alcohol in your blood, so you should not drive"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Vücut alkolü yavaş atar ve uyku, duş ya da kahve bunu hızlandırmaz. Kamu taşımacılığı yapan şoförler için sınır sıfırdır, bu yüzden en küçük kalıntı bile suçtur.",
+      "en": "The body clears alcohol slowly, and sleep, a shower or coffee do not speed it up. The limit for public-transport drivers is zero, so even a small trace is an offence."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s8",
+    "sourceRef": "md. 2",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.drowsy-medicine",
+    "rev": 1,
+    "topic": "personal",
+    "lesson": "fitness",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Doktorun sana uyku yapabilen bir ilaç yazdı. Ertesi gün kamyonla seferin var. Ne yapmalısın?",
+      "en": "Your doctor has prescribed a medicine that can cause drowsiness. You have a lorry run the next day. What should you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Reçeteli ilaç olduğu için sürüşü etkilemez",
+          "en": "It is on prescription, so it cannot affect driving"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "İlacı alıp sürerim, bir sorun olursa dururum",
+          "en": "Take it and drive, and stop if there is a problem"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "İlacı sert bir kahveyle alırım, böylece uyku yapma etkisi kalkar",
+          "en": "Take it with strong coffee, which cancels out the drowsiness"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Prospektüsü okur, sürüp süremeyeceğimi doktora sorarım",
+          "en": "Read the leaflet and ask the doctor whether I can drive"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Bazı ilaçlar dikkati ve tepki süresini alkol kadar etkileyebilir. Reçeteli olması güvenli olduğu anlamına gelmez. Emin değilsen sürme.",
+      "en": "Some medicines can affect attention and reaction time as much as alcohol. Being on prescription does not make a medicine safe for driving. If in doubt, do not drive."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.left-turn-mirror-check",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Sol trafikte kamyonla sola dönmeden önce bisikletli ve yayaları görmek için özellikle neyi denetlemelisin?",
+      "en": "In left-hand traffic, before turning left in a lorry, what should you check in particular for cyclists and pedestrians?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sol aynaları ve kabinin sol ön köşesini",
+          "en": "The left mirrors and the left front corner of the cab"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız sağ aynayı, karşıdan gelenler orada görünür",
+          "en": "Only the right mirror, where oncoming traffic shows"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "İç dikiz aynasını",
+          "en": "The interior rear-view mirror"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hiçbirini, sinyal vermek yeter",
+          "en": "Nothing; signalling is enough"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Sol trafikte kaldırım tarafı soldur. Bisikletliler ve yayalar kamyonun sol yanında ve sol ön köşesinin altında görünmez kalabilir. Dönmeden önce sol aynalara ve kabinin önüne bak, gerekirse bekle.",
+      "en": "In left-hand traffic the kerb side is on the left. Cyclists and pedestrians can be hidden along the lorry's left side and below its left front corner. Check the left mirrors and the front of the cab before turning, and wait if needed."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.front-blind-spot",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kırmızı ışıkta duruyorsun. Yüksek kabinden aracın hemen önünü göremiyorsun. Yeşil yanınca kalkmadan önce ne yaparsın?",
+      "en": "You are stopped at a red light. From your high cab you cannot see the area just in front of the vehicle. When the light turns green, what do you do before moving off?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hemen kalkarım, çünkü bu kadar büyük bir kamyonu yayalar zaten görür",
+          "en": "Move off at once, because pedestrians can hardly miss a lorry this big"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Korna çalıp hemen kalkarım",
+          "en": "Sound the horn and move off straight away"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Aynalardan kabinin önünü ve sol yanını denetlerim",
+          "en": "Check the mirrors for anyone in front of or beside the cab"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız sağ aynaya bakıp kalkarım",
+          "en": "Check only the right mirror and move off"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Yüksek kabinli araçlarda tam önde bir çocuk ya da kısa boylu bir yaya görünmeyebilir. Varsa ön görüş aynasını kullan; kalkmadan önce önü ve sol yanı denetle.",
+      "en": "From a high cab, a child or a short pedestrian right in front may be invisible. Use the front-view mirror if fitted, and check the front and the left side before moving off."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.rear-overhang-swing",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Arka çıkıntısı uzun bir otobüsle sağa doğru keskin bir dönüş yapıyorsun. Aracın arka ucu ne yapar?",
+      "en": "You make a sharp right turn in a bus with a long rear overhang. What does the back end of the bus do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Ters yöne, sola doğru savrulur",
+          "en": "It swings out the other way, to the left"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ön tekerleklerin izini tam olarak izler",
+          "en": "It follows the front wheels exactly"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yerinde kalır, yalnız aracın önü döner",
+          "en": "It stays put; only the front of the bus turns"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Bu etki yalnız römorklu araçlarda görülür",
+          "en": "This only happens with trailers"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Arka dingilin gerisindeki uzun çıkıntı dönüşün başında ters yöne savrulur. Durakta yanındaki direğe, yayaya ya da yandaki araca çarpabilir. Dönerken bu tarafı da aynadan izle.",
+      "en": "The long overhang behind the rear axle swings the opposite way as the turn begins. It can hit a post, a pedestrian or a vehicle alongside. Watch that side in the mirror as you turn."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.rear-wheels-cut-corner",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Uzun bir kamyonla dar bir köşeden sola dönüyorsun. Arka tekerlekler ön tekerleklere göre nasıl bir yol izler?",
+      "en": "You turn left at a tight corner in a long lorry. What path do the rear wheels take compared with the front wheels?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Ön tekerleklerin tam izinden geçer",
+          "en": "Exactly the same path as the front wheels"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Daha dışarıdan geçer, köşeden uzaklaşır",
+          "en": "A wider path, away from the corner"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız kamyon boşken köşeyi keser",
+          "en": "They cut the corner only when the lorry is empty"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Daha içeriden geçer ve köşeyi keser",
+          "en": "A tighter path that cuts the corner"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Uzun araçlarda arka tekerlekler dönüşte daha küçük bir yay çizer ve kaldırıma, direğe ya da köşede bekleyen yayaya çarpabilir. Sola dönerken köşeye biraz daha ilerleyip geniş dön ve sol aynadan arka tekerlekleri izle.",
+      "en": "On a long vehicle the rear wheels follow a tighter arc and can hit the kerb, a post or a pedestrian waiting at the corner. When turning left, go a little further into the junction before turning and watch the rear wheels in the left mirror."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.securing-the-load",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Kasaya yük yükledin. Yola çıkmadan önce ne yapmalısın?",
+      "en": "You have loaded your lorry. What should you do before setting off?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yük ağırsa bağlamam, ağırlığı onu yerinde tutar",
+          "en": "If it is heavy I leave it untied; its weight holds it"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız brandayı örterim",
+          "en": "Just cover it with a tarpaulin"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yavaş gideceğim için bağlamam",
+          "en": "I will drive slowly, so I do not tie it down"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yükün kaymayacak biçimde bağlandığını denetlerim",
+          "en": "Check the load is tied down so it cannot shift"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Ağır yük de frende ve virajda kayar. Branda yükü tutmaz. Yükü uygun kayış ya da zincirle bağla, kısa bir yol gittikten sonra bağlantıları yeniden denetle.",
+      "en": "A heavy load still slides under braking and in bends, and a tarpaulin does not hold it. Secure it with suitable straps or chains and check them again after a short distance."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.load-under-braking",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bağlanmamış bir yük sert frende ne yapar?",
+      "en": "What does an unsecured load do under hard braking?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yerinde kalır, çünkü kasa da durur",
+          "en": "It stays put, because the body stops too"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Öne kayar, kabine çarpabilir ya da yola düşebilir",
+          "en": "It slides forward and can hit the cab or fall off"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Geriye doğru kayar",
+          "en": "It slides backwards"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız yokuş aşağı inerken kayar, düz yolda yerinde kalır",
+          "en": "It only moves on downhill roads and stays put on the flat"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Araç durunca yük hareketine devam eder: sert frende öne, virajda dışa doğru kayar. Bu yüzden yük her yöne karşı bağlanmalıdır.",
+      "en": "When the vehicle stops, the load keeps moving: forward under hard braking and outwards in bends. That is why it must be secured against movement in every direction."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.high-load-cornering",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yüksek yüklü bir kamyonla bir çembere ya da keskin bir virajlar dizisine yaklaşıyorsun. Ne yapmalısın?",
+      "en": "You are approaching a roundabout or a series of sharp bends in a lorry with a high load. What should you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Önceden iyice yavaşlar, düşük ve sabit hızla dönerim",
+          "en": "Slow down well beforehand and turn at a low, steady speed"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Gaz verip virajdan çabuk çıkarım",
+          "en": "Accelerate to get through quickly"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Virajın ortasında sert fren yaparım",
+          "en": "Brake hard in the middle of the bend"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yükü sıkıca bağladıysam hız fark etmez, normal hızla dönerim",
+          "en": "Speed does not matter once the load is tied down, so I turn as normal"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Yüksek yük ağırlık merkezini yükseltir ve devrilme riskini artırır. Hızını viraja girmeden düşür ve dönüşte ani hareketlerden kaçın.",
+      "en": "A high load raises the centre of gravity and increases the risk of rolling over. Lose speed before the bend and avoid sudden movements in it."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.following-distance",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Dolu bir kamyonla öndeki araca ne kadar mesafe bırakmalısın?",
+      "en": "In a loaded lorry, how much distance should you leave to the vehicle in front?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Otomobille aynı, çünkü frenler daha güçlüdür",
+          "en": "The same as a car, because the brakes are stronger"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Daha az, çünkü yüksek kabinden yolu daha iyi görürüm",
+          "en": "Less, because I can see further from a high cab"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Otomobilden fazla, çünkü durma mesafem uzundur",
+          "en": "More than in a car, as my stopping distance is longer"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız yağmurda fazla mesafe gerekir",
+          "en": "Extra distance is only needed in rain"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Ağır bir aracın durması daha uzun sürer. Yüksek kabin yolu iyi gösterir ama durma mesafesini kısaltmaz.",
+      "en": "A heavy vehicle takes longer to stop. A high cab gives a good view but does not shorten the stopping distance."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.steep-descent-gear",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Dolu bir kamyonla giderken bu levhayı görüyorsun. Ne yaparsın?",
+      "en": "You see this sign while driving a loaded lorry. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Önceden küçük vitese geçer, motor freniyle inerim",
+          "en": "Change down beforehand and use engine braking"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Boşa alıp aracın serbestçe inmesine izin veririm",
+          "en": "Select neutral and let the lorry roll"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hızı sabit tutmak için ayak frenine sürekli basarak inerim",
+          "en": "Keep the footbrake on all the way down to hold a steady speed"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hızlanıp inişi çabuk bitiririm",
+          "en": "Speed up to get the descent over with"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Sürekli fren yapmak frenleri ısıtır ve tutmaz hale getirebilir. Küçük vites ve motor freni hızı sabit tutar; ayak frenini aralıklı kullan. Vitesi inişe girmeden seç.",
+      "en": "Constant braking overheats the brakes and can make them fail. A low gear and engine braking hold your speed; use the footbrake in short applications. Choose the gear before the descent starts."
+    },
+    "signId": "warning.steep-descent",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.brake-fade",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Uzun bir inişte frene sürekli bastın ve pedal artık eskisi kadar etkili değil. Bunun en olası nedeni nedir?",
+      "en": "On a long descent you have held the brakes on, and the pedal is no longer as effective. What is the most likely cause?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Lastik basıncı ısıyla arttı",
+          "en": "Heat has raised the tyre pressure"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yakıt azaldı",
+          "en": "The fuel is running low"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Frenler aşırı ısındı",
+          "en": "The brakes have overheated"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Motor yağı soğudu",
+          "en": "The engine oil has cooled"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Uzun süre basılı tutulan frenler ısınır ve etkisi azalır. Buna fren yorulması denir. Önlemek için inişte küçük vites ve motor freni kullan.",
+      "en": "Brakes that are held on for a long time heat up and lose their effect. This is called brake fade. To prevent it, use a low gear and engine braking on descents."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.height-limit-sign",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Kamyonunun yüksekliği bu levhada gösterilen değerden fazla. Ne yaparsın?",
+      "en": "Your lorry is taller than the figure shown on this sign. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yavaşça altından geçmeyi denerim",
+          "en": "I try to creep under slowly"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Lastiklerin havasını biraz indirip geçerim",
+          "en": "I let some air out of the tyres and go through"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Girmem, başka bir yol bulurum",
+          "en": "I do not go on; I find another route"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kamyon boşsa geçerim",
+          "en": "I go through if the lorry is empty"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Bu levha gösterilen yükseklikten yüksek araçların geçmesini yasaklar. Aracının yükü dahil yüksekliğini yola çıkmadan önce bil.",
+      "en": "This sign bans vehicles taller than the height shown. Know your vehicle's height, including the load, before you set off."
+    },
+    "signId": "prohibitory.height-limit",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.weight-limit-sign",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir köprünün önünde bu levhayı görüyorsun. Kamyonunun boş ağırlığı gösterilen değerin altında, ama şu an yüklüsün ve üstündesin. Ne yaparsın?",
+      "en": "You see this sign before a bridge. Your lorry's empty weight is below the figure shown, but you are loaded and now above it. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Köprüye girmem, başka bir yol bulurum",
+          "en": "I do not cross; I find another route"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Boş ağırlığım sınırın altında olduğu için geçerim",
+          "en": "I cross, because my empty weight is under the limit"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hızlı geçersem köprüye daha az yük biner",
+          "en": "If I cross quickly, the bridge takes less load"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Trafiğin az olduğu gece saatinde geçerim",
+          "en": "I cross late at night when there is little traffic"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Ağırlık sınırı aracın o anki toplam ağırlığı içindir, yük dahil. Sınırın üstündeysen başka bir yol kullan.",
+      "en": "The weight limit applies to the vehicle's actual total weight, including the load. If you are over it, use another route."
+    },
+    "signId": "prohibitory.weight-limit",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.passenger-still-standing",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Otobüsle duraktan kalkacaksın. Yaşlı bir yolcu hâlâ koltuğuna doğru yürüyor. Ne yaparsın?",
+      "en": "You are about to pull away from a bus stop. An elderly passenger is still walking to a seat. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sefer gecikmesin diye hemen kalkarım",
+          "en": "Pull away at once to keep to the timetable"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Oturmasını ya da tutunmasını bekler, sonra kalkarım",
+          "en": "Wait until they sit or hold on, then pull away"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yavaşça kalkar, oturmasını ilk kırmızı ışıkta beklerim",
+          "en": "Pull away gently and let them sit at the next red light"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Bir uyarı anonsu yapıp hemen kalkarım",
+          "en": "Make an announcement and pull away straight away"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Ayakta duran bir yolcu ani kalkışta ve frende düşebilir. Yolcunun güvenliği sefer saatinden önce gelir. Yumuşak kalk, yumuşak fren yap.",
+      "en": "A standing passenger can fall when you pull away or brake sharply. Passenger safety comes before the timetable. Pull away and brake smoothly."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.door-not-closed",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Otobüsün arka kapısı tam kapanmadı ve uyarı ışığı yanıyor. Ne yaparsın?",
+      "en": "The rear door of your bus has not closed fully and the warning light is on. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yavaşça kalkarım, kapı yolda kapanır",
+          "en": "I pull away slowly; it will close on the move"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yolculardan kapıdan uzak durmalarını isteyip kalkarım",
+          "en": "I ask passengers to stand clear of it and move off"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kalkar, bir sonraki durakta bakarım",
+          "en": "I move off and check at the next stop"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kapı tam kapanana kadar kalkmam",
+          "en": "I do not move off until the door is fully closed"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Açık kapıyla hareket etmek yolcunun düşmesine ya da sıkışmasına yol açabilir. Kapı kapanmıyorsa aracı hareket ettirme ve arızayı bildir.",
+      "en": "Moving with a door open can make a passenger fall or get trapped. If the door will not close, do not move the bus and report the fault."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.pulling-out-from-bus-stop",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yolun sol kenarındaki bir otobüs durağından trafiğe katılacaksın. Ne yaparsın?",
+      "en": "You are pulling out into traffic from a bus stop on the left-hand side of the road. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sola sinyal verip kalkarım",
+          "en": "Signal left and pull out"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sinyal verip hemen çıkarım, arkadakiler yol vermek zorundadır",
+          "en": "Signal and pull out at once; traffic behind must let me in"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sağ aynaya bakar, sağa sinyal verir, boşluk olunca kalkarım",
+          "en": "Check the right mirror, signal right and move off when there is a gap"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız sol aynaya bakıp kalkarım",
+          "en": "Check only the left mirror and move off"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "KKTC'de duraklar yolun sol kenarındadır ve trafiğe katılırken sağa çıkarsın. Bu yüzden sağ aynayı ve sağ arkayı denetle. Diğer sürücülerin sana yol vereceğini varsayma.",
+      "en": "In KKTC, bus stops are on the left-hand side of the road, so you move out to the right to rejoin traffic. Check the right mirror and over your right shoulder. Do not assume others will let you in."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.overtaking-a-cyclist",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Her yöne birer şeritli dar bir yolda önünde bir bisikletli var ve karşıdan araç geliyor. Kamyonla ne yaparsın?",
+      "en": "On a narrow road with one lane each way there is a cyclist ahead and oncoming traffic. What do you do in your lorry?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Bisikletli kenarda gittiği için dar bir boşlukla hemen yanından geçerim",
+          "en": "Pass straight away with a narrow gap, as the cyclist is keeping to the edge"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Korna çalıp kenara çekilmesini beklerim",
+          "en": "Sound the horn so they pull over"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Solundan, kaldırım tarafından geçerim",
+          "en": "Pass them on the left, on the kerb side"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Arkasında bekler, yol açılınca geniş boşlukla sağından geçerim",
+          "en": "Wait behind, then pass on their right with plenty of room"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Büyük bir aracın yarattığı hava akımı bisikletliyi dengesizleştirebilir. Yeterli boşluk yoksa bekle. KKTC'de sağdan sollanır.",
+      "en": "The air pushed by a large vehicle can unbalance a cyclist. If there is not enough room, wait. In KKTC you overtake on the right."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.wind-blast-motorcyclist",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bölünmüş yolda kamyonla bir motosikletliyi sollayacaksın. Neyi hesaba katmalısın?",
+      "en": "You are about to overtake a motorcyclist on a dual carriageway in your lorry. What should you take into account?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Rüzgâr onu sarsabilir; geniş boşluk bırakırım",
+          "en": "My wind blast can unsettle the rider, so I leave a wide gap"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Motosiklet küçük olduğu için yakından geçebilirim",
+          "en": "A motorcycle is small, so I can pass close"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Geçerken uyarmak için korna çalarım",
+          "en": "I sound the horn as I pass to warn them"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Geçer geçmez önüne, sol şeride kırarım",
+          "en": "I cut back into the left lane as soon as I am past"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Ağır vasıtanın çevresindeki hava akımı iki tekerlileri yana iter. Sollarken geniş boşluk bırak ve motosikletliyi iç aynada görmeden sola dönme.",
+      "en": "The air flow around a heavy vehicle pushes riders sideways. Leave a wide gap when overtaking, and do not move back left until you can see the rider in your mirror."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.being-overtaken",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir otomobil kamyonunu sollamaya başladı. Ne yapmalısın?",
+      "en": "A car has started to overtake your lorry. What should you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Solda kalırım ve hızımı artırmam",
+          "en": "Keep left and do not speed up"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sollamayı zorlaştırmak için hızlanırım",
+          "en": "Speed up to make it harder"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sağa açılıp ona yol gösteririm",
+          "en": "Move out to the right to show the way"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sert fren yaparım",
+          "en": "Brake hard"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Yol Kuralları Yasası md. 2'ye göre sollanan sürücü solda kalır. Hızlanmak sollamayı uzatır ve karşıdan gelen trafikle çarpışma riskini artırır. Gerekirse hafifçe yavaşlayarak sollayanın önüne geçmesine yardım et.",
+      "en": "Under the Road Rules Law, art. 2, a driver being overtaken keeps left. Speeding up makes the manoeuvre longer and raises the risk of a head-on crash. If needed, ease off slightly to let the other driver pass."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s7",
+    "sourceRef": "md. 2(c)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.overtaking-takes-longer",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Her yöne birer şeritli bir yolda kamyonla yavaş bir traktörü sollamayı düşünüyorsun. Otomobile göre en önemli fark nedir?",
+      "en": "On a road with one lane each way you are thinking of overtaking a slow tractor in your lorry. What is the key difference compared with a car?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Karşıdan gelenler ağır araca zaten yol verir",
+          "en": "Oncoming drivers will make way for a heavy lorry anyway"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sollama uzun sürer, çok daha uzun bir açık yol gerekir",
+          "en": "It takes longer, so you need a much longer clear stretch"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yüksek kabinden ileriyi gördüğün için daha kısa bir açık yol yeter",
+          "en": "Because you can see further from the high cab, a shorter clear stretch is enough"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Bir fark yoktur, aynı mesafe yeter",
+          "en": "There is no difference; the same distance is enough"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Uzun ve ağır bir aracın hızlanması ve sağdaki karşı şeritten sola dönmesi daha uzun sürer. Karşı şeridin yeterince uzun bir mesafe boyunca boş olduğundan emin değilsen sollama.",
+      "en": "A long, heavy vehicle takes longer to accelerate and to get back to the left from the oncoming lane on your right. If you are not sure the oncoming lane is clear for long enough, do not overtake."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.long-vehicle-at-roundabout",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Uzun bir araçla çembere giriyorsun ve dönebilmek için iki şeridi de kullanman gerekecek. Ne yaparsın?",
+      "en": "You are entering a roundabout in a long vehicle and will need both lanes to get round. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Uzun araç olduğum için çemberdeki araçlara yol vermem",
+          "en": "I do not give way to traffic on the roundabout because I am long"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Saatin tersi yönünde, kısa yoldan dönerim",
+          "en": "I go anticlockwise, the short way round"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hızımı artırıp çemberden çabucak çıkarım",
+          "en": "I speed up to get off the roundabout quickly"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Aynalardan yanımı denetler, erken sinyal veririm",
+          "en": "Check my mirrors for vehicles alongside and signal early"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Uzun araçlar çemberde çoğu kez birden fazla şerit kullanır. Yanındaki küçük araçları aynalardan izle ve niyetini erkenden göster. Çemberde saat yönünde dön ve içerideki araçlara yol ver.",
+      "en": "Long vehicles often need more than one lane on a roundabout. Watch smaller vehicles alongside in your mirrors and show your intentions early. Go round clockwise and give way to traffic already on the roundabout."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.reversing-in-a-yard",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir depo avlusunda kamyonla geri geri gideceksin ve arkayı aynalardan tam göremiyorsun. Ne yaparsın?",
+      "en": "You need to reverse your lorry in a depot yard and cannot see clearly behind in the mirrors. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Birinden yönlendirmesini ister ya da inip bakarım",
+          "en": "Ask someone to guide me, or get out and look"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Geri vites uyarı sesini herkes duyar, bu yüzden devam ederim",
+          "en": "Everyone can hear the reversing alarm, so I carry on"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hızlıca geri gidip işi çabuk bitiririm",
+          "en": "Reverse quickly to get it over with"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız sağ aynaya bakarak geri giderim",
+          "en": "Reverse using the right mirror alone"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Ağır bir aracın arkasında geniş bir kör alan vardır. Uyarı sesi herkesin duyacağını garanti etmez. Göremediğin yere geri gitme.",
+      "en": "There is a large blind area behind a heavy vehicle, and an alarm does not guarantee everyone hears it. Never reverse into a space you cannot see."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.spray-in-rain",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yağmurda bölünmüş yolda kamyonla gidiyorsun ve tekerleklerin arkasında yoğun su sıçraması oluşuyor. Ne yapmalısın?",
+      "en": "You are driving a lorry on a dual carriageway in the rain and your wheels are throwing up heavy spray. What should you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Su sıçraması yalnız arkadakileri ilgilendirir, normal sürerim",
+          "en": "Spray only affects others, so I drive as normal"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yavaşlar, mesafeyi açar ve kısa farları yakarım",
+          "en": "Slow down, increase my gap and use dipped headlights"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Uzun farları yakarım",
+          "en": "Switch on main beam"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Öndeki araca yaklaşıp onun izinden giderim",
+          "en": "Close up to the vehicle ahead and follow its tracks"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Ağır vasıtaların su sıçraması hem kendi görüşünü hem diğer sürücülerinkini azaltır. Islak yolda fren mesafesi de uzar. Uzun far su perdesinden geri yansır.",
+      "en": "Spray from heavy vehicles cuts your own view and other drivers' view. Stopping distances are longer on wet roads, and main beam reflects back off the spray."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.crosswind-empty-lorry",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Açık bir yolda sert yan rüzgâr esiyor ve kamyonun boş. Ne yaparsın?",
+      "en": "There is a strong crosswind on an exposed road and your lorry is empty. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Boş kamyon hafif olduğu için rüzgârdan etkilenmez, hızımı korurum",
+          "en": "An empty lorry is light, so the wind does not affect it and I keep my speed"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Açık alandan çabuk çıkmak için hızlanırım",
+          "en": "Speed up to get past the exposed stretch"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yavaşlar, direksiyonu sıkı tutar, iki tekerlilere dikkat ederim",
+          "en": "Slow down, grip the wheel firmly and watch for riders beside me"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız kamyon doluyken dikkat etmem gerekir",
+          "en": "I only need to take care when the lorry is loaded"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Yan yüzeyi büyük araçlar, özellikle boşken, yan rüzgârdan çok etkilenir. Aynı rüzgâr bisikletli ve motosikletlileri de savurur.",
+      "en": "High-sided vehicles are strongly affected by crosswinds, especially when empty. The same wind can also push cyclists and motorcyclists off line."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.fire-extinguisher-size",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Polisin açıklamasına göre kamyon ve otobüslerde en az kaç kilogramlık yangın söndürücü bulunmalıdır?",
+      "en": "According to the police, what is the minimum size of fire extinguisher for trucks and buses?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "1 kg",
+          "en": "1 kg"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "3 kg",
+          "en": "3 kg"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "6 kg",
+          "en": "6 kg"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "12 kg",
+          "en": "12 kg"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Polise göre mopet ve motosiklet dışındaki bütün araçlarda en az 1 kg, E, F, G ve K sınıfı araçlarda 3 kg, kamyon ve otobüslerde 6 kg yangın söndürücü bulunmalıdır.",
+      "en": "According to the police, every motor vehicle except mopeds and motorcycles must carry at least a 1 kg extinguisher; class E, F, G and K vehicles 3 kg; and trucks and buses 6 kg."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s38",
+    "sourceRef": "Polis açıklaması",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.walk-round-check",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Kamyonla sefere çıkmadan önce yapacağın kısa denetimde neler olmalıdır?",
+      "en": "What should your short check include before a lorry run?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız yakıt göstergesi",
+          "en": "Only the fuel gauge"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız radyo ve klima",
+          "en": "Only the radio and air conditioning"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hiçbir şey, çünkü araç her yıl muayeneden geçiyor",
+          "en": "Nothing, because the vehicle has its yearly inspection"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Lastikler, ışıklar, aynalar, yük ve sızıntılar",
+          "en": "Tyres, lights, mirrors, load and leaks"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Yıllık muayene günlük arızaları yakalamaz. Aracın çevresinde dolaşarak lastikleri, ışıkları, aynaları, yükü ve altındaki sızıntıları denetle.",
+      "en": "A yearly inspection does not catch day-to-day faults. Walk round the vehicle and check the tyres, lights, mirrors, load and any leaks underneath."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.low-air-pressure-warning",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Havalı frenli bir kamyonu çalıştırdın ve hava basıncı uyarı ışığı yanıyor. Ne yaparsın?",
+      "en": "You start a lorry with air brakes and the low air pressure warning light is on. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hemen kalkarım, çünkü basınç sürüş sırasında kendiliğinden yükselir",
+          "en": "Move off now; the pressure will build by itself as I drive"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Basınç yükselip ışık sönene kadar kalkmam",
+          "en": "Wait for the pressure to build and the light to go out"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Işık yalnız bilgi amaçlıdır, önemsemem",
+          "en": "Ignore it; the light is only for information"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Motoru kapatıp açar ve hemen kalkarım",
+          "en": "Restart the engine and move off straight away"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Hava basıncı düşükken frenler tam çalışmayabilir. Basınç yükselmezse aracı kullanma ve arızayı bildir.",
+      "en": "With low air pressure the brakes may not work fully. If the pressure does not build, do not drive and report the fault."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.bus-speed-village-road",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Üçüncü sınıf yollarda ve köy yollarında otobüs ya da minibüs için hız sınırı nedir?",
+      "en": "What is the speed limit for buses and minibuses on third-class and village roads?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "35 km/sa",
+          "en": "35 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "50 km/sa",
+          "en": "50 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "60 km/sa",
+          "en": "60 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "70 km/sa",
+          "en": "70 km/h"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "2019 bildirisine göre köy yollarında minibüs, kamyonet ve otobüs saatte 60 km, kamyon 35 km, otomobil 70 km ile sınırlıdır.",
+      "en": "Under the 2019 notice, on village roads minibuses, vans and buses are limited to 60 km/h, trucks to 35 km/h and cars to 70 km/h."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.truck-speed-second-class-road",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "İkinci sınıf bir yolda kamyon için hız sınırı nedir?",
+      "en": "What is the truck speed limit on a second-class road?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "35 km/sa",
+          "en": "35 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "45 km/sa",
+          "en": "45 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "65 km/sa",
+          "en": "65 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "75 km/sa",
+          "en": "75 km/h"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Bildiriye göre ikinci sınıf yollarda kamyon saatte 45 km, otobüs ve minibüs 65 km, otomobil 80 km ile sınırlıdır.",
+      "en": "Under the notice, on second-class roads trucks are limited to 45 km/h, buses and minibuses to 65 km/h and cars to 80 km/h."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.tipper-speed-dual-carriageway",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Bölünmüş bir yolda damperli kamyon ya da beton mikseri için hız sınırı nedir?",
+      "en": "What is the speed limit for a tipper or a concrete mixer on a dual carriageway?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "60 km/sa",
+          "en": "60 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "65 km/sa",
+          "en": "65 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "75 km/sa",
+          "en": "75 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "80 km/sa",
+          "en": "80 km/h"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "2019 bildirisine göre bölünmüş yollarda damperli kamyon ve beton mikseri saatte 60 km ile sınırlıdır. Diğer kamyonlar için sınır 75 km'dir.",
+      "en": "Under the 2019 notice, tippers and concrete mixers are limited to 60 km/h on dual carriageways. Other trucks are limited to 75 km/h."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.mirrors-before-moving-off",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Başka bir sürücünün kullandığı kamyonu devralıyorsun. Kalkmadan önce aynalar için ne yaparsın?",
+      "en": "You are taking over a lorry that another driver has been using. What do you do about the mirrors before moving off?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Önceki sürücü ayarladığı için aynalara dokunmam",
+          "en": "Leave them alone, because the last driver set them"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Aynaları yolda giderken ayarlarım",
+          "en": "Adjust them while driving"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız sol aynayı ayarlarım, sağdaki önemli değildir",
+          "en": "Adjust only the left mirror; the right one does not matter"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Koltuğu ayarlar, sonra bütün aynaları kendime göre ayarlarım",
+          "en": "Adjust the seat, then set every mirror for myself"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Ağır vasıtada aynalar kör noktaları görmenin başlıca yoludur. Önce koltuğu, sonra bütün aynaları kendi oturuşuna göre ayarla ve bunu araç dururken yap.",
+      "en": "In a heavy vehicle the mirrors are the main way to see into blind spots. Set the seat first, then every mirror for your own driving position, and do it before you move."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.bus-emergency-exits",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yolcu otobüsüyle sefere çıkmadan önce acil durum donanımı için ne yapmalısın?",
+      "en": "Before setting off on a bus service, what should you do about the emergency equipment?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Acil çıkışların açık, cam kırma çekiçlerinin yerinde olduğunu denetlerim",
+          "en": "Check the emergency exits are clear and the glass hammers are in place"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Bu denetim yalnız yıllık muayenede yapılır",
+          "en": "That is only checked at the yearly inspection"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yer kazanmak için acil çıkışların önüne bagaj koyarım",
+          "en": "Stack luggage in front of the emergency exits to save space"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Çalınmasınlar diye çekiçleri bagaja kaldırırım",
+          "en": "Put the hammers away in the luggage hold so they are not stolen"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Kaza ya da yangında yolcuların hızla çıkabilmesi acil çıkışlara ve cam kırma çekiçlerine bağlıdır. Bunları her sefer öncesi denetle.",
+      "en": "In a crash or a fire, passengers depend on the emergency exits and glass hammers to get out fast. Check them before every service."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.luggage-in-the-aisle",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bir yolcu büyük bavulunu otobüsün koridoruna bırakıyor. Ne yaparsın?",
+      "en": "A passenger leaves a large suitcase in the bus aisle. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Koridorda kalabilir, yolcular üstünden geçer",
+          "en": "It can stay; passengers can step over it"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Bavulu bagaja ya da uygun bir yere koymasını isterim",
+          "en": "Ask them to put it in the hold or a proper luggage space"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sefer gecikmesin diye bir şey söylemem",
+          "en": "Say nothing, so the service is not delayed"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Bu yalnız şehirlerarası seferlerde sorun olur",
+          "en": "It only matters on intercity services"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Koridordaki eşya ani frende fırlayabilir, yolcuları düşürebilir ve acil bir durumda çıkışı kapatır. Koridoru boş tut.",
+      "en": "Luggage in the aisle can fly forward under hard braking, trip passengers and block the way out in an emergency. Keep the aisle clear."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.coupling-check",
+    "rev": 1,
+    "topic": "vehicle",
+    "lesson": "vehicle",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Çekiciye bir yarı römork bağladın. Yola çıkmadan önce neyi denetlemelisin?",
+      "en": "You have coupled a semi-trailer to your tractor unit. What should you check before setting off?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız römorkun ışıklarını",
+          "en": "Only the trailer lights"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Hiçbir şeyi; bağlantının oturduğunu gösteren sesi duyduysam yeterlidir",
+          "en": "Nothing; hearing the coupling click into place is enough"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız lastik basınçlarını",
+          "en": "Only the tyre pressures"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kilidi, hava ve elektrik hatlarını, ışıkları ve ayakları",
+          "en": "The lock, air and electrical lines, lights and landing legs"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Bağlantı sesi kilidin tam oturduğunu garanti etmez. Kilidi gözle denetle, hava ve elektrik hatlarının takılı olduğuna, ışıkların çalıştığına ve römork ayaklarının kaldırıldığına bak. Sonra düşük viteste hafifçe çekerek bağlantıyı dene.",
+      "en": "A click does not prove the coupling has locked. Check the lock by eye, make sure the air and electrical lines are connected, the lights work and the landing legs are fully raised. Then test the coupling with a gentle pull in a low gear."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "heavy.jackknife-risk",
+    "rev": 1,
+    "topic": "safety",
+    "lesson": "heavy",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Yarı römorklu bir tırla ıslak bir virajda sert fren yaparsan ne olabilir?",
+      "en": "What can happen if you brake hard in a wet bend in an articulated lorry?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Römork kendi freniyle çekiciden önce durur",
+          "en": "The trailer stops before the tractor on its own brakes"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Römork çekiciyi itip aracı makaslatabilir",
+          "en": "The trailer can push the tractor round and the lorry can jackknife"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Islakta frenler daha iyi tutar, araç daha çabuk durur",
+          "en": "Brakes grip better in the wet, so the lorry stops sooner"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hiçbir şey olmaz, tır kaymayacak kadar ağırdır",
+          "en": "Nothing; a lorry is too heavy to slide"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Islak virajda sert fren tekerlekleri kilitleyebilir; römork çekiciyi itip aracı makaslatabilir. Viraja girmeden yavaşla ve frenlemeyi düz yolda, kademeli yap.",
+      "en": "Hard braking in a wet bend can lock the wheels, and the trailer can push the tractor round into a jackknife. Lose speed before the bend and brake progressively in a straight line."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  }
+]

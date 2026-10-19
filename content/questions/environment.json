@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "environment.smooth-driving",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Hangi sürüş biçimi en az yakıt harcar?",
+      "en": "Which way of driving uses the least fuel?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yumuşak hızlanıp yolu önceden okuyarak erken yavaşlamak",
+          "en": "Accelerating gently and reading the road so you slow down early"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sık sık hızlanıp son anda sert fren yapmak",
+          "en": "Frequent bursts of speed and hard braking at the last moment"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hep düşük viteste ve yüksek devirde gitmek",
+          "en": "Staying in a low gear at high revs"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Öndeki araca çok yakın gidip onun rüzgârından yararlanmak",
+          "en": "Following very close to use the slipstream of the vehicle ahead"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Her sert fren, yaktığın yakıtın bir kısmını boşa giden ısıya çevirir. Yolu okuyup yumuşak sürmek yakıtı, frenleri ve lastikleri korur.",
+      "en": "Every hard stop turns fuel you have burned into wasted heat. Reading the road and driving smoothly saves fuel, brakes and tyres."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.idling-waiting",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bir arkadaşını beklemek için yol kenarında durdun ve bir süre bekleyeceksin. Motoru ne yaparsın?",
+      "en": "You have stopped at the roadside to wait a while for a friend. What do you do with the engine?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Çalışır bırakırsın, yeniden çalıştırmak daha çok yakar",
+          "en": "Leave it running, as restarting burns more"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kapatırsın",
+          "en": "Switch it off"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Ara ara gaza basarak çalışır tutarsın",
+          "en": "Keep it running and press the accelerator now and then"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Çalışır bırakır, yalnız klimayı kapatırsın",
+          "en": "Leave it running but turn off the air conditioning"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Rölantide çalışan motor hiç yol almadan yakıt yakar, egzoz gazı ve gürültü çıkarır. Uzunca bekleyeceksen motoru kapat.",
+      "en": "An idling engine burns fuel and makes fumes and noise without taking you anywhere. If you will wait a while, switch off."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.cold-start",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Soğuk bir sabah aracını çalıştırdın. Motor ve çevre için en iyisi hangisi?",
+      "en": "You start your car on a cold morning. What is best for the engine and the environment?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Motoru uzun süre rölantide ısıtmak",
+          "en": "Leaving it to warm up at idle for a long time"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Motoru yüksek devirde çalıştırıp hızla ısıtmak",
+          "en": "Revving it hard to warm it up quickly"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Isınana kadar gaz pedalına aralıklı basmak",
+          "en": "Pumping the accelerator until it warms up"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Çok beklemeden yumuşakça yola çıkmak",
+          "en": "Moving off gently without a long wait"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Günümüz motorları yolda, hafif yük altında daha çabuk ısınır. Rölantide beklemek yakıtı boşa harcar ve havayı kirletir.",
+      "en": "Modern engines warm up faster when driven gently. Waiting at idle wastes fuel and pollutes the air."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.tyre-pressure-fuel",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Lastik basıncı düşük olan bir araçta ne olur?",
+      "en": "What happens when a vehicle's tyre pressures are too low?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Lastikler yola daha iyi tutunur, yakıt azalır",
+          "en": "The tyres grip better and fuel use falls"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız yolculuk daha konforlu olur",
+          "en": "Only the ride becomes more comfortable"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız lastiklerden gelen ses azalır",
+          "en": "Only the tyre noise drops"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yakıt tüketimi artar, lastikler daha çabuk aşınır",
+          "en": "Fuel use rises and the tyres wear faster"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Basıncı düşük lastik yolda daha çok ezilir ve dönmesi için motor daha çok çalışır. Düzenli basınç kontrolü hem yakıtı hem lastiği korur.",
+      "en": "A soft tyre flexes more and the engine has to work harder to turn it. Regular pressure checks save fuel and tyres."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.roof-box",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Tatilden döndün ve tavan bagajı boş. Ne yaparsın?",
+      "en": "You are back from holiday and the roof box is empty. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Bir sonraki tatile kadar takılı bırakırsın",
+          "en": "Leave it on until the next holiday"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "İçine ağır eşya koyup aracı dengelersin",
+          "en": "Fill it with heavy items to steady the car"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kullanmayacaksan söküp çıkarırsın",
+          "en": "Take it off if you are not going to use it"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Takılı bırakır, yalnız biraz daha yavaş sürersin",
+          "en": "Leave it on and just drive a little slower"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Boş tavan bagajı da rüzgâr direncini artırır ve özellikle şehir dışında yakıt tüketimini yükseltir.",
+      "en": "Even an empty roof box adds air resistance and raises fuel use, especially on open roads."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.extra-weight",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bagajında haftalardır gereksiz ağır eşyalar duruyor. Bunun etkisi nedir?",
+      "en": "Heavy things you do not need have been in the boot for weeks. What is the effect?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Araç yola daha iyi bastığı için daha az yakıt harcar",
+          "en": "It uses less fuel because it sits better on the road"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Hiçbir etkisi olmaz, araç ağırlığı fark etmez",
+          "en": "No effect; the car does not notice the weight"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız fren balataları daha yavaş aşınır",
+          "en": "Only the brake pads wear more slowly"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Araç her yolculukta daha çok yakıt harcar",
+          "en": "The car uses more fuel on every trip"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Motor, fazladan taşıdığın ağırlığı da her seferinde hızlandırmak zorundadır. Gerekmeyen eşyayı bagajdan çıkar.",
+      "en": "The engine has to speed up every bit of extra weight each time you move off. Take out what you do not need."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.air-con",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Klima kullanımı yakıt tüketimini nasıl etkiler?",
+      "en": "How does using the air conditioning affect fuel use?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Motoru serinlettiği için tüketimi azaltır",
+          "en": "It cools the engine and so reduces fuel use"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız elektrikli araçlarda bir etkisi vardır",
+          "en": "It only makes a difference in electric vehicles"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Motora ek yük bindirir, tüketimi artırır",
+          "en": "It puts extra load on the engine and raises fuel use"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız araç dururken yakıt harcatır",
+          "en": "It only uses fuel while the car is stationary"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Klima kompresörü gücünü motordan alır. Gerektiğinde kullan; araç güneşte ısındıysa önce camları kısa bir süre açıp sıcak havayı çıkar.",
+      "en": "The air-conditioning compressor takes its power from the engine. Use it when you need it, and if the car has stood in the sun, open the windows briefly first to let the hot air out."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.gear-change",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Vitesli bir araçta yakıt tasarrufu için hangisi doğrudur?",
+      "en": "In a vehicle with manual gears, which saves fuel?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Erken üst vitese geçip yüksek devirden kaçınmak",
+          "en": "Changing up early and avoiding high revs"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Her viteste motoru en yüksek devire kadar çevirmek",
+          "en": "Taking every gear to the top of the rev range"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Düz yolda da düşük viteste kalmak",
+          "en": "Staying in a low gear on level roads too"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yokuş aşağı vitesi boşa alıp hızlanmak",
+          "en": "Coasting downhill in neutral to gain speed"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Yüksek devir, aynı hız için daha çok yakıt demektir. Motor zorlanmadan üst vitese geç, ama yokuşta ve sollamada gereken gücü koru.",
+      "en": "High revs burn more fuel for the same speed. Change up when the engine can pull, but keep enough power for hills and overtaking."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.red-light-ahead",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "İleride trafik ışığının kırmızı olduğunu görüyorsun. En verimli davranış hangisi?",
+      "en": "You see that the traffic lights ahead are red. What is the most economical approach?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Işığa kadar hızını koruyup son anda fren yapmak",
+          "en": "Keep your speed and brake at the last moment"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Işık yeşile dönerken orada olmak için hızlanmak",
+          "en": "Speed up so you get there just as it turns green"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Gazı erken bırakıp yavaşça yaklaşmak",
+          "en": "Lift off early and roll up slowly"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Vitesi boşa alıp motoru kapatarak ilerlemek",
+          "en": "Select neutral and switch off the engine while rolling"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Erken gaz kesmek çoğu zaman ışık değişene kadar durmadan yaklaşmanı sağlar. Böylece daha az fren ve daha az yakıt kullanırsın.",
+      "en": "Lifting off early often means the lights change before you have to stop. You use less brake and less fuel."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.speed-fuel",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Açık yolda hızını artırdıkça yakıt tüketimi nasıl değişir?",
+      "en": "On an open road, how does fuel use change as you go faster?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Değişmez, motor hep aynı miktarda yakıt harcar",
+          "en": "It stays the same; the engine always burns the same amount"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yolculuk daha kısa sürdüğü için azalır",
+          "en": "It falls because the journey takes less time"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız yokuşlarda değişir, düz yolda değişmez",
+          "en": "It only changes on hills, not on level roads"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hava direnci büyüdüğü için hızla artar",
+          "en": "It rises steeply because air resistance grows"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Hava direnci hızdan çok daha hızlı büyür. Hız sınırının altında, sabit bir hızla gitmek belirgin biçimde daha az yakar.",
+      "en": "Air resistance grows much faster than speed. Holding a steady speed within the limit uses noticeably less fuel."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.beach-and-dunes",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Araçla kumsala ya da kum tepelerine girmek neden zararlıdır?",
+      "en": "Why is it harmful to drive onto a beach or sand dunes?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Zararlı değildir, kum araç izlerini hemen kapatır",
+          "en": "It is not; the sand covers the tracks straight away"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız aracın lastiklerini aşındırdığı için",
+          "en": "Only because it wears out your tyres"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Bitkileri ezer, kaplumbağa yuvalarına zarar verir",
+          "en": "It crushes plants and damages turtle nests"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız yaz aylarında kumsal kalabalık olduğu için",
+          "en": "Only because beaches are crowded in summer"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Kıbrıs kumsallarında deniz kaplumbağaları yuva yapar ve kum tepelerindeki bitkiler kumu yerinde tutar. Araç tekerlekleri ikisine de kalıcı zarar verir; aracını belirlenmiş yerlere park et.",
+      "en": "Sea turtles nest on Cyprus beaches, and dune plants hold the sand in place. Wheels do lasting damage to both, so park in marked areas."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.engine-revving",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Konut bölgesinde ışıkta bekliyorsun. Dururken motoru yüksek devirde çevirmek için hangisi doğru?",
+      "en": "You are waiting at lights in a residential area. What is true about revving the engine while stationary?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Motoru temizler, bu yüzden düzenli yapılmalıdır",
+          "en": "It cleans the engine, so it should be done regularly"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Gürültü ve egzoz gazı çıkarır, yararı yoktur",
+          "en": "It makes noise and fumes for no benefit"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Işık yeşile dönünce daha hızlı kalkmanı sağlar",
+          "en": "It helps you move off faster when the light turns green"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Akünün daha hızlı dolmasını sağlar",
+          "en": "It charges the battery faster"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Dururken devir yükseltmek yakıt harcar, motoru yorar ve çevredekileri rahatsız eder. Sesi yükseltilmiş egzozlar da aynı rahatsızlığı verir.",
+      "en": "Revving at a standstill wastes fuel, wears the engine and disturbs people nearby. Loud aftermarket exhausts do the same."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.cigarette-fire",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yaz aylarında yol kenarındaki otlar kurumuş. Sigara izmaritini camdan atmanın en büyük tehlikesi nedir?",
+      "en": "In summer the grass along the roadside is dry. What is the biggest danger of throwing a cigarette end out of the window?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız aracın boyasına zarar verebilir",
+          "en": "It can only damage the paintwork"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yol kenarında yangın başlatabilir",
+          "en": "It can start a roadside fire"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Arkadaki sürücünün camını kirletir, başka bir etkisi yoktur",
+          "en": "It only dirties the windscreen of the driver behind"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Tehlikesi yoktur, izmarit yere düşünce söner",
+          "en": "None; it goes out as soon as it lands"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Kuru ot ve çalı tek bir izmaritle tutuşabilir. Kıbrıs'ta yaz yangınları hızla yayılır; izmariti ve çöpü araçta biriktir.",
+      "en": "Dry grass and scrub can catch fire from a single cigarette end. Summer fires in Cyprus spread fast, so keep ash and rubbish in the car."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.litter",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Araçta biriken çöpü ne yaparsın?",
+      "en": "What do you do with rubbish that builds up in the car?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Bir torbada toplayıp çöp kutusuna atarsın",
+          "en": "Collect it in a bag and put it in a bin"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yolda kimse yokken camdan dışarı atarsın",
+          "en": "Throw it out of the window when no one is about"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Park ettiğin yerde aracın yanına bırakırsın",
+          "en": "Leave it next to the car where you park"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Doğada çürüyeceği için yol kenarına bırakırsın",
+          "en": "Drop it at the roadside, since it will rot away"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Yola atılan çöp doğayı kirletir, motosiklet ve bisiklet sürücüleri için tehlike yaratır ve kanalları tıkar.",
+      "en": "Litter thrown on the road pollutes, puts riders and cyclists at risk and blocks drains."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.used-oil",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Aracının yağını kendin değiştirdin. Eski yağı ne yaparsın?",
+      "en": "You have changed your own engine oil. What do you do with the old oil?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kapalı bir kapta atık yağ toplayan bir yere götürürsün",
+          "en": "Take it in a sealed container to a place that collects used oil"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yağmur kanalına dökersin, su onu seyreltir",
+          "en": "Pour it down a drain; the water dilutes it"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Bahçede toprağa dökersin, toprak onu emer",
+          "en": "Pour it onto the garden soil, which soaks it up"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Evdeki çöp torbasına boşaltırsın",
+          "en": "Empty it into the household rubbish"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Atık motor yağı toprağa ve suya karışınca uzun süre zarar verir. Servisler ve atık toplama noktaları onu güvenle alır.",
+      "en": "Used engine oil harms soil and water for a long time. Garages and collection points take it safely."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.batteries-tyres",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Eski aküyü ve eski lastikleri ne yaparsın?",
+      "en": "What do you do with an old battery and old tyres?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Boş bir araziye bırakırsın",
+          "en": "Leave them on a piece of waste ground"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Lastikleri bahçede yakarak yok edersin",
+          "en": "Get rid of the tyres by burning them in the garden"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Aküyü evdeki çöpe atarsın",
+          "en": "Put the battery in the household rubbish"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Satıcıya ya da geri dönüşüm noktasına verirsin",
+          "en": "Hand them to the dealer or a recycling point"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Akü asit ve ağır metal içerir, yakılan lastik zehirli duman çıkarır. Doğru yere verilen akü ve lastik geri dönüştürülür.",
+      "en": "Batteries contain acid and heavy metals, and burning tyres gives off toxic smoke. Handed in properly, both can be recycled."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.exhaust-smoke",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Aracının egzozundan sürekli koyu duman çıkıyor. Bu neyi gösterir?",
+      "en": "Your vehicle keeps giving off dark smoke from the exhaust. What does this show?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Motorun çok verimli çalıştığını",
+          "en": "The engine is running very efficiently"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Motorda bakım gerektiren bir sorun var",
+          "en": "An engine fault that needs attention"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yakıt deposunun tam dolu olduğunu",
+          "en": "The fuel tank is completely full"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Havanın soğuk olduğunu, bunun her zaman normal olduğunu",
+          "en": "It is a cold day, which is always normal"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Sürekli koyu ya da mavimsi duman, yakıtın ya da yağın iyi yanmadığını gösterir. Böyle bir araç hem daha çok kirletir hem daha çok yakar.",
+      "en": "Constant dark or bluish smoke means fuel or oil is not burning properly. The vehicle pollutes more and uses more fuel."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.pavement-space",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Kısa bir iş için bile aracını kaldırıma çıkarıp park etmek neden yanlıştır?",
+      "en": "Why is it wrong to park on the pavement, even for a quick errand?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız aracın lastiklerine zarar verdiği için",
+          "en": "Only because it damages your tyres"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yanlış değildir, kısa süreli olduğu sürece kimseyi etkilemez",
+          "en": "It is not wrong; if it is brief, it affects no one"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yayalar, bebek arabaları ve tekerlekli sandalyeler yola inmek zorunda kalır",
+          "en": "Pedestrians, prams and wheelchairs are forced into the road"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız gece başkalarını rahatsız ettiği için",
+          "en": "Only because it bothers people at night"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Kaldırım yayaların alanıdır. Kaldırımı kapatan araç, en korunmasız yol kullanıcılarını trafiğin içine iter.",
+      "en": "The pavement is the pedestrians' space. A car blocking it pushes the most vulnerable road users into traffic."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.puddle-splash",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Yağmurdan sonra yol kenarında büyük bir su birikintisi var ve yanında yayalar yürüyor. Ne yaparsın?",
+      "en": "After rain there is a big puddle at the edge of the road with pedestrians walking beside it. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Aynı hızla geçersin, yayalar kenardan uzak durmalıdır",
+          "en": "Keep your speed; pedestrians should keep away from the edge"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yavaşlayıp yayaları ıslatmadan geçersin",
+          "en": "Slow down and pass without splashing them"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kornaya basıp yayaları uyarır, hızını korursun",
+          "en": "Sound the horn to warn them and keep your speed"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hızlanıp birikintiden bir an önce çıkarsın",
+          "en": "Speed up to get through the puddle quickly"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Kaldırım soldadır, yani yayalar sana çok yakındır. Yavaş geçmek onları ıslatmaz, aracın su üstünde kaymasını da önler.",
+      "en": "The pavement is on your left, so pedestrians are close to you. Passing slowly keeps them dry and stops your tyres from aquaplaning."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "environment.short-trips",
+    "rev": 1,
+    "topic": "environment",
+    "lesson": "environment",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Evinin yakınındaki bakkala gideceksin. Çevre için en iyi seçim hangisi?",
+      "en": "You are going to a shop close to home. What is best for the environment?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yürümek ya da bisiklete binmek",
+          "en": "Walking or cycling"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Araçla gidip motoru dükkânın önünde çalışır bırakmak",
+          "en": "Driving and leaving the engine running outside"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Motor ısınsın diye araçla daha uzun bir yoldan gitmek",
+          "en": "Driving a longer way round so the engine warms up"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Araçla gitmek, çünkü kısa yolda motor hiç kirletmez",
+          "en": "Driving, because a short trip causes no pollution"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Soğuk motor kısa yolculuklarda en çok yakıtı harcar ve en çok kirletir. Kısa mesafede yürümek ya da bisiklet hem ucuz hem temizdir.",
+      "en": "A cold engine uses the most fuel and pollutes most on short trips. For short distances, walking or cycling is cheaper and cleaner."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  }
+]

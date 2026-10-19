@@ -1,0 +1,37 @@
+[
+  {
+    "id": "sg-commons-nc-photos",
+    "kind": "secondary",
+    "title": "Wikimedia Commons, Category: Road signs in Northern Cyprus (photographs used as evidence of signs in use)",
+    "url": "https://commons.wikimedia.org/wiki/Category:Road_signs_in_Northern_Cyprus",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "id": "sg-wikipedia-road-signs-cyprus",
+    "kind": "secondary",
+    "title": "Wikipedia, \"Road signs in Cyprus\", Northern Cyprus section (DUR, red crescent, Turkish text)",
+    "url": "https://en.wikipedia.org/wiki/Road_signs_in_Cyprus",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "id": "sg-commons-cyprus-svg",
+    "kind": "reference",
+    "title": "Wikimedia Commons, Category: SVG road signs in Cyprus (public-domain drawings consulted for left-hand-traffic conventions; no file copied)",
+    "url": "https://commons.wikimedia.org/wiki/Category:SVG_road_signs_in_Cyprus",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "id": "sg-kgm-handbook",
+    "kind": "reference",
+    "title": "KGM, Trafik İşaretleri El Kitabı (2015), Türkiye; used for Turkish sign names only",
+    "url": "https://www.kgm.gov.tr/SiteCollectionDocuments/KGMdocuments/Trafik/IsaretlerElKitabi/TrafikIsaretleriElKitabi2015.pdf",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "id": "sg-overpass-font",
+    "kind": "reference",
+    "title": "Overpass typeface (SIL Open Font License 1.1); letter and digit shapes converted to paths in the sign drawings",
+    "url": "https://github.com/RedHatOfficial/Overpass",
+    "checkedAt": "2026-10-20"
+  }
+]

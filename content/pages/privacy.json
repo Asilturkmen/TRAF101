@@ -1,0 +1,55 @@
+{
+  "id": "privacy",
+  "slug": { "tr": "gizlilik", "en": "privacy" },
+  "title": { "tr": "Gizlilik", "en": "Privacy" },
+  "summary": {
+    "tr": "İlerlemen yalnız bu tarayıcıda kalır. Cevapların hiçbir sunucuya gitmez. Çerez ve analitik yok.",
+    "en": "Your progress stays in this browser. Your answers are never sent to a server. No cookies and no analytics."
+  },
+  "sections": [
+    {
+      "heading": { "tr": "Ne saklanıyor, nerede", "en": "What is stored and where" },
+      "body": {
+        "tr": "Çözdüğün sorular, Hatalarım listen, tekrar sıran ve deneme sınavı geçmişin yalnız bu tarayıcıda, **localStorage** denen yerel depoda tutulur.\n\nBu bilgiler hiçbir sunucuya gönderilmez. Cevaplarını biz de göremeyiz.",
+        "en": "The questions you have answered, your mistakes list, your review queue and your mock exam history are kept only in this browser, in its local storage (**localStorage**).\n\nNone of this is sent to a server. We cannot see your answers either."
+      }
+    },
+    {
+      "heading": { "tr": "Çerez ve analitik yok", "en": "No cookies, no analytics" },
+      "body": {
+        "tr": "Test2Drive çerez kullanmaz. Bu sürümde ziyaretleri sayan ya da ne yaptığını izleyen bir analitik aracı yok. Bu değişirse önce bu sayfa güncellenir.",
+        "en": "Test2Drive does not use cookies. This version has no analytics tool that counts visits or tracks what you do. If that changes, this page will be updated first."
+      }
+    },
+    {
+      "heading": { "tr": "Hesap yok", "en": "No account" },
+      "body": {
+        "tr": "Hesap, e-posta ya da şifre istemiyoruz. Bunun bir sonucu var: ilerlemen başka bir cihaza ya da tarayıcıya kendiliğinden geçmez.",
+        "en": "We do not ask for an account, an email address or a password. One consequence is that your progress does not move to another device or browser by itself."
+      }
+    },
+    {
+      "heading": { "tr": "İlerlemeni taşımak ya da sıfırlamak", "en": "Moving or resetting your progress" },
+      "body": {
+        "tr": "- İlerleme sayfasından ilerlemeni bir dosya olarak **dışa aktarabilirsin**.\n- Bu dosyayı başka bir cihazda ya da tarayıcıda aynı sayfadan **içe aktarabilirsin**.\n- Yine aynı sayfadan, onay verdikten sonra ilerlemeni tamamen **sıfırlayabilirsin**.",
+        "en": "- On the Progress page you can **export** your progress as a file.\n- You can **import** that file on another device or browser from the same page.\n- From the same page you can also **reset** your progress completely after confirming."
+      }
+    },
+    {
+      "heading": { "tr": "İlerlemen ne zaman silinir", "en": "When your progress is deleted" },
+      "body": {
+        "tr": "- Tarayıcının site verilerini ya da geçmişini temizlersen ilerlemen silinir.\n- Gizli sekmede çalışırsan sekmeyi kapattığında ilerlemen gider.\n- iPhone ve iPad'de Safari, bir süredir açmadığın sitelerin verilerini kendiliğinden silebilir. Siteyi **ana ekrana eklersen** bu silme uygulanmaz.\n\nSınavın yaklaşıyorsa ara sıra ilerlemeni dışa aktar.",
+        "en": "- If you clear your browser's site data or history, your progress is deleted.\n- If you use a private window, your progress goes when you close it.\n- On iPhone and iPad, Safari can delete the data of sites you have not opened for a while. If you **add the site to your home screen**, this does not apply.\n\nIf your exam is coming up, export your progress now and then."
+      },
+      "basis": "secondary", "sourceId": "gu-webkit-storage", "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Barındırma ve hata bildirimi", "en": "Hosting and error reports" },
+      "body": {
+        "tr": "Site, durağan dosyalar olarak bir barındırma hizmetinden sunulur. Her web sitesinde olduğu gibi bu hizmet, sayfayı sana gönderirken IP adresin gibi standart teknik kayıtlar tutabilir. Cevapların bu kayıtlara girmez, çünkü sunucuya hiç gelmez.\n\nHata bildir bağlantısını kullanırsan yazdıkların o bağlantının açtığı hizmete gider, örneğin GitHub'a. Orada o hizmetin gizlilik kuralları geçerlidir.",
+        "en": "The site is served as static files by a hosting service. As with any website, that service may keep standard technical logs, such as your IP address, when it sends you a page. Your answers are not in those logs, because they never reach the server.\n\nIf you use the Report a mistake link, what you write goes to the service that link opens, for example GitHub. That service's privacy rules apply there."
+      }
+    }
+  ],
+  "reviewedAt": "2026-10-20"
+}

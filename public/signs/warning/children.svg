@@ -1,14 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- Triangle - Red Border -->
-  <path d="M50 10 L90 85 L10 85 Z" fill="#FFFFFF"/>
-  <path d="M50 10 L90 85 L10 85 Z" fill="none" stroke="#DC2626" stroke-width="6"/>
-  <!-- Children symbol -->
-  <g transform="translate(35, 35)">
-    <circle cx="10" cy="8" r="5" fill="#000000"/>
-    <path d="M10 15 L10 30 M5 20 L15 20 M10 30 L6 40 M10 30 L14 40" stroke="#000000" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-  </g>
-  <g transform="translate(50, 40)">
-    <circle cx="8" cy="6" r="4" fill="#000000"/>
-    <path d="M8 11 L8 23 M4 15 L12 15 M8 23 L5 32 M8 23 L11 32" stroke="#000000" stroke-width="2" fill="none" stroke-linecap="round"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><path fill="#FFFFFF" stroke="#B4BAC1" stroke-width="1.2" d="M87.9 23.7A14 14 0 0 1 112.1 23.7L192.5 162.9A14 14 0 0 1 180.4 183.9L19.6 183.9A14 14 0 0 1 7.5 162.9Z"/><path fill-rule="evenodd" fill="#C1121F" d="M91.3 24.5A10 10 0 0 1 108.7 24.5L190.1 165.5A10 10 0 0 1 181.4 180.5L18.6 180.5A10 10 0 0 1 9.9 165.5ZM97.4 46A3 3 0 0 1 102.6 46L168.4 160A3 3 0 0 1 165.8 164.5L34.2 164.5A3 3 0 0 1 31.6 160Z"/><path fill="none" stroke="#1A1A1A" stroke-width="7.8" stroke-linecap="round" stroke-linejoin="round" d="M72.4 158L79.2 145L88 130.8M101 157.3L94.2 145L88 130.8M74.4 129.4L77.8 121.9L85.3 112.4M98.2 128L94.2 120.6L85.3 112.4"/><path fill="none" stroke="#1A1A1A" stroke-width="11.6" stroke-linecap="round" stroke-linejoin="round" d="M85 111.7L88 130.1"/><circle cx="81.9" cy="101.5" r="8.2" fill="#1A1A1A"/><path fill="none" stroke="#1A1A1A" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round" d="M109.2 158.4L114.6 148.1L121.6 136.8M131.9 157.8L126.5 148.1L121.6 136.8M110.8 135.7L113.5 129.8L119.5 122.2M129.7 134.6L126.5 128.7L119.5 122.2"/><path fill="none" stroke="#1A1A1A" stroke-width="9.2" stroke-linecap="round" stroke-linejoin="round" d="M119.2 121.7L121.6 136.2"/><circle cx="116.8" cy="113.6" r="6.5" fill="#1A1A1A"/></svg>

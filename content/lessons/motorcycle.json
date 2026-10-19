@@ -1,0 +1,154 @@
+{
+  "id": "motorcycle",
+  "title": {
+    "tr": "Motosiklet",
+    "en": "Motorcycles"
+  },
+  "summary": {
+    "tr": "Motosiklette doğru ehliyet, iyi bir kask ve yoldaki konumun seni korur.",
+    "en": "On a motorcycle, the right licence, a good helmet and your road position keep you safe."
+  },
+  "sections": [
+    {
+      "heading": {
+        "tr": "Motosiklet ehliyet sınıfları",
+        "en": "Motorcycle licence classes"
+      },
+      "body": {
+        "tr": "- **J:** 50 cc'ye kadar mopedler, üç tekerlekliler de dahil.\n- **H1:** 125 cc'ye ve 11 kW'a kadar motosikletler.\n- **H2:** 35 kW'a kadar motosikletler.\n- **H:** sınırsız, bütün motosikletler.\n\nBüyük sınıf küçükleri kapsar: H ehliyeti H2, H1 ve J'yi; H2 ehliyeti H1 ve J'yi; H1 ehliyeti J'yi kapsar.\n\nMotosiklet ve moped adayları en az 12 saatlik temel bir kurs alır; günde en fazla 3 saat ders yapılabilir. H2 ve H için yaş ve deneyim şartlarını kursuna sor.",
+        "en": "- **J:** mopeds up to 50 cc, including three-wheeled ones.\n- **H1:** motorcycles up to 125 cc and 11 kW.\n- **H2:** motorcycles up to 35 kW.\n- **H:** unrestricted, all motorcycles.\n\nA higher class covers the lower ones: H covers H2, H1 and J; H2 covers H1 and J; H1 covers J.\n\nMotorcycle and moped learners take a basic course of at least 12 hours, with no more than 3 hours of lessons a day. Ask your driving school about the age and experience requirements for H2 and H."
+      },
+      "basis": "law",
+      "sourceId": "s10",
+      "sourceRef": "md. 33(2), 34(4), 29(7)"
+    },
+    {
+      "heading": {
+        "tr": "Kask ve koruyucu giysi",
+        "en": "Helmet and protective clothing"
+      },
+      "body": {
+        "tr": "Motosiklet, moped, motorlu üç tekerlekli ve ATV'de **sürücü ve yolcu** kask takar. Motorun hacmi ya da gücü fark etmez.\n\nKask başına tam oturmalı, çene kayışı bağlı ve vizörü temiz olmalı.",
+        "en": "**Riders and passengers** on motorcycles, mopeds, motor tricycles and ATVs wear helmets, whatever the engine size or power.\n\nThe helmet must fit snugly, the chin strap must be fastened and the visor must be clean."
+      },
+      "basis": "law",
+      "sourceId": "s9",
+      "sourceRef": "md. 58(3)"
+    },
+    {
+      "heading": {
+        "tr": "Kaskın yanında",
+        "en": "Beyond the helmet"
+      },
+      "body": {
+        "tr": "Kaskın yanında şunları da giy:\n\n- eldiven, çünkü düşerken önce ellerin yere değer,\n- dizleri ve dirsekleri koruyan ceket ve pantolon,\n- bileği kapatan bot,\n- gündüz açık renkli, gece yansıtıcı giysi.\n\nSıcak havada kısa kollu sürmek cazip gelir, ama asfalt çıplak cildi çok kısa sürede yaralar.",
+        "en": "As well as a helmet, wear:\n\n- gloves, because your hands hit the ground first in a fall,\n- a jacket and trousers that protect your knees and elbows,\n- boots that cover your ankles,\n- bright clothing by day and reflective clothing at night.\n\nRiding in short sleeves is tempting in the heat, but asphalt injures bare skin in an instant."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Hız sınırları",
+        "en": "Speed limits"
+      },
+      "body": {
+        "tr": "2019 hız bildirisine göre, basında yer aldığı biçimiyle, motosikletler için sınırlar:\n\n- bölünmüş yollarda 85 km/sa,\n- birinci ve ikinci sınıf yollarda 75 km/sa,\n- üçüncü sınıf ve köy yollarında 60 km/sa.\n\nBölünmüş yolda otomobil için sınır daha yüksektir; otomobillerin hızına uymaya çalışma.",
+        "en": "According to the 2019 speed notice, as reported in the press, the limits for motorcycles are:\n\n- 85 km/h on divided roads,\n- 75 km/h on first- and second-class roads,\n- 60 km/h on third-class and village roads.\n\nCars have a higher limit on divided roads; do not try to keep up with them."
+      },
+      "basis": "secondary",
+      "sourceId": "s27",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Yolda konumun ve yüzey",
+        "en": "Road position and surface"
+      },
+      "body": {
+        "tr": "- Şeridin içinde görünür olduğun ve kaçış payı bıraktığın bir yerde git. Kaldırıma çok yakın gitmek seni araçların arkasında gizler.\n- Sollamayı her araç gibi **sağdan** yap. Sollamadan ve sağa dönmeden önce sağ omzunun üstünden kör noktana bak.\n- Kavşakta bir sürücünün seni görmediğini varsay.\n- Gündüz de farını yak.\n- Boyalı yol çizgileri, rögar kapakları, çakıl, kum ve dökülmüş yağ, özellikle ıslakken kaygandır.\n- Freni virajdan önce, motosiklet düz giderken yap.\n- Yan rüzgarda, özellikle kamyon sollarken, gidonu sıkı ama gergin olmadan tut.",
+        "en": "- Ride where you can be seen and have room to escape. Hugging the kerb hides you behind other vehicles.\n- Overtake on the **right**, like any other vehicle. Before overtaking or turning right, look over your right shoulder into the blind spot.\n- At junctions, assume drivers have not seen you.\n- Use your headlight in daylight too.\n- Painted lines, manhole covers, gravel, sand and spilt oil are slippery, especially when wet.\n- Brake before a bend, while the bike is upright.\n- In a side wind, especially when passing a lorry, grip the bars firmly without tensing up."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Yolcu ve elektrikli araçlar",
+        "en": "Passengers and electric vehicles"
+      },
+      "body": {
+        "tr": "Mopedde çocuk yolcu yalnız 7 ile 12 yaş arasındaysa, uygun bir koltukta oturuyorsa, ayakları ayak dayama yerine yetişiyorsa ve kask takıyorsa taşınabilir.\n\nHızı en fazla 30 km/sa, gücü 351 W'tan az olan e-scooter ve e-mopedler ehliyet istemez, ama sürücü en az 18 yaşında olmalıdır. Daha hızlı araçlar için J, H1, H2 ya da H ehliyeti gerekir.",
+        "en": "A child may ride as a moped passenger only if aged 7 to 12, seated on a proper seat, able to reach the footrests and wearing a helmet.\n\nE-scooters and e-mopeds with a top speed of 30 km/h and under 351 W need no licence, but the rider must be at least 18. Faster vehicles need a J, H1, H2 or H licence."
+      },
+      "basis": "law",
+      "sourceId": "s10",
+      "sourceRef": "md. 58(2)"
+    }
+  ],
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Bugünkü motosiklet sınıfları J, H1, H2 ve H'dir; büyük sınıf küçükleri kapsar.",
+        "en": "Today's motorcycle classes are J, H1, H2 and H; a higher class covers the lower ones."
+      },
+      "basis": "law",
+      "sourceId": "s10",
+      "sourceRef": "md. 34(4)"
+    },
+    {
+      "text": {
+        "tr": "Motosiklet ve mopedde sürücü de yolcu da kask takar; motor hacmi fark etmez.",
+        "en": "Rider and passenger both wear helmets on motorcycles and mopeds, whatever the engine size."
+      },
+      "basis": "law",
+      "sourceId": "s9",
+      "sourceRef": "md. 58(3)"
+    },
+    {
+      "text": {
+        "tr": "Motosiklet ve moped adayları en az 12 saatlik temel kurs alır.",
+        "en": "Motorcycle and moped learners take a basic course of at least 12 hours."
+      },
+      "basis": "law",
+      "sourceId": "s10",
+      "sourceRef": "md. 29(7)"
+    },
+    {
+      "text": {
+        "tr": "Bölünmüş yolda motosiklet sınırı 85 km/sa, köy yolunda 60 km/sa.",
+        "en": "The motorcycle limit is 85 km/h on divided roads and 60 km/h on village roads."
+      },
+      "basis": "secondary",
+      "sourceId": "s27",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Sollamadan ve sağa dönmeden önce sağ omzunun üstünden kör noktana bak.",
+        "en": "Before overtaking or turning right, look over your right shoulder into the blind spot."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Freni virajdan önce, motosiklet düz giderken yap.",
+        "en": "Brake before a bend, while the bike is upright."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    }
+  ],
+  "relatedSigns": [
+    "prohibitory.no-motorcycles",
+    "warning.slippery-road",
+    "warning.uneven-road",
+    "warning.bend--left"
+  ],
+  "reviewedAt": "2026-10-20"
+}

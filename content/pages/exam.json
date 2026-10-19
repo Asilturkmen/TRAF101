@@ -1,0 +1,154 @@
+{
+  "id": "exam",
+  "slug": { "tr": "sinav-nasil-yapilir", "en": "how-the-exam-works" },
+  "title": { "tr": "Sınav nasıl yapılır", "en": "How the exam works" },
+  "summary": {
+    "tr": "KKTC'de ehliyet bugün sürücü kursu, müfettişle yapılan sözlü levha sınavı, direksiyon dersleri ve direksiyon sınavıyla alınır. Yönetmelikte yazılı bir sınav tanımlı, ama henüz uygulanmıyor.",
+    "en": "In North Cyprus you get a licence today through a driving school, an oral sign exam with an inspector, driving lessons and a practical test. A written exam is set out in a regulation but is not in use yet."
+  },
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Nisan 2026'daki haberlere göre teori adımı hâlâ müfettişle yüz yüze yapılan sözlü bir levha sınavıydı.",
+        "en": "According to press reports from April 2026, the theory step was still an oral sign exam, face to face with an inspector."
+      },
+      "basis": "secondary", "sourceId": "s24", "sourceRef": "24.04.2026"
+    },
+    {
+      "text": {
+        "tr": "Yönetmelikte otomobil ve motosiklet için 50 soruluk, 40 doğruyla geçilen, 60 dakikalık bilgisayarlı bir sınav tanımlı.",
+        "en": "The regulation sets out a computer-based exam for cars and motorcycles: 50 questions, 40 correct to pass, 60 minutes."
+      },
+      "basis": "law", "sourceId": "s3", "sourceRef": "md. 13"
+    },
+    {
+      "text": {
+        "tr": "Bu yazılı sınav 2020'de başlatılmak istendi, altyapı hazır olmadığı için durduruldu ve bugün uygulanmıyor.",
+        "en": "This written exam was due to start in 2020, was halted because the infrastructure was not ready, and is not in use today."
+      },
+      "basis": "secondary", "sourceId": "s18", "sourceRef": "03.11.2020"
+    },
+    {
+      "text": {
+        "tr": "İlk kez verilen ehliyet bir yıllıktır.",
+        "en": "A first licence is issued for one year."
+      },
+      "basis": "law", "sourceId": "s6", "sourceRef": "Ek Kısım II"
+    }
+  ],
+  "sections": [
+    {
+      "heading": { "tr": "Sınavı kim yapar", "en": "Who runs the exam" },
+      "body": {
+        "tr": "Ehliyet ve sınav işlerine Bayındırlık ve Ulaştırma Bakanlığı'na bağlı **Trafik Dairesi** bakar. Sınavları dairenin sürüş ehliyeti müfettişleri yapar.\n\nTest2Drive resmi bir kurum değildir. Başvuru, randevu ve ücret için Trafik Dairesi'ne ya da kayıtlı olduğun sürücü kursuna danış.",
+        "en": "Licences and exams are handled by the **Traffic Department** (Trafik Dairesi), part of the Ministry of Public Works and Transport. The exams are conducted by the department's driving-licence inspectors.\n\nTest2Drive is not an official body. For applications, appointments and fees, ask the Traffic Department or your driving school."
+      },
+      "basis": "law", "sourceId": "s13", "sourceRef": "Sürüş Ehliyeti ve Müfettişleri Şubesi"
+    },
+    {
+      "heading": { "tr": "Bugünkü yol adım adım", "en": "The route today, step by step" },
+      "body": {
+        "tr": "Hiç ehliyeti olmayan biri için yol bugün kabaca şöyle işler:\n\n- Bir sürücü kursuna kaydolursun. Öğrenci ehliyeti başvurusunu çoğu zaman kurs senin adına yapar.\n- Müfettişle **sözlü levha sınavına** girersin. Bu sınavı kurs ayarlar. Geçince öğrenci ehliyetin çıkar.\n- Kursun aracıyla ve eğitmenle direksiyon dersleri alırsın.\n- Müfettişle **direksiyon sınavına** girersin.\n- Geçersen ilk ehliyetin verilir.\n\nSıra ve süreler kursa ve döneme göre değişebilir. Kesin bilgiyi kayıt olurken kursuna sor.",
+        "en": "For someone with no licence, the route today works roughly like this:\n\n- You register with a driving school. The school usually applies for the learner licence on your behalf.\n- You sit the **oral sign exam** with an inspector. The school arranges it. If you pass, you get your learner licence.\n- You take driving lessons in the school's car with an instructor.\n- You sit the **practical driving test** with an inspector.\n- If you pass, you are issued your first licence.\n\nThe order and timings can vary by school and over time. Ask your school for the exact steps when you register."
+      },
+      "basis": "secondary", "sourceId": "gu-infonorthcyprus", "sourceRef": "Temmuz 2026"
+    },
+    {
+      "heading": { "tr": "Sözlü levha sınavı", "en": "The oral sign exam" },
+      "body": {
+        "tr": "Teori adımının adı **öğrenci ehliyeti sınavı**dır. Bugün bu sınav yazılı değil, sözlüdür. Müfettişin karşısına oturursun, o da sana levhaları gösterip ne anlama geldiklerini sorar. Kurslarda kullanılan pembe kitapçıktaki levhalar sık sorulur.\n\nSoru sayısı ve geçme notu sabit değildir. Basında farklı sayılar geçiyor. Belirleyici olan, müfettişin cevaplarından tatmin olmasıdır.\n\nBasına yansıyan haberlere göre sınav Nisan 2026'da hâlâ sözlü yapılıyordu.",
+        "en": "The theory step is called the **learner-licence exam** (öğrenci ehliyeti sınavı). Today it is oral, not written. You sit opposite an inspector, who shows you road signs and asks what they mean. Signs from the pink booklet used by driving schools come up often.\n\nThere is no fixed number of questions and no fixed pass mark. Press reports give different numbers. What counts is that the inspector is satisfied with your answers.\n\nAccording to press reports, the exam was still oral in April 2026."
+      },
+      "basis": "secondary", "sourceId": "s24", "sourceRef": "24.04.2026"
+    },
+    {
+      "heading": { "tr": "Direksiyon dersleri", "en": "Driving lessons" },
+      "body": {
+        "tr": "Otomobil için kurslar bir ders paketi uygular. Sürücü kursları birliğinin başkanı 2025'te bu paketi 10 ders olarak anlattı. Derslerde kursun aracıyla ve eğitmenin yanında trafiğe çıkarsın.\n\nPaketin içeriğini ve ücretini kayıt olmadan önce kursuna sor.",
+        "en": "For cars, schools run a lesson package. In 2025 the head of the driving-school union described it as 10 lessons. You drive in traffic in the school's car, with the instructor beside you.\n\nAsk your school what the package includes and what it costs before you register."
+      },
+      "basis": "secondary", "sourceId": "s25", "sourceRef": "23.02.2025"
+    },
+    {
+      "heading": { "tr": "Motosiklet ve moped kursu", "en": "Motorcycle and moped course" },
+      "body": {
+        "tr": "Motosiklet ya da moped için öğrenci ehliyeti alan herkes **12 saatlik temel kursa** katılır. Bu kurs günde en çok 3 saat yapılabilir.",
+        "en": "Anyone who gets a learner licence for a motorcycle or moped must attend a **12-hour basic course**. The course can run for at most 3 hours a day."
+      },
+      "basis": "law", "sourceId": "s10", "sourceRef": "md. 29(7)"
+    },
+    {
+      "heading": { "tr": "Direksiyon sınavı", "en": "The practical test" },
+      "body": {
+        "tr": "Direksiyon sınavında müfettiş seninle araçtadır ve trafikte nasıl sürdüğüne bakar.\n\nSürücü kursları birliğinin başkanı 2025'te bu sınav için yaklaşık 3 ay beklendiğini, ek ücretle daha erken sınava girilebildiğini anlattı. Sınavda kalan aday en az 1 ay sonra yeniden girebilir.",
+        "en": "In the practical test the inspector sits in the car with you and watches how you drive in traffic.\n\nIn 2025 the head of the driving-school union said the wait for this test was about 3 months, and that an extra fee could get you an earlier date. A candidate who fails must wait at least 1 month before trying again."
+      },
+      "basis": "secondary", "sourceId": "s25", "sourceRef": "23.02.2025"
+    },
+    {
+      "heading": { "tr": "İlk ehliyet bir yıllık", "en": "The first licence lasts one year" },
+      "body": {
+        "tr": "Sınavları geçince verilen ilk ehliyet **bir yıllıktır**. Süre bitince ehliyetini yenilersin.\n\nYenileme harçları ve ehliyet sınıfları Ehliyet nasıl alınır sayfasında.",
+        "en": "The first licence you get after passing is valid for **one year**. When it runs out, you renew it.\n\nRenewal fees and licence classes are on the Getting a licence page."
+      },
+      "basis": "law", "sourceId": "s6", "sourceRef": "Ek Kısım II"
+    },
+    {
+      "heading": { "tr": "Yönetmelikteki yazılı sınav", "en": "The written exam in the regulation" },
+      "body": {
+        "tr": "2017'de çıkan Ehliyet, Sınav ve Sürüş Ehliyet Müfettişleri ile İlgili Usul ve Kurallar Tüzüğü, sözlü sınavın yerine **bilgisayarlı, çoktan seçmeli** bir sınav tanımlar. Sorular resmi bir soru bankasından gelir.\n\n- Otomobil ve motosiklet sınıfları: 50 soru, 40 doğru cevapla geçilir, süre 60 dakika.\n- Ağır vasıta sınıfları: 100 soru, 80 doğru cevapla geçilir, süre 120 dakika.\n\nOtomobil sınavında soruların konulara dağılımı da yazılıdır:\n\n- Trafik kuralları ve levhalar: 22\n- Trafik güvenliği ve davranış: 15\n- Araç bilgisi: 4\n- Çevre: 3\n- Sürücünün kişisel durumu: 3\n- İlk yardım: 3",
+        "en": "A regulation from 2017, the Ehliyet, Sınav ve Sürüş Ehliyet Müfettişleri ile İlgili Usul ve Kurallar Tüzüğü, replaces the oral exam with a **computer-based, multiple-choice** exam. The questions come from an official question bank.\n\n- Car and motorcycle classes: 50 questions, 40 correct to pass, 60 minutes.\n- Heavy-vehicle classes: 100 questions, 80 correct to pass, 120 minutes.\n\nFor the car exam the regulation also sets the number of questions per topic:\n\n- Traffic rules and signs: 22\n- Road safety and behaviour: 15\n- Vehicle knowledge: 4\n- Environment: 3\n- Driver fitness: 3\n- First aid: 3"
+      },
+      "basis": "law", "sourceId": "s3", "sourceRef": "md. 4(1), 13"
+    },
+    {
+      "heading": { "tr": "Bu sınav henüz uygulanmıyor", "en": "This exam is not in use yet" },
+      "body": {
+        "tr": "Yönetmelik 2020'de yeniden yayımlandı ve yeni sistem Kasım 2020'de başlatılmak istendi. Altyapı hazır olmadığı için sınavlar ve ehliyet yenilemeleri durduruldu. Aralık 2020'de Bakanlar Kurulu kararıyla eski sistemdeki sınavlara dönüldü.\n\nBugün adaylar bilgisayarda yazılı bir sınava girmiyor. Test2Drive'daki yazılı sınav provası bu yüzden **yönetmelikte tanımlı, henüz uygulanmıyor** etiketi taşır.",
+        "en": "The regulation was published again in 2020, and the new system was due to start in November 2020. Exams and licence renewals were halted because the infrastructure was not ready. In December 2020 a Council of Ministers decision brought back the exams under the old system.\n\nCandidates today do not sit a written computer exam. That is why the written exam rehearsal on Test2Drive is labelled **set out in the regulation, not in use yet**."
+      },
+      "basis": "secondary", "sourceId": "s19", "sourceRef": "22.12.2020"
+    },
+    {
+      "heading": { "tr": "2024 kararı: yazılı sınav ve çeviriler", "en": "The 2024 decision: a written exam and translations" },
+      "body": {
+        "tr": "Bakanlığın 2024 faaliyet kitabına göre öğrenci ehliyeti sınavının yazılı yapılmasına karar verildi. Trafik eğitim kitabının ve sınav sorularının İngilizce, Rusça ve Arapçaya çevrilmesi de kararlaştırıldı.",
+        "en": "According to the ministry's 2024 activity book, it was decided that the learner-licence exam would become written. It was also decided to translate the traffic education book and the exam questions into English, Russian and Arabic."
+      },
+      "basis": "law", "sourceId": "s14", "sourceRef": "2024 faaliyet kitabı"
+    },
+    {
+      "heading": { "tr": "2025 kararı: e-sınav", "en": "The 2025 decision: an e-exam" },
+      "body": {
+        "tr": "Aralık 2025'te basına yansıyan habere göre Bakanlık, Türkiye Millî Eğitim Bakanlığı ile sözlü sınavdan yazılı e-sınava geçmek için çalışma başlattı. Haberde sınav materyallerinin 8 dilde hazırlanacağı yazıyor.\n\nBu sayfanın son kontrol tarihinde e-sınavın başladığını gösteren bir kaynak bulunamadı. Nisan 2026 haberleri hâlâ zorunlu sözlü sınavdan söz ediyordu.",
+        "en": "According to a press report from December 2025, the ministry started work with Turkey's Ministry of National Education to move from the oral exam to a written e-exam. The report says the exam materials will be prepared in 8 languages.\n\nAt the last check of this page, no source showed that the e-exam had started. Reports from April 2026 still referred to a mandatory oral exam."
+      },
+      "basis": "secondary", "sourceId": "s23", "sourceRef": "31.12.2025"
+    },
+    {
+      "heading": { "tr": "Sınav dili", "en": "Exam language" },
+      "body": {
+        "tr": "Bugünkü sözlü sınavın hangi dillerde yapılabileceği hiçbir yasada yazılı değil. Türkçe bilmiyorsan sınavın hangi dilde yapılacağını kayıt olurken kursuna sor.\n\nİngilizce sayfalarda levhaların Türkçe adlarını da gösteriyoruz, çünkü yolda ve sınavda Türkçe adlarla karşılaşabilirsin.",
+        "en": "No law says which languages the oral exam can be taken in. If you do not speak Turkish, ask your driving school about the exam language when you register.\n\nOn the English pages we also show the Turkish name of each sign, because you may meet the Turkish names on the road and in the exam."
+      },
+      "basis": "practice", "sourceId": null, "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Hazırlanırken bunun anlamı", "en": "What this means for preparing" },
+      "body": {
+        "tr": "İki sınava birden hazırlanmak mantıklıdır:\n\n- **Bugünkü sözlü sınav için** levhaları tanı ve anlamını kendi cümlenle söyleyebil. Levha sınavı provası bunu taklit eder.\n- **Gelecekteki yazılı sınav için** kuralları ve güvenli sürüşü de çalış. Yazılı sınav provası yönetmelikteki soru sayısını, geçme notunu ve konu dağılımını kullanır.\n- Sınav biçimi değişirse bu sayfa ve provalar güncellenir. Kursunun söyledikleri her zaman önceliklidir.\n\nDireksiyon sınavında ölçülen şey sürüşündür. Sitedeki sorular kursta alacağın derslerin yerini tutmaz.",
+        "en": "It makes sense to prepare for both exams:\n\n- **For today's oral exam**, recognise the signs and be able to say what they mean in your own words. The sign exam rehearsal imitates this.\n- **For the future written exam**, study the rules and safe driving as well. The written exam rehearsal uses the number of questions, the pass mark and the topic split from the regulation.\n- If the exam format changes, this page and the rehearsals are updated. What your driving school tells you always comes first.\n\nThe practical test is about how you drive. The questions on this site do not replace your lessons."
+      },
+      "basis": "practice", "sourceId": null, "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Ne değişti", "en": "What changed" },
+      "body": {
+        "tr": "- **Mayıs 2017:** Yeni ehliyet ve sınav tüzükleri yayımlandı. Yürürlüğe girmeleri için 24 aylık bir süre öngörüldü (Kıbrıs Postası).\n- **28 Ağustos 2020:** Tüzükler Resmi Gazete'de yeniden yayımlandı (Kıbrıs Postası).\n- **1 Kasım 2020:** Altyapı hazır olmadığı için sınavlar ve ehliyet yenilemeleri durduruldu (Kıbrıs Postası).\n- **Aralık 2020:** Bakanlar Kurulu kararıyla eski sistemdeki sınavlar yeniden başladı (Yenidüzen).\n- **2022:** Bakanlık, ehliyet sınıflarında uluslararası sisteme geçmeyi hâlâ planlıyordu (Bakanlık faaliyet raporu).\n- **Nisan 2024:** Öğrenci ehliyeti sınavının yazılı yapılmasına karar verildi (Bakanlık faaliyet kitabı).\n- **Aralık 2025:** Türkiye ile e-sınava geçiş için altyapı çalışması açıklandı (Haber Kıbrıs).\n- **Nisan 2026:** Basın, sözlü sınavın hâlâ zorunlu olduğundan söz ediyordu (Haber Kıbrıs).\n- **20 Ekim 2026:** Bu sayfadaki bilgiler kaynaklarla yeniden karşılaştırıldı.",
+        "en": "- **May 2017:** New licence and exam regulations were published, with a 24-month delay before entry into force (Kıbrıs Postası).\n- **28 August 2020:** The regulations were published again in the Official Gazette (Kıbrıs Postası).\n- **1 November 2020:** Exams and licence renewals were halted because the infrastructure was not ready (Kıbrıs Postası).\n- **December 2020:** A Council of Ministers decision restarted the exams under the old system (Yenidüzen).\n- **2022:** The ministry was still planning to move licence classes to the international system (ministry activity report).\n- **April 2024:** A decision was taken to make the learner-licence exam written (ministry activity book).\n- **December 2025:** Groundwork with Turkey for a move to e-exams was announced (Haber Kıbrıs).\n- **April 2026:** The press still referred to a mandatory oral exam (Haber Kıbrıs).\n- **20 October 2026:** The information on this page was checked against the sources again."
+      },
+      "basis": "secondary", "sourceId": "s18", "sourceRef": "Kıbrıs Postası 2017 ve 2020, Yenidüzen 2020, BUB 2022 ve 2024, Haber Kıbrıs 2025 ve 2026"
+    }
+  ],
+  "reviewedAt": "2026-10-20"
+}

@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# build and QA output
+.builds/
+og-debug.svg
+test-results/
+playwright-report/

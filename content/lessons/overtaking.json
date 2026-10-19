@@ -1,0 +1,135 @@
+{
+  "id": "overtaking",
+  "title": {
+    "tr": "Sollama ve şerit kullanımı",
+    "en": "Overtaking and lane use"
+  },
+  "summary": {
+    "tr": "KKTC'de soldan gidilir, sağdan sollanır; biri seni sollarken solda kalır ve hızlanmazsın.",
+    "en": "In KKTC you keep left and overtake on the right; when someone overtakes you, you stay left and do not speed up."
+  },
+  "sections": [
+    {
+      "heading": {
+        "tr": "Solda git, sağdan solla",
+        "en": "Keep left, overtake on the right"
+      },
+      "body": {
+        "tr": "Yol Kuralları Yasası iki temel kural koyar:\n\n- Yolun **sol** tarafından gidersin. Karşıdan gelen araç senin sağından geçer.\n- Bir aracı **sağından** sollarsın. Biri seni sollarken solda kalırsın.\n\nBu kurallar otomobil, motosiklet, kamyon ve otobüs için aynıdır.",
+        "en": "The Road Rules Law (*Yol Kuralları Yasası*) sets two basic rules:\n\n- You drive on the **left** side of the road. Oncoming traffic passes on your right.\n- You overtake a vehicle on its **right**. When someone overtakes you, you keep left.\n\nThese rules are the same for cars, motorcycles, lorries and buses."
+      },
+      "basis": "law",
+      "sourceId": "s7",
+      "sourceRef": "md. 2"
+    },
+    {
+      "heading": {
+        "tr": "Soldan geçmek suçtur",
+        "en": "Passing on the left is an offence"
+      },
+      "body": {
+        "tr": "Bir aracı sol tarafından geçmek trafik suçudur. 2023 ceza listesinde asgari ücretin yüzde 15'i ve 20 ceza puanı olarak yer alır.\n\nÇift şeritli yolda yavaş bir araç sağ şeritte gidiyor diye onu soldan geçme. Sürücü sol şeride dönene kadar bekle, sonra sağdan solla.",
+        "en": "Passing a vehicle on its left is an offence. The 2023 penalty list sets it at 15% of the minimum wage and 20 penalty points.\n\nOn a dual carriageway, do not pass a slow vehicle on the left just because it is sitting in the right lane. Wait until the driver moves back to the left, then overtake on the right."
+      },
+      "basis": "secondary",
+      "sourceId": "s31",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Güvenli sollama adım adım",
+        "en": "Overtaking safely, step by step"
+      },
+      "body": {
+        "tr": "- Sollamaya gerçekten gerek var mı, düşün.\n- Aynalarına ve sağ omzunun üstünden kör noktana bak; arkadan seni sollayan biri olmasın.\n- Karşı şeridin, sollamayı bitirecek kadar uzun bir mesafe boyunca boş olduğundan emin ol.\n- Sağ sinyal ver, sağa çık ve sollanan araçla arana geniş bir boşluk bırak.\n- Sollanan aracı iç aynanda tamamen görünce sol sinyal verip sol şeride dön.\n\nSollamayı bitiremeyeceğini anlarsan vazgeç: yavaşla ve sol şeritteki yerine dön.",
+        "en": "- Ask yourself whether you really need to overtake.\n- Check your mirrors and look over your right shoulder into the blind spot, in case someone is already overtaking you.\n- Make sure the opposite lane is clear for long enough to finish the move.\n- Signal right, pull out to the right and leave plenty of room as you pass.\n- When you can see the whole vehicle you passed in your rear-view mirror, signal left and move back into the left lane.\n\nIf you realise you cannot finish, give up: slow down and drop back into your place in the left lane."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Sollama yapılmayacak yerler",
+        "en": "Where not to overtake"
+      },
+      "body": {
+        "tr": "Şu yerlerde sollama yapma:\n\n- sollama yasağı levhası olan yerlerde,\n- virajlarda ve tepe üstlerinde, yani ileriyi göremediğin her yerde,\n- kavşaklarda ve kavşağa yaklaşırken,\n- yaya geçitlerinde ve yakınında,\n- yolun daraldığı yerlerde ve yol çalışmalarında.\n\nYol ortasındaki kesik çizgi, güvenliyse geçebileceğini gösterir. Kesintisiz çizgiyi geçme.",
+        "en": "Do not overtake:\n\n- where a no-overtaking sign is posted,\n- on bends and hill crests, or anywhere you cannot see far enough ahead,\n- at or approaching junctions,\n- on or near pedestrian crossings,\n- where the road narrows or at roadworks.\n\nA broken centre line means you may cross it when it is safe. Do not cross a solid line."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Sollanırken ve çift şeritli yolda",
+        "en": "Being overtaken, and dual carriageways"
+      },
+      "body": {
+        "tr": "Biri seni sollarken solda kal, hızını artırma ve gerekirse biraz yavaşla ki önüne güvenle dönebilsin.\n\nÇift şeritli yolda normalde sol şeritte gidersin. Sağ şeridi sollamak için kullanır, sollama bitince sola dönersin. Sağ şeritte gereksiz yere kalmak arkadan gelenleri seni soldan geçmeye iter.\n\nBölünmüş yolda çıkışı kaçırırsan geri geri gitme ve U dönüşü yapma. Bir sonraki kavşağa ya da dönel kavşağa kadar devam et.",
+        "en": "When someone overtakes you, keep left, do not speed up, and ease off a little if needed so they can pull in safely ahead of you.\n\nOn a dual carriageway you normally drive in the left lane. You use the right lane to overtake and move back left when you have finished. Sitting in the right lane for no reason pushes drivers behind to pass you on the left.\n\nIf you miss your exit on a divided road, never reverse or make a U-turn. Carry on to the next junction or roundabout."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    }
+  ],
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Yolun solundan gidersin, araçları sağından sollarsın.",
+        "en": "You keep to the left and overtake on the right."
+      },
+      "basis": "law",
+      "sourceId": "s7",
+      "sourceRef": "md. 2"
+    },
+    {
+      "text": {
+        "tr": "Biri seni sollarken solda kalırsın.",
+        "en": "When someone overtakes you, you keep left."
+      },
+      "basis": "law",
+      "sourceId": "s7",
+      "sourceRef": "md. 2"
+    },
+    {
+      "text": {
+        "tr": "Bir aracı solundan geçmek trafik suçudur.",
+        "en": "Passing a vehicle on its left is an offence."
+      },
+      "basis": "secondary",
+      "sourceId": "s31",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Virajda, tepe üstünde, kavşakta ve yaya geçidinde sollama yapma.",
+        "en": "Do not overtake on bends, hill crests, junctions or pedestrian crossings."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Bölünmüş yolda çıkışı kaçırırsan geri gitme, bir sonraki kavşağa kadar devam et.",
+        "en": "If you miss an exit on a divided road, do not reverse; carry on to the next junction."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    }
+  ],
+  "relatedSigns": [
+    "prohibitory.no-overtaking",
+    "prohibitory.end-of-restrictions",
+    "warning.two-way-traffic",
+    "warning.road-narrows--both",
+    "warning.double-bend--left-first",
+    "mandatory.keep-left",
+    "mandatory.pass-either-side"
+  ],
+  "reviewedAt": "2026-10-20"
+}

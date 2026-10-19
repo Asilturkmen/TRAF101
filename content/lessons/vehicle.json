@@ -1,0 +1,140 @@
+{
+  "id": "vehicle",
+  "title": {
+    "tr": "Araç tekniği ve bakım",
+    "en": "Vehicle checks and maintenance"
+  },
+  "summary": {
+    "tr": "Yola çıkmadan önce oturuşunu ayarla ve aracını düzenli kontrol et; arızaların çoğu önceden belli olur.",
+    "en": "Set up your driving position before you set off and check your car regularly; most faults give warning first."
+  },
+  "sections": [
+    {
+      "heading": {
+        "tr": "Yola çıkmadan önce",
+        "en": "Before you set off"
+      },
+      "body": {
+        "tr": "Her yolculuktan önce aynı sırayla kontrol et:\n\n- **Kapılar:** hepsi tam kapalı mı.\n- **Koltuk:** pedallara tam basabiliyor ve direksiyonu dirseklerin hafif bükük tutabiliyor musun.\n- **Direksiyon:** yüksekliği ve uzaklığı göstergeleri görmeni engellemiyor mu.\n- **Kemer:** sen ve yolcuların taktınız mı.\n- **Aynalar:** iç ayna arka camın tamamını, dış aynalar yan şeritleri gösteriyor mu.\n\nİngilizcede bu sıra DSSSM kısaltmasıyla ezberlenir. Aynaları araç hareket etmeden ayarla. Sürerken ayna ayarlamak dikkatini dağıtır.",
+        "en": "Before every trip, check in the same order:\n\n- **Doors:** are they all fully closed?\n- **Seat:** can you press the pedals fully and hold the wheel with your elbows slightly bent?\n- **Steering:** do its height and reach leave the instruments in view?\n- **Seat belt:** are you and your passengers belted?\n- **Mirrors:** does the rear-view mirror show the whole rear window, and do the door mirrors show the lanes beside you?\n\nThis order is often remembered as DSSSM. Adjust the mirrors before you move; adjusting them while driving takes your attention away."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Düzenli kontroller",
+        "en": "Regular checks"
+      },
+      "body": {
+        "tr": "Düzenli olarak ve uzun yola çıkmadan önce şunlara bak. İngilizcede bu liste POWER kısaltmasıyla bilinir:\n\n- **Yakıt:** yolculuğa yetecek kadar yakıtın var mı.\n- **Yağ:** motor yağı, ölçüm çubuğundaki alt ve üst işaret arasında mı.\n- **Su:** motor soğutma suyu ve cam suyu yeterli mi. Soğutma suyunun kapağını motor sıcakken açma.\n- **Elektrik:** farlar, stop lambaları, sinyaller, korna ve silecekler çalışıyor mu.\n- **Lastik:** basınç, diş derinliği, kesik ve şişkinlik.\n\nBu kontrollerin çoğunu motor soğukken ve araç düz bir yerdeyken yap.",
+        "en": "Check these regularly and before a long trip. In English the list is remembered as POWER:\n\n- **Petrol:** enough fuel for the journey?\n- **Oil:** is the engine oil between the minimum and maximum marks on the dipstick?\n- **Water:** enough engine coolant and screenwash? Never open the coolant cap when the engine is hot.\n- **Electrics:** do the headlights, brake lights, indicators, horn and wipers work?\n- **Rubber:** tyre pressure, tread depth, cuts and bulges.\n\nDo most of these checks with the engine cold and the car on level ground."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Lastikler",
+        "en": "Tyres"
+      },
+      "body": {
+        "tr": "Lastikler aracın yola değen tek parçasıdır.\n\n- Basıncı lastikler soğukken ölç. Doğru değer kapı kenarındaki etikette ya da araç kitapçığında yazar.\n- Düşük basınç yakıt tüketimini artırır, lastiği ısıtır ve fren mesafesini uzatır.\n- Dişi azalmış lastik ıslak yolda suyu atamaz ve su kızağı riskini artırır.\n- Yan yüzeyde kesik ya da şişkinlik varsa lastiği değiştir.\n- Yedek lastiği ve kriko takımını da unutma.",
+        "en": "The tyres are the only part of the car that touches the road.\n\n- Check pressures when the tyres are cold. The right figures are on the label by the door or in the handbook.\n- Low pressure raises fuel use, heats the tyre and lengthens stopping distances.\n- A worn tread cannot clear water on a wet road and makes aquaplaning more likely.\n- Replace a tyre with a cut or a bulge in the sidewall.\n- Do not forget the spare wheel and the jack."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Frenler ve uyarı ışıkları",
+        "en": "Brakes and warning lights"
+      },
+      "body": {
+        "tr": "Fren pedalı süngerimsi geliyorsa, araç fren yaparken bir yana çekiyorsa ya da fren yaparken metal sesi duyuyorsan aracı servise götür.\n\nGösterge panelindeki ışıklar:\n\n- **Kırmızı ışık** ciddi bir sorun demektir: fren, motor yağı basıncı ya da motor sıcaklığı. Güvenli bir yerde dur ve motoru kapat.\n- **Sarı ya da turuncu ışık** bir şeyin kontrol edilmesi gerektiğini söyler. Yoluna devam edebilirsin, ama en kısa zamanda baktır.\n\nDireksiyon titriyorsa, ağırlaşmışsa ya da araç bir yana çekiyorsa lastikleri ve rot ayarını kontrol ettir.",
+        "en": "If the brake pedal feels spongy, the car pulls to one side when braking, or you hear a metallic noise when you brake, take the car to a garage.\n\nDashboard warning lights:\n\n- A **red light** means a serious problem: brakes, oil pressure or engine temperature. Stop somewhere safe and switch off the engine.\n- An **amber or orange light** means something needs checking. You can carry on, but have it looked at soon.\n\nIf the steering shakes, feels heavy or the car pulls to one side, have the tyres and wheel alignment checked."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Görmek ve görünmek",
+        "en": "Seeing and being seen"
+      },
+      "body": {
+        "tr": "- Ön ve arka camı, aynaları ve farları temiz tut.\n- Silecek lastikleri iz bırakıyorsa değiştir.\n- Ön camdaki çatlak görüşünü bozuyorsa onarttır.\n- Yanmayan bir ampulü hemen değiştir. Stop lambası yanmıyorsa arkandaki sürücü fren yaptığını göremez.",
+        "en": "- Keep the windscreen, rear window, mirrors and lights clean.\n- Replace wiper blades that leave streaks.\n- Have a windscreen crack repaired if it affects your view.\n- Replace a dead bulb straight away. If a brake light is out, the driver behind cannot see you braking."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Araçta bulunması gerekenler",
+        "en": "What to keep in the car"
+      },
+      "body": {
+        "tr": "Polise göre moped ve motosiklet dışındaki her motorlu araçta bir yangın söndürücü bulunmalıdır. Söndürücünün dolu olduğunu ve son kullanma tarihinin geçmediğini kontrol et.\n\nBir ilk yardım çantası, bir uyarı üçgeni ve yansıtıcı bir yelek de arızada ve kazada işe yarar.",
+        "en": "According to the police, every motor vehicle except mopeds and motorcycles should carry a fire extinguisher. Check that it is charged and in date.\n\nA first-aid kit, a warning triangle and a reflective vest are also useful in a breakdown or a crash."
+      },
+      "basis": "secondary",
+      "sourceId": "s38",
+      "sourceRef": null
+    }
+  ],
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Her yolculuktan önce kapı, koltuk, direksiyon, kemer ve aynaları kontrol et.",
+        "en": "Before every trip, check doors, seat, steering, seat belt and mirrors."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Yakıt, yağ, su, elektrik ve lastikleri düzenli kontrol et.",
+        "en": "Check petrol, oil, water, electrics and rubber (tyres) regularly."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Lastik basıncını lastikler soğukken ölç.",
+        "en": "Check tyre pressures when the tyres are cold."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Gösterge panelinde kırmızı ışık yanarsa güvenli bir yerde dur.",
+        "en": "If a red warning light comes on, stop somewhere safe."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Moped ve motosiklet dışındaki araçlarda yangın söndürücü bulunmalıdır.",
+        "en": "Every vehicle except mopeds and motorcycles should carry a fire extinguisher."
+      },
+      "basis": "secondary",
+      "sourceId": "s38",
+      "sourceRef": null
+    }
+  ],
+  "relatedSigns": [],
+  "reviewedAt": "2026-10-20"
+}

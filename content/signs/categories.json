@@ -1,0 +1,82 @@
+[
+  {
+    "id": "warning",
+    "slug": {
+      "tr": "uyari",
+      "en": "warning"
+    },
+    "name": {
+      "tr": "Uyarı levhaları",
+      "en": "Warning signs"
+    },
+    "description": {
+      "tr": "Kırmızı kenarlı üçgenler ileride bir tehlike olduğunu haber verir. İçindeki çizim tehlikenin türünü gösterir; levha yasaklamaz, dikkatli olmanı ister.",
+      "en": "Red-bordered triangles warn of a hazard ahead. The symbol inside shows what kind of hazard it is; the sign does not forbid anything, it asks you to take care."
+    },
+    "shape": "triangle"
+  },
+  {
+    "id": "priority",
+    "slug": {
+      "tr": "oncelik",
+      "en": "priority"
+    },
+    "name": {
+      "tr": "Öncelik levhaları",
+      "en": "Priority signs"
+    },
+    "description": {
+      "tr": "Kavşakta ya da dar bir kesimde kimin önce geçeceğini belirler. Biçimleri özeldir: DUR için sekizgen, yol ver için ucu aşağı bakan üçgen, öncelik için mavi kare.",
+      "en": "These decide who goes first at a junction or a narrow section. Their shapes are unique: an octagon for stop, a downward-pointing triangle for give way and a blue square for priority."
+    },
+    "shape": "inverted-triangle"
+  },
+  {
+    "id": "prohibitory",
+    "slug": {
+      "tr": "yasak-ve-kisitlama",
+      "en": "prohibitory"
+    },
+    "name": {
+      "tr": "Yasak ve kısıtlama levhaları",
+      "en": "Prohibitory signs"
+    },
+    "description": {
+      "tr": "Kırmızı halkalı daireler bir şeyi yasaklar ya da sınırlar: hız, giriş, dönüş, park. Beyaz zeminli, siyah çapraz çizgili daireler ise bir yasağın bittiğini gösterir.",
+      "en": "Red-ringed discs forbid or limit something: speed, entry, turning or parking. White discs with black diagonal lines show where a restriction ends."
+    },
+    "shape": "circle-red"
+  },
+  {
+    "id": "mandatory",
+    "slug": {
+      "tr": "mecburiyet",
+      "en": "mandatory"
+    },
+    "name": {
+      "tr": "Mecburiyet levhaları",
+      "en": "Mandatory signs"
+    },
+    "description": {
+      "tr": "Mavi daireler bir şeyi yapmanı zorunlu kılar: gideceğin yön, geçeceğin taraf ya da kullanacağın yol. Beyaz ok ve çizimler emri gösterir.",
+      "en": "Blue discs tell you what you must do: the direction to take, the side to pass or the route to use. The white arrows and symbols show the order."
+    },
+    "shape": "disc-blue"
+  },
+  {
+    "id": "information",
+    "slug": {
+      "tr": "bilgi",
+      "en": "information"
+    },
+    "name": {
+      "tr": "Bilgi levhaları",
+      "en": "Information signs"
+    },
+    "description": {
+      "tr": "Mavi dikdörtgen ve kareler yol hakkında bilgi verir: park yeri, yaya geçidi, tek yönlü yol, yerleşim yeri, hastane. Çoğu bir emir değil, bir bilgidir.",
+      "en": "Blue rectangles and squares give information about the road: parking, a pedestrian crossing, a one-way street, a town, a hospital. Most of them inform rather than order."
+    },
+    "shape": "rectangle"
+  }
+]

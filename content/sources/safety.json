@@ -1,0 +1,44 @@
+[
+  {
+    "id": "sa-hc-drivers",
+    "kind": "reference",
+    "title": "The Highway Code (UK), rules 89 to 102: rules for drivers and motorcyclists (seat belts, child restraints). Left-hand traffic reference, not KKTC law",
+    "url": "https://www.gov.uk/guidance/the-highway-code/rules-for-drivers-and-motorcyclists-89-to-102",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "id": "sa-hc-general",
+    "kind": "reference",
+    "title": "The Highway Code (UK), rules 103 to 158: general rules, techniques and advice for all drivers and riders (lights, hazard lights, stopping distances, phones). Left-hand traffic reference, not KKTC law",
+    "url": "https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "id": "sa-hc-road",
+    "kind": "reference",
+    "title": "The Highway Code (UK), rules 159 to 203: using the road (blind spots, overtaking, large vehicles, pedestrian crossings). Left-hand traffic reference, not KKTC law",
+    "url": "https://www.gov.uk/guidance/the-highway-code/using-the-road-159-to-203",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "id": "sa-hc-extra-care",
+    "kind": "reference",
+    "title": "The Highway Code (UK), rules 204 to 225: road users requiring extra care (pedestrians, cyclists, motorcyclists, animals, emergency and large vehicles, buses). Left-hand traffic reference, not KKTC law",
+    "url": "https://www.gov.uk/guidance/the-highway-code/road-users-requiring-extra-care-204-to-225",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "id": "sa-hc-weather",
+    "kind": "reference",
+    "title": "The Highway Code (UK), rules 226 to 237: driving in adverse weather conditions (rain, fog, wind, glare). Left-hand traffic reference, not KKTC law",
+    "url": "https://www.gov.uk/guidance/the-highway-code/driving-in-adverse-weather-conditions-226-to-237",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "id": "sa-hc-breakdowns",
+    "kind": "reference",
+    "title": "The Highway Code (UK), rules 274 to 287: breakdowns and incidents. Left-hand traffic reference, not KKTC law",
+    "url": "https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287",
+    "checkedAt": "2026-10-20"
+  }
+]

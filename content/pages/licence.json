@@ -1,0 +1,163 @@
+{
+  "id": "licence",
+  "slug": { "tr": "ehliyet-nasil-alinir", "en": "getting-a-licence" },
+  "title": { "tr": "Ehliyet nasıl alınır", "en": "Getting a licence" },
+  "summary": {
+    "tr": "Kimin KKTC ehliyeti alabileceği, turistler için 90 gün kuralı, öğrencilerin ve oturma izni olanların ehliyet çevirmesi, bugünkü ve yeni ehliyet sınıfları ve 2026 harçları.",
+    "en": "Who can get a North Cyprus licence, the 90-day rule for tourists, licence conversion for students and residents, the licence classes now and in the new system, and the 2026 fees."
+  },
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Turist olarak kendi ülkenin geçerli ehliyetiyle girişten itibaren 90 güne kadar araç kullanabilirsin.",
+        "en": "As a tourist you can drive on a valid licence from your own country for up to 90 days from entry."
+      },
+      "basis": "law", "sourceId": "s1", "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Öğrenci, çalışma ya da oturma izni aldığında turist sayılmazsın ve ehliyetini KKTC ehliyetine çevirmen gerekir.",
+        "en": "Once you get a student, work or residence permit you are no longer a tourist and must convert your licence to a North Cyprus one."
+      },
+      "basis": "law", "sourceId": "s16", "sourceRef": "Driving licence"
+    },
+    {
+      "text": {
+        "tr": "Bugün otomobil ehliyetinin KKTC'deki harfi D'dir. B, ağır kamyon demektir.",
+        "en": "Today the North Cyprus class letter for a car licence is D. B means heavy goods vehicle."
+      },
+      "basis": "law", "sourceId": "s10", "sourceRef": "md. 33(2)"
+    }
+  ],
+  "sections": [
+    {
+      "heading": { "tr": "Kimler KKTC ehliyeti alabilir", "en": "Who can get a North Cyprus licence" },
+      "body": {
+        "tr": "KKTC ehliyeti KKTC vatandaşlarına ve geçerli oturma (muhaceret) izni olan yabancılara verilir. Başvuruda kimlik kartı ya da göç kaydıyla eşleşen pasaport istenir.",
+        "en": "A North Cyprus licence is issued to citizens of North Cyprus and to foreigners with a valid residence (muhaceret) permit. You need an ID card, or a passport that matches your immigration record, to apply."
+      },
+      "basis": "law", "sourceId": "s12", "sourceRef": "md. 47A"
+    },
+    {
+      "heading": { "tr": "Yaş sınırı", "en": "Minimum age" },
+      "body": {
+        "tr": "Ehliyet almak için en az **18 yaşında** olmalısın. Ağır vasıta ve büyük motosiklet sınıflarında yaş ve deneyim koşulları farklıdır. Bu sınıflar için kesin koşulu kursuna ya da Trafik Dairesi'ne sor.",
+        "en": "You must be at least **18** to get a licence. Heavy-vehicle and large-motorcycle classes have different age and experience rules. For those classes, ask your driving school or the Traffic Department for the exact conditions."
+      },
+      "basis": "law", "sourceId": "s1", "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Hiç ehliyetin yoksa", "en": "If you have no licence yet" },
+      "body": {
+        "tr": "KKTC vatandaşı da olsan, oturma izniyle yaşayan bir yabancı ya da öğrenci de olsan yol aynıdır: sürücü kursuna kaydolursun, öğrenci ehliyeti sınavına girersin, direksiyon dersleri alırsın ve direksiyon sınavına girersin.\n\nAdımların ayrıntısı Sınav nasıl yapılır sayfasında.",
+        "en": "Whether you are a citizen, a foreign resident or a student, the route is the same: you register with a driving school, sit the learner-licence exam, take driving lessons and sit the practical test.\n\nThe steps are explained in detail on the How the exam works page."
+      },
+      "basis": "secondary", "sourceId": "s25", "sourceRef": "23.02.2025"
+    },
+    {
+      "heading": { "tr": "Turistler: 90 gün kuralı", "en": "Tourists: the 90-day rule" },
+      "body": {
+        "tr": "Turist olarak geldiysen kendi ülkenden aldığın geçerli ehliyetle, ülkeye girişinden itibaren **90 güne kadar** araç kullanabilirsin.\n\n- Araç kiralamak için en az 21 yaşında olmalısın.\n- Sabit hız kameralarının yazdığı cezalar, ülkeye bir sonraki girişinde sınırda ya da limanda polis tarafından sana bildirilir.",
+        "en": "If you are visiting as a tourist, you can drive on a valid licence from your own country for **up to 90 days** from the day you enter.\n\n- You must be at least 21 to rent a car.\n- Fines from fixed speed cameras are served on you by the police at the border or port the next time you enter."
+      },
+      "basis": "law", "sourceId": "s1", "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Öğrenciler ve oturma izni olanlar", "en": "Students and residents" },
+      "body": {
+        "tr": "Oturma izni, çalışma izni ya da **öğrenci izni** aldığında artık turist sayılmazsın. Bu durumda kendi ülkenin ehliyeti yetmez ve KKTC ehliyetine çevirmen gerekir.\n\nTürkiye vatandaşları için de durum aynıdır. Oturma, çalışma ya da öğrenci izni olan biri Türkiye ehliyetini kullanmayı bırakır ve çevirme başvurusu yapar.",
+        "en": "Once you get a residence, work or **student permit**, you are no longer a tourist. Your home licence is then not enough, and you must convert it to a North Cyprus licence.\n\nThe same applies to citizens of Turkey. Anyone with a residence, work or student permit stops using their Turkish licence and applies for conversion."
+      },
+      "basis": "law", "sourceId": "s16", "sourceRef": "Driving licence"
+    },
+    {
+      "heading": { "tr": "Ne kadar süren var", "en": "How long you have" },
+      "body": {
+        "tr": "Turist statün bittikten sonra çevirme başvurusu için ne kadar süren olduğu konusunda kaynaklar farklı şeyler söylüyor. Bu yüzden burada bir süre yazmıyoruz.\n\nİznin çıkar çıkmaz Trafik Dairesi'ne başvur ve sana tanınan süreyi oradan öğren. Çevirme bitene kadar araç kullanmadan önce durumunu sor.",
+        "en": "Sources disagree on how long you have to apply for conversion after your tourist status ends, so we do not give a period here.\n\nApply to the Traffic Department as soon as your permit is issued and ask them how long you have. Until the conversion is done, check your position before you drive."
+      },
+      "basis": "practice", "sourceId": null, "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Yabancı ehliyetle sürmenin riski", "en": "The risk of driving on a foreign licence" },
+      "body": {
+        "tr": "2022'de basına yansıyan habere göre polis, turist olmayan bir yabancının yabancı ehliyetle araç kullanmasını ehliyetsiz sürüş sayıyor. Bu durumda sigortan bir kazayı karşılamayabilir.",
+        "en": "According to a 2022 press report, the police treat a non-tourist foreigner driving on a foreign licence as an unlicensed driver. In that case your insurance may not cover a crash."
+      },
+      "basis": "secondary", "sourceId": "s36", "sourceRef": "30.09.2022"
+    },
+    {
+      "heading": { "tr": "Türkiye dışından bir ehliyeti çevirmek", "en": "Converting a licence from outside Turkey" },
+      "body": {
+        "tr": "Türkiye dışındaki bir ülkenin ehliyeti varsa çevirme şöyle işler:\n\n- Trafik Dairesi'ne başvurursun.\n- KKTC trafik kuralları kitabı ve levhalar üzerine bir **hazırlık sınavına** girersin.\n- Geçince **6 ay geçerli** bir öğrenci ehliyeti alırsın.\n- Bir sürücü kursunda eğitmenle **en az 5 gün** direksiyon dersi alırsın: 8 saat gündüz, 2 saat gece.\n- Sonra KKTC ehliyetine başvurursun.\n\nAdımlar ve belgeler değişebilir. Başvurmadan önce Trafik Dairesi'nden ya da kursundan güncel listeyi iste.",
+        "en": "If your licence is from a country other than Turkey, conversion works like this:\n\n- You apply to the Traffic Department.\n- You sit a **preparatory test** on the North Cyprus traffic rules book and road signs.\n- If you pass, you get a learner licence **valid for 6 months**.\n- You drive with an instructor from a driving school on **at least 5 days**: 8 hours in daylight and 2 hours at night.\n- You then apply for the North Cyprus licence.\n\nThe steps and documents can change. Ask the Traffic Department or your driving school for the current list before you apply."
+      },
+      "basis": "law", "sourceId": "s16", "sourceRef": "Driving licence"
+    },
+    {
+      "heading": { "tr": "Türkiye ehliyetleri", "en": "Turkish licences" },
+      "body": {
+        "tr": "Türkiye ile KKTC arasında ehliyetlerin karşılıklı tanınması ve değiştirilmesi için bir anlaşma var. Görevle gelen kamu görevlileri ehliyetlerini sınavsız çevirebilir.\n\nAnlaşmanın bugün nasıl uygulandığını Trafik Dairesi'ne sor.",
+        "en": "Turkey and North Cyprus have an agreement on recognising and exchanging each other's licences. Public officials posted to North Cyprus can convert their licence without an exam.\n\nAsk the Traffic Department how the agreement is applied today."
+      },
+      "basis": "law", "sourceId": "s13", "sourceRef": "2022 faaliyet raporu"
+    },
+    {
+      "heading": { "tr": "AB ve diğer ehliyetler", "en": "EU and other licences" },
+      "body": {
+        "tr": "Yeni yönetmelikte AB ehliyetlerinin denk sınıflara çevrilmesi yazıyor, ama bu yönetmelik henüz uygulanmıyor. AB ya da Kıbrıs Cumhuriyeti ehliyetin varsa, Trafik Dairesi aksini söylemedikçe Türkiye dışı ehliyetler için anlatılan yolu bekle.",
+        "en": "The new regulation provides for EU licences to be converted into equivalent classes, but it is not in force yet. If you hold an EU or Republic of Cyprus licence, expect the route described for licences from outside Turkey unless the Traffic Department tells you otherwise."
+      },
+      "basis": "practice", "sourceId": null, "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Ehliyet sınıfları bugün", "en": "Licence classes today" },
+      "body": {
+        "tr": "KKTC'de bugün kullanılan sınıf harfleri AB harflerinden farklıdır:\n\n- **D:** otomobil, kamyonet, çift kabinli araç, en çok 8 yolculu araç ve 2.032 kg'a kadar diğer araçlar. Olağan araba ehliyeti budur.\n- **H1, H2, H:** motosikletler, güce göre küçükten büyüğe.\n- **J:** 50 cc'ye kadar moped.\n- **C:** 8'den fazla, 22'den az yolculu araç (minibüs).\n- **A:** 22 ya da daha fazla yolculu araç (otobüs).\n- **B:** ağır kamyon ve 2.032 kg'ı aşan diğer araçlar.\n- **E:** lastik tekerlekli traktör.\n- **F:** paletli traktör ve ağır iş makineleri.\n- **G:** yol silindiri.\n- **K:** bu sınıflara girmeyen diğer motorlu araçlar.\n\nH sınıfı H2, H1 ve J'yi, H2 sınıfı H1 ve J'yi, H1 sınıfı da J'yi kapsar.",
+        "en": "The class letters used in North Cyprus today are not the EU letters:\n\n- **D:** cars, pick-ups, double-cab vehicles, vehicles with up to 8 passengers and other vehicles up to 2,032 kg. This is the ordinary car licence.\n- **H1, H2, H:** motorcycles, from smaller to larger by power.\n- **J:** mopeds up to 50 cc.\n- **C:** vehicles with more than 8 and fewer than 22 passengers (minibuses).\n- **A:** vehicles with 22 or more passengers (buses).\n- **B:** heavy goods vehicles and other vehicles over 2,032 kg.\n- **E:** rubber-tyred tractors.\n- **F:** tracked tractors and heavy machinery.\n- **G:** road rollers.\n- **K:** other motor vehicles not in the classes above.\n\nClass H covers H2, H1 and J; H2 covers H1 and J; H1 covers J."
+      },
+      "basis": "law", "sourceId": "s10", "sourceRef": "md. 33(2), 34(4)"
+    },
+    {
+      "heading": { "tr": "Yeni sistemdeki sınıflar", "en": "Classes in the new system" },
+      "body": {
+        "tr": "2017 yönetmeliği AB'dekine benzer harfler getirir: M, A1, A2, A, B, BE, C1, C, D1, D, F1, F ve G. Bu sistemde otomobil B, moped M, minibüs D1, otobüs D olur. Yönetmelik henüz uygulanmadığı için bugün ehliyetinde ve kurs belgelerinde eski harfleri görürsün.\n\nTest2Drive'da harf yerine araç seçersin: Otomobil, Motosiklet ya da Ağır vasıta. Her kartta iki sistemdeki karşılık yazar.",
+        "en": "The 2017 regulation brings in EU-style letters: M, A1, A2, A, B, BE, C1, C, D1, D, F1, F and G. In this system a car is B, a moped M, a minibus D1 and a bus D. Because the regulation is not in force yet, you will see the old letters on your licence and on driving-school paperwork today.\n\nOn Test2Drive you choose a vehicle instead of a letter: Car, Motorcycle or Heavy vehicle. Each card shows the letters in both systems."
+      },
+      "basis": "law", "sourceId": "s4", "sourceRef": "md. 32, Ek VI"
+    },
+    {
+      "heading": { "tr": "Harçlar (Nisan 2026)", "en": "Fees (April 2026)" },
+      "body": {
+        "tr": "Haber Kıbrıs'ın 2 Mayıs 2026 tarihli haberine göre Nisan 2026'da Resmi Gazete'de yayımlanan harçlar şöyle:\n\n- Öğrenci ehliyeti sınavı: 2.091 TL\n- Direksiyon sınavı: 2.789 TL\n- 2 yıllık ehliyet: 2.091 TL\n- 5 yıllık ehliyet: 4.183 TL\n- 10 yıllık ehliyet: 6.970 TL\n- Uluslararası sürüş belgesi: 4.183 TL\n\nKurs ücreti bunlara dahil değildir. Harçlar sık değişir. Ödemeden önce güncel tutarı sor.",
+        "en": "According to a Haber Kıbrıs report of 2 May 2026, the fees published in the Official Gazette in April 2026 are:\n\n- Learner-licence exam: 2,091 TL\n- Practical driving test: 2,789 TL\n- 2-year licence: 2,091 TL\n- 5-year licence: 4,183 TL\n- 10-year licence: 6,970 TL\n- International driving permit: 4,183 TL\n\nDriving-school fees are not included. Fees change often, so check the current amount before you pay."
+      },
+      "basis": "secondary", "sourceId": "s33", "sourceRef": "02.05.2026"
+    },
+    {
+      "heading": { "tr": "Uluslararası sürüş belgesi", "en": "International driving permit" },
+      "body": {
+        "tr": "KKTC, ehliyet sahiplerine uluslararası sürüş belgesi verir. KKTC ehliyetinin yurt dışında kabul edilip edilmediği gideceğin ülkeye bağlıdır. Yola çıkmadan o ülkenin kurallarına bak.",
+        "en": "North Cyprus issues international driving permits to licence holders. Whether a North Cyprus licence is accepted abroad depends on the country, so check its rules before you travel."
+      },
+      "basis": "law", "sourceId": "s6", "sourceRef": "Ek Kısım II"
+    },
+    {
+      "heading": { "tr": "Yanında taşıman gerekenler", "en": "What to carry when you drive" },
+      "body": {
+        "tr": "Araç kullanırken yanında şunlar olmalı:\n\n- Ehliyetin ya da öğrenci ehliyetin\n- Aracın seyrüsefer belgesi\n- Sigorta belgesi\n- Kimliğin",
+        "en": "When you drive, carry:\n\n- Your driving licence or learner licence\n- The vehicle's road tax certificate (seyrüsefer)\n- The insurance certificate\n- Your ID"
+      },
+      "basis": "law", "sourceId": "s1", "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Kestirme yollardan uzak dur", "en": "Avoid shortcuts" },
+      "body": {
+        "tr": "Nisan 2026'da basına yansıyan bir soruşturmaya göre Girne'de bir şebeke, sahte yabancı ehliyetler kullanarak ve sözlü sınava başkasını sokarak yabancılara KKTC ehliyeti çıkarıyordu.\n\nEhliyetini yalnız Trafik Dairesi ve kayıtlı bir sürücü kursu aracılığıyla al.",
+        "en": "According to a press report from April 2026, a ring in Girne was getting North Cyprus licences for foreigners by using fake foreign licences and sending stand-ins to the oral exam.\n\nGet your licence only through the Traffic Department and a registered driving school."
+      },
+      "basis": "secondary", "sourceId": "s24", "sourceRef": "24.04.2026"
+    }
+  ],
+  "reviewedAt": "2026-10-20"
+}

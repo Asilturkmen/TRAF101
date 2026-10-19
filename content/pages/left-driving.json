@@ -1,0 +1,158 @@
+{
+  "id": "left-driving",
+  "slug": { "tr": "soldan-trafik", "en": "driving-on-the-left" },
+  "title": { "tr": "Soldan trafik", "en": "Driving on the left" },
+  "summary": {
+    "tr": "Sağdan trafiğe alışkın sürücüler için KKTC'de soldan sürüşün temel kuralları ve ilk günlerde en sık yapılan hatalar.",
+    "en": "The basic rules of driving on the left in North Cyprus for drivers used to right-hand traffic, and the mistakes people make most in their first days."
+  },
+  "keyPoints": [
+    {
+      "text": { "tr": "Yolun solundan gidilir, sağdan sollanır.", "en": "Keep to the left and overtake on the right." },
+      "basis": "law", "sourceId": "s7", "sourceRef": "md. 2"
+    },
+    {
+      "text": { "tr": "Kontrolsüz kavşakta öncelik sağdan gelen araçtadır.", "en": "At an uncontrolled junction, priority goes to the vehicle coming from the right." },
+      "basis": "law", "sourceId": "s1", "sourceRef": null
+    },
+    {
+      "text": { "tr": "Çemberin içindeki araç önceliklidir.", "en": "A vehicle already on the roundabout has priority." },
+      "basis": "law", "sourceId": "s1", "sourceRef": null
+    },
+    {
+      "text": { "tr": "Sireni çalan bir acil araç gelirse sinyal ver ve sola yanaş.", "en": "If an emergency vehicle with a siren comes up behind you, signal and pull over to the left." },
+      "basis": "practice", "sourceId": null, "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Sireni çalan ambulans, itfaiye ya da polis aracına yol vermemek ceza listesinde yer alan bir suçtur.",
+        "en": "Failing to give way to an ambulance, fire engine or police vehicle with its siren on is an offence on the fines list."
+      },
+      "basis": "secondary", "sourceId": "s31", "sourceRef": "19.01.2023"
+    }
+  ],
+  "relatedSigns": ["mandatory.keep-left", "mandatory.roundabout", "warning.roundabout-ahead", "warning.junction-priority-right", "priority.give-way"],
+  "sections": [
+    {
+      "heading": { "tr": "Yolun solunda kal", "en": "Keep to the left" },
+      "body": {
+        "tr": "KKTC'de yolun **solundan** gidilir. Karşıdan gelen bir araçla karşılaştığında onu sağında tutarsın.",
+        "en": "In North Cyprus you drive on the **left** side of the road. When you meet an oncoming vehicle, you keep it on your right."
+      },
+      "basis": "law", "sourceId": "s7", "sourceRef": "md. 2(a)"
+    },
+    {
+      "heading": { "tr": "Sağdan solla", "en": "Overtake on the right" },
+      "body": {
+        "tr": "Sollayacağın aracı **sağından** geçersin. Biri seni sollarken sen solda kalırsın.",
+        "en": "You overtake another vehicle on its **right**. When someone overtakes you, you keep to the left."
+      },
+      "basis": "law", "sourceId": "s7", "sourceRef": "md. 2(b), 2(c)"
+    },
+    {
+      "heading": { "tr": "Şerit alışkanlığı", "en": "Lane habits" },
+      "body": {
+        "tr": "Çift şeritli yolda soldaki şeritte sür, sağdaki şeridi sollama için kullan. Sollamayı bitirince yeniden sola dön.\n\nYavaş giden bir aracı solundan geçme. Sağdan trafiğe alışkın biri bu hatayı özellikle boş yollarda kolayca yapar.",
+        "en": "On a dual carriageway, drive in the left-hand lane and use the right-hand lane for overtaking. Move back to the left when you have passed.\n\nDo not pass a slower vehicle on its left. Drivers used to right-hand traffic make this mistake easily, especially on empty roads."
+      },
+      "basis": "practice", "sourceId": null, "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Çemberde öncelik", "en": "Priority on roundabouts" },
+      "body": {
+        "tr": "Çembere yaklaşırken yavaşla. Sağından bir araç geliyorsa çembere girme. **Çemberin içindeki araç önceliklidir.**",
+        "en": "Slow down as you approach a roundabout (çember). Do not enter if a vehicle is coming from your right. **A vehicle already on the roundabout has priority.**"
+      },
+      "basis": "law", "sourceId": "s1", "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Çemberde saat yönünde dön", "en": "Go round clockwise" },
+      "body": {
+        "tr": "Soldan trafikte çemberin etrafında **saat yönünde** dönülür. Sağdan trafikten geliyorsan ilk günlerde bunu girişten önce kendine hatırlat.\n\n- Girmeden önce sağına bak, çünkü trafik sağından gelir.\n- Çembere sola doğru girersin.\n- Çıkacağın yoldan hemen önce sol sinyal ver.\n- Çok şeritli çemberlerde hangi şeridi kullanacağını kursuna sor.",
+        "en": "When traffic drives on the left, you go round a roundabout **clockwise**. If you are used to right-hand traffic, remind yourself of this before every roundabout in your first days.\n\n- Look right before you enter, because traffic comes from your right.\n- You enter by turning to the left.\n- Signal left just before your exit.\n- On multi-lane roundabouts, ask your driving school which lane to use."
+      },
+      "basis": "practice", "sourceId": null, "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Kavşakta sağdan gelene yol ver", "en": "Give way to the right at junctions" },
+      "body": {
+        "tr": "Işık, levha ya da polis olmayan bir kavşakta öncelik **sağdan gelen** araçtadır. Yol ver ya da DUR levhası varsa levhaya uyarsın.\n\nSoldan trafiğe başka bir ülkede alıştıysan bu kuralın orada farklı olabileceğini unutma.",
+        "en": "At a junction with no lights, signs or police officer, priority goes to the vehicle coming **from the right**. If there is a give way or stop (DUR) sign, follow the sign.\n\nIf you learned to drive on the left in another country, remember that this rule may be different there."
+      },
+      "basis": "law", "sourceId": "s1", "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Sağa dönüş karşı şeridi keser", "en": "Turning right crosses oncoming traffic" },
+      "body": {
+        "tr": "Soldan trafikte sağa dönüş, sağdan trafikteki sola dönüş gibidir: karşı şeridi kesersin. Karşıdan gelen trafiğe yol vermeden sağa dönmek ceza listesinde ayrı bir suçtur.",
+        "en": "When traffic drives on the left, turning right is like turning left at home: you cross the oncoming lane. Turning right without giving way to oncoming traffic is a separate offence on the fines list."
+      },
+      "basis": "secondary", "sourceId": "s31", "sourceRef": "19.01.2023"
+    },
+    {
+      "heading": { "tr": "Dönüşlerde nerede durursun", "en": "Where to position for turns" },
+      "body": {
+        "tr": "- **Sola dönerken** yolun solunda kal ve dönüşü kısa tut.\n- **Sağa dönerken** yolun ortasına yakın bekle. Karşı şerit boşalınca dön ve yeni yolun soluna geç.\n- Dönüşten sonra yolun sağına geçme alışkanlığına dikkat et. Bu hata özellikle günün ilk sürüşünde ve boş yollarda kolayca yapılır.",
+        "en": "- **When turning left**, stay on the left of the road and keep the turn tight.\n- **When turning right**, wait near the centre of the road. Turn when the oncoming lane is clear and move into the left side of the new road.\n- After a turn, watch out for drifting to the right-hand side. This happens easily, especially on the first drive of the day and on empty roads."
+      },
+      "basis": "practice", "sourceId": null, "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Acil araca yol ver: sola yanaş", "en": "Emergency vehicles: pull over to the left" },
+      "body": {
+        "tr": "Arkandan sireni çalan bir ambulans, itfaiye ya da polis aracı geliyorsa sinyal ver, **sola** yanaş, yavaşla ve gerekirse dur. Ani fren yapma, kaldırıma çıkma.\n\nSağa çekmek sağdan trafikteki alışkanlıktır ve burada acil aracın önünü kapatır. KKTC mevzuatında hangi tarafa yanaşılacağı yazılı değil. Soldan trafikte güvenli olan budur.",
+        "en": "If an ambulance, fire engine or police vehicle with its siren on comes up behind you, signal, pull over to the **left**, slow down and stop if needed. Do not brake suddenly or mount the kerb.\n\nPulling to the right is a right-hand-traffic habit, and here it blocks the emergency vehicle. North Cyprus law does not say which side to pull over to. On the left, this is the safe choice."
+      },
+      "basis": "practice", "sourceId": null, "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Park ederken kaldırım solda", "en": "Parking: the kerb is on your left" },
+      "body": {
+        "tr": "Yolun solunda, trafik akışı yönünde park edersin. Kaldırım solundadır.\n\n- Yokuş yukarı park ederken kaldırım varsa tekerlekleri **sağa**, kaldırımdan uzağa çevir.\n- Yokuş aşağı park ederken tekerlekleri **sola**, kaldırıma doğru çevir.\n- Sürücü kapın trafiğe açılıyorsa, açmadan önce aynaya ve omzunun üstünden arkaya bak.\n- Yolcular kaldırım tarafından insin.",
+        "en": "You park on the left of the road, facing the direction of traffic. The kerb is on your left.\n\n- Parking uphill next to a kerb, turn the wheels to the **right**, away from the kerb.\n- Parking downhill, turn the wheels to the **left**, towards the kerb.\n- If your door opens into traffic, check the mirror and look over your shoulder before opening it.\n- Let passengers get out on the kerb side."
+      },
+      "basis": "practice", "sourceId": null, "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Yayalar ters yöne bakabilir", "en": "Pedestrians may look the wrong way" },
+      "body": {
+        "tr": "Turistler ve yeni gelen öğrenciler karşıya geçerken alışkanlıkla önce sola bakabilir. Oysa en yakın şeritteki trafik onlara sağdan gelir. Yaya geçitlerine, otel ve kampüs çevrelerine yaklaşırken yavaşla ve yol kenarındaki insanları izle.\n\nSen yaya olduğunda da aynısı geçerli: karşıya geçmeden önce sağa, sonra sola, sonra yeniden sağa bak.",
+        "en": "Tourists and newly arrived students may look left first when crossing, out of habit. But traffic in the nearest lane comes from their right. Slow down near crossings, hotels and campuses, and watch the people at the roadside.\n\nThe same goes for you on foot: before crossing, look right, then left, then right again."
+      },
+      "basis": "practice", "sourceId": null, "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Yaya geçidinde dur", "en": "Stop at pedestrian crossings" },
+      "body": {
+        "tr": "Yaya geçidine yaklaşırken yavaşla. Geçitten geçen ya da **geçmeye hazırlanan** bir yaya varsa dur ve yol ver.",
+        "en": "Slow down as you approach a pedestrian crossing. If someone is crossing or **about to cross**, stop and give way."
+      },
+      "basis": "law", "sourceId": "s1", "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Hız sınırları kısaca", "en": "Speed limits in brief" },
+      "body": {
+        "tr": "- Yerleşim yerlerinde hız sınırı saatte 50 km'dir.\n- Şehir dışında sınır yolun türüne göre saatte 65 ile 90 km arasında değişir.\n- Çift şeritli yollarda otomobil için sınır saatte 100 km'dir.\n\nLevhada başka bir sınır yazıyorsa levhaya uy. Hız kilometreyle ölçülür, mille değil.",
+        "en": "- In built-up areas the limit is 50 km/h.\n- Outside towns it is between 65 and 90 km/h, depending on the road.\n- On dual carriageways the limit for cars is 100 km/h.\n\nIf a sign shows a different limit, follow the sign. Speeds are in kilometres per hour, not miles."
+      },
+      "basis": "law", "sourceId": "s1", "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Araçta alışman gerekenler", "en": "Getting used to the car" },
+      "body": {
+        "tr": "Direksiyonun hangi tarafta olduğuna, vites kolunun ve sinyal kolunun yerine alış. Sinyal yerine silecek çalıştırmak ilk günlerin olağan hatasıdır.\n\nTrafiğe çıkmadan önce boş bir otoparkta birkaç tur at. İlk sürüşlerini sakin saatlerde ve bildiğin yollarda yap.",
+        "en": "Get used to which side the steering wheel is on and where the gear lever and indicator stalk are. Switching on the wipers instead of the indicator is a normal mistake in the first days.\n\nBefore going into traffic, drive a few laps of an empty car park. Do your first drives at quiet times and on roads you know."
+      },
+      "basis": "practice", "sourceId": null, "sourceRef": null
+    },
+    {
+      "heading": { "tr": "Acil numaralar", "en": "Emergency numbers" },
+      "body": {
+        "tr": "- **155:** polis\n- **112:** ambulans\n- **199:** itfaiye\n\nKazada yaralı varsa 112'yi ve 155'i ara.",
+        "en": "- **155:** police\n- **112:** ambulance\n- **199:** fire\n\nIf anyone is hurt in a crash, call 112 and 155."
+      },
+      "basis": "law", "sourceId": "s15", "sourceRef": null
+    }
+  ],
+  "reviewedAt": "2026-10-20"
+}

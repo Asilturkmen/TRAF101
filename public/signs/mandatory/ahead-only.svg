@@ -1,7 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- Blue Circle -->
-  <circle cx="50" cy="50" r="45" fill="#2563EB"/>
-  <circle cx="50" cy="50" r="42" fill="#2563EB" stroke="#FFFFFF" stroke-width="3"/>
-  <!-- White Arrow pointing up -->
-  <path d="M50 20 L30 45 L42 45 L42 75 L58 75 L58 45 L70 45 Z" fill="#FFFFFF"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><circle cx="100" cy="100" r="97.4" fill="#FFFFFF" stroke="#B4BAC1" stroke-width="1.2"/><circle cx="100" cy="100" r="94" fill="#0B4EA2"/><path fill="none" stroke="#FFFFFF" stroke-width="22" stroke-linejoin="round" d="M100 168L100 69"/><path fill="#FFFFFF" d="M100 32L128 70L72 70Z"/></svg>

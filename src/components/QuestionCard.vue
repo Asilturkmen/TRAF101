@@ -1,211 +1,164 @@
 <script setup>
-import { ref, computed, watch, onMounted } from 'vue';
+// Accessible multiple-choice question: fieldset + native radios styled as the
+// original scenario choice cards, a polite live region for feedback, and focus
+// moved to the question when it changes.
+import { computed, nextTick, ref, watch, onMounted } from 'vue';
+import { RouterLink } from 'vue-router';
+import { useI18n } from 'vue-i18n';
+import { Check, X, CircleCheck, CircleX } from 'lucide-vue-next';
+import SignImage from './SignImage.vue';
+import BasisLine from './BasisLine.vue';
+import { signById } from '../content/signs.js';
+import { topicById } from '../content/meta.js';
+import { lessonPath } from '../lib/paths.js';
+import { hashString, mulberry32, shuffle } from '../lib/random.js';
+import { tx } from '../lib/text.js';
 
 const props = defineProps({
-  question: {
-    type: Object,
-    required: true
-  },
-  selectedOptionIds: {
-    type: Array,
-    default: () => []
-  }
+  question: { type: Object, required: true },
+  lang: { type: String, required: true },
+  mode: { type: String, default: 'practice' }, // practice | exam | review
+  modelValue: { type: String, default: null },
+  seed: { type: Number, default: 1 },
+  number: { type: Number, default: 1 },
+  total: { type: Number, default: 1 },
+  autofocus: { type: Boolean, default: true },
+  showTopic: { type: Boolean, default: true },
 });
+const emit = defineEmits(['update:modelValue', 'answered', 'next']);
+const { t } = useI18n();
 
-const emit = defineEmits(['answer']);
+const LETTERS = ['A', 'B', 'C', 'D'];
+const options = computed(() =>
+  shuffle(props.question.options, mulberry32(hashString(props.question.id) ^ props.seed)),
+);
+const letterOf = (id) => LETTERS[options.value.findIndex((o) => o.id === id)];
+const optionText = (id) => tx(props.question.options.find((o) => o.id === id)?.text, props.lang);
 
-// Local state for shuffled options to prevent reshuffling on every render
-const displayOptions = ref([]);
+const sign = computed(() => (props.question.signId ? signById(props.question.signId) : null));
+const topic = computed(() => topicById(props.question.topic));
 
-function shuffleOptions() {
-  if (!props.question) return;
-  // Create a copy and shuffle
-  const opts = [...props.question.options];
-  // Simple Fisher-Yates or sort shuffle
-  opts.sort(() => Math.random() - 0.5);
-  displayOptions.value = opts;
+const checked = ref(false);
+const selected = computed({
+  get: () => props.modelValue,
+  set: (v) => emit('update:modelValue', v),
+});
+const revealed = computed(() => props.mode === 'review' || (props.mode === 'practice' && checked.value));
+const isCorrect = computed(() => selected.value === props.question.answer);
+const announcement = ref('');
+const heading = ref(null);
+const nextButton = ref(null);
+const groupName = computed(() => `q-${props.question.id.replace(/[^a-z0-9]/gi, '-')}`);
+
+function check() {
+  if (!selected.value || checked.value) return;
+  checked.value = true;
+  const answer = `${letterOf(props.question.answer)}, ${optionText(props.question.answer)}`;
+  announcement.value = isCorrect.value
+    ? `${t('common.correct')}.`
+    : `${t('common.wrong')}. ${t('common.correctAnswer', { answer })}.`;
+  emit('answered', isCorrect.value);
+  nextTick(() => nextButton.value?.focus());
 }
 
-watch(() => props.question.id, () => {
-  shuffleOptions();
-}, { immediate: true });
-
-// Check selection
-function isSelected(optId) {
-  return props.selectedOptionIds.includes(optId);
+function focusHeading() {
+  if (props.autofocus) nextTick(() => heading.value?.focus({ preventScroll: false }));
 }
 
-function toggleOption(optId) {
-  const isMulti = props.question.correctOptionIds.length > 1; // Infer if multi-choice based on correct answers? 
-  // Wait, usually prompt says "Select all that apply" or similar.
-  // The data structure has `correctOptionIds[]`.
-  // BUT the prompt doesn't explicitly flag "multi" in schema other than checking correctOptionIds.
-  // However, usually we should know if it's radio or checkbox.
-  // Let's assume if correctOptionIds.length > 1 OR explicit flag (which isn't in schema).
-  // Or maybe always allow multi? No, single choice is common.
-  // Let's look at `questions.js` data I generated. Most are single.
-  // I will treat it as Single Choice unless correctOptionIds.length > 1 OR some metadata?
-  // Safe bet: If `correctOptionIds.length > 1`, it's multi. If == 1, it's single.
-  // Exception: A question might have 1 correct answer but be presented as "Select One".
-  // A question with multiple correct answers is definitely Multi.
-  // Let's stick to: if correctOptionIds > 1 => Checkbox. Else => Radio.
-  
-  const isMultipleChoice = props.question.correctOptionIds.length > 1;
+watch(
+  () => props.question.id,
+  () => {
+    checked.value = false;
+    announcement.value = '';
+    focusHeading();
+  },
+);
+onMounted(focusHeading);
 
-  let newSelection = [];
-  if (isMultipleChoice) {
-    if (isSelected(optId)) {
-      newSelection = props.selectedOptionIds.filter(id => id !== optId);
-    } else {
-      newSelection = [...props.selectedOptionIds, optId];
-    }
-  } else {
-    // Single choice: toggle on/off? Usually just switch.
-    // Force select.
-    newSelection = [optId];
-  }
-  emit('answer', newSelection);
+function stateClass(o) {
+  if (!revealed.value) return { selected: selected.value === o.id };
+  return {
+    correct: o.id === props.question.answer,
+    incorrect: o.id === selected.value && o.id !== props.question.answer,
+    disabled: true,
+  };
 }
 </script>
 
 <template>
-  <div class="question-card">
-    <div class="header">
-      <span class="category-badge">{{ question.category }}</span>
-      <span class="difficulty-badge" :class="question.difficulty">{{ question.difficulty }}</span>
-    </div>
-    
-    <h2 class="question-text">{{ question.prompt }}</h2>
-    
-    <div v-if="question.image" class="question-image">
-      <!-- Fallback or actual image logic -->
-      <div class="placeholder-image">
-         <span>[Image: {{ question.category }} Sign]</span>
-      </div>
+  <div class="quiz-card">
+    <div v-if="showTopic && topic" class="quiz-meta">
+      <span class="chip chip-primary">{{ tx(topic.name, lang) }}</span>
+      <span class="chip">{{ t('common.question', { n: number, total }) }}</span>
     </div>
 
-    <div class="options-list" role="listbox">
-      <div 
-        v-for="opt in displayOptions" 
-        :key="opt.id"
-        class="option-item"
-        :class="{ 'selected': isSelected(opt.id) }"
-        @click="toggleOption(opt.id)"
-        tabindex="0"
-        @keypress.enter="toggleOption(opt.id)"
-        role="option"
-        :aria-selected="isSelected(opt.id)"
-      >
-        <div class="indicator">
-          <span v-if="isSelected(opt.id)" class="check">✔</span>
+    <form @submit.prevent="check">
+      <fieldset :disabled="revealed && mode !== 'exam'">
+        <legend>
+          <span ref="heading" tabindex="-1" class="q-heading">{{ tx(question.prompt, lang) }}</span>
+        </legend>
+
+        <div v-if="sign" class="quiz-sign">
+          <SignImage :sign="sign" :lang="lang" :size="168" :quiz="!revealed" eager />
         </div>
-        <span class="option-text">{{ opt.text }}</span>
+
+        <div class="choices-list">
+          <label v-for="(o, i) in options" :key="o.id" class="choice-option" :class="stateClass(o)">
+            <input v-model="selected" type="radio" :name="groupName" :value="o.id" :disabled="revealed" />
+            <span class="choice-letter" aria-hidden="true">{{ LETTERS[i] }}</span>
+            <span class="choice-text">{{ tx(o.text, lang) }}</span>
+            <span v-if="revealed && o.id === question.answer" class="choice-mark ok">
+              <Check :size="18" aria-hidden="true" />{{ t('common.correct') }}
+            </span>
+            <span v-else-if="revealed && o.id === selected" class="choice-mark no">
+              <X :size="18" aria-hidden="true" />{{ t('common.wrong') }}
+            </span>
+          </label>
+        </div>
+      </fieldset>
+
+      <div v-if="mode === 'practice' && !checked" class="quiz-actions">
+        <button type="submit" class="btn btn-primary btn-large" :disabled="!selected">{{ t('common.check') }}</button>
+      </div>
+    </form>
+
+    <div role="status" aria-live="polite" class="visually-hidden">{{ announcement }}</div>
+
+    <div v-if="revealed" class="feedback-box" :class="{ 'correct-feedback': isCorrect }">
+      <div class="feedback-header">
+        <CircleCheck v-if="isCorrect" class="icon-ok" :size="28" aria-hidden="true" />
+        <CircleX v-else class="icon-no" :size="28" aria-hidden="true" />
+        <h3>{{ isCorrect ? t('common.correct') : selected ? t('common.wrong') : t('common.noAnswer') }}</h3>
+      </div>
+      <p v-if="!isCorrect" class="feedback-text">
+        {{ t('common.correctAnswer', { answer: `${letterOf(question.answer)}, ${optionText(question.answer)}` }) }}
+      </p>
+      <div class="explanation">
+        <strong>{{ t('common.why') }}</strong>
+        <p>{{ tx(question.why, lang) }}</p>
+      </div>
+      <BasisLine :item="question" :lang="lang" />
+      <p v-if="question.lesson && !question.generated" class="basis-line">
+        <RouterLink :to="lessonPath(question.lesson, lang)">{{ t('common.seeLesson') }}</RouterLink>
+      </p>
+      <div v-if="mode === 'practice'" class="quiz-actions">
+        <button ref="nextButton" type="button" class="btn btn-primary btn-large" @click="emit('next')">
+          <slot name="next-label">{{ t('common.next') }}</slot>
+        </button>
       </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-.question-card {
-  background: white;
-  padding: 1.25rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-}
-
-.header {
-  display: flex;
-  gap: 0.5rem;
-  margin-bottom: 1rem;
-}
-
-.category-badge, .difficulty-badge {
-  font-size: 0.75rem;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  text-transform: uppercase;
-  font-weight: bold;
-}
-
-.category-badge {
-  background: #e9ecef;
-  color: #495057;
-}
-
-.difficulty-badge.easy { background: #d4edda; color: #155724; }
-.difficulty-badge.medium { background: #fff3cd; color: #856404; }
-.difficulty-badge.hard { background: #f8d7da; color: #721c24; }
-
-.question-text {
-  font-size: 1.25rem;
-  margin-bottom: 1.5rem;
-  line-height: 1.4;
-}
-
-.question-image {
-  margin-bottom: 1.5rem;
-  display: flex;
-  justify-content: center;
-}
-
-.placeholder-image {
-  width: 100%;
-  max-width: 300px;
-  height: 150px;
-  background: #f1f3f5;
-  border: 2px dashed #dee2e6;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #adb5bd;
-}
-
-.options-list {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.option-item {
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  border: 2px solid #e9ecef;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.2s;
-}
-
-.option-item:hover, .option-item:focus {
-  border-color: #3498db;
-  background: #f8f9fa;
+.q-heading:focus {
   outline: none;
 }
-
-.option-item.selected {
-  border-color: #3498db;
-  background: #ebf5fb;
+.q-heading:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 4px;
 }
-
-.indicator {
-  width: 24px;
-  height: 24px;
-  border: 2px solid #bdc3c7;
-  border-radius: 50%; /* Circle for radio look, square for check? */
-  margin-right: 1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: white;
-}
-
-.option-item.selected .indicator {
-  border-color: #3498db;
-  background: #3498db;
-}
-
-.check {
-  color: white;
-  font-size: 0.8rem;
+.quiz-card legend {
+  width: 100%;
 }
 </style>

@@ -1,0 +1,152 @@
+{
+  "id": "emergencies",
+  "title": {
+    "tr": "Arıza, kaza ve acil durum",
+    "en": "Breakdowns, crashes and emergencies"
+  },
+  "summary": {
+    "tr": "Önce kendini ve yolu güvenli hale getir, sonra doğru numarayı ara: 112 ambulans, 155 polis, 199 itfaiye.",
+    "en": "Make yourself and the road safe first, then call the right number: 112 ambulance, 155 police, 199 fire."
+  },
+  "sections": [
+    {
+      "heading": {
+        "tr": "Acil numaralar",
+        "en": "Emergency numbers"
+      },
+      "body": {
+        "tr": "- **155:** Polis İmdat\n- **112:** ambulans ve acil sağlık\n- **199:** itfaiye\n- **177:** orman yangını\n\nYaralı varsa **112'yi ve 155'i** birlikte ara. Yalnız 155'i aramak yanlış değildir, ama ambulans 112'dir.\n\nArarken sakin konuş ve şunları söyle: nerede olduğun (yol, köy, yakındaki bir yer), kaç kişinin yaralı olduğu, yangın ya da sızıntı olup olmadığı.",
+        "en": "- **155:** police emergency (*Polis İmdat*)\n- **112:** ambulance and medical emergencies\n- **199:** fire brigade\n- **177:** forest fire\n\nIf anyone is hurt, call **112 and 155**. Calling only 155 is not wrong, but the ambulance number is 112.\n\nSpeak calmly and say where you are (road, village, a nearby landmark), how many people are hurt and whether there is fire or leaking fuel."
+      },
+      "basis": "law",
+      "sourceId": "s15",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Arıza yaptığında",
+        "en": "If you break down"
+      },
+      "body": {
+        "tr": "- Dörtlü flaşörü yak ve aracı mümkünse yolun en soluna, banketin ya da bir cebin içine çek.\n- Motoru durdur, el frenini çek.\n- Yolcuları kaldırım tarafından, yani soldan indir ve yoldan uzakta, varsa bariyerin arkasında beklet.\n- Uyarı üçgenin varsa aracının arkasına, aynı tarafta ve yaklaşan sürücülerin zamanında göreceği bir uzaklığa koy. Koyarken trafiğe arkanı dönme.\n- Gece ya da kötü havada açık renkli, yansıtıcı bir yelek giy.\n\nAracınla trafik arasında hiçbir zaman durma.",
+        "en": "- Switch on your hazard lights and, if you can, move the car as far left as possible, onto the verge or into a lay-by.\n- Switch off the engine and apply the handbrake.\n- Let passengers out on the kerb side, which is the left, and keep them well away from the road, behind a barrier if there is one.\n- If you have a warning triangle, place it behind the car, on the same side and far enough back for approaching drivers to see it in time. Do not turn your back on the traffic while you do it.\n- At night or in bad weather, wear a light-coloured reflective vest.\n\nNever stand between your car and the traffic."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Kaza yerinde",
+        "en": "At the scene of a crash"
+      },
+      "body": {
+        "tr": "Kazaya karışırsan ya da kazaya ilk sen ulaşırsan şu sırayı izle:\n\n- **Dur:** aracını kaza yerini kapatmayacak güvenli bir yere çek ve flaşörünü yak.\n- **Uyar:** yaklaşan sürücüleri uyar, gerekirse uyarı üçgenini koy. Kazalı araçların motorunu durdur, kimsenin sigara içmesine izin verme.\n- **Ara:** yaralı varsa ambulansı ve polisi ara.\n- **Yardım et:** yangın ya da trafik gibi doğrudan bir tehlike yoksa yaralıyı yerinden oynatma. Bilincini ve solunumunu kontrol et.\n\nPolis gelene kadar kaza yerinden ayrılma ve öbür sürücüyle bilgilerini paylaş. İlk yardımın ayrıntıları İlk yardım dersinde.",
+        "en": "If you are involved in a crash or are first on the scene, follow this order:\n\n- **Stop:** pull in somewhere safe that does not block the scene and switch on your hazard lights.\n- **Warn:** warn approaching drivers and put out a warning triangle if needed. Switch off the engines of the crashed vehicles and do not let anyone smoke.\n- **Call:** if anyone is hurt, call the ambulance and the police.\n- **Help:** unless there is direct danger, such as fire or traffic, do not move an injured person. Check whether they respond and are breathing.\n\nStay at the scene until the police arrive and exchange details with the other driver. First aid is covered in its own lesson."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Acil araç geldiğinde",
+        "en": "When an emergency vehicle approaches"
+      },
+      "body": {
+        "tr": "Siren duyduğunda ya da tepe lambası gördüğünde aracın hangi yönden geldiğini anlamaya çalış.\n\n- Güvenli olduğu anda **sola** çek, yavaşla ya da dur.\n- Ani fren yapma, kaldırıma çıkma, kırmızı ışıkta kavşağa dalma.\n- Kavşağın içindeysen önce kavşağı boşalt, sonra kenara çek.\n- Acil aracın arkasından bir başkası gelebilir; çevrene bakmadan yola dönme.\n\nSağa çekilmek sağdan trafik olan ülkelerde doğrudur. KKTC'de soldan gidildiği için doğru taraf soldur.",
+        "en": "When you hear a siren or see flashing lights, work out which way the vehicle is coming from.\n\n- When it is safe, pull over to the **left**, then slow down or stop.\n- Do not brake suddenly, mount the kerb or drive through a red light.\n- If you are already in a junction, clear it first and then pull over.\n- Another emergency vehicle may follow; look around before you move off again.\n\nPulling to the right is correct in countries that drive on the right. In KKTC traffic keeps left, so the correct side is the left."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Araç yangını",
+        "en": "Vehicle fires"
+      },
+      "body": {
+        "tr": "Polis, moped ve motosiklet dışındaki bütün motorlu araçlarda en az 1 kg'lık bir yangın söndürücü bulunması gerektiğini söyler. E, F, G ve K sınıfı araçlarda en az 3 kg, kamyon ve otobüslerde en az 6 kg.\n\nAraç yanmaya başlarsa:\n\n- Dur, motoru kapat ve herkesi araçtan çıkar.\n- 199'u ara.\n- Yangın küçükse ve güvenliyse söndürücüyü kullan. Motor kaputunu tamamen açma; içeri hava girer ve alev büyür.\n- Yangın büyürse araçtan uzaklaş.",
+        "en": "The police say every motor vehicle except mopeds and motorcycles must carry a fire extinguisher of at least 1 kg. For class E, F, G and K vehicles it is at least 3 kg, and for lorries and buses at least 6 kg.\n\nIf the vehicle catches fire:\n\n- Stop, switch off the engine and get everyone out.\n- Call 199.\n- Use the extinguisher only if the fire is small and it is safe. Do not open the bonnet fully; air rushes in and feeds the flames.\n- If the fire grows, move away from the vehicle."
+      },
+      "basis": "secondary",
+      "sourceId": "s38",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Lastik patlaması ve fren arızası",
+        "en": "Tyre blow-out and brake failure"
+      },
+      "body": {
+        "tr": "**Lastik patlarsa:** direksiyonu sıkı tut, sert fren yapma. Gazı yavaşça bırak, aracın yavaşlamasını bekle ve güvenli olunca sola çek.\n\n**Fren tutmazsa:** fren pedalına birkaç kez basıp bırak, vitesi küçült ve el frenini yavaş yavaş çek. Çevredekileri uyarmak için korna ve flaşör kullan.",
+        "en": "**If a tyre bursts:** grip the wheel firmly and do not brake hard. Ease off the accelerator, let the car slow down and pull over to the left when it is safe.\n\n**If the brakes fail:** pump the brake pedal, change down through the gears and apply the handbrake gradually. Use the horn and hazard lights to warn others."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    }
+  ],
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Polis 155, ambulans 112, itfaiye 199. Yaralı varsa 112 ve 155 birlikte aranır.",
+        "en": "Police 155, ambulance 112, fire 199. If anyone is hurt, call 112 and 155."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Arızada flaşörü yak, aracı yolun soluna çek, yolcuları soldan indir.",
+        "en": "If you break down, switch on hazard lights, pull to the left and let passengers out on the left."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Acil araca yol vermek için sola çek, ani fren yapma.",
+        "en": "To give way to an emergency vehicle, pull to the left and do not brake suddenly."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Doğrudan bir tehlike yoksa yaralıyı yerinden oynatma.",
+        "en": "Do not move an injured person unless there is direct danger."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Moped ve motosiklet dışındaki araçlarda yangın söndürücü bulunmalıdır.",
+        "en": "Every vehicle except mopeds and motorcycles should carry a fire extinguisher."
+      },
+      "basis": "secondary",
+      "sourceId": "s38",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Orman yangınını 177'ye bildir.",
+        "en": "Report a forest fire on 177."
+      },
+      "basis": "law",
+      "sourceId": "s15",
+      "sourceRef": null
+    }
+  ],
+  "relatedSigns": [
+    "information.hospital",
+    "information.first-aid"
+  ],
+  "reviewedAt": "2026-10-20"
+}

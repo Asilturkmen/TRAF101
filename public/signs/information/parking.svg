@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- Blue Rectangle -->
-  <rect x="10" y="20" width="80" height="60" fill="#2563EB" stroke="#FFFFFF" stroke-width="3" rx="5"/>
-  <!-- Large P -->
-  <text x="50" y="70" font-family="Arial, sans-serif" font-size="50" font-weight="bold" fill="#FFFFFF" text-anchor="middle">P</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><rect x="0.6" y="0.6" width="198.8" height="198.8" rx="14" fill="#FFFFFF" stroke="#B4BAC1" stroke-width="1.2"/><rect x="4" y="4" width="192" height="192" rx="10" fill="#0B4EA2"/><path fill="#FFFFFF" d="M82 164L55.7 164L55.7 36L111.4 36Q127.7 36 137.4 42Q147.1 48 151.3 57.3Q155.5 66.6 155.5 76.8Q155.5 83.8 153 91Q150.6 98.2 145.3 104.2Q140 110.1 131.6 113.8Q123.2 117.5 111.4 117.5L82 117.5L82 164M82 60.8L82 92.7L112.5 92.7Q118.3 92.7 121.8 90.3Q125.2 87.9 126.8 84.2Q128.3 80.5 128.3 76.8Q128.3 73.3 126.9 69.6Q125.5 65.9 122 63.3Q118.6 60.8 112.5 60.8"/></svg>

@@ -1,0 +1,135 @@
+{
+  "id": "right-of-way",
+  "title": {
+    "tr": "Öncelik kuralları",
+    "en": "Right of way"
+  },
+  "summary": {
+    "tr": "Kimin önce geçeceğini polis, ışık ve levha belirler; bunlar yoksa sağdan gelen araç önceliklidir.",
+    "en": "Police, lights and signs decide who goes first; where there are none, the vehicle from the right has priority."
+  },
+  "sections": [
+    {
+      "heading": {
+        "tr": "Önce kim karar verir",
+        "en": "What decides who goes first"
+      },
+      "body": {
+        "tr": "Bir kavşağa yaklaşırken önceliği şu sırayla düşün:\n\n- Trafiği yöneten bir polis varsa onun işaretine uy.\n- Trafik ışığı çalışıyorsa ışığa uy.\n- DUR ya da yol ver levhası varsa levhaya uy.\n- Bunların hiçbiri yoksa genel öncelik kuralı geçerlidir.\n\nGeçiş üstünlüğü bir haktır, ama çarpışmayı önleme görevin her zaman sürer. Öbür sürücü sana yol vermiyorsa ısrar etme.",
+        "en": "As you approach a junction, work out priority in this order:\n\n- If a police officer is directing traffic, follow their signals.\n- If traffic lights are working, follow the lights.\n- If there is a DUR (stop) or give way sign, follow the sign.\n- If there is none of these, the general priority rule applies.\n\nRight of way is a right, but your duty to avoid a crash never ends. If the other driver does not give way to you, do not insist."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Denetimsiz kavşakta sağdan gelen geçer",
+        "en": "At an uncontrolled junction, traffic from the right goes first"
+      },
+      "body": {
+        "tr": "Işığı, levhası ya da polisi olmayan bir kavşakta öncelik sağdan gelen aracındır. Bakanlığın trafik broşüründe bu kural açıkça yazar.\n\nSağından bir araç geliyorsa onun geçmesini bekle. Soldan gelen araç sana yol vermelidir, ama onun yavaşladığını görmeden kavşağa girme.\n\nBu konuda KKTC, yine soldan gidilen İngiltere'den ayrılır. İngiltere'de sürdüysen bu kurala özellikle dikkat et.",
+        "en": "At a junction with no lights, signs or police, priority belongs to the vehicle coming from the right. The ministry's traffic leaflet states this rule plainly.\n\nIf a vehicle is coming from your right, wait for it to pass. A vehicle from your left should give way to you, but do not enter the junction until you see it slowing down.\n\nOn this point KKTC differs from the UK, where people also drive on the left. If you learned to drive in the UK, pay special attention to this rule."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Sağa dönerken karşıdan gelene yol ver",
+        "en": "Give way to oncoming traffic when turning right"
+      },
+      "body": {
+        "tr": "Sağa dönmek için karşı yönün şeridini kesersin. Bu yüzden karşıdan gelen araçlara yol vermek zorundasın. Bunu yapmamak trafik suçudur; 2023 ceza listesinde asgari ücretin yüzde 10'u ve 5 ceza puanı olarak yer alır.\n\nDar bir yolda ya da köprüde öncelik levhayla da gösterilebilir. Kırmızı halkalı, iki oklu yuvarlak levha karşıdan gelene yol vermen gerektiğini söyler.",
+        "en": "To turn right you cut across the opposite lane, so you must give way to oncoming traffic. Failing to do so is an offence; the 2023 penalty list sets it at 10% of the minimum wage and 5 penalty points.\n\nOn a narrow road or a bridge, priority may also be shown by a sign. The round sign with a red ring and two arrows tells you to give way to oncoming traffic."
+      },
+      "basis": "secondary",
+      "sourceId": "s31",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Yayalar geçitte önceliklidir",
+        "en": "Pedestrians have priority on crossings"
+      },
+      "body": {
+        "tr": "Yaya geçidine yaklaşırken yavaşla. Geçitte bir yaya varsa ya da geçmeye hazırlanıyorsa dur ve yol ver. \"Hazırlanıyor\" sözü önemlidir: kaldırımın kenarında bekleyen yaya için de durursun.\n\nAyrıntılar Yayalar ve iki tekerlekliler dersinde.",
+        "en": "Slow down as you approach a pedestrian crossing. If a pedestrian is on the crossing or preparing to cross, stop and give way. \"Preparing to cross\" matters: you also stop for someone waiting at the kerb.\n\nThere is more in the lesson on pedestrians and riders."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Acil araçlara yol ver",
+        "en": "Give way to emergency vehicles"
+      },
+      "body": {
+        "tr": "Siren çalan bir ambulansa, itfaiyeye ya da polis aracına yol verirsin.\n\nKKTC'de soldan gidildiği için güvenli olduğu anda **sola** çeker, yavaşlar ya da durursun. Sağa çekilmek sağdan trafik olan ülkelerde doğrudur, burada yanlıştır. Ani fren yapma, kaldırıma çıkma ve kırmızı ışıkta kavşağa dalma.",
+        "en": "You give way to an ambulance, fire engine or police vehicle using its siren.\n\nBecause traffic keeps left in KKTC, you pull over to the **left** when it is safe, then slow down or stop. Pulling to the right is correct in countries that drive on the right and wrong here. Do not brake suddenly, mount the kerb or drive into a junction against a red light."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    }
+  ],
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Işık, levha ya da polis yoksa sağdan gelen araç önceliklidir.",
+        "en": "With no lights, signs or police, the vehicle from the right has priority."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Sağa dönerken karşıdan gelen araçlara yol verirsin.",
+        "en": "When turning right, you give way to oncoming traffic."
+      },
+      "basis": "secondary",
+      "sourceId": "s31",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Geçitte olan ya da geçmeye hazırlanan yayaya durup yol verirsin.",
+        "en": "You stop and give way to a pedestrian on a crossing or preparing to cross."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Siren çalan acil araca yol vermemek trafik suçudur.",
+        "en": "Failing to give way to an emergency vehicle using its siren is an offence."
+      },
+      "basis": "secondary",
+      "sourceId": "s31",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Acil araca yol vermek için sola çekilirsin.",
+        "en": "To give way to an emergency vehicle, you pull over to the left."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    }
+  ],
+  "relatedSigns": [
+    "priority.give-way",
+    "priority.stop",
+    "priority.give-way-to-oncoming",
+    "priority.priority-over-oncoming",
+    "warning.junction-priority-right",
+    "warning.crossroads",
+    "warning.pedestrian-crossing"
+  ],
+  "reviewedAt": "2026-10-20"
+}

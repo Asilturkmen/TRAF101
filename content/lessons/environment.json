@@ -1,0 +1,127 @@
+{
+  "id": "environment",
+  "title": {
+    "tr": "Çevre ve verimli sürüş",
+    "en": "Environment and eco-driving"
+  },
+  "summary": {
+    "tr": "Yumuşak ve öngörülü sürmek yakıttan, gürültüden ve kazadan tasarruf ettirir.",
+    "en": "Smooth, forward-looking driving saves fuel, cuts noise and prevents crashes."
+  },
+  "sections": [
+    {
+      "heading": {
+        "tr": "İleriyi oku",
+        "en": "Read the road ahead"
+      },
+      "body": {
+        "tr": "Verimli sürüşün temeli ileriyi okumaktır. Işığın kırmızıya döneceğini ya da trafiğin yavaşladığını erken görürsen gazı erken bırakır, gereksiz fren yapmazsın.\n\n- Yumuşak hızlan ve yüksek vitese erken geç.\n- Sabit bir hızla git; sürekli hızlanıp yavaşlamak yakıt yakar.\n- Yokuş aşağı inerken araç vitesteyken gazı bırak; motor freni yakıt tüketimini azaltır.\n- Yüksek hız yakıt tüketimini hızla artırır.",
+        "en": "Efficient driving starts with reading the road ahead. If you see early that a light is about to turn red or traffic is slowing, you can lift off sooner and avoid needless braking.\n\n- Accelerate gently and change up early.\n- Keep a steady speed; constant speeding up and slowing down burns fuel.\n- Going downhill, lift off while in gear; engine braking cuts fuel use.\n- Fuel use climbs quickly at high speed."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Gereksiz yükten kurtul",
+        "en": "Lose the extra load"
+      },
+      "body": {
+        "tr": "- Bagajdaki gereksiz yükü boşalt.\n- Kullanmadığın tavan taşıyıcısını ve port bagajı sök; hava direncini artırır.\n- Lastik basıncını doğru tut.\n- Klimayı gerektiği kadar kullan.\n- Kısa yolları yürüyerek ya da bisikletle gitmeyi düşün.",
+        "en": "- Take unnecessary weight out of the boot.\n- Remove a roof rack or roof box you are not using; it adds drag.\n- Keep the tyres at the right pressure.\n- Use the air conditioning only as much as you need.\n- Think about walking or cycling for short trips."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Motoru boşta çalıştırma",
+        "en": "Don't leave the engine idling"
+      },
+      "body": {
+        "tr": "Uzun süre bekleyeceksen, örneğin birini beklerken ya da kapalı bir yolun önünde, motoru durdur. Boşta çalışan motor hiçbir yere gitmeden yakıt yakar ve havayı kirletir.\n\nSoğuk motoru yerinde uzun süre ısıtmana gerek yoktur; sakin bir sürüşle motor daha çabuk ısınır.",
+        "en": "If you will be waiting for a while, for example for a passenger or at a closed road, switch the engine off. An idling engine burns fuel and pollutes the air while going nowhere.\n\nThere is no need to warm a cold engine up on the spot for long; gentle driving warms it faster."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Gürültü",
+        "en": "Noise"
+      },
+      "body": {
+        "tr": "Kornayı yalnız bir tehlikeyi bildirmek için kullan. Selamlaşmak, sinirini göstermek ya da birini çağırmak için korna çalma. Gece yerleşim yerinde özellikle sessiz ol.\n\nEgzozu değiştirilmiş gürültülü araçlar ve yüksek sesli müzik çevredekileri rahatsız eder. Hastane ve okul çevresinde daha da dikkatli ol.",
+        "en": "Use the horn only to warn of danger. Do not sound it to greet someone, to show anger or to call someone out. Be especially quiet in towns at night.\n\nNoisy modified exhausts and loud music disturb the people around you. Take extra care near hospitals and schools."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Atıklar ve orman yangını",
+        "en": "Waste and forest fires"
+      },
+      "body": {
+        "tr": "Araçtan dışarı çöp atma. Kullanılmış motor yağını, aküyü ve eski lastikleri yetkili servise ya da toplama noktasına bırak.\n\nKıbrıs'ın yazları kuru ve sıcaktır. Camdan atılan bir sigara izmariti ya da kuru otların üstüne park etmiş bir aracın sıcak egzozu yangın başlatabilir. Bir orman yangını görürsen **177**'yi ara.",
+        "en": "Never throw litter out of the car. Take used engine oil, batteries and old tyres to a garage or a collection point.\n\nSummers in Cyprus are hot and dry. A cigarette end thrown from a window, or a hot exhaust over dry grass where a car is parked, can start a fire. If you see a forest fire, call **177**."
+      },
+      "basis": "law",
+      "sourceId": "s15",
+      "sourceRef": null
+    }
+  ],
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Yumuşak hızlan, erken vites büyüt ve ileriyi okuyarak gereksiz frenden kaçın.",
+        "en": "Accelerate gently, change up early and read the road to avoid needless braking."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Uzun bekleyeceksen motoru durdur.",
+        "en": "Switch the engine off if you will be waiting a while."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Kornayı yalnız bir tehlikeyi bildirmek için kullan.",
+        "en": "Use the horn only to warn of danger."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Araçtan çöp ya da sigara izmariti atma.",
+        "en": "Never throw litter or cigarette ends from the car."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Orman yangını ihbar hattı 177'dir.",
+        "en": "The forest-fire line is 177."
+      },
+      "basis": "law",
+      "sourceId": "s15",
+      "sourceRef": null
+    }
+  ],
+  "relatedSigns": [],
+  "reviewedAt": "2026-10-20"
+}

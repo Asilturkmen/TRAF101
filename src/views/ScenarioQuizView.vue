@@ -1,590 +1,260 @@
 <script setup>
-import { ref, computed, onMounted } from 'vue';
-import { useRouter } from 'vue-router';
+import { computed, nextTick, onMounted, ref } from 'vue';
+import { RouterLink } from 'vue-router';
+import { useI18n } from 'vue-i18n';
+import { Check, X, CircleCheck, CircleX, Route, Building2, Trees, CloudRain, Siren, SquareParking } from 'lucide-vue-next';
+import { usePage, useLang } from '../composables/usePage.js';
+import { usePool } from '../composables/usePool.js';
+import { scenariosFor } from '../content/scenarios.js';
+import { signById } from '../content/signs.js';
+import { hashString, mulberry32, shuffle } from '../lib/random.js';
+import { to, lessonPath, both } from '../lib/paths.js';
+import { tx } from '../lib/text.js';
+import PageHero from '../components/PageHero.vue';
+import SignImage from '../components/SignImage.vue';
+import StateBlock from '../components/StateBlock.vue';
+import BasisLine from '../components/BasisLine.vue';
 
-const router = useRouter();
+const { t } = useI18n();
+const lang = useLang();
+const { progress, track } = usePool();
+const ROUND = 10;
 
-const scenarios = ref([]);
-const currentIndex = ref(0);
-const selectedAnswer = ref(null);
-const showFeedback = ref(false);
+const copy = {
+  tr: {
+    title: 'Senaryolar',
+    subtitle: 'Yolda karşına çıkabilecek durumlar. Bir seçenek seç; neden doğru ya da yanlış olduğunu hemen görürsün.',
+    practise: 'Çalış',
+    categories: { urban: 'Şehir içi', rural: 'Şehir dışı', weather: 'Hava koşulları', emergency: 'Acil durum', parking: 'Park' },
+    difficulty: { easy: 'Kolay', medium: 'Orta', hard: 'Zor' },
+    explanation: 'Açıklama',
+    nextS: 'Sonraki senaryo',
+    results: 'Sonuçları gör',
+    doneTitle: 'Senaryolar bitti',
+    done: (a, b) => `${b} senaryonun ${a} tanesinde doğru kararı verdin.`,
+    msg: { high: 'Yolda karşına çıkacak durumlarda doğru kararı veriyorsun.', mid: 'İyi gidiyor. Yanlış yaptığın senaryoların açıklamalarını tekrar oku.', low: 'Aşağıdaki senaryoların konularını okuyup yeni bir tur dene.' },
+    missed: 'Yanlış karar verdiğin senaryolar',
+    again: 'Yeni tur',
+    toHub: 'Çalış merkezi',
+    readLesson: 'Konuyu oku',
+    empty: 'Bu araç için senaryo bulunamadı.',
+  },
+  en: {
+    title: 'Scenarios',
+    subtitle: 'Situations you may meet on the road. Pick an option and you will see straight away why it is right or wrong.',
+    practise: 'Practise',
+    categories: { urban: 'Town', rural: 'Out of town', weather: 'Weather', emergency: 'Emergency', parking: 'Parking' },
+    difficulty: { easy: 'Easy', medium: 'Medium', hard: 'Hard' },
+    explanation: 'Explanation',
+    nextS: 'Next scenario',
+    results: 'See results',
+    doneTitle: 'Scenarios complete',
+    done: (a, b) => `You made the right call in ${a} of ${b} scenarios.`,
+    msg: { high: 'You make the right decisions in real road situations.', mid: 'Good progress. Re-read the explanations for the scenarios you missed.', low: 'Read the topics for the scenarios below, then try a new round.' },
+    missed: 'Scenarios you got wrong',
+    again: 'New round',
+    toHub: 'Practise hub',
+    readLesson: 'Read the topic',
+    empty: 'No scenarios for this vehicle.',
+  },
+};
+const c = computed(() => copy[lang.value]);
+const catIcons = { urban: Building2, rural: Trees, weather: CloudRain, emergency: Siren, parking: SquareParking };
+usePage({ title: computed(() => c.value.title), description: computed(() => c.value.subtitle), alternates: both((l) => to('scenarios', l)) });
+
+const round = ref([]);
+const index = ref(0);
+const picked = ref(null);
 const score = ref(0);
-const quizComplete = ref(false);
+const missed = ref([]);
+const ready = ref(false);
+const seed = ref(1);
+const heading = ref(null);
+const nextButton = ref(null);
+const current = computed(() => round.value[index.value] || null);
+const finished = computed(() => ready.value && round.value.length > 0 && index.value >= round.value.length);
+const choices = computed(() => (current.value ? shuffle(current.value.choices, mulberry32(hashString(current.value.id) ^ seed.value)) : []));
+const pickedChoice = computed(() => current.value?.choices.find((ch) => ch.id === picked.value) || null);
+const ratio = computed(() => (round.value.length ? score.value / round.value.length : 0));
 
-onMounted(async () => {
-  try {
-    const response = await fetch('/scenarios.json');
-    const data = await response.json();
-    scenarios.value = data.scenarios;
-    shuffleScenarios();
-  } catch (error) {
-    console.error('Error loading scenarios:', error);
-  }
-});
-
-const shuffleScenarios = () => {
-  scenarios.value = scenarios.value.sort(() => Math.random() - 0.5).slice(0, 10);
-};
-
-const currentScenario = computed(() => scenarios.value[currentIndex.value]);
-
-const progress = computed(() => {
-  return ((currentIndex.value + 1) / scenarios.value.length) * 100;
-});
-
-const selectAnswer = (choice) => {
-  if (showFeedback.value) return;
-  
-  selectedAnswer.value = choice;
-  showFeedback.value = true;
-  
-  if (choice.correct) {
-    score.value++;
-  }
-};
-
-const nextScenario = () => {
-  if (currentIndex.value < scenarios.value.length - 1) {
-    currentIndex.value++;
-    selectedAnswer.value = null;
-    showFeedback.value = false;
-  } else {
-    quizComplete.value = true;
-  }
-};
-
-const restartQuiz = () => {
-  currentIndex.value = 0;
-  selectedAnswer.value = null;
-  showFeedback.value = false;
+function build() {
+  seed.value = Math.floor(Math.random() * 1e9);
+  round.value = shuffle(scenariosFor(track.value)).slice(0, ROUND);
+  index.value = 0;
+  picked.value = null;
   score.value = 0;
-  quizComplete.value = false;
-  shuffleScenarios();
-};
+  missed.value = [];
+  ready.value = true;
+}
+onMounted(() => {
+  progress.load();
+  build();
+});
 
-const getCategoryIcon = (category) => {
-  const icons = {
-    'urban': '🏙️',
-    'highway': '🛣️',
-    'weather': '🌦️',
-    'emergency': '🚨',
-    'parking': '🅿️'
-  };
-  return icons[category] || '📝';
-};
-
-const getDifficultyColor = (difficulty) => {
-  const colors = {
-    'easy': '#10B981',
-    'medium': '#F59E0B',
-    'hard': '#EF4444'
-  };
-  return colors[difficulty] || '#6B7280';
-};
+function choose(ch) {
+  if (picked.value) return;
+  picked.value = ch.id;
+  if (ch.correct) score.value += 1;
+  else missed.value.push(current.value);
+  progress.record({ id: current.value.id, rev: current.value.rev }, ch.correct);
+  nextTick(() => nextButton.value?.focus());
+}
+function next() {
+  picked.value = null;
+  index.value += 1;
+  nextTick(() => heading.value?.focus());
+}
 </script>
 
 <template>
-  <div class="scenario-quiz">
-    <!-- Header -->
-    <div class="quiz-header">
-      <div class="header-content">
-        <button class="back-btn" @click="router.push('/')">
-          ← Back to Home
-        </button>
-        <h1>🎬 Scenario Practice</h1>
-        <p>Real-world driving situations</p>
-      </div>
-    </div>
+  <div class="quiz-page">
+    <PageHero
+      :title="c.title"
+      :subtitle="c.subtitle"
+      :crumbs="[{ label: t('nav.home'), path: to('home', lang) }, { label: c.practise, path: to('practise', lang) }, { label: c.title }]"
+      narrow
+    />
+    <div class="quiz-container">
+      <StateBlock v-if="!ready" :title="t('common.loading')" loading />
+      <StateBlock v-else-if="!round.length" :title="c.empty">
+        <template #icon><Route :size="36" /></template>
+        <RouterLink :to="to('practise', lang)" class="btn btn-primary">{{ c.toHub }}</RouterLink>
+      </StateBlock>
 
-    <div class="quiz-container" v-if="!quizComplete && scenarios.length > 0">
-      <!-- Progress Bar -->
-      <div class="progress-section">
-        <div class="progress-info">
-          <span>Scenario {{ currentIndex + 1 }} / {{ scenarios.length }}</span>
-          <span>Score: {{ score }} / {{ currentIndex + (showFeedback ? 1 : 0) }}</span>
-        </div>
-        <div class="progress-bar">
-          <div class="progress-fill" :style="{ width: progress + '%' }"></div>
-        </div>
-      </div>
-
-      <!-- Scenario Card -->
-      <div class="scenario-question" v-if="currentScenario">
-        <div class="scenario-meta">
-          <div class="category-badge">
-            {{ getCategoryIcon(currentScenario.category) }} {{ currentScenario.category }}
+      <template v-else-if="!finished && current">
+        <div class="progress-section">
+          <div class="progress-info">
+            <span>{{ t('common.of', { a: index + 1, b: round.length }) }}</span>
+            <span>{{ t('common.correct') }}: {{ score }} / {{ index + (picked ? 1 : 0) }}</span>
           </div>
-          <div class="difficulty-badge" :style="{ background: getDifficultyColor(currentScenario.difficulty) }">
-            {{ currentScenario.difficulty }}
+          <div class="progress-bar"><div class="progress-fill" :style="{ width: ((index + 1) / round.length) * 100 + '%' }" /></div>
+        </div>
+
+        <div class="quiz-card">
+          <div class="quiz-meta">
+            <span class="chip chip-primary">
+              <component :is="catIcons[current.category]" :size="16" aria-hidden="true" /> {{ c.categories[current.category] }}
+            </span>
+            <span class="chip">{{ c.difficulty[current.difficulty] }}</span>
+          </div>
+          <h2 ref="heading" class="quiz-title" tabindex="-1">{{ tx(current.title, lang) }}</h2>
+          <div v-if="current.signId && signById(current.signId)" class="quiz-sign">
+            <SignImage :sign="signById(current.signId)" :lang="lang" :size="140" />
+          </div>
+          <p class="situation-text">{{ tx(current.situation, lang) }}</p>
+
+          <div class="choices-list" role="group" :aria-label="tx(current.title, lang)">
+            <button
+              v-for="(ch, i) in choices"
+              :key="ch.id"
+              type="button"
+              class="choice-option"
+              :class="{
+                correct: picked && ch.correct,
+                incorrect: picked === ch.id && !ch.correct,
+                disabled: !!picked,
+              }"
+              :aria-disabled="!!picked"
+              @click="choose(ch)"
+            >
+              <span class="choice-letter" aria-hidden="true">{{ 'ABC'[i] }}</span>
+              <span class="choice-text">{{ tx(ch.text, lang) }}</span>
+              <span v-if="picked && ch.correct" class="choice-mark ok"><Check :size="18" aria-hidden="true" />{{ t('common.correct') }}</span>
+              <span v-else-if="picked === ch.id" class="choice-mark no"><X :size="18" aria-hidden="true" />{{ t('common.wrong') }}</span>
+            </button>
+          </div>
+
+          <div role="status" aria-live="polite">
+            <div v-if="pickedChoice" class="feedback-box" :class="{ 'correct-feedback': pickedChoice.correct }">
+              <div class="feedback-header">
+                <CircleCheck v-if="pickedChoice.correct" class="icon-ok" :size="28" aria-hidden="true" />
+                <CircleX v-else class="icon-no" :size="28" aria-hidden="true" />
+                <h3>{{ pickedChoice.correct ? t('common.correct') : t('common.wrong') }}</h3>
+              </div>
+              <p class="feedback-text">{{ tx(pickedChoice.feedback, lang) }}</p>
+              <div class="explanation">
+                <strong>{{ c.explanation }}</strong>
+                <p>{{ tx(current.explanation, lang) }}</p>
+              </div>
+              <BasisLine :item="current" :lang="lang" />
+            </div>
+          </div>
+          <div v-if="pickedChoice" class="quiz-actions">
+            <button ref="nextButton" type="button" class="btn btn-primary btn-large" @click="next">
+              {{ index < round.length - 1 ? c.nextS : c.results }}
+            </button>
           </div>
         </div>
+      </template>
 
-        <div class="scenario-icon-large">{{ currentScenario.image }}</div>
-        
-        <h2>{{ currentScenario.title }}</h2>
-        <p class="situation-text">{{ currentScenario.situation }}</p>
-
-        <!-- Choices -->
-        <div class="choices-list">
-          <button 
-            v-for="choice in currentScenario.choices" 
-            :key="choice.id"
-            class="choice-option"
-            :class="{
-              'selected': selectedAnswer === choice,
-              'correct': showFeedback && choice.correct,
-              'incorrect': showFeedback && selectedAnswer === choice && !choice.correct,
-              'disabled': showFeedback
-            }"
-            @click="selectAnswer(choice)"
-            :disabled="showFeedback"
-          >
-            <span class="choice-letter">{{ choice.id.toUpperCase() }}</span>
-            <span class="choice-text">{{ choice.text }}</span>
-            <span v-if="showFeedback && choice.correct" class="check-icon">✓</span>
-            <span v-if="showFeedback && selectedAnswer === choice && !choice.correct" class="x-icon">✗</span>
-          </button>
-        </div>
-
-        <!-- Feedback -->
-        <div v-if="showFeedback" class="feedback-box" :class="{ 'correct-feedback': selectedAnswer.correct }">
-          <div class="feedback-header">
-            <span class="feedback-icon">{{ selectedAnswer.correct ? '✅' : '❌' }}</span>
-            <h3>{{ selectedAnswer.correct ? 'Correct!' : 'Incorrect' }}</h3>
-          </div>
-          <p class="feedback-text">{{ selectedAnswer.feedback }}</p>
-          <div class="explanation">
-            <strong>Explanation:</strong> {{ currentScenario.explanation }}
-          </div>
-          <button class="btn btn-primary btn-large next-btn" @click="nextScenario">
-            {{ currentIndex < scenarios.length - 1 ? 'Next Scenario →' : 'View Results' }}
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Results Screen -->
-    <div v-if="quizComplete" class="results-screen">
-      <div class="results-card">
-        <div class="results-icon">🎯</div>
-        <h2>Quiz Complete!</h2>
-        <div class="score-display">
-          <div class="score-number">{{ score }} / {{ scenarios.length }}</div>
-          <div class="score-percentage">{{ Math.round((score / scenarios.length) * 100) }}%</div>
-        </div>
-        
-        <div class="results-message">
-          <p v-if="score / scenarios.length >= 0.8">
-            🌟 Excellent! You have a strong understanding of real driving situations.
+      <div v-else class="results-screen">
+        <div class="results-card">
+          <Route :size="56" :stroke-width="1.5" class="results-icon" aria-hidden="true" />
+          <h2>{{ c.doneTitle }}</h2>
+          <div class="score-number">{{ score }} / {{ round.length }}</div>
+          <p class="results-message">
+            {{ c.done(score, round.length) }}
+            {{ ratio >= 0.8 ? c.msg.high : ratio >= 0.6 ? c.msg.mid : c.msg.low }}
           </p>
-          <p v-else-if="score / scenarios.length >= 0.6">
-            👍 Good job! Keep practicing to improve your decision-making skills.
-          </p>
-          <p v-else>
-            📚 Keep learning! Review the scenarios and try again to improve.
-          </p>
-        </div>
-
-        <div class="results-actions">
-          <button class="btn btn-primary btn-large" @click="restartQuiz">
-            Try Again
-          </button>
-          <button class="btn btn-secondary btn-large" @click="router.push('/')">
-            Back to Home
-          </button>
+          <div v-if="missed.length" class="missed">
+            <h3>{{ c.missed }}</h3>
+            <ul>
+              <li v-for="s in missed" :key="s.id">
+                <span>{{ tx(s.title, lang) }}</span>
+                <RouterLink :to="lessonPath(s.lesson, lang)">{{ c.readLesson }}</RouterLink>
+              </li>
+            </ul>
+          </div>
+          <div class="results-actions">
+            <button type="button" class="btn btn-primary" @click="build">{{ c.again }}</button>
+            <RouterLink :to="to('practise', lang)" class="btn btn-secondary">{{ c.toHub }}</RouterLink>
+          </div>
         </div>
       </div>
-    </div>
-
-    <!-- Loading State -->
-    <div v-if="scenarios.length === 0 && !quizComplete" class="loading-state">
-      <div class="spinner"></div>
-      <p>Loading scenarios...</p>
     </div>
   </div>
 </template>
 
 <style scoped>
-.scenario-quiz {
-  min-height: 100vh;
-  background: var(--color-bg);
+.quiz-title:focus {
+  outline: none;
 }
-
-.quiz-header {
-  background: var(--gradient-hero);
-  color: white;
-  padding: 2rem 1.5rem;
+.quiz-title:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 4px;
 }
-
-.header-content {
-  max-width: 1000px;
-  margin: 0 auto;
+.choice-option[aria-disabled='true'] {
+  cursor: default;
 }
-
-.back-btn {
-  background: rgba(255, 255, 255, 0.2);
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  color: white;
-  padding: 0.625rem 1.125rem;
-  border-radius: var(--radius-md);
-  font-size: 0.9375rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all var(--transition-base);
+.results-icon {
+  color: var(--color-primary);
   margin-bottom: 1rem;
-  backdrop-filter: blur(10px);
 }
-
-.back-btn:hover {
-  background: rgba(255, 255, 255, 0.3);
-}
-
-.quiz-header h1 {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
-  color: white;
-}
-
-.quiz-header p {
-  opacity: 0.9;
-  font-size: 1.125rem;
-  color: white;
-}
-
-.quiz-container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 2rem 1.5rem;
-}
-
-.progress-section {
+.missed {
+  text-align: left;
   margin-bottom: 2rem;
-}
-
-.progress-info {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 0.75rem;
-  font-weight: 600;
-  color: var(--color-text);
-}
-
-.progress-bar {
-  height: 8px;
-  background: var(--color-bg-light);
-  border-radius: 50px;
-  overflow: hidden;
-}
-
-.progress-fill {
-  height: 100%;
-  background: var(--gradient-primary);
-  transition: width 0.3s ease;
-}
-
-.scenario-question {
-  background: white;
-  border-radius: var(--radius-2xl);
-  padding: 2.5rem;
-  box-shadow: var(--shadow-xl);
-}
-
-.scenario-meta {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
-}
-
-.category-badge,
-.difficulty-badge {
-  padding: 0.5rem 1rem;
-  border-radius: 50px;
-  font-size: 0.875rem;
-  font-weight: 700;
-  text-transform: capitalize;
-}
-
-.category-badge {
-  background: var(--color-bg-light);
-  color: var(--color-text);
-}
-
-.difficulty-badge {
-  color: white;
-}
-
-.scenario-icon-large {
-  font-size: 5rem;
-  text-align: center;
-  margin-bottom: 1.5rem;
-  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.1));
-}
-
-.scenario-question h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  color: var(--color-text);
-}
-
-.situation-text {
-  font-size: 1.25rem;
-  line-height: 1.7;
-  color: var(--color-text-secondary);
-  margin-bottom: 2rem;
-}
-
-.choices-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-bottom: 2rem;
-}
-
-.choice-option {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
   padding: 1.25rem 1.5rem;
   background: var(--color-bg);
-  border: 2px solid var(--color-border);
   border-radius: var(--radius-lg);
-  cursor: pointer;
-  transition: all var(--transition-base);
-  text-align: left;
-  position: relative;
 }
-
-.choice-option:hover:not(.disabled) {
-  border-color: var(--color-primary);
-  background: var(--color-bg-light);
-  transform: translateX(4px);
-}
-
-.choice-option.selected {
-  border-color: var(--color-primary);
-  background: rgba(55, 114, 114, 0.05);
-}
-
-.choice-option.correct {
-  border-color: #10B981;
-  background: rgba(16, 185, 129, 0.1);
-}
-
-.choice-option.incorrect {
-  border-color: #EF4444;
-  background: rgba(239, 68, 68, 0.1);
-}
-
-.choice-option.disabled {
-  cursor: not-allowed;
-}
-
-.choice-letter {
-  flex-shrink: 0;
-  width: 40px;
-  height: 40px;
-  background: var(--color-primary);
-  color: white;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 1.125rem;
-}
-
-.choice-option.correct .choice-letter {
-  background: #10B981;
-}
-
-.choice-option.incorrect .choice-letter {
-  background: #EF4444;
-}
-
-.choice-text {
-  flex: 1;
+.missed h3 {
   font-size: 1.0625rem;
-  color: var(--color-text);
+  margin-bottom: 0.75rem;
 }
-
-.check-icon,
-.x-icon {
-  font-size: 1.5rem;
-  font-weight: 700;
+.missed ul {
+  list-style: none;
+  display: grid;
+  gap: 0.625rem;
 }
-
-.check-icon {
-  color: #10B981;
-}
-
-.x-icon {
-  color: #EF4444;
-}
-
-.feedback-box {
-  padding: 2rem;
-  background: rgba(239, 68, 68, 0.05);
-  border: 2px solid #EF4444;
-  border-radius: var(--radius-xl);
-  margin-top: 2rem;
-}
-
-.feedback-box.correct-feedback {
-  background: rgba(16, 185, 129, 0.05);
-  border-color: #10B981;
-}
-
-.feedback-header {
+.missed li {
   display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-bottom: 1rem;
-}
-
-.feedback-icon {
-  font-size: 2rem;
-}
-
-.feedback-header h3 {
-  font-size: 1.5rem;
-  color: var(--color-text);
-}
-
-.feedback-text {
-  font-size: 1.125rem;
-  color: var(--color-text-secondary);
-  margin-bottom: 1.5rem;
-  line-height: 1.6;
-}
-
-.explanation {
-  padding: 1.5rem;
-  background: white;
-  border-radius: var(--radius-lg);
-  margin-bottom: 1.5rem;
-}
-
-.explanation strong {
-  color: var(--color-primary);
-  display: block;
-  margin-bottom: 0.5rem;
-}
-
-.next-btn {
-  width: 100%;
-}
-
-.results-screen {
-  min-height: calc(100vh - 140px);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 2rem 1.5rem;
-}
-
-.results-card {
-  background: white;
-  border-radius: var(--radius-2xl);
-  padding: 3rem 2.5rem;
-  box-shadow: var(--shadow-2xl);
-  text-align: center;
-  max-width: 600px;
-  width: 100%;
-}
-
-.results-icon {
-  font-size: 5rem;
-  margin-bottom: 1.5rem;
-}
-
-.results-card h2 {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-  color: var(--color-text);
-}
-
-.score-display {
-  margin-bottom: 2rem;
-}
-
-.score-number {
-  font-size: 4rem;
-  font-weight: 900;
-  color: var(--color-primary);
-  line-height: 1;
-}
-
-.score-percentage {
-  font-size: 2rem;
-  color: var(--color-text-secondary);
-  margin-top: 0.5rem;
-}
-
-.results-message {
-  font-size: 1.25rem;
-  color: var(--color-text-secondary);
-  margin-bottom: 2.5rem;
-  line-height: 1.6;
-}
-
-.results-actions {
-  display: flex;
+  justify-content: space-between;
   gap: 1rem;
   flex-wrap: wrap;
+  color: var(--color-text);
 }
-
-.results-actions .btn {
-  flex: 1;
-  min-width: 200px;
-}
-
-.loading-state {
-  text-align: center;
-  padding: 5rem 2rem;
-}
-
-.spinner {
-  width: 50px;
-  height: 50px;
-  border: 4px solid var(--color-border);
-  border-top-color: var(--color-primary);
-  border-radius: 50%;
-  animation: spin 0.8s linear infinite;
-  margin: 0 auto 1.5rem;
-}
-
-@keyframes spin {
-  to { transform: rotate(360deg); }
-}
-
-.loading-state p {
-  color: var(--color-text-muted);
-  font-size: 1.125rem;
-}
-
-@media (max-width: 640px) {
-  .quiz-header h1 {
-    font-size: 2rem;
-  }
-  
-  .scenario-question {
-    padding: 1.5rem;
-  }
-  
-  .scenario-question h2 {
-    font-size: 1.5rem;
-  }
-  
-  .situation-text {
-    font-size: 1.0625rem;
-  }
-  
-  .choice-option {
-    padding: 1rem;
-  }
-  
-  .results-actions {
-    flex-direction: column;
-  }
+.missed a {
+  color: var(--color-primary);
+  font-weight: 700;
 }
 </style>

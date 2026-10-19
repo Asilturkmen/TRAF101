@@ -1,0 +1,1433 @@
+[
+  {
+    "id": "prohibitory.no-entry",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-entry.svg",
+      "alt": {
+        "tr": "Kırmızı daire; ortasında yatay beyaz çubuk.",
+        "en": "Red disc with a horizontal white bar across the middle."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "girilmez",
+      "en": "no-entry"
+    },
+    "name": {
+      "tr": "Girilmez",
+      "en": "No entry"
+    },
+    "meaning": {
+      "tr": "Bu yöne hiçbir taşıt giremez. Genellikle tek yönlü bir yolun çıkış ucunda bulunur.",
+      "en": "No vehicle may enter in this direction. It is usually found at the exit end of a one-way road."
+    },
+    "driverAction": {
+      "tr": "Bu yola girme; başka bir yol bul.",
+      "en": "Do not enter this road; find another route."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-vehicles",
+        "tip": {
+          "tr": "Kırmızı zemin ve beyaz çubuk yalnız bu yönden girişi yasaklar. Boş beyaz daire yolu her iki yönden taşıtlara kapatır.",
+          "en": "The red disc with a white bar bans entry from this direction only. The empty white disc closes the road to vehicles from both directions."
+        }
+      },
+      {
+        "with": "information.one-way-street",
+        "tip": {
+          "tr": "Mavi levhadaki beyaz ok tek yönlü yola girebileceğin yönü gösterir; girilmez levhası ise tersi uçtadır.",
+          "en": "The white arrow on a blue sign shows the direction you may drive into a one-way road; no entry stands at the other end."
+        }
+      }
+    ],
+    "related": [
+      "information.one-way-street",
+      "prohibitory.no-vehicles"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Kuzeyde fotoğraflandı.",
+        "en": "Photographed in the north."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-vehicles",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-vehicles.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; içi boş.",
+        "en": "White disc with a red ring, empty inside."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "tasit-trafigine-kapali-yol",
+      "en": "no-vehicles"
+    },
+    "name": {
+      "tr": "Taşıt trafiğine kapalı yol",
+      "en": "No vehicles"
+    },
+    "meaning": {
+      "tr": "Yol her iki yönden bütün taşıtlara kapalıdır. Yayalar yolu kullanabilir.",
+      "en": "The road is closed to all vehicles in both directions. Pedestrians may use it."
+    },
+    "driverAction": {
+      "tr": "Taşıtla bu yola girme. Bisikleti ve motosikleti de sürerek değil, iterek geçirebilirsin.",
+      "en": "Do not drive into this road. Cycles and motorcycles may only be pushed, not ridden."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-entry",
+        "tip": {
+          "tr": "Boş beyaz daire her iki yönü kapatır; kırmızı zeminli girilmez levhası yalnız bir yönü.",
+          "en": "The empty white disc closes both directions; the red no-entry disc closes one direction only."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-entry",
+      "prohibitory.no-motor-vehicles"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-overtaking",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-overtaking.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; içinde arkadan görülen iki otomobil: solda siyah, sağda kırmızı.",
+        "en": "White disc with a red ring; inside, two cars seen from behind: black on the left, red on the right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "ondeki-tasiti-gecmek-yasak",
+      "en": "no-overtaking"
+    },
+    "name": {
+      "tr": "Öndeki taşıtı geçmek yasaktır",
+      "en": "No overtaking"
+    },
+    "meaning": {
+      "tr": "Bu levhadan sonra motorlu taşıtları sollayamazsın. KKTC'de sollama sağdan yapılır; kırmızı otomobil bu yüzden sağdadır.",
+      "en": "From this sign you must not overtake motor vehicles. In KKTC overtaking is done on the right, which is why the red car is on the right."
+    },
+    "driverAction": {
+      "tr": "Yasak bitene kadar şeridinde kal ve öndeki taşıtı geçmeye çalışma.",
+      "en": "Stay in your lane and do not try to pass the vehicle in front until the restriction ends."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.end-of-no-overtaking",
+        "tip": {
+          "tr": "Renkli otomobiller yasağın başladığını, gri otomobiller ve çapraz çizgiler yasağın bittiğini gösterir.",
+          "en": "Coloured cars start the ban; grey cars with diagonal lines end it."
+        }
+      },
+      {
+        "with": "prohibitory.no-overtaking-goods-vehicles",
+        "tip": {
+          "tr": "Kırmızı taşıt kamyonsa yasak yalnız kamyonlar içindir.",
+          "en": "If the red vehicle is a lorry, the ban applies to goods vehicles only."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.end-of-no-overtaking",
+      "prohibitory.no-overtaking-goods-vehicles"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-overtaking-goods-vehicles",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-overtaking-goods-vehicles.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; içinde arkadan görülen siyah bir otomobil ve sağında kırmızı bir kamyon.",
+        "en": "White disc with a red ring; inside, a black car seen from behind with a red lorry on its right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "kamyonlar-icin-gecme-yasagi",
+      "en": "no-overtaking-for-goods-vehicles"
+    },
+    "name": {
+      "tr": "Kamyonlar için öndeki taşıtı geçmek yasaktır",
+      "en": "No overtaking for goods vehicles"
+    },
+    "meaning": {
+      "tr": "Kamyonlar bu levhadan sonra başka motorlu taşıtları sollayamaz. Otomobiller için sollama yasağı yoktur.",
+      "en": "Goods vehicles must not overtake other motor vehicles from this sign. Cars are not banned from overtaking."
+    },
+    "driverAction": {
+      "tr": "Kamyon kullanıyorsan yasak bitene kadar sollama yapma. Otomobildeysen, sollamayan kamyonları sabırla izle.",
+      "en": "If you drive a lorry, do not overtake until the restriction ends. In a car, expect lorries to stay behind slower traffic."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-overtaking",
+        "tip": {
+          "tr": "İki otomobil herkes için, otomobil ve kamyon yalnız kamyonlar için yasak demektir.",
+          "en": "Two cars mean the ban is for everyone; a car and a lorry mean it is for goods vehicles only."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-overtaking",
+      "prohibitory.no-goods-vehicles"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.end-of-no-overtaking",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/end-of-no-overtaking.svg",
+      "alt": {
+        "tr": "İnce siyah halkalı beyaz daire; içinde gri iki otomobil ve üzerlerinden geçen siyah çapraz çizgiler.",
+        "en": "White disc with a thin black ring; inside, two grey cars crossed by a band of black diagonal lines."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "gecme-yasagi-sonu",
+      "en": "end-of-no-overtaking"
+    },
+    "name": {
+      "tr": "Geçme yasağı sonu",
+      "en": "End of no overtaking"
+    },
+    "meaning": {
+      "tr": "Daha önce başlayan sollama yasağı burada biter.",
+      "en": "The overtaking ban that started earlier ends here."
+    },
+    "driverAction": {
+      "tr": "Sollama yeniden serbest, ama yalnız yol açık ve görüş yeterliyse sağdan sollayabilirsin.",
+      "en": "Overtaking is allowed again, but only on the right and only when the road is clear and you can see far enough."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-overtaking",
+        "tip": {
+          "tr": "Kırmızı halka yasağı başlatır; gri çizim ve çapraz çizgiler yasağı bitirir.",
+          "en": "The red ring starts the ban; the grey drawing with diagonal lines ends it."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-overtaking",
+      "prohibitory.end-of-restrictions"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-left-turn",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-left-turn.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; içinde sola kıvrılan siyah ok ve soldan sağa inen kırmızı çapraz çizgi.",
+        "en": "White disc with a red ring; inside, a black arrow turning left and a red diagonal bar from top left to bottom right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "sola-donulmez",
+      "en": "no-left-turn"
+    },
+    "name": {
+      "tr": "Sola dönülmez",
+      "en": "No left turn"
+    },
+    "meaning": {
+      "tr": "İleride sola dönmek yasaktır.",
+      "en": "You must not turn left ahead."
+    },
+    "driverAction": {
+      "tr": "Düz devam et ya da başka bir yerden dön.",
+      "en": "Go straight on or find another place to turn."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-right-turn",
+        "tip": {
+          "tr": "Okun kıvrıldığı yön yasak olan yöndür.",
+          "en": "The banned turn is the way the arrow bends."
+        }
+      },
+      {
+        "with": "mandatory.turn-left-ahead",
+        "tip": {
+          "tr": "Kırmızı çizgili ok dönüşü yasaklar; mavi daire içindeki beyaz ok dönüşü zorunlu kılar.",
+          "en": "An arrow with a red bar bans the turn; a white arrow on a blue disc makes it compulsory."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-right-turn",
+      "prohibitory.no-u-turn"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Kuzeyde fotoğraflandı.",
+        "en": "Photographed in the north."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-right-turn",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-right-turn.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; içinde sağa kıvrılan siyah ok ve soldan sağa inen kırmızı çapraz çizgi.",
+        "en": "White disc with a red ring; inside, a black arrow turning right and a red diagonal bar from top left to bottom right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "saga-donulmez",
+      "en": "no-right-turn"
+    },
+    "name": {
+      "tr": "Sağa dönülmez",
+      "en": "No right turn"
+    },
+    "meaning": {
+      "tr": "İleride sağa dönmek yasaktır.",
+      "en": "You must not turn right ahead."
+    },
+    "driverAction": {
+      "tr": "Sağa dönmek için başka bir kavşak kullan.",
+      "en": "Use another junction to turn right."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-left-turn",
+        "tip": {
+          "tr": "Ok sağa kıvrılıyorsa sağa dönüş yasaktır.",
+          "en": "If the arrow bends right, the right turn is banned."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-left-turn",
+      "prohibitory.no-u-turn"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-u-turn",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-u-turn.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; içinde yukarı çıkıp sağa ve aşağı kıvrılan U biçimli siyah ok ve soldan sağa inen kırmızı çapraz çizgi.",
+        "en": "White disc with a red ring; inside, a black U-shaped arrow going up and turning back down to the right and a red diagonal bar from top left to bottom right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "u-donusu-yapilmaz",
+      "en": "no-u-turn"
+    },
+    "name": {
+      "tr": "U dönüşü yapılmaz",
+      "en": "No U-turn"
+    },
+    "meaning": {
+      "tr": "Burada geri dönmek yasaktır. KKTC'de soldan gidildiği için U dönüşü sağa doğru yapılır; ok da bu yüzden sağa döner.",
+      "en": "You must not turn round here. Because traffic keeps left in KKTC, a U-turn is made to the right, which is why the arrow turns right."
+    },
+    "driverAction": {
+      "tr": "Geri dönmek için uygun bir çember ya da izin verilen bir yer bul.",
+      "en": "Find a roundabout or another place where turning round is allowed."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-right-turn",
+        "tip": {
+          "tr": "Yarım kıvrımlı ok sağa dönüşü, U biçimli ok geri dönüşü yasaklar.",
+          "en": "A half-bent arrow bans the right turn; a U-shaped arrow bans turning round."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-right-turn",
+      "prohibitory.no-left-turn"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-parking",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-parking.svg",
+      "alt": {
+        "tr": "Mavi zeminli daire; kırmızı halka ve soldan sağa inen tek kırmızı çapraz çizgi.",
+        "en": "Blue disc with a red ring and a single red diagonal bar from top left to bottom right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "park-etmek-yasak",
+      "en": "no-parking"
+    },
+    "name": {
+      "tr": "Park etmek yasaktır",
+      "en": "No parking"
+    },
+    "meaning": {
+      "tr": "Levhanın bulunduğu taraftaki yol kenarına park edemezsin. Yolcu indirmek ya da yük almak için kısa süre duraklayabilirsin.",
+      "en": "You must not park on this side of the road. You may stop briefly to let passengers out or to load."
+    },
+    "driverAction": {
+      "tr": "Aracını burada bırakma; park yeri bul.",
+      "en": "Do not leave your vehicle here; find a parking place."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-stopping",
+        "tip": {
+          "tr": "Tek çizgi park etmeyi yasaklar. Çarpı (X) duraklamayı da yasaklar.",
+          "en": "One bar bans parking. A cross (X) bans stopping as well."
+        }
+      },
+      {
+        "with": "information.parking",
+        "tip": {
+          "tr": "Mavi kare içindeki P park yerini gösterir; kırmızı çizgili mavi daire park yasağıdır.",
+          "en": "A P on a blue square marks a parking place; a blue disc with a red bar bans parking."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-stopping",
+      "information.parking"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-stopping",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-stopping.svg",
+      "alt": {
+        "tr": "Mavi zeminli daire; kırmızı halka ve kırmızı çarpı (X).",
+        "en": "Blue disc with a red ring and a red cross (X)."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "duraklamak-ve-park-etmek-yasak",
+      "en": "no-stopping"
+    },
+    "name": {
+      "tr": "Duraklamak ve park etmek yasaktır",
+      "en": "No stopping"
+    },
+    "meaning": {
+      "tr": "Levhanın bulunduğu taraftaki yol kenarında durmak da park etmek de yasaktır; yolcu indirmek için bile.",
+      "en": "You must not stop or park on this side of the road, not even to let passengers out."
+    },
+    "driverAction": {
+      "tr": "Bu kesimde trafik zorunlu kılmadıkça durma.",
+      "en": "Do not stop on this stretch unless traffic forces you to."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-parking",
+        "tip": {
+          "tr": "Çarpı (X) her türlü durmayı, tek çizgi yalnız park etmeyi yasaklar.",
+          "en": "A cross (X) bans all stopping; a single bar bans parking only."
+        }
+      },
+      {
+        "with": "warning.junction-priority-right",
+        "tip": {
+          "tr": "Üçgen içindeki siyah X kavşak uyarısıdır, duraklama yasağı değildir.",
+          "en": "A black X in a triangle warns of a junction; it is not a stopping ban."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-parking"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-motor-vehicles",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-motor-vehicles.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; içinde yandan görülen siyah otomobil ve altında ARAÇ GİREMEZ yazısı.",
+        "en": "White disc with a red ring; inside, a black car seen from the side with the words ARAÇ GİREMEZ below it."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "arac-giremez",
+      "en": "no-motor-vehicles"
+    },
+    "name": {
+      "tr": "Araç giremez",
+      "en": "No motor vehicles"
+    },
+    "meaning": {
+      "tr": "Motorlu taşıtlar bu yola giremez.",
+      "en": "Motor vehicles must not enter this road."
+    },
+    "driverAction": {
+      "tr": "Bu yola taşıtla girme; başka bir güzergâh kullan.",
+      "en": "Do not drive into this road; use another route."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-vehicles",
+        "tip": {
+          "tr": "Boş beyaz daire bütün taşıtları yasaklar; otomobil çizimi motorlu taşıtları anlatır.",
+          "en": "The empty white disc bans all vehicles; the car drawing refers to motor vehicles."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-vehicles",
+      "prohibitory.no-motorcycles"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Kuzeyde ARAÇ GİREMEZ yazılı biçimi fotoğraflandı; o örnekte üzerinde kırmızı çapraz çizgi de vardı.",
+        "en": "The version with the words ARAÇ GİREMEZ has been photographed in the north; that example also had a red diagonal bar."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-motorcycles",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-motorcycles.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; içinde yandan görülen siyah motosiklet ve sürücüsü.",
+        "en": "White disc with a red ring; inside, a black motorcycle and rider seen from the side."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "motosiklet-giremez",
+      "en": "no-motorcycles"
+    },
+    "name": {
+      "tr": "Motosiklet giremez",
+      "en": "No motorcycles"
+    },
+    "meaning": {
+      "tr": "Motosikletler bu yola giremez.",
+      "en": "Motorcycles must not enter this road."
+    },
+    "driverAction": {
+      "tr": "Motosikletle bu yola girme.",
+      "en": "Do not ride a motorcycle into this road."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-cycling",
+        "tip": {
+          "tr": "Motorlu iki tekerlekli çizim motosiklet, pedallı çizim bisiklet yasağıdır.",
+          "en": "A powered two-wheeler with a rider bans motorcycles; a pedal cycle bans bicycles."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-motor-vehicles",
+      "prohibitory.no-cycling"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-goods-vehicles",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-goods-vehicles.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; içinde yandan görülen siyah kamyon.",
+        "en": "White disc with a red ring; inside, a black lorry seen from the side."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "kamyon-giremez",
+      "en": "no-goods-vehicles"
+    },
+    "name": {
+      "tr": "Kamyon giremez",
+      "en": "No goods vehicles"
+    },
+    "meaning": {
+      "tr": "Yük taşıyan kamyonlar bu yola giremez. Ek levha bir ağırlık sınırı yazabilir.",
+      "en": "Goods vehicles must not enter this road. A plate below may give a weight limit."
+    },
+    "driverAction": {
+      "tr": "Kamyonla bu yola girme; ek levhada ağırlık yazıyorsa aracının ağırlığını kontrol et.",
+      "en": "Do not drive a lorry into this road; if a plate shows a weight, check your vehicle against it."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.weight-limit",
+        "tip": {
+          "tr": "Kamyon çizimi kamyonları, yalnız rakam ve t harfi belirtilen ağırlığı aşan her taşıtı yasaklar.",
+          "en": "The lorry drawing bans goods vehicles; a number with the letter t bans any vehicle heavier than that."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.weight-limit",
+      "prohibitory.no-overtaking-goods-vehicles"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Kuzeyde kamyon ve otobüs giremez levhaları fotoğraflandı.",
+        "en": "No-lorries and no-buses signs have been photographed in the north."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-pedestrians",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-pedestrians.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; içinde yürüyen siyah insan figürü.",
+        "en": "White disc with a red ring; inside, a black walking figure."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yaya-giremez",
+      "en": "no-pedestrians"
+    },
+    "name": {
+      "tr": "Yaya giremez",
+      "en": "No pedestrians"
+    },
+    "meaning": {
+      "tr": "Yayalar bu yolu kullanamaz.",
+      "en": "Pedestrians must not use this road."
+    },
+    "driverAction": {
+      "tr": "Sürücü olarak bu yolda yaya beklemezsin, ama yine de dikkatli ol. Yaya isen başka bir yol kullan.",
+      "en": "As a driver you will not expect pedestrians here, but stay alert. On foot, use another route."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.pedestrian-route",
+        "tip": {
+          "tr": "Mavi daire içindeki beyaz yaya figürü yalnız yayalara ayrılmış yoldur; kırmızı halka ise yayaları yasaklar.",
+          "en": "A white figure on a blue disc marks a route for pedestrians only; the red ring bans pedestrians."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.pedestrian-route"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-cycling",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-cycling.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; içinde yandan görülen siyah bisiklet.",
+        "en": "White disc with a red ring; inside, a black bicycle seen from the side."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "bisiklet-giremez",
+      "en": "no-cycling"
+    },
+    "name": {
+      "tr": "Bisiklet giremez",
+      "en": "No cycling"
+    },
+    "meaning": {
+      "tr": "Bisikletler bu yola giremez.",
+      "en": "Cycles must not enter this road."
+    },
+    "driverAction": {
+      "tr": "Bisikletle bu yola girme; gerekiyorsa inip iterek geç.",
+      "en": "Do not ride a bicycle here; get off and push if you need to pass."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.cycle-route",
+        "tip": {
+          "tr": "Mavi daire içindeki beyaz bisiklet bisiklet yoludur; kırmızı halka bisikleti yasaklar.",
+          "en": "A white bicycle on a blue disc marks a cycle route; the red ring bans cycles."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.cycle-route",
+      "warning.cyclists"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-horns",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-horns.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; içinde siyah bir korna ve soldan sağa inen kırmızı çapraz çizgi.",
+        "en": "White disc with a red ring; inside, a black horn and a red diagonal bar from top left to bottom right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "korna-calmak-yasak",
+      "en": "no-horns"
+    },
+    "name": {
+      "tr": "Korna çalmak yasaktır",
+      "en": "No horns"
+    },
+    "meaning": {
+      "tr": "Bu kesimde, örneğin hastane ya da okul yakınında, korna çalmak yasaktır.",
+      "en": "You must not sound your horn on this stretch, for example near a hospital or school."
+    },
+    "driverAction": {
+      "tr": "Korna çalma; tehlikeyi yavaşlayarak ve dikkatli sürerek önle.",
+      "en": "Do not use the horn; avoid danger by slowing down and driving carefully."
+    },
+    "confusions": [
+      {
+        "with": "information.hospital",
+        "tip": {
+          "tr": "H harfli mavi levha hastaneyi gösterir; korna yasağı ayrı bir kırmızı halkalı levhadır.",
+          "en": "The blue H sign shows a hospital; the horn ban is a separate red-ringed sign."
+        }
+      }
+    ],
+    "related": [
+      "information.hospital"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.speed-limit--20",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/speed-limit--20.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; ortasında siyah rakamlarla 20.",
+        "en": "White disc with a red ring with the number 20 in black."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "azami-hiz-20",
+      "en": "speed-limit-20"
+    },
+    "name": {
+      "tr": "Azami hız sınırı (20 km/sa)",
+      "en": "Maximum speed 20 km/h"
+    },
+    "meaning": {
+      "tr": "Bu levhadan sonra 20 km/sa hızı aşamazsın.",
+      "en": "From this sign you must not drive faster than 20 km/h."
+    },
+    "driverAction": {
+      "tr": "Hızını 20 km/sa ya da altına indir. Bu sınır genellikle yayaların yoğun olduğu kampüs ve yaşam alanlarında kullanılır.",
+      "en": "Keep to 20 km/h or less. This limit is mostly used on campuses and in areas busy with pedestrians."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.end-of-speed-limit--50",
+        "tip": {
+          "tr": "Kırmızı halka sınırın başladığını, gri rakam ve siyah çapraz çizgiler sınırın bittiğini gösterir.",
+          "en": "A red ring starts a limit; a grey number with black diagonal lines ends it."
+        }
+      },
+      {
+        "with": "prohibitory.weight-limit",
+        "tip": {
+          "tr": "Rakamın yanında t ya da m harfi varsa hız değil, ağırlık ya da ölçü sınırıdır.",
+          "en": "A number followed by t or m is a weight or size limit, not a speed limit."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.end-of-speed-limit--50",
+      "prohibitory.end-of-restrictions"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "ODTÜ Kuzey Kıbrıs Kampüsü'nde ve Girne'de bir yaşam alanı levhası üzerinde fotoğraflandı.",
+        "en": "Photographed at the METU Northern Cyprus Campus and on a home-zone sign in Girne."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.speed-limit--30",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/speed-limit--30.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; ortasında siyah rakamlarla 30.",
+        "en": "White disc with a red ring with the number 30 in black."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "azami-hiz-30",
+      "en": "speed-limit-30"
+    },
+    "name": {
+      "tr": "Azami hız sınırı (30 km/sa)",
+      "en": "Maximum speed 30 km/h"
+    },
+    "meaning": {
+      "tr": "Bu levhadan sonra 30 km/sa hızı aşamazsın.",
+      "en": "From this sign you must not drive faster than 30 km/h."
+    },
+    "driverAction": {
+      "tr": "Hızını 30 km/sa ya da altına indir ve yayalara özellikle dikkat et.",
+      "en": "Keep to 30 km/h or less and take extra care with pedestrians."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.end-of-speed-limit--50",
+        "tip": {
+          "tr": "Kırmızı halka sınırın başladığını, gri rakam ve siyah çapraz çizgiler sınırın bittiğini gösterir.",
+          "en": "A red ring starts a limit; a grey number with black diagonal lines ends it."
+        }
+      },
+      {
+        "with": "prohibitory.weight-limit",
+        "tip": {
+          "tr": "Rakamın yanında t ya da m harfi varsa hız değil, ağırlık ya da ölçü sınırıdır.",
+          "en": "A number followed by t or m is a weight or size limit, not a speed limit."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.end-of-speed-limit--50",
+      "prohibitory.end-of-restrictions"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Kuzeyde fotoğraflandı.",
+        "en": "Photographed in the north."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.speed-limit--50",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/speed-limit--50.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; ortasında siyah rakamlarla 50.",
+        "en": "White disc with a red ring with the number 50 in black."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "azami-hiz-50",
+      "en": "speed-limit-50"
+    },
+    "name": {
+      "tr": "Azami hız sınırı (50 km/sa)",
+      "en": "Maximum speed 50 km/h"
+    },
+    "meaning": {
+      "tr": "Bu levhadan sonra 50 km/sa hızı aşamazsın.",
+      "en": "From this sign you must not drive faster than 50 km/h."
+    },
+    "driverAction": {
+      "tr": "Hızını 50 km/sa ya da altında tut. Yerleşim yerlerinde genel sınır budur.",
+      "en": "Keep to 50 km/h or less. This is the general limit in built-up areas."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.end-of-speed-limit--50",
+        "tip": {
+          "tr": "Kırmızı halka sınırın başladığını, gri rakam ve siyah çapraz çizgiler sınırın bittiğini gösterir.",
+          "en": "A red ring starts a limit; a grey number with black diagonal lines ends it."
+        }
+      },
+      {
+        "with": "prohibitory.weight-limit",
+        "tip": {
+          "tr": "Rakamın yanında t ya da m harfi varsa hız değil, ağırlık ya da ölçü sınırıdır.",
+          "en": "A number followed by t or m is a weight or size limit, not a speed limit."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.end-of-speed-limit--50",
+      "prohibitory.end-of-restrictions",
+      "information.town-start"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Kuzeyde fotoğraflandı. Bakanlık broşürüne göre şehir içi sınır 50 km/sa'tir.",
+        "en": "Photographed in the north. The ministry leaflet gives 50 km/h as the urban limit."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.speed-limit--65",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/speed-limit--65.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; ortasında siyah rakamlarla 65.",
+        "en": "White disc with a red ring with the number 65 in black."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "azami-hiz-65",
+      "en": "speed-limit-65"
+    },
+    "name": {
+      "tr": "Azami hız sınırı (65 km/sa)",
+      "en": "Maximum speed 65 km/h"
+    },
+    "meaning": {
+      "tr": "Bu levhadan sonra 65 km/sa hızı aşamazsın.",
+      "en": "From this sign you must not drive faster than 65 km/h."
+    },
+    "driverAction": {
+      "tr": "Hızını 65 km/sa ya da altında tut.",
+      "en": "Keep to 65 km/h or less."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.end-of-speed-limit--50",
+        "tip": {
+          "tr": "Kırmızı halka sınırın başladığını, gri rakam ve siyah çapraz çizgiler sınırın bittiğini gösterir.",
+          "en": "A red ring starts a limit; a grey number with black diagonal lines ends it."
+        }
+      },
+      {
+        "with": "prohibitory.weight-limit",
+        "tip": {
+          "tr": "Rakamın yanında t ya da m harfi varsa hız değil, ağırlık ya da ölçü sınırıdır.",
+          "en": "A number followed by t or m is a weight or size limit, not a speed limit."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.end-of-speed-limit--50",
+      "prohibitory.end-of-restrictions"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Kalkanlı yakınında fotoğraflandı.",
+        "en": "Photographed near Kalkanlı."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.speed-limit--80",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/speed-limit--80.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; ortasında siyah rakamlarla 80.",
+        "en": "White disc with a red ring with the number 80 in black."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "azami-hiz-80",
+      "en": "speed-limit-80"
+    },
+    "name": {
+      "tr": "Azami hız sınırı (80 km/sa)",
+      "en": "Maximum speed 80 km/h"
+    },
+    "meaning": {
+      "tr": "Bu levhadan sonra 80 km/sa hızı aşamazsın.",
+      "en": "From this sign you must not drive faster than 80 km/h."
+    },
+    "driverAction": {
+      "tr": "Hızını 80 km/sa ya da altında tut; hava ve yol koşulları kötüyse daha da yavaş git.",
+      "en": "Keep to 80 km/h or less, and slower when the weather or road is poor."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.end-of-speed-limit--50",
+        "tip": {
+          "tr": "Kırmızı halka sınırın başladığını, gri rakam ve siyah çapraz çizgiler sınırın bittiğini gösterir.",
+          "en": "A red ring starts a limit; a grey number with black diagonal lines ends it."
+        }
+      },
+      {
+        "with": "prohibitory.weight-limit",
+        "tip": {
+          "tr": "Rakamın yanında t ya da m harfi varsa hız değil, ağırlık ya da ölçü sınırıdır.",
+          "en": "A number followed by t or m is a weight or size limit, not a speed limit."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.end-of-speed-limit--50",
+      "prohibitory.end-of-restrictions"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.speed-limit--100",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/speed-limit--100.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; ortasında siyah rakamlarla 100.",
+        "en": "White disc with a red ring with the number 100 in black."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "azami-hiz-100",
+      "en": "speed-limit-100"
+    },
+    "name": {
+      "tr": "Azami hız sınırı (100 km/sa)",
+      "en": "Maximum speed 100 km/h"
+    },
+    "meaning": {
+      "tr": "Bu levhadan sonra 100 km/sa hızı aşamazsın.",
+      "en": "From this sign you must not drive faster than 100 km/h."
+    },
+    "driverAction": {
+      "tr": "Hızını 100 km/sa ya da altında tut. Bu değer en çok çift şeritli yollarda görülür.",
+      "en": "Keep to 100 km/h or less. This value is mainly found on dual carriageways."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.end-of-speed-limit--50",
+        "tip": {
+          "tr": "Kırmızı halka sınırın başladığını, gri rakam ve siyah çapraz çizgiler sınırın bittiğini gösterir.",
+          "en": "A red ring starts a limit; a grey number with black diagonal lines ends it."
+        }
+      },
+      {
+        "with": "prohibitory.weight-limit",
+        "tip": {
+          "tr": "Rakamın yanında t ya da m harfi varsa hız değil, ağırlık ya da ölçü sınırıdır.",
+          "en": "A number followed by t or m is a weight or size limit, not a speed limit."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.end-of-speed-limit--50",
+      "prohibitory.end-of-restrictions"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "Bakanlık broşürü çift şeritli yollarda sınırı 100 km/sa olarak verir; levhanın fotoğrafı bulunamadı.",
+        "en": "The ministry leaflet gives 100 km/h for dual carriageways; no photo of the sign was found."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.end-of-speed-limit--50",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/end-of-speed-limit--50.svg",
+      "alt": {
+        "tr": "İnce siyah halkalı beyaz daire; gri 50 rakamı ve üzerinden geçen siyah çapraz çizgiler.",
+        "en": "White disc with a thin black ring; a grey number 50 crossed by a band of black diagonal lines."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "azami-hiz-sonu-50",
+      "en": "end-of-speed-limit-50"
+    },
+    "name": {
+      "tr": "Azami hız sınırı sonu (50 km/sa)",
+      "en": "End of 50 km/h speed limit"
+    },
+    "meaning": {
+      "tr": "Levhada gösterilen hız sınırı burada biter. Bundan sonra yolun genel hız sınırı geçerlidir.",
+      "en": "The speed limit shown ends here. The general limit for the road applies from now on."
+    },
+    "driverAction": {
+      "tr": "Yolun genel sınırını aşmadan ve koşullara uygun biçimde hızlanabilirsin.",
+      "en": "You may speed up, within the general limit for the road and to suit the conditions."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.speed-limit--50",
+        "tip": {
+          "tr": "Kırmızı halkalı 50 sınırı başlatır; gri 50 ve çapraz çizgiler sınırı bitirir.",
+          "en": "A red-ringed 50 starts the limit; a grey 50 with diagonal lines ends it."
+        }
+      },
+      {
+        "with": "prohibitory.end-of-restrictions",
+        "tip": {
+          "tr": "Rakam varsa yalnız o hız sınırı biter; çizim yoksa bütün yasaklar biter.",
+          "en": "With a number, only that speed limit ends; with no symbol, all restrictions end."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.speed-limit--50",
+      "prohibitory.end-of-restrictions"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.end-of-restrictions",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/end-of-restrictions.svg",
+      "alt": {
+        "tr": "İnce siyah halkalı beyaz daire; üzerinden sağ üstten sol alta geçen siyah çapraz çizgiler.",
+        "en": "White disc with a thin black ring and a band of black diagonal lines from top right to bottom left."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "butun-yasaklarin-sonu",
+      "en": "end-of-all-restrictions"
+    },
+    "name": {
+      "tr": "Bütün yasaklama ve kısıtlamaların sonu",
+      "en": "End of all restrictions"
+    },
+    "meaning": {
+      "tr": "Daha önce levhalarla konulan hız ve sollama gibi yasaklar burada biter.",
+      "en": "Restrictions set earlier by signs, such as speed limits and overtaking bans, end here."
+    },
+    "driverAction": {
+      "tr": "Genel kurallara ve yolun genel hız sınırına göre sür.",
+      "en": "Drive according to the general rules and the general speed limit for the road."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-entry",
+        "tip": {
+          "tr": "Beyaz zemin ve siyah çizgiler yasakları bitirir; kırmızı zemin ve beyaz çubuk girişi yasaklar.",
+          "en": "A white disc with black lines ends restrictions; a red disc with a white bar bans entry."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.end-of-speed-limit--50",
+      "prohibitory.end-of-no-overtaking"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.height-limit",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/height-limit.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; üstte ve altta birbirine bakan siyah üçgen uçlar, ortada metre cinsinden yükseklik.",
+        "en": "White disc with a red ring; black pointers above and below facing each other, with a height in metres in the middle."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "azami-yukseklik",
+      "en": "maximum-height"
+    },
+    "name": {
+      "tr": "Azami yükseklik",
+      "en": "Maximum height"
+    },
+    "meaning": {
+      "tr": "Yüklü hâliyle levhadaki yükseklikten yüksek taşıtlar geçemez; ileride alçak köprü ya da tünel olabilir.",
+      "en": "Vehicles taller than the height shown, including their load, must not pass; there may be a low bridge or tunnel ahead."
+    },
+    "driverAction": {
+      "tr": "Aracının yüksekliği levhadaki değeri aşıyorsa başka bir yol kullan.",
+      "en": "If your vehicle is taller than the figure shown, take another route."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.width-limit",
+        "tip": {
+          "tr": "Uçlar yukarıda ve aşağıdaysa yükseklik, sağda ve soldaysa genişlik sınırıdır.",
+          "en": "Pointers above and below mean height; pointers left and right mean width."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.width-limit",
+      "prohibitory.weight-limit"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.width-limit",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/width-limit.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; solda ve sağda birbirine bakan siyah üçgen uçlar, ortada metre cinsinden genişlik.",
+        "en": "White disc with a red ring; black pointers on the left and right facing each other, with a width in metres in the middle."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "azami-genislik",
+      "en": "maximum-width"
+    },
+    "name": {
+      "tr": "Azami genişlik",
+      "en": "Maximum width"
+    },
+    "meaning": {
+      "tr": "Levhadaki genişlikten geniş taşıtlar geçemez.",
+      "en": "Vehicles wider than the width shown must not pass."
+    },
+    "driverAction": {
+      "tr": "Aracının genişliği levhadaki değeri aşıyorsa bu yola girme.",
+      "en": "If your vehicle is wider than the figure shown, do not enter."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.height-limit",
+        "tip": {
+          "tr": "Sağ ve soldaki uçlar genişliği, üst ve alttaki uçlar yüksekliği sınırlar.",
+          "en": "Pointers left and right limit width; pointers above and below limit height."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.height-limit"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.weight-limit",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/weight-limit.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; ortasında ton cinsinden ağırlık değeri (t).",
+        "en": "White disc with a red ring with a weight in tonnes (t) in the middle."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "azami-agirlik",
+      "en": "maximum-weight"
+    },
+    "name": {
+      "tr": "Azami ağırlık",
+      "en": "Maximum weight"
+    },
+    "meaning": {
+      "tr": "Yüklü ağırlığı levhadaki değeri aşan taşıtlar geçemez; ileride zayıf bir köprü olabilir.",
+      "en": "Vehicles weighing more than the figure shown, including the load, must not pass; there may be a weak bridge ahead."
+    },
+    "driverAction": {
+      "tr": "Aracının yüklü ağırlığını bil ve sınırı aşıyorsa başka bir yol kullan.",
+      "en": "Know your vehicle's laden weight and take another route if it is over the limit."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.speed-limit--80",
+        "tip": {
+          "tr": "Yalnız rakam hız sınırıdır; rakamın yanında t harfi varsa ağırlık sınırıdır.",
+          "en": "A number alone is a speed limit; a number followed by t is a weight limit."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-goods-vehicles",
+      "prohibitory.height-limit"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  }
+]

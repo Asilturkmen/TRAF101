@@ -1,0 +1,136 @@
+{
+  "id": "occupants",
+  "title": {
+    "tr": "Emniyet kemeri, çocuklar ve kask",
+    "en": "Seat belts, children and helmets"
+  },
+  "summary": {
+    "tr": "Araçtaki herkes kemer takar, küçük çocuklar arkada ve uygun koltukta oturur, motosiklette sürücü de yolcu da kask takar.",
+    "en": "Everyone in the car wears a belt, small children sit in the back in the right seat, and on a motorcycle rider and passenger both wear helmets."
+  },
+  "sections": [
+    {
+      "heading": {
+        "tr": "Herkes kemer takar",
+        "en": "Everyone wears a belt"
+      },
+      "body": {
+        "tr": "KKTC'de emniyet kemeri ön ve arka koltukta, araçtaki **herkes** için zorunludur. Kısa bir yolculuk ya da şehir içi sürüş istisna değildir.\n\nSürücü olarak yolcularının kemer taktığından emin ol. Arkada kemersiz oturan bir yolcu, bir çarpışmada öndekilere de çarpar.",
+        "en": "In KKTC seat belts are compulsory for **everyone** in the vehicle, front and back. A short trip or town driving is no exception.\n\nAs the driver, make sure your passengers are belted. An unbelted rear passenger is thrown into the people in front in a crash."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Kemeri doğru tak",
+        "en": "Wearing the belt properly"
+      },
+      "body": {
+        "tr": "- Kucak kemeri kalçanın üstünden, karnının altından geçsin.\n- Omuz kemeri göğsünün ortasından ve omzunun üstünden geçsin; koltuk altından ya da boynundan değil.\n- Kemer gevşek ya da bükülmüş olmasın.\n- Koltuk başlığının üst kenarı başının üstüyle aynı hizada olsun.\n- Hamileysen kucak kemerini karnının altından geçir.",
+        "en": "- The lap belt goes over your hips, below your stomach.\n- The shoulder belt crosses the middle of your chest and your shoulder; never under your arm or against your neck.\n- The belt should not be slack or twisted.\n- The top of the head restraint should be level with the top of your head.\n- If you are pregnant, run the lap belt below the bump."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Çocuklar",
+        "en": "Children"
+      },
+      "body": {
+        "tr": "Bakanlığın trafik broşürüne göre:\n\n- Boyu **150 cm'den kısa** çocuklar ön koltukta oturamaz.\n- Boyu **135 cm'den kısa** çocuklar arka koltukta, çocuk koltuğunda oturur.\n- Boyu 135 ile 150 cm arasındaki çocuklar arka koltukta emniyet kemeriyle oturur.\n\nKural yaşa değil boya bakar. Çocuk koltuğunu üreticinin talimatına göre sabitle.",
+        "en": "According to the ministry's traffic leaflet:\n\n- Children **under 150 cm** tall may not sit in the front seat.\n- Children **under 135 cm** sit in the back in a child seat.\n- Children between 135 and 150 cm sit in the back with a seat belt.\n\nThe rule goes by height, not age. Fit the child seat as the manufacturer instructs."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Motosiklette kask",
+        "en": "Helmets on two wheels"
+      },
+      "body": {
+        "tr": "Motosiklet, moped, motorlu üç tekerlekli ve ATV kullanan **sürücü ve yolcu** kask takmak zorundadır. Motorun hacmi ya da gücü fark etmez.\n\nKask başına tam oturmalı ve çene kayışı bağlı olmalıdır. Kayışı bağlanmamış kask bir düşüşte başından çıkar.",
+        "en": "**Riders and passengers** of motorcycles, mopeds, motor tricycles and ATVs must wear a helmet, whatever the engine size or power.\n\nThe helmet must fit snugly and the chin strap must be fastened. An unfastened helmet comes off in a fall."
+      },
+      "basis": "law",
+      "sourceId": "s9",
+      "sourceRef": "md. 58(3)"
+    },
+    {
+      "heading": {
+        "tr": "Mopedde çocuk yolcu",
+        "en": "Children on mopeds"
+      },
+      "body": {
+        "tr": "Mopedde çocuk ancak şu koşulların hepsi varsa taşınabilir:\n\n- çocuk 7 ile 12 yaş arasındadır,\n- uygun bir koltukta oturur,\n- ayakları ayak dayama yerlerine yetişir,\n- kask takar.",
+        "en": "A child may ride on a moped only if all of these apply:\n\n- the child is between 7 and 12 years old,\n- they sit on a proper seat,\n- their feet reach the footrests,\n- they wear a helmet."
+      },
+      "basis": "law",
+      "sourceId": "s10",
+      "sourceRef": "md. 58(2)"
+    }
+  ],
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Emniyet kemeri ön ve arka koltukta herkes için zorunludur.",
+        "en": "Seat belts are compulsory for everyone, front and back."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Boyu 150 cm'den kısa çocuk ön koltukta oturamaz.",
+        "en": "A child under 150 cm may not sit in the front seat."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Boyu 135 cm'den kısa çocuk arkada, çocuk koltuğunda oturur.",
+        "en": "A child under 135 cm sits in the back in a child seat."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Polise göre 3 yaşından küçük çocuk, çocuk koltuğu olmadan taşınamaz.",
+        "en": "According to the police, a child under 3 may not be carried without a child seat."
+      },
+      "basis": "secondary",
+      "sourceId": "s37",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Motosiklet ve mopedde sürücü de yolcu da kask takar.",
+        "en": "On motorcycles and mopeds, rider and passenger both wear helmets."
+      },
+      "basis": "law",
+      "sourceId": "s9",
+      "sourceRef": "md. 58(3)"
+    },
+    {
+      "text": {
+        "tr": "Kemer ya da çocuk koltuğu kuralına uymamak 10 ceza puanıdır.",
+        "en": "Breaking the seat-belt or child-seat rule costs 10 penalty points."
+      },
+      "basis": "secondary",
+      "sourceId": "s28",
+      "sourceRef": null
+    }
+  ],
+  "relatedSigns": [],
+  "reviewedAt": "2026-10-20"
+}

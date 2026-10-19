@@ -1,10 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <!-- Triangle - Red Border -->
-  <path d="M50 10 L90 85 L10 85 Z" fill="#FFFFFF"/>
-  <path d="M50 10 L90 85 L10 85 Z" fill="none" stroke="#DC2626" stroke-width="6"/>
-  <!-- Inner white triangle -->
-  <path d="M50 18 L82 80 L18 80 Z" fill="#FFFFFF"/>
-  <!-- Pedestrian symbol -->
-  <circle cx="50" cy="40" r="6" fill="#000000"/>
-  <path d="M50 48 L50 60 M45 52 L55 52 M50 60 L45 72 M50 60 L55 72" stroke="#000000" stroke-width="3" fill="none" stroke-linecap="round"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><path fill="#FFFFFF" stroke="#B4BAC1" stroke-width="1.2" d="M87.9 23.7A14 14 0 0 1 112.1 23.7L192.5 162.9A14 14 0 0 1 180.4 183.9L19.6 183.9A14 14 0 0 1 7.5 162.9Z"/><path fill-rule="evenodd" fill="#C1121F" d="M91.3 24.5A10 10 0 0 1 108.7 24.5L190.1 165.5A10 10 0 0 1 181.4 180.5L18.6 180.5A10 10 0 0 1 9.9 165.5ZM97.4 46A3 3 0 0 1 102.6 46L168.4 160A3 3 0 0 1 165.8 164.5L34.2 164.5A3 3 0 0 1 31.6 160Z"/><path fill="none" stroke="#1A1A1A" stroke-width="8.1" stroke-linecap="round" stroke-linejoin="round" d="M114 139.9L107 126.6L97.9 111.9M84.6 139.2L91.6 126.6L97.9 111.9M111.9 110.5L108.4 102.8L100.7 93M87.4 109.1L91.6 101.4L100.7 93"/><path fill="none" stroke="#1A1A1A" stroke-width="11.9" stroke-linecap="round" stroke-linejoin="round" d="M101.1 92.3L97.9 111.2"/><circle cx="104.2" cy="80.1" r="7.4" fill="#1A1A1A"/><path fill="#1A1A1A" d="M58 150H74V158H58ZM80 150H96V158H80ZM104 150H120V158H104ZM126 150H142V158H126Z"/></svg>

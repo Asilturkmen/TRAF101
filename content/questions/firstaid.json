@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "firstaid.first-checks",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yerde yatan bir yaralıya ulaştın ve ortam güvenli. İlk olarak neye bakarsın?",
+      "en": "You reach a casualty lying on the ground and the scene is safe. What do you check first?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kollarında ya da bacaklarında kırık olup olmadığına",
+          "en": "Whether they have a broken arm or leg"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Tepki verip vermediğine ve ağır kanama olup olmadığına",
+          "en": "Whether they respond and whether there is severe bleeding"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Üzerinde kimlik ya da ehliyet olup olmadığına",
+          "en": "Whether they are carrying ID or a driving licence"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Aracındaki hasarın ne kadar büyük olduğuna",
+          "en": "How badly their vehicle is damaged"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Güncel rehber, güvenlikten sonra hemen kişinin tepkisine ve hayatı tehdit eden kanamaya bakılmasını, ardından soluk yolu ve nefesin değerlendirilmesini önerir.",
+      "en": "Current guidance says that after safety you check at once whether the person responds and whether there is life-threatening bleeding, then assess the airway and breathing."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-erc-2025-first-aid",
+    "sourceRef": "Structured first aid assessment (ABCDE), Table 3",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.on-the-phone-to-112",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Kazada yaralı var ve ambulans için 112'yi aradın. Görüşmede ne yaparsın?",
+      "en": "Someone is injured in a crash and you have called 112 for an ambulance. What do you do on the call?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız kaza var deyip hemen kapatırsın",
+          "en": "Just say there has been a crash and hang up"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Önce araçların plakalarını ve sigorta bilgilerini okursun",
+          "en": "Start by reading out the number plates and insurance details"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yeri tarif eder, görevlinin talimatlarına uyarsın",
+          "en": "Describe where you are and follow the call handler's instructions"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yaralıyı hastaneye kendin götüreceğini söyleyip kapatırsın",
+          "en": "Say you will drive the casualty to hospital yourself and hang up"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Görevli yeri bilmeden yardım gönderemez. Telefonu kapatma; görevli ne yapman gerektiğini adım adım söyler. Kazada ayrıca 155 polisi de haber ver.",
+      "en": "The call handler cannot send help without knowing where you are. Stay on the line; they will tell you step by step what to do. At a crash, tell the police on 155 too."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-erc-2025-first-aid",
+    "sourceRef": "Expectations of a first aid provider; Cardiac arrest",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.recovery-position-medical",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Park halindeki bir araçta bir sürücü fenalaştı. Yaralanması yok, tepkileri azalmış ama normal nefes alıyor. Ne yaparsın?",
+      "en": "A driver in a parked car has been taken ill. They are not injured and barely respond, but they are breathing normally. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Ayağa kaldırıp biraz yürütmeye çalışırsın",
+          "en": "Help them up and try to walk them around"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kendine gelsin diye ağzından su içirirsin",
+          "en": "Give them water to drink to bring them round"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yan yatırır, yardım çağırıp nefesini izlersin",
+          "en": "Put them on their side, call for help and keep checking their breathing"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sırtüstü bırakıp yardım bulmak için yanından ayrılırsın",
+          "en": "Leave them on their back and go off to find help"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Yaralanmamış, tepkileri azalmış ve normal nefes alan birinin soluk yolu yan yatış pozisyonunda daha açık kalır. Nefesi bozulursa sırtüstü çevir ve yeniden değerlendir.",
+      "en": "A person who is not injured, barely responsive and breathing normally keeps a clearer airway on their side. If their breathing changes, turn them onto their back and reassess."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-erc-2025-first-aid",
+    "sourceRef": "Recovery position",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.crash-casualty-position",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Kazada yaralanan biri sırtüstü yatıyor, tepki vermiyor ama normal nefes alıyor. Bulunduğu yer güvenli. Ne yaparsın?",
+      "en": "A crash casualty lies on their back, unresponsive but breathing normally. The spot is safe. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hemen yan yatış pozisyonuna çevirirsin",
+          "en": "Roll them into the recovery position at once"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Daha rahat nefes alsın diye oturtup sırtını aracın kapısına yaslarsın",
+          "en": "Sit them up against the car door so they can breathe more easily"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Çevirmeden başını ve boynunu sabit tutar, nefesini izlersin",
+          "en": "Leave them on their back, hold the head and neck still and watch their breathing"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Başının altına yastık gibi bir şey koyarsın",
+          "en": "Put something like a pillow under their head"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Güncel ilk yardım rehberi, yaralanmış kişiyi yan yatış yerine sırtüstü tutmayı önerir, çünkü boyun ya da omurga zarar görmüş olabilir. Nefes bozulursa yeniden canlandırmaya başla.",
+      "en": "Current first-aid guidance keeps an injured person on their back rather than in the recovery position, because the neck or spine may be hurt. If breathing changes, start CPR."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-erc-2025-first-aid",
+    "sourceRef": "Recovery position; Cervical spinal motion restriction",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.awake-neck-pain",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kazadan sonra araçtaki sürücü uyanık, boynunun ağrıdığını söylüyor ve çevrede tehlike yok. Ne yaparsın?",
+      "en": "After a crash the driver is awake, says their neck hurts, and there is no danger around. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Araçtan inip biraz yürümesini istersin",
+          "en": "Ask them to get out and walk a little"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Boynunu hafifçe çevirip ağrıyı kontrol edersin",
+          "en": "Gently turn their neck to test the pain"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Uzanabilmesi için onu arka koltuğa taşırsın",
+          "en": "Move them to the back seat so they can lie down"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kımıldamamasını söyler, ambulansı beklersin",
+          "en": "Tell them to keep still and wait for the ambulance"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Boyun ağrısı omurga yaralanmasının işareti olabilir. Kişi uyanıksa başını rahat ve sabit tutmasını iste; tehlike yoksa onu yerinden oynatma.",
+      "en": "Neck pain can mean a spinal injury. If the person is alert, ask them to keep their head still in a comfortable position, and do not move them unless they are in danger."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-erc-2025-first-aid",
+    "sourceRef": "Cervical spinal motion restriction",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.stay-and-monitor",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Ambulansı aradın ve yaralı bilinçli. Ekip gelene kadar ne yaparsın?",
+      "en": "You have called the ambulance and the casualty is conscious. What do you do until the crew arrives?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Ambulansı karşılamak için onu yalnız bırakıp yola çıkarsın",
+          "en": "Leave them alone and go out to the road to meet the ambulance"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kendine gelsin diye ona sigara ya da alkol verirsin",
+          "en": "Give them a cigarette or a drink to steady them"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yanında kalır, nefesini ve tepkisini izleyip üşümesini önlersin",
+          "en": "Stay with them, watch their breathing and responses and keep them warm"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Ağrısı geçsin diye ayağa kalkıp biraz yürümesini istersin",
+          "en": "Ask them to stand up and walk a little to ease the pain"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Yaralının durumu aniden kötüleşebilir. Güncel rehber kişiyi sürekli izlemeyi ve üşümesini önlemeyi önerir; durum değişirse görevliyi yeniden ara.",
+      "en": "A casualty can get worse suddenly. Current guidance is to keep watching them and stop them getting cold; if anything changes, call back."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-erc-2025-first-aid",
+    "sourceRef": "Table 3; Recovery position",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.no-improvised-collar",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "İlk yardım eğitimi almamış biri olarak, boynu yaralanmış olabilecek bir kişiye ne yaparsın?",
+      "en": "As someone without first-aid training, what do you do for a person who may have a neck injury?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Karton ya da gazeteden boyunluk yapıp takarsın",
+          "en": "Make a neck collar from cardboard or newspaper and fit it"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Başını öne eğip çenesini göğsüne yaslarsın",
+          "en": "Bend their head forward onto their chest"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Başını iki yandan ellerinle tutup sabitlersin",
+          "en": "Hold their head still with your hands on either side"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Boynuna sıkıca bir havlu sararsın",
+          "en": "Wrap a towel tightly round their neck"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Güncel rehber, ilk yardımcıların boyunluk kullanmamasını önerir, çünkü nefes almayı ve yutkunmayı zorlaştırabilir. Başı ellerle sabit tutmak yeterlidir; kulakları kapatma ki kişi seni duyabilsin.",
+      "en": "Current guidance advises first aiders not to use neck collars, as they can hinder breathing and swallowing. Holding the head still with your hands is enough; keep their ears uncovered so they can hear you."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-erc-2025-first-aid",
+    "sourceRef": "Cervical spinal motion restriction",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.cpr-until-help",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kalbi durmuş birine göğüs basısı yapıyorsun. Ne zamana kadar devam edersin?",
+      "en": "You are giving chest compressions to someone in cardiac arrest. How long do you keep going?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kısa bir süre deneyip sonuç alamazsan bırakana kadar",
+          "en": "Until you have tried briefly and seen no result"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kişinin kaburgasında bir çıtırtı duyana kadar",
+          "en": "Until you feel a rib crack"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Telefondaki görevli seninle konuşmayı bitirene kadar",
+          "en": "Until the call handler finishes talking to you"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sağlık ekibi gelip işi devralana ya da durmanı söyleyene kadar",
+          "en": "Until health professionals arrive and take over or tell you to stop"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "ERC, göğüs basısına sağlık ekibi gelip devralana ya da durmanı söyleyene kadar devam etmeyi söyler. Yorulursan ve yanında biri varsa sırayla basın.",
+      "en": "The ERC says to keep going until professional help arrives and takes over or tells you to stop. If you tire and someone else is there, take turns."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-erc-2025-first-aid",
+    "sourceRef": "Cardiac arrest",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.helmet-remove-cpr",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Kapalı kasklı bir motosikletli nefes almıyor ve yeniden canlandırma gerekiyor. Kask nasıl çıkarılır?",
+      "en": "A motorcyclist in a full-face helmet is not breathing and needs CPR. How is the helmet removed?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "En az iki kişiyle, biri baş ve boynu sabit tutarken",
+          "en": "By at least two people, one keeping the head and neck still"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Tek kişi tarafından, çene kısmından tutulup hızla çekilerek",
+          "en": "By one person, pulling it off quickly by the chin guard"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hiç çıkarılmaz, canlandırma kask takılıyken yapılır",
+          "en": "It never comes off; CPR is done with it on"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Baş öne eğilip kask arkadan itilerek",
+          "en": "By tilting the head forward and pushing the helmet from behind"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Nefes yoksa soluk yolunu açmak için kaskın çıkması gerekir. Biri baş ve boynu hizada tutarken diğeri kaskı yavaşça çıkarır.",
+      "en": "If they are not breathing, the helmet has to come off to open the airway. One person keeps the head and neck in line while the other eases it off slowly."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-nsw-motorcycle-first-aid",
+    "sourceRef": "Removing a helmet",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.bleeding-pressure",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Yaralının bacağındaki yaradan çok kan geliyor. İlk ne yaparsın?",
+      "en": "Blood is pouring from a wound on a casualty's leg. What do you do first?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yaranın üstüne sıkıca bastırırsın",
+          "en": "Press firmly on the wound"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Bacağı yukarı kaldırıp yalnız beklersin",
+          "en": "Raise the leg and just wait"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yarayı suyla yıkayıp açık bırakırsın",
+          "en": "Rinse the wound with water and leave it open"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kanamanın kendiliğinden durmasını beklersin",
+          "en": "Wait for the bleeding to stop by itself"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Doğrudan ve sıkı bastırmak kanamayı durdurmanın ilk yoludur. Elinde varsa temiz bir gazlı bez ya da bez koyup üstüne bastır.",
+      "en": "Firm direct pressure is the first way to stop bleeding. If you have a clean dressing or cloth, put it on the wound and press on top."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-erc-2025-first-aid",
+    "sourceRef": "Control of life-threatening bleeding",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.tourniquet",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Bacaktaki ağır kanama sıkı basıya rağmen durmuyor ve ilk yardım çantanda turnike var. Ne yaparsın?",
+      "en": "Severe bleeding from a leg will not stop with firm pressure, and your first-aid kit has a tourniquet. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Turnikeyi yaranın altına, ayak bileğine takarsın",
+          "en": "Fit it below the wound, at the ankle"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kan dolaşsın diye turnikeyi ara ara gevşetirsin",
+          "en": "Loosen it every so often to let the blood flow"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Turnikeyi doğrudan dizin üstüne, eklemin üzerine bağlarsın",
+          "en": "Tie it directly over the knee joint"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Turnikeyi yaranın üstüne takar, saatini not edersin",
+          "en": "Fit it above the wound and write down the time"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Turnike yaranın üstüne, eklem üzerine gelmeyecek biçimde takılır ve kanama durana kadar sıkılır. Takma saatini yaz; turnikeyi yalnız sağlık personeli gevşetir.",
+      "en": "A tourniquet goes above the wound, not over a joint, and is tightened until the bleeding stops. Write down the time; only health professionals should release it."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-erc-2025-first-aid",
+    "sourceRef": "Control of life-threatening bleeding; Tourniquets",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.shock",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kazada yaralanan birinin cildi solgun, soğuk ve nemli, kafası karışık görünüyor. Ne yaparsın?",
+      "en": "A crash casualty is pale, cold and clammy and seems confused. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Ayağa kaldırıp biraz yürütürsün",
+          "en": "Help them up and walk them around"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ağzından bol su içirirsin",
+          "en": "Give them plenty of water to drink"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız bırakıp araçla yardım aramaya gidersin",
+          "en": "Leave them alone and drive off to find help"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sırtüstü yatırır, üstünü örtüp sürekli izlersin",
+          "en": "Keep them on their back, cover them and keep watching them"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Bunlar şok belirtisi olabilir. Güncel rehber kişiyi sırtüstü tutmayı, üşümesini önlemeyi ve durumunu yakından izlemeyi önerir.",
+      "en": "These can be signs of shock. Current guidance is to keep the person on their back, stop them getting cold and watch them closely."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-erc-2025-first-aid",
+    "sourceRef": "Table 3, C-Circulation and E-Exposure",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.burn-cool",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir sürücünün eli kazadan sonra sıcak bir parçaya değip yandı. İlk ne yaparsın?",
+      "en": "After a crash, a driver has burned their hand on a hot part. What do you do first?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yanığın üstüne buz koyup bekletirsin",
+          "en": "Put ice on the burn and leave it there"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yanığa tereyağı ya da yağlı bir krem sürersin",
+          "en": "Spread butter or a greasy cream on it"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Su toplayan yerleri iğneyle patlatırsın",
+          "en": "Burst any blisters with a needle"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yanığı 20 dakika serin akan suyun altında tutarsın",
+          "en": "Hold the burn under cool running water for 20 minutes"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Serin akan su yanığın derinleşmesini önler ve acıyı azaltır. NHS, soğutmaya en kısa sürede ve yanıktan sonraki 3 saat içinde başlamayı önerir.",
+      "en": "Cool running water stops the burn getting deeper and eases the pain. The NHS advises starting as soon as possible, within 3 hours of the burn."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-nhs-burns",
+    "sourceRef": "Treating burns and scalds",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.burn-cover",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yanığı soğuttuktan sonra nasıl örtersin?",
+      "en": "After cooling a burn, how do you cover it?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Üstüne yapışkan bir yara bandı yapıştırırsın",
+          "en": "Stick an adhesive plaster over it"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sarmadan üstüne streç film koyarsın",
+          "en": "Lay cling film over it without wrapping it round"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Üstüne pamuk koyup sıkıca sararsın",
+          "en": "Put cotton wool on it and bandage it tightly"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Üstünü kalın bir kat yağlı kremle kaplarsın",
+          "en": "Coat it with a thick layer of greasy cream"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Streç film yanığa yapışmaz ve onu temiz tutar. NHS yanığa krem, yağ ya da yapışkan bant sürülmemesini, su toplayan yerlerin patlatılmamasını söyler.",
+      "en": "Cling film does not stick and keeps the burn clean. The NHS says not to use creams, oils or sticky plasters, and not to burst blisters."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-nhs-burns",
+    "sourceRef": "Treating burns and scalds",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.recognise-cardiac-arrest",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yerde yatan biri seslenince tepki vermiyor ve ara ara yavaş, hırıltılı soluk alıyor. Bu ne anlama gelir?",
+      "en": "Someone on the ground does not respond when you call and takes slow, occasional gasping breaths. What does this mean?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kalbi durmuş olabilir, yardım çağırıp göğüs basısına başlarsın",
+          "en": "Their heart may have stopped; call for help and start chest compressions"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Normal nefes alıyordur, yan yatırıp beklersin",
+          "en": "They are breathing normally; put them on their side and wait"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Derin uykudadır, uyanmasını beklersin",
+          "en": "They are deeply asleep; wait for them to wake"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız bayılmıştır, yüzüne su serpip omuzlarından sarsarak ayıltırsın",
+          "en": "They have only fainted; splash water on their face and shake them to bring them round"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Tepki vermeyen ve normal nefes almayan kişide kalp durması düşünülür. Seyrek, hırıltılı soluk normal nefes değildir; beklemek zaman kaybettirir.",
+      "en": "If someone is unresponsive and not breathing normally, assume cardiac arrest. Slow, gasping breaths are not normal breathing, and waiting wastes time."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-rcuk-2025-adult-bls",
+    "sourceRef": "Recognition of cardiac arrest",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.compressions",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Yetişkinde göğüs basısı hangi hızda ve derinlikte yapılır?",
+      "en": "At what rate and depth do you give chest compressions to an adult?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Dakikada 60–80 bası, 2–3 cm derinlik",
+          "en": "60–80 a minute, 2–3 cm deep"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Dakikada 100–120 bası, 5–6 cm derinlik",
+          "en": "100–120 a minute, 5–6 cm deep"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Dakikada 140–160 bası, 8–10 cm derinlik",
+          "en": "140–160 a minute, 8–10 cm deep"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Dakikada 80–90 bası, 3–4 cm derinlik",
+          "en": "80–90 a minute, 3–4 cm deep"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Güncel kılavuza göre göğüs kemiğinin alt yarısına dakikada 100–120 kez, 5–6 cm derinlikte ve olabildiğince ara vermeden basılır.",
+      "en": "Current guidelines say to press on the lower half of the breastbone 100–120 times a minute, 5–6 cm deep, with as few pauses as possible."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-rcuk-2025-adult-bls",
+    "sourceRef": "Chest compressions",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.compression-only",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kalbi durmuş birine yardım ediyorsun ama suni solunum eğitimin yok. Ne yaparsın?",
+      "en": "You are helping someone in cardiac arrest but you are not trained in rescue breaths. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Ambulans gelene kadar hiçbir şey yapmazsın",
+          "en": "Do nothing until the ambulance arrives"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ara vermeden yalnız göğüs basısı yaparsın",
+          "en": "Give continuous chest compressions only"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız ağızdan nefes vermeye çalışırsın",
+          "en": "Try to give rescue breaths only"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kişiyi yan yatırıp nefesini dinlersin",
+          "en": "Put them on their side and listen for breathing"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Suni solunum eğitimi olmayanlar için kılavuz, ara vermeden göğüs basısı yapmayı önerir. Hiçbir şey yapmamak en kötü seçenektir.",
+      "en": "If you are not trained in rescue breaths, guidelines say to give continuous chest compressions. Doing nothing is the worst option."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-rcuk-2025-adult-bls",
+    "sourceRef": "Chest compressions and rescue breaths",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.aed",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Kalbi durmuş birine yardım ediyorsun ve yakında bir otomatik eksternal defibrilatör (OED) var. Ne yaparsın?",
+      "en": "You are helping someone in cardiac arrest and there is an automated external defibrillator (AED) nearby. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hemen getirtir, cihazın sesli talimatlarına uyarsın",
+          "en": "Have it brought at once and follow its spoken instructions"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız bir sağlık çalışanı kullanabileceği için onun gelmesini beklersin",
+          "en": "Wait for a health worker, since only they may use it"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Ambulans ekibine vermek üzere hazır tutarsın",
+          "en": "Keep it ready to hand to the ambulance crew"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yanlışlıkla şok verebileceği için kullanmazsın",
+          "en": "Do not use it, as it might give a shock by mistake"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "OED'yi herkes kullanabilir; cihaz ne yapacağını sesli olarak söyler. Kılavuz, cihaz ulaşır ulaşmaz kullanılmasını önerir.",
+      "en": "Anyone can use an AED; it tells you what to do. Guidelines say to use it as soon as it is available."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-rcuk-2025-adult-bls",
+    "sourceRef": "Automated external defibrillators",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.cpr-fear-harm",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kalbi durmuş birine göğüs basısı yapmaktan, kaburgasını kırarım diye çekiniyorsun. Doğru olan hangisi?",
+      "en": "You hesitate to give chest compressions to someone in cardiac arrest in case you break a rib. What is right?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kaburga kırılabileceği için başlamazsın",
+          "en": "Do not start, as a rib might break"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yine de başlarsın, hayatını kurtarmak daha önemlidir",
+          "en": "Start anyway; saving their life matters more"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Göğüs neredeyse hiç çökmeyecek kadar hafif bastırırsın",
+          "en": "Press so gently that the chest hardly moves"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız kişi yaşlı değilse başlarsın",
+          "en": "Start only if the person is not elderly"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "ERC, kişiyi incitmekten korkmadan göğüs basısına başlamayı söyler. Basıya başlamamak, olası bir kaburga kırığından çok daha büyük bir risktir.",
+      "en": "The ERC says to start compressions without worrying about hurting the person. Not starting is a far bigger risk than a possible broken rib."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-erc-2025-first-aid",
+    "sourceRef": "Cardiac arrest",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "firstaid.vehicle-kit",
+    "rev": 1,
+    "topic": "firstaid",
+    "lesson": "first-aid",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Araçtaki ilk yardım çantası için hangisi doğru bir alışkanlıktır?",
+      "en": "Which is a good habit for the first-aid kit in your car?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Düzenli kontrol edip eksilen ve eskiyen malzemeyi yenilemek",
+          "en": "Check it regularly and replace used or out-of-date items"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Bir kez alıp hiç açmadan saklamak",
+          "en": "Buy one once and never open it"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Araçta yer kaplamasın diye evde tutmak",
+          "en": "Keep it at home so it does not take up space in the car"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Bagajın en dibine, bütün valiz ve eşyaların altına sıkıştırıp koymak",
+          "en": "Wedge it at the very bottom of the boot under all the luggage"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "ERC, evlerde ve araçlarda ilk yardım çantası bulunmasını, çantanın düzenli kontrol edilip bakımının yapılmasını önerir. Kazada ona hızla ulaşabilmelisin.",
+      "en": "The ERC recommends a first-aid kit in homes and cars, inspected regularly and kept in good order. In a crash you need to reach it quickly."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "ge-erc-2025-first-aid",
+    "sourceRef": "First aid kits",
+    "reviewedAt": "2026-10-20"
+  }
+]

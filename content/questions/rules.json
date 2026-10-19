@@ -1,0 +1,6509 @@
+[
+  {
+    "id": "rules.sign-shape-warning",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Kenarı kırmızı, tepesi yukarı bakan üçgen bir levha görüyorsun. Bu biçimdeki levhalar genel olarak ne söyler?",
+      "en": "You see a triangular sign with a red border, pointing upwards. What do signs of this shape generally tell you?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Bir hareket ya da araç türü yasak",
+          "en": "An action or a type of vehicle is banned"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Belirtilen yöne gitmek zorundasın",
+          "en": "You must go in the direction shown"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yakında bir hizmet ya da tesis var",
+          "en": "A service or facility is nearby"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "İleride bir tehlike var, dikkatli ol",
+          "en": "There is a hazard ahead, so take care"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Kırmızı kenarlı üçgenler uyarı levhasıdır. Tehlikeyi önceden haber verir, sen de hızını ve dikkatini ona göre ayarlarsın.",
+      "en": "Red-bordered triangles are warning signs. They tell you about a hazard in advance so you can adjust your speed and attention."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.sign-shape-prohibition",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Kırmızı kenarlı, yuvarlak bir levha görüyorsun. Bu biçimdeki levhalar genel olarak ne söyler?",
+      "en": "You see a round sign with a red border. What do signs of this shape generally tell you?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "İleride bir tehlike olduğunu haber verir",
+          "en": "A hazard lies ahead"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Bir şeyi yasaklar ya da sınırlar",
+          "en": "Something is banned or limited"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yapman gereken bir hareketi gösterir",
+          "en": "It shows an action you must take"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Bir yerin yönünü ve uzaklığını gösterir",
+          "en": "It shows the direction and distance to a place"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Kırmızı kenarlı yuvarlak levhalar yasak ya da kısıtlama levhasıdır: girme, sollama, park ya da hız sınırı gibi. Levha geçerli olduğu sürece o hareketi yapmazsın.",
+      "en": "Round signs with a red border prohibit or restrict something, such as entry, overtaking, parking or speed. While the sign applies, you do not do that thing."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.sign-shape-mandatory",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Mavi zemin üzerinde beyaz ok bulunan yuvarlak bir levha görüyorsun. Bu levha türü ne söyler?",
+      "en": "You see a round blue sign with a white arrow. What does this type of sign tell you?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Okun gösterdiği yön önerilir ama zorunlu değildir",
+          "en": "The direction shown is advised but not required"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Okun gösterdiği yöne gitmek yasaktır",
+          "en": "You must not go the way the arrow points"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Okun gösterdiği yöne gitmek zorundasın",
+          "en": "You must go the way the arrow points"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "İleride okun gösterdiği yönde bir viraj var",
+          "en": "There is a bend ahead in the direction of the arrow"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Mavi yuvarlak levhalar zorunluluk levhasıdır; gösterdikleri hareketi yaparsın. Bir şeyi yasaklayan levhalar ise kırmızı kenarlıdır.",
+      "en": "Round blue signs give orders you must follow. Signs that ban something have a red border instead."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.sign-police-first",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kavşakta trafik ışığı sana yeşil yanıyor ama trafik polisi sana dur işareti veriyor. Ne yaparsın?",
+      "en": "At a junction the traffic light is green for you, but a police officer signals you to stop. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Geçersin, çünkü yeşil ışık sana geçiş hakkı verir",
+          "en": "You go on, because green gives you the right to go"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Durursun, polisin işareti ışıktan önce gelir",
+          "en": "You stop, as the officer's signal comes first"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yavaşlayıp kornayla uyararak geçersin",
+          "en": "You slow down, sound the horn and go on"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Polise yalnız ışık arızalıysa uyarsın",
+          "en": "You follow the officer only if the light is out of order"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Trafiği yöneten polisin işareti ışıklardan ve levhalardan önce gelir. Polis o anda kavşakta olanı ışıktan daha iyi görür.",
+      "en": "A police officer directing traffic overrides lights and signs. The officer can see what is happening at the junction better than a signal can."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.sign-roadworks-temporary",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bu levhayı gördün. İleride, çalışma alanındaki geçici levhalar kalıcı levhalardan daha düşük bir hız gösteriyor. Hangisine uyarsın?",
+      "en": "You see this sign. Further on, temporary signs at the works show a lower speed than the permanent signs. Which do you follow?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kalıcı levhalara, çünkü onlar resmi levhalardır",
+          "en": "The permanent signs, as they are the official ones"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Çalışma alanındaki geçici levhalara",
+          "en": "The temporary signs at the works"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hangisi daha yüksek hız gösteriyorsa ona",
+          "en": "Whichever shows the higher speed"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız işçi görürsen geçici levhalara",
+          "en": "The temporary signs, but only if you see workers"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Yol çalışmasında geçici levhalar o anki tehlikeye göre konur ve kalıcı levhaların yerine geçer. İşçi görmesen de yolda çukur, malzeme ya da daralma olabilir.",
+      "en": "At roadworks, temporary signs are set for the current hazard and replace the permanent ones. Even when no workers are visible there may be holes, materials or a narrower lane."
+    },
+    "signId": "warning.road-works",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.sign-children",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Okulların dağıldığı saatte bir okulun yakınında bu levhayı görüyorsun. Ne yaparsın?",
+      "en": "You see this sign near a school as pupils are leaving. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hızını iyice düşürür, durmaya hazır olursun",
+          "en": "You slow right down and are ready to stop"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sınırı aşmadığın sürece hızını korursun",
+          "en": "You keep your speed as long as you are within the limit"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Çocuklar seni fark etsin diye korna çalarsın",
+          "en": "You sound the horn so the children notice you"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Okul önünden hızlıca geçip bölgeden çıkarsın",
+          "en": "You pass the school quickly to leave the area sooner"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Çocuklar aniden yola çıkabilir ve araçların hızını iyi kestiremez. Okul yakınında bir hız sınırı levhası varsa ona uyar, yoksa yine de sınırın altında gidersin.",
+      "en": "Children may step into the road suddenly and judge speed poorly. Obey any limit posted near the school, and drive below the limit even if there is none."
+    },
+    "signId": "warning.children",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.sign-end-of-restrictions",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Levhalarla kısıtlama konmuş bir yol kesiminden sonra bu levhayı görüyorsun. Ne anlama gelir?",
+      "en": "You pass this sign after a stretch of road with signed restrictions. What does it mean?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Bundan sonra yolda hiçbir hız sınırı yoktur",
+          "en": "From here the road has no speed limit at all"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Bundan sonra yolun her yerine park edebilirsin",
+          "en": "From here you may park anywhere on the road"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Önceki levhaların koyduğu kısıtlamalar sona erer",
+          "en": "The restrictions set by the earlier signs end"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kavşaklarda öncelik kuralları artık geçerli değildir",
+          "en": "Priority rules at junctions no longer apply"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Bu levha önceki yasakları kaldırır, kuralları değil. Yol türüne göre genel hız sınırı ve öncelik kuralları geçerli olmaya devam eder.",
+      "en": "This sign lifts the earlier restrictions, not the rules. The general speed limit for the road type and the priority rules still apply."
+    },
+    "signId": "prohibitory.end-of-restrictions",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.sign-other-danger",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Altında ek bir levha olan bu levhayı görüyorsun. Ne yaparsın?",
+      "en": "You see this sign with a plate underneath it. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Belirli bir tehlike gösterilmediği için hızını korursun",
+          "en": "You keep your speed, as no particular hazard is shown"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ek levhayı okur, yavaşlar ve tehlikeyi ararsın",
+          "en": "You read the plate, slow down and look for the hazard"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hemen durur ve bir görevlinin gelmesini beklersin",
+          "en": "You stop at once and wait for an official to arrive"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sağ şeride geçip bu kesimi hızla geçersin",
+          "en": "You move to the right-hand lane and pass through quickly"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Ünlem işaretli uyarı levhası, kendine ait levhası olmayan bir tehlikeyi bildirir. Tehlikenin ne olduğunu çoğu zaman altındaki ek levha söyler.",
+      "en": "The exclamation-mark warning sign marks a hazard that has no sign of its own. The plate beneath it usually says what the hazard is."
+    },
+    "signId": "warning.other-danger",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.sign-keep-left",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Önündeki refüjün üzerinde bu levha var. Refüjü nasıl geçersin?",
+      "en": "This sign is on a traffic island ahead of you. How do you pass the island?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Refüjün sağından geçersin",
+          "en": "You pass to the right of it"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Trafiğe göre iki yanından da geçebilirsin",
+          "en": "You may pass either side, depending on traffic"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Refüjden önce durup karşıdan gelenlere yol verirsin",
+          "en": "You stop before it and give way to oncoming traffic"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Refüjün solundan geçersin",
+          "en": "You pass to the left of it"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Bu levha engelin solundan geçmeni zorunlu kılar. Sol trafikte refüjün sağı çoğu zaman karşı yönden gelen trafiğe aittir.",
+      "en": "This sign orders you to pass on the left of the obstacle. In left-hand traffic, the right side of an island usually belongs to traffic coming the other way."
+    },
+    "signId": "mandatory.keep-left",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.sign-no-entry",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Navigasyon seni bir sokağa yönlendiriyor ama sokağın girişinde bu levha var. Ne yaparsın?",
+      "en": "Your sat nav tells you to turn into a street, but this sign is at its entrance. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Navigasyona uyar, dikkatlice girersin",
+          "en": "You follow the sat nav and enter carefully"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kısa bir iş için girip hemen çıkarsın",
+          "en": "You go in for a quick errand and come straight out"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Karşıdan araç gelmiyorsa girersin",
+          "en": "You enter if nothing is coming towards you"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sokağa girmez, başka bir yol bulursun",
+          "en": "You do not enter and find another way"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Bu levha araçların o uçtan girmesini yasaklar. Sokak çoğu zaman öbür uçtan tek yönlüdür; girersen karşıdan gelen trafikle burun buruna gelirsin.",
+      "en": "This sign bans vehicles from entering at this end. The street is often one-way from the other end, so entering would put you head-on with traffic."
+    },
+    "signId": "prohibitory.no-entry",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.sign-no-goods-vehicles",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Kamyon kullanıyorsun ve bir yolun girişinde bu levhayı görüyorsun. Ne yaparsın?",
+      "en": "You are driving a lorry and see this sign at the start of a road. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "O yola girmez, başka bir güzergâh seçersin",
+          "en": "You do not enter and choose another route"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız yüklüysen başka bir yol seçersin",
+          "en": "You choose another route only if you are loaded"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Girersin; levha yalnız kamyon parkını yasaklar",
+          "en": "You enter; the sign only bans lorries from parking"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Girersin; levha yalnız gece saatlerinde geçerlidir",
+          "en": "You enter; the sign applies only at night"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Bu levha yük taşıyan araçların o yola girmesini yasaklar. Ek levhada ağırlık ya da saat yazıyorsa yasak onunla sınırlıdır; ek levha yoksa girmezsin.",
+      "en": "This sign bans goods vehicles from the road. If a plate shows a weight or times, the ban is limited to those; without a plate, you do not enter."
+    },
+    "signId": "prohibitory.no-goods-vehicles",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.sign-height-limit",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kullandığın otobüs bu levhada yazan yükseklikten daha yüksek. Ne yaparsın?",
+      "en": "Your bus is taller than the height shown on this sign. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Çok yavaş geçer, tavanı yolculara kontrol ettirirsin",
+          "en": "You pass very slowly and ask passengers to watch the roof"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Altından geçmez, başka bir güzergâh kullanırsın",
+          "en": "You do not pass under it and use another route"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yolun ortasından, en yüksek noktadan geçersin",
+          "en": "You pass along the middle, at the highest point"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Fark azsa lastiklerin havasını indirip geçersin",
+          "en": "If the difference is small, you let air out of the tyres"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Levhadaki yükseklik geçebilecek en yüksek aracı gösterir. Aracının yüksekliğini bilmek ve güzergâhı buna göre planlamak sürücünün işidir.",
+      "en": "The height on the sign is the tallest vehicle that can pass. Knowing your vehicle's height and planning the route is the driver's job."
+    },
+    "signId": "prohibitory.height-limit",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.sign-no-motorcycles",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Motosikletle giderken bir yolun girişinde bu levhayı görüyorsun. Ne yaparsın?",
+      "en": "You are riding a motorcycle and see this sign at the start of a road. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Motorun hacmi küçükse girersin",
+          "en": "You enter if your engine is small"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "O yola girmez, başka bir yol kullanırsın",
+          "en": "You do not enter and use another road"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Arkanda yolcu yoksa girersin",
+          "en": "You enter if you have no passenger"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yavaş gidersen girebilirsin",
+          "en": "You may enter if you ride slowly"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Bu levha motosikletlerin o yola girmesini yasaklar. Yasak motor hacmine, yolcuya ya da hıza göre değişmez.",
+      "en": "This sign bans motorcycles from the road. The ban does not depend on engine size, passengers or speed."
+    },
+    "signId": "prohibitory.no-motorcycles",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.sign-falling-rocks",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Dağ yolunda bu levhayı görüyorsun. Ne yaparsın?",
+      "en": "You see this sign on a mountain road. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yamaca yakın, çok yavaş gidersin",
+          "en": "You drive very slowly, close to the slope"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Bu kesimde yalnız kamyonlar dikkat etmelidir",
+          "en": "Only lorries need to take care here"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Levha yalnız yağmurlu havada geçerlidir",
+          "en": "The sign only applies in wet weather"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yoldaki taşlara bakar, burada durmazsın",
+          "en": "You watch for rocks and do not stop here"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Bu levha yamaçtan taş düşebileceğini ya da yolda taş olabileceğini bildirir. Bu kesimde durmak ve yamaca yakın gitmek riski artırır.",
+      "en": "This sign warns that rocks may fall or lie on the road. Stopping in this section or driving close to the slope adds to the risk."
+    },
+    "signId": "warning.falling-rocks",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.sign-slippery-road",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yağmurlu bir günde bu levhayı görüyorsun. Ne yaparsın?",
+      "en": "You see this sign on a rainy day. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hızını korur, gerekirse sert fren yaparsın",
+          "en": "You keep your speed and brake hard if you need to"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Öndeki aracın izinden, ona yakın gidersin",
+          "en": "You follow close behind the vehicle in front, in its tracks"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yavaşlar, sert fren ve ani direksiyondan kaçınırsın",
+          "en": "You slow down and avoid harsh braking and steering"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Tekerlekler kaymasın diye vitesi boşa alırsın",
+          "en": "You select neutral so the wheels do not skid"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Kaygan yolda lastikler daha az tutunur ve fren mesafesi uzar. Düşük hız, açık takip mesafesi ve yumuşak kumanda kaymayı önler.",
+      "en": "On a slippery road the tyres grip less and stopping distances grow. Lower speed, a bigger gap and smooth controls help prevent a skid."
+    },
+    "signId": "warning.slippery-road",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.sign-steep-descent",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "signs-basics",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Uzun bir yokuş inişinden önce bu levhayı görüyorsun. Ne yaparsın?",
+      "en": "You see this sign before a long downhill stretch. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yakıt tasarrufu için vitesi boşa alırsın",
+          "en": "You select neutral to save fuel"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Küçük vitese geçer, yalnız frene güvenmezsin",
+          "en": "You change down and do not rely on the brakes alone"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "İniş boyunca frene hafifçe basılı tutarsın",
+          "en": "You keep light pressure on the brake all the way down"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hız kazanıp yokuşu çabucak bitirirsin",
+          "en": "You build up speed to get down quickly"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Uzun inişte sürekli fren yapmak frenleri ısıtır ve etkisini azaltır. Küçük vites motor freni sağlar; vitesi boşa almak aracın kontrolünü zayıflatır.",
+      "en": "Braking all the way down a long hill overheats the brakes and weakens them. A lower gear gives engine braking; coasting in neutral reduces control."
+    },
+    "signId": "warning.steep-descent",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.priority-right-uncontrolled",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "right-of-way",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Levha, ışık ya da yol çizgisi olmayan bir kavşağa geliyorsun. Geçiş üstünlüğü kimdedir?",
+      "en": "You reach a junction with no signs, lights or road markings. Who has priority?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Solundan gelen araçta",
+          "en": "The vehicle coming from your left"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kavşağa önce varan araçta",
+          "en": "The vehicle that arrives first"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Daha geniş yoldan gelen araçta",
+          "en": "The vehicle on the wider road"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sağından gelen araçta",
+          "en": "The vehicle coming from your right"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "KKTC'de kontrolsüz kavşakta öncelik sağdan gelen aracındır. Bakanlığın trafik broşürü bunu açıkça yazar.",
+      "en": "In KKTC, at an uncontrolled junction, priority belongs to the vehicle coming from the right. The ministry's traffic leaflet states this plainly."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Öncelik hakkı",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.priority-right-you-have-it",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "right-of-way",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Levhasız bir dört yol ağzına başka bir araçla aynı anda varıyorsun. Öbür araç senin solundan geliyor. Kim önce geçer?",
+      "en": "You and another car reach an unmarked crossroads at the same time. The other car is coming from your left. Who goes first?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Öbür araç, çünkü soldan gelen önce geçer",
+          "en": "The other car, as traffic from the left goes first"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Hangisi daha hızlı geliyorsa o",
+          "en": "Whichever is going faster"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Düz giden, dönen araçtan önce geçer",
+          "en": "Whoever goes straight on goes before a turning car"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sen, çünkü sen onun sağındasın",
+          "en": "You do, because you are on its right"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Sağdan gelene yol verme kuralı iki yönde de işler. Öbür sürücü için sağdan gelen sensin, bu yüzden o sana yol verir; yine de onun durduğundan emin olmadan girmezsin.",
+      "en": "The priority-to-the-right rule works both ways. To the other driver you are the vehicle on the right, so they give way to you; still make sure they are stopping before you go."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Öncelik hakkı",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.give-way-sign",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "right-of-way",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Ana yola çıkarken bu levhayı görüyorsun. Ana yolda bir araç yaklaşıyor. Ne yaparsın?",
+      "en": "You see this sign as you approach a main road. A car is coming along the main road. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Devam edersin; ana yoldaki araç senin için yavaşlar",
+          "en": "You carry on; the car on the main road will slow for you"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yavaşlar, gerekirse durur ve aracın geçmesini beklersin",
+          "en": "You slow down, stop if needed and let the car pass"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hızlanıp araç gelmeden önce yola çıkarsın",
+          "en": "You speed up and pull out before the car arrives"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Korna çalarak varlığını bildirip çıkarsın",
+          "en": "You sound the horn to warn the driver and pull out"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Bu levha ana yoldaki trafiğe yol vermen gerektiğini söyler. Yol boşsa durmadan devam edebilirsin, ama ana yoldaki bir sürücüyü yavaşlamak ya da yön değiştirmek zorunda bırakmamalısın.",
+      "en": "This sign means you must give way to traffic on the main road. If the road is clear you may go on without stopping, but you must not make a driver on the main road slow down or swerve."
+    },
+    "signId": "priority.give-way",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.stop-sign-clear-road",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "right-of-way",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bu levhanın bulunduğu bir kavşağa geliyorsun. Ana yol iki yönde de bomboş görünüyor. Ne yaparsın?",
+      "en": "You reach a junction with this sign. The main road looks empty in both directions. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yol boş olduğu için durmadan, yavaşça geçersin",
+          "en": "You go on slowly without stopping, as it is clear"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Çizgide tam durur, sonra güvenliyse devam edersin",
+          "en": "You stop fully at the line, then go on when safe"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız bir araç yaklaşıyorsa durursun",
+          "en": "You stop only if a vehicle is approaching"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Çizgiyi geçip kavşağın ortasında durursun",
+          "en": "You cross the line and stop in the middle of the junction"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "DUR levhasında yol boş olsa da durmak zorunludur. Durunca iki yöne de iyice bakar, ancak güvenli olduğunda çıkarsın.",
+      "en": "At a STOP (DUR) sign you must stop even when the road is clear. Once stopped, look both ways properly and move off only when it is safe."
+    },
+    "signId": "priority.stop",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.give-way-beats-right",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "right-of-way",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bu levhanın olduğu bir yan yoldan ana yola çıkacaksın. Ana yolda bir araç senin solundan geliyor. Kim önce geçer?",
+      "en": "You are about to join a main road from a side road with this sign. A car on the main road is coming from your left. Who goes first?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sen, çünkü öbür araç senin solunda",
+          "en": "You do, because the other car is on your left"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kavşağa ilk kim varırsa o",
+          "en": "Whoever reaches the junction first"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Ana yoldaki araç, çünkü levha sana yol verdirir",
+          "en": "The car on the main road, because the sign says so"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Ana yoldaki araç, ama yalnız sen sağa dönüyorsan",
+          "en": "The car on the main road, but only if you turn right"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Sağdan gelene yol verme kuralı yalnız levha, ışık ya da işaret olmayan kavşaklarda geçerlidir. Levha varsa levhaya uyarsın.",
+      "en": "Priority to the right applies only where there are no signs, lights or markings. Where there is a sign, the sign decides."
+    },
+    "signId": "priority.give-way",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.pedestrian-waiting-crossing",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "right-of-way",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Yaya geçidine yaklaşıyorsun. Bir yaya kaldırımın kenarında karşıya geçmek için bekliyor. Ne yaparsın?",
+      "en": "You approach a pedestrian crossing. A pedestrian is waiting at the kerb, ready to cross. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yaya henüz geçitte olmadığı için devam edersin",
+          "en": "You carry on, as they are not on the crossing yet"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Durur ve yayaya yol verirsin",
+          "en": "You stop and give way to them"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Selektör yapıp hızla geçersin",
+          "en": "You flash your headlights and pass quickly"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yavaşlar, yolun ortasına yakın geçersin",
+          "en": "You slow down and pass near the centre of the road"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "KKTC kurallarına göre yaya geçidine yaklaşırken yavaşlarsın. Bir yaya geçidi kullanıyorsa ya da kullanmaya hazırlanıyorsa durur ve yol verirsin.",
+      "en": "Under KKTC rules you slow down when approaching a crossing. If a pedestrian is using it or getting ready to use it, you stop and give way."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Yaya geçitleri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.pedestrian-crossing-ahead",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "right-of-way",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bu levhayı görüyorsun. Ne yaparsın?",
+      "en": "You see this sign. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yavaşlar, yayalar için durmaya hazır olursun",
+          "en": "You slow down, ready to stop for pedestrians"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Hızını korur, yalnız yaya görürsen frene basarsın",
+          "en": "You keep your speed and brake only if you see someone"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Korna çalarak yayaları geçitten uzak tutarsın",
+          "en": "You sound the horn to keep people off the crossing"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sağ şeride geçip geçidi çabucak geçersin",
+          "en": "You move to the right-hand lane and get past quickly"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Bu levha ileride yaya geçidi olduğunu bildirir. KKTC kurallarına göre geçide yaklaşırken yavaşlar, geçidi kullanan ya da kullanmaya hazırlanan yayaya yol verirsin.",
+      "en": "This sign warns of a pedestrian crossing ahead. KKTC rules require you to slow down on the approach and give way to anyone using or about to use the crossing."
+    },
+    "signId": "warning.pedestrian-crossing",
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Yaya geçitleri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.pedestrian-from-far-side",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "right-of-way",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bu levhanın olduğu geçide geliyorsun. Bir yaya yolun karşı tarafından geçide yeni adım attı. Ne yaparsın?",
+      "en": "You reach a crossing with this sign. A pedestrian has just stepped onto it from the far side of the road. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yaya senin şeridine gelmeden hızla geçersin",
+          "en": "You pass quickly before they reach your lane"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yaya senin tarafında olmadığı için devam edersin",
+          "en": "You carry on, as they are not on your side"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yayaya geri çekilmesi için el işareti yaparsın",
+          "en": "You wave to them to step back"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Durur, yaya geçene kadar beklersin",
+          "en": "You stop and wait until they have crossed"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Kural geçidi kullanan her yaya için geçerlidir, yalnız senin tarafındaki için değil. Yaya kısa sürede senin şeridine ulaşır.",
+      "en": "The rule covers anyone using the crossing, not only people on your side. A pedestrian can reach your lane very quickly."
+    },
+    "signId": "information.pedestrian-crossing",
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Yaya geçitleri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.emergency-vehicle-behind",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "right-of-way",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Şehir içinde tek şeritli bir yolda giderken arkandan sireni ve ışıkları çalışan bir ambulans geliyor. Ne yaparsın?",
+      "en": "You are on a single-lane road in town when an ambulance with its siren and lights on comes up behind you. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sağa çekilir, ambulansın solundan geçmesini beklersin",
+          "en": "You pull over to the right so it can pass on your left"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Olduğun yerde hemen sert fren yapıp durursun",
+          "en": "You brake hard and stop exactly where you are"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Ambulansın önünde kalmak için hızlanırsın",
+          "en": "You speed up to stay ahead of it"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sinyal verip sola çekilir, yavaşlar ya da durursun",
+          "en": "You signal, pull in to the left and slow down or stop"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Sol trafikte yolun kenarı soldadır, bu yüzden acil araca yer açmak için sola çekilirsin. Ani fren ya da kaldırıma çıkmak arkadakiler ve yayalar için tehlikelidir.",
+      "en": "In left-hand traffic the edge of the road is on your left, so you move left to make room. Sudden braking or mounting the kerb puts others and pedestrians at risk."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.emergency-vehicle-offence",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "right-of-way",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Sireni çalışan bir ambulansa, itfaiyeye ya da polis aracına yol vermezsen ne olur?",
+      "en": "What happens if you fail to give way to an ambulance, fire engine or police vehicle using its siren?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hiçbir şey; yol vermek yalnız bir nezaket kuralıdır",
+          "en": "Nothing; giving way is only a courtesy"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız çift şeritli yollarda suç sayılır",
+          "en": "It is an offence only on dual carriageways"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Para cezası olan bir trafik suçu işlemiş olursun",
+          "en": "You commit a traffic offence that carries a fine"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız bir kazaya yol açarsan sorumlu olursun",
+          "en": "You are liable only if it leads to a crash"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Acil araca yol vermemek KKTC ceza listesinde yer alan bir suçtur. Ağustos 2026'da basında yer alan listeye göre cezası 10.633 TL'dir.",
+      "en": "Failing to give way to an emergency vehicle is on the KKTC list of offences. The list reported in August 2026 puts the fine at 10,633 TL."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s30",
+    "sourceRef": "Ağustos 2026 ceza listesi",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.turn-right-oncoming",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "right-of-way",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kavşakta sağa döneceksin. Karşıdan düz gelen bir araç var. Kim yol verir?",
+      "en": "You want to turn right at a junction. A car is coming straight towards you from the other direction. Who gives way?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Karşıdan gelen, çünkü sen sinyal verdin",
+          "en": "The oncoming car, because you have signalled"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kavşağa önce kim girdiyse o",
+          "en": "Whoever entered the junction first"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hangi araç daha büyükse o yol verir",
+          "en": "Whichever vehicle is larger"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sen, çünkü dönüşün onun yolunu keser",
+          "en": "You do, because your turn crosses its path"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Sol trafikte sağa dönüş karşı yönün şeridini keser, bu yüzden karşıdan gelene yol verirsin. Sağa dönerken karşıdan gelene yol vermemek ceza listesinde suçtur.",
+      "en": "In left-hand traffic a right turn crosses the oncoming lane, so you give way to oncoming traffic. Failing to do so is an offence on the fine list."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s31",
+    "sourceRef": "2023 ceza listesi",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.priority-over-oncoming-narrow",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "right-of-way",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Daralan bir yol kesimine yaklaşırken bu levhayı görüyorsun. Karşıdan gelen bir araç dar bölüme çoktan girmiş. Ne yaparsın?",
+      "en": "You see this sign as you approach a narrow section. An oncoming car has already entered the narrow part. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Bekler, önce onun geçmesine izin verirsin",
+          "en": "You wait and let it come through first"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Öncelik sende olduğu için dar bölüme girersin",
+          "en": "You drive in, because you have priority"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Selektör yapıp geri çekilmesini beklersin",
+          "en": "You flash your lights until it reverses out"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kenara yanaşıp yanından sıkışarak geçersin",
+          "en": "You squeeze past it along the edge"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Bu levha karşıdan gelene göre öncelik verir, ama öncelik zorla kullanılmaz. Karşıdaki araç dar bölüme girmişse onu beklemek çarpışmayı önler.",
+      "en": "This sign gives you priority over oncoming traffic, but priority is never taken by force. If the other car is already in the narrow section, waiting avoids a collision."
+    },
+    "signId": "priority.priority-over-oncoming",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.give-way-to-oncoming-bridge",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "right-of-way",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Dar bir köprüden önce bu levhayı görüyorsun. Karşıdan köprüye bir minibüs yaklaşıyor. Ne yaparsın?",
+      "en": "You see this sign before a narrow bridge. A minibus is approaching the bridge from the other side. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Minibüsten önce köprüye girmek için hızlanırsın",
+          "en": "You speed up to get onto the bridge before it"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Köprüye girer, minibüsün durmasını beklersin",
+          "en": "You drive onto the bridge and expect it to stop"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Korna çalıp minibüsü durdurursun",
+          "en": "You sound the horn to make the minibus stop"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Köprüden önce bekler, minibüsün geçmesine izin verirsin",
+          "en": "You wait before the bridge and let the minibus cross"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Bu levha dar kesimde karşıdan gelen trafiğe yol vermen gerektiğini söyler. Karşı yön boşalınca geçersin.",
+      "en": "This sign tells you to give way to oncoming traffic through the narrow section. You go once the other side is clear."
+    },
+    "signId": "priority.give-way-to-oncoming",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.leaving-driveway",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "right-of-way",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir evin garaj yolundan çıkıp yola gireceksin. Kime yol verirsin?",
+      "en": "You are driving out of a private driveway onto a road. Whom do you give way to?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız sağından gelen araçlara",
+          "en": "Only vehicles coming from your right"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız yoldaki ağır vasıtalara",
+          "en": "Only heavy vehicles on the road"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kimseye; yola önce çıkan önceliklidir",
+          "en": "Nobody; whoever is out first has priority"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kaldırımdaki yayalara ve yoldaki bütün araçlara",
+          "en": "Pedestrians on the pavement and all traffic on the road"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Özel bir alandan yola çıkan sürücü hareket hâlindeki trafiğe katılır, bu yüzden herkese yol verir. Kaldırımı geçerken yayalara özellikle dikkat edersin.",
+      "en": "A driver coming out of private property is joining traffic that is already moving, so they give way to everyone. Take special care for pedestrians as you cross the pavement."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.roundabout-give-way",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "junctions",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bir çembere (dönel kavşağa) gireceksin. Kime yol verirsin?",
+      "en": "You are about to enter a roundabout. Whom do you give way to?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Solundaki girişten çembere girecek araçlara",
+          "en": "Vehicles waiting to enter from your left"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kimseye; çembere giren araç önceliklidir",
+          "en": "Nobody; vehicles entering have priority"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Çemberin içinde olup sağından gelen araçlara",
+          "en": "Vehicles already on it, coming from your right"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız otobüslere ve kamyonlara",
+          "en": "Only buses and lorries"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "KKTC kurallarına göre çembere yaklaşırken yavaşlarsın, sağdan gelen araç varsa girmezsin. Çemberin içindeki araç önceliklidir.",
+      "en": "Under KKTC rules you slow down on the approach and do not enter if a vehicle is coming from the right. The vehicle already on the roundabout has priority."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Çember",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.roundabout-already-in",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "junctions",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Çemberin içinde ilerliyorsun. Bir sonraki girişte bir araç girmek için bekliyor. Kimin önceliği var?",
+      "en": "You are driving round a roundabout. A car is waiting at the next entry. Who has priority?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Onun, çünkü o senin solunda",
+          "en": "The waiting car, because it is on your left"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Senin, çünkü sen çemberin içindesin",
+          "en": "You, because you are already on the roundabout"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Onun, çünkü girişte bekleyen önceliklidir",
+          "en": "The waiting car, as entering traffic goes first"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hangisi önce sinyal verdiyse onun",
+          "en": "Whichever driver signalled first"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Çemberde öncelik içerideki araçtadır. Yine de bekleyen sürücünün seni görüp görmediğini izlersin.",
+      "en": "On a roundabout, priority belongs to traffic already going round. Still watch whether the waiting driver has seen you."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Çember",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.roundabout-clockwise",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "junctions",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bu levhayı görüyorsun. Çemberde hangi yönde dönersin?",
+      "en": "You see this sign. Which way do you drive round the roundabout?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Saat yönünde, ortadaki ada sağında kalacak biçimde",
+          "en": "Clockwise, keeping the central island on your right"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Saatin tersi yönünde, ada solunda kalacak biçimde",
+          "en": "Anticlockwise, keeping the central island on your left"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Çıkışına hangi yön daha kısaysa o yönde",
+          "en": "Whichever way is shorter to your exit"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Trafik azsa iki yönde de dönebilirsin",
+          "en": "Either way, if traffic is light"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Soldan akan trafikte çember saat yönünde dönülür ve ada sağında kalır. Saatin tersi yönündeki çemberler sağdan akan trafikli ülkelerdedir, örneğin Türkiye'de.",
+      "en": "With traffic on the left, you go round clockwise with the island on your right. Anticlockwise roundabouts belong to countries that drive on the right, such as Türkiye."
+    },
+    "signId": "mandatory.roundabout",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.roundabout-ahead",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "junctions",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bu levhayı görüyorsun. Ne yaparsın?",
+      "en": "You see this sign. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hızını korur, çembere ilk sen girersin",
+          "en": "You keep your speed and enter the roundabout first"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sağ şeride geçip çemberi hızla dönersin",
+          "en": "You move right and go round quickly"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yol boş olsa da girmeden önce mutlaka durursun",
+          "en": "You always stop before entering, even if it is clear"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yavaşlar, sağdan gelenlere yol vermeye hazırlanırsın",
+          "en": "You slow down, ready to give way to the right"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Bu levha ileride bir çember olduğunu bildirir. KKTC kurallarına göre çembere yaklaşırken yavaşlar, sağdan gelen araç varsa girmezsin.",
+      "en": "This sign warns of a roundabout ahead. KKTC rules say slow down on the approach and do not enter if a vehicle is coming from the right."
+    },
+    "signId": "warning.roundabout-ahead",
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Çember",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.roundabout-exit-signal",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "junctions",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Çemberde dönüyorsun ve bir sonraki çıkıştan çıkacaksın. Hangi sinyali verirsin?",
+      "en": "You are on a roundabout and will leave at the next exit. Which signal do you give?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Çıkışa yaklaşırken sağ sinyali",
+          "en": "A right signal as you approach your exit"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sinyal vermezsin; çemberde gerekmez",
+          "en": "No signal; it is not needed on a roundabout"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Çıkışa yaklaşırken sol sinyali",
+          "en": "A left signal as you approach your exit"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Çıkışta dörtlü flaşörü",
+          "en": "Your hazard lights at the exit"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Saat yönünde dönülen çemberde çıkışlar soldadır. Sol sinyal, girmek için bekleyenlere ve arkandakilere çıkacağını söyler.",
+      "en": "On a clockwise roundabout the exits are on your left. A left signal tells drivers waiting to enter, and those behind you, that you are leaving."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.crossroads-ahead",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "junctions",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Başka öncelik levhası olmayan bir yolda bu levhayı görüyorsun. Kavşakta ne yaparsın?",
+      "en": "You see this sign on a road with no other priority signs. What do you do at the crossroads?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Düz gideceğin için hızını korursun",
+          "en": "You keep your speed, as you are going straight on"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yavaşlar, soldan gelen araçlara yol verirsin",
+          "en": "You slow down and give way to traffic from the left"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yavaşlar, sağdan gelen araçlara yol verirsin",
+          "en": "You slow down and give way to traffic from the right"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Durup bütün öbür araçların geçmesini beklersin",
+          "en": "You stop and wait until every other vehicle has gone"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Bu levha ileride bir dört yol ağzı olduğunu bildirir. Öncelik başka bir levhayla belirlenmemişse KKTC'de sağdan gelen önceliklidir.",
+      "en": "This sign warns of crossroads ahead. Where no other sign sets priority, in KKTC the vehicle from the right goes first."
+    },
+    "signId": "warning.crossroads",
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Öncelik hakkı",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.side-road-left",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "junctions",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Ana yolda giderken bu levhayı görüyorsun. Neye hazırlıklı olursun?",
+      "en": "You are on the main road and see this sign. What should you be ready for?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yolun ileride sola keskin döneceğine",
+          "en": "A sharp bend to the left ahead"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sol şeridin ileride kapanacağına",
+          "en": "The left lane closing ahead"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Soldan katılan yoldan çıkabilecek araçlara",
+          "en": "Vehicles coming out of a road joining from the left"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "İleride sola dönüşün yasaklanacağına",
+          "en": "A ban on left turns ahead"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Bu levha soldan ana yola bir yan yol bağlandığını bildirir. Yan yoldaki sürücü yol vermelidir ama seni görmeyebilir; hızını ayarlar ve hazırlıklı olursun.",
+      "en": "This sign warns that a side road joins from the left. The driver there should give way but may not see you, so adjust your speed and be ready."
+    },
+    "signId": "warning.side-road--left",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.traffic-signals-ahead",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "junctions",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Hızlı bir yolda bu levhayı görüyorsun. Ne yaparsın?",
+      "en": "You see this sign on a fast road. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Işık yeşilken yetişmek için hızlanırsın",
+          "en": "You speed up to get through while it is green"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Işıklar görünene kadar hızını korursun",
+          "en": "You keep your speed until the lights come into view"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hemen dörtlü flaşörü yakarsın",
+          "en": "You switch on your hazard lights at once"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hızını düşürür, ışıkta durmaya hazırlanırsın",
+          "en": "You slow down, ready to stop at the lights"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Bu levha ileride geç fark edilebilecek trafik ışıkları olduğunu bildirir. Önceden yavaşlarsan kırmızıda sert fren yapmak zorunda kalmazsın.",
+      "en": "This sign warns of traffic lights that may come into view late. Slowing early means you will not have to brake hard if they are red."
+    },
+    "signId": "warning.traffic-signals",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.green-but-blocked",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "junctions",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Işık sana yeşil yandı ama kavşağın ötesi tıkalı. Girersen kavşağın ortasında kalacaksın. Ne yaparsın?",
+      "en": "The light turns green, but the road beyond the junction is queued. If you go, you will be stuck in the middle of the junction. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Ötede yer açılana kadar çizginin gerisinde beklersin",
+          "en": "You wait behind the line until there is space beyond"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yeşil yandığı için kavşağa girersin",
+          "en": "You go, because the light is green"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kavşağa girip korna çalarak öndekileri uyarırsın",
+          "en": "You move in and sound the horn at the queue"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kavşağın içinden sağ şeride geçip kuyruğu sollarsın",
+          "en": "You cut across to the right-hand lane to pass the queue"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Yeşil ışık geçme izni verir, kavşağı kapatma izni vermez. Kavşakta kalan araç öbür yönlerin trafiğini de durdurur.",
+      "en": "A green light lets you go, but not to block the junction. A car stuck in the middle stops the traffic in the other directions too."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.flashing-amber",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "junctions",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir kavşaktaki trafik ışığı sürekli sarı yanıp sönüyor. Ne yaparsın?",
+      "en": "A traffic light at a junction is flashing amber. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yeşil yanana kadar durup beklersin",
+          "en": "You stop and wait for it to turn green"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Işık seni durdurmadığı için hızını korursun",
+          "en": "You keep your speed, as the light is not stopping you"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Işık bozuk olduğu için kavşağa hiç girmezsin",
+          "en": "You do not enter, because the light is broken"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yavaşlar, öncelik kurallarına uyarak geçersin",
+          "en": "You slow down and go on, using the priority rules"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Yanıp sönen sarı ışık dikkatli olmanı söyler, sana öncelik vermez. Kavşaktaki levhalara, levha yoksa sağdan gelene yol verme kuralına uyarsın.",
+      "en": "A flashing amber light tells you to take care; it does not give you priority. Follow any signs at the junction, or the priority-to-the-right rule if there are none."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.turn-left-only",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "junctions",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Hemen ilerideki kavşakta bu levha var. Sen düz gitmek istiyordun. Ne yaparsın?",
+      "en": "This sign is at the junction just ahead. You wanted to go straight on. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Trafik yoksa düz devam edersin",
+          "en": "You go straight on if no traffic is coming"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kavşakta durup geri geri gidersin",
+          "en": "You stop at the junction and reverse"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sağa dönersin; levha yalnız düz gitmeyi yasaklar",
+          "en": "You turn right; the sign only bans going straight on"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sola döner, sonra kendine yeni bir yol bulursun",
+          "en": "You turn left and then find another route"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Mavi zorunluluk levhası yalnız okun gösterdiği yöne gidebileceğini söyler. Rotanı dönüşten sonra düzeltirsin.",
+      "en": "A blue mandatory sign means you may only go the way the arrow shows. You correct your route after the turn."
+    },
+    "signId": "mandatory.turn-left",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.no-right-turn",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "junctions",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Sağa dönmen gereken kavşakta bu levhayı görüyorsun. Ne yaparsın?",
+      "en": "You need to turn right at a junction, but you see this sign there. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Karşıdan araç gelmiyorsa sağa dönersin",
+          "en": "You turn right if there is no oncoming traffic"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kavşakta U dönüşü yapıp geri gelirsin",
+          "en": "You make a U-turn at the junction and come back"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Dörtlü flaşörü yakıp dikkatlice dönersin",
+          "en": "You switch on your hazard lights and turn carefully"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sağa dönmez, devam edip başka bir yol bulursun",
+          "en": "You carry on and find another way round"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Bu levha o kavşakta sağa dönüşü yasaklar; karşıdan trafik gelsin ya da gelmesin. Bir sonraki uygun kavşakta ya da çemberde rotanı düzeltirsin.",
+      "en": "This sign bans right turns at that junction, whatever the oncoming traffic. Correct your route at the next suitable junction or roundabout."
+    },
+    "signId": "prohibitory.no-right-turn",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.no-u-turn",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "junctions",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Gideceğin sokağı kaçırdın ve bu levhayı görüyorsun. Ne yaparsın?",
+      "en": "You have missed your street and you see this sign. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yol boşsa hızlıca U dönüşü yaparsın",
+          "en": "You make a quick U-turn if the road is clear"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Geri vitesle kaçırdığın sokağa dönersin",
+          "en": "You reverse back to the street you missed"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kaldırıma çıkarak geniş bir dönüş yaparsın",
+          "en": "You mount the kerb to make a wider turn"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Burada dönmez, ileride uygun bir yerde dönersin",
+          "en": "You turn later, at a place where it is allowed"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Bu levha o noktada U dönüşünü yasaklar. Kaçırdığın sokağa geri geri gitmek de tehlikelidir; ileride bir çember ya da uygun bir kavşak kullanırsın.",
+      "en": "This sign bans U-turns at that point. Reversing back to the street you missed is dangerous too, so use a roundabout or suitable junction further on."
+    },
+    "signId": "prohibitory.no-u-turn",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.dual-carriageway-missed-turn",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "junctions",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Çift şeritli (bölünmüş) yolda gideceğin kavşağı kaçırdın. Ne yaparsın?",
+      "en": "On a dual carriageway you miss the junction you wanted. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yol kenarında geri vitesle kavşağa dönersin",
+          "en": "You reverse along the edge of the road to the junction"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sonraki kavşağa ya da çembere kadar gidip oradan dönersin",
+          "en": "You go on to the next junction or roundabout and come back"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Orta refüjdeki ilk boşluktan U dönüşü yaparsın",
+          "en": "You make a U-turn through the first gap in the central reservation"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Durup dörtlü flaşörle trafiğin azalmasını beklersin",
+          "en": "You stop with hazard lights on until traffic eases"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Hızlı akan çift şeritli yolda geri gitmek ya da refüjden dönmek ağır kazalara yol açar. Biraz yol kaybetmek her zaman daha güvenlidir.",
+      "en": "Reversing or turning through the central reservation on a fast dual carriageway causes serious crashes. Losing a little time is always safer."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.turn-left-watch-kerb-side",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "junctions",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir yan yola sola dönüyorsun. Bu dönüşte en çok kimleri gözden kaçırma riskin vardır?",
+      "en": "You are turning left into a side road. Who are you most at risk of missing on this turn?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Solundaki iki tekerlekliler ve karşıya geçen yayalar",
+          "en": "Riders on your left and pedestrians crossing"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Karşı şeritte düz giden araçlar",
+          "en": "Oncoming traffic going straight on"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Arkanda sağ şeritte giden araçlar",
+          "en": "Traffic behind you in the right-hand lane"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yan yoldan çıkmak için bekleyen kamyonlar",
+          "en": "Lorries waiting to come out of the side road"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Sol trafikte sola dönüş kaldırım tarafında yapılır. Solundan gelen bisikletli ya da motosikletli ve yan yolun ağzında karşıya geçen yaya kolayca gözden kaçar.",
+      "en": "In left-hand traffic a left turn is made on the kerb side. A cyclist or motorcyclist coming up on your left, or a pedestrian crossing the side road, is easy to miss."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.turn-right-position",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "junctions",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "İki yönlü bir yolda sağa döneceksin. Dönüşten önce aracını nereye konumlandırırsın?",
+      "en": "You are going to turn right from a two-way road. Where do you position your vehicle before the turn?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sol kaldırıma yakın",
+          "en": "Close to the left-hand kerb"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Karşı şeridin içinde",
+          "en": "Inside the oncoming lane"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kendi şeridinde, orta çizgiye yakın",
+          "en": "In your own lane, close to the centre line"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Şeridin tam ortasında, sinyal vermeden",
+          "en": "In the middle of your lane, without signalling"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Sağa dönmeden önce sağ sinyal verip orta çizgiye yaklaşırsın. Böylece arkandakiler solundan geçebilir; karşıdan gelenlere yol verdikten sonra dönersin.",
+      "en": "Before turning right you signal right and move close to the centre line. Traffic behind can then pass on your left, and you turn once oncoming traffic has passed."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-built-up",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bu levhanın yanından geçerek bir yerleşim yerine giriyorsun. Başka bir levha yoksa en yüksek hızın kaçtır?",
+      "en": "You pass this sign as you enter a town. If no other sign says otherwise, what is your maximum speed?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "30 km/sa",
+          "en": "30 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "50 km/sa",
+          "en": "50 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "65 km/sa",
+          "en": "65 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "80 km/sa",
+          "en": "80 km/h"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "KKTC'de yerleşim yeri (meskûn mahal) içinde genel hız sınırı saatte 50 kilometredir. Bir levha daha düşük bir sınır gösterirse ona uyarsın.",
+      "en": "In KKTC the general limit in built-up areas is 50 km/h. If a sign shows a lower limit, you obey that."
+    },
+    "signId": "information.town-start",
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Hız sınırları",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-dual-carriageway-car",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "car"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Otomobille çift şeritli (bölünmüş) bir yolda gidiyorsun, örneğin Lefkoşa–Gazimağusa yolunda. Levha yoksa en yüksek hızın kaçtır?",
+      "en": "You are driving a car on a dual carriageway, such as Lefkoşa–Gazimağusa. With no other sign, what is your maximum speed?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "80 km/sa",
+          "en": "80 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "90 km/sa",
+          "en": "90 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "100 km/sa",
+          "en": "100 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "120 km/sa",
+          "en": "120 km/h"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Çift şeritli yolda otomobiller için sınır saatte 100 kilometredir. Otobüs, kamyon ve motosikletlerin aynı yoldaki sınırı daha düşüktür.",
+      "en": "On a dual carriageway the limit for cars is 100 km/h. Buses, lorries and motorcycles have lower limits on the same road."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Hız sınırları",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-rural-range",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "car"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yerleşim yeri dışında, çift şeritli olmayan yollarda otomobillerin hız sınırı nasıldır?",
+      "en": "Outside built-up areas, on roads that are not dual carriageways, what are the speed limits for cars?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Her yolda 100 km/sa",
+          "en": "100 km/h on every road"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Her yolda 50 km/sa",
+          "en": "50 km/h on every road"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yolun türüne göre 65 ile 90 km/sa arası",
+          "en": "65 to 90 km/h, depending on the road"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Levha yoksa hiçbir sınır yoktur",
+          "en": "No limit unless a sign is shown"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Bakanlığın broşürüne göre şehir dışındaki yollarda sınır, yolun sınıfına göre saatte 65 ile 90 kilometre arasındadır. Saatte 100 kilometre yalnız çift şeritli yollar içindir.",
+      "en": "According to the ministry leaflet, limits outside towns range from 65 to 90 km/h depending on the road class. 100 km/h applies only on dual carriageways."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Hız sınırları",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-first-class-car",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "car"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Otomobille birinci sınıf bir yolda gidiyorsun, örneğin Lefkoşa–Güzelyurt yolunda. Levha yoksa en yüksek hızın kaçtır?",
+      "en": "You are driving a car on a first-class road, such as Lefkoşa–Güzelyurt. With no other sign, what is your maximum speed?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "80 km/sa",
+          "en": "80 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "90 km/sa",
+          "en": "90 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "100 km/sa",
+          "en": "100 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "110 km/sa",
+          "en": "110 km/h"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "2019 tarihli hız bildirisine göre birinci sınıf yollarda otomobil sınırı saatte 90 kilometredir. Saatte 100 kilometre yalnız çift şeritli yollarda geçerlidir.",
+      "en": "Under the 2019 speed notice, the limit for cars on first-class roads is 90 km/h. 100 km/h applies only on dual carriageways."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-village-road-car",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "car"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Otomobille köyler arasındaki üçüncü sınıf bir yolda gidiyorsun. Levha yoksa en yüksek hızın kaçtır?",
+      "en": "You are driving a car on a third-class road between villages. With no other sign, what is your maximum speed?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "70 km/sa",
+          "en": "70 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "80 km/sa",
+          "en": "80 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "90 km/sa",
+          "en": "90 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "100 km/sa",
+          "en": "100 km/h"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "2019 hız bildirisine göre üçüncü sınıf ve köy yollarında otomobil sınırı saatte 70 kilometredir. Bu yollar dar ve virajlı olduğundan çoğu zaman daha yavaş gitmen gerekir.",
+      "en": "Under the 2019 speed notice, cars are limited to 70 km/h on third-class and village roads. These roads are often narrow and winding, so you will often need to go slower."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-moto-dual-carriageway",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Motosikletle çift şeritli (bölünmüş) bir yolda gidiyorsun. Levha yoksa en yüksek hızın kaçtır?",
+      "en": "You are riding a motorcycle on a dual carriageway. With no other sign, what is your maximum speed?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "70 km/sa",
+          "en": "70 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "75 km/sa",
+          "en": "75 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "80 km/sa",
+          "en": "80 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "85 km/sa",
+          "en": "85 km/h"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "2019 hız bildirisine göre çift şeritli yolda motosiklet sınırı saatte 85 kilometredir. Otomobillere tanınan saatte 100 kilometre motosiklete uygulanmaz.",
+      "en": "Under the 2019 speed notice, motorcycles are limited to 85 km/h on dual carriageways. The 100 km/h allowed for cars does not apply to them."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-moto-first-class",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Motosikletle birinci sınıf bir yolda gidiyorsun. Levha yoksa en yüksek hızın kaçtır?",
+      "en": "You are riding a motorcycle on a first-class road. With no other sign, what is your maximum speed?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "60 km/sa",
+          "en": "60 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "75 km/sa",
+          "en": "75 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "85 km/sa",
+          "en": "85 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "90 km/sa",
+          "en": "90 km/h"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "2019 hız bildirisine göre birinci ve ikinci sınıf yollarda motosiklet sınırı saatte 75 kilometredir.",
+      "en": "Under the 2019 speed notice, motorcycles are limited to 75 km/h on first- and second-class roads."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-lorry-dual-carriageway",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kamyonla çift şeritli (bölünmüş) bir yolda gidiyorsun. Levha yoksa en yüksek hızın kaçtır?",
+      "en": "You are driving a lorry on a dual carriageway. With no other sign, what is your maximum speed?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "60 km/sa",
+          "en": "60 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "65 km/sa",
+          "en": "65 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "75 km/sa",
+          "en": "75 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "90 km/sa",
+          "en": "90 km/h"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "2019 hız bildirisine göre çift şeritli yolda kamyon ve yarı römorklu çekici sınırı saatte 75 kilometredir. Otobüs ve minibüs için sınır saatte 80 kilometredir.",
+      "en": "Under the 2019 speed notice, lorries and articulated tractor units are limited to 75 km/h on dual carriageways. Buses and minibuses are limited to 80 km/h."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-bus-dual-carriageway",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Otobüsle çift şeritli (bölünmüş) bir yolda gidiyorsun. Levha yoksa en yüksek hızın kaçtır?",
+      "en": "You are driving a bus on a dual carriageway. With no other sign, what is your maximum speed?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "80 km/sa",
+          "en": "80 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "85 km/sa",
+          "en": "85 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "90 km/sa",
+          "en": "90 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "100 km/sa",
+          "en": "100 km/h"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "2019 hız bildirisine göre çift şeritli yolda otobüs, minibüs ve kamyonet sınırı saatte 80 kilometredir.",
+      "en": "Under the 2019 speed notice, buses, minibuses and vans are limited to 80 km/h on dual carriageways."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-lorry-first-class",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Kamyonla birinci sınıf bir yolda gidiyorsun, örneğin Lefkoşa–Güzelyurt yolunda. Levha yoksa en yüksek hızın kaçtır?",
+      "en": "You are driving a lorry on a first-class road such as Lefkoşa–Güzelyurt. With no other sign, what is your maximum speed?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "35 km/sa",
+          "en": "35 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "45 km/sa",
+          "en": "45 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "50 km/sa",
+          "en": "50 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "75 km/sa",
+          "en": "75 km/h"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "2019 hız bildirisine göre birinci sınıf yollarda kamyon sınırı saatte 50 kilometredir, yani çift şeritli yoldakinin çok altındadır. Yol sınıfı değişince sınır da değişir.",
+      "en": "Under the 2019 speed notice, lorries are limited to 50 km/h on first-class roads, far below their dual-carriageway limit. The limit changes with the road class."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-dangerous-goods-town",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Tehlikeli madde taşıyan bir araçla yerleşim yeri içinde gidiyorsun. En yüksek hızın kaçtır?",
+      "en": "You are driving a vehicle carrying dangerous goods through a built-up area. What is your maximum speed?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "25 km/sa",
+          "en": "25 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "30 km/sa",
+          "en": "30 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "40 km/sa",
+          "en": "40 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "50 km/sa",
+          "en": "50 km/h"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "2019 hız bildirisine göre tehlikeli madde taşıyan araçlar yerleşim yeri içinde en çok saatte 25 kilometreyle gidebilir. Genel 50 km/sa sınırı bu araçlar için geçerli değildir.",
+      "en": "Under the 2019 speed notice, vehicles carrying dangerous goods may do no more than 25 km/h in built-up areas. The general 50 km/h limit does not apply to them."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-towing-broken-down",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Arızalanan bir aracı çekerek yerleşim yeri içinden geçiyorsun. En yüksek hızın kaçtır?",
+      "en": "You are towing a broken-down vehicle through a built-up area. What is your maximum speed?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "15 km/sa",
+          "en": "15 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "25 km/sa",
+          "en": "25 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "40 km/sa",
+          "en": "40 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "50 km/sa",
+          "en": "50 km/h"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "2019 hız bildirisine göre arızalı araç çeken bir araç için yerleşim yerinde sınır saatte 25 kilometredir. Çift şeritli yolda bile saatte 50 kilometreyi geçemezsin.",
+      "en": "Under the 2019 speed notice, a vehicle towing a broken-down vehicle is limited to 25 km/h in built-up areas, and to 50 km/h even on a dual carriageway."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-mountain-road-car",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "car"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Otomobille Lefkoşa–Girne dağ yolundan geçiyorsun. Levha yoksa en yüksek hızın kaçtır?",
+      "en": "You are driving a car over the Lefkoşa–Girne mountain road. With no other sign, what is your maximum speed?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "30 km/sa",
+          "en": "30 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "45 km/sa",
+          "en": "45 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "65 km/sa",
+          "en": "65 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "80 km/sa",
+          "en": "80 km/h"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "2019 hız bildirisi Lefkoşa–Girne dağ yolu için ayrı bir sınır koyar: otomobil, minibüs ve kamyonetler için saatte 45 kilometre.",
+      "en": "The 2019 speed notice sets a separate limit for the Lefkoşa–Girne mountain road: 45 km/h for cars, minibuses and vans."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-mountain-road-heavy",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "10 yaşından genç bir kamyonla Lefkoşa–Girne dağ yolundan geçiyorsun. Hangi kural geçerlidir?",
+      "en": "You are driving a lorry under 10 years old over the Lefkoşa–Girne mountain road. Which rule applies?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Herhangi bir viteste, en çok 45 km/sa",
+          "en": "In any gear, at no more than 45 km/h"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Herhangi bir viteste, en çok 50 km/sa",
+          "en": "In any gear, at no more than 50 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Üçüncü viteste, en çok 65 km/sa",
+          "en": "In third gear, at no more than 65 km/h"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Üçüncü viteste, en çok 35 km/sa",
+          "en": "In third gear, at no more than 35 km/h"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "2019 hız bildirisine göre kamyon ve otobüsler dağ yolunda üçüncü viteste, en çok saatte 35 kilometreyle gider. Araç 10 yaşında ya da daha eskiyse sınır saatte 20 kilometredir.",
+      "en": "Under the 2019 speed notice, lorries and buses on the mountain road use third gear and do no more than 35 km/h, or 20 km/h if the vehicle is 10 or more years old."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s27",
+    "sourceRef": "2019 Hız Sınırının Kısıtlanması Hakkında Bildiri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-limit-is-maximum",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bu levhayı görüyorsun. Levhadaki sayı sana ne söyler?",
+      "en": "You see this sign. What does the number on it tell you?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Tutman gereken sabit hızı",
+          "en": "The exact speed you must keep to"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "İzin verilen en düşük hızı",
+          "en": "The lowest speed you are allowed"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız kamyonlara önerilen hızı",
+          "en": "A speed advised for lorries only"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Aşamayacağın en yüksek hızı",
+          "en": "The highest speed you may drive at"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Kırmızı çerçeveli hız levhası bir üst sınırdır, hedef hız değildir. Yağmur, yoğun trafik ya da kötü görüşte bunun altında gidersin.",
+      "en": "A speed-limit sign in a red ring is a maximum, not a target. In rain, heavy traffic or poor visibility you drive below it."
+    },
+    "signId": "prohibitory.speed-limit--65",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-lower-sign-in-town",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Şehir içinde bir sokağa girerken bu levhayı görüyorsun. Hangi sınır geçerlidir?",
+      "en": "You see this sign as you turn into a street in town. Which limit applies?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Levhadaki, genel sınırdan düşük olsa da",
+          "en": "The one on the sign, though lower than the town limit"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Genel şehir içi sınırı; levha yalnız öneridir",
+          "en": "The general town limit; the sign is only advice"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Levhadaki, ama yalnız ağır vasıtalar için",
+          "en": "The one on the sign, but for heavy vehicles only"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Levhadaki, ama yalnız gece saatlerinde",
+          "en": "The one on the sign, but only at night"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Levhayla gösterilen hız sınırı o yolda genel sınırın yerine geçer. Daha düşük sınırlar çoğu zaman dar sokaklarda, okul ve yaya yoğun yerlerde konur.",
+      "en": "A posted limit replaces the general limit on that road. Lower limits are usually set on narrow streets and near schools or busy pedestrian areas."
+    },
+    "signId": "prohibitory.speed-limit--30",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-adapt-conditions",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Hız sınırı yüksek bir yolda şiddetli yağmur başladı. Sınırı aşmamak yeterli midir?",
+      "en": "Heavy rain starts on a road with a high speed limit. Is staying within the limit enough?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Evet, levhadaki sınıra uyduğun sürece sorun yoktur",
+          "en": "Yes, as long as you stay within the posted limit"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız gece yağmur yağıyorsa yavaşlaman gerekir",
+          "en": "You only need to slow down if it is also dark"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hayır, hızını yola ve havaya göre düşürürsün",
+          "en": "No, you lower your speed to suit the road and weather"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız polis kontrolü varsa yavaşlaman gerekir",
+          "en": "You only need to slow down if police are checking"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Hız sınırı iyi koşullar için konmuş bir üst sınırdır. Islak yolda fren mesafesi uzar ve görüş azalır; hızını buna göre seçmek sürücünün sorumluluğudur.",
+      "en": "A speed limit is a maximum set for good conditions. On a wet road stopping distances grow and visibility drops, so choosing a suitable speed is the driver's job."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-slow-queue",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Şehir dışında öbür araçlardan çok daha yavaş gidiyorsun ve arkanda bir kuyruk oluştu. Ne yaparsın?",
+      "en": "Outside town you are going much slower than other traffic and a queue has built up behind you. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kimse sollamasın diye yolun ortasından gidersin",
+          "en": "You drive in the middle so nobody overtakes"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Solda kalıp uygun bir yerde yol verirsin",
+          "en": "You keep left and let them pass where safe"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Dörtlü flaşörü yakıp aynı hızla devam edersin",
+          "en": "You switch on your hazard lights and carry on"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sınırı biraz aşarak kuyruktan kurtulursun",
+          "en": "You go a little over the limit to lose the queue"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Gereksiz yavaş gitmek arkadakileri riskli sollamalara iter. Sol trafikte solda kalıp uygun bir yerde yol vermek herkes için daha güvenlidir.",
+      "en": "Driving unnecessarily slowly pushes others into risky overtakes. In left-hand traffic, keeping left and letting them by at a suitable place is safer for everyone."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.following-gap-meaning",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Öndeki araçla aranda ne kadar mesafe bırakmalısın?",
+      "en": "How much space should you leave to the vehicle in front?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Araya başka bir araç giremeyecek kadar az",
+          "en": "Little enough that nobody can cut in"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Plakasını rahatça okuyabileceğin kadar",
+          "en": "Just enough to read its number plate easily"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Şehir içinde de dışında da hep aynı mesafe",
+          "en": "The same gap in town and outside town"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Ani fren yaparsa güvenle durabileceğin kadar",
+          "en": "Enough to stop safely if it brakes suddenly"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Takip mesafesi, öndeki araç aniden durduğunda tepki verip durabilmen için gereken boşluktur. Hız arttıkça ve yol kayganlaştıkça bu boşluğu büyütürsün.",
+      "en": "Following distance is the space you need to react and stop if the vehicle ahead stops suddenly. The faster you go and the more slippery the road, the bigger the gap."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.following-gap-wet",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Yol ıslak. Öndeki araçla aranda bıraktığın mesafeyi nasıl değiştirirsin?",
+      "en": "The road is wet. How do you change the gap to the vehicle in front?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Artırırsın, çünkü durman uzun sürer",
+          "en": "You increase it, as you need longer to stop"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Azaltırsın, çünkü onun izinde kaymazsın",
+          "en": "You reduce it, as its tyre tracks are drier"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Aynı tutarsın, çünkü ABS mesafeyi korur",
+          "en": "You keep it the same, as ABS keeps you safe"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız gece artırırsın",
+          "en": "You increase it only at night"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Islak yolda lastikler daha az tutunur ve fren mesafesi uzar. ABS direksiyon hâkimiyetini korur ama durma mesafesini kuru yoldaki kadar kısaltmaz.",
+      "en": "On a wet road the tyres grip less and braking distances grow. ABS helps you steer but does not bring stopping distances back to dry-road levels."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.speed-camera-visitor",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "speed",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "KKTC'ye turist olarak geldin ve kiralık aracınla sabit bir hız kamerasına yakalandın. Ne olabilir?",
+      "en": "You are visiting KKTC and a fixed speed camera records your hire car speeding. What can happen?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hiçbir şey; kameralar yalnız yerli sürücülere ceza yazar",
+          "en": "Nothing; cameras only fine local drivers"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ceza yalnız kiralama şirketine yazılır, sana ulaşmaz",
+          "en": "Only the hire company is fined; it never reaches you"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Ceza ancak polis seni yolda durdurursa geçerli olur",
+          "en": "The fine only counts if police stop you on the road"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Ceza, bir sonraki girişinde sınırda sana tebliğ edilir",
+          "en": "The fine is served on you at the border on your next entry"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Bakanlığın broşürüne göre sabit kamera cezaları turistlere bir sonraki girişlerinde sınır ya da liman polisi tarafından tebliğ edilir. Yolda durdurulmasan da kamera kaydı geçerlidir.",
+      "en": "The ministry leaflet says fixed-camera fines are served on tourists by border or port police when they next enter. The camera record counts even if you were never stopped."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Hız kameraları",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.keep-left",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "KKTC'de yolun hangi tarafından gidersin?",
+      "en": "Which side of the road do you drive on in KKTC?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sol tarafından",
+          "en": "The left"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sağ tarafından",
+          "en": "The right"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Şehir içinde sağdan, şehir dışında soldan",
+          "en": "The right in towns and the left outside them"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yol boşsa ortasından",
+          "en": "The middle, if the road is empty"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Yol Kuralları Yasası'na göre KKTC'de yolun solundan gidilir. Sağdan trafiğe alışık sürücüler özellikle kavşaktan çıkarken ve dönerken dikkat etmelidir.",
+      "en": "Under the Road Rules Law you keep to the left in KKTC. Drivers used to driving on the right need extra care when pulling out of junctions and turning."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s7",
+    "sourceRef": "md. 2(a)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.meeting-oncoming",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Dar bir yolda karşıdan bir araç geliyor. Araç senin hangi yanından geçmelidir?",
+      "en": "On a narrow road a vehicle is coming towards you. On which side of you should it pass?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sol yanından",
+          "en": "Your left"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Hangi yanda daha çok yer varsa o yandan",
+          "en": "Whichever side has more room"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sağ yanından",
+          "en": "Your right"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Büyük olan araç hangi yanı seçerse oradan",
+          "en": "Whichever side the larger vehicle chooses"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Yasa, karşıdan gelen aracı sağında bırakacak biçimde solda kalmanı ister. İkiniz de solunuza yanaşınca dar yolda bile güvenle geçersiniz.",
+      "en": "The law tells you to keep left so that an oncoming vehicle passes on your right. If you both move to your left, you can pass safely even on a narrow road."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s7",
+    "sourceRef": "md. 2(a)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.overtake-side",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "KKTC'de önündeki bir aracı normalde hangi tarafından sollarsın?",
+      "en": "In KKTC, on which side do you normally overtake a vehicle in front?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sol tarafından",
+          "en": "On its left"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Hangi taraf boşsa oradan",
+          "en": "Whichever side is free"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Şehir içinde soldan, dışında sağdan",
+          "en": "On its left in town, on its right outside"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sağ tarafından",
+          "en": "On its right"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Yol Kuralları Yasası'na göre sollama, sollanan aracın sağından yapılır. Sol trafikte soldan geçmek kaldırım tarafından geçmek demektir ve tehlikelidir.",
+      "en": "Under the Road Rules Law you overtake on the right of the vehicle being passed. In left-hand traffic, passing on its left means passing on the kerb side, which is dangerous."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s7",
+    "sourceRef": "md. 2(b)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.being-overtaken",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Arkandaki bir araç seni sollamaya başladı. Ne yaparsın?",
+      "en": "A vehicle behind you starts to overtake you. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Geçmesin diye hızlanırsın",
+          "en": "You speed up so it cannot get by"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yer açmak için sağa yanaşırsın",
+          "en": "You move right to make room"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hemen sert fren yaparsın",
+          "en": "You brake hard at once"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Solda kalır, geçmesini kolaylaştırırsın",
+          "en": "You keep left and let it pass"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Yasa, sollanan sürücünün solda kalmasını ister. Hızlanmak ya da sağa yanaşmak sollayan aracı karşı şeritte sıkıştırır.",
+      "en": "The law says the driver being overtaken keeps to the left. Speeding up or moving right can trap the other car in the oncoming lane."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s7",
+    "sourceRef": "md. 2(c)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.undertaking-offence",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir aracı sol tarafından sollarsan ne olur?",
+      "en": "What happens if you overtake a vehicle on its left side?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Ceza puanı ve para cezası olan bir suç işlersin",
+          "en": "You commit an offence with a fine and penalty points"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yol boşsa bir sorun olmaz",
+          "en": "Nothing, provided the road is clear"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız şehir içinde suç sayılır",
+          "en": "It is an offence only in towns"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız sözlü bir uyarı alırsın",
+          "en": "You only get a verbal warning"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Basında yer alan 2023 ceza listesinde bir aracı solundan sollamanın cezası asgari ücretin yüzde 15'i ve 20 ceza puanıdır. Sollama her zaman sağdan yapılır.",
+      "en": "On the 2023 fine list reported in the press, overtaking a vehicle on its left costs 15% of the minimum wage and 20 penalty points. You always overtake on the right."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s31",
+    "sourceRef": "2023 ceza listesi",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.no-overtaking-sign",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Yavaş giden bir traktörün arkasındasın ve bu levhayı görüyorsun. Ne yaparsın?",
+      "en": "You are behind a slow tractor and see this sign. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yol boşsa çabucak sollarsın",
+          "en": "You overtake quickly if the road is clear"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yasak bitene kadar arkasında kalırsın",
+          "en": "You stay behind until the restriction ends"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Traktörü sol tarafından geçersin",
+          "en": "You pass the tractor on its left"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yasak yavaş araçları kapsamaz, sollarsın",
+          "en": "You overtake, as the ban excludes slow vehicles"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Bu levha, yasağın bittiğini gösteren levhaya kadar motorlu araçları sollamayı yasaklar. Genellikle ileriyi yeterince göremediğin yerlere konur.",
+      "en": "This sign bans overtaking motor vehicles until a sign shows the restriction has ended. It is usually placed where you cannot see far enough ahead."
+    },
+    "signId": "prohibitory.no-overtaking",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.overtake-checks",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Sollamaya başlamadan önce doğru sıra hangisidir?",
+      "en": "Before you start to overtake, which order is right?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sağ sinyal, hemen çıkış, sonra aynaya bakış",
+          "en": "Right signal, pull out at once, then check mirrors"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sol sinyal, aynaya bakış, sonra sağa çıkış",
+          "en": "Left signal, check mirrors, then pull out right"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Ayna ve kör nokta, sağ sinyal, sonra çıkış",
+          "en": "Mirrors and blind spot, right signal, then pull out"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Korna, çıkış, sollarken sinyal",
+          "en": "Horn, pull out, then signal while passing"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Önce seni sollamaya başlamış biri olup olmadığını görürsün, sonra niyetini bildirirsin. Sol trafikte sağa doğru çıktığın için sağ kör nokta özellikle önemlidir.",
+      "en": "First make sure nobody is already overtaking you, then show your intention. In left-hand traffic you pull out to the right, so the right blind spot matters most."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.overtake-return",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir aracı solladın. Sol şeride ne zaman dönersin?",
+      "en": "You have overtaken a vehicle. When do you move back to the left?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Önünü geçer geçmez, sinyal vermeden",
+          "en": "As soon as you are past its front, without signalling"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Onu iç aynada görünce, sol sinyalle",
+          "en": "When you see it in your interior mirror, signalling left"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sağ şeritte bir sonraki kavşağa kadar kalırsın",
+          "en": "You stay on the right until the next junction"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sollanan sürücü selektör yapınca",
+          "en": "When the other driver flashes the headlights"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Aracı iç aynada görmek, önüne geçtiğinde yeterli boşluk bıraktığını gösterir. Erken dönmek sollanan aracı fren yapmaya zorlar.",
+      "en": "Seeing the vehicle in your interior mirror shows you have left enough space. Cutting in too early forces it to brake."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.dual-carriageway-lane",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Senin yönünde iki şeridi olan çift şeritli bir yolda normalde hangi şeridi kullanırsın?",
+      "en": "On a dual carriageway with two lanes in your direction, which lane do you normally use?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sol şeridi; sağ şerit sollamak içindir",
+          "en": "The left lane; the right lane is for overtaking"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sağ şeridi; sol şerit ağır vasıtalar içindir",
+          "en": "The right lane; the left lane is for heavy vehicles"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hangisi boşsa onu, sık sık değiştirerek",
+          "en": "Whichever is emptier, changing often"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "İki şeridin ortasını",
+          "en": "The middle, across both lanes"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Solda kalma kuralı çok şeritli yolda da geçerlidir. Sağ şeridi sollamak için kullanır, sonra sola dönersin.",
+      "en": "The keep-left rule also applies on roads with several lanes. Use the right lane to overtake, then move back to the left."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.solid-centre-line",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yolun ortasında, senin tarafında kesintisiz beyaz bir çizgi var. Ne yapabilirsin?",
+      "en": "There is a continuous white line along the centre of the road on your side. What may you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sollamak için çizgiyi geçmezsin",
+          "en": "You must not cross it to overtake"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yol boşsa sollamak için geçebilirsin",
+          "en": "You may cross it to overtake if the road is clear"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız gündüz geçebilirsin",
+          "en": "You may cross it in daylight only"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız motosikletleri sollarken geçebilirsin",
+          "en": "You may cross it only to pass motorcycles"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Kesintisiz orta çizgi, görüşün ya da yolun sollamaya elverişli olmadığı yerlere çizilir. Kesikli çizgide ise güvenliyse sollayabilirsin.",
+      "en": "A solid centre line marks places where the view or the road makes overtaking unsafe. Where the line is broken you may overtake if it is safe."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.two-way-traffic-sign",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Çift şeritli yolun sonuna doğru bu levhayı görüyorsun. Ne değişir?",
+      "en": "Near the end of a dual carriageway you see this sign. What changes?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "İleride yol tek yönlü olur",
+          "en": "The road becomes one-way ahead"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "İleride karşıdan trafik gelir; sol şeritte kalırsın",
+          "en": "Oncoming traffic lies ahead, so you stay left"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "İleride iki şerit de senin yönüne açılır",
+          "en": "Both lanes ahead open to your direction"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "İleride sollama serbest olur",
+          "en": "Overtaking becomes allowed ahead"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Bu levha ileride iki yönlü trafiğe geçildiğini bildirir. Sağ şeritte kalırsan karşıdan gelen araçla burun buruna gelebilirsin.",
+      "en": "This sign warns that two-way traffic starts ahead. If you stay in the right-hand lane, you may meet oncoming traffic head-on."
+    },
+    "signId": "warning.two-way-traffic",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.road-narrows-sign",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bu levhayı görüyorsun. Ne yaparsın?",
+      "en": "You see this sign. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yavaşlar, solda kalır, gerekirse yol verirsin",
+          "en": "You slow down, keep left and give way if needed"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Darlığa ilk sen girmek için hızlanırsın",
+          "en": "You speed up to reach the narrow part first"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yolun tam ortasından gidersin",
+          "en": "You drive along the middle of the road"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hızını korur, karşıdakinin çekilmesini beklersin",
+          "en": "You keep your speed and expect the other driver to move"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Bu levha yolun iki yandan daraldığını bildirir. Daralan yerde iki araç zor sığar; yavaşlayıp solda kalmak çarpışmayı önler.",
+      "en": "This sign warns that the road narrows on both sides. Two vehicles may barely fit, so slowing down and keeping left avoids a collision."
+    },
+    "signId": "warning.road-narrows--both",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.heavy-overtake-space",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Uzun bir kamyonla tek şeritli bir yolda öndeki aracı sollamayı düşünüyorsun. Neyi hesaba katarsın?",
+      "en": "You are driving a long lorry on a single-carriageway road and think about overtaking. What do you take into account?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Büyük olduğun için karşıdakilerin yavaşlayacağını",
+          "en": "Oncoming drivers will slow because you are bigger"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yokuş aşağı sollamanın her zaman güvenli olduğunu",
+          "en": "Overtaking downhill is always safe"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Otomobilden çok daha uzun açık yol gerektiğini",
+          "en": "You need far more clear road than a car does"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Korna çalarsan öndeki aracın duracağını",
+          "en": "The vehicle ahead will stop if you sound the horn"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Uzun ve ağır bir araç geç hızlanır ve sollama boyunca karşı şeritte uzun süre kalır. Yeterli açık yol yoksa sollamazsın.",
+      "en": "A long, heavy vehicle accelerates slowly and spends a long time in the oncoming lane. If there is not enough clear road, do not overtake."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.overtake-at-crossing",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "overtaking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Önündeki araç bir yaya geçidinin hemen önünde durdu. Onu sağından sollayıp geçer misin?",
+      "en": "The vehicle in front has stopped just before a pedestrian crossing. Do you overtake it on the right?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Evet, yaya görmüyorsan hızlıca geçersin",
+          "en": "Yes, if you cannot see anyone, you pass quickly"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Evet, korna çalıp yayaları uyarırsan geçebilirsin",
+          "en": "Yes, if you sound the horn to warn pedestrians"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Evet, sağ şerit boşsa sollamak serbesttir",
+          "en": "Yes, it is allowed if the right lane is clear"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hayır, yaya için durmuş olabilir; sen de durursun",
+          "en": "No, it may have stopped for someone, so you stop too"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Duran araç arkasındaki yayayı senden saklayabilir. Geçidi kullanan ya da kullanmaya hazırlanan bir yaya varsa durup yol vermek zorundasın.",
+      "en": "A stopped vehicle can hide a pedestrian from you. If someone is using or about to use the crossing, you must stop and give way."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.park-near-junction",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "parking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Şehirde bir kavşağın hemen yanına park etmek istiyorsun. Bu neden yasaktır?",
+      "en": "You want to park right next to a junction in town. Why is this banned?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Park eden araç dönen sürücülerin görüşünü kapatır",
+          "en": "A parked car blocks the view of drivers turning"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kavşak kenarları taksi durağına ayrılmıştır",
+          "en": "Junction kerbs are kept for taxi ranks"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kavşakta park yalnız gece yasaktır",
+          "en": "Parking at junctions is banned only at night"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kavşakta yalnız ağır vasıtalar park edebilir",
+          "en": "Only heavy vehicles may park at junctions"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Kavşak yakınına park etmek ceza listesindeki park suçlarındandır. Park eden araç yayaları ve öbür araçları gizler, dönüşleri de zorlaştırır.",
+      "en": "Parking near a junction is one of the parking offences on the fine list. A parked car hides pedestrians and other vehicles and makes turning harder."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s31",
+    "sourceRef": "2023 ceza listesi",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.park-bus-stop",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "parking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bir arkadaşını beklemek için aracını bırakmak istediğin yerde bu levha var. Buraya park edebilir misin?",
+      "en": "You want to leave your car here while you wait for a friend, but this sign is here. May you park?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Evet, otobüs gelene kadar park edebilirsin",
+          "en": "Yes, until a bus arrives"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Evet, dörtlü flaşörü yakarsan park edebilirsin",
+          "en": "Yes, if you switch on your hazard lights"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hayır, otobüs durağına park etmek yasaktır",
+          "en": "No, parking at a bus stop is banned"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Evet, ama yalnız hafta sonları",
+          "en": "Yes, but only at weekends"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Otobüs durağına park etmek ceza listesinde suçtur. Durağı kapatan araç otobüsü yolda durmaya, yolcuları da trafiğe inmeye zorlar.",
+      "en": "Parking at a bus stop is an offence on the fine list. A car in the stop forces the bus to halt in the road and passengers to step into traffic."
+    },
+    "signId": "information.bus-stop",
+    "basis": "secondary",
+    "sourceId": "s31",
+    "sourceRef": "2023 ceza listesi",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.park-pavement",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "parking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Sokak dar ve aracını iki tekerleği kaldırımda olacak biçimde bırakmayı düşünüyorsun. Bu doğru mu?",
+      "en": "The street is narrow, and you think about leaving your car with two wheels on the pavement. Is that right?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Evet, yol açık kaldığı sürece serbesttir",
+          "en": "Yes, as long as the road stays clear"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Evet, yalnız iki tekerlek kaldırımdaysa",
+          "en": "Yes, provided only two wheels are on it"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Evet, gece saatlerinde serbesttir",
+          "en": "Yes, at night it is allowed"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hayır, kaldırıma park etmek suçtur",
+          "en": "No, parking on the pavement is an offence"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Kaldırıma park etmek ceza listesindeki suçlardandır. Yayaları, özellikle bebek arabalı ve tekerlekli sandalyeli kişileri yola inmeye zorlar.",
+      "en": "Parking on the pavement is on the list of offences. It forces pedestrians, especially people with pushchairs or wheelchairs, into the road."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s31",
+    "sourceRef": "2023 ceza listesi",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.park-fire-station",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "parking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Aşağıdaki yerlerden hangisine park etmek ceza listesinde suç olarak yer alır?",
+      "en": "Parking in which of these places is listed as an offence?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Park levhası olan bir alana",
+          "en": "In an area with a parking sign"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Çizgisi ve levhası olmayan sakin bir sokağa",
+          "en": "On a quiet street with no signs or markings"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Bir itfaiye istasyonunun önüne",
+          "en": "In front of a fire station"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Bir otoparkta çizgili bir yere",
+          "en": "In a marked bay in a car park"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Ceza listesine göre itfaiye, hastane ve okul önlerine, kavşaklara, otobüs duraklarına ve kaldırımlara park etmek yasaktır. Bu yerlerde park eden araç acil durumda hayati zaman kaybettirir.",
+      "en": "The fine list bans parking outside fire stations, hospitals and schools, at junctions, at bus stops and on pavements. A car parked there can cost vital time in an emergency."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s31",
+    "sourceRef": "2023 ceza listesi",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.park-left-side",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "parking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "İki yönlü bir şehir sokağında park edeceksin. Aracını nereye bırakırsın?",
+      "en": "You are going to park on a two-way street in town. Where do you leave your car?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sol kaldırıma, trafiğin akış yönünde",
+          "en": "At the left kerb, facing the way traffic flows"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sağ kaldırıma, akışa ters yönde",
+          "en": "At the right kerb, facing against the traffic"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hangi kaldırım boşsa, iki yöne de bakarak",
+          "en": "At whichever kerb is free, facing either way"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yolun ortasına, dörtlü flaşörle",
+          "en": "In the middle of the road with hazard lights on"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Sol trafikte kendi şeridinin kenarı sol kaldırımdır. Akışa ters park etmek, park ederken ve çıkarken karşı şeridi kesmek demektir.",
+      "en": "In left-hand traffic the edge of your lane is the left kerb. Parking against the flow means crossing the oncoming lane to park and to leave."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.no-stopping-sign",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "parking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir yolcuyu indirmek istiyorsun ama yol kenarında bu levha var. Ne yaparsın?",
+      "en": "You want to drop off a passenger, but this sign is at the roadside. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Burada durmaz, izin verilen bir yerde indirirsin",
+          "en": "You drive on and drop them where it is allowed"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Motoru çalışır bırakıp kısa bir süre durursun",
+          "en": "You stop briefly with the engine running"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Dörtlü flaşörü yakıp yolcuyu indirirsin",
+          "en": "You switch on your hazard lights and let them out"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Araçtan inmediğin sürece durabilirsin",
+          "en": "You may stop as long as you stay in the car"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Bu levha park etmeyi de kısa süreli durmayı da yasaklar; yolcu indirmek de duraklamadır. Dörtlü flaşör yasağı kaldırmaz.",
+      "en": "This sign bans both parking and stopping, even briefly; dropping off a passenger counts as stopping. Hazard lights do not lift the ban."
+    },
+    "signId": "prohibitory.no-stopping",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.no-parking-sign",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "parking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yol kenarında bu levha var. Aşağıdakilerden hangisini yapabilirsin?",
+      "en": "This sign is at the roadside. Which of these may you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Alışveriş yaparken aracı orada bırakmak",
+          "en": "Leave the car there while you go shopping"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yolcu indirmek için kısa bir süre durmak",
+          "en": "Stop briefly to let a passenger out"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Aracı gece boyunca orada bırakmak",
+          "en": "Leave the car there overnight"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Motoru kapatıp arkadaşını aramaya gitmek",
+          "en": "Switch off and go to look for your friend"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Bu levha park etmeyi yasaklar, kısa süreli duraklamayı değil. Aracın başında kalıp yolcu indirip bindirebilirsin, ama aracı bırakıp gidemezsin.",
+      "en": "This sign bans parking, not a short stop. You may let a passenger in or out while you stay with the car, but you may not leave it."
+    },
+    "signId": "prohibitory.no-parking",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.park-uphill-kerb",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "parking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Yokuş yukarı bakacak biçimde sol kaldırımın yanına park ettin. Ön tekerlekleri hangi yöne çevirirsin?",
+      "en": "You have parked facing uphill next to the left kerb. Which way do you turn the front wheels?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sola, kaldırıma doğru",
+          "en": "To the left, towards the kerb"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sağa, kaldırımdan uzağa",
+          "en": "To the right, away from the kerb"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Düz bırakırsın",
+          "en": "You leave them straight"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "El freni çekiliyse fark etmez",
+          "en": "It makes no difference if the handbrake is on"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Araç geri kayarsa kaldırımdan uzağa çevrilmiş ön tekerleğin arkası kaldırıma dayanır ve aracı durdurur. El frenini çekip vitese takmak yine gerekir; tekerlek yönü ek bir güvencedir.",
+      "en": "If the car rolls back, the back of a front wheel turned away from the kerb rests against it and stops the car. You still apply the handbrake and leave it in gear; the wheel angle is an extra safeguard."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.park-downhill-kerb",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "parking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Yokuş aşağı bakacak biçimde sol kaldırımın yanına park ettin. Ön tekerlekleri hangi yöne çevirirsin?",
+      "en": "You have parked facing downhill next to the left kerb. Which way do you turn the front wheels?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sola, kaldırıma doğru",
+          "en": "To the left, towards the kerb"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sağa, kaldırımdan uzağa",
+          "en": "To the right, away from the kerb"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Düz bırakırsın",
+          "en": "You leave them straight"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Vitesi boşa alırsan fark etmez",
+          "en": "It makes no difference if you leave it in neutral"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Araç ileri kayarsa kaldırıma doğru çevrilmiş tekerlek kaldırıma dayanır ve aracı yola değil kaldırıma yönlendirir.",
+      "en": "If the car rolls forward, a wheel turned towards the kerb runs into it and steers the car away from the road."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.open-door-check",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "parking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Yol kenarına park ettin ve kapını açacaksın. Önce ne yaparsın?",
+      "en": "You have parked at the roadside and are about to open your door. What do you do first?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kapıyı biraz aralayıp gelenleri uyarırsın",
+          "en": "Open the door a little to warn anyone coming"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ayna ve omuz üstünden iki tekerlekli ararsın",
+          "en": "Check the mirror and over your shoulder for bikes"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Dörtlü flaşörü yakıp kapıyı hemen açarsın",
+          "en": "Switch on your hazard lights and open it at once"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Korna çalıp kapıyı açarsın",
+          "en": "Sound the horn, then open the door"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Aniden açılan kapı arkadan gelen bisikletli ya da motosikletliyi düşürebilir. Kapıyı önce yavaşça ve az açar, yol boşsa tam açarsın.",
+      "en": "A door opened suddenly can knock down a cyclist or motorcyclist coming from behind. Open it slowly and only a little at first, then fully once clear."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.stop-not-on-bend",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "parking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Şehir dışında kısa bir süre durman gerekiyor. Hangi yerden kaçınırsın?",
+      "en": "Outside town you need to stop for a short time. Which place do you avoid?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yolun genişlediği düz bir kesimden",
+          "en": "A straight stretch where the road is wider"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yol kenarındaki bir dinlenme alanından",
+          "en": "A lay-by at the roadside"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Bir virajdan ya da tepe üstünden",
+          "en": "A bend or the top of a hill"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yoldan uzak, geniş bir toprak alandan",
+          "en": "A wide verge well clear of the road"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Virajda ya da tepe üstünde duran aracı arkadan gelenler son anda görür. Durman gerekirse görüşün açık olduğu ve yoldan çıkabileceğin bir yer seçersin.",
+      "en": "Drivers coming up behind see a car stopped on a bend or hilltop only at the last moment. If you must stop, choose a place with a clear view where you can get off the road."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.no-stop-on-crossing",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "parking",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bir yolcuyu indirmek için en kolay yer yaya geçidinin üstü gibi görünüyor. Orada durabilir misin?",
+      "en": "The handiest place to drop off a passenger seems to be on a pedestrian crossing. May you stop there?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Evet, motoru çalışır bırakırsan",
+          "en": "Yes, if you keep the engine running"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Evet, o anda yaya yoksa",
+          "en": "Yes, if nobody is crossing at the time"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hayır, yaya geçidinde durmaz ve park etmezsin",
+          "en": "No, you do not stop or park on a crossing"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Evet, dörtlü flaşörü yakarsan",
+          "en": "Yes, if your hazard lights are on"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Geçitte duran araç yayaların yolunu kapatır ve onları öbür sürücülerden gizler. Yolcuyu geçitten uzakta, güvenli bir yerde indirirsin.",
+      "en": "A car on a crossing blocks pedestrians and hides them from other drivers. Drop your passenger well away from it, somewhere safe."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.documents-to-carry",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Polis seni yol kontrolünde durdurdu. Yanında hangi belgeler olmalıdır?",
+      "en": "Police stop you at a road check. Which documents should you have with you?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız ehliyet; öbür belgeler araç sahibindedir",
+          "en": "Only your licence; the owner keeps the rest"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ehliyet ve aracın satış faturası",
+          "en": "Your licence and the vehicle's purchase invoice"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Ehliyet, seyrüsefer belgesi, sigorta ve kimlik",
+          "en": "Licence, seyrüsefer certificate, insurance and ID"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız kimlik; ehliyet bilgisayardan bakılır",
+          "en": "Only your ID; the licence is checked on a computer"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Bakanlığın broşürüne göre araç kullanırken ehliyetin (ya da öğrenci ehliyetin), seyrüsefer belgesi, sigorta ve kimliğin yanında olmalıdır.",
+      "en": "The ministry leaflet says you carry your licence (or learner licence), the seyrüsefer certificate, insurance and ID when you drive."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Belgeler",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.seyrusefer-meaning",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Araçta bulundurman gereken seyrüsefer belgesi neyi gösterir?",
+      "en": "What does the seyrüsefer certificate you carry in the car show?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Aracın sigortalı olduğunu",
+          "en": "That the vehicle is insured"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Aracın teknik muayeneden geçtiğini",
+          "en": "That the vehicle has passed its inspection"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sürücünün ehliyet sınıfını",
+          "en": "The driver's licence class"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Aracın yol vergisinin ödendiğini",
+          "en": "That the vehicle's road tax has been paid"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Seyrüsefer belgesi aracın yol vergisinin ödendiğini gösterir ve araçta bulundurulur. Sigorta ayrı bir belgedir ve o da yanında olmalıdır.",
+      "en": "The seyrüsefer certificate shows that the vehicle's road tax is paid and stays in the vehicle. Insurance is a separate document that you also carry."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Belgeler",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.points-100-suspension",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "İlk ceza puanını aldığın günden başlayarak 15 ay içinde 100 ceza puanına ulaştın. Ne olur?",
+      "en": "Within 15 months of your first penalty points you reach 100 points. What happens?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Ehliyetin 3 ay süreyle askıya alınır",
+          "en": "Your licence is suspended for 3 months"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ehliyetin kalıcı olarak iptal edilir",
+          "en": "Your licence is cancelled for good"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız yazılı bir uyarı alırsın",
+          "en": "You receive a written warning only"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Puanların sıfırlanır, başka bir şey olmaz",
+          "en": "Your points are reset and nothing else happens"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Ceza Puanı Yasası'na göre ilk puandan başlayarak 15 ay içinde 100 puana ulaşan sürücünün ehliyeti 3 ay askıya alınır. Tekrar eden dönemlerde süre uzar.",
+      "en": "Under the Penalty Points Law, a driver who reaches 100 points within 15 months of the first points loses the licence for 3 months. Repeat cycles bring longer suspensions."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s11",
+    "sourceRef": "Ceza Puanı Yasası değişikliği, R.G. 130, 2007",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.points-repeat-suspension",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Ehliyetin ceza puanı yüzünden bir kez 3 ay askıya alındı. Sonraki 15 ay içinde yine 100 puana ulaştın. Askı süresi ne olur?",
+      "en": "Your licence has already been suspended once for 3 months because of points. Within the next 15 months you reach 100 points again. How long is the suspension?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "3 ay",
+          "en": "3 months"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "6 ay",
+          "en": "6 months"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "1 yıl",
+          "en": "1 year"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "2 yıl",
+          "en": "2 years"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Yasa basamaklı bir düzen kurar: ilk seferde 3 ay, ikincide 6 ay, üçüncüde 1 yıl, dördüncüde 2 yıl.",
+      "en": "The law sets a ladder: 3 months the first time, 6 months the second, then 1 year, then 2 years."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s11",
+    "sourceRef": "Ceza Puanı Yasası değişikliği, R.G. 130, 2007",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.points-speeding",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Nisan 2025'ten bu yana hız sınırını saatte 21 ile 40 kilometre arasında aşan sürücü kaç ceza puanı alır?",
+      "en": "Since April 2025, how many penalty points does a driver get for exceeding the limit by 21 to 40 km/h?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "10 puan",
+          "en": "10 points"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "20 puan",
+          "en": "20 points"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "30 puan",
+          "en": "30 points"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "50 puan",
+          "en": "50 points"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Polisin açıkladığı 2025 değişikliklerine göre sınırı saatte 20 kilometreye kadar aşmak 10 puan, 21 ile 40 kilometre arasında aşmak 30 puandır. Birkaç ciddi hız ihlali seni 100 puan sınırına yaklaştırır.",
+      "en": "Under the 2025 changes announced by the police, up to 20 km/h over the limit costs 10 points, and 21 to 40 km/h over costs 30 points. A few serious speeding offences bring you close to 100 points."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s28",
+    "sourceRef": "05.04.2025 yasa değişiklikleri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.points-no-licence",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Aşağıdaki suçlardan hangisi tek başına 100 ceza puanı getirir?",
+      "en": "Which of these offences on its own brings 100 penalty points?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Ehliyetsiz araç kullanmak",
+          "en": "Driving without a licence"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Hız sınırını saatte 20 kilometreye kadar aşmak",
+          "en": "Exceeding the limit by up to 20 km/h"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Araç kullanırken cep telefonu kullanmak",
+          "en": "Using a mobile phone while driving"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Emniyet kemeri takmamak",
+          "en": "Not wearing a seat belt"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "2025 değişikliklerine göre ehliyetsiz araç kullanmak ve polisin dur ihtarına uymamak 100 puandır. Telefon kullanmak 50, hafif hız aşımı ve kemer takmamak 10 puandır.",
+      "en": "Under the 2025 changes, driving without a licence and ignoring a police order to stop each bring 100 points. Phone use brings 50, and minor speeding and not wearing a seat belt 10 each."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s28",
+    "sourceRef": "05.04.2025 yasa değişiklikleri",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.fines-minimum-wage",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "KKTC'de trafik suçlarının sabit para cezaları nasıl belirlenir?",
+      "en": "How are fixed fines for traffic offences set in KKTC?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Aylık asgari ücretin yüzdesi olarak",
+          "en": "As a percentage of the monthly minimum wage"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Avro cinsinden sabit tutarlar olarak",
+          "en": "As fixed amounts in euros"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sürücünün yıllık gelirine göre",
+          "en": "According to the driver's yearly income"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Polisin her yıl belirlediği tutarlarla",
+          "en": "At amounts the police set each year"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Sabit cezalar asgari ücretin yüzdesi olarak yazılır; asgari ücret artınca TL tutarı da artar. Bu yüzden eski haberlerdeki TL tutarları güncel olmayabilir.",
+      "en": "Fixed fines are written as a percentage of the minimum wage, so the amount in TL rises when the minimum wage does. TL figures in older news reports may be out of date."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s6",
+    "sourceRef": "Ceza tutarları",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.class-d-car",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bugünkü KKTC sınıflarına göre D sınıfı ehliyetle ne kullanabilirsin?",
+      "en": "Under today's KKTC classes, what may you drive with a class D licence?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "22 ve daha çok yolculu otobüs",
+          "en": "A bus with 22 or more passengers"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Otomobil, kamyonet ve en çok 8 yolculu araç",
+          "en": "A car, a pick-up or a vehicle with up to 8 passengers"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız 50 cc'ye kadar moped",
+          "en": "Only a moped up to 50 cc"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Her ağırlıkta kamyon ve tır",
+          "en": "Lorries and articulated trucks of any weight"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "KKTC'de bugün geçerli sistemde otomobil ehliyeti D sınıfıdır: en çok 8 yolculu araçlar, kamyonetler ve 2.032 kg'a kadar öbür araçlar. AB'de otomobil için kullanılan B harfi burada ağır kamyon demektir.",
+      "en": "In the current KKTC system the car licence is class D: vehicles with up to 8 passengers, pick-ups and other vehicles up to 2,032 kg. The letter B, used for cars in the EU, means heavy lorries here."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s10",
+    "sourceRef": "Tüzük md. 33(2), R.G. 129, 2013",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.class-b-today",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir arkadaşın KKTC'de B sınıfı ehliyeti olduğunu söylüyor. Bugünkü KKTC sınıflarına göre bu ne demektir?",
+      "en": "A friend says they hold a KKTC class B licence. Under today's KKTC classes, what does that mean?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Otomobil kullanabilir, başka bir şey değil",
+          "en": "They can drive cars and nothing else"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Motosiklet kullanabilir, başka bir şey değil",
+          "en": "They can ride motorcycles and nothing else"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Ağır kamyon kullanabilir",
+          "en": "They can drive heavy lorries"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Minibüs kullanabilir, başka bir şey değil",
+          "en": "They can drive minibuses and nothing else"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Bugünkü KKTC sisteminde B, 2.032 kg'dan ağır kamyonlar ve başka sınıfa girmeyen ağır araçlar içindir. Otomobil ehliyeti D'dir; AB harfleriyle karıştırma.",
+      "en": "In today's KKTC system, B covers lorries over 2,032 kg and other heavy vehicles not listed elsewhere. The car licence is D, so do not confuse it with the EU letters."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s10",
+    "sourceRef": "Tüzük md. 33(2), R.G. 129, 2013",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.class-a-bus",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bugünkü KKTC sınıflarına göre 22 ve daha çok oturan yolcu taşıyan bir otobüs için hangi sınıf gerekir?",
+      "en": "Under today's KKTC classes, which class do you need for a bus carrying 22 or more seated passengers?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "A sınıfı",
+          "en": "Class A"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "B sınıfı",
+          "en": "Class B"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "C sınıfı",
+          "en": "Class C"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "D sınıfı",
+          "en": "Class D"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "A sınıfı 22 ve daha çok oturan yolcu taşıyan araçlar içindir. 9 ile 21 yolculu minibüsler C, ağır kamyonlar B sınıfıdır.",
+      "en": "Class A covers vehicles with 22 or more seated passengers. Minibuses with 9 to 21 seats are class C, and heavy lorries class B."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s10",
+    "sourceRef": "Tüzük md. 33(2), R.G. 129, 2013",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.class-c-minibus",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bugünkü KKTC sınıflarına göre 14 yolcu koltuklu bir minibüs için hangi sınıf gerekir?",
+      "en": "Under today's KKTC classes, which class do you need for a minibus with 14 passenger seats?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "A sınıfı",
+          "en": "Class A"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "B sınıfı",
+          "en": "Class B"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "C sınıfı",
+          "en": "Class C"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "D sınıfı",
+          "en": "Class D"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "C sınıfı 8'den çok, 22'den az oturan yolcu taşıyan araçlar içindir. 22 ve daha çok yolcu A, en çok 8 yolcu D sınıfıdır.",
+      "en": "Class C covers vehicles with more than 8 but fewer than 22 seated passengers. 22 or more is class A, and up to 8 is class D."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s10",
+    "sourceRef": "Tüzük md. 33(2), R.G. 129, 2013",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.class-j-moped",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bugünkü KKTC sınıflarına göre 50 cc'ye kadar bir moped için hangi ehliyet sınıfı gerekir?",
+      "en": "Under today's KKTC classes, which licence class covers a moped up to 50 cc?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "H1",
+          "en": "H1"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "M",
+          "en": "M"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "J",
+          "en": "J"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "D",
+          "en": "D"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "J sınıfı, üç tekerlekliler dahil 50 cc'ye kadar mopedler içindir. M harfi yalnız henüz uygulanmayan 2017 yönetmeliğinde geçer.",
+      "en": "Class J covers mopeds up to 50 cc, including three-wheeled ones. The letter M appears only in the 2017 regulation, which is not yet in force."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s10",
+    "sourceRef": "Tüzük md. 33(2), R.G. 129, 2013",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.class-h-coverage",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "H sınıfı (sınırsız motosiklet) ehliyetin var. Bu ehliyet başka hangi sınıfları da kapsar?",
+      "en": "You hold a class H (unrestricted motorcycle) licence. Which other classes does it also cover?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız H2",
+          "en": "H2 only"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "D ve J",
+          "en": "D and J"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız J",
+          "en": "J only"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "H2, H1 ve J",
+          "en": "H2, H1 and J"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Tüzüğe göre H sınıfı H2, H1 ve J'yi; H2, H1 ve J'yi; H1 de J'yi kapsar. Motosiklet ehliyeti otomobil (D) kullanma hakkı vermez.",
+      "en": "Under the regulation, H covers H2, H1 and J; H2 covers H1 and J; and H1 covers J. A motorcycle licence does not let you drive a car (class D)."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s10",
+    "sourceRef": "Tüzük md. 34(4), R.G. 129, 2013",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.class-new-system-letters",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "2017 yönetmeliğinde tanımlanan, henüz uygulanmayan yeni sınıflar yürürlüğe girerse bugünkü D sınıfı (otomobil) ehliyet hangi harfe çevrilir?",
+      "en": "If the new classes defined in the 2017 regulation, not yet in force, are introduced, which letter will today's class D (car) licence become?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "B",
+          "en": "B"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "A",
+          "en": "A"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "C1",
+          "en": "C1"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "M",
+          "en": "M"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "2017 yönetmeliğinin dönüşüm tablosunda D, B'ye; J, M'ye; A ise D'ye çevrilir. Bugün hâlâ eski harfler geçerlidir.",
+      "en": "In the 2017 regulation's conversion table, D becomes B, J becomes M and A becomes D. The old letters are still the ones in use today."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s4",
+    "sourceRef": "Ek VI",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.moto-basic-course",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "moto"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Motosiklet ya da moped ehliyetine hazırlanan bir öğrenci, tüzüğe göre nasıl bir temel kurs tamamlar?",
+      "en": "Under the regulation, what basic course does a motorcycle or moped learner complete?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "6 saatlik, tek günde",
+          "en": "6 hours, in a single day"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "24 saatlik, günde en çok 8 saat",
+          "en": "24 hours, at most 8 hours a day"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "12 saatlik, günde en çok 3 saat",
+          "en": "12 hours, at most 3 hours a day"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kurs yok, yalnız sınava girilir",
+          "en": "No course; only the exam"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "2013 tüzük değişikliğine göre motosiklet ve moped öğrencileri 12 saatlik temel kursu, günde en çok 3 saat olmak üzere tamamlar.",
+      "en": "Under the 2013 amendment to the regulation, motorcycle and moped learners complete a 12-hour basic course, with no more than 3 hours a day."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s10",
+    "sourceRef": "Tüzük md. 29(7), R.G. 129, 2013",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.foreign-licence-90-days",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Tatil için KKTC'ye geldin ve kendi ülkenin geçerli ehliyeti yanında. Bu ehliyetle ne kadar süre araç kullanabilirsin?",
+      "en": "You come to KKTC on holiday with a valid licence from your own country. How long may you drive on it?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Girişten itibaren 30 gün",
+          "en": "30 days from entry"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Girişten itibaren 90 gün",
+          "en": "90 days from entry"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Girişten itibaren 6 ay",
+          "en": "6 months from entry"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Girişten itibaren 1 yıl",
+          "en": "1 year from entry"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Turistler kendi ülkelerinin geçerli ehliyetiyle girişten itibaren 90 güne kadar araç kullanabilir. Oturum, çalışma ya da öğrenci izni alan kişi turist sayılmaz.",
+      "en": "Tourists may drive on a valid licence from their own country for up to 90 days from entry. Anyone who gets a residence, work or student permit is no longer a tourist."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Yabancı ehliyet",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.student-must-convert",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "KKTC'de üniversitede okumak için öğrenci oturma izni aldın. Kendi ülkenin ehliyetiyle araç kullanmaya devam edebilir misin?",
+      "en": "You have a student residence permit to study at a university in KKTC. Can you keep driving on your home licence?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hayır, KKTC ehliyetine çevirmen gerekir",
+          "en": "No, you must convert it to a KKTC licence"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Evet, öğrenimin sürdüğü sürece",
+          "en": "Yes, for as long as you study"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Evet, uluslararası ehliyetin de varsa",
+          "en": "Yes, if you also hold an international permit"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Evet, ama yalnız kiralık araçlarda",
+          "en": "Yes, but only in hire cars"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Oturum, çalışma ya da öğrenci izni alan kişi turist statüsünü kaybeder ve ehliyetini KKTC ehliyetine çevirmek zorundadır. Turistlere tanınan 90 gün kuralı artık sana uygulanmaz.",
+      "en": "Anyone with a residence, work or student permit loses tourist status and must exchange their licence for a KKTC one. The 90-day rule for tourists no longer covers you."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s16",
+    "sourceRef": "PIO, sık sorulan sorular",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.third-country-first-step",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Türkiye dışında bir ülkenin ehliyeti sende var ve KKTC ehliyetine geçmen gerekiyor. Trafik Dairesi'ndeki süreç nasıl başlar?",
+      "en": "You hold a licence from a country other than Türkiye and need a KKTC licence. How does the process at the Trafik Dairesi begin?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kurallar ve levhalardan bir hazırlık sınavıyla",
+          "en": "With a preparatory test on rules and signs"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ehliyet doğrudan, sınavsız değiştirilir",
+          "en": "Your licence is swapped directly, with no test"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız bir sağlık raporu verilerek",
+          "en": "By handing in a medical report only"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Teorisiz, yalnız bir yol sınavıyla",
+          "en": "With a road test only, and no theory"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Süreç kurallar ve levhalar üzerine bir hazırlık sınavıyla başlar. Sonra öğrenci ehliyeti alır, sürücü kursu eğitmeniyle en az 5 gün (8 saat gündüz, 2 saat gece) direksiyon dersi yapar ve KKTC ehliyetine başvurursun.",
+      "en": "It starts with a preparatory test on rules and signs. You then get a learner licence, drive with a driving-school instructor on at least 5 days (8 hours by day and 2 at night), and apply for the KKTC licence."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s16",
+    "sourceRef": "PIO, sık sorulan sorular",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.foreign-licence-insurance-risk",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Turist statüsünü kaybetmiş bir yabancı, ehliyetini çevirmeden yabancı ehliyetle araç kullanıyor. Hangi risk vardır?",
+      "en": "A foreigner who is no longer a tourist keeps driving on a foreign licence without converting it. What is the risk?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Risk yoktur; yabancı ehliyet her zaman geçerlidir",
+          "en": "There is none; a foreign licence is always valid"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Polis ehliyetsiz sayar, sigorta da ödemeyebilir",
+          "en": "Police treat them as unlicensed; insurance may not pay"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız küçük bir idari harç ödenir",
+          "en": "Only a small administrative fee is due"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yalnız şehir dışında araç kullanamaz",
+          "en": "They are only barred from driving outside towns"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Basında yer alan açıklamalara göre polis, turist olmayan yabancıları yabancı ehliyetle yakaladığında ehliyetsiz sayar. Kaza olursa sigorta hasarı karşılamayabilir.",
+      "en": "According to press reports, police treat non-tourist foreigners driving on a foreign licence as unlicensed. After a crash, the insurer may refuse to pay."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s36",
+    "sourceRef": "Yenidüzen, 30.09.2022",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.learner-l-plate",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Öğrenci ehliyetiyle direksiyon çalışıyorsun. Araçta ne bulunmalıdır?",
+      "en": "You are practising on a learner licence. What must the vehicle display?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sürekli yanan dörtlü flaşör",
+          "en": "Hazard lights switched on throughout"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "L levhası",
+          "en": "An L-plate"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Arka camda kırmızı bir üçgen",
+          "en": "A red triangle in the rear window"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Özel bir öğrenci plakası",
+          "en": "A special learner number plate"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Öğrenci sürücünün aracında L levhası bulunmaması ceza listesinde suçtur. L levhası öbür sürücülere deneyimsiz biriyle karşılaştıklarını söyler.",
+      "en": "Driving as a learner without an L-plate is an offence on the fine list. The plate tells other drivers they are dealing with someone still learning."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s31",
+    "sourceRef": "2023 ceza listesi",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.learner-not-alone",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Öğrenci ehliyetin var ve evinin yakınındaki markete tek başına arabayla gitmek istiyorsun. Bu doğru mu?",
+      "en": "You hold a learner licence and want to drive alone to the shop near your home. Is that right?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Evet, kısa mesafelerde tek başına sürebilirsin",
+          "en": "Yes, you may drive alone on short trips"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Evet, L levhası takılıysa tek başına sürebilirsin",
+          "en": "Yes, as long as the L-plate is fitted"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hayır, yanında bir refakatçi sürücü olmalıdır",
+          "en": "No, you must have an accompanying driver"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Evet, ama yalnız gündüz saatlerinde",
+          "en": "Yes, but only in daylight"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Öğrenci ehliyeti tek başına araç kullanma izni vermez. Refakatçi sürücü olmadan araç kullanmak ceza listesinde suç olarak yer alır.",
+      "en": "A learner licence does not allow you to drive alone. Driving without an accompanying driver is an offence on the fine list."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s31",
+    "sourceRef": "2023 ceza listesi",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.first-licence-one-year",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Sınavları geçtin ve ilk kez KKTC ehliyeti alıyorsun. İlk ehliyetin ne kadar süre için verilir?",
+      "en": "You have passed your tests and are getting your first KKTC licence. For how long is the first licence issued?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "1 yıl",
+          "en": "1 year"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "2 yıl",
+          "en": "2 years"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "5 yıl",
+          "en": "5 years"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "10 yıl",
+          "en": "10 years"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Yasanın harç cetveline göre ilk kez verilen ehliyet bir yıllıktır. Sonra 2, 3, 5 ya da 10 yıllık olarak yenilenir.",
+      "en": "Under the fee schedule of the law, a first licence is issued for one year. It is then renewed for 2, 3, 5 or 10 years."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s6",
+    "sourceRef": "Ek Kısım II",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.min-age-car-licence",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "KKTC'de otomobil (D sınıfı) ehliyeti alabilmek için en az kaç yaşında olmalısın?",
+      "en": "How old must you be to get a car (class D) licence in KKTC?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "16",
+          "en": "16"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "17",
+          "en": "17"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "18",
+          "en": "18"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "21",
+          "en": "21"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Bakanlığa göre ehliyet için en düşük yaş 18'dir. Araç kiralamak için ise en az 21 yaşında olmak gerekir.",
+      "en": "According to the ministry, the minimum age for a licence is 18. To hire a car you must be at least 21."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": "Ehliyet yaşı",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "rules.e-scooter-roads",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "documents",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Ehliyet gerektirmeyen bir elektrikli scooter kullanıyorsun. Aşağıdaki yollardan hangisinde kullanman yasaktır?",
+      "en": "You ride an e-scooter that needs no licence. On which of these roads are you not allowed to ride it?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sınırı 50 km/sa olan bir şehir sokağında",
+          "en": "A town street with a 50 km/h limit"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sınırı 30 km/sa olan bir mahalle sokağında",
+          "en": "A residential street with a 30 km/h limit"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Köy içinde sınırı 50 km/sa olan bir yolda",
+          "en": "A road through a village with a 50 km/h limit"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Şehirlerarası çift şeritli bir yolda",
+          "en": "An intercity dual carriageway"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Trafik Dairesi'nin 2026 duyurusuna göre ehliyetsiz kullanılabilen e-scooterlar şehirlerarası yollarda ve sınırı saatte 50 kilometreyi aşan yollarda kullanılamaz. Kullanıcı en az 18 yaşında olmalıdır.",
+      "en": "Under the Trafik Dairesi's 2026 notice, licence-free e-scooters are banned on intercity roads and on roads with a limit above 50 km/h. Riders must be at least 18."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s39",
+    "sourceRef": "Trafik Dairesi duyurusu, 2026",
+    "reviewedAt": "2026-10-20"
+  }
+]

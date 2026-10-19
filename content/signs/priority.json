@@ -1,0 +1,372 @@
+[
+  {
+    "id": "priority.stop",
+    "category": "priority",
+    "image": {
+      "src": "/signs/priority/stop.svg",
+      "alt": {
+        "tr": "Kırmızı sekizgen; ortasında beyaz harflerle DUR yazısı.",
+        "en": "Red octagon with the word DUR in white letters."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "dur",
+      "en": "stop"
+    },
+    "name": {
+      "tr": "Dur",
+      "en": "Stop"
+    },
+    "meaning": {
+      "tr": "Kavşağa girmeden önce tam olarak durmak ve ana yoldaki trafiğe yol vermek zorundasın.",
+      "en": "You must come to a complete stop before the junction and give way to traffic on the main road."
+    },
+    "driverAction": {
+      "tr": "Dur çizgisinde, çizgi yoksa yolu görebileceğin ilk noktada tamamen dur. Yol boşalınca kavşağa gir.",
+      "en": "Stop completely at the stop line, or where you can first see the road if there is no line. Move off only when the road is clear."
+    },
+    "confusions": [
+      {
+        "with": "priority.give-way",
+        "tip": {
+          "tr": "Ters üçgende yol boşsa durmadan geçebilirsin. Sekizgen DUR levhasında yol boş olsa da tam duruş zorunludur.",
+          "en": "At a give-way triangle you may go without stopping if the road is clear. At the DUR octagon you must always stop fully."
+        }
+      },
+      {
+        "with": "prohibitory.no-entry",
+        "tip": {
+          "tr": "Beyaz yatay çubuklu kırmızı daire girilmez demektir. DUR yazılı sekizgen ise durup yol vermeni ister.",
+          "en": "A red disc with a white bar means no entry. The DUR octagon tells you to stop and give way."
+        }
+      }
+    ],
+    "related": [
+      "priority.give-way",
+      "priority.stop--dur-stop"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Kuzeyde DUR ve DUR / STOP yazılı biçimler fotoğraflandı; eski STOP levhaları da görülebilir.",
+        "en": "Both DUR and DUR / STOP versions have been photographed in the north; older STOP signs may also be seen."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "priority.stop--dur-stop",
+    "category": "priority",
+    "image": {
+      "src": "/signs/priority/stop--dur-stop.svg",
+      "alt": {
+        "tr": "Kırmızı sekizgen; beyaz harflerle üstte DUR, altta STOP yazısı.",
+        "en": "Red octagon with DUR above STOP in white letters."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "dur-stop",
+      "en": "stop-dur-stop"
+    },
+    "name": {
+      "tr": "Dur (DUR / STOP yazılı)",
+      "en": "Stop (DUR / STOP wording)"
+    },
+    "meaning": {
+      "tr": "DUR levhasının iki dilli biçimidir. Anlamı aynıdır: tam dur ve yol ver.",
+      "en": "This is the bilingual form of the stop sign. It means the same: stop completely and give way."
+    },
+    "driverAction": {
+      "tr": "Dur çizgisinde tamamen dur, sağına ve soluna bak, yol boşsa kavşağa gir.",
+      "en": "Stop completely at the line, look both ways and move off only when the road is clear."
+    },
+    "confusions": [
+      {
+        "with": "priority.stop",
+        "tip": {
+          "tr": "DUR ve DUR / STOP aynı kuraldır; yazının dili kuralı değiştirmez.",
+          "en": "DUR and DUR / STOP carry the same rule; the language of the wording does not change it."
+        }
+      }
+    ],
+    "related": [
+      "priority.stop",
+      "priority.give-way"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Lefkoşa ve çevresinde fotoğraflandı.",
+        "en": "Photographed in and around Lefkoşa."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "priority.give-way",
+    "category": "priority",
+    "image": {
+      "src": "/signs/priority/give-way.svg",
+      "alt": {
+        "tr": "Ucu aşağı bakan, kırmızı kenarlı beyaz ters üçgen.",
+        "en": "White inverted triangle with a red border, point facing down."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yol-ver",
+      "en": "give-way"
+    },
+    "name": {
+      "tr": "Yol ver",
+      "en": "Give way"
+    },
+    "meaning": {
+      "tr": "Girdiğin yolda veya çemberde trafiğe yol vermek zorundasın.",
+      "en": "You must give way to traffic on the road or roundabout you are joining."
+    },
+    "driverAction": {
+      "tr": "Yavaşla ve gerekirse dur. Ana yoldaki taşıtlar geçmeden kavşağa girme.",
+      "en": "Slow down and stop if necessary. Do not pull out until traffic on the main road has passed."
+    },
+    "confusions": [
+      {
+        "with": "priority.stop",
+        "tip": {
+          "tr": "Yol boşsa ters üçgende durmadan devam edebilirsin; DUR levhasında her zaman durursun.",
+          "en": "At a give-way sign you may continue without stopping if the road is clear; at a stop sign you always stop."
+        }
+      },
+      {
+        "with": "warning.other-danger",
+        "tip": {
+          "tr": "Ucu yukarı bakan üçgen uyarı levhasıdır. Ucu aşağı bakan boş üçgen yol ver demektir.",
+          "en": "A triangle pointing up is a warning sign. An empty triangle pointing down means give way."
+        }
+      }
+    ],
+    "related": [
+      "priority.stop",
+      "priority.give-way-ahead",
+      "warning.roundabout-ahead"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Kuzeydeki levhada YOL VER yazısı bulunup bulunmadığı doğrulanmadı.",
+        "en": "Whether the northern sign carries the words YOL VER has not been confirmed."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "priority.give-way-ahead",
+    "category": "priority",
+    "image": {
+      "src": "/signs/priority/give-way-ahead.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz ters üçgen; altında siyah çerçeveli beyaz levhada mesafe yazısı.",
+        "en": "White inverted triangle with a red border, above a white plate with a black frame showing a distance."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "ileride-yol-ver",
+      "en": "give-way-ahead"
+    },
+    "name": {
+      "tr": "İleride yol ver",
+      "en": "Give way ahead"
+    },
+    "meaning": {
+      "tr": "Levhada yazan mesafede bir yol ver levhası var.",
+      "en": "There is a give-way sign at the distance shown on the plate."
+    },
+    "driverAction": {
+      "tr": "Hızını şimdiden düşür ve kavşakta yol vermeye hazırlan.",
+      "en": "Start slowing down now and get ready to give way at the junction."
+    },
+    "confusions": [
+      {
+        "with": "priority.give-way",
+        "tip": {
+          "tr": "Mesafe yazılı ek levha varsa kural ileride başlar. Ek levha yoksa yol verme noktası tam levhanın olduğu yerdir.",
+          "en": "With a distance plate, the rule applies further ahead. Without one, you give way where the sign stands."
+        }
+      }
+    ],
+    "related": [
+      "priority.give-way"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "priority.give-way-to-oncoming",
+    "category": "priority",
+    "image": {
+      "src": "/signs/priority/give-way-to-oncoming.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; solda yukarı bakan kırmızı ok, sağda aşağı bakan siyah ok.",
+        "en": "White disc with a red ring; a red arrow pointing up on the left and a black arrow pointing down on the right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "karsidan-gelene-yol-ver",
+      "en": "give-way-to-oncoming-traffic"
+    },
+    "name": {
+      "tr": "Karşıdan gelene yol ver",
+      "en": "Give way to oncoming traffic"
+    },
+    "meaning": {
+      "tr": "Önündeki dar kesimde karşıdan gelen taşıtların geçiş önceliği var.",
+      "en": "Oncoming vehicles have priority through the narrow section ahead."
+    },
+    "driverAction": {
+      "tr": "Karşıdan taşıt geliyorsa dar kesimin girişinde bekle. Kesim boşalınca geç.",
+      "en": "If a vehicle is coming towards you, wait before the narrow section and go only when it is clear."
+    },
+    "confusions": [
+      {
+        "with": "priority.priority-over-oncoming",
+        "tip": {
+          "tr": "Kırmızı halka ve kırmızı ok senin bekleyeceğini, mavi kare ve beyaz ok önceliğin sende olduğunu söyler.",
+          "en": "A red ring with a red arrow means you wait; a blue square with a white arrow means you have priority."
+        }
+      },
+      {
+        "with": "warning.two-way-traffic",
+        "tip": {
+          "tr": "Üçgendeki iki siyah ok yalnız iki yönlü trafiği haber verir, kimin bekleyeceğini söylemez.",
+          "en": "Two black arrows in a triangle only warn of two-way traffic; they do not say who waits."
+        }
+      }
+    ],
+    "related": [
+      "priority.priority-over-oncoming",
+      "warning.road-narrows--both"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "priority.priority-over-oncoming",
+    "category": "priority",
+    "image": {
+      "src": "/signs/priority/priority-over-oncoming.svg",
+      "alt": {
+        "tr": "Mavi kare; solda yukarı bakan büyük beyaz ok, sağda aşağı bakan küçük kırmızı ok.",
+        "en": "Blue square with a large white arrow pointing up on the left and a smaller red arrow pointing down on the right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "karsidan-gelene-gore-oncelik",
+      "en": "priority-over-oncoming-traffic"
+    },
+    "name": {
+      "tr": "Karşıdan gelene göre geçiş önceliği",
+      "en": "Priority over oncoming traffic"
+    },
+    "meaning": {
+      "tr": "Önündeki dar kesimde geçiş önceliği sendedir; karşıdan gelenler seni beklemelidir.",
+      "en": "You have priority through the narrow section ahead; oncoming drivers must wait for you."
+    },
+    "driverAction": {
+      "tr": "Dikkatle geç, ama karşıdaki sürücü beklemiyorsa önceliğinde ısrar etme ve durmaya hazır ol.",
+      "en": "Go through carefully, but be ready to stop if an oncoming driver does not wait; do not insist on your priority."
+    },
+    "confusions": [
+      {
+        "with": "priority.give-way-to-oncoming",
+        "tip": {
+          "tr": "Kırmızı halkalı daire bekleyeceğini, mavi kare önceliğin olduğunu söyler.",
+          "en": "The red ring means you wait; the blue square means you have priority."
+        }
+      }
+    ],
+    "related": [
+      "priority.give-way-to-oncoming"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "priority.box-junction",
+    "category": "priority",
+    "image": {
+      "src": "/signs/priority/box-junction.svg",
+      "alt": {
+        "tr": "Köşesi üstte duran kare; sarı zemin üzerinde siyah çapraz ızgara çizgileri, siyah kenar.",
+        "en": "Square standing on one corner: yellow with a black criss-cross grid and a black edge."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "kavsak-kutusu",
+      "en": "box-junction"
+    },
+    "name": {
+      "tr": "Kavşak kutusu",
+      "en": "Box junction"
+    },
+    "meaning": {
+      "tr": "Kavşakta sarı çapraz çizgili bir alan var. Çıkışın boş değilse bu alana girmemelisin.",
+      "en": "The junction has a yellow criss-cross box. You must not enter it unless your exit is clear."
+    },
+    "driverAction": {
+      "tr": "Kavşağı geçip karşı tarafta duracak yerin yoksa kutunun önünde bekle.",
+      "en": "If there is no space for you on the far side, wait before the box."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-stopping",
+        "tip": {
+          "tr": "Kırmızı X durmayı yol boyunca yasaklar. Kavşak kutusu yalnız çıkış boş değilken kutuya girmeyi yasaklar.",
+          "en": "The red X bans stopping along the road. The box junction bans entering the box when your exit is not clear."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-stopping",
+      "warning.traffic-signals"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Lefkoşa'da fotoğraflandı. Kuralın yönetmelikteki tam metni doğrulanmadı.",
+        "en": "Photographed in Lefkoşa. The exact wording of the rule in the regulations has not been confirmed."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  }
+]

@@ -1,0 +1,136 @@
+{
+  "id": "fitness",
+  "title": {
+    "tr": "Alkol, yorgunluk ve dikkat",
+    "en": "Alcohol, fatigue and attention"
+  },
+  "summary": {
+    "tr": "Alkol, yorgunluk ve telefon tepki süreni uzatır; KKTC'de üçü için de açık kurallar ve ağır cezalar var.",
+    "en": "Alcohol, tiredness and phones slow your reactions; KKTC has clear rules and heavy penalties for all three."
+  },
+  "sections": [
+    {
+      "heading": {
+        "tr": "Alkol sınırları",
+        "en": "Alcohol limits"
+      },
+      "body": {
+        "tr": "Yol Güvenliği Yasası'ndaki sınırlar şunlardır:\n\n- **Kanda:** 100 ml'de 50 mg\n- **Nefeste:** 100 ml'de 24 mikrogram\n- **İdrarda:** 100 ml'de 65 mg\n\n**Toplu taşıma** aracı kullanan sürücüler için sınır **sıfırdır**.\n\nAlkolün etkisi kişiye, yorgunluğa ve yediklerine göre değişir. Ne kadar içersen sınırın altında kalacağını bilemezsin. Araç kullanacaksan hiç içmemek en güvenlisidir.",
+        "en": "The limits in the Road Safety Law (*Yol Güvenliği Yasası*) are:\n\n- **Blood:** 50 mg per 100 ml\n- **Breath:** 24 micrograms per 100 ml\n- **Urine:** 65 mg per 100 ml\n\nFor drivers of **public-transport** vehicles the limit is **zero**.\n\nThe effect of alcohol depends on the person, how tired they are and what they have eaten. You cannot know how much keeps you under the limit. If you are driving, the safest choice is not to drink at all."
+      },
+      "basis": "law",
+      "sourceId": "s8",
+      "sourceRef": "md. 2"
+    },
+    {
+      "heading": {
+        "tr": "Alkol cezaları",
+        "en": "Drink-driving penalties"
+      },
+      "body": {
+        "tr": "5 Nisan 2025'ten bu yana kandaki alkol oranına göre:\n\n- **51–100 mg** (nefeste 24–47 mikrogram): asgari ücretin yarısı ve 100 ceza puanı\n- **101–150 mg:** asgari ücretin tamamı ve 100 ceza puanı\n- **150 mg üstü:** sabit ceza yoktur, sürücü mahkemeye çıkarılır. Mahkeme hapis cezası ve ehliyetten men kararı verebilir.\n\n100 ceza puanı, ehliyetin askıya alınması için gereken sınırın tamamıdır.",
+        "en": "From 5 April 2025, by blood-alcohol level:\n\n- **51–100 mg** (breath 24–47 micrograms): half the minimum wage and 100 penalty points\n- **101–150 mg:** the full minimum wage and 100 penalty points\n- **Over 150 mg:** no fixed penalty; the driver goes to court, which can order prison and a driving ban.\n\n100 penalty points is the whole threshold for a licence suspension."
+      },
+      "basis": "secondary",
+      "sourceId": "s28",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Yorgunluk",
+        "en": "Tiredness"
+      },
+      "body": {
+        "tr": "Aşırı yorgunken araç kullanmak KKTC'de suçtur.\n\nYorgunluğun işaretleri: sık esnemek, göz kapaklarının ağırlaşması, son birkaç kilometreyi hatırlamamak, şeritten kaymak, çıkışları kaçırmak. Bunlardan birini fark edersen güvenli bir yerde dur ve dinlen. Kısa bir uyku ya da kahve geçici olarak yardım eder, ama uykunun yerini tutmaz.\n\nUzun yola dinlenmiş çık, düzenli mola ver ve gecenin geç saatlerinde, vücudunun uyumaya alıştığı saatlerde sürmekten kaçın.",
+        "en": "Driving when overtired is an offence in KKTC.\n\nSigns of tiredness: frequent yawning, heavy eyelids, not remembering the last few kilometres, drifting out of your lane, missing turnings. If you notice any of these, stop somewhere safe and rest. A short nap or a coffee helps for a while, but it is no substitute for sleep.\n\nStart long journeys rested, take regular breaks and avoid driving late at night, when your body expects to be asleep."
+      },
+      "basis": "law",
+      "sourceId": "s6",
+      "sourceRef": "md. 10"
+    },
+    {
+      "heading": {
+        "tr": "Telefon ve dikkat dağınıklığı",
+        "en": "Phones and distraction"
+      },
+      "body": {
+        "tr": "Araç kullanırken cep telefonu ve benzeri cihazları kullanmak yasaktır.\n\nEller serbest konuşma bile dikkatini yoldan alır. Telefonu yola çıkmadan sessize al ya da güvenli bir yerde durup konuş. Navigasyonu yola çıkmadan ayarla. Yemek yemek, sigara yakmak ve arkadaki çocuğa dönmek de dikkatini dağıtır.",
+        "en": "Using a mobile phone or similar device while driving is banned.\n\nEven hands-free calls take your mind off the road. Silence your phone before you set off, or stop somewhere safe to talk. Set the navigation before you leave. Eating, lighting a cigarette and turning round to a child in the back are distractions too."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "İlaç, uyuşturucu ve sağlık",
+        "en": "Medicines, drugs and health"
+      },
+      "body": {
+        "tr": "Bazı ilaçlar, örneğin bazı alerji, ağrı ve uyku ilaçları, uyku hali yapar ve tepki süreni uzatır. Prospektüsü oku; emin değilsen eczacına ya da doktoruna sor.\n\nUyuşturucu etkisindeyken araç kullanma. Hastalık, ateş, öfke ve üzüntü de sürüşünü bozar. Gözlük ya da lens kullanıyorsan sürerken tak.",
+        "en": "Some medicines, such as certain allergy, pain and sleeping tablets, cause drowsiness and slow your reactions. Read the leaflet, and if you are not sure, ask a pharmacist or doctor.\n\nNever drive under the influence of drugs. Illness, fever, anger and grief also affect your driving. If you need glasses or contact lenses, wear them when you drive."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    }
+  ],
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Alkol sınırı kanda 100 ml'de 50 mg, nefeste 100 ml'de 24 mikrogramdır.",
+        "en": "The alcohol limit is 50 mg per 100 ml of blood and 24 micrograms per 100 ml of breath."
+      },
+      "basis": "law",
+      "sourceId": "s8",
+      "sourceRef": "md. 2"
+    },
+    {
+      "text": {
+        "tr": "Toplu taşıma sürücüleri için alkol sınırı sıfırdır.",
+        "en": "For public-transport drivers the alcohol limit is zero."
+      },
+      "basis": "law",
+      "sourceId": "s8",
+      "sourceRef": "md. 2"
+    },
+    {
+      "text": {
+        "tr": "Sınırı aşan her alkol cezası 100 ceza puanı getirir.",
+        "en": "Every drink-driving penalty above the limit brings 100 penalty points."
+      },
+      "basis": "secondary",
+      "sourceId": "s28",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Aşırı yorgunken araç kullanmak suçtur.",
+        "en": "Driving when overtired is an offence."
+      },
+      "basis": "law",
+      "sourceId": "s6",
+      "sourceRef": "md. 10"
+    },
+    {
+      "text": {
+        "tr": "Sürerken cep telefonu kullanmak yasaktır.",
+        "en": "Using a mobile phone while driving is banned."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Telefon kullanmak 50 ceza puanıdır; telefonu elde tutmadan Bluetooth ile konuşmak suç sayılmaz.",
+        "en": "Using a phone costs 50 penalty points; talking over Bluetooth without holding the phone is not an offence."
+      },
+      "basis": "secondary",
+      "sourceId": "s29",
+      "sourceRef": null
+    }
+  ],
+  "relatedSigns": [],
+  "reviewedAt": "2026-10-20"
+}

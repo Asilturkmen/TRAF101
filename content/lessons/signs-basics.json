@@ -1,0 +1,162 @@
+{
+  "id": "signs-basics",
+  "title": {
+    "tr": "Levhaların dili",
+    "en": "How signs work"
+  },
+  "summary": {
+    "tr": "Bir levhanın biçimi ve rengi, yazısını okumadan önce ne yapman gerektiğini söyler.",
+    "en": "A sign's shape and colour tell you what to do before you read a single word."
+  },
+  "sections": [
+    {
+      "heading": {
+        "tr": "KKTC levhalarının düzeni",
+        "en": "The system behind KKTC signs"
+      },
+      "body": {
+        "tr": "KKTC'deki levhalar, Kıbrıs'ın İngiliz döneminden kalan Avrupa düzenini izler: kırmızı kenarlı üçgenler, kırmızı halkalı daireler, mavi zorunluluk levhaları. Bunların üzerine Türkçe öğeler eklenmiştir. Dur levhasında **DUR** ya da **DUR / STOP** yazar, ek levhalarda \"YAVAŞ\" ya da \"ARAÇ GİREMEZ\" gibi Türkçe yazılar görürsün, ilk yardım levhasında kızılay işareti vardır.\n\nTuristik bölgelerde Türkçenin altına İngilizce eklenebilir. Eski yollarda Türkçe, İngilizce ve Rumca yazılı levhalar da kalmıştır. Yazının dili ne olursa olsun biçim ve renk aynı anlamı taşır.",
+        "en": "Signs in KKTC follow the European pattern that Cyprus inherited from the British period: red-bordered triangles, red rings and blue mandatory discs. Turkish elements sit on top of that. The stop sign reads **DUR** or **DUR / STOP**, plates carry Turkish words such as \"YAVAŞ\" (slow down) or \"ARAÇ GİREMEZ\" (no vehicles), and the first-aid sign shows a red crescent.\n\nIn tourist areas English may be added under the Turkish. Some older plates in Turkish, English and Greek still stand. Whatever the language, shape and colour carry the same meaning."
+      },
+      "basis": "secondary",
+      "sourceId": "le-wiki-road-signs-cyprus",
+      "sourceRef": "Northern Cyprus"
+    },
+    {
+      "heading": {
+        "tr": "Biçimler ve renkler",
+        "en": "Shapes and colours"
+      },
+      "body": {
+        "tr": "Levhayı uzaktan tanımak için önce biçimine bak:\n\n- **Kırmızı kenarlı üçgen** uyarır: ileride viraj, yaya geçidi ya da kaygan yol gibi bir tehlike var.\n- **Kırmızı halkalı daire** yasaklar ya da sınırlar: giriş yok, sollama yok, hız sınırı.\n- **Mavi daire** emreder: yalnız ileri, sola dön, dönel kavşak.\n- **Sekizgen** yalnız **DUR** levhasıdır.\n- **Ters üçgen** yol ver levhasıdır.\n- **Dikdörtgen** bilgi verir: park yeri, hastane, tek yön, yerleşim yerinin adı.\n\nSekizgen ve ters üçgen bilerek farklı biçimdedir. Güneş, toz ya da arkadan bakış yüzünden yazıyı okuyamasan bile ne yapacağını anlarsın.",
+        "en": "To recognise a sign from a distance, look at its shape first:\n\n- A **red-bordered triangle** warns: a bend, a pedestrian crossing or a slippery road lies ahead.\n- A **red ring** prohibits or limits: no entry, no overtaking, a speed limit.\n- A **blue disc** gives an order: ahead only, turn left, roundabout.\n- An **octagon** is only ever the **DUR** (stop) sign.\n- An **inverted triangle** means give way.\n- A **rectangle** informs: parking, hospital, one-way street, the name of a town.\n\nThe octagon and the inverted triangle have their own shapes on purpose. Even if sun, dust or a view from behind stops you reading the text, you still know what to do."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Uyarı levhası görünce",
+        "en": "When you see a warning sign"
+      },
+      "body": {
+        "tr": "Uyarı levhası bir yasak koymaz, ama tehlikenin yakında olduğunu söyler. Gördüğünde hızını düşür, tehlikeyi aramaya başla ve durmaya hazır ol.\n\nÜçgenin içindeki resim tehlikenin türünü gösterir. Viraj levhasında okun hangi yöne kıvrıldığına, eğim levhasında yolun iniş mi çıkış mı olduğuna dikkat et. Birbirine benzeyen levhaları bu ayrıntılar ayırır.\n\nÜçgenin içinde yalnız bir ünlem işareti varsa bu \"başka tehlike\" levhasıdır. Altındaki ek levha tehlikenin ne olduğunu söyler.",
+        "en": "A warning sign does not forbid anything, but it tells you a hazard is close. When you see one, slow down, start looking for the hazard and be ready to stop.\n\nThe picture inside the triangle shows the kind of hazard. On a bend sign, check which way the arrow curves; on a gradient sign, check whether the road goes down or up. These details are what tell similar signs apart.\n\nIf the triangle holds only an exclamation mark, it is the \"other danger\" sign. The plate underneath tells you what the danger is."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "DUR ve yol ver",
+        "en": "DUR and give way"
+      },
+      "body": {
+        "tr": "**DUR** levhasında aracını durma çizgisinde tamamen durdurursun. Yol boş görünse bile önce dur, sonra bak, geçen araçlara yol ver ve ancak güvenliyse ilerle.\n\n**Yol ver** levhasında durmak zorunlu değildir. Hızını düşürür, ana yoldaki ya da kavşaktaki araçlara yol verirsin, gerekirse durursun.\n\nDar yollarda iki levha birlikte kullanılır. Kırmızı halkalı, iki oklu yuvarlak levha karşıdan gelene yol vermen gerektiğini söyler. Mavi kare levha ise senin öncelikli olduğunu söyler. Öncelikli olsan da karşıdaki sürücünün yol verdiğini görmeden dar kısma girme.",
+        "en": "At a **DUR** sign you bring the vehicle to a complete stop at the stop line. Even if the road looks empty, stop first, then look, give way to traffic and move off only when it is safe.\n\nAt a **give way** sign you do not have to stop. You slow down, give way to traffic on the main road or in the junction, and stop if you need to.\n\nOn narrow roads two signs work as a pair. The round sign with a red ring and two arrows tells you to give way to oncoming traffic. The blue square sign tells you that you have priority. Even when you have priority, do not enter the narrow section until you see the other driver giving way."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Ek levhalar",
+        "en": "Additional plates"
+      },
+      "body": {
+        "tr": "Ana levhanın altındaki küçük dikdörtgen levhaya ek levha denir. Ek levha ana levhanın anlamını daraltır ya da tamamlar. Şunları söyleyebilir:\n\n- tehlikeye ya da kurala ne kadar mesafe kaldığını,\n- kuralın hangi saatlerde ya da günlerde geçerli olduğunu,\n- kuralın hangi araçlar için geçerli olduğunu,\n- kuralın hangi yönde ya da ne kadar boyunca sürdüğünü.\n\nEk levhayı tek başına okuma, her zaman üstündeki levhayla birlikte oku. Sınırlamaların sonu levhası, yani siyah çapraz çizgili beyaz daire, önceki yasakların bittiğini gösterir.",
+        "en": "The small rectangular plate under a main sign is an additional plate. It narrows or completes the meaning of the sign above it. It can tell you:\n\n- how far away the hazard or the rule begins,\n- the hours or days when the rule applies,\n- which vehicles the rule applies to,\n- the direction the rule covers or how far it runs.\n\nNever read a plate on its own; always read it with the sign above it. The end-of-restrictions sign, a white disc with black diagonal stripes, shows that the earlier restrictions have ended."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Levhalar ve sınav",
+        "en": "Signs and the exam"
+      },
+      "body": {
+        "tr": "Bugün KKTC'de teori aşaması sözlü yapılır. Sürüş ehliyeti müfettişi karşına oturur ve çoğunlukla levha sorar. Soru sayısı sabit değildir; müfettişin cevaplarından tatmin olması gerekir.\n\nLevha çalışırken adını ezberlemek yetmez. Her levha için şunu söyleyebilmelisin: ne anlama geliyor, ne yapmam gerekiyor, en çok hangi levhayla karışıyor.",
+        "en": "Today the theory step in KKTC is oral. A driving-licence inspector sits across from you and mostly asks about signs. The number of questions is not fixed; the inspector has to be satisfied with your answers.\n\nLearning the name of a sign is not enough. For each sign you should be able to say what it means, what you must do, and which sign it is most often confused with."
+      },
+      "basis": "secondary",
+      "sourceId": "s26",
+      "sourceRef": null
+    }
+  ],
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Üçgen uyarır, kırmızı halka yasaklar, mavi daire emreder, dikdörtgen bilgi verir.",
+        "en": "Triangles warn, red rings prohibit, blue discs order, rectangles inform."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "DUR levhasında yol boş olsa bile tamamen durursun.",
+        "en": "At a DUR sign you stop completely, even if the road is empty."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Yol ver levhasında hızını düşürür, gerekirse durursun.",
+        "en": "At a give way sign you slow down and stop if you need to."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Ek levha üstündeki levhanın anlamını daraltır; ikisini birlikte oku.",
+        "en": "An additional plate narrows the meaning of the sign above it; read them together."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "KKTC levhalarında yazı Türkçedir: DUR, YAVAŞ, ARAÇ GİREMEZ.",
+        "en": "Text on KKTC signs is in Turkish: DUR (stop), YAVAŞ (slow down), ARAÇ GİREMEZ (no vehicles)."
+      },
+      "basis": "secondary",
+      "sourceId": "le-wiki-road-signs-cyprus",
+      "sourceRef": "Northern Cyprus"
+    },
+    {
+      "text": {
+        "tr": "2017 yönetmeliğindeki yazılı sınavda 50 sorunun 22'si trafik kuralları ve levhalardandır. Bu biçim henüz uygulanmıyor.",
+        "en": "In the written exam set out in the 2017 regulation, 22 of the 50 questions cover traffic rules and signs. This format is not in use yet."
+      },
+      "basis": "law",
+      "sourceId": "s3",
+      "sourceRef": "md. 13"
+    }
+  ],
+  "relatedSigns": [
+    "priority.stop",
+    "priority.give-way",
+    "priority.give-way-to-oncoming",
+    "priority.priority-over-oncoming",
+    "warning.other-danger",
+    "warning.bend--left",
+    "prohibitory.no-entry",
+    "prohibitory.speed-limit--50",
+    "prohibitory.end-of-restrictions",
+    "mandatory.ahead-only",
+    "information.parking",
+    "information.first-aid"
+  ],
+  "reviewedAt": "2026-10-20"
+}

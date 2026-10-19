@@ -1,0 +1,136 @@
+{
+  "id": "speed",
+  "title": {
+    "tr": "Hız ve takip mesafesi",
+    "en": "Speed and following distance"
+  },
+  "summary": {
+    "tr": "Hız sınırı bir hedef değil, en yüksek değerdir; yol, hava ve trafik daha yavaş gitmeni gerektirebilir.",
+    "en": "A speed limit is a maximum, not a target; the road, the weather and the traffic may call for less."
+  },
+  "sections": [
+    {
+      "heading": {
+        "tr": "Temel hız sınırları",
+        "en": "The main speed limits"
+      },
+      "body": {
+        "tr": "Bakanlığın trafik broşürüne göre otomobiller için temel sınırlar şunlardır:\n\n- **Yerleşim yeri (meskun mahal) içinde:** 50 km/sa\n- **Yerleşim yeri dışında:** yolun türüne göre 65 ile 90 km/sa arası\n- **Çift şeritli (bölünmüş) yolda:** 100 km/sa\n\nLevha başka bir değer gösteriyorsa levhaya uyarsın.",
+        "en": "According to the ministry's traffic leaflet, the main limits for cars are:\n\n- **In built-up areas (*meskun mahal*):** 50 km/h\n- **Outside built-up areas:** 65 to 90 km/h, depending on the road\n- **On dual carriageways (divided roads):** 100 km/h\n\nIf a sign shows a different limit, you follow the sign."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Yol sınıfına ve araca göre sınırlar",
+        "en": "Limits by road class and vehicle"
+      },
+      "body": {
+        "tr": "2019'da yayımlanan hız bildirisi, basında yer aldığı biçimiyle, sınırları yol sınıfına ve araç türüne göre ayırır. Otomobil ve motosiklet için (km/sa):\n\n- **Bölünmüş yollar** (Gönyeli–Lefkoşa–Gazimağusa, Gönyeli–Girne, Ercan bağlantısı): otomobil 100, motosiklet 85\n- **Birinci sınıf yollar** (Lefkoşa–Güzelyurt, Girne–Karşıyaka gibi): otomobil 90, motosiklet 75\n- **İkinci sınıf yollar:** otomobil 80, motosiklet 75\n- **Üçüncü sınıf ve köy yolları:** otomobil 70, motosiklet 60\n\nMinibüs, otobüs, kamyonet, kamyon ve çekici için sınırlar daha düşüktür; ayrıntısı Ağır vasıtalar dersinde. Bildiride otoyol diye bir yol sınıfı yoktur, en yüksek sınıf bölünmüş yoldur.",
+        "en": "The 2019 speed notice, as reported in the press, sets limits by road class and vehicle type. For cars and motorcycles (km/h):\n\n- **Divided roads** (Gönyeli–Lefkoşa–Gazimağusa, Gönyeli–Girne, the Ercan link): car 100, motorcycle 85\n- **First-class roads** (such as Lefkoşa–Güzelyurt and Girne–Karşıyaka): car 90, motorcycle 75\n- **Second-class roads:** car 80, motorcycle 75\n- **Third-class and village roads:** car 70, motorcycle 60\n\nMinibuses, buses, vans, lorries and tractor units have lower limits; see the lesson on heavy vehicles. The notice has no motorway class; the highest class is the divided road."
+      },
+      "basis": "secondary",
+      "sourceId": "s27",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Koşullara göre hız",
+        "en": "Adapting speed to conditions"
+      },
+      "body": {
+        "tr": "Levhadaki sayı iyi koşullar için en yüksek değerdir. Şu durumlarda daha yavaş gitmen gerekir:\n\n- yağmurda, sisli havada ya da gece,\n- okul, park ve pazar yeri çevresinde,\n- dar, virajlı ya da bakımsız yollarda,\n- yayaların, bisikletlilerin ya da hayvanların olabileceği yerlerde.\n\nOkul çevresinde yerel levhaya uy ve hızını çocukların ani hareketlerine göre ayarla.\n\nÇok yavaş gitmek de tehlikeli olabilir. Yavaş gitmen gerekiyorsa sol şeritte kal ve arkandakilerin seni güvenle geçmesine izin ver.",
+        "en": "The number on the sign is the maximum in good conditions. You need to go slower:\n\n- in rain, in fog or at night,\n- around schools, parks and markets,\n- on narrow, winding or poorly kept roads,\n- wherever there may be pedestrians, cyclists or animals.\n\nNear a school, obey the local sign and set your speed so you can react if a child moves suddenly.\n\nDriving very slowly can also be dangerous. If you need to go slowly, keep to the left lane and let the drivers behind pass you safely."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Takip mesafesi",
+        "en": "Following distance"
+      },
+      "body": {
+        "tr": "Öndeki araç aniden fren yaparsa durabilmen için arada boşluk bırakmalısın. KKTC mevzuatında bu boşluk için bir süre ya da mesafe yazmaz. İngiltere'nin Karayolu Kuralları (Highway Code) şu ölçüyü önerir:\n\n- **Kuru yolda** en az 2 saniye\n- **Islak yolda** bunun en az iki katı\n- **Buzlu yolda** on katına kadar\n\nNasıl ölçülür: öndeki araç bir direği ya da levhayı geçtiğinde saymaya başla. Sen aynı noktaya gelmeden sayman bitmiyorsa çok yakınsın; biraz geri kal.\n\nBiri araya girerse mesafeyi yeniden aç. Arkandaki araç çok yakından geliyorsa önündeki araçla aranı biraz daha aç; böylece ani fren yapman gerekmez.",
+        "en": "Leave enough room to stop if the vehicle in front brakes suddenly. KKTC legislation gives no time or distance for this gap. The UK Highway Code recommends:\n\n- **On a dry road:** at least 2 seconds\n- **On a wet road:** at least double that\n- **On an icy road:** up to ten times as much\n\nHow to measure it: start counting when the vehicle in front passes a post or a sign. If you reach the same point before you finish counting, you are too close; drop back.\n\nIf someone pulls into the gap, open it up again. If the driver behind is too close, leave more room in front of you, so you will not need to brake hard."
+      },
+      "basis": "secondary",
+      "sourceId": "le-highway-code",
+      "sourceRef": "rule 126"
+    },
+    {
+      "heading": {
+        "tr": "Hız cezaları",
+        "en": "Speeding penalties"
+      },
+      "body": {
+        "tr": "5 Nisan 2025'ten bu yana uygulanan değişikliklere göre hız sınırını en fazla 20 km/sa aşmak 10 ceza puanı, 21 ile 40 km/sa arasında aşmak 30 ceza puanıdır. Para cezaları asgari ücrete bağlıdır, bu yüzden tutarları zamanla değişir.\n\nCeza puanının ehliyetini nasıl askıya aldırabileceği Belgeler ve ceza puanı dersinde.",
+        "en": "Under the changes applied from 5 April 2025, exceeding the limit by up to 20 km/h costs 10 penalty points, and by 21 to 40 km/h costs 30 points. Fines are tied to the minimum wage, so the amounts change over time.\n\nHow penalty points can lead to a suspension is covered in the lesson on documents and penalty points."
+      },
+      "basis": "secondary",
+      "sourceId": "s28",
+      "sourceRef": null
+    }
+  ],
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Yerleşim yerinde sınır 50 km/sa, çift şeritli yolda otomobil için 100 km/sa.",
+        "en": "The limit is 50 km/h in built-up areas and 100 km/h for cars on dual carriageways."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Yerleşim yeri dışında sınır yolun türüne göre 65 ile 90 km/sa arasıdır.",
+        "en": "Outside built-up areas the limit is 65 to 90 km/h, depending on the road."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Kuru yolda en az 2 saniyelik ara bırak, ıslak yolda bunu en az ikiye katla.",
+        "en": "Leave at least a 2-second gap on a dry road and at least double it on a wet one."
+      },
+      "basis": "secondary",
+      "sourceId": "le-highway-code",
+      "sourceRef": "rule 126"
+    },
+    {
+      "text": {
+        "tr": "Hız sınırı bir hedef değildir; koşullar kötüyse daha yavaş git.",
+        "en": "A speed limit is not a target; go slower when conditions are poor."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Sabit kameraların yazdığı cezalar turistlere de bir sonraki girişlerinde tebliğ edilir.",
+        "en": "Fixed-camera fines reach tourists too: they are served on their next entry."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    }
+  ],
+  "relatedSigns": [
+    "prohibitory.speed-limit--30",
+    "prohibitory.speed-limit--50",
+    "prohibitory.speed-limit--65",
+    "prohibitory.speed-limit--80",
+    "prohibitory.end-of-restrictions",
+    "information.town-start",
+    "information.town-end",
+    "warning.children"
+  ],
+  "reviewedAt": "2026-10-20"
+}

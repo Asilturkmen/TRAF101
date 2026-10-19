@@ -1,0 +1,16 @@
+[
+  {
+    "id": "gu-infonorthcyprus",
+    "kind": "secondary",
+    "title": "Infonorthcyprus, \"Driving licence\" (reviewed July 2026; the driving school applies for the learner permit and arranges the sign test; conversion steps)",
+    "url": "https://www.infonorthcyprus.com/driving-licence",
+    "checkedAt": "2026-10-20"
+  },
+  {
+    "id": "gu-webkit-storage",
+    "kind": "reference",
+    "title": "WebKit blog, \"Full Third-Party Cookie Blocking and More\" (Safari deletes script-writable storage, including localStorage, of sites not used for a while; web apps added to the home screen keep their own counter)",
+    "url": "https://webkit.org/blog/10218/full-third-party-cookie-blocking-and-more/",
+    "checkedAt": "2026-10-20"
+  }
+]
