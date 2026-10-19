@@ -15,8 +15,8 @@
         "en": "At pedestrian crossings"
       },
       "body": {
-        "tr": "Yaya geçidine yaklaşırken yavaşla. Geçitte bir yaya varsa ya da geçmeye **hazırlanıyorsa** dur ve yol ver.\n\nHazırlanan yaya, kaldırımın kenarında bekleyen, geçide doğru yürüyen ya da sana bakıp bekleyen kişidir. Durduğunda çizginin biraz gerisinde dur ki yan şeritteki sürücüler de yayayı görsün.\n\nGeçidin önünde duran bir aracı geçme. Önünde senin göremediğin bir yaya olabilir.",
-        "en": "Slow down as you approach a pedestrian crossing. If a pedestrian is on the crossing or **preparing to cross**, stop and give way.\n\nSomeone preparing to cross may be waiting at the kerb, walking towards the crossing or looking at you and waiting. When you stop, stop a little before the line so drivers in the next lane can see the pedestrian too.\n\nNever pass a vehicle that has stopped at a crossing. There may be a pedestrian in front of it whom you cannot see."
+        "tr": "Yaya geçidine yaklaşırken yavaşla. Geçitte bir yaya varsa ya da geçmeye **hazırlanıyorsa** dur ve yol ver.\n\nHazırlanan yaya, kaldırımın kenarında bekleyen, geçide doğru yürüyen ya da sana bakıp bekleyen kişidir. Çizginin biraz gerisinde dur; böylece yan şeritteki sürücüler de yayayı görür.\n\nGeçidin önünde duran bir aracı geçme. Önünde senin göremediğin bir yaya olabilir.",
+        "en": "Slow down as you approach a pedestrian crossing. If a pedestrian is on the crossing or **preparing to cross**, stop and give way.\n\nSomeone preparing to cross may be waiting at the kerb, walking towards the crossing or looking at you and waiting. Stop a little before the line so drivers in the next lane can see the pedestrian too.\n\nNever pass a vehicle that has stopped at a crossing. There may be a pedestrian in front of it whom you cannot see."
       },
       "basis": "law",
       "sourceId": "s1",
@@ -41,8 +41,8 @@
         "en": "Cyclists and motorcyclists"
       },
       "body": {
-        "tr": "İki tekerlekliler küçük oldukları için aynada ve kör noktada kaybolur. Sol trafikte en tehlikeli anlar şunlardır:\n\n- **Sola dönerken:** bisikletli ya da motosikletli senin solundan, kaldırım tarafından gelebilir. Dönmeden önce sol aynana ve sol omzunun üstüne bak.\n- **Sağa dönerken:** karşıdan gelen motosikletin hızını tahmin etmek zordur. Emin değilsen bekle.\n- **Sollarken:** iki tekerliyi bir otomobil gibi sağından ve geniş bir boşluk bırakarak solla.\n- **Kapı açarken:** önce arkana bak.\n\nBozuk yol, rüzgar ya da bir çukur yüzünden bisikletlinin aniden yana kayabileceğini unutma.",
-        "en": "Two-wheelers are small and disappear in mirrors and blind spots. In left-hand traffic the most dangerous moments are:\n\n- **Turning left:** a cyclist or motorcyclist may be coming up on your left, on the kerb side. Before you turn, check your left mirror and look over your left shoulder.\n- **Turning right:** an oncoming motorcycle's speed is hard to judge. If you are not sure, wait.\n- **Overtaking:** pass a two-wheeler as you would a car, on its right and with plenty of room.\n- **Opening a door:** look behind you first.\n\nRemember that a cyclist may swerve suddenly because of a bad surface, wind or a pothole."
+        "tr": "İki tekerlekliler küçük oldukları için aynada ve kör noktada kaybolur. Sol trafikte en tehlikeli anlar şunlardır:\n\n- **Sola dönerken:** bisikletli ya da motosikletli senin solundan, kaldırım tarafından gelebilir. Dönmeden önce sol aynana ve sol omzunun üstüne bak.\n- **Sağa dönerken:** karşıdan gelen motosikletin hızını tahmin etmek zordur. Emin değilsen bekle.\n- **Sollarken:** iki tekerliyi bir otomobil gibi sağından ve geniş bir boşluk bırakarak solla.\n- **Kapı açarken:** önce arkana bak.\n\nBisikletli bozuk yol, rüzgâr ya da bir çukur yüzünden aniden yana kayabilir.",
+        "en": "Two-wheelers are small and disappear in mirrors and blind spots. In left-hand traffic the most dangerous moments are:\n\n- **Turning left:** a cyclist or motorcyclist may be coming up on your left, on the kerb side. Before you turn, check your left mirror and look over your left shoulder.\n- **Turning right:** an oncoming motorcycle's speed is hard to judge. If you are not sure, wait.\n- **Overtaking:** pass a two-wheeler as you would a car, on its right and with plenty of room.\n- **Opening a door:** look behind you first.\n\nA cyclist may swerve suddenly because of a bad surface, wind or a pothole."
       },
       "basis": "practice",
       "sourceId": null,
@@ -55,7 +55,7 @@
       },
       "body": {
         "tr": "Hızı en fazla 30 km/sa, gücü 351 W'tan az olan elektrikli scooter ve e-mopedler için ehliyet gerekmez. Ama sürücü en az 18 yaşında olmalıdır.\n\nBu araçlar şehirler arası yollarda ve hız sınırı 50 km/sa üzerinde olan yollarda kullanılamaz. E-moped sürücüsünün kask takması zorunludur. Daha hızlı araçlar için J, H1, H2 ya da H ehliyeti gerekir.",
-        "en": "E-scooters and e-mopeds with a top speed of 30 km/h and less than 351 W of power need no licence. The rider must be at least 18, though.\n\nThey may not be used on intercity roads or on roads with a limit above 50 km/h. E-moped riders must wear a helmet. Faster vehicles need a J, H1, H2 or H licence."
+        "en": "E-scooters and e-mopeds with a top speed of up to 30 km/h and less than 351 W of power need no licence. The rider must be at least 18, though.\n\nThey may not be used on intercity roads or on roads with a limit above 50 km/h. E-moped riders must wear a helmet. Faster vehicles need a J, H1, H2 or H licence."
       },
       "basis": "law",
       "sourceId": "s39",

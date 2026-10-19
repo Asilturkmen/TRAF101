@@ -158,7 +158,7 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Mavi yuvarlak levhalar zorunluluk levhasıdır; gösterdikleri hareketi yaparsın. Bir şeyi yasaklayan levhalar ise kırmızı kenarlıdır.",
+      "tr": "Mavi yuvarlak levhalar mecburiyet levhasıdır; gösterdikleri hareketi yaparsın. Bir şeyi yasaklayan levhalar ise kırmızı kenarlıdır.",
       "en": "Round blue signs give orders you must follow. Signs that ban something have a red border instead."
     },
     "signId": null,
@@ -186,7 +186,7 @@
       {
         "id": "a",
         "text": {
-          "tr": "Geçersin, çünkü yeşil ışık sana geçiş hakkı verir",
+          "tr": "Geçersin, çünkü yeşil ışık sana öncelik verir",
           "en": "You go on, because green gives you the right to go"
         }
       },
@@ -326,8 +326,8 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Çocuklar aniden yola çıkabilir ve araçların hızını iyi kestiremez. Okul yakınında bir hız sınırı levhası varsa ona uyar, yoksa yine de sınırın altında gidersin.",
-      "en": "Children may step into the road suddenly and judge speed poorly. Obey any limit posted near the school, and drive below the limit even if there is none."
+      "tr": "Çocuklar aniden yola çıkabilir ve araçların hızını iyi kestiremez. Okul yakınında hız sınırı levhası varsa ona uyarsın, yoksa da genel sınırın altında gidersin.",
+      "en": "Children may step into the road suddenly and judge speed poorly. If a limit is posted near the school, obey it; if not, still drive below the general limit."
     },
     "signId": "warning.children",
     "basis": "practice",
@@ -684,8 +684,8 @@
       {
         "id": "a",
         "text": {
-          "tr": "Motorun hacmi küçükse girersin",
-          "en": "You enter if your engine is small"
+          "tr": "Motorunun silindir hacmi küçükse girersin",
+          "en": "You enter if your engine size is small"
         }
       },
       {
@@ -937,7 +937,7 @@
     "answer": "d",
     "why": {
       "tr": "KKTC'de kontrolsüz kavşakta öncelik sağdan gelen aracındır. Bakanlığın trafik broşürü bunu açıkça yazar.",
-      "en": "In KKTC, at an uncontrolled junction, priority belongs to the vehicle coming from the right. The ministry's traffic leaflet states this plainly."
+      "en": "In North Cyprus, at an uncontrolled junction, priority belongs to the vehicle coming from the right. The ministry's traffic leaflet states this plainly."
     },
     "signId": null,
     "basis": "law",
@@ -1217,7 +1217,7 @@
     "answer": "b",
     "why": {
       "tr": "KKTC kurallarına göre yaya geçidine yaklaşırken yavaşlarsın. Bir yaya geçidi kullanıyorsa ya da kullanmaya hazırlanıyorsa durur ve yol verirsin.",
-      "en": "Under KKTC rules you slow down when approaching a crossing. If a pedestrian is using it or getting ready to use it, you stop and give way."
+      "en": "Under North Cyprus rules you slow down when approaching a crossing. If a pedestrian is using it or getting ready to use it, you stop and give way."
     },
     "signId": null,
     "basis": "law",
@@ -1273,7 +1273,7 @@
     "answer": "a",
     "why": {
       "tr": "Bu levha ileride yaya geçidi olduğunu bildirir. KKTC kurallarına göre geçide yaklaşırken yavaşlar, geçidi kullanan ya da kullanmaya hazırlanan yayaya yol verirsin.",
-      "en": "This sign warns of a pedestrian crossing ahead. KKTC rules require you to slow down on the approach and give way to anyone using or about to use the crossing."
+      "en": "This sign warns of a pedestrian crossing ahead. North Cyprus rules require you to slow down on the approach and give way to anyone using or about to use the crossing."
     },
     "signId": "warning.pedestrian-crossing",
     "basis": "law",
@@ -1427,7 +1427,7 @@
         "id": "c",
         "text": {
           "tr": "Para cezası olan bir trafik suçu işlemiş olursun",
-          "en": "You commit a traffic offence that carries a fine"
+          "en": "You commit an offence that carries a fine"
         }
       },
       {
@@ -1441,7 +1441,7 @@
     "answer": "c",
     "why": {
       "tr": "Acil araca yol vermemek KKTC ceza listesinde yer alan bir suçtur. Ağustos 2026'da basında yer alan listeye göre cezası 10.633 TL'dir.",
-      "en": "Failing to give way to an emergency vehicle is on the KKTC list of offences. The list reported in August 2026 puts the fine at 10,633 TL."
+      "en": "Failing to give way to an emergency vehicle is on the North Cyprus list of offences. The list reported in August 2026 puts the fine at 10,633 TL."
     },
     "signId": null,
     "basis": "secondary",
@@ -1587,8 +1587,8 @@
       {
         "id": "b",
         "text": {
-          "tr": "Köprüye girer, minibüsün durmasını beklersin",
-          "en": "You drive onto the bridge and expect it to stop"
+          "tr": "Köprüye girer, minibüsün kenarda durmasını beklersin",
+          "en": "You drive onto the bridge and expect the minibus to stop"
         }
       },
       {
@@ -1601,7 +1601,7 @@
       {
         "id": "d",
         "text": {
-          "tr": "Köprüden önce bekler, minibüsün geçmesine izin verirsin",
+          "tr": "Köprüden önce durup minibüsün geçmesini beklersin",
           "en": "You wait before the bridge and let the minibus cross"
         }
       }
@@ -1630,7 +1630,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "Bir evin garaj yolundan çıkıp yola gireceksin. Kime yol verirsin?",
-      "en": "You are driving out of a private driveway onto a road. Whom do you give way to?"
+      "en": "You are driving out of a private driveway onto a road. Who do you give way to?"
     },
     "options": [
       {
@@ -1657,8 +1657,8 @@
       {
         "id": "d",
         "text": {
-          "tr": "Kaldırımdaki yayalara ve yoldaki bütün araçlara",
-          "en": "Pedestrians on the pavement and all traffic on the road"
+          "tr": "Yayalara ve yoldaki bütün araçlara",
+          "en": "Pedestrians and all traffic on the road"
         }
       }
     ],
@@ -1686,7 +1686,7 @@
     "difficulty": "easy",
     "prompt": {
       "tr": "Bir çembere (dönel kavşağa) gireceksin. Kime yol verirsin?",
-      "en": "You are about to enter a roundabout. Whom do you give way to?"
+      "en": "You are about to enter a roundabout. Who do you give way to?"
     },
     "options": [
       {
@@ -1721,7 +1721,7 @@
     "answer": "c",
     "why": {
       "tr": "KKTC kurallarına göre çembere yaklaşırken yavaşlarsın, sağdan gelen araç varsa girmezsin. Çemberin içindeki araç önceliklidir.",
-      "en": "Under KKTC rules you slow down on the approach and do not enter if a vehicle is coming from the right. The vehicle already on the roundabout has priority."
+      "en": "Under North Cyprus rules you slow down on the approach and do not enter if a vehicle is coming from the right. The vehicle already on the roundabout has priority."
     },
     "signId": null,
     "basis": "law",
@@ -1804,14 +1804,14 @@
       {
         "id": "a",
         "text": {
-          "tr": "Saat yönünde, ortadaki ada sağında kalacak biçimde",
+          "tr": "Saat yönünde, adayı sağında bırakarak",
           "en": "Clockwise, keeping the central island on your right"
         }
       },
       {
         "id": "b",
         "text": {
-          "tr": "Saatin tersi yönünde, ada solunda kalacak biçimde",
+          "tr": "Saatin tersi yönünde, adayı solunda bırakarak",
           "en": "Anticlockwise, keeping the central island on your left"
         }
       },
@@ -1832,7 +1832,7 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Soldan akan trafikte çember saat yönünde dönülür ve ada sağında kalır. Saatin tersi yönündeki çemberler sağdan akan trafikli ülkelerdedir, örneğin Türkiye'de.",
+      "tr": "Soldan akan trafikte çemberde saat yönünde dönülür ve ada sağında kalır. Saatin tersi yönünde dönülen çemberler, Türkiye gibi sağdan akan trafiği olan ülkelerdedir.",
       "en": "With traffic on the left, you go round clockwise with the island on your right. Anticlockwise roundabouts belong to countries that drive on the right, such as Türkiye."
     },
     "signId": "mandatory.roundabout",
@@ -1889,7 +1889,7 @@
     "answer": "d",
     "why": {
       "tr": "Bu levha ileride bir çember olduğunu bildirir. KKTC kurallarına göre çembere yaklaşırken yavaşlar, sağdan gelen araç varsa girmezsin.",
-      "en": "This sign warns of a roundabout ahead. KKTC rules say slow down on the approach and do not enter if a vehicle is coming from the right."
+      "en": "This sign warns of a roundabout ahead. North Cyprus rules say you slow down on the approach and do not enter if a vehicle is coming from the right."
     },
     "signId": "warning.roundabout-ahead",
     "basis": "law",
@@ -2001,7 +2001,7 @@
     "answer": "c",
     "why": {
       "tr": "Bu levha ileride bir dört yol ağzı olduğunu bildirir. Öncelik başka bir levhayla belirlenmemişse KKTC'de sağdan gelen önceliklidir.",
-      "en": "This sign warns of crossroads ahead. Where no other sign sets priority, in KKTC the vehicle from the right goes first."
+      "en": "This sign warns of crossroads ahead. Where no other sign sets priority, in North Cyprus the vehicle from the right goes first."
     },
     "signId": "warning.crossroads",
     "basis": "law",
@@ -2029,7 +2029,7 @@
         "id": "a",
         "text": {
           "tr": "Yolun ileride sola keskin döneceğine",
-          "en": "A sharp bend to the left ahead"
+          "en": "The road bending sharply to the left ahead"
         }
       },
       {
@@ -2043,14 +2043,14 @@
         "id": "c",
         "text": {
           "tr": "Soldan katılan yoldan çıkabilecek araçlara",
-          "en": "Vehicles coming out of a road joining from the left"
+          "en": "Vehicles pulling out of a side road on the left"
         }
       },
       {
         "id": "d",
         "text": {
-          "tr": "İleride sola dönüşün yasaklanacağına",
-          "en": "A ban on left turns ahead"
+          "tr": "Bir sonraki kavşakta sola dönüşün yasaklanacağına",
+          "en": "Left turns being banned at the next junction"
         }
       }
     ],
@@ -2280,7 +2280,7 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "Mavi zorunluluk levhası yalnız okun gösterdiği yöne gidebileceğini söyler. Rotanı dönüşten sonra düzeltirsin.",
+      "tr": "Mavi mecburiyet levhası yalnız okun gösterdiği yöne gidebileceğini söyler. Rotanı dönüşten sonra düzeltirsin.",
       "en": "A blue mandatory sign means you may only go the way the arrow shows. You correct your route after the turn."
     },
     "signId": "mandatory.turn-left",
@@ -2427,7 +2427,7 @@
       {
         "id": "b",
         "text": {
-          "tr": "Sonraki kavşağa ya da çembere kadar gidip oradan dönersin",
+          "tr": "Sonraki kavşağa ya da çembere gidip oradan dönersin",
           "en": "You go on to the next junction or roundabout and come back"
         }
       },
@@ -2476,8 +2476,8 @@
       {
         "id": "a",
         "text": {
-          "tr": "Solundaki iki tekerlekliler ve karşıya geçen yayalar",
-          "en": "Riders on your left and pedestrians crossing"
+          "tr": "Soldaki iki tekerlekliler ve yayalar",
+          "en": "Riders on your left and pedestrians"
         }
       },
       {
@@ -2616,8 +2616,8 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "KKTC'de yerleşim yeri (meskûn mahal) içinde genel hız sınırı saatte 50 kilometredir. Bir levha daha düşük bir sınır gösterirse ona uyarsın.",
-      "en": "In KKTC the general limit in built-up areas is 50 km/h. If a sign shows a lower limit, you obey that."
+      "tr": "KKTC'de yerleşim yeri (meskûn mahal) içinde genel hız sınırı 50 km/sa. Bir levha daha düşük bir sınır gösterirse ona uyarsın.",
+      "en": "In North Cyprus the general limit in built-up areas is 50 km/h. If a sign shows a lower limit, you obey that."
     },
     "signId": "information.town-start",
     "basis": "law",
@@ -2670,7 +2670,7 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Çift şeritli yolda otomobiller için sınır saatte 100 kilometredir. Otobüs, kamyon ve motosikletlerin aynı yoldaki sınırı daha düşüktür.",
+      "tr": "Çift şeritli yolda otomobiller için sınır 100 km/sa. Otobüs, kamyon ve motosikletlerin aynı yoldaki sınırı daha düşüktür.",
       "en": "On a dual carriageway the limit for cars is 100 km/h. Buses, lorries and motorcycles have lower limits on the same road."
     },
     "signId": null,
@@ -2717,14 +2717,14 @@
       {
         "id": "d",
         "text": {
-          "tr": "Levha yoksa hiçbir sınır yoktur",
-          "en": "No limit unless a sign is shown"
+          "tr": "Levha yoksa bu yollarda hiçbir sınır yoktur",
+          "en": "No limit at all unless a sign is shown"
         }
       }
     ],
     "answer": "c",
     "why": {
-      "tr": "Bakanlığın broşürüne göre şehir dışındaki yollarda sınır, yolun sınıfına göre saatte 65 ile 90 kilometre arasındadır. Saatte 100 kilometre yalnız çift şeritli yollar içindir.",
+      "tr": "Bakanlığın broşürüne göre şehir dışındaki yollarda sınır, yolun sınıfına göre 65 ile 90 km/sa arasındadır. 100 km/sa sınırı yalnız çift şeritli yollar içindir.",
       "en": "According to the ministry leaflet, limits outside towns range from 65 to 90 km/h depending on the road class. 100 km/h applies only on dual carriageways."
     },
     "signId": null,
@@ -2778,7 +2778,7 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "2019 tarihli hız bildirisine göre birinci sınıf yollarda otomobil sınırı saatte 90 kilometredir. Saatte 100 kilometre yalnız çift şeritli yollarda geçerlidir.",
+      "tr": "2019 tarihli hız bildirisine göre birinci sınıf yollarda otomobil sınırı 90 km/sa. 100 km/sa sınırı yalnız çift şeritli yollarda geçerlidir.",
       "en": "Under the 2019 speed notice, the limit for cars on first-class roads is 90 km/h. 100 km/h applies only on dual carriageways."
     },
     "signId": null,
@@ -2832,7 +2832,7 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "2019 hız bildirisine göre üçüncü sınıf ve köy yollarında otomobil sınırı saatte 70 kilometredir. Bu yollar dar ve virajlı olduğundan çoğu zaman daha yavaş gitmen gerekir.",
+      "tr": "2019 hız bildirisine göre üçüncü sınıf ve köy yollarında otomobil sınırı 70 km/sa. Bu yollar dar ve virajlı olduğundan çoğu zaman daha yavaş gitmen gerekir.",
       "en": "Under the 2019 speed notice, cars are limited to 70 km/h on third-class and village roads. These roads are often narrow and winding, so you will often need to go slower."
     },
     "signId": null,
@@ -2886,7 +2886,7 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "2019 hız bildirisine göre çift şeritli yolda motosiklet sınırı saatte 85 kilometredir. Otomobillere tanınan saatte 100 kilometre motosiklete uygulanmaz.",
+      "tr": "2019 hız bildirisine göre çift şeritli yolda motosiklet sınırı 85 km/sa. Otomobillere tanınan 100 km/sa sınırı motosiklete uygulanmaz.",
       "en": "Under the 2019 speed notice, motorcycles are limited to 85 km/h on dual carriageways. The 100 km/h allowed for cars does not apply to them."
     },
     "signId": null,
@@ -2940,7 +2940,7 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "2019 hız bildirisine göre birinci ve ikinci sınıf yollarda motosiklet sınırı saatte 75 kilometredir.",
+      "tr": "2019 hız bildirisine göre birinci ve ikinci sınıf yollarda motosiklet sınırı 75 km/sa.",
       "en": "Under the 2019 speed notice, motorcycles are limited to 75 km/h on first- and second-class roads."
     },
     "signId": null,
@@ -2994,7 +2994,7 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "2019 hız bildirisine göre çift şeritli yolda kamyon ve yarı römorklu çekici sınırı saatte 75 kilometredir. Otobüs ve minibüs için sınır saatte 80 kilometredir.",
+      "tr": "2019 hız bildirisine göre çift şeritli yolda kamyon ve yarı römorklu çekici sınırı 75 km/sa, otobüs ve minibüs sınırı 80 km/sa.",
       "en": "Under the 2019 speed notice, lorries and articulated tractor units are limited to 75 km/h on dual carriageways. Buses and minibuses are limited to 80 km/h."
     },
     "signId": null,
@@ -3048,7 +3048,7 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "2019 hız bildirisine göre çift şeritli yolda otobüs, minibüs ve kamyonet sınırı saatte 80 kilometredir.",
+      "tr": "2019 hız bildirisine göre çift şeritli yolda otobüs, minibüs ve kamyonet sınırı 80 km/sa.",
       "en": "Under the 2019 speed notice, buses, minibuses and vans are limited to 80 km/h on dual carriageways."
     },
     "signId": null,
@@ -3102,7 +3102,7 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "2019 hız bildirisine göre birinci sınıf yollarda kamyon sınırı saatte 50 kilometredir, yani çift şeritli yoldakinin çok altındadır. Yol sınıfı değişince sınır da değişir.",
+      "tr": "2019 hız bildirisine göre birinci sınıf yollarda kamyon sınırı 50 km/sa; bu, çift şeritli yoldaki sınırın çok altındadır. Yol sınıfı değişince sınır da değişir.",
       "en": "Under the 2019 speed notice, lorries are limited to 50 km/h on first-class roads, far below their dual-carriageway limit. The limit changes with the road class."
     },
     "signId": null,
@@ -3156,7 +3156,7 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "2019 hız bildirisine göre tehlikeli madde taşıyan araçlar yerleşim yeri içinde en çok saatte 25 kilometreyle gidebilir. Genel 50 km/sa sınırı bu araçlar için geçerli değildir.",
+      "tr": "2019 hız bildirisine göre tehlikeli madde taşıyan araçlar yerleşim yeri içinde en çok 25 km/sa ile gidebilir. Genel 50 km/sa sınırı bu araçlar için geçerli değildir.",
       "en": "Under the 2019 speed notice, vehicles carrying dangerous goods may do no more than 25 km/h in built-up areas. The general 50 km/h limit does not apply to them."
     },
     "signId": null,
@@ -3211,7 +3211,7 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "2019 hız bildirisine göre arızalı araç çeken bir araç için yerleşim yerinde sınır saatte 25 kilometredir. Çift şeritli yolda bile saatte 50 kilometreyi geçemezsin.",
+      "tr": "2019 hız bildirisine göre arızalı araç çeken bir araç için yerleşim yerinde sınır 25 km/sa. Çift şeritli yolda bile 50 km/sa hızı aşamazsın.",
       "en": "Under the 2019 speed notice, a vehicle towing a broken-down vehicle is limited to 25 km/h in built-up areas, and to 50 km/h even on a dual carriageway."
     },
     "signId": null,
@@ -3265,7 +3265,7 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "2019 hız bildirisi Lefkoşa–Girne dağ yolu için ayrı bir sınır koyar: otomobil, minibüs ve kamyonetler için saatte 45 kilometre.",
+      "tr": "2019 hız bildirisi Lefkoşa–Girne dağ yolu için ayrı bir sınır koyar: otomobil, minibüs ve kamyonetler için 45 km/sa.",
       "en": "The 2019 speed notice sets a separate limit for the Lefkoşa–Girne mountain road: 45 km/h for cars, minibuses and vans."
     },
     "signId": null,
@@ -3319,7 +3319,7 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "2019 hız bildirisine göre kamyon ve otobüsler dağ yolunda üçüncü viteste, en çok saatte 35 kilometreyle gider. Araç 10 yaşında ya da daha eskiyse sınır saatte 20 kilometredir.",
+      "tr": "2019 hız bildirisine göre kamyon ve otobüsler dağ yolunda üçüncü viteste, en çok 35 km/sa ile gider. Araç 10 yaşında ya da daha eskiyse sınır 20 km/sa.",
       "en": "Under the 2019 speed notice, lorries and buses on the mountain road use third gear and do no more than 35 km/h, or 20 km/h if the vehicle is 10 or more years old."
     },
     "signId": null,
@@ -3404,7 +3404,7 @@
         "id": "a",
         "text": {
           "tr": "Levhadaki, genel sınırdan düşük olsa da",
-          "en": "The one on the sign, though lower than the town limit"
+          "en": "The one on the sign, even though it is lower"
         }
       },
       {
@@ -3677,7 +3677,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "KKTC'ye turist olarak geldin ve kiralık aracınla sabit bir hız kamerasına yakalandın. Ne olabilir?",
-      "en": "You are visiting KKTC and a fixed speed camera records your hire car speeding. What can happen?"
+      "en": "You are visiting North Cyprus and a fixed speed camera records your hire car speeding. What can happen?"
     },
     "options": [
       {
@@ -3705,7 +3705,7 @@
         "id": "d",
         "text": {
           "tr": "Ceza, bir sonraki girişinde sınırda sana tebliğ edilir",
-          "en": "The fine is served on you at the border on your next entry"
+          "en": "The fine is served at the border on your next entry"
         }
       }
     ],
@@ -3733,7 +3733,7 @@
     "difficulty": "easy",
     "prompt": {
       "tr": "KKTC'de yolun hangi tarafından gidersin?",
-      "en": "Which side of the road do you drive on in KKTC?"
+      "en": "Which side of the road do you drive on in North Cyprus?"
     },
     "options": [
       {
@@ -3768,7 +3768,7 @@
     "answer": "a",
     "why": {
       "tr": "Yol Kuralları Yasası'na göre KKTC'de yolun solundan gidilir. Sağdan trafiğe alışık sürücüler özellikle kavşaktan çıkarken ve dönerken dikkat etmelidir.",
-      "en": "Under the Road Rules Law you keep to the left in KKTC. Drivers used to driving on the right need extra care when pulling out of junctions and turning."
+      "en": "Under the Road Rules Law you keep to the left in North Cyprus. Drivers used to driving on the right need extra care when pulling out of junctions and turning."
     },
     "signId": null,
     "basis": "law",
@@ -3845,7 +3845,7 @@
     "difficulty": "easy",
     "prompt": {
       "tr": "KKTC'de önündeki bir aracı normalde hangi tarafından sollarsın?",
-      "en": "In KKTC, on which side do you normally overtake a vehicle in front?"
+      "en": "In North Cyprus, on which side do you normally overtake a vehicle in front?"
     },
     "options": [
       {
@@ -3914,8 +3914,8 @@
       {
         "id": "b",
         "text": {
-          "tr": "Yer açmak için sağa yanaşırsın",
-          "en": "You move right to make room"
+          "tr": "Ona yer açmak için yolun sağına yanaşırsın",
+          "en": "You move over to the right to make room"
         }
       },
       {
@@ -3963,29 +3963,29 @@
       {
         "id": "a",
         "text": {
-          "tr": "Ceza puanı ve para cezası olan bir suç işlersin",
-          "en": "You commit an offence with a fine and penalty points"
+          "tr": "Para ve puan cezası olan bir suç işlersin",
+          "en": "It is an offence carrying a fine and points"
         }
       },
       {
         "id": "b",
         "text": {
-          "tr": "Yol boşsa bir sorun olmaz",
+          "tr": "Yol boşsa bunun bir sakıncası yoktur",
           "en": "Nothing, provided the road is clear"
         }
       },
       {
         "id": "c",
         "text": {
-          "tr": "Yalnız şehir içinde suç sayılır",
-          "en": "It is an offence only in towns"
+          "tr": "Bu yalnız şehir içinde suç sayılır",
+          "en": "It is an offence only in built-up areas"
         }
       },
       {
         "id": "d",
         "text": {
-          "tr": "Yalnız sözlü bir uyarı alırsın",
-          "en": "You only get a verbal warning"
+          "tr": "Polisten yalnız sözlü bir uyarı alırsın",
+          "en": "You only get a verbal warning from the police"
         }
       }
     ],
@@ -4236,8 +4236,8 @@
     ],
     "difficulty": "medium",
     "prompt": {
-      "tr": "Yolun ortasında, senin tarafında kesintisiz beyaz bir çizgi var. Ne yapabilirsin?",
-      "en": "There is a continuous white line along the centre of the road on your side. What may you do?"
+      "tr": "Yolun ortasında, senin tarafında kesintisiz beyaz bir çizgi var. Hangisi doğrudur?",
+      "en": "There is a continuous white line along the centre of the road on your side. Which of these is correct?"
     },
     "options": [
       {
@@ -4306,15 +4306,15 @@
       {
         "id": "b",
         "text": {
-          "tr": "İleride karşıdan trafik gelir; sol şeritte kalırsın",
+          "tr": "İleride karşı yönden trafik gelir; solda kalırsın",
           "en": "Oncoming traffic lies ahead, so you stay left"
         }
       },
       {
         "id": "c",
         "text": {
-          "tr": "İleride iki şerit de senin yönüne açılır",
-          "en": "Both lanes ahead open to your direction"
+          "tr": "İleride iki şerit de yalnız senin yönüne açılır",
+          "en": "Both lanes ahead open to traffic in your direction"
         }
       },
       {
@@ -4403,7 +4403,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "Uzun bir kamyonla tek şeritli bir yolda öndeki aracı sollamayı düşünüyorsun. Neyi hesaba katarsın?",
-      "en": "You are driving a long lorry on a single-carriageway road and think about overtaking. What do you take into account?"
+      "en": "You are driving a long lorry on a single-carriageway road and are thinking about overtaking the vehicle ahead. What do you take into account?"
     },
     "options": [
       {
@@ -4571,7 +4571,7 @@
     "difficulty": "easy",
     "prompt": {
       "tr": "Bir arkadaşını beklemek için aracını bırakmak istediğin yerde bu levha var. Buraya park edebilir misin?",
-      "en": "You want to leave your car here while you wait for a friend, but this sign is here. May you park?"
+      "en": "You want to leave your car here while you wait for a friend, but this sign is here. Can you park?"
     },
     "options": [
       {
@@ -4718,7 +4718,7 @@
     "answer": "c",
     "why": {
       "tr": "Ceza listesine göre itfaiye, hastane ve okul önlerine, kavşaklara, otobüs duraklarına ve kaldırımlara park etmek yasaktır. Bu yerlerde park eden araç acil durumda hayati zaman kaybettirir.",
-      "en": "The fine list bans parking outside fire stations, hospitals and schools, at junctions, at bus stops and on pavements. A car parked there can cost vital time in an emergency."
+      "en": "The fine list bans parking outside fire stations, hospitals and schools, at junctions, at bus stops and on pavements. A car parked there can cost precious time in an emergency."
     },
     "signId": null,
     "basis": "secondary",
@@ -5032,8 +5032,8 @@
       {
         "id": "b",
         "text": {
-          "tr": "Ayna ve omuz üstünden iki tekerlekli ararsın",
-          "en": "Check the mirror and over your shoulder for bikes"
+          "tr": "Aynaya ve omzunun üstünden bakarsın",
+          "en": "Check the mirror and look over your shoulder"
         }
       },
       {
@@ -5131,7 +5131,7 @@
     "difficulty": "easy",
     "prompt": {
       "tr": "Bir yolcuyu indirmek için en kolay yer yaya geçidinin üstü gibi görünüyor. Orada durabilir misin?",
-      "en": "The handiest place to drop off a passenger seems to be on a pedestrian crossing. May you stop there?"
+      "en": "The handiest place to drop off a passenger seems to be on a pedestrian crossing. Can you stop there?"
     },
     "options": [
       {
@@ -5151,8 +5151,8 @@
       {
         "id": "c",
         "text": {
-          "tr": "Hayır, yaya geçidinde durmaz ve park etmezsin",
-          "en": "No, you do not stop or park on a crossing"
+          "tr": "Hayır, geçidin üstünde durmazsın",
+          "en": "No, you do not stop on a crossing"
         }
       },
       {
@@ -5334,7 +5334,7 @@
     "answer": "a",
     "why": {
       "tr": "Ceza Puanı Yasası'na göre ilk puandan başlayarak 15 ay içinde 100 puana ulaşan sürücünün ehliyeti 3 ay askıya alınır. Tekrar eden dönemlerde süre uzar.",
-      "en": "Under the Penalty Points Law, a driver who reaches 100 points within 15 months of the first points loses the licence for 3 months. Repeat cycles bring longer suspensions."
+      "en": "Under the Penalty Points Law, a driver who reaches 100 points within 15 months of the first points has the licence suspended for 3 months. Repeat cycles bring longer suspensions."
     },
     "signId": null,
     "basis": "law",
@@ -5410,7 +5410,7 @@
     ],
     "difficulty": "hard",
     "prompt": {
-      "tr": "Nisan 2025'ten bu yana hız sınırını saatte 21 ile 40 kilometre arasında aşan sürücü kaç ceza puanı alır?",
+      "tr": "Nisan 2025'ten bu yana hız sınırını 21 ile 40 km/sa arasında aşan sürücü kaç ceza puanı alır?",
       "en": "Since April 2025, how many penalty points does a driver get for exceeding the limit by 21 to 40 km/h?"
     },
     "options": [
@@ -5445,7 +5445,7 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Polisin açıkladığı 2025 değişikliklerine göre sınırı saatte 20 kilometreye kadar aşmak 10 puan, 21 ile 40 kilometre arasında aşmak 30 puandır. Birkaç ciddi hız ihlali seni 100 puan sınırına yaklaştırır.",
+      "tr": "Polisin açıkladığı 2025 değişikliklerine göre sınırı en çok 20 km/sa aşmanın cezası 10 puan, 21 ile 40 km/sa arasında aşmanın cezası 30 puandır. Birkaç ciddi hız ihlali seni 100 puan sınırına yaklaştırır.",
       "en": "Under the 2025 changes announced by the police, up to 20 km/h over the limit costs 10 points, and 21 to 40 km/h over costs 30 points. A few serious speeding offences bring you close to 100 points."
     },
     "signId": null,
@@ -5480,7 +5480,7 @@
       {
         "id": "b",
         "text": {
-          "tr": "Hız sınırını saatte 20 kilometreye kadar aşmak",
+          "tr": "Hız sınırını en çok 20 km/sa aşmak",
           "en": "Exceeding the limit by up to 20 km/h"
         }
       },
@@ -5523,7 +5523,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "KKTC'de trafik suçlarının sabit para cezaları nasıl belirlenir?",
-      "en": "How are fixed fines for traffic offences set in KKTC?"
+      "en": "How are fixed fines for traffic offences set in North Cyprus?"
     },
     "options": [
       {
@@ -5579,27 +5579,27 @@
     "difficulty": "easy",
     "prompt": {
       "tr": "Bugünkü KKTC sınıflarına göre D sınıfı ehliyetle ne kullanabilirsin?",
-      "en": "Under today's KKTC classes, what may you drive with a class D licence?"
+      "en": "Under today's North Cyprus classes, what may you drive with a class D licence?"
     },
     "options": [
       {
         "id": "a",
         "text": {
-          "tr": "22 ve daha çok yolculu otobüs",
-          "en": "A bus with 22 or more passengers"
+          "tr": "22 ve daha çok yolcu taşıyan bir otobüs",
+          "en": "A bus carrying 22 or more seated passengers"
         }
       },
       {
         "id": "b",
         "text": {
           "tr": "Otomobil, kamyonet ve en çok 8 yolculu araç",
-          "en": "A car, a pick-up or a vehicle with up to 8 passengers"
+          "en": "A car, pick-up or vehicle with up to 8 passengers"
         }
       },
       {
         "id": "c",
         "text": {
-          "tr": "Yalnız 50 cc'ye kadar moped",
+          "tr": "Yalnız silindir hacmi 50 cc'ye kadar olan moped",
           "en": "Only a moped up to 50 cc"
         }
       },
@@ -5607,14 +5607,14 @@
         "id": "d",
         "text": {
           "tr": "Her ağırlıkta kamyon ve tır",
-          "en": "Lorries and articulated trucks of any weight"
+          "en": "Lorries and articulated lorries, whatever their weight"
         }
       }
     ],
     "answer": "b",
     "why": {
       "tr": "KKTC'de bugün geçerli sistemde otomobil ehliyeti D sınıfıdır: en çok 8 yolculu araçlar, kamyonetler ve 2.032 kg'a kadar öbür araçlar. AB'de otomobil için kullanılan B harfi burada ağır kamyon demektir.",
-      "en": "In the current KKTC system the car licence is class D: vehicles with up to 8 passengers, pick-ups and other vehicles up to 2,032 kg. The letter B, used for cars in the EU, means heavy lorries here."
+      "en": "In the current North Cyprus system the car licence is class D: vehicles with up to 8 passengers, pick-ups and other vehicles up to 2,032 kg. The letter B, used for cars in the EU, means heavy lorries here."
     },
     "signId": null,
     "basis": "law",
@@ -5635,20 +5635,20 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "Bir arkadaşın KKTC'de B sınıfı ehliyeti olduğunu söylüyor. Bugünkü KKTC sınıflarına göre bu ne demektir?",
-      "en": "A friend says they hold a KKTC class B licence. Under today's KKTC classes, what does that mean?"
+      "en": "A friend says they hold a North Cyprus class B licence. Under today's North Cyprus classes, what does that mean?"
     },
     "options": [
       {
         "id": "a",
         "text": {
-          "tr": "Otomobil kullanabilir, başka bir şey değil",
+          "tr": "Yalnız otomobil kullanabilir",
           "en": "They can drive cars and nothing else"
         }
       },
       {
         "id": "b",
         "text": {
-          "tr": "Motosiklet kullanabilir, başka bir şey değil",
+          "tr": "Yalnız motosiklet kullanabilir",
           "en": "They can ride motorcycles and nothing else"
         }
       },
@@ -5662,7 +5662,7 @@
       {
         "id": "d",
         "text": {
-          "tr": "Minibüs kullanabilir, başka bir şey değil",
+          "tr": "Yalnız minibüs kullanabilir",
           "en": "They can drive minibuses and nothing else"
         }
       }
@@ -5670,7 +5670,7 @@
     "answer": "c",
     "why": {
       "tr": "Bugünkü KKTC sisteminde B, 2.032 kg'dan ağır kamyonlar ve başka sınıfa girmeyen ağır araçlar içindir. Otomobil ehliyeti D'dir; AB harfleriyle karıştırma.",
-      "en": "In today's KKTC system, B covers lorries over 2,032 kg and other heavy vehicles not listed elsewhere. The car licence is D, so do not confuse it with the EU letters."
+      "en": "In today's North Cyprus system, B covers lorries over 2,032 kg and other heavy vehicles not listed elsewhere. The car licence is D, so do not confuse it with the EU letters."
     },
     "signId": null,
     "basis": "law",
@@ -5689,7 +5689,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "Bugünkü KKTC sınıflarına göre 22 ve daha çok oturan yolcu taşıyan bir otobüs için hangi sınıf gerekir?",
-      "en": "Under today's KKTC classes, which class do you need for a bus carrying 22 or more seated passengers?"
+      "en": "Under today's North Cyprus classes, which class do you need for a bus carrying 22 or more seated passengers?"
     },
     "options": [
       {
@@ -5743,7 +5743,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "Bugünkü KKTC sınıflarına göre 14 yolcu koltuklu bir minibüs için hangi sınıf gerekir?",
-      "en": "Under today's KKTC classes, which class do you need for a minibus with 14 passenger seats?"
+      "en": "Under today's North Cyprus classes, which class do you need for a minibus with 14 passenger seats?"
     },
     "options": [
       {
@@ -5797,7 +5797,7 @@
     "difficulty": "easy",
     "prompt": {
       "tr": "Bugünkü KKTC sınıflarına göre 50 cc'ye kadar bir moped için hangi ehliyet sınıfı gerekir?",
-      "en": "Under today's KKTC classes, which licence class covers a moped up to 50 cc?"
+      "en": "Under today's North Cyprus classes, which licence class covers a moped up to 50 cc?"
     },
     "options": [
       {
@@ -5885,7 +5885,7 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "Tüzüğe göre H sınıfı H2, H1 ve J'yi; H2, H1 ve J'yi; H1 de J'yi kapsar. Motosiklet ehliyeti otomobil (D) kullanma hakkı vermez.",
+      "tr": "Tüzüğe göre H sınıfı H2, H1 ve J'yi, H2 sınıfı H1 ve J'yi, H1 sınıfı da J'yi kapsar. Motosiklet ehliyeti otomobil (D) kullanma hakkı vermez.",
       "en": "Under the regulation, H covers H2, H1 and J; H2 covers H1 and J; and H1 covers J. A motorcycle licence does not let you drive a car (class D)."
     },
     "signId": null,
@@ -6017,7 +6017,7 @@
     "difficulty": "easy",
     "prompt": {
       "tr": "Tatil için KKTC'ye geldin ve kendi ülkenin geçerli ehliyeti yanında. Bu ehliyetle ne kadar süre araç kullanabilirsin?",
-      "en": "You come to KKTC on holiday with a valid licence from your own country. How long may you drive on it?"
+      "en": "You come to North Cyprus on holiday with a valid licence from your own country. How long may you drive on it?"
     },
     "options": [
       {
@@ -6051,7 +6051,7 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Turistler kendi ülkelerinin geçerli ehliyetiyle girişten itibaren 90 güne kadar araç kullanabilir. Oturum, çalışma ya da öğrenci izni alan kişi turist sayılmaz.",
+      "tr": "Turistler kendi ülkelerinin geçerli ehliyetiyle girişten itibaren 90 güne kadar araç kullanabilir. Oturma, çalışma ya da öğrenci izni alan kişi turist sayılmaz.",
       "en": "Tourists may drive on a valid licence from their own country for up to 90 days from entry. Anyone who gets a residence, work or student permit is no longer a tourist."
     },
     "signId": null,
@@ -6073,14 +6073,14 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "KKTC'de üniversitede okumak için öğrenci oturma izni aldın. Kendi ülkenin ehliyetiyle araç kullanmaya devam edebilir misin?",
-      "en": "You have a student residence permit to study at a university in KKTC. Can you keep driving on your home licence?"
+      "en": "You have a student residence permit to study at a university in North Cyprus. Can you keep driving on your home licence?"
     },
     "options": [
       {
         "id": "a",
         "text": {
           "tr": "Hayır, KKTC ehliyetine çevirmen gerekir",
-          "en": "No, you must convert it to a KKTC licence"
+          "en": "No, you must convert it to a North Cyprus licence"
         }
       },
       {
@@ -6093,8 +6093,8 @@
       {
         "id": "c",
         "text": {
-          "tr": "Evet, uluslararası ehliyetin de varsa",
-          "en": "Yes, if you also hold an international permit"
+          "tr": "Evet, uluslararası sürüş belgen de varsa",
+          "en": "Yes, if you also hold an international driving permit"
         }
       },
       {
@@ -6107,8 +6107,8 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Oturum, çalışma ya da öğrenci izni alan kişi turist statüsünü kaybeder ve ehliyetini KKTC ehliyetine çevirmek zorundadır. Turistlere tanınan 90 gün kuralı artık sana uygulanmaz.",
-      "en": "Anyone with a residence, work or student permit loses tourist status and must exchange their licence for a KKTC one. The 90-day rule for tourists no longer covers you."
+      "tr": "Oturma, çalışma ya da öğrenci izni alan kişi turist statüsünü kaybeder ve ehliyetini KKTC ehliyetine çevirmek zorundadır. Turistlere tanınan 90 gün kuralı artık sana uygulanmaz.",
+      "en": "Anyone with a residence, work or student permit loses tourist status and must exchange their licence for a North Cyprus one. The 90-day rule for tourists no longer covers you."
     },
     "signId": null,
     "basis": "law",
@@ -6129,7 +6129,7 @@
     "difficulty": "hard",
     "prompt": {
       "tr": "Türkiye dışında bir ülkenin ehliyeti sende var ve KKTC ehliyetine geçmen gerekiyor. Trafik Dairesi'ndeki süreç nasıl başlar?",
-      "en": "You hold a licence from a country other than Türkiye and need a KKTC licence. How does the process at the Trafik Dairesi begin?"
+      "en": "You hold a licence from a country other than Türkiye and need a North Cyprus licence. How does the process at the Traffic Department begin?"
     },
     "options": [
       {
@@ -6156,7 +6156,7 @@
       {
         "id": "d",
         "text": {
-          "tr": "Teorisiz, yalnız bir yol sınavıyla",
+          "tr": "Teori sınavı olmadan, yalnızca bir yol sınavıyla",
           "en": "With a road test only, and no theory"
         }
       }
@@ -6164,7 +6164,7 @@
     "answer": "a",
     "why": {
       "tr": "Süreç kurallar ve levhalar üzerine bir hazırlık sınavıyla başlar. Sonra öğrenci ehliyeti alır, sürücü kursu eğitmeniyle en az 5 gün (8 saat gündüz, 2 saat gece) direksiyon dersi yapar ve KKTC ehliyetine başvurursun.",
-      "en": "It starts with a preparatory test on rules and signs. You then get a learner licence, drive with a driving-school instructor on at least 5 days (8 hours by day and 2 at night), and apply for the KKTC licence."
+      "en": "It starts with a preparatory test on rules and signs. You then get a learner licence, drive with a driving-school instructor on at least 5 days (8 hours by day and 2 at night), and apply for a North Cyprus licence."
     },
     "signId": null,
     "basis": "law",
@@ -6353,7 +6353,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "Sınavları geçtin ve ilk kez KKTC ehliyeti alıyorsun. İlk ehliyetin ne kadar süre için verilir?",
-      "en": "You have passed your tests and are getting your first KKTC licence. For how long is the first licence issued?"
+      "en": "You have passed your tests and are getting your first North Cyprus licence. For how long is the first licence issued?"
     },
     "options": [
       {
@@ -6388,7 +6388,7 @@
     "answer": "a",
     "why": {
       "tr": "Yasanın harç cetveline göre ilk kez verilen ehliyet bir yıllıktır. Sonra 2, 3, 5 ya da 10 yıllık olarak yenilenir.",
-      "en": "Under the fee schedule of the law, a first licence is issued for one year. It is then renewed for 2, 3, 5 or 10 years."
+      "en": "Under the law's fee schedule, a first licence is issued for one year. It is then renewed for 2, 3, 5 or 10 years."
     },
     "signId": null,
     "basis": "law",
@@ -6407,7 +6407,7 @@
     "difficulty": "easy",
     "prompt": {
       "tr": "KKTC'de otomobil (D sınıfı) ehliyeti alabilmek için en az kaç yaşında olmalısın?",
-      "en": "How old must you be to get a car (class D) licence in KKTC?"
+      "en": "How old must you be to get a car (class D) licence in North Cyprus?"
     },
     "options": [
       {
@@ -6497,8 +6497,8 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "Trafik Dairesi'nin 2026 duyurusuna göre ehliyetsiz kullanılabilen e-scooterlar şehirlerarası yollarda ve sınırı saatte 50 kilometreyi aşan yollarda kullanılamaz. Kullanıcı en az 18 yaşında olmalıdır.",
-      "en": "Under the Trafik Dairesi's 2026 notice, licence-free e-scooters are banned on intercity roads and on roads with a limit above 50 km/h. Riders must be at least 18."
+      "tr": "Trafik Dairesi'nin 2026 duyurusuna göre ehliyetsiz kullanılabilen e-scooterlar şehirlerarası yollarda ve hız sınırı 50 km/sa üstünde olan yollarda kullanılamaz. Kullanıcı en az 18 yaşında olmalıdır.",
+      "en": "Under the Traffic Department's 2026 notice, licence-free e-scooters are banned on intercity roads and on roads with a limit above 50 km/h. Riders must be at least 18."
     },
     "signId": null,
     "basis": "law",

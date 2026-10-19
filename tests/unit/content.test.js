@@ -80,8 +80,25 @@ describe('prose rendering', () => {
 
 describe('storage', () => {
   it('round-trips an export', () => {
-    const state = { ...emptyState(), items: { a: { b: 2 } } };
-    expect(importJson(exportJson(state)).items).toEqual({ a: { b: 2 } });
+    const entry = { b: 2, d: 10, s: 1, w: 0, l: 9, p: 9, m: -1, h: -1, r: 1, f: 9 };
+    const state = { ...emptyState(), items: { a: entry } };
+    expect(importJson(exportJson(state)).items).toEqual({ a: entry });
     expect(() => importJson('{"app":"other"}')).toThrow();
+    expect(() => importJson('{"app":"test2drive","schema":99}')).toThrow();
+  });
+
+  it('sanitises a damaged backup instead of storing it', () => {
+    const state = importJson('{"app":"test2drive","schema":1,"stats":{"days":null},"items":{"x":{"b":"9"},"y":{"b":3,"d":5}},"attempts":[{"id":1}],"mock":{"car":"oops"},"settings":{"track":"plane","timeFactor":7}}');
+    expect(state.stats.days).toEqual([]);
+    expect(Object.keys(state.items)).toEqual(['y']);
+    expect(state.attempts).toEqual([]);
+    expect(state.mock).toEqual({});
+    expect(state.settings.track).toBe('car');
+    expect(state.settings.timeFactor).toBe(1);
+  });
+
+  it('migrates the first single-mock format to one mock per track', () => {
+    const state = importJson(JSON.stringify({ app: 'test2drive', schema: 1, mock: { track: 'moto', questionIds: ['a'], answers: {}, flagged: [] } }));
+    expect(Object.keys(state.mock)).toEqual(['moto']);
   });
 });

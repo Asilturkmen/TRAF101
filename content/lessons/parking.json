@@ -29,7 +29,7 @@
       },
       "body": {
         "tr": "KKTC ceza listesinde şu yerlere park etmek ayrı suçlar olarak geçer:\n\n- itfaiye istasyonu, hastane ve okul önleri,\n- kavşaklar,\n- otobüs durakları,\n- kaldırımlar.\n\nKaldırıma park etmek yayaları, özellikle bebek arabası iten ya da tekerlekli sandalye kullanan insanları yola inmeye zorlar.",
-        "en": "The KKTC penalty list names parking in these places as offences:\n\n- in front of fire stations, hospitals and schools,\n- at junctions,\n- at bus stops,\n- on pavements.\n\nParking on the pavement forces pedestrians, especially people with pushchairs or wheelchairs, out into the road."
+        "en": "The North Cyprus penalty list names parking in these places as offences:\n\n- in front of fire stations, hospitals and schools,\n- at junctions,\n- at bus stops,\n- on pavements.\n\nParking on the pavement forces pedestrians, especially people with pushchairs or wheelchairs, out into the road."
       },
       "basis": "secondary",
       "sourceId": "s31",
@@ -51,11 +51,11 @@
     {
       "heading": {
         "tr": "Doğru taraf ve yokuşta park",
-        "en": "The right side, and parking on hills"
+        "en": "The correct side, and parking on hills"
       },
       "body": {
         "tr": "Yolun **sol** kenarına, trafik akışıyla aynı yöne bakacak biçimde park et. Karşı yöne bakarak park etmek hem çıkarken karşı şeridi kesmeni gerektirir hem de gece aracının görünmesini zorlaştırır.\n\nKKTC'de kaldırım soldadır. Yokuşta tekerleri bu yüzden şöyle çevirirsin:\n\n- **Yokuş yukarı, kaldırım varsa:** tekerleri **sağa**, kaldırımdan uzağa çevir.\n- **Yokuş aşağı:** tekerleri **sola**, kaldırıma doğru çevir.\n\nBöylece fren boşalırsa araç kaldırıma dayanır ve yola kaçmaz. El frenini çek ve vitese tak; otomatik vitesli araçta P konumunu seç.",
-        "en": "Park on the **left** side of the road, facing the same way as the traffic. Parking against the flow means cutting across the other lane when you leave, and makes your car harder to see at night.\n\nIn KKTC the kerb is on the left. On a hill you therefore turn the wheels like this:\n\n- **Uphill, with a kerb:** turn the wheels to the **right**, away from the kerb.\n- **Downhill:** turn the wheels to the **left**, towards the kerb.\n\nIf the brakes let go, the car rolls into the kerb instead of into the road. Apply the handbrake and leave it in gear; in an automatic, select P."
+        "en": "Park on the **left** side of the road, facing the same way as the traffic. Parking against the flow means cutting across the other lane when you leave, and makes your car harder to see at night.\n\nIn North Cyprus the kerb is on the left. On a hill you therefore turn the wheels like this:\n\n- **Uphill, with a kerb:** turn the wheels to the **right**, away from the kerb.\n- **Downhill:** turn the wheels to the **left**, towards the kerb.\n\nThat way, if the brakes let go, the car rolls into the kerb instead of into the road. Apply the handbrake and leave it in gear; in an automatic, select P."
       },
       "basis": "practice",
       "sourceId": null,

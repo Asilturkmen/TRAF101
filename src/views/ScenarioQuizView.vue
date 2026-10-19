@@ -1,5 +1,5 @@
 <script setup>
-import { computed, nextTick, onMounted, ref } from 'vue';
+import { computed, nextTick, onMounted, ref, watch } from 'vue';
 import { RouterLink } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { Check, X, CircleCheck, CircleX, Route, Building2, Trees, CloudRain, Siren, SquareParking } from 'lucide-vue-next';
@@ -73,6 +73,14 @@ const heading = ref(null);
 const nextButton = ref(null);
 const current = computed(() => round.value[index.value] || null);
 const finished = computed(() => ready.value && round.value.length > 0 && index.value >= round.value.length);
+// When a round ends, move focus to the result so keyboard and screen-reader
+// users land on it instead of on a button that no longer exists.
+const resultHeading = ref(null);
+watch(finished, async (done) => {
+  if (!done) return;
+  await nextTick();
+  resultHeading.value?.focus();
+});
 const choices = computed(() => (current.value ? shuffle(current.value.choices, mulberry32(hashString(current.value.id) ^ seed.value)) : []));
 const pickedChoice = computed(() => current.value?.choices.find((ch) => ch.id === picked.value) || null);
 const ratio = computed(() => (round.value.length ? score.value / round.value.length : 0));
@@ -190,7 +198,7 @@ function next() {
       <div v-else class="results-screen">
         <div class="results-card">
           <Route :size="56" :stroke-width="1.5" class="results-icon" aria-hidden="true" />
-          <h2>{{ c.doneTitle }}</h2>
+          <h2 ref="resultHeading" tabindex="-1" class="result-heading">{{ c.doneTitle }}</h2>
           <div class="score-number">{{ score }} / {{ round.length }}</div>
           <p class="results-message">
             {{ c.done(score, round.length) }}
@@ -216,6 +224,13 @@ function next() {
 </template>
 
 <style scoped>
+.result-heading:focus {
+  outline: none;
+}
+.result-heading:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 4px;
+}
 .quiz-title:focus {
   outline: none;
 }

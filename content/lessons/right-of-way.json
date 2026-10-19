@@ -24,12 +24,12 @@
     },
     {
       "heading": {
-        "tr": "Denetimsiz kavşakta sağdan gelen geçer",
+        "tr": "Kontrolsüz kavşakta sağdan gelen geçer",
         "en": "At an uncontrolled junction, traffic from the right goes first"
       },
       "body": {
-        "tr": "Işığı, levhası ya da polisi olmayan bir kavşakta öncelik sağdan gelen aracındır. Bakanlığın trafik broşüründe bu kural açıkça yazar.\n\nSağından bir araç geliyorsa onun geçmesini bekle. Soldan gelen araç sana yol vermelidir, ama onun yavaşladığını görmeden kavşağa girme.\n\nBu konuda KKTC, yine soldan gidilen İngiltere'den ayrılır. İngiltere'de sürdüysen bu kurala özellikle dikkat et.",
-        "en": "At a junction with no lights, signs or police, priority belongs to the vehicle coming from the right. The ministry's traffic leaflet states this rule plainly.\n\nIf a vehicle is coming from your right, wait for it to pass. A vehicle from your left should give way to you, but do not enter the junction until you see it slowing down.\n\nOn this point KKTC differs from the UK, where people also drive on the left. If you learned to drive in the UK, pay special attention to this rule."
+        "tr": "Işığı, levhası ya da polisi olmayan bir kavşakta öncelik sağdan gelen aracındır. Bakanlığın trafik broşüründe bu kural açıkça yazılıdır.\n\nSağından bir araç geliyorsa onun geçmesini bekle. Soldan gelen araç sana yol vermelidir, ama onun yavaşladığını görmeden kavşağa girme.\n\nBu konuda KKTC, yine soldan gidilen İngiltere'den ayrılır. İngiltere'de sürdüysen bu kurala özellikle dikkat et.",
+        "en": "At a junction with no lights, signs or police, priority belongs to the vehicle coming from the right. The ministry's traffic leaflet states this rule plainly.\n\nIf a vehicle is coming from your right, wait for it to pass. A vehicle from your left should give way to you, but do not enter the junction until you see it slowing down.\n\nOn this point North Cyprus differs from the UK, where people also drive on the left. If you learned to drive in the UK, pay special attention to this rule."
       },
       "basis": "law",
       "sourceId": "s1",
@@ -68,7 +68,7 @@
       },
       "body": {
         "tr": "Siren çalan bir ambulansa, itfaiyeye ya da polis aracına yol verirsin.\n\nKKTC'de soldan gidildiği için güvenli olduğu anda **sola** çeker, yavaşlar ya da durursun. Sağa çekilmek sağdan trafik olan ülkelerde doğrudur, burada yanlıştır. Ani fren yapma, kaldırıma çıkma ve kırmızı ışıkta kavşağa dalma.",
-        "en": "You give way to an ambulance, fire engine or police vehicle using its siren.\n\nBecause traffic keeps left in KKTC, you pull over to the **left** when it is safe, then slow down or stop. Pulling to the right is correct in countries that drive on the right and wrong here. Do not brake suddenly, mount the kerb or drive into a junction against a red light."
+        "en": "You give way to an ambulance, fire engine or police vehicle using its siren.\n\nBecause traffic keeps left in North Cyprus, you pull over to the **left** when it is safe, then slow down or stop. Pulling to the right is correct in countries that drive on the right and wrong here. Do not brake suddenly, mount the kerb or drive into a junction against a red light."
       },
       "basis": "practice",
       "sourceId": null,

@@ -38,7 +38,7 @@
     {
       "heading": { "tr": "İlerlemen ne zaman silinir", "en": "When your progress is deleted" },
       "body": {
-        "tr": "- Tarayıcının site verilerini ya da geçmişini temizlersen ilerlemen silinir.\n- Gizli sekmede çalışırsan sekmeyi kapattığında ilerlemen gider.\n- iPhone ve iPad'de Safari, bir süredir açmadığın sitelerin verilerini kendiliğinden silebilir. Siteyi **ana ekrana eklersen** bu silme uygulanmaz.\n\nSınavın yaklaşıyorsa ara sıra ilerlemeni dışa aktar.",
+        "tr": "- Tarayıcının site verilerini ya da geçmişini temizlersen ilerlemen silinir.\n- Gizli sekme kullanırsan sekmeyi kapattığında ilerlemen gider.\n- iPhone ve iPad'de Safari, bir süredir açmadığın sitelerin verilerini kendiliğinden silebilir. Siteyi **ana ekrana eklersen** bu silme uygulanmaz.\n\nSınavın yaklaşıyorsa ara sıra ilerlemeni dışa aktar.",
         "en": "- If you clear your browser's site data or history, your progress is deleted.\n- If you use a private window, your progress goes when you close it.\n- On iPhone and iPad, Safari can delete the data of sites you have not opened for a while. If you **add the site to your home screen**, this does not apply.\n\nIf your exam is coming up, export your progress now and then."
       },
       "basis": "secondary", "sourceId": "gu-webkit-storage", "sourceRef": null

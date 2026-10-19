@@ -1,5 +1,5 @@
 <script setup>
-import { computed, ref } from 'vue';
+import { computed, onMounted, ref } from 'vue';
 import { RouterLink } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import {
@@ -176,13 +176,21 @@ const checkedDate = computed(() => fmtDate(examProfile.checkedAt, lang.value));
 
 // Returning-user strip (client only; progress loads after mount).
 const progress = useProgress();
-// Counted from saved entries only, so the homepage never loads the question bank.
-const dueN = computed(() => {
-  if (!progress.loaded) return 0;
-  const d = dayNumber();
-  return Object.values(progress.items).filter((e) => isDue(e, d)).length;
+// Counts use the same pool as Today's review and My mistakes. The question bank is
+// loaded only for returning learners, after the page is interactive.
+const pool = ref([]);
+onMounted(async () => {
+  progress.load();
+  if (!progress.hasProgress) return;
+  const { allQuestions } = await import('../content/questions.js');
+  const track = progress.settings.track || 'car';
+  pool.value = allQuestions.filter((q) => q.tracks.includes(track));
 });
-const mistakeN = computed(() => (progress.loaded ? Object.values(progress.items).filter(inMistakes).length : 0));
+const dueN = computed(() => {
+  const d = dayNumber();
+  return pool.value.filter((q) => isDue(progress.items[q.id], d)).length;
+});
+const mistakeN = computed(() => pool.value.filter((q) => inMistakes(progress.items[q.id])).length);
 
 // Live sample scenario: the first scenario in the bank.
 const sample = computed(() => scenarios.find((s) => s.lesson === 'vulnerable') || scenarios[0] || null);

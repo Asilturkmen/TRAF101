@@ -37,8 +37,8 @@
       {
         "with": "warning.two-way-traffic",
         "tip": {
-          "tr": "Üçgendeki siyah oklar uyarıdır, mavi dairedeki beyaz ok emirdir.",
-          "en": "Black arrows in a triangle warn; a white arrow on a blue disc orders."
+          "tr": "Üçgendeki siyah oklar uyarır, mavi dairedeki beyaz ok emreder.",
+          "en": "Black arrows in a triangle warn; a white arrow on a blue disc gives an order."
         }
       }
     ],
@@ -388,8 +388,8 @@
       "en": "You must pass to the left of the island, central reservation or obstruction ahead."
     },
     "driverAction": {
-      "tr": "Engelin solundan geç. KKTC'de soldan gidildiği için bu, ada başlarında en sık görülen zorunluluk levhasıdır.",
-      "en": "Pass on the left of the obstruction. As traffic keeps left in KKTC, this is the usual sign at the start of traffic islands."
+      "tr": "Engelin solundan geç. KKTC'de soldan gidildiği için bu, ada başlarında en sık görülen mecburiyet levhasıdır.",
+      "en": "Pass on the left of the obstruction. As traffic keeps left in North Cyprus, this is the usual sign at the start of traffic islands."
     },
     "confusions": [
       {
@@ -452,8 +452,8 @@
       {
         "with": "mandatory.keep-left",
         "tip": {
-          "tr": "KKTC'de olağan levha soldan gidinizdir; sağ alta bakan ok istisnadır.",
-          "en": "In KKTC the usual sign is keep left; an arrow pointing down-right is the exception."
+          "tr": "KKTC'de olağan levha Soldan gidiniz levhasıdır; sağ alta bakan ok istisnadır.",
+          "en": "In North Cyprus the usual sign is keep left; an arrow pointing down-right is the exception."
         }
       }
     ],
@@ -465,8 +465,8 @@
     "kktc": {
       "status": "unverified",
       "note": {
-        "tr": "Kuzeyde kullanıldığına dair kanıt bulunamadı; soldan gidiniz levhasıyla karşılaştırma için sette yer alır.",
-        "en": "No evidence of use in the north was found; it is included to compare with the keep-left sign."
+        "tr": "KKTC'de kullanıldığına dair kanıt bulunamadı; Soldan gidiniz levhasıyla karşılaştırmak için sette yer alır.",
+        "en": "No evidence of its use in North Cyprus was found; it is included to compare with the keep-left sign."
       }
     },
     "reviewedAt": "2026-10-20"
@@ -537,7 +537,7 @@
       "en": "roundabout"
     },
     "name": {
-      "tr": "Mecburi dönel kavşak (çember)",
+      "tr": "Mecburi çember (dönel kavşak)",
       "en": "Roundabout"
     },
     "meaning": {
@@ -572,8 +572,8 @@
     "kktc": {
       "status": "seen",
       "note": {
-        "tr": "Bakanlığın KKTC trafik broşüründe saat yönünde oklarla gösterilir.",
-        "en": "Shown with clockwise arrows on the ministry's KKTC traffic leaflet."
+        "tr": "Bakanlığın trafik broşüründe saat yönünde oklarla gösterilir.",
+        "en": "Shown with clockwise arrows in the ministry's traffic leaflet."
       }
     },
     "reviewedAt": "2026-10-20"

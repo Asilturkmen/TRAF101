@@ -56,9 +56,12 @@ export function signQuestion(sign) {
   }
   const ordered = shuffle([sign, ...pool], rand);
   const letters = ['a', 'b', 'c', 'd'];
+  // The revision follows the visible content, so saved progress notices when the
+  // options or the answer of a generated question change.
+  const rev = (hashString(JSON.stringify([ordered.map((s) => s.name), sign.meaning])) % 1e6) + 1;
   return {
     id: `sign:${sign.id}`,
-    rev: 1,
+    rev,
     generated: true,
     topic: 'rules',
     lesson: 'signs-basics',

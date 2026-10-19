@@ -1,97 +1,56 @@
-# 🚗 TRNC Driving Safety
+# Test2Drive
 
-A comprehensive web application for mastering traffic signs and rules for the Turkish Republic of Northern Cyprus (TRNC/KKTC) driving license exams.
+KKTC (Kuzey Kıbrıs) ehliyet sınavına ücretsiz ve kayıtsız hazırlık sitesi. Türkçe ve İngilizce.
 
-## ✨ Features
+- Levhalar: KKTC'de kullanılan çekirdek set, kendi çizimimiz (CC0), her levhanın anlamı, ne yapılması gerektiği ve neyle karıştırıldığı.
+- Konular: sınavın kapsadığı 17 konu, kaynak etiketli kısa okumalar.
+- Çalış: günlük tekrar (Leitner kutuları), konu çalışması, Hatalarım, levha sınavı provası (bugünkü sözlü sınav gibi), senaryolar.
+- Deneme sınavı: 2017 yönetmeliğindeki yazılı sınav biçimi (otomobil ve motosiklet 50 soru / 40 doğru / 60 dakika, ağır vasıta 100 / 80 / 120), sonuçlar sonda.
+- İlerleme yalnız tarayıcıda saklanır. Backend, hesap ve çerez yoktur.
 
-- **📚 Complete Sign Database**: 144+ traffic signs organized by category
-- **📝 Practice Tests**: License-specific quizzes (A, A1, B, C, D, EH)
-- **🎯 Instant Feedback**: Review incorrect answers with explanations
-- **📊 Progress Tracking**: Monitor your learning journey
-- **🌐 Bilingual**: English interface with Turkish translations
-- **📱 Responsive Design**: Works on desktop, tablet, and mobile
+Proje, Doğu Akdeniz Üniversitesi TRAF101 Trafik Güvenliği dersinde Asil Türkmen ve Arda Günsüren tarafından başlatıldı. Test2Drive resmi bir kurum değildir.
 
-## 🛠️ Tech Stack
+## Komutlar
 
-- **Frontend Framework**: Vue 3 (Composition API with `<script setup>`)
-- **Build Tool**: Vite
-- **State Management**: Pinia
-- **Routing**: Vue Router
-- **Styling**: Modern CSS with custom design system
+| Komut | Ne yapar |
+|---|---|
+| `npm install` | Bağımlılıkları kurar (Node 20 ya da üstü). |
+| `npm run dev` | Geliştirme sunucusu, `http://localhost:5173`. |
+| `npm run validate` | İçerik dosyalarını denetler. `validate:strict` yayın sayılarını da denetler. |
+| `npm test` | Birim testleri (Vitest). |
+| `npm run build` | Katı içerik denetimi, bütün sayfaların iki dilde önceden üretilmesi, sitemap, robots, OG görselleri ve service worker. Çıktı `dist/`. |
+| `npm run preview` | `dist/` klasörünü statik bir barındırma gibi sunar, `http://localhost:4173`. |
+| `npm run test:e2e` | Derlenmiş site üzerinde uçtan uca testler (Playwright). |
 
-## 🚀 Quick Start
+Kanonik adresler için derlemeden önce `VITE_SITE_URL` ayarlanır, örneğin `VITE_SITE_URL=https://ornek.com npm run build`. Ayarlanmazsa yer tutucu alan adı kullanılır ve derleme uyarı verir.
 
-### Prerequisites
-- Node.js 16+ 
-- npm or yarn
-
-### Installation
-
-```bash
-# Clone the repository
-git clone <repository-url>
-cd TRAF101
-
-# Install dependencies
-npm install
-
-# Start development server
-npm run dev
-
-# Build for production
-npm run build
-
-# Preview production build
-npm run preview
-```
-
-## 📁 Project Structure
+## Yapı
 
 ```
-TRAF101/
-├── public/
-│   ├── signs/           # Traffic sign images
-│   └── signs.json       # Sign database
-├── src/
-│   ├── components/      # Reusable Vue components
-│   ├── data/           # Static data (licenses, questions, study data)
-│   ├── router/         # Vue Router configuration
-│   ├── stores/         # Pinia state management
-│   ├── views/          # Page components
-│   ├── App.vue         # Root component
-│   ├── main.js         # Application entry point
-│   └── style.css       # Global styles and design system
-├── index.html
-├── package.json
-└── vite.config.js
+content/            bütün içerik (JSON): levhalar, sorular, senaryolar, dersler, rehber sayfaları, kaynaklar
+public/signs/       levha çizimleri (SVG, CC0); scripts/signs/ üretir
+src/router/table.js iki dilli adres tablosu (tek kaynak)
+src/content/        içerik yükleyicileri ve otomatik levha soruları
+src/lib/            tekrar sistemi, oturum kurucuları, depolama, metin yardımcıları
+src/views/          sayfalar
+scripts/            içerik denetimi, derleme sonrası işler, QA betikleri, statik sunucu
+docs/               plan, tasarım sistemi, içerik şeması, araştırmalar, QA raporu, yayın rehberi
 ```
 
-## 🎨 Design System
+## İçerik ekleme
 
-The application uses a modern, professional design system featuring:
-- Ocean Blue color palette
-- Inter font family
-- Consistent spacing and typography scales
-- Smooth transitions and micro-animations
-- Responsive grid systems
+1. `docs/CONTENT-SCHEMA.md` dosyasını oku. Her soru, ders bölümü ve senaryo bir etiket taşır: `law` (yasada yazılı), `secondary` (ikincil kaynak) ya da `practice` (genel uygulama).
+2. İlgili dosyaya ekle, örneğin yeni bir soru için `content/questions/rules.json`.
+3. `npm run validate:strict` sıfır hata vermeli.
+4. Kaynak yeni ise `content/sources/` altındaki bir dosyaya ekle.
+5. Levha eklemek için `scripts/signs/signs.mjs` içine çizimi tanımla, `node scripts/signs/build-signs.mjs` çalıştır ve `content/signs/<kategori>.json` dosyasına veriyi ekle.
 
-## 📝 License Types Supported
+## Yayın
 
-- **A1**: Motorcycles (50-125cc)
-- **A**: All motorcycles
-- **B**: Standard passenger cars
-- **C**: Heavy goods vehicles
-- **D**: Buses and coaches
-- **EH**: Hazardous materials transport
+Herhangi bir statik barındırmada çalışır. Adımlar `docs/LAUNCH.md` içindedir.
 
-## 🤝 Contributing
+## Lisans
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
-## 🙏 Acknowledgments
-
-Traffic sign data and regulations based on TRNC traffic laws and standards.
+- Kod: MIT.
+- Levha çizimleri: CC0 1.0 (`public/signs/CREDITS.md`).
+- Inter yazı tipi: SIL Open Font License 1.1.

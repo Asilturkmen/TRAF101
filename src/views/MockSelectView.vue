@@ -65,8 +65,13 @@ const c = computed(() => copy[lang.value]);
 const icons = { car: Car, moto: Bike, heavy: Bus };
 usePage({ title: computed(() => c.value.title), description: computed(() => c.value.subtitle), alternates: both((l) => to('mock', l)) });
 
-const resumable = computed(() => (progress.loaded && progress.mock ? progress.mock : null));
-const resumeTrack = computed(() => (resumable.value ? trackById(resumable.value.track) : null));
+const resumables = computed(() =>
+  progress.loaded
+    ? Object.values(progress.mock || {})
+        .map((m) => ({ m, track: trackById(m.track) }))
+        .filter((x) => x.track)
+    : [],
+);
 const timeFactor = computed({
   get: () => progress.settings.timeFactor ?? 1,
   set: (v) => progress.setSetting('timeFactor', Number(v)),
@@ -84,12 +89,12 @@ const timeFactor = computed({
         </p>
 
         <ClientOnly>
-          <div v-if="resumable && resumeTrack" class="resume-card card">
+          <div v-for="r in resumables" :key="r.track.id" class="resume-card card">
             <div>
               <h2>{{ c.resume }}</h2>
-              <p>{{ c.resumeText(tx(resumeTrack.name, lang), Object.keys(resumable.answers).length, resumable.questionIds.length) }}</p>
+              <p>{{ c.resumeText(tx(r.track.name, lang), Object.keys(r.m.answers).length, r.m.questionIds.length) }}</p>
             </div>
-            <RouterLink :to="mockPath(resumeTrack, lang)" class="btn btn-primary">{{ c.resumeBtn }}</RouterLink>
+            <RouterLink :to="mockPath(r.track, lang)" class="btn btn-primary">{{ c.resumeBtn }}</RouterLink>
           </div>
         </ClientOnly>
 

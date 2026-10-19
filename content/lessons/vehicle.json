@@ -80,8 +80,8 @@
         "en": "What to keep in the car"
       },
       "body": {
-        "tr": "Polise göre moped ve motosiklet dışındaki her motorlu araçta bir yangın söndürücü bulunmalıdır. Söndürücünün dolu olduğunu ve son kullanma tarihinin geçmediğini kontrol et.\n\nBir ilk yardım çantası, bir uyarı üçgeni ve yansıtıcı bir yelek de arızada ve kazada işe yarar.",
-        "en": "According to the police, every motor vehicle except mopeds and motorcycles should carry a fire extinguisher. Check that it is charged and in date.\n\nA first-aid kit, a warning triangle and a reflective vest are also useful in a breakdown or a crash."
+        "tr": "Polise göre moped ve motosiklet dışındaki her motorlu araçta bir yangın söndürücü bulunmalıdır. Söndürücünün dolu olduğunu ve son kullanma tarihinin geçmediğini kontrol et.\n\nBir ilk yardım çantası, bir reflektör (uyarı üçgeni) ve yansıtıcı bir yelek de arızada ve kazada işe yarar.",
+        "en": "According to the police, every motor vehicle except mopeds and motorcycles must carry a fire extinguisher. Check that it is charged and in date.\n\nA first-aid kit, a warning triangle and a reflective vest are also useful in a breakdown or a crash."
       },
       "basis": "secondary",
       "sourceId": "s38",
@@ -128,7 +128,7 @@
     {
       "text": {
         "tr": "Moped ve motosiklet dışındaki araçlarda yangın söndürücü bulunmalıdır.",
-        "en": "Every vehicle except mopeds and motorcycles should carry a fire extinguisher."
+        "en": "Every vehicle except mopeds and motorcycles must carry a fire extinguisher."
       },
       "basis": "secondary",
       "sourceId": "s38",

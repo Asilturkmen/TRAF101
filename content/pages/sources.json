@@ -11,7 +11,7 @@
       "heading": { "tr": "İçerik nasıl hazırlanıyor", "en": "How the content is prepared" },
       "body": {
         "tr": "Her kural, soru ve açıklama bir kaynağa dayanır. Önce KKTC yasalarını ve tüzüklerini, Resmi Gazete'yi, Bayındırlık ve Ulaştırma Bakanlığı ile Polis Genel Müdürlüğü'nün yayınlarını okuyoruz. Resmi bir metin bulamadığımızda yerel basına bakıyoruz. Bu haberler çoğu zaman polisin, bakanlığın ya da sürücü kursları birliğinin açıklamalarını aktarır.\n\nİki kural uyguluyoruz:\n\n- Kaynaklar birbiriyle çelişiyorsa o bilgiyi yayınlamıyoruz. Ağır kamyon ehliyeti için yaş sınırını bu yüzden yazmıyoruz.\n- Sayı içeren bir kuralın kaynağı yoksa sayıyı yazmıyoruz. Örneğin okul önünde hızını düşürmen gerektiğini söylüyoruz, ama kaynak bulamadığımız için bir hız değeri vermiyoruz.\n\nTürkiye'nin, güney Kıbrıs'ın ya da başka ülkelerin kurallarını KKTC kuralı gibi sunmuyoruz.",
-        "en": "Every rule, question and explanation rests on a source. We start with the laws and regulations of North Cyprus, the Official Gazette, and publications of the Ministry of Public Works and Transport and the Police. When we cannot find an official text, we look at the local press. These reports usually quote the police, the ministry or the driving-school union.\n\nWe follow two rules:\n\n- If sources contradict each other, we do not publish that information. That is why we do not give an age limit for the heavy goods licence.\n- If a rule with a number has no source, we leave the number out. For example, we say you should slow down near schools, but we give no speed because we found no source for one.\n\nWe do not present rules from Turkey, the south of Cyprus or other countries as North Cyprus rules."
+        "en": "Every rule, question and explanation rests on a source. We start with the laws and regulations of North Cyprus, the Official Gazette, and publications of the Ministry of Public Works and Transport and the Police General Directorate. When we cannot find an official text, we look at the local press. These reports usually quote the police, the ministry or the driving-school union.\n\nWe follow two rules:\n\n- If sources contradict each other, we do not publish that information. That is why we do not give an age limit for the heavy goods licence.\n- If a rule with a number has no source, we leave the number out. For example, we say you should slow down near schools, but we give no speed because we found no source for one.\n\nWe do not present rules from Turkey, the south of Cyprus or other countries as North Cyprus rules."
       }
     },
     {
@@ -24,7 +24,7 @@
     {
       "heading": { "tr": "Resmi bir kurum değiliz", "en": "We are not an official body" },
       "body": {
-        "tr": "Test2Drive; Trafik Dairesi'nin, Bakanlığın ya da Polis'in sitesi değildir. Sınav, başvuru ve ücretlerde son sözü Trafik Dairesi ve sürücü kursun söyler. Burada okuduğun bir bilgi kursunun söylediğiyle çelişiyorsa kursuna uy ve bize bildir.",
+        "tr": "Test2Drive, Trafik Dairesi'nin, Bakanlığın ya da polisin sitesi değildir. Sınav, başvuru ve ücretlerde son sözü Trafik Dairesi ve sürücü kursun söyler. Burada okuduğun bir bilgi kursunun söylediğiyle çelişiyorsa kursuna uy ve bize bildir.",
         "en": "Test2Drive is not a site of the Traffic Department, the ministry or the police. On exams, applications and fees, the Traffic Department and your driving school have the final word. If something you read here contradicts what your school tells you, follow your school and let us know."
       }
     },

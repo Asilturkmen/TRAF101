@@ -5,7 +5,7 @@
     "en": "Environment and eco-driving"
   },
   "summary": {
-    "tr": "Yumuşak ve öngörülü sürmek yakıttan, gürültüden ve kazadan tasarruf ettirir.",
+    "tr": "Yumuşak ve öngörülü sürüş yakıt tasarrufu sağlar, gürültüyü azaltır ve kazaları önler.",
     "en": "Smooth, forward-looking driving saves fuel, cuts noise and prevents crashes."
   },
   "sections": [
@@ -67,8 +67,8 @@
         "en": "Waste and forest fires"
       },
       "body": {
-        "tr": "Araçtan dışarı çöp atma. Kullanılmış motor yağını, aküyü ve eski lastikleri yetkili servise ya da toplama noktasına bırak.\n\nKıbrıs'ın yazları kuru ve sıcaktır. Camdan atılan bir sigara izmariti ya da kuru otların üstüne park etmiş bir aracın sıcak egzozu yangın başlatabilir. Bir orman yangını görürsen **177**'yi ara.",
-        "en": "Never throw litter out of the car. Take used engine oil, batteries and old tyres to a garage or a collection point.\n\nSummers in Cyprus are hot and dry. A cigarette end thrown from a window, or a hot exhaust over dry grass where a car is parked, can start a fire. If you see a forest fire, call **177**."
+        "tr": "Araçtan dışarı çöp atma. Kullanılmış motor yağını, aküyü ve eski lastikleri yetkili servise ya da toplama noktasına bırak.\n\nKıbrıs'ın yazları kuru ve sıcaktır. Camdan atılan bir sigara izmariti ya da kuru otların üstüne park edilmiş bir aracın sıcak egzozu yangın başlatabilir. Bir orman yangını görürsen **177**'yi ara.",
+        "en": "Never throw litter out of the car. Take used engine oil, batteries and old tyres to a garage or a collection point.\n\nSummers in Cyprus are hot and dry. A cigarette end thrown from a window, or the hot exhaust of a car parked on dry grass, can start a fire. If you see a forest fire, call **177**."
       },
       "basis": "law",
       "sourceId": "s15",

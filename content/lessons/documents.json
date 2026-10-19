@@ -15,8 +15,8 @@
         "en": "Licence classes in use today"
       },
       "body": {
-        "tr": "KKTC'de bugün 2013'te güncellenen eski harfler kullanılır:\n\n- **D:** otomobil. En çok 8 yolcu taşıyan araçlar, kamyonetler, çift kabinli araçlar, panelvanlar ve 2.032 kg'a kadar diğer araçlar. Olağan araba ehliyeti budur.\n- **H1, H2, H:** motosikletler, küçükten büyüğe.\n- **J:** 50 cc'ye kadar motorlu bisikletler (moped).\n- **A:** 22 ve daha fazla oturan yolcu taşıyan otobüsler.\n- **B:** ağır kamyonlar ve 2.032 kg'ı aşan, başka sınıfa girmeyen motorlu araçlar.\n- **C:** 8'den fazla, 22'den az yolcu taşıyan minibüsler.\n\nLastik tekerlekli traktör (E), paletli araç ve iş makinesi (F), yol silindiri (G) ve diğer motorlu araçlar (K) için de sınıflar vardır.\n\nDikkat: bu harfler Avrupa'daki harflerle aynı anlama gelmez. KKTC'de **B ağır kamyondur**, otomobil değil.",
-        "en": "KKTC still uses the old letters, last updated in 2013:\n\n- **D:** car. Vehicles carrying at most 8 passengers, pick-ups, double-cab vehicles, panel vans and other vehicles up to 2,032 kg. This is the ordinary car licence.\n- **H1, H2, H:** motorcycles, from small to large.\n- **J:** mopeds up to 50 cc.\n- **A:** buses with 22 or more passenger seats.\n- **B:** heavy lorries and other motor vehicles over 2,032 kg not listed elsewhere.\n- **C:** minibuses with more than 8 and fewer than 22 passenger seats.\n\nThere are also classes for rubber-tyred tractors (E), tracked vehicles and machinery (F), road rollers (G) and other motor vehicles (K).\n\nTake care: these letters do not mean what they mean in Europe. In KKTC, **B is a heavy lorry**, not a car."
+        "tr": "KKTC'de bugün 2013'te güncellenen eski harfler kullanılır:\n\n- **D:** otomobil. En çok 8 yolcu taşıyan araçlar, kamyonetler, çift kabinli araçlar, panelvanlar ve 2.032 kg'a kadar diğer araçlar. Bilinen otomobil ehliyeti budur.\n- **H1, H2, H:** motosikletler, küçükten büyüğe.\n- **J:** 50 cc'ye kadar motorlu bisikletler (moped).\n- **A:** 22 ve daha fazla oturan yolcu taşıyan otobüsler.\n- **B:** ağır kamyonlar ve 2.032 kg'ı aşan, başka sınıfa girmeyen motorlu araçlar.\n- **C:** 8'den fazla, 22'den az yolcu taşıyan minibüsler.\n\nLastik tekerlekli traktör (E), paletli araç ve iş makinesi (F), yol silindiri (G) ve diğer motorlu araçlar (K) için de sınıflar vardır.\n\nBu harfler Avrupa'daki harflerle aynı anlama gelmez. KKTC'de **B ağır kamyondur**, otomobil değil.",
+        "en": "North Cyprus still uses the old letters, last updated in 2013:\n\n- **D:** car. Vehicles carrying at most 8 passengers, pick-ups, double-cab vehicles, panel vans and other vehicles up to 2,032 kg. This is the ordinary car licence.\n- **H1, H2, H:** motorcycles, from small to large.\n- **J:** mopeds up to 50 cc.\n- **A:** buses with 22 or more passenger seats.\n- **B:** heavy lorries and other motor vehicles over 2,032 kg not listed elsewhere.\n- **C:** minibuses with more than 8 and fewer than 22 passenger seats.\n\nThere are also classes for rubber-tyred tractors (E), tracked vehicles and machinery (F), road rollers (G) and other motor vehicles (K).\n\nThese letters do not mean what they mean in Europe. In North Cyprus, **B is a heavy lorry**, not a car."
       },
       "basis": "law",
       "sourceId": "s10",
@@ -41,8 +41,8 @@
         "en": "Learner licence and first licence"
       },
       "body": {
-        "tr": "Süreç öğrenci ehliyetiyle başlar. Önce öğrenci ehliyeti sınavına girersin; bugün bu sınav bir sürüş ehliyeti müfettişiyle sözlü yapılır. Geçince öğrenci ehliyetiyle sürüş eğitimi alır, sonra sürüş sınavına girersin.\n\nİlk kez verilen ehliyet bir yıllıktır. Sonra daha uzun süreler için yenilenir.\n\nAğır vasıta sınıfları için yaş ve deneyim şartlarını kursuna ya da Trafik Dairesi'ne sor.",
-        "en": "The process starts with a learner licence. First you sit the learner-licence exam; today it is an oral exam with a driving-licence inspector. Once you pass, you take driving lessons on the learner licence and then sit the driving test.\n\nThe first licence you are issued is valid for one year. After that it is renewed for longer periods.\n\nFor the heavy-vehicle classes, ask your driving school or the Traffic Department (*Trafik Dairesi*) about age and experience requirements."
+        "tr": "Süreç öğrenci ehliyetiyle başlar. Önce öğrenci ehliyeti sınavına girersin; bugün bu sınav bir sürüş ehliyeti müfettişiyle sözlü yapılır. Geçince öğrenci ehliyetiyle sürüş eğitimi alır, sonra direksiyon sınavına girersin.\n\nİlk kez verilen ehliyet bir yıllıktır. Sonra daha uzun süreler için yenilenir.\n\nAğır vasıta sınıfları için yaş ve deneyim şartlarını kursuna ya da Trafik Dairesi'ne sor.",
+        "en": "The process starts with a learner licence. First you sit the learner-licence exam; today it is an oral exam with a driving-licence inspector. Once you pass, you take driving lessons on the learner licence and then sit the practical driving test.\n\nThe first licence you are issued is valid for one year. After that it is renewed for longer periods.\n\nFor the heavy-vehicle classes, ask your driving school or the Traffic Department (Trafik Dairesi) about age and experience requirements."
       },
       "basis": "law",
       "sourceId": "s6",
@@ -55,7 +55,7 @@
       },
       "body": {
         "tr": "Turist olarak geldiysen kendi ülkenin geçerli ehliyetiyle girişinden itibaren **90 gün** sürebilirsin.\n\nKKTC'de oturum, çalışma ya da **öğrenci** izniyle yaşamaya başladığında turist sayılmazsın. O zaman ehliyetini KKTC ehliyetine çevirmen gerekir.\n\nTürkiye dışındaki ülkelerin ehliyetleri için yol şöyledir:\n\n- Trafik Dairesi'ne başvur.\n- KKTC trafik kuralları ve levhalar üzerine bir hazırlık sınavına gir.\n- 6 ay geçerli bir öğrenci ehliyeti al.\n- Bir sürücü kursunda en az 5 gün ders al: 8 saat gündüz, 2 saat gece.\n- Sonra KKTC ehliyetine başvur.\n\nTürkiye ile KKTC arasında ehliyetlerin tanınması ve değiştirilmesi için ayrı bir anlaşma vardır. Başvuru için sana tanınan süreyi Trafik Dairesi'ne sor; en güvenlisi izni alır almaz başvurmaktır.",
-        "en": "If you come as a tourist, you may drive on a valid licence from your own country for **90 days** from your entry.\n\nOnce you live in KKTC on a residence, work or **student** permit, you no longer count as a tourist. You then need to exchange your licence for a KKTC licence.\n\nFor licences from countries other than Türkiye, the route is:\n\n- Apply to the Traffic Department (*Trafik Dairesi*).\n- Pass a preparatory exam on the KKTC traffic rules and signs.\n- Get a learner licence valid for 6 months.\n- Take lessons at a driving school on at least 5 days: 8 hours in daylight and 2 hours at night.\n- Then apply for the KKTC licence.\n\nTürkiye and KKTC have a separate agreement on recognising and exchanging licences. Ask the Traffic Department how long you have to apply; the safest course is to apply as soon as you get your permit."
+        "en": "If you come as a tourist, you may drive on a valid licence from your own country for **90 days** from your entry.\n\nOnce you live in North Cyprus on a residence, work or **student** permit, you no longer count as a tourist. You then need to convert your licence to a North Cyprus licence.\n\nFor licences from countries other than Türkiye, the route is:\n\n- Apply to the Traffic Department (Trafik Dairesi).\n- Pass a preparatory exam on North Cyprus traffic rules and signs.\n- Get a learner licence valid for 6 months.\n- Take lessons at a driving school on at least 5 days: 8 hours in daylight and 2 hours at night.\n- Then apply for a North Cyprus licence.\n\nTürkiye and North Cyprus have a separate agreement on recognising and exchanging licences. Ask the Traffic Department how long you have to apply; the safest course is to apply as soon as you get your permit."
       },
       "basis": "law",
       "sourceId": "s16",
@@ -68,7 +68,7 @@
       },
       "body": {
         "tr": "Araç kullanırken yanında şunlar olmalı:\n\n- ehliyetin ya da öğrenci ehliyetin,\n- aracın seyrüsefer belgesi (yol vergisi),\n- sigorta belgesi,\n- kimliğin.\n\nEhliyet almak için en az 18, araç kiralamak için en az 21 yaşında olmalısın.",
-        "en": "When you drive, carry:\n\n- your driving licence or learner licence,\n- the vehicle's *seyrüsefer* certificate (road tax),\n- the insurance certificate,\n- your ID.\n\nYou must be at least 18 to get a licence and at least 21 to rent a car."
+        "en": "When you drive, carry:\n\n- your driving licence or learner licence,\n- the vehicle's road tax certificate (seyrüsefer),\n- the insurance certificate,\n- your ID.\n\nYou must be at least 18 to get a licence and at least 21 to rent a car."
       },
       "basis": "law",
       "sourceId": "s1",
@@ -110,7 +110,7 @@
     {
       "text": {
         "tr": "Turistler kendi ehliyetleriyle 90 gün sürebilir; öğrenciler ve oturum izni alanlar KKTC ehliyetine geçmelidir.",
-        "en": "Tourists may drive on their own licence for 90 days; students and residents must switch to a KKTC licence."
+        "en": "Tourists may drive on their own licence for 90 days; students and residents must convert to a North Cyprus licence."
       },
       "basis": "law",
       "sourceId": "s16",
@@ -118,8 +118,8 @@
     },
     {
       "text": {
-        "tr": "Yanında ehliyet, seyrüsefer, sigorta ve kimlik taşırsın.",
-        "en": "You carry your licence, seyrüsefer certificate, insurance and ID."
+        "tr": "Yanında ehliyetini, seyrüsefer belgesini, sigortayı ve kimliğini taşı.",
+        "en": "Carry your licence, road tax certificate (seyrüsefer), insurance and ID."
       },
       "basis": "law",
       "sourceId": "s1",

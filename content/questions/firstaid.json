@@ -46,7 +46,7 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Güncel rehber, güvenlikten sonra hemen kişinin tepkisine ve hayatı tehdit eden kanamaya bakılmasını, ardından soluk yolu ve nefesin değerlendirilmesini önerir.",
+      "tr": "Güncel rehber, güvenlikten sonra hemen kişinin tepkisine ve hayatı tehdit eden kanamaya bakılmasını, ardından hava yolu ve nefesin değerlendirilmesini önerir.",
       "en": "Current guidance says that after safety you check at once whether the person responds and whether there is life-threatening bleeding, then assess the airway and breathing."
     },
     "signId": null,
@@ -102,7 +102,7 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Görevli yeri bilmeden yardım gönderemez. Telefonu kapatma; görevli ne yapman gerektiğini adım adım söyler. Kazada ayrıca 155 polisi de haber ver.",
+      "tr": "Görevli yeri bilmeden yardım gönderemez. Telefonu kapatma; görevli ne yapman gerektiğini adım adım söyler. Kaza varsa 155'i arayıp polise de haber ver.",
       "en": "The call handler cannot send help without knowing where you are. Stay on the line; they will tell you step by step what to do. At a crash, tell the police on 155 too."
     },
     "signId": null,
@@ -194,14 +194,14 @@
         "id": "b",
         "text": {
           "tr": "Daha rahat nefes alsın diye oturtup sırtını aracın kapısına yaslarsın",
-          "en": "Sit them up against the car door so they can breathe more easily"
+          "en": "Sit them up with their back against the car door so they can breathe more easily"
         }
       },
       {
         "id": "c",
         "text": {
           "tr": "Çevirmeden başını ve boynunu sabit tutar, nefesini izlersin",
-          "en": "Leave them on their back, hold the head and neck still and watch their breathing"
+          "en": "Without turning them, hold the head and neck still and watch their breathing"
         }
       },
       {
@@ -214,8 +214,8 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Güncel ilk yardım rehberi, yaralanmış kişiyi yan yatış yerine sırtüstü tutmayı önerir, çünkü boyun ya da omurga zarar görmüş olabilir. Nefes bozulursa yeniden canlandırmaya başla.",
-      "en": "Current first-aid guidance keeps an injured person on their back rather than in the recovery position, because the neck or spine may be hurt. If breathing changes, start CPR."
+      "tr": "Güncel ilk yardım rehberi, yaralanmış kişiyi yan yatış yerine sırtüstü tutmayı önerir, çünkü boyun ya da omurga zarar görmüş olabilir. Normal nefes almayı bırakırsa yeniden canlandırmaya başla.",
+      "en": "Current first-aid guidance keeps an injured person on their back rather than in the recovery position, because the neck or spine may be hurt. If they stop breathing normally, start CPR."
     },
     "signId": null,
     "basis": "secondary",
@@ -326,8 +326,8 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Yaralının durumu aniden kötüleşebilir. Güncel rehber kişiyi sürekli izlemeyi ve üşümesini önlemeyi önerir; durum değişirse görevliyi yeniden ara.",
-      "en": "A casualty can get worse suddenly. Current guidance is to keep watching them and stop them getting cold; if anything changes, call back."
+      "tr": "Yaralının durumu aniden kötüleşebilir. Güncel rehber kişiyi sürekli izlemeyi ve üşümesini önlemeyi önerir; durum değişirse 112'yi yeniden ara.",
+      "en": "A casualty can get worse suddenly. Current guidance is to keep watching them and stop them getting cold; if anything changes, call 112 again."
     },
     "signId": null,
     "basis": "secondary",
@@ -410,7 +410,7 @@
       {
         "id": "a",
         "text": {
-          "tr": "Kısa bir süre deneyip sonuç alamazsan bırakana kadar",
+          "tr": "Kısa bir süre deneyip sonuç alamayana kadar",
           "en": "Until you have tried briefly and seen no result"
         }
       },
@@ -438,8 +438,8 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "ERC, göğüs basısına sağlık ekibi gelip devralana ya da durmanı söyleyene kadar devam etmeyi söyler. Yorulursan ve yanında biri varsa sırayla basın.",
-      "en": "The ERC says to keep going until professional help arrives and takes over or tells you to stop. If you tire and someone else is there, take turns."
+      "tr": "ERC, göğüs basısına sağlık ekibi gelip devralana ya da durmanı söyleyene kadar devam etmeyi söyler. Yorulursan ve yanında biri varsa onunla sırayla bas.",
+      "en": "The ERC says to keep going until professional help arrives and takes over or tells you to stop. If you get tired and someone else is there, take turns."
     },
     "signId": null,
     "basis": "secondary",
@@ -494,7 +494,7 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Nefes yoksa soluk yolunu açmak için kaskın çıkması gerekir. Biri baş ve boynu hizada tutarken diğeri kaskı yavaşça çıkarır.",
+      "tr": "Nefes yoksa hava yolunu açmak için kaskın çıkması gerekir. Biri baş ve boynu hizada tutarken diğeri kaskı yavaşça çıkarır.",
       "en": "If they are not breathing, the helmet has to come off to open the airway. One person keeps the head and neck in line while the other eases it off slowly."
     },
     "signId": null,
@@ -1020,7 +1020,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "Kalbi durmuş birine göğüs basısı yapmaktan, kaburgasını kırarım diye çekiniyorsun. Doğru olan hangisi?",
-      "en": "You hesitate to give chest compressions to someone in cardiac arrest in case you break a rib. What is right?"
+      "en": "You hesitate to give chest compressions to someone in cardiac arrest in case you break a rib. Which is right?"
     },
     "options": [
       {

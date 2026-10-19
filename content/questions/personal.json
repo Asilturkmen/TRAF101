@@ -12,7 +12,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "KKTC'de sürücüler için kandaki yasal alkol sınırı nedir?",
-      "en": "What is the legal blood alcohol limit for drivers in KKTC?"
+      "en": "What is the legal blood alcohol limit for drivers in North Cyprus?"
     },
     "options": [
       {
@@ -68,7 +68,7 @@
     "difficulty": "hard",
     "prompt": {
       "tr": "Nefes testinde KKTC'deki yasal alkol sınırı nedir?",
-      "en": "What is the legal alcohol limit in a breath test in KKTC?"
+      "en": "What is the legal alcohol limit in a breath test in North Cyprus?"
     },
     "options": [
       {
@@ -437,7 +437,7 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Sınırı az farkla aşmak bile para cezasına ek olarak 100 ceza puanı getirir. Alkollü sürüşün küçük bir ihlal sayılmadığını gösterir.",
+      "tr": "Sınırı az farkla aşmak bile para cezasına ek olarak 100 ceza puanı getirir. Alkollü araç kullanma hiçbir zaman küçük bir ihlal sayılmaz.",
       "en": "Even a small excess brings 100 penalty points on top of a fine. Drink-driving is never treated as a minor offence."
     },
     "signId": null,
@@ -459,7 +459,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "KKTC'de aşırı yorgunken araç kullanmak için yasa ne der?",
-      "en": "What does KKTC law say about driving while over-tired?"
+      "en": "What does North Cyprus law say about driving while over-tired?"
     },
     "options": [
       {
@@ -767,7 +767,7 @@
         "id": "d",
         "text": {
           "tr": "Bu maddeler, kişi fark etmese de algıyı ve tepkiyi bozar",
-          "en": "These drugs impair perception and reactions even if the user does not notice"
+          "en": "These drugs dull perception and reactions without the user noticing"
         }
       }
     ],
@@ -851,7 +851,7 @@
     "difficulty": "easy",
     "prompt": {
       "tr": "Son zamanlarda levhaları her zamankinden geç okuyabildiğini fark ettin. Ne yaparsın?",
-      "en": "Lately you notice you can only read signs later than you used to. What do you do?"
+      "en": "Lately you have noticed that you read signs later than you used to. What do you do?"
     },
     "options": [
       {
@@ -906,8 +906,8 @@
     ],
     "difficulty": "easy",
     "prompt": {
-      "tr": "Ateşin var ve kendini halsiz hissediyorsun. Kısa bir yolculuk için ne yaparsın?",
-      "en": "You have a fever and feel weak. What do you do about a short journey?"
+      "tr": "Ateşin var ve kendini halsiz hissediyorsun. Kısa bir yolculuk yapman gerekiyor. Ne yaparsın?",
+      "en": "You have a fever and feel weak. You need to make a short trip. What do you do?"
     },
     "options": [
       {
@@ -1039,7 +1039,7 @@
       {
         "id": "c",
         "text": {
-          "tr": "Sakinleşene kadar beklemek ya da başkasının sürmesi",
+          "tr": "Sakinleşmeyi beklemek ya da direksiyonu başkasına vermek",
           "en": "Wait until you are calmer, or let someone else drive"
         }
       },

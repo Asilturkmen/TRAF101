@@ -120,7 +120,8 @@ const r = computed(() =>
   readiness({
     pool: pool.value,
     items: progress.items,
-    attempts: progress.attempts,
+    // Only full-length mocks for the selected vehicle count towards readiness.
+    attempts: progress.attempts.filter((a) => a.track === track.value && a.format === format.value.id && a.fullLength),
     day: dayNumber(),
     passMark: format.value.passMark,
     total: format.value.questions,

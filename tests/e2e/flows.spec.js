@@ -117,6 +117,35 @@ test.describe('learning flows', () => {
     await expect(page.locator('.palette-btn.answered')).toHaveCount(2);
   });
 
+  test('unfinished mocks are kept per vehicle', async ({ page }) => {
+    page.on('dialog', (d) => d.accept());
+    await page.goto('/deneme-sinavi/otomobil/');
+    await page.locator('.quiz-card label.choice-option').first().click();
+    await page.goto('/deneme-sinavi/motosiklet/');
+    await page.locator('.quiz-card label.choice-option').first().click();
+    await page.getByRole('button', { name: 'Sonraki', exact: true }).click();
+    await page.locator('.quiz-card label.choice-option').first().click();
+    await page.goto('/deneme-sinavi/otomobil/');
+    await expect(page.locator('.palette-btn.answered')).toHaveCount(1);
+    await page.goto('/deneme-sinavi/');
+    await expect(page.locator('.resume-card')).toHaveCount(2);
+  });
+
+  test('moving from today\'s review to My mistakes starts a fresh view', async ({ page }) => {
+    await page.goto('/calis/bugun/');
+    await expect(page.locator('.quiz-card')).toBeVisible();
+    await page.locator('footer a', { hasText: 'Hatalarım' }).click();
+    await expect(page).toHaveURL(/\/hatalarim\/$/);
+    await expect(page.getByRole('heading', { level: 1 })).toHaveText('Hatalarım');
+    await expect(page.getByRole('heading', { name: 'Hatalarım boş' })).toBeVisible();
+  });
+
+  test('language switch on a result keeps the same attempt', async ({ page, isMobile }) => {
+    test.skip(isMobile, 'desktop header only');
+    await page.goto('/deneme-sinavi/sonuc/?id=abc');
+    await expect(page.locator('.lang-switch')).toHaveAttribute('href', '/en/mock-exam/result/?id=abc');
+  });
+
   test('sign exam rehearsal records self-grades', async ({ page }) => {
     await page.goto('/calis/levha-sinavi/');
     for (let i = 0; i < 10; i++) {

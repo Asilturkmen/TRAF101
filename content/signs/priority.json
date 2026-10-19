@@ -50,8 +50,8 @@
     "kktc": {
       "status": "seen",
       "note": {
-        "tr": "Kuzeyde DUR ve DUR / STOP yazılı biçimler fotoğraflandı; eski STOP levhaları da görülebilir.",
-        "en": "Both DUR and DUR / STOP versions have been photographed in the north; older STOP signs may also be seen."
+        "tr": "KKTC'de DUR ve DUR / STOP yazılı biçimler fotoğraflandı; eski STOP levhaları da görülebilir.",
+        "en": "Both DUR and DUR / STOP versions have been photographed in North Cyprus; older STOP signs may also be seen."
       }
     },
     "reviewedAt": "2026-10-20"
@@ -126,7 +126,7 @@
       "en": "Give way"
     },
     "meaning": {
-      "tr": "Girdiğin yolda veya çemberde trafiğe yol vermek zorundasın.",
+      "tr": "Girdiğin yolda ya da çemberde trafiğe yol vermek zorundasın.",
       "en": "You must give way to traffic on the road or roundabout you are joining."
     },
     "driverAction": {
@@ -158,8 +158,8 @@
     "kktc": {
       "status": "seen",
       "note": {
-        "tr": "Kuzeydeki levhada YOL VER yazısı bulunup bulunmadığı doğrulanmadı.",
-        "en": "Whether the northern sign carries the words YOL VER has not been confirmed."
+        "tr": "KKTC'deki levhada YOL VER yazısı bulunup bulunmadığı doğrulanmadı.",
+        "en": "Whether the North Cyprus sign carries the words YOL VER has not been confirmed."
       }
     },
     "reviewedAt": "2026-10-20"
@@ -233,7 +233,7 @@
       "en": "Give way to oncoming traffic"
     },
     "meaning": {
-      "tr": "Önündeki dar kesimde karşıdan gelen taşıtların geçiş önceliği var.",
+      "tr": "Önündeki dar kesimde karşıdan gelen taşıtlar önceliklidir.",
       "en": "Oncoming vehicles have priority through the narrow section ahead."
     },
     "driverAction": {
@@ -290,7 +290,7 @@
       "en": "Priority over oncoming traffic"
     },
     "meaning": {
-      "tr": "Önündeki dar kesimde geçiş önceliği sendedir; karşıdan gelenler seni beklemelidir.",
+      "tr": "Önündeki dar kesimde öncelik sendedir; karşıdan gelenler seni beklemelidir.",
       "en": "You have priority through the narrow section ahead; oncoming drivers must wait for you."
     },
     "driverAction": {

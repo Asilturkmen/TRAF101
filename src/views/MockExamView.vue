@@ -36,7 +36,7 @@ const copy = {
     unflag: 'İşareti kaldır',
     overview: 'Soru listesi',
     finish: 'Sınavı bitir',
-    confirmTitle: 'Sınavı bitirmek istiyor musun',
+    confirmTitle: 'Sınavı bitirmek istiyor musun?',
     unanswered: (n) => `${n} soru boş.`,
     flagged: (n) => `${n} soru işaretli.`,
     allDone: 'Bütün soruları cevapladın.',
@@ -63,7 +63,7 @@ const copy = {
     unflag: 'Remove flag',
     overview: 'Question list',
     finish: 'Finish the exam',
-    confirmTitle: 'Do you want to finish the exam',
+    confirmTitle: 'Do you want to finish the exam?',
     unanswered: (n) => `${n} questions are blank.`,
     flagged: (n) => `${n} questions are flagged.`,
     allDone: 'You have answered every question.',
@@ -90,8 +90,17 @@ usePage({
   noindex: true,
 });
 
-const state = ref(null); // { track, format, questionIds, answers, flagged, index, startedAt, elapsed, limit }
-const questions = computed(() => (state.value ? state.value.questionIds.map(questionById).filter(Boolean) : []));
+const state = ref(null); // { track, format, questionIds, key, revs, answers, flagged, index, startedAt, elapsed, limit, seed }
+// The answer key is frozen when the exam starts, so a content update between
+// sessions can never change what a saved answer is worth.
+const questions = computed(() =>
+  state.value
+    ? state.value.questionIds
+        .map(questionById)
+        .filter(Boolean)
+        .map((q) => ({ ...q, answer: state.value.key?.[q.id] ?? q.answer }))
+    : [],
+);
 const current = computed(() => questions.value[state.value?.index ?? 0] || null);
 const shortage = ref(false);
 const confirmDialog = ref(null);
@@ -115,7 +124,7 @@ const unansweredN = computed(() => questions.value.length - answeredN.value);
 const flaggedN = computed(() => state.value?.flagged.length || 0);
 
 function save() {
-  progress.setMock(state.value);
+  if (state.value) progress.setMock(state.value.track, JSON.parse(JSON.stringify(state.value)));
 }
 
 function start() {
@@ -127,6 +136,8 @@ function start() {
     track: track.value.id,
     format: format.value.id,
     questionIds: qs.map((q) => q.id),
+    key: Object.fromEntries(qs.map((q) => [q.id, q.answer])),
+    revs: Object.fromEntries(qs.map((q) => [q.id, q.rev || 1])),
     answers: {},
     flagged: [],
     index: 0,
@@ -138,23 +149,55 @@ function start() {
   save();
 }
 
+// Time is measured from real timestamps while the page is visible. When the tab is
+// hidden or closed the clock pauses, and the saved exam continues from there.
+let lastTick = 0;
+let carry = 0; // milliseconds not yet counted as whole seconds
+const announced = new Set();
+function onVisibility() {
+  if (document.hidden) save();
+  lastTick = Date.now();
+}
 onMounted(() => {
   progress.load();
   if (!track.value) return;
-  const saved = progress.mock;
-  if (saved && saved.track === track.value.id && saved.questionIds?.every((id) => questionById(id))) state.value = { ...saved };
+  const saved = progress.mockFor(track.value.id);
+  if (saved && saved.questionIds?.length && saved.questionIds.every((id) => questionById(id))) state.value = { ...saved, key: saved.key || {} };
   else start();
+  lastTick = Date.now();
+  tick();
   timer = setInterval(tick, 1000);
+  document.addEventListener('visibilitychange', onVisibility);
+  window.addEventListener('pagehide', save);
 });
-onBeforeUnmount(() => clearInterval(timer));
+onBeforeUnmount(() => {
+  clearInterval(timer);
+  document.removeEventListener('visibilitychange', onVisibility);
+  window.removeEventListener('pagehide', save);
+});
 
 function tick() {
-  if (!state.value || document.hidden) return;
-  state.value.elapsed += 1;
-  if (state.value.elapsed % 10 === 0) save();
+  if (!state.value) return;
+  const now = Date.now();
+  if (!document.hidden) {
+    carry += now - lastTick;
+    const whole = Math.floor(carry / 1000);
+    if (whole > 0) {
+      const before = state.value.elapsed;
+      state.value.elapsed += whole;
+      carry -= whole * 1000;
+      if (Math.floor(before / 10) !== Math.floor(state.value.elapsed / 10)) save();
+    }
+  }
+  lastTick = now;
   if (remaining.value != null) {
     const left = remaining.value;
-    if ([600, 300, 60].includes(left)) announcement.value = c.value.announce(left / 60);
+    for (const mark of [600, 300, 60]) {
+      if (left <= mark && left > mark - 60 && !announced.has(mark)) {
+        announced.add(mark);
+        announcement.value = c.value.announce(mark / 60);
+      }
+    }
     if (left === 0) finish(true);
   }
 }
@@ -189,7 +232,7 @@ function finish(timeUp = false) {
   confirmDialog.value?.close?.();
   const qs = questions.value;
   const { correct, total, byTopic } = scoreAnswers(qs, state.value.answers);
-  for (const q of qs) progress.record(q, state.value.answers[q.id] === q.answer);
+  progress.recordMany(qs.map((q) => ({ item: questionById(q.id), correct: state.value.answers[q.id] === q.answer })));
   const id = `m${Date.now().toString(36)}`;
   progress.addAttempt({
     id,
@@ -209,9 +252,11 @@ function finish(timeUp = false) {
     byTopic,
     questionIds: state.value.questionIds,
     answers: state.value.answers,
+    key: state.value.key,
+    revs: state.value.revs || {},
     seed: state.value.seed,
   });
-  progress.setMock(null);
+  progress.setMock(state.value.track, null);
   state.value = null;
   router.push({ path: to('mockResult', lang.value), query: { id } });
 }
@@ -242,7 +287,7 @@ watch(
           <span class="exam-clock" :class="{ low: remaining != null && remaining <= 300 }">
             <Clock :size="20" aria-hidden="true" />
             <span class="visually-hidden">{{ c.remaining }}:</span>
-            <span class="clock-value" aria-hidden="true">{{ clock }}</span>
+            <span class="clock-value" role="timer" aria-live="off">{{ clock }}</span>
           </span>
           <span class="exam-count">{{ t('common.question', { n: state.index + 1, total: questions.length }) }}</span>
           <button type="button" class="btn btn-primary finish-btn" @click="askFinish">{{ c.finish }}</button>

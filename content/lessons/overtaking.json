@@ -6,7 +6,7 @@
   },
   "summary": {
     "tr": "KKTC'de soldan gidilir, sağdan sollanır; biri seni sollarken solda kalır ve hızlanmazsın.",
-    "en": "In KKTC you keep left and overtake on the right; when someone overtakes you, you stay left and do not speed up."
+    "en": "In North Cyprus you keep left and overtake on the right; when someone overtakes you, you stay left and do not speed up."
   },
   "sections": [
     {
@@ -16,7 +16,7 @@
       },
       "body": {
         "tr": "Yol Kuralları Yasası iki temel kural koyar:\n\n- Yolun **sol** tarafından gidersin. Karşıdan gelen araç senin sağından geçer.\n- Bir aracı **sağından** sollarsın. Biri seni sollarken solda kalırsın.\n\nBu kurallar otomobil, motosiklet, kamyon ve otobüs için aynıdır.",
-        "en": "The Road Rules Law (*Yol Kuralları Yasası*) sets two basic rules:\n\n- You drive on the **left** side of the road. Oncoming traffic passes on your right.\n- You overtake a vehicle on its **right**. When someone overtakes you, you keep left.\n\nThese rules are the same for cars, motorcycles, lorries and buses."
+        "en": "The Road Rules Law (Yol Kuralları Yasası) sets two basic rules:\n\n- You drive on the **left** side of the road. Oncoming traffic passes on your right.\n- You overtake a vehicle on its **right**. When someone overtakes you, you keep left.\n\nThese rules are the same for cars, motorcycles, lorries and buses."
       },
       "basis": "law",
       "sourceId": "s7",
@@ -67,8 +67,8 @@
         "en": "Being overtaken, and dual carriageways"
       },
       "body": {
-        "tr": "Biri seni sollarken solda kal, hızını artırma ve gerekirse biraz yavaşla ki önüne güvenle dönebilsin.\n\nÇift şeritli yolda normalde sol şeritte gidersin. Sağ şeridi sollamak için kullanır, sollama bitince sola dönersin. Sağ şeritte gereksiz yere kalmak arkadan gelenleri seni soldan geçmeye iter.\n\nBölünmüş yolda çıkışı kaçırırsan geri geri gitme ve U dönüşü yapma. Bir sonraki kavşağa ya da dönel kavşağa kadar devam et.",
-        "en": "When someone overtakes you, keep left, do not speed up, and ease off a little if needed so they can pull in safely ahead of you.\n\nOn a dual carriageway you normally drive in the left lane. You use the right lane to overtake and move back left when you have finished. Sitting in the right lane for no reason pushes drivers behind to pass you on the left.\n\nIf you miss your exit on a divided road, never reverse or make a U-turn. Carry on to the next junction or roundabout."
+        "tr": "Biri seni sollarken solda kal, hızını artırma ve gerekirse biraz yavaşla; böylece önüne güvenle dönebilir.\n\nÇift şeritli yolda normalde sol şeritte gidersin. Sağ şeridi sollamak için kullanır, sollama bitince sola dönersin. Sağ şeritte gereksiz yere kalmak arkadan gelenleri seni soldan geçmeye iter.\n\nÇift şeritli yolda çıkışı kaçırırsan geri geri gitme ve U dönüşü yapma. Bir sonraki kavşağa ya da çembere kadar devam et.",
+        "en": "When someone overtakes you, keep left, do not speed up, and ease off a little if needed so they can pull in safely ahead of you.\n\nOn a dual carriageway you normally drive in the left lane. You use the right lane to overtake and move back left when you have finished. Sitting in the right lane for no reason pushes drivers behind to pass you on the left.\n\nIf you miss your exit on a dual carriageway, never reverse or make a U-turn. Carry on to the next junction or roundabout."
       },
       "basis": "practice",
       "sourceId": null,
@@ -114,8 +114,8 @@
     },
     {
       "text": {
-        "tr": "Bölünmüş yolda çıkışı kaçırırsan geri gitme, bir sonraki kavşağa kadar devam et.",
-        "en": "If you miss an exit on a divided road, do not reverse; carry on to the next junction."
+        "tr": "Çift şeritli yolda çıkışı kaçırırsan geri gitme, bir sonraki kavşağa kadar devam et.",
+        "en": "If you miss an exit on a dual carriageway, do not reverse; carry on to the next junction."
       },
       "basis": "practice",
       "sourceId": null,

@@ -10,7 +10,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "Bugünkü KKTC sisteminde ağır kamyonlar ve başka sınıfa girmeyen, 2.032 kg'ı aşan motorlu araçlar hangi sınıftadır?",
-      "en": "In today's KKTC system, which class covers heavy trucks and other motor vehicles over 2,032 kg that are not listed elsewhere?"
+      "en": "In today's North Cyprus system, which class covers heavy lorries and other motor vehicles over 2,032 kg that are not listed elsewhere?"
     },
     "options": [
       {
@@ -45,7 +45,7 @@
     "answer": "b",
     "why": {
       "tr": "B sınıfı ağır kamyonları ve 2.032 kg'ı aşan, başka sınıfa girmeyen araçları kapsar. F sınıfı paletli traktör ve ağır iş makineleri içindir.",
-      "en": "Class B covers heavy trucks and vehicles over 2,032 kg not listed in another class. Class F is for tracked tractors and heavy machinery."
+      "en": "Class B covers heavy lorries and vehicles over 2,032 kg not listed in another class. Class F is for tracked tractors and heavy machinery."
     },
     "signId": null,
     "basis": "law",
@@ -206,8 +206,8 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "2019 bildirisine göre tam römorklu çekiciler bölünmüş yolda saatte 65 km ile sınırlıdır. Yarı römorklu çekici ve kamyon için sınır 75 km'dir.",
-      "en": "Under the 2019 notice, tractors with a drawbar trailer are limited to 65 km/h on dual carriageways. Articulated tractor units and trucks are limited to 75 km/h."
+      "tr": "2019 bildirisine göre tam römorklu çekiciler çift şeritli yolda 65 km/sa ile sınırlıdır. Yarı römorklu çekici ve kamyon için sınır 75 km/sa.",
+      "en": "Under the 2019 notice, tractor units with a drawbar trailer are limited to 65 km/h on dual carriageways. Articulated tractor units and lorries are limited to 75 km/h."
     },
     "signId": null,
     "basis": "secondary",
@@ -260,8 +260,8 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Bildiriye göre ikinci sınıf yollarda minibüs, kamyonet ve otobüs saatte 65 km, kamyon 45 km, otomobil 80 km ile sınırlıdır.",
-      "en": "Under the notice, on second-class roads minibuses, vans and buses are limited to 65 km/h, trucks to 45 km/h and cars to 80 km/h."
+      "tr": "Bildiriye göre ikinci sınıf yollarda minibüs, kamyonet ve otobüs 65 km/sa, kamyon 45 km/sa, otomobil 80 km/sa ile sınırlıdır.",
+      "en": "Under the notice, on second-class roads minibuses, vans and buses are limited to 65 km/h, lorries to 45 km/h and cars to 80 km/h."
     },
     "signId": null,
     "basis": "secondary",
@@ -280,7 +280,7 @@
     "difficulty": "hard",
     "prompt": {
       "tr": "Üçüncü sınıf yollarda ve köy yollarında kamyon için hız sınırı nedir?",
-      "en": "What is the truck speed limit on third-class and village roads?"
+      "en": "What is the lorry speed limit on third-class and village roads?"
     },
     "options": [
       {
@@ -314,8 +314,8 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Bildiriye göre köy yollarında kamyon saatte 35 km, otobüs ve minibüs 60 km, otomobil 70 km ile sınırlıdır.",
-      "en": "Under the notice, on village roads trucks are limited to 35 km/h, buses and minibuses to 60 km/h and cars to 70 km/h."
+      "tr": "Bildiriye göre köy yollarında kamyon 35 km/sa, otobüs ve minibüs 60 km/sa, otomobil 70 km/sa ile sınırlıdır.",
+      "en": "Under the notice, on village roads lorries are limited to 35 km/h, buses and minibuses to 60 km/h and cars to 70 km/h."
     },
     "signId": null,
     "basis": "secondary",
@@ -333,7 +333,7 @@
     ],
     "difficulty": "hard",
     "prompt": {
-      "tr": "Lefkoşa–Girne dağ yolunda 10 yaşından genç bir otobüs kullanıyorsun. 2019 bildirisine göre hız sınırın nedir?",
+      "tr": "Lefkoşa–Girne dağ yolunda 10 yaşından küçük bir otobüs kullanıyorsun. 2019 bildirisine göre hız sınırın nedir?",
       "en": "You drive a bus less than 10 years old on the Lefkoşa–Girne mountain road. Under the 2019 notice, what is your speed limit?"
     },
     "options": [
@@ -368,8 +368,8 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Bildiri bu yolda kamyon ve otobüsleri 3. viteste saatte 35 km ile, 10 ve daha yaşlı olanları 20 km ile sınırlar. Otomobil, minibüs ve kamyonet için sınır 45 km'dir.",
-      "en": "The notice limits trucks and buses on this road to 35 km/h in third gear, or 20 km/h if they are 10 or more years old. Cars, minibuses and vans are limited to 45 km/h."
+      "tr": "Bildiri bu yolda kamyon ve otobüsleri 3. viteste 35 km/sa ile, 10 yaş ve üstündekileri 20 km/sa ile sınırlar. Otomobil, minibüs ve kamyonet için sınır 45 km/sa.",
+      "en": "The notice limits lorries and buses on this road to 35 km/h in third gear, or 20 km/h if they are 10 or more years old. Cars, minibuses and vans are limited to 45 km/h."
     },
     "signId": null,
     "basis": "secondary",
@@ -387,8 +387,8 @@
     ],
     "difficulty": "medium",
     "prompt": {
-      "tr": "Kurtarıcıyla arızalı bir aracı çekerek bölünmüş yolda gidiyorsun. Hız sınırın nedir?",
-      "en": "You are towing a broken-down vehicle with a recovery truck on a dual carriageway. What is your speed limit?"
+      "tr": "Kurtarıcıyla arızalı bir aracı çekerek çift şeritli yolda gidiyorsun. Hız sınırın nedir?",
+      "en": "You are towing a broken-down vehicle with a recovery vehicle on a dual carriageway. What is your speed limit?"
     },
     "options": [
       {
@@ -422,7 +422,7 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Bildiriye göre arızalı araç çeken araçlar bölünmüş yolda saatte 50 km, birinci sınıf yolda 25 km, ikinci sınıf yolda 20 km, köy yolunda 10 km ile sınırlıdır. Yerleşim yerinde sınır 25 km'dir.",
+      "tr": "Bildiriye göre arızalı araç çeken araçlar çift şeritli yolda 50 km/sa, birinci sınıf yolda 25 km/sa, ikinci sınıf yolda 20 km/sa, köy yolunda 10 km/sa ile sınırlıdır. Yerleşim yerinde sınır 25 km/sa.",
       "en": "Under the notice, vehicles towing a broken-down vehicle are limited to 50 km/h on dual carriageways, 25 km/h on first-class roads, 20 km/h on second-class roads and 10 km/h on village roads. In built-up areas the limit is 25 km/h."
     },
     "signId": null,
@@ -442,7 +442,7 @@
     "difficulty": "easy",
     "prompt": {
       "tr": "Başka bir levha yoksa yerleşim yeri içinde otobüsle en çok hangi hızla gidebilirsin?",
-      "en": "If no sign says otherwise, what is your speed limit in a bus in a built-up area?"
+      "en": "If no sign says otherwise, what is your speed limit when driving a bus in a built-up area?"
     },
     "options": [
       {
@@ -476,7 +476,7 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "BUB broşürüne göre yerleşim yerlerinde genel hız sınırı saatte 50 km'dir. Bu sınır ağır vasıtalar için de geçerlidir.",
+      "tr": "Bakanlığın trafik broşürüne göre yerleşim yerlerinde genel hız sınırı 50 km/sa. Bu sınır ağır vasıtalar için de geçerlidir.",
       "en": "According to the ministry leaflet, the general limit in built-up areas is 50 km/h. It applies to heavy vehicles too."
     },
     "signId": null,
@@ -639,7 +639,7 @@
     "answer": "d",
     "why": {
       "tr": "Vücut alkolü yavaş atar ve uyku, duş ya da kahve bunu hızlandırmaz. Kamu taşımacılığı yapan şoförler için sınır sıfırdır, bu yüzden en küçük kalıntı bile suçtur.",
-      "en": "The body clears alcohol slowly, and sleep, a shower or coffee do not speed it up. The limit for public-transport drivers is zero, so even a small trace is an offence."
+      "en": "The body clears alcohol slowly, and sleep, a shower or coffee does not speed it up. The limit for public-transport drivers is zero, so even a small trace is an offence."
     },
     "signId": null,
     "basis": "law",
@@ -672,21 +672,21 @@
         "id": "b",
         "text": {
           "tr": "İlacı alıp sürerim, bir sorun olursa dururum",
-          "en": "Take it and drive, and stop if there is a problem"
+          "en": "I take it and drive, and stop if there is a problem"
         }
       },
       {
         "id": "c",
         "text": {
           "tr": "İlacı sert bir kahveyle alırım, böylece uyku yapma etkisi kalkar",
-          "en": "Take it with strong coffee, which cancels out the drowsiness"
+          "en": "I take it with strong coffee, which cancels out the drowsiness"
         }
       },
       {
         "id": "d",
         "text": {
           "tr": "Prospektüsü okur, sürüp süremeyeceğimi doktora sorarım",
-          "en": "Read the leaflet and ask the doctor whether I can drive"
+          "en": "I read the leaflet and ask the doctor whether I can drive"
         }
       }
     ],
@@ -942,7 +942,7 @@
         "id": "b",
         "text": {
           "tr": "Yalnız brandayı örterim",
-          "en": "Just cover it with a tarpaulin"
+          "en": "I just cover it with a tarpaulin"
         }
       },
       {
@@ -956,7 +956,7 @@
         "id": "d",
         "text": {
           "tr": "Yükün kaymayacak biçimde bağlandığını denetlerim",
-          "en": "Check the load is tied down so it cannot shift"
+          "en": "I check the load is tied down so it cannot shift"
         }
       }
     ],
@@ -1035,7 +1035,7 @@
     ],
     "difficulty": "medium",
     "prompt": {
-      "tr": "Yüksek yüklü bir kamyonla bir çembere ya da keskin bir virajlar dizisine yaklaşıyorsun. Ne yapmalısın?",
+      "tr": "Yüksek yüklü bir kamyonla bir çembere ya da art arda keskin virajlara yaklaşıyorsun. Ne yapmalısın?",
       "en": "You are approaching a roundabout or a series of sharp bends in a lorry with a high load. What should you do?"
     },
     "options": [
@@ -1064,7 +1064,7 @@
         "id": "d",
         "text": {
           "tr": "Yükü sıkıca bağladıysam hız fark etmez, normal hızla dönerim",
-          "en": "Speed does not matter once the load is tied down, so I turn as normal"
+          "en": "Turn at normal speed, as the load is tied down firmly"
         }
       }
     ],
@@ -1305,7 +1305,7 @@
     ],
     "difficulty": "medium",
     "prompt": {
-      "tr": "Bir köprünün önünde bu levhayı görüyorsun. Kamyonunun boş ağırlığı gösterilen değerin altında, ama şu an yüklüsün ve üstündesin. Ne yaparsın?",
+      "tr": "Bir köprünün önünde bu levhayı görüyorsun. Kamyonunun boş ağırlığı gösterilen değerin altında, ama yüklüyken bu değerin üstündesin. Ne yaparsın?",
       "en": "You see this sign before a bridge. Your lorry's empty weight is below the figure shown, but you are loaded and now above it. What do you do?"
     },
     "options": [
@@ -1326,8 +1326,8 @@
       {
         "id": "c",
         "text": {
-          "tr": "Hızlı geçersem köprüye daha az yük biner",
-          "en": "If I cross quickly, the bridge takes less load"
+          "tr": "Hızlı geçerim, böylece köprüye daha az yük biner",
+          "en": "I cross quickly so the bridge takes less load"
         }
       },
       {
@@ -1489,7 +1489,7 @@
         "id": "c",
         "text": {
           "tr": "Sağ aynaya bakar, sağa sinyal verir, boşluk olunca kalkarım",
-          "en": "Check the right mirror, signal right and move off when there is a gap"
+          "en": "Check the right mirror, signal right and wait for a gap"
         }
       },
       {
@@ -1503,7 +1503,7 @@
     "answer": "c",
     "why": {
       "tr": "KKTC'de duraklar yolun sol kenarındadır ve trafiğe katılırken sağa çıkarsın. Bu yüzden sağ aynayı ve sağ arkayı denetle. Diğer sürücülerin sana yol vereceğini varsayma.",
-      "en": "In KKTC, bus stops are on the left-hand side of the road, so you move out to the right to rejoin traffic. Check the right mirror and over your right shoulder. Do not assume others will let you in."
+      "en": "In North Cyprus, bus stops are on the left-hand side of the road, so you move out to the right to rejoin traffic. Check the right mirror and over your right shoulder. Do not assume others will let you in."
     },
     "signId": null,
     "basis": "practice",
@@ -1557,7 +1557,7 @@
     "answer": "d",
     "why": {
       "tr": "Büyük bir aracın yarattığı hava akımı bisikletliyi dengesizleştirebilir. Yeterli boşluk yoksa bekle. KKTC'de sağdan sollanır.",
-      "en": "The air pushed by a large vehicle can unbalance a cyclist. If there is not enough room, wait. In KKTC you overtake on the right."
+      "en": "The air pushed by a large vehicle can unbalance a cyclist. If there is not enough room, wait. In North Cyprus you overtake on the right."
     },
     "signId": null,
     "basis": "practice",
@@ -1582,7 +1582,7 @@
       {
         "id": "a",
         "text": {
-          "tr": "Rüzgâr onu sarsabilir; geniş boşluk bırakırım",
+          "tr": "Hava akımı onu sarsabilir, geniş boşluk bırakırım",
           "en": "My wind blast can unsettle the rider, so I leave a wide gap"
         }
       },
@@ -1610,7 +1610,7 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Ağır vasıtanın çevresindeki hava akımı iki tekerlileri yana iter. Sollarken geniş boşluk bırak ve motosikletliyi iç aynada görmeden sola dönme.",
+      "tr": "Ağır vasıtanın çevresindeki hava akımı iki tekerlileri yana iter. Sollarken geniş boşluk bırak ve motosikletliyi aynada görmeden sol şeride geri geçme.",
       "en": "The air flow around a heavy vehicle pushes riders sideways. Leave a wide gap when overtaking, and do not move back left until you can see the rider in your mirror."
     },
     "signId": null,
@@ -1718,7 +1718,7 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Uzun ve ağır bir aracın hızlanması ve sağdaki karşı şeritten sola dönmesi daha uzun sürer. Karşı şeridin yeterince uzun bir mesafe boyunca boş olduğundan emin değilsen sollama.",
+      "tr": "Uzun ve ağır bir aracın hızlanması ve sağdaki karşı şeritten sola geri geçmesi daha uzun sürer. Karşı şeridin yeterince uzun bir mesafe boyunca boş olduğundan emin değilsen sollama.",
       "en": "A long, heavy vehicle takes longer to accelerate and to get back to the left from the oncoming lane on your right. If you are not sure the oncoming lane is clear for long enough, do not overtake."
     },
     "signId": null,
@@ -1766,7 +1766,7 @@
         "id": "d",
         "text": {
           "tr": "Aynalardan yanımı denetler, erken sinyal veririm",
-          "en": "Check my mirrors for vehicles alongside and signal early"
+          "en": "I check my mirrors for vehicles alongside and signal early"
         }
       }
     ],
@@ -1845,7 +1845,7 @@
     ],
     "difficulty": "medium",
     "prompt": {
-      "tr": "Yağmurda bölünmüş yolda kamyonla gidiyorsun ve tekerleklerin arkasında yoğun su sıçraması oluşuyor. Ne yapmalısın?",
+      "tr": "Yağmurda çift şeritli yolda kamyonla gidiyorsun ve tekerleklerin arkasında yoğun su sıçraması oluşuyor. Ne yapmalısın?",
       "en": "You are driving a lorry on a dual carriageway in the rain and your wheels are throwing up heavy spray. What should you do?"
     },
     "options": [
@@ -1853,7 +1853,7 @@
         "id": "a",
         "text": {
           "tr": "Su sıçraması yalnız arkadakileri ilgilendirir, normal sürerim",
-          "en": "Spray only affects others, so I drive as normal"
+          "en": "Spray only affects drivers behind, so I drive as normal"
         }
       },
       {
@@ -1954,7 +1954,7 @@
     "difficulty": "hard",
     "prompt": {
       "tr": "Polisin açıklamasına göre kamyon ve otobüslerde en az kaç kilogramlık yangın söndürücü bulunmalıdır?",
-      "en": "According to the police, what is the minimum size of fire extinguisher for trucks and buses?"
+      "en": "According to the police, what is the minimum size of fire extinguisher for lorries and buses?"
     },
     "options": [
       {
@@ -1989,7 +1989,7 @@
     "answer": "c",
     "why": {
       "tr": "Polise göre mopet ve motosiklet dışındaki bütün araçlarda en az 1 kg, E, F, G ve K sınıfı araçlarda 3 kg, kamyon ve otobüslerde 6 kg yangın söndürücü bulunmalıdır.",
-      "en": "According to the police, every motor vehicle except mopeds and motorcycles must carry at least a 1 kg extinguisher; class E, F, G and K vehicles 3 kg; and trucks and buses 6 kg."
+      "en": "According to the police, every motor vehicle except mopeds and motorcycles must carry at least a 1 kg extinguisher; class E, F, G and K vehicles 3 kg; and lorries and buses 6 kg."
     },
     "signId": null,
     "basis": "secondary",
@@ -2150,8 +2150,8 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "2019 bildirisine göre köy yollarında minibüs, kamyonet ve otobüs saatte 60 km, kamyon 35 km, otomobil 70 km ile sınırlıdır.",
-      "en": "Under the 2019 notice, on village roads minibuses, vans and buses are limited to 60 km/h, trucks to 35 km/h and cars to 70 km/h."
+      "tr": "2019 bildirisine göre köy yollarında minibüs, kamyonet ve otobüs 60 km/sa, kamyon 35 km/sa, otomobil 70 km/sa ile sınırlıdır.",
+      "en": "Under the 2019 notice, on village roads minibuses, vans and buses are limited to 60 km/h, lorries to 35 km/h and cars to 70 km/h."
     },
     "signId": null,
     "basis": "secondary",
@@ -2170,7 +2170,7 @@
     "difficulty": "hard",
     "prompt": {
       "tr": "İkinci sınıf bir yolda kamyon için hız sınırı nedir?",
-      "en": "What is the truck speed limit on a second-class road?"
+      "en": "What is the lorry speed limit on a second-class road?"
     },
     "options": [
       {
@@ -2204,8 +2204,8 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Bildiriye göre ikinci sınıf yollarda kamyon saatte 45 km, otobüs ve minibüs 65 km, otomobil 80 km ile sınırlıdır.",
-      "en": "Under the notice, on second-class roads trucks are limited to 45 km/h, buses and minibuses to 65 km/h and cars to 80 km/h."
+      "tr": "Bildiriye göre ikinci sınıf yollarda kamyon 45 km/sa, otobüs ve minibüs 65 km/sa, otomobil 80 km/sa ile sınırlıdır.",
+      "en": "Under the notice, on second-class roads lorries are limited to 45 km/h, buses and minibuses to 65 km/h and cars to 80 km/h."
     },
     "signId": null,
     "basis": "secondary",
@@ -2258,8 +2258,8 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "2019 bildirisine göre bölünmüş yollarda damperli kamyon ve beton mikseri saatte 60 km ile sınırlıdır. Diğer kamyonlar için sınır 75 km'dir.",
-      "en": "Under the 2019 notice, tippers and concrete mixers are limited to 60 km/h on dual carriageways. Other trucks are limited to 75 km/h."
+      "tr": "2019 bildirisine göre çift şeritli yollarda damperli kamyon ve beton mikseri 60 km/sa ile sınırlıdır. Diğer kamyonlar için sınır 75 km/sa.",
+      "en": "Under the 2019 notice, tippers and concrete mixers are limited to 60 km/h on dual carriageways. Other lorries are limited to 75 km/h."
     },
     "signId": null,
     "basis": "secondary",

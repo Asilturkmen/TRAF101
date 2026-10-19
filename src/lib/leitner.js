@@ -7,6 +7,7 @@
 //   m  mistake-bank hits: -1 = not in the bank, 0..1 = correct days since entering
 //   h  last day a mistake hit was counted
 //   r  content revision the entry was recorded against
+//   f  first day seen
 
 export const INTERVAL = { 1: 1, 2: 1, 3: 3, 4: 7, 5: 14, 6: 30 };
 export const MASTERY = [0, 0.1, 0.35, 0.6, 0.8, 0.95, 0.95];
@@ -31,6 +32,7 @@ export function reconcile(entry, rev) {
 
 export function answer(entry, correct, day, rev = 1) {
   const e = { ...reconcile(entry, rev) };
+  if (e.s === 0) e.f = day; // first day this item was seen (daily new-item limit)
   e.s += 1;
   e.l = day;
   if (correct) {

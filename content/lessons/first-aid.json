@@ -15,7 +15,7 @@
         "en": "Safety first, then call for help"
       },
       "body": {
-        "tr": "Yardım etmeden önce kendini koru. Aracını güvenli bir yere çek, flaşörünü yak, kazalı araçların motorunu durdur. Yaralanan bir kurtarıcı kimseye yardım edemez.\n\nSonra **112**'yi ara; bir trafik kazasında **155**'i de ara. Telefonu hoparlöre alırsan görevli sana ne yapacağını adım adım söyleyebilir.",
+        "tr": "Yardım etmeden önce kendini koru. Aracını güvenli bir yere çek, dörtlü flaşörü yak, kazalı araçların motorunu durdur. Yaralanan bir kurtarıcı kimseye yardım edemez.\n\nSonra **112**'yi ara; bir trafik kazasında **155**'i de ara. Telefonu hoparlöre alırsan görevli sana ne yapacağını adım adım söyleyebilir.",
         "en": "Protect yourself before you help. Park somewhere safe, switch on your hazard lights and switch off the engines of the crashed vehicles. An injured rescuer cannot help anyone.\n\nThen call **112**, and at a road crash call **155** as well. If you put the phone on speaker, the call handler can talk you through what to do."
       },
       "basis": "law",
@@ -41,7 +41,7 @@
         "en": "CPR"
       },
       "body": {
-        "tr": "Yaralı cevap vermiyor ve normal nefes almıyorsa:\n\n- 112'yi ara ve hoparlörü aç.\n- Ellerini üst üste, göğsün ortasına koy.\n- Kollarını düz tutarak göğsü **5–6 cm** derinliğe bastır, dakikada **100–120** kez.\n- Eğitimliysen **30 bası, 2 soluk** sırasıyla devam et. Eğitimli değilsen yalnız bası yap.\n- Yakında bir otomatik eksternal defibrilatör (OED) varsa getirt, aç ve sesli talimatlara uy.\n\nYardım gelene, yaralı normal nefes almaya başlayana ya da sen devam edemeyecek kadar yorulana kadar sürdür.",
+        "tr": "Yaralı cevap vermiyor ve normal nefes almıyorsa:\n\n- 112'yi ara ve hoparlörü aç.\n- Ellerini üst üste, göğsün ortasına koy.\n- Kollarını düz tutarak göğsü **5–6 cm** derinliğe bastır, dakikada **100–120** kez.\n- Eğitimliysen **30 bası, 2 soluk** düzeniyle devam et. Eğitimli değilsen yalnız bası yap.\n- Yakında bir otomatik eksternal defibrilatör (OED) varsa getirt, aç ve sesli talimatlara uy.\n\nYardım gelene, yaralı normal nefes almaya başlayana ya da sen devam edemeyecek kadar yorulana kadar sürdür.",
         "en": "If the person does not respond and is not breathing normally:\n\n- Call 112 and switch to speaker.\n- Place one hand on top of the other in the centre of the chest.\n- With straight arms, push down **5–6 cm**, at **100–120** compressions a minute.\n- If you are trained, continue with **30 compressions and 2 breaths**. If not, give compressions only.\n- If an automated external defibrillator (AED) is nearby, have someone fetch it, switch it on and follow the voice prompts.\n\nKeep going until help arrives, the person starts breathing normally or you are too exhausted to continue."
       },
       "basis": "secondary",

@@ -467,28 +467,28 @@
         "id": "a",
         "text": {
           "tr": "Işığa kadar hızını koruyup son anda fren yapmak",
-          "en": "Keep your speed and brake at the last moment"
+          "en": "Keeping your speed and braking at the last moment"
         }
       },
       {
         "id": "b",
         "text": {
           "tr": "Işık yeşile dönerken orada olmak için hızlanmak",
-          "en": "Speed up so you get there just as it turns green"
+          "en": "Speeding up to get there just as it turns green"
         }
       },
       {
         "id": "c",
         "text": {
           "tr": "Gazı erken bırakıp yavaşça yaklaşmak",
-          "en": "Lift off early and roll up slowly"
+          "en": "Lifting off early and rolling up slowly"
         }
       },
       {
         "id": "d",
         "text": {
           "tr": "Vitesi boşa alıp motoru kapatarak ilerlemek",
-          "en": "Select neutral and switch off the engine while rolling"
+          "en": "Selecting neutral and switching off the engine while rolling"
         }
       }
     ],
@@ -627,7 +627,7 @@
     ],
     "difficulty": "easy",
     "prompt": {
-      "tr": "Konut bölgesinde ışıkta bekliyorsun. Dururken motoru yüksek devirde çevirmek için hangisi doğru?",
+      "tr": "Konut bölgesinde ışıkta bekliyorsun. Dururken motoru yüksek devirde çevirmekle ilgili hangisi doğrudur?",
       "en": "You are waiting at lights in a residential area. What is true about revving the engine while stationary?"
     },
     "options": [
@@ -719,7 +719,7 @@
     "answer": "b",
     "why": {
       "tr": "Kuru ot ve çalı tek bir izmaritle tutuşabilir. Kıbrıs'ta yaz yangınları hızla yayılır; izmariti ve çöpü araçta biriktir.",
-      "en": "Dry grass and scrub can catch fire from a single cigarette end. Summer fires in Cyprus spread fast, so keep ash and rubbish in the car."
+      "en": "Dry grass and scrub can catch fire from a single cigarette end. Summer fires in Cyprus spread fast, so keep cigarette ends and rubbish in the car."
     },
     "signId": null,
     "basis": "practice",
@@ -775,7 +775,7 @@
     "answer": "a",
     "why": {
       "tr": "Yola atılan çöp doğayı kirletir, motosiklet ve bisiklet sürücüleri için tehlike yaratır ve kanalları tıkar.",
-      "en": "Litter thrown on the road pollutes, puts riders and cyclists at risk and blocks drains."
+      "en": "Litter thrown on the road pollutes, puts motorcyclists and cyclists at risk and blocks drains."
     },
     "signId": null,
     "basis": "practice",
@@ -921,8 +921,8 @@
       {
         "id": "b",
         "text": {
-          "tr": "Motorda bakım gerektiren bir sorun var",
-          "en": "An engine fault that needs attention"
+          "tr": "Motorda bakım gerektiren bir sorun olduğunu",
+          "en": "The engine needs attention"
         }
       },
       {
@@ -984,8 +984,8 @@
       {
         "id": "c",
         "text": {
-          "tr": "Yayalar, bebek arabaları ve tekerlekli sandalyeler yola inmek zorunda kalır",
-          "en": "Pedestrians, prams and wheelchairs are forced into the road"
+          "tr": "Yayalar, bebek arabası ve tekerlekli sandalyeler yola iner",
+          "en": "Pedestrians, prams and wheelchairs must use the road"
         }
       },
       {
@@ -1054,7 +1054,7 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Kaldırım soldadır, yani yayalar sana çok yakındır. Yavaş geçmek onları ıslatmaz, aracın su üstünde kaymasını da önler.",
+      "tr": "Kaldırım soldadır, yani yayalar sana çok yakındır. Yavaş geçmek onları ıslatmaz, su kızağını da önler.",
       "en": "The pavement is on your left, so pedestrians are close to you. Passing slowly keeps them dry and stops your tyres from aquaplaning."
     },
     "signId": null,

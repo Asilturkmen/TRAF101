@@ -3,7 +3,7 @@
   "slug": { "tr": "hakkinda", "en": "about" },
   "title": { "tr": "Hakkında", "en": "About" },
   "summary": {
-    "tr": "Test2Drive, Doğu Akdeniz Üniversitesi'ndeki TRAF101 Trafik Güvenliği dersinde başlayan, KKTC ehliyet sınavına ücretsiz hazırlık sitesidir.",
+    "tr": "Test2Drive, KKTC ehliyet sınavının teori bölümüne ücretsiz hazırlık sitesidir. Doğu Akdeniz Üniversitesi'ndeki TRAF101 Trafik Güvenliği dersinde bir proje olarak başladı.",
     "en": "Test2Drive is a free site for preparing for the North Cyprus driving theory exam. It began as a project in the TRAF101 Traffic Safety course at Eastern Mediterranean University."
   },
   "sections": [
@@ -24,7 +24,7 @@
     {
       "heading": { "tr": "Neden var", "en": "Why it exists" },
       "body": {
-        "tr": "KKTC'de ehliyet almak isteyen biri için kuralları tek yerde, iki dilde ve kaynağıyla anlatan bir kaynak bulmak zor. Resmi trafik eğitim kitabının herkese açık bir kopyasını bulamadık. İnternetteki soruların bir kısmı Türkiye'nin, güney Kıbrıs'ın ya da sağdan trafiğin kurallarına göre yazılmış.\n\nUluslararası öğrenciler için iş daha da zor: hem soldan trafiğe alışmaları hem de ehliyetlerini çevirmeleri gerekiyor. Test2Drive bu boşluğu KKTC'nin kendi kurallarıyla ve soldan trafiğe göre yazılmış sorularla doldurmaya çalışıyor.",
+        "tr": "KKTC'de ehliyet almak isteyen biri için kuralları tek yerde, iki dilde ve kaynağıyla anlatan bir yer bulmak zor. Resmi trafik eğitim kitabının herkese açık bir kopyasını bulamadık. İnternetteki soruların bir kısmı Türkiye'nin, güney Kıbrıs'ın ya da sağdan trafiğin kurallarına göre yazılmış.\n\nUluslararası öğrenciler için iş daha da zor: hem soldan trafiğe alışmaları hem de ehliyetlerini çevirmeleri gerekiyor. Test2Drive bu boşluğu KKTC'nin kendi kurallarıyla ve soldan trafiğe göre yazılmış sorularla doldurmaya çalışıyor.",
         "en": "If you want a licence in North Cyprus, it is hard to find one place that explains the rules in two languages and says where each rule comes from. We could not find a public copy of the official traffic education book. Some of the questions online are written for Turkey, for the south of Cyprus or for right-hand traffic.\n\nIt is harder still for international students, who have to get used to driving on the left and convert their licence. Test2Drive tries to fill this gap with North Cyprus's own rules and questions written for driving on the left."
       }
     },

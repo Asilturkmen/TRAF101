@@ -4,19 +4,19 @@ import { RouterView, RouterLink, useRoute } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { Menu, X, WifiOff, Languages } from 'lucide-vue-next';
 import { useProgress } from './stores/progress.js';
-import { usePageStore, useLang } from './composables/usePage.js';
+import { useLang } from './composables/usePage.js';
 import { to } from './lib/paths.js';
+import { otherLanguagePath } from './lib/alternates.js';
 import { examProfile } from './content/meta.js';
 import { fmtDate } from './lib/text.js';
 
 const route = useRoute();
 const { t } = useI18n();
 const lang = useLang();
-const page = usePageStore();
 const progress = useProgress();
 
 const other = computed(() => (lang.value === 'tr' ? 'en' : 'tr'));
-const otherPath = computed(() => page.alternates?.[other.value] || to('home', other.value));
+const otherPath = computed(() => otherLanguagePath(route));
 
 const nav = computed(() => [
   { key: 'practise', label: t('nav.practise'), path: to('practise', lang.value), match: ['practise', 'review', 'lessonPractice', 'signExam', 'mistakes', 'scenarios'] },
@@ -176,7 +176,9 @@ const footer = computed(() => [
     </div>
 
     <main id="main" class="main-content" tabindex="-1">
-      <RouterView />
+      <RouterView v-slot="{ Component, route: r }">
+        <component :is="Component" :key="r.fullPath" />
+      </RouterView>
     </main>
 
     <div v-if="updateReady && !inExam" class="update-toast" role="status">

@@ -1,7 +1,7 @@
 <script setup>
 // Rehearsal of today's oral learner exam: see a sign, say what it means, reveal,
 // then grade yourself. Self-grades feed the same schedule as the sign questions.
-import { computed, nextTick, onMounted, ref } from 'vue';
+import { computed, nextTick, onMounted, ref, watch } from 'vue';
 import { RouterLink, useRoute } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { Eye, ThumbsUp, ThumbsDown, Signpost } from 'lucide-vue-next';
@@ -76,9 +76,18 @@ const typed = ref('');
 const results = ref([]); // { sign, knew, typed }
 const ready = ref(false);
 const revealButton = ref(null);
+const answerHeading = ref(null);
 const gradeButton = ref(null);
 const current = computed(() => round.value[index.value] || null);
 const finished = computed(() => ready.value && index.value >= round.value.length);
+// When a round ends, move focus to the result so keyboard and screen-reader
+// users land on it instead of on a button that no longer exists.
+const resultHeading = ref(null);
+watch(finished, async (done) => {
+  if (!done) return;
+  await nextTick();
+  resultHeading.value?.focus();
+});
 const knownCount = computed(() => results.value.filter((r) => r.knew).length);
 
 function build() {
@@ -101,7 +110,8 @@ onMounted(() => {
 
 function reveal() {
   revealed.value = true;
-  nextTick(() => gradeButton.value?.focus());
+  // Focus the answer itself; the grading buttons follow it in reading order.
+  nextTick(() => answerHeading.value?.focus());
 }
 function grade(knew) {
   const s = current.value;
@@ -156,7 +166,7 @@ function grade(knew) {
 
           <div v-else class="reveal-box" role="status">
             <p v-if="typed" class="yours"><strong>{{ c.yours }}:</strong> {{ typed }}</p>
-            <h3>{{ tx(current.name, lang) }}<span v-if="lang === 'en'" class="tr" lang="tr"> · {{ current.name.tr }}</span></h3>
+            <h3 ref="answerHeading" tabindex="-1" class="answer-heading">{{ tx(current.name, lang) }}<span v-if="lang === 'en'" class="tr" lang="tr"> · {{ current.name.tr }}</span></h3>
             <p>{{ tx(current.meaning, lang) }}</p>
             <p><strong>{{ c.action }}:</strong> {{ tx(current.driverAction, lang) }}</p>
             <div class="grade-actions">
@@ -175,7 +185,7 @@ function grade(knew) {
       <div v-else class="results-screen">
         <div class="results-card">
           <Signpost :size="56" :stroke-width="1.5" class="results-icon" aria-hidden="true" />
-          <h2>{{ c.doneTitle }}</h2>
+          <h2 ref="resultHeading" tabindex="-1" class="result-heading">{{ c.doneTitle }}</h2>
           <div class="score-number">{{ knownCount }} / {{ results.length }}</div>
           <p class="results-message">{{ c.done(knownCount, results.length) }}</p>
           <div v-if="results.some((r) => !r.knew)" class="missed">
@@ -200,6 +210,13 @@ function grade(knew) {
 </template>
 
 <style scoped>
+.result-heading:focus {
+  outline: none;
+}
+.result-heading:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 4px;
+}
 .sign-card {
   text-align: center;
 }
@@ -231,6 +248,13 @@ function grade(knew) {
   background: var(--color-bg);
   border-radius: var(--radius-xl);
   padding: 1.5rem;
+}
+.answer-heading:focus {
+  outline: none;
+}
+.answer-heading:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 4px;
 }
 .reveal-box h3 {
   font-size: 1.5rem;

@@ -50,8 +50,8 @@
     "kktc": {
       "status": "seen",
       "note": {
-        "tr": "Kuzeyde fotoğraflandı.",
-        "en": "Photographed in the north."
+        "tr": "KKTC'de fotoğraflandı.",
+        "en": "Photographed in North Cyprus."
       }
     },
     "reviewedAt": "2026-10-20"
@@ -127,11 +127,11 @@
     },
     "meaning": {
       "tr": "Bu levhadan sonra motorlu taşıtları sollayamazsın. KKTC'de sollama sağdan yapılır; kırmızı otomobil bu yüzden sağdadır.",
-      "en": "From this sign you must not overtake motor vehicles. In KKTC overtaking is done on the right, which is why the red car is on the right."
+      "en": "From this sign you must not overtake motor vehicles. In North Cyprus you overtake on the right, which is why the red car is on the right."
     },
     "driverAction": {
       "tr": "Yasak bitene kadar şeridinde kal ve öndeki taşıtı geçmeye çalışma.",
-      "en": "Stay in your lane and do not try to pass the vehicle in front until the restriction ends."
+      "en": "Stay in your lane and do not try to overtake the vehicle in front until the restriction ends."
     },
     "confusions": [
       {
@@ -187,7 +187,7 @@
       "en": "Goods vehicles must not overtake other motor vehicles from this sign. Cars are not banned from overtaking."
     },
     "driverAction": {
-      "tr": "Kamyon kullanıyorsan yasak bitene kadar sollama yapma. Otomobildeysen, sollamayan kamyonları sabırla izle.",
+      "tr": "Kamyon kullanıyorsan yasak bitene kadar sollama yapma. Otomobildeysen, kamyonların yavaş taşıtları sollamayıp arkalarında kalacağını bil.",
       "en": "If you drive a lorry, do not overtake until the restriction ends. In a car, expect lorries to stay behind slower traffic."
     },
     "confusions": [
@@ -237,7 +237,7 @@
       "en": "The overtaking ban that started earlier ends here."
     },
     "driverAction": {
-      "tr": "Sollama yeniden serbest, ama yalnız yol açık ve görüş yeterliyse sağdan sollayabilirsin.",
+      "tr": "Sollama yeniden serbesttir, ama yalnız yol açıksa ve görüş yeterliyse sağdan sollayabilirsin.",
       "en": "Overtaking is allowed again, but only on the right and only when the road is clear and you can see far enough."
     },
     "confusions": [
@@ -314,8 +314,8 @@
     "kktc": {
       "status": "seen",
       "note": {
-        "tr": "Kuzeyde fotoğraflandı.",
-        "en": "Photographed in the north."
+        "tr": "KKTC'de fotoğraflandı.",
+        "en": "Photographed in North Cyprus."
       }
     },
     "reviewedAt": "2026-10-20"
@@ -391,7 +391,7 @@
     },
     "meaning": {
       "tr": "Burada geri dönmek yasaktır. KKTC'de soldan gidildiği için U dönüşü sağa doğru yapılır; ok da bu yüzden sağa döner.",
-      "en": "You must not turn round here. Because traffic keeps left in KKTC, a U-turn is made to the right, which is why the arrow turns right."
+      "en": "You must not turn round here. Because traffic keeps left in North Cyprus, a U-turn is made to the right, which is why the arrow turns right."
     },
     "driverAction": {
       "tr": "Geri dönmek için uygun bir çember ya da izin verilen bir yer bul.",
@@ -577,8 +577,8 @@
     "kktc": {
       "status": "seen",
       "note": {
-        "tr": "Kuzeyde ARAÇ GİREMEZ yazılı biçimi fotoğraflandı; o örnekte üzerinde kırmızı çapraz çizgi de vardı.",
-        "en": "The version with the words ARAÇ GİREMEZ has been photographed in the north; that example also had a red diagonal bar."
+        "tr": "KKTC'de ARAÇ GİREMEZ yazılı biçimi fotoğraflandı; o örnekte üzerinde kırmızı çapraz çizgi de vardı.",
+        "en": "The version with the words ARAÇ GİREMEZ has been photographed in North Cyprus; that example also had a red diagonal bar."
       }
     },
     "reviewedAt": "2026-10-20"
@@ -664,7 +664,7 @@
       {
         "with": "prohibitory.weight-limit",
         "tip": {
-          "tr": "Kamyon çizimi kamyonları, yalnız rakam ve t harfi belirtilen ağırlığı aşan her taşıtı yasaklar.",
+          "tr": "Kamyon çizimi kamyonları yasaklar. Yalnız rakam ve t harfi varsa yazılan ağırlığı aşan her taşıt giremez.",
           "en": "The lorry drawing bans goods vehicles; a number with the letter t bans any vehicle heavier than that."
         }
       }
@@ -677,8 +677,8 @@
     "kktc": {
       "status": "seen",
       "note": {
-        "tr": "Kuzeyde kamyon ve otobüs giremez levhaları fotoğraflandı.",
-        "en": "No-lorries and no-buses signs have been photographed in the north."
+        "tr": "KKTC'de kamyon ve otobüs giremez levhaları fotoğraflandı.",
+        "en": "No-lorries and no-buses signs have been photographed in North Cyprus."
       }
     },
     "reviewedAt": "2026-10-20"
@@ -707,8 +707,8 @@
       "en": "Pedestrians must not use this road."
     },
     "driverAction": {
-      "tr": "Sürücü olarak bu yolda yaya beklemezsin, ama yine de dikkatli ol. Yaya isen başka bir yol kullan.",
-      "en": "As a driver you will not expect pedestrians here, but stay alert. On foot, use another route."
+      "tr": "Sürücü olarak burada yaya pek beklemezsin, yine de dikkatli ol. Yayaysan başka bir yol kullan.",
+      "en": "As a driver you are unlikely to meet pedestrians here, but stay alert. On foot, use another route."
     },
     "confusions": [
       {
@@ -763,7 +763,7 @@
       {
         "with": "mandatory.cycle-route",
         "tip": {
-          "tr": "Mavi daire içindeki beyaz bisiklet bisiklet yoludur; kırmızı halka bisikleti yasaklar.",
+          "tr": "Mavi daire içindeki beyaz bisiklet, bisiklet yolunu gösterir; kırmızı halka bisikleti yasaklar.",
           "en": "A white bicycle on a blue disc marks a cycle route; the red ring bans cycles."
         }
       }
@@ -838,7 +838,7 @@
       "src": "/signs/prohibitory/speed-limit--20.svg",
       "alt": {
         "tr": "Kırmızı halkalı beyaz daire; ortasında siyah rakamlarla 20.",
-        "en": "White disc with a red ring with the number 20 in black."
+        "en": "White disc with a red ring and the number 20 in black."
       },
       "basedOn": []
     },
@@ -856,7 +856,7 @@
     },
     "driverAction": {
       "tr": "Hızını 20 km/sa ya da altına indir. Bu sınır genellikle yayaların yoğun olduğu kampüs ve yaşam alanlarında kullanılır.",
-      "en": "Keep to 20 km/h or less. This limit is mostly used on campuses and in areas busy with pedestrians."
+      "en": "Keep to 20 km/h or less. This limit is mostly used on campuses and in home zones busy with pedestrians."
     },
     "confusions": [
       {
@@ -895,7 +895,7 @@
       "src": "/signs/prohibitory/speed-limit--30.svg",
       "alt": {
         "tr": "Kırmızı halkalı beyaz daire; ortasında siyah rakamlarla 30.",
-        "en": "White disc with a red ring with the number 30 in black."
+        "en": "White disc with a red ring and the number 30 in black."
       },
       "basedOn": []
     },
@@ -939,8 +939,8 @@
     "kktc": {
       "status": "seen",
       "note": {
-        "tr": "Kuzeyde fotoğraflandı.",
-        "en": "Photographed in the north."
+        "tr": "KKTC'de fotoğraflandı.",
+        "en": "Photographed in North Cyprus."
       }
     },
     "reviewedAt": "2026-10-20"
@@ -952,7 +952,7 @@
       "src": "/signs/prohibitory/speed-limit--50.svg",
       "alt": {
         "tr": "Kırmızı halkalı beyaz daire; ortasında siyah rakamlarla 50.",
-        "en": "White disc with a red ring with the number 50 in black."
+        "en": "White disc with a red ring and the number 50 in black."
       },
       "basedOn": []
     },
@@ -997,8 +997,8 @@
     "kktc": {
       "status": "seen",
       "note": {
-        "tr": "Kuzeyde fotoğraflandı. Bakanlık broşürüne göre şehir içi sınır 50 km/sa'tir.",
-        "en": "Photographed in the north. The ministry leaflet gives 50 km/h as the urban limit."
+        "tr": "KKTC'de fotoğraflandı. Bakanlık broşürü şehir içi sınırı 50 km/sa olarak verir.",
+        "en": "Photographed in North Cyprus. The ministry leaflet gives 50 km/h as the urban limit."
       }
     },
     "reviewedAt": "2026-10-20"
@@ -1010,7 +1010,7 @@
       "src": "/signs/prohibitory/speed-limit--65.svg",
       "alt": {
         "tr": "Kırmızı halkalı beyaz daire; ortasında siyah rakamlarla 65.",
-        "en": "White disc with a red ring with the number 65 in black."
+        "en": "White disc with a red ring and the number 65 in black."
       },
       "basedOn": []
     },
@@ -1067,7 +1067,7 @@
       "src": "/signs/prohibitory/speed-limit--80.svg",
       "alt": {
         "tr": "Kırmızı halkalı beyaz daire; ortasında siyah rakamlarla 80.",
-        "en": "White disc with a red ring with the number 80 in black."
+        "en": "White disc with a red ring and the number 80 in black."
       },
       "basedOn": []
     },
@@ -1124,7 +1124,7 @@
       "src": "/signs/prohibitory/speed-limit--100.svg",
       "alt": {
         "tr": "Kırmızı halkalı beyaz daire; ortasında siyah rakamlarla 100.",
-        "en": "White disc with a red ring with the number 100 in black."
+        "en": "White disc with a red ring and the number 100 in black."
       },
       "basedOn": []
     },
@@ -1141,8 +1141,8 @@
       "en": "From this sign you must not drive faster than 100 km/h."
     },
     "driverAction": {
-      "tr": "Hızını 100 km/sa ya da altında tut. Bu değer en çok çift şeritli yollarda görülür.",
-      "en": "Keep to 100 km/h or less. This value is mainly found on dual carriageways."
+      "tr": "Hızını 100 km/sa ya da altında tut. Bu sınır en çok çift şeritli yollarda görülür.",
+      "en": "Keep to 100 km/h or less. This limit is mainly found on dual carriageways."
     },
     "confusions": [
       {
@@ -1387,7 +1387,7 @@
       "src": "/signs/prohibitory/weight-limit.svg",
       "alt": {
         "tr": "Kırmızı halkalı beyaz daire; ortasında ton cinsinden ağırlık değeri (t).",
-        "en": "White disc with a red ring with a weight in tonnes (t) in the middle."
+        "en": "White disc with a red ring and a weight in tonnes (t) in the middle."
       },
       "basedOn": []
     },

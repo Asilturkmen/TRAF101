@@ -26,8 +26,8 @@
       "en": "Priority signs"
     },
     "description": {
-      "tr": "Kavşakta ya da dar bir kesimde kimin önce geçeceğini belirler. Biçimleri özeldir: DUR için sekizgen, yol ver için ucu aşağı bakan üçgen, öncelik için mavi kare.",
-      "en": "These decide who goes first at a junction or a narrow section. Their shapes are unique: an octagon for stop, a downward-pointing triangle for give way and a blue square for priority."
+      "tr": "Kavşakta ya da dar bir kesimde kimin önce geçeceğini belirler. Biçimleri kendine özgüdür: DUR için sekizgen, yol ver için ucu aşağı bakan üçgen, öncelik için mavi kare.",
+      "en": "These decide who goes first at a junction or a narrow section. Their shapes are distinctive: an octagon for stop, a downward-pointing triangle for give way and a blue square for priority."
     },
     "shape": "inverted-triangle"
   },
@@ -74,7 +74,7 @@
       "en": "Information signs"
     },
     "description": {
-      "tr": "Mavi dikdörtgen ve kareler yol hakkında bilgi verir: park yeri, yaya geçidi, tek yönlü yol, yerleşim yeri, hastane. Çoğu bir emir değil, bir bilgidir.",
+      "tr": "Mavi dikdörtgen ve kareler yol hakkında bilgi verir: park yeri, yaya geçidi, tek yönlü yol, yerleşim yeri, hastane. Çoğu emir vermez, yalnız bilgi verir.",
       "en": "Blue rectangles and squares give information about the road: parking, a pedestrian crossing, a one-way street, a town, a hospital. Most of them inform rather than order."
     },
     "shape": "rectangle"

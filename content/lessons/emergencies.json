@@ -16,7 +16,7 @@
       },
       "body": {
         "tr": "- **155:** Polis İmdat\n- **112:** ambulans ve acil sağlık\n- **199:** itfaiye\n- **177:** orman yangını\n\nYaralı varsa **112'yi ve 155'i** birlikte ara. Yalnız 155'i aramak yanlış değildir, ama ambulans 112'dir.\n\nArarken sakin konuş ve şunları söyle: nerede olduğun (yol, köy, yakındaki bir yer), kaç kişinin yaralı olduğu, yangın ya da sızıntı olup olmadığı.",
-        "en": "- **155:** police emergency (*Polis İmdat*)\n- **112:** ambulance and medical emergencies\n- **199:** fire brigade\n- **177:** forest fire\n\nIf anyone is hurt, call **112 and 155**. Calling only 155 is not wrong, but the ambulance number is 112.\n\nSpeak calmly and say where you are (road, village, a nearby landmark), how many people are hurt and whether there is fire or leaking fuel."
+        "en": "- **155:** police emergency (Polis İmdat)\n- **112:** ambulance and medical emergencies\n- **199:** fire brigade\n- **177:** forest fire\n\nIf anyone is hurt, call **112 and 155**. Calling only 155 is not wrong, but the ambulance number is 112.\n\nSpeak calmly and say where you are (road, village, a nearby landmark), how many people are hurt and whether there is fire or leaking fuel."
       },
       "basis": "law",
       "sourceId": "s15",
@@ -28,7 +28,7 @@
         "en": "If you break down"
       },
       "body": {
-        "tr": "- Dörtlü flaşörü yak ve aracı mümkünse yolun en soluna, banketin ya da bir cebin içine çek.\n- Motoru durdur, el frenini çek.\n- Yolcuları kaldırım tarafından, yani soldan indir ve yoldan uzakta, varsa bariyerin arkasında beklet.\n- Uyarı üçgenin varsa aracının arkasına, aynı tarafta ve yaklaşan sürücülerin zamanında göreceği bir uzaklığa koy. Koyarken trafiğe arkanı dönme.\n- Gece ya da kötü havada açık renkli, yansıtıcı bir yelek giy.\n\nAracınla trafik arasında hiçbir zaman durma.",
+        "tr": "- Dörtlü flaşörü yak ve aracı mümkünse yolun en soluna, bankete ya da bir cebe çek.\n- Motoru durdur, el frenini çek.\n- Yolcuları kaldırım tarafından, yani soldan indir ve yoldan uzakta, varsa bariyerin arkasında beklet.\n- Reflektörün (uyarı üçgenin) varsa aracının arkasına, aynı tarafta ve yaklaşan sürücülerin zamanında göreceği bir uzaklığa koy. Koyarken trafiğe arkanı dönme.\n- Gece ya da kötü havada açık renkli, yansıtıcı bir yelek giy.\n\nAracınla trafik arasında hiçbir zaman durma.",
         "en": "- Switch on your hazard lights and, if you can, move the car as far left as possible, onto the verge or into a lay-by.\n- Switch off the engine and apply the handbrake.\n- Let passengers out on the kerb side, which is the left, and keep them well away from the road, behind a barrier if there is one.\n- If you have a warning triangle, place it behind the car, on the same side and far enough back for approaching drivers to see it in time. Do not turn your back on the traffic while you do it.\n- At night or in bad weather, wear a light-coloured reflective vest.\n\nNever stand between your car and the traffic."
       },
       "basis": "practice",
@@ -41,7 +41,7 @@
         "en": "At the scene of a crash"
       },
       "body": {
-        "tr": "Kazaya karışırsan ya da kazaya ilk sen ulaşırsan şu sırayı izle:\n\n- **Dur:** aracını kaza yerini kapatmayacak güvenli bir yere çek ve flaşörünü yak.\n- **Uyar:** yaklaşan sürücüleri uyar, gerekirse uyarı üçgenini koy. Kazalı araçların motorunu durdur, kimsenin sigara içmesine izin verme.\n- **Ara:** yaralı varsa ambulansı ve polisi ara.\n- **Yardım et:** yangın ya da trafik gibi doğrudan bir tehlike yoksa yaralıyı yerinden oynatma. Bilincini ve solunumunu kontrol et.\n\nPolis gelene kadar kaza yerinden ayrılma ve öbür sürücüyle bilgilerini paylaş. İlk yardımın ayrıntıları İlk yardım dersinde.",
+        "tr": "Kazaya karışırsan ya da kazaya ilk sen ulaşırsan şu sırayı izle:\n\n- **Dur:** aracını kaza yerini kapatmayacak güvenli bir yere çek ve dörtlü flaşörü yak.\n- **Uyar:** yaklaşan sürücüleri uyar, gerekirse reflektörü koy. Kazalı araçların motorunu durdur, kimsenin sigara içmesine izin verme.\n- **Ara:** yaralı varsa ambulansı ve polisi ara.\n- **Yardım et:** yangın ya da trafik gibi doğrudan bir tehlike yoksa yaralıyı yerinden oynatma. Bilincini ve solunumunu kontrol et.\n\nPolis gelene kadar kaza yerinden ayrılma ve öbür sürücüyle bilgilerini paylaş. İlk yardımın ayrıntıları İlk yardım dersinde.",
         "en": "If you are involved in a crash or are first on the scene, follow this order:\n\n- **Stop:** pull in somewhere safe that does not block the scene and switch on your hazard lights.\n- **Warn:** warn approaching drivers and put out a warning triangle if needed. Switch off the engines of the crashed vehicles and do not let anyone smoke.\n- **Call:** if anyone is hurt, call the ambulance and the police.\n- **Help:** unless there is direct danger, such as fire or traffic, do not move an injured person. Check whether they respond and are breathing.\n\nStay at the scene until the police arrive and exchange details with the other driver. First aid is covered in its own lesson."
       },
       "basis": "practice",
@@ -55,7 +55,7 @@
       },
       "body": {
         "tr": "Siren duyduğunda ya da tepe lambası gördüğünde aracın hangi yönden geldiğini anlamaya çalış.\n\n- Güvenli olduğu anda **sola** çek, yavaşla ya da dur.\n- Ani fren yapma, kaldırıma çıkma, kırmızı ışıkta kavşağa dalma.\n- Kavşağın içindeysen önce kavşağı boşalt, sonra kenara çek.\n- Acil aracın arkasından bir başkası gelebilir; çevrene bakmadan yola dönme.\n\nSağa çekilmek sağdan trafik olan ülkelerde doğrudur. KKTC'de soldan gidildiği için doğru taraf soldur.",
-        "en": "When you hear a siren or see flashing lights, work out which way the vehicle is coming from.\n\n- When it is safe, pull over to the **left**, then slow down or stop.\n- Do not brake suddenly, mount the kerb or drive through a red light.\n- If you are already in a junction, clear it first and then pull over.\n- Another emergency vehicle may follow; look around before you move off again.\n\nPulling to the right is correct in countries that drive on the right. In KKTC traffic keeps left, so the correct side is the left."
+        "en": "When you hear a siren or see flashing lights, work out which way the vehicle is coming from.\n\n- When it is safe, pull over to the **left**, then slow down or stop.\n- Do not brake suddenly, mount the kerb or drive through a red light.\n- If you are already in a junction, clear it first and then pull over.\n- Another emergency vehicle may follow; look around before you move off again.\n\nPulling to the right is correct in countries that drive on the right. In North Cyprus traffic keeps left, so the correct side is the left."
       },
       "basis": "practice",
       "sourceId": null,
@@ -80,7 +80,7 @@
         "en": "Tyre blow-out and brake failure"
       },
       "body": {
-        "tr": "**Lastik patlarsa:** direksiyonu sıkı tut, sert fren yapma. Gazı yavaşça bırak, aracın yavaşlamasını bekle ve güvenli olunca sola çek.\n\n**Fren tutmazsa:** fren pedalına birkaç kez basıp bırak, vitesi küçült ve el frenini yavaş yavaş çek. Çevredekileri uyarmak için korna ve flaşör kullan.",
+        "tr": "**Lastik patlarsa:** direksiyonu sıkı tut, sert fren yapma. Gazı yavaşça bırak, aracın yavaşlamasını bekle ve güvenli olunca sola çek.\n\n**Fren tutmazsa:** fren pedalına birkaç kez basıp bırak, vitesi küçült ve el frenini yavaş yavaş çek. Çevredekileri uyarmak için korna ve dörtlü flaşör kullan.",
         "en": "**If a tyre bursts:** grip the wheel firmly and do not brake hard. Ease off the accelerator, let the car slow down and pull over to the left when it is safe.\n\n**If the brakes fail:** pump the brake pedal, change down through the gears and apply the handbrake gradually. Use the horn and hazard lights to warn others."
       },
       "basis": "practice",
@@ -100,8 +100,8 @@
     },
     {
       "text": {
-        "tr": "Arızada flaşörü yak, aracı yolun soluna çek, yolcuları soldan indir.",
-        "en": "If you break down, switch on hazard lights, pull to the left and let passengers out on the left."
+        "tr": "Arızada dörtlü flaşörü yak, aracı yolun soluna çek, yolcuları soldan indir.",
+        "en": "If you break down, switch on your hazard lights, pull to the left and let passengers out on the left."
       },
       "basis": "practice",
       "sourceId": null,
@@ -128,7 +128,7 @@
     {
       "text": {
         "tr": "Moped ve motosiklet dışındaki araçlarda yangın söndürücü bulunmalıdır.",
-        "en": "Every vehicle except mopeds and motorcycles should carry a fire extinguisher."
+        "en": "Every vehicle except mopeds and motorcycles must carry a fire extinguisher."
       },
       "basis": "secondary",
       "sourceId": "s38",

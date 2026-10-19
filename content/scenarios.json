@@ -59,7 +59,7 @@
     ],
     "explanation": {
       "tr": "KKTC mevzuatında genel bir okul bölgesi hız sınırı bulunamadı. Okul yakınındaki sınırları levhalar belirler. Levha olsun olmasın, çocuk gördüğün yerde yavaşla ve durmaya hazır ol.",
-      "en": "No general school-zone speed limit was found in KKTC law; limits near schools are set by signs. Sign or no sign, slow down and be ready to stop wherever you see children."
+      "en": "No general school-zone speed limit was found in North Cyprus law; limits near schools are set by signs. Sign or no sign, slow down and be ready to stop wherever you see children."
     },
     "basis": "practice",
     "sourceId": null,
@@ -95,7 +95,7 @@
         },
         "correct": false,
         "feedback": {
-          "tr": "Yaya geçide adım atmak üzereyken hızlanmak çok tehlikelidir. Kural hazırlanan yayayı da kapsar.",
+          "tr": "Yaya geçide adım atmak üzereyken hızlanmak çok tehlikelidir. Kural geçmeye hazırlanan yayayı da kapsar.",
           "en": "Speeding up just as someone is about to step out is very dangerous. The rule covers pedestrians getting ready to cross."
         }
       },
@@ -125,7 +125,7 @@
       }
     ],
     "explanation": {
-      "tr": "BUB broşürüne göre yaya geçidine yaklaşırken yavaşlarsın. Geçidi kullanan ya da kullanmaya hazırlanan bir yaya varsa durur ve yol verirsin. Geçitte yayaya yol vermemek ceza listesinde ayrı bir suçtur.",
+      "tr": "Bakanlığın trafik broşürüne göre yaya geçidine yaklaşırken yavaşlarsın. Geçidi kullanan ya da kullanmaya hazırlanan bir yaya varsa durur ve yol verirsin. Geçitte yayaya yol vermemek ceza listesinde ayrı bir suçtur.",
       "en": "According to the ministry leaflet, you slow down when approaching a pedestrian crossing. If someone is using it or getting ready to use it, you stop and give way. Failing to give way at a crossing is a separate offence in the fines list."
     },
     "basis": "law",
@@ -158,12 +158,12 @@
         "id": "a",
         "text": {
           "tr": "Aynalara bakar, karşı şerit yeterince boşsa sağa sinyal verip sağdan sollarsın",
-          "en": "Check your mirrors and, if the oncoming lane is clear far enough, overtake on the right"
+          "en": "Check your mirrors, then signal right and overtake on the right if the oncoming lane is clear"
         },
         "correct": true,
         "feedback": {
           "tr": "Doğru. KKTC'de sağdan sollanır. Kamyonu iç aynada gördüğünde sola, kendi şeridine dönersin.",
-          "en": "Right. In KKTC you overtake on the right. Move back to the left when you can see the lorry in your rear-view mirror."
+          "en": "Right. In North Cyprus you overtake on the right. Move back to the left when you can see the lorry in your rear-view mirror."
         }
       },
       {
@@ -175,7 +175,7 @@
         "correct": false,
         "feedback": {
           "tr": "KKTC'de bir aracı solundan geçmek suçtur ve kamyon sürücüsü seni o tarafta göremez.",
-          "en": "Passing a vehicle on its left is an offence in KKTC, and the lorry driver cannot see you on that side."
+          "en": "Passing a vehicle on its left is an offence in North Cyprus, and the lorry driver cannot see you on that side."
         }
       },
       {
@@ -187,7 +187,7 @@
         "correct": false,
         "feedback": {
           "tr": "Çok yakın gidersen kamyonun aynasında görünmezsin ve ilerideki yolu göremezsin. Mesafeni koru.",
-          "en": "Too close, you disappear from the lorry's mirrors and cannot see the road ahead. Keep your distance."
+          "en": "Too close behind, you vanish from the lorry's mirrors and cannot see the road ahead. Keep your distance."
         }
       }
     ],
@@ -297,7 +297,7 @@
         "correct": false,
         "feedback": {
           "tr": "Bu sağdan trafikli ülkelerin alışkanlığıdır. KKTC'de sağa çekersen ambulansın geçeceği yolu kapatırsın.",
-          "en": "That is the habit from right-hand-traffic countries. In KKTC, pulling right blocks the path the ambulance needs."
+          "en": "That is the habit from right-hand-traffic countries. In North Cyprus, pulling right blocks the path the ambulance needs."
         }
       },
       {
@@ -321,13 +321,13 @@
         "correct": true,
         "feedback": {
           "tr": "Doğru. KKTC'de soldan gidildiği için ambulans seni sağdan geçer. Sola çekilerek ona yol açarsın. Ani fren yapma ve kaldırıma çıkma.",
-          "en": "Right. Traffic keeps left in KKTC, so the ambulance will pass on your right. Moving left clears its path. Do not brake suddenly or mount the kerb."
+          "en": "Right. Traffic keeps left in North Cyprus, so the ambulance will pass on your right. Moving left clears its path. Do not brake suddenly or mount the kerb."
         }
       }
     ],
     "explanation": {
       "tr": "Acil araca yol vermemek ceza listesinde ayrı bir suçtur. Hangi yana çekileceğin KKTC mevzuatında yazılı bulunamadı. Sol trafikte güvenli olan, sola çekilip acil aracın sağdan geçmesine izin vermektir. Kavşaktaysan ya da yol darsa durmadan önce açık bir yere kadar sakince ilerle.",
-      "en": "Failing to give way to an emergency vehicle is a separate offence in the fines list. KKTC law does not say which side to pull over to. In left-hand traffic the safe choice is to move left and let the emergency vehicle pass on your right. If you are at a junction or the road is narrow, move on calmly to an open spot before stopping."
+      "en": "Failing to give way to an emergency vehicle is a separate offence in the fines list. No North Cyprus rule on which side to pull over to could be found. In left-hand traffic the safe choice is to move left and let the emergency vehicle pass on your right. If you are at a junction or the road is narrow, move on calmly to an open spot before stopping."
     },
     "basis": "practice",
     "sourceId": null,
@@ -363,8 +363,8 @@
         },
         "correct": true,
         "feedback": {
-          "tr": "Doğru. BUB'a göre çemberdeki araç önceliklidir ve sağdan araç geliyorsa çembere girmezsin.",
-          "en": "Right. According to the ministry, the vehicle on the roundabout has priority, and you do not enter if a vehicle is coming from your right."
+          "tr": "Doğru. Bakanlığın trafik broşürüne göre çemberdeki araç önceliklidir ve sağdan araç geliyorsa çembere girmezsin.",
+          "en": "Right. According to the ministry leaflet, the vehicle on the roundabout has priority, and you do not enter if a vehicle is coming from your right."
         }
       },
       {
@@ -460,7 +460,7 @@
     ],
     "explanation": {
       "tr": "KKTC'de soldan gidildiği için kaldırım genellikle soldadır. Yokuş yukarı ve kaldırım varsa tekerlekleri sağa çevir; yokuş aşağı tekerlekleri sola, kaldırıma doğru çevir. İki durumda da ön tekerlek kaldırıma dayanır. Kaldırım yoksa tekerlekleri yolun kenarına, sola doğru çevir. Bu bir sürüş tekniğidir, KKTC mevzuatında yazılı değildir.",
-      "en": "Traffic keeps left in KKTC, so the kerb is usually on your left. Uphill with a kerb, turn the wheels right; downhill, turn them left, towards the kerb. Either way it is a front wheel that rests on the kerb. With no kerb, turn the wheels towards the edge of the road, to the left. This is driving technique, not written KKTC law."
+      "en": "Traffic keeps left in North Cyprus, so the kerb is usually on your left. Uphill with a kerb, turn the wheels right; downhill, turn them left, towards the kerb. Either way it is a front wheel that rests on the kerb. With no kerb, turn the wheels towards the edge of the road, to the left. This is driving technique, not a written North Cyprus rule."
     },
     "basis": "practice",
     "sourceId": null,
@@ -479,11 +479,11 @@
       "heavy"
     ],
     "title": {
-      "tr": "Bölünmüş yolda lastik patladı",
+      "tr": "Çift şeritli yolda lastik patladı",
       "en": "Tyre blowout on a dual carriageway"
     },
     "situation": {
-      "tr": "Bölünmüş bir yolda sınıra yakın bir hızla gidiyorsun. Birden ön lastiklerden biri patlıyor ve araç bir yana çekiyor.",
+      "tr": "Çift şeritli bir yolda sınıra yakın bir hızla gidiyorsun. Birden ön lastiklerden biri patlıyor ve araç bir yana çekiyor.",
       "en": "You are driving close to the limit on a dual carriageway. Suddenly a front tyre bursts and the car pulls to one side."
     },
     "signId": null,
@@ -550,7 +550,7 @@
       "en": "Dense fog"
     },
     "situation": {
-      "tr": "Yoğun sis var ve ilerisini çok kısa bir mesafeden sonra göremiyorsun.",
+      "tr": "Yoğun sis var ve yolun ancak çok kısa bir bölümünü görebiliyorsun.",
       "en": "There is dense fog and you can only see a short distance ahead."
     },
     "signId": null,
@@ -558,7 +558,7 @@
       {
         "id": "a",
         "text": {
-          "tr": "Uzun farları yakarsın, yolu daha uzaktan görürsün",
+          "tr": "Uzun farı yakıp yolu daha uzaktan görmeye çalışırsın",
           "en": "Switch on main beam to see further down the road"
         },
         "correct": false,
@@ -582,7 +582,7 @@
       {
         "id": "c",
         "text": {
-          "tr": "Yalnız sis farlarını yakar, hızını korursun",
+          "tr": "Yalnız sis farını yakar, hızını korursun",
           "en": "Use only your fog lights and keep your speed"
         },
         "correct": false,
@@ -594,7 +594,7 @@
     ],
     "explanation": {
       "tr": "KKTC'ye özgü bir sis farı kuralı bulunamadı. Genel uygulama şudur: kısa far, varsa sis farı, düşük hız ve geniş takip mesafesi. Sis kalkınca arka sis lambasını kapat, çünkü arkandakileri kamaştırır.",
-      "en": "No KKTC-specific fog-light rule was found. Good practice is dipped headlights, fog lights if fitted, low speed and a long following distance. Switch the rear fog light off when the fog clears, because it dazzles drivers behind."
+      "en": "No North Cyprus fog-light rule was found. Good practice is dipped headlights, fog lights if fitted, low speed and a long following distance. Switch the rear fog light off when the fog clears, because it dazzles drivers behind."
     },
     "basis": "practice",
     "sourceId": null,
@@ -631,7 +631,7 @@
         "correct": false,
         "feedback": {
           "tr": "Motor kapanınca direksiyon ve fren desteği azalır, motor freni de kaybolur.",
-          "en": "With the engine off you lose steering and brake assistance and engine braking too."
+          "en": "With the engine off you lose power steering, brake assistance and engine braking."
         }
       },
       {
@@ -728,7 +728,7 @@
     ],
     "explanation": {
       "tr": "Sabit sarı ışık, ışığın kırmızıya döneceğini gösterir. Güvenle durabiliyorsan dur. Çizgiye çok yakınsan ve ani fren arkadan çarpmaya yol açacaksa dikkatle geç. KKTC'deki ışık sırası resmi bir metinde doğrulanamadı; bu genel uygulamadır.",
-      "en": "A steady amber light means the signal is about to turn red. If you can stop safely, stop. If you are very close to the line and braking hard would risk a rear-end crash, go on with care. The KKTC light sequence could not be confirmed in an official text, so this is general practice."
+      "en": "A steady amber light means the signal is about to turn red. If you can stop safely, stop. If you are very close to the line and braking hard would risk a rear-end crash, go on with care. The North Cyprus light sequence could not be confirmed in an official text, so this is general practice."
     },
     "basis": "practice",
     "sourceId": null,
@@ -747,11 +747,11 @@
       "heavy"
     ],
     "title": {
-      "tr": "Bölünmüş yola katılmak",
+      "tr": "Çift şeritli yola katılmak",
       "en": "Joining a dual carriageway"
     },
     "situation": {
-      "tr": "Bir yan yoldan bölünmüş yola çıkıyorsun. Kısa bir katılma şeridi var ve yolun sol şeridinde araçlar arka arkaya geliyor.",
+      "tr": "Bir yan yoldan çift şeritli bir yola (bölünmüş yol) çıkıyorsun. Kısa bir katılma şeridi var ve yolun sol şeridinde araçlar arka arkaya geliyor.",
       "en": "You are joining a dual carriageway from a side road. There is a short slip lane, and vehicles are coming steadily along the left-hand lane."
     },
     "signId": null,
@@ -776,7 +776,7 @@
         },
         "correct": false,
         "feedback": {
-          "tr": "Bölünmüş yoldaki araçların önceliği vardır. Katılan sürücü uygun boşluğu bekler.",
+          "tr": "Çift şeritli yoldaki araçların önceliği vardır. Katılan sürücü uygun boşluğu bekler.",
           "en": "Traffic already on the dual carriageway has priority. The joining driver waits for a suitable gap."
         }
       },
@@ -794,8 +794,8 @@
       }
     ],
     "explanation": {
-      "tr": "KKTC'de otoyol sınıfı yoktur; en üst yol sınıfı bölünmüş yoldur. Yan yoldan katılırken yoldaki trafiğe yol ver, hızını uydur ve sol şeritte boşluk olunca katıl. Bölünmüş yolda ters yöne girme, geri gitme ve U dönüşü yapma.",
-      "en": "KKTC has no motorway class; the highest road class is the dual carriageway. When joining from a side road, give way to traffic on the road, match its speed and merge into a gap in the left-hand lane. Never drive the wrong way, reverse or make a U-turn on a dual carriageway."
+      "tr": "KKTC'de otoyol sınıfı yoktur; en üst yol sınıfı çift şeritli yoldur. Yan yoldan katılırken yoldaki trafiğe yol ver, hızını uydur ve sol şeritte boşluk olunca katıl. Çift şeritli yolda ters yöne girme, geri gitme ve U dönüşü yapma.",
+      "en": "North Cyprus has no motorway class; the highest road class is the dual carriageway. When joining from a side road, give way to traffic on the road, match its speed and merge into a gap in the left-hand lane. Never drive the wrong way, reverse or make a U-turn on a dual carriageway."
     },
     "basis": "practice",
     "sourceId": null,
@@ -860,7 +860,7 @@
     ],
     "explanation": {
       "tr": "KKTC'de araçlar yolun sol kenarına park edilir. Paralel parkta önce aynalara bak ve sola sinyal ver. Geri giderken önce sola, araç açı aldıktan sonra sağa kır. Park bitince kaldırıma yakın ve paralel dur. Bu bir sürüş tekniğidir, mevzuatta yazılı değildir.",
-      "en": "In KKTC you park at the left-hand edge of the road. Check your mirrors and signal left first. Reverse steering left, then steer right once the car is angled in. Finish close to and parallel with the kerb. This is driving technique, not written law."
+      "en": "In North Cyprus you park at the left-hand edge of the road. Check your mirrors and signal left first. Reverse steering left, then steer right once the car is angled in. Finish close to and parallel with the kerb. This is driving technique, not written law."
     },
     "basis": "practice",
     "sourceId": null,
@@ -879,7 +879,7 @@
       "heavy"
     ],
     "title": {
-      "tr": "Su birikintisinde kayma",
+      "tr": "Su kızağı",
       "en": "Aquaplaning"
     },
     "situation": {
@@ -926,7 +926,7 @@
       }
     ],
     "explanation": {
-      "tr": "Kayma, lastik ile yol arasına su girince olur. Gazı bırak, fren yapma ve ani direksiyon hareketinden kaçın. Önlemek için yağmurda yavaş git ve lastiklerinin diş derinliğini düzenli denetle.",
+      "tr": "Su kızağı, lastikle yol arasına su girince olur. Gazı bırak, fren yapma ve ani direksiyon hareketinden kaçın. Önlemek için yağmurda yavaş git ve lastiklerinin diş derinliğini düzenli denetle.",
       "en": "Aquaplaning happens when water gets between the tyre and the road. Ease off, do not brake and avoid sudden steering. To prevent it, slow down in rain and check your tyre tread regularly."
     },
     "basis": "practice",
@@ -993,8 +993,8 @@
       }
     ],
     "explanation": {
-      "tr": "Olay yerinde önce güvenlik: aracını trafiği engellemeyen bir yere çek, dörtlü flaşörü yak, varsa uyarı işaretini koy. Sonra 112'yi (ambulans) ve 155'i (polis) ara. Yangın gibi yakın bir tehlike yoksa yaralıyı yerinden oynatma.",
-      "en": "Safety comes first at the scene: park where you do not block traffic, switch on your hazard lights and put out a warning sign if you have one. Then call 112 (ambulance) and 155 (police). Do not move an injured person unless there is an immediate danger such as fire."
+      "tr": "Olay yerinde önce güvenlik: aracını trafiği engellemeyen bir yere çek, dörtlü flaşörü yak, varsa reflektörü (uyarı üçgeni) koy. Sonra 112'yi (ambulans) ve 155'i (polis) ara. Yangın gibi yakın bir tehlike yoksa yaralıyı yerinden oynatma.",
+      "en": "Safety comes first at the scene: park where you do not block traffic, switch on your hazard lights and put out a warning triangle if you have one. Then call 112 (ambulance) and 155 (police). Do not move an injured person unless there is an immediate danger such as fire."
     },
     "basis": "law",
     "sourceId": "s1",
@@ -1031,7 +1031,7 @@
         "correct": false,
         "feedback": {
           "tr": "Bu sağdan trafikteki alışkanlıktır. KKTC'de sağa dönerek girersen çemberde ters yöne gidersin.",
-          "en": "That is the right-hand-traffic habit. In KKTC, turning right to enter sends you the wrong way round."
+          "en": "That is the right-hand-traffic habit. In North Cyprus, turning right to enter sends you the wrong way round."
         }
       },
       {
@@ -1061,7 +1061,7 @@
     ],
     "explanation": {
       "tr": "KKTC'de soldan gidildiği için çember saat yönünde dönülür. Girişte yavaşla, sağdan gelen ve çemberde dönen araçlara yol ver, sola dönerek gir. Çıkacağın yere yaklaşınca sola sinyal ver.",
-      "en": "Because traffic keeps left in KKTC, you go round roundabouts clockwise. Slow down on the approach, give way to traffic from the right and on the roundabout, and turn left to enter. Signal left as you approach your exit."
+      "en": "Because traffic keeps left in North Cyprus, you go round roundabouts clockwise. Slow down on the approach, give way to traffic from the right and on the roundabout, and turn left to enter. Signal left as you approach your exit."
     },
     "basis": "practice",
     "sourceId": null,
@@ -1177,7 +1177,7 @@
         "correct": false,
         "feedback": {
           "tr": "Çemberde ters yöne gidilmez. KKTC'de çember her zaman saat yönünde dönülür.",
-          "en": "You never go the wrong way round. In KKTC you always go round clockwise."
+          "en": "You never go the wrong way round. In North Cyprus you always go round clockwise."
         }
       },
       {
@@ -1195,7 +1195,7 @@
     ],
     "explanation": {
       "tr": "Sol trafikte sağa giden çıkış çemberdeki uzun yoldur. Saat yönünde dön, niyetini sinyalle göster ve çıkmadan önce sol aynaya bak. Çok şeritli çemberler için KKTC'ye özgü bir şerit kuralı bulunamadı; yol çizgilerine ve levhalara uy.",
-      "en": "In left-hand traffic, an exit to the right is the long way round. Go clockwise, signal your intentions and check your left mirror before leaving. No KKTC-specific lane rule for multi-lane roundabouts was found, so follow road markings and signs."
+      "en": "In left-hand traffic, an exit to the right is the long way round. Go clockwise, signal your intentions and check your left mirror before leaving. No North Cyprus lane rule for multi-lane roundabouts was found, so follow road markings and signs."
     },
     "basis": "practice",
     "sourceId": null,
@@ -1322,13 +1322,13 @@
         "correct": false,
         "feedback": {
           "tr": "Bu eski alışkanlıktır. KKTC'de döndüğün yolda da solda kalırsın.",
-          "en": "That is the old habit. In KKTC you keep left on the new road too."
+          "en": "That is the old habit. In North Cyprus you keep left on the new road too."
         }
       }
     ],
     "explanation": {
       "tr": "Sağdan trafikte sola dönüş ne kadar dikkat istiyorsa, KKTC'de sağa dönüş de o kadar dikkat ister: karşı trafiği keser. Bekle, karşıdan gelenlere ve gireceğin yoldaki yayalara yol ver, dönünce yolun sol tarafına gir.",
-      "en": "A right turn in KKTC needs the same care as a left turn in right-hand traffic, because it crosses the oncoming flow. Wait, give way to oncoming vehicles and to pedestrians in the road you are entering, and turn into the left-hand side."
+      "en": "A right turn in North Cyprus needs the same care as a left turn in right-hand traffic, because it crosses the oncoming flow. Wait, give way to oncoming vehicles and to pedestrians in the road you are entering, and turn into the left-hand side."
     },
     "basis": "secondary",
     "sourceId": "s31",
@@ -1389,7 +1389,7 @@
         "correct": true,
         "feedback": {
           "tr": "Doğru. KKTC'de yol boş olsa da solda gidilir. Boş yollar, eski alışkanlığın en kolay geri döndüğü yerlerdir.",
-          "en": "Right. In KKTC you keep left even on an empty road. Empty roads are exactly where old habits return most easily."
+          "en": "Right. In North Cyprus you keep left even on an empty road. Empty roads are exactly where old habits return most easily."
         }
       }
     ],
@@ -1619,7 +1619,7 @@
       {
         "id": "a",
         "text": {
-          "tr": "Dönmeyi bekletir, bisikletliyi görene kadar sol aynaları denetlersin",
+          "tr": "Dönmeden bekler, bisikletliyi görene kadar sol aynaları denetlersin",
           "en": "Hold the turn and check your left mirrors until you have found the cyclist"
         },
         "correct": true,
@@ -1689,8 +1689,8 @@
         },
         "correct": true,
         "feedback": {
-          "tr": "Doğru. 2019 bildirisi bu yolda kamyon ve otobüsleri 3. viteste saatte 35 km ile sınırlar. Küçük vites frenlerin ısınmasını önler.",
-          "en": "Right. The 2019 notice limits trucks and buses on this road to 35 km/h in third gear. A low gear keeps the brakes from overheating."
+          "tr": "Doğru. 2019 bildirisi bu yolda kamyon ve otobüsleri üçüncü viteste 35 km/sa ile sınırlar. Küçük vites frenlerin ısınmasını önler.",
+          "en": "Right. The 2019 notice limits lorries and buses on this road to 35 km/h in third gear. A low gear keeps the brakes from overheating."
         }
       },
       {
@@ -1719,8 +1719,8 @@
       }
     ],
     "explanation": {
-      "tr": "Uzun inişte vitesi inişe başlamadan seç. Motor freni hızı sabit tutar; ayak frenini kısa ve kararlı basışlarla kullan. Bildiriye göre bu yolda 10 ve daha yaşlı kamyon ve otobüslerin sınırı saatte 20 km'dir.",
-      "en": "On a long descent, choose your gear before you start down. Engine braking holds your speed; use the footbrake in short, firm applications. Under the notice, trucks and buses 10 or more years old are limited to 20 km/h on this road."
+      "tr": "Uzun inişte vitesi inişe başlamadan seç. Motor freni hızı sabit tutar; ayak frenini kısa ve kararlı basışlarla kullan. Bildiriye göre bu yolda 10 ya da daha fazla yaşındaki kamyon ve otobüsler için sınır 20 km/sa.",
+      "en": "On a long descent, choose your gear before you start down. Engine braking holds your speed; use the footbrake in short, firm applications. Under the notice, lorries and buses 10 or more years old are limited to 20 km/h on this road."
     },
     "basis": "secondary",
     "sourceId": "s27",
@@ -1851,7 +1851,7 @@
       }
     ],
     "explanation": {
-      "tr": "Uzun kurak dönemlerde yolda yağ, lastik tozu ve toz birikir. İlk yağmur bunları kaygan bir tabakaya çevirir. Yavaşla, ani hareketlerden kaçın ve motosikletli ile bisikletlilere ek pay bırak.",
+      "tr": "Uzun kurak dönemlerde yolda yağ, lastik tozu ve toz birikir. İlk yağmur bunları kaygan bir tabakaya çevirir. Yavaşla, ani hareketlerden kaçın ve motosikletlilere ve bisikletlilere ek pay bırak.",
       "en": "During long dry spells, oil, rubber and dust build up on the road. The first rain turns them into a slippery film. Slow down, avoid sudden movements and give motorcyclists and cyclists extra room."
     },
     "basis": "practice",
@@ -1967,7 +1967,7 @@
         },
         "correct": true,
         "feedback": {
-          "tr": "Doğru. Hayvanlar ne yapacakları belli olmadan yön değiştirebilir. Yavaş ve sessizce geçmek en güvenlisidir.",
+          "tr": "Doğru. Hayvanlar birden yön değiştirebilir. Yavaş ve sessizce geçmek en güvenlisidir.",
           "en": "Right. Animals can change direction without warning. Passing slowly and quietly is safest."
         }
       },
@@ -2018,7 +2018,7 @@
         "id": "a",
         "text": {
           "tr": "Köprüye girersin; karşıdaki otomobil küçük, kolayca geri gider",
-          "en": "Drive on; the other car is small and can easily back up"
+          "en": "Drive on; the other car is small and can easily reverse"
         },
         "correct": false,
         "feedback": {
@@ -2046,7 +2046,7 @@
         },
         "correct": false,
         "feedback": {
-          "tr": "Far yakıp söndürmek öncelik hakkı yaratmaz ve karşıdaki sürücüyü yanıltabilir.",
+          "tr": "Far yakıp söndürmek geçiş üstünlüğü sağlamaz ve karşıdaki sürücüyü yanıltabilir.",
           "en": "Flashing your headlights creates no right of way and can mislead the other driver."
         }
       }
@@ -2090,7 +2090,7 @@
         "correct": false,
         "feedback": {
           "tr": "Soldan gidilmesi önceliğin yönünü değiştirmez. KKTC'de kontrolsüz kavşakta sağdan gelene yol verilir.",
-          "en": "Keeping left does not change the priority rule. In KKTC you give way to the right at an uncontrolled junction."
+          "en": "Keeping left does not change the priority rule. In North Cyprus you give way to the right at an uncontrolled junction."
         }
       },
       {
@@ -2101,8 +2101,8 @@
         },
         "correct": true,
         "feedback": {
-          "tr": "Doğru. BUB'a göre kontrolsüz kavşakta öncelik sağdan gelen aracındır.",
-          "en": "Right. According to the ministry, at an uncontrolled junction priority belongs to the vehicle from the right."
+          "tr": "Doğru. Bakanlığın trafik broşürüne göre kontrolsüz kavşakta öncelik sağdan gelen aracındır.",
+          "en": "Right. According to the ministry leaflet, at an uncontrolled junction priority belongs to the vehicle from the right."
         }
       },
       {
@@ -2119,8 +2119,8 @@
       }
     ],
     "explanation": {
-      "tr": "Levha, ışık ya da polis yoksa kavşakta öncelik sağdan gelen aracındır. Bu kural İngiltere'dekinden farklıdır; KKTC'de BUB broşürü bunu açıkça söyler. Böyle kavşaklara her zaman durabileceğin hızda yaklaş.",
-      "en": "With no signs, lights or police, priority at a junction belongs to the vehicle from the right. This differs from the UK; in KKTC the ministry leaflet states it plainly. Always approach such junctions at a speed at which you can stop."
+      "tr": "Levha, ışık ya da polis yoksa kavşakta öncelik sağdan gelen aracındır. Bu kural İngiltere'dekinden farklıdır; KKTC'de Bakanlığın trafik broşürü bunu açıkça yazar. Böyle kavşaklara her zaman durabileceğin hızda yaklaş.",
+      "en": "With no signs, lights or police, priority at a junction belongs to the vehicle from the right. This differs from the UK; in North Cyprus the ministry leaflet states it plainly. Always approach such junctions at a speed at which you can stop."
     },
     "basis": "law",
     "sourceId": "s1",
@@ -2186,7 +2186,7 @@
       }
     ],
     "explanation": {
-      "tr": "BUB broşürüne göre sürüş sırasında cep telefonu kullanmak yasaktır. 2025 açıklamalarına göre telefonu tutmadan Bluetooth ile konuşmak suç sayılmıyor, ama dikkat yine dağılır. Telefon cezası ağırdır ve yüksek ceza puanı getirir.",
+      "tr": "Bakanlığın trafik broşürüne göre sürüş sırasında cep telefonu kullanmak yasaktır. 2025 açıklamalarına göre telefonu tutmadan Bluetooth ile konuşmak suç sayılmıyor, ama dikkat yine dağılır. Telefon cezası ağırdır ve yüksek ceza puanı getirir.",
       "en": "According to the ministry leaflet, using a mobile phone while driving is banned. Statements in 2025 say talking over Bluetooth without holding the phone is not an offence, but it still distracts you. The phone penalty is heavy and carries a high number of penalty points."
     },
     "basis": "law",
@@ -2273,11 +2273,11 @@
       "heavy"
     ],
     "title": {
-      "tr": "Bölünmüş yolda arıza",
+      "tr": "Çift şeritli yolda arıza",
       "en": "Breakdown on a dual carriageway"
     },
     "situation": {
-      "tr": "Bölünmüş yolda sağ şeritte giderken bir uyarı ışığı yanıyor ve aracın gücü düşmeye başlıyor.",
+      "tr": "Çift şeritli bir yolda sağ şeritte giderken bir uyarı ışığı yanıyor ve aracın gücü düşmeye başlıyor.",
       "en": "You are in the right-hand lane of a dual carriageway when a warning light comes on and the car starts to lose power."
     },
     "signId": null,
@@ -2286,7 +2286,7 @@
         "id": "a",
         "text": {
           "tr": "Şerit değiştirmek riskli olduğu için sağ şeritte durup dörtlü flaşörü yakarsın",
-          "en": "Stop in the right-hand lane with hazards on, as changing lanes is risky"
+          "en": "Stop in the right-hand lane with your hazard lights on, as changing lanes is risky"
         },
         "correct": false,
         "feedback": {
@@ -2302,7 +2302,7 @@
         },
         "correct": false,
         "feedback": {
-          "tr": "Bölünmüş yolda geri gitmek çok tehlikelidir. Kenara çek ya da bir sonraki kavşağa kadar yavaşça ilerle.",
+          "tr": "Çift şeritli yolda geri gitmek çok tehlikelidir. Kenara çek ya da bir sonraki kavşağa kadar yavaşça ilerle.",
           "en": "Reversing on a dual carriageway is very dangerous. Pull over, or carry on slowly to the next junction."
         }
       },
@@ -2320,7 +2320,7 @@
       }
     ],
     "explanation": {
-      "tr": "Arıza olunca sol kenara çek ve dörtlü flaşörü yak. Varsa uyarı üçgenini ancak güvenle koyabiliyorsan koy. Yolcuları trafikten uzağa al. Araç trafiği tehlikeye sokuyorsa 155'i ara.",
+      "tr": "Arıza olunca sol kenara çek ve dörtlü flaşörü yak. Reflektörün (uyarı üçgeni) varsa onu ancak güvenle koyabiliyorsan koy. Yolcuları trafikten uzağa al. Araç trafiği tehlikeye sokuyorsa 155'i ara.",
       "en": "If you break down, pull over to the left edge and switch on the hazard lights. Only put out a warning triangle, if you have one, when it is safe to do so. Get passengers away from the traffic. If the car is a danger to traffic, call 155."
     },
     "basis": "practice",

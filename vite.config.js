@@ -51,9 +51,29 @@ function contentStats() {
   return { signs: signs.length, questions: written.length + signs.length, scenarios: scenarios.length, byLesson };
 }
 
+// TR <-> EN slug pairs for every route parameter, so the language switch can find
+// the other language's URL from the route alone (no page data needed).
+function slugMap() {
+  const map = { category: { tr: {}, en: {} }, sign: { tr: {}, en: {} }, lesson: { tr: {}, en: {} }, track: { tr: {}, en: {} } };
+  const add = (kind, slug) => {
+    map[kind].tr[slug.tr] = slug.en;
+    map[kind].en[slug.en] = slug.tr;
+  };
+  const catFile = 'content/signs/categories.json';
+  if (fs.existsSync(path.join(root, catFile))) for (const c of readJson(catFile)) add('category', c.slug);
+  for (const s of jsonFiles('content/signs').filter((f) => !f.endsWith('categories.json')).flatMap(readJson)) add('sign', s.slug);
+  for (const l of readJson('content/lessons.json')) add('lesson', l.slug);
+  for (const t of readJson('content/tracks.json')) add('track', t.slug);
+  return map;
+}
+
 export default defineConfig({
   plugins: [vue()],
-  define: { __CONTENT_STATS__: JSON.stringify(contentStats()), __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: JSON.stringify(!!process.env.HYDRATION_DEBUG) },
+  define: {
+    __CONTENT_STATS__: JSON.stringify(contentStats()),
+    __SLUG_MAP__: JSON.stringify(slugMap()),
+    __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: JSON.stringify(!!process.env.HYDRATION_DEBUG),
+  },
   server: { port: Number(process.env.PORT) || 5173 },
   cacheDir: process.env.VITE_CACHE_DIR || 'node_modules/.vite',
   test: {

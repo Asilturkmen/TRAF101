@@ -122,7 +122,7 @@
       "en": "double-bend-first-left"
     },
     "name": {
-      "tr": "Tehlikeli devamlı viraj (önce sola)",
+      "tr": "Sola tehlikeli devamlı viraj",
       "en": "Double bend, first to the left"
     },
     "meaning": {
@@ -157,8 +157,8 @@
     "kktc": {
       "status": "seen",
       "note": {
-        "tr": "Kuzeyde altında YAVAŞ yazılı ek levhayla fotoğraflandı.",
-        "en": "Photographed in the north with a YAVAŞ (reduce speed) plate below it."
+        "tr": "KKTC'de altında YAVAŞ yazılı ek levhayla fotoğraflandı.",
+        "en": "Photographed in North Cyprus with a YAVAŞ (reduce speed) plate below it."
       }
     },
     "reviewedAt": "2026-10-20"
@@ -179,7 +179,7 @@
       "en": "double-bend-first-right"
     },
     "name": {
-      "tr": "Tehlikeli devamlı viraj (önce sağa)",
+      "tr": "Sağa tehlikeli devamlı viraj",
       "en": "Double bend, first to the right"
     },
     "meaning": {
@@ -230,7 +230,7 @@
     },
     "name": {
       "tr": "Tali yol kavşağı",
-      "en": "Crossroads with a minor road"
+      "en": "Crossroads"
     },
     "meaning": {
       "tr": "İleride ana yolu tali bir yolun kestiği bir kavşak var. Kalın çizgi senin yolunu gösterir.",
@@ -295,8 +295,8 @@
       {
         "with": "warning.crossroads",
         "tip": {
-          "tr": "Çarpı biçimi öncelik vermen gerektiğini, artı biçimi ana yolda olduğunu söyler.",
-          "en": "The diagonal cross tells you to give way; the plus shape tells you that you are on the main road."
+          "tr": "Çarpı biçimi sağdan gelene yol vermen gerektiğini, artı biçimi ana yolda olduğunu söyler.",
+          "en": "The diagonal cross tells you to give way to traffic from the right; the plus shape tells you that you are on the main road."
         }
       },
       {
@@ -341,7 +341,7 @@
       "en": "Side road on the left"
     },
     "meaning": {
-      "tr": "İleride sol taraftan ana yola bağlanan bir yan yol var. Ana yolda olan sensin.",
+      "tr": "İleride sol taraftan ana yola bağlanan bir yan yol var. Sen ana yoldasın.",
       "en": "A side road joins your road from the left ahead. You are on the main road."
     },
     "driverAction": {
@@ -492,7 +492,7 @@
       "en": "T-junction"
     },
     "meaning": {
-      "tr": "Yolun ileride başka bir yolla T biçiminde birleşiyor ve düz devam etmiyor.",
+      "tr": "Yolun ileride başka bir yola T biçiminde bağlanıyor; düz devam etmiyor.",
       "en": "Your road ends ahead at a T-junction with another road; it does not continue straight on."
     },
     "driverAction": {
@@ -503,8 +503,8 @@
       {
         "with": "information.dead-end",
         "tip": {
-          "tr": "Mavi zeminde kırmızı üst çizgi çıkmaz yoldur. Üçgendeki T ise yolun bir kavşakta bittiğini uyarır.",
-          "en": "A blue sign with a red top bar is a no through road. The T in a triangle warns that the road ends at a junction."
+          "tr": "Mavi levhada beyaz çubuğun üstündeki kırmızı çubuk çıkmaz yol demektir. Üçgendeki T ise yolun bir kavşakta bittiğini uyarır.",
+          "en": "A blue sign with a red bar on top of a white bar means no through road. The T in a triangle warns that the road ends at a junction."
         }
       }
     ],
@@ -546,8 +546,8 @@
       "en": "Traffic from a road on the left joins your road ahead."
     },
     "driverAction": {
-      "tr": "Katılan taşıtlar için yer bırak, hızını ayarla ve gerekirse güvenli olduğunda şerit değiştir.",
-      "en": "Leave room for joining vehicles, adjust your speed and change lane when it is safe if needed."
+      "tr": "Katılan taşıtlar için yer bırak, hızını ayarla, şerit değiştirmen gerekirse bunu güvenli olduğunda yap.",
+      "en": "Leave room for joining vehicles, adjust your speed and, if you need to change lane, do so only when it is safe."
     },
     "confusions": [
       {
@@ -642,7 +642,7 @@
     },
     "meaning": {
       "tr": "İleride bir çember var. KKTC'de çemberde saat yönünde dönülür.",
-      "en": "There is a roundabout ahead. In KKTC traffic goes round it clockwise."
+      "en": "There is a roundabout ahead. In North Cyprus traffic goes round it clockwise."
     },
     "driverAction": {
       "tr": "Yavaşla, şeridini erken seç ve çemberin içindeki taşıtlara yol ver.",
@@ -652,7 +652,7 @@
       {
         "with": "mandatory.roundabout",
         "tip": {
-          "tr": "Üçgen çemberin yaklaştığını haber verir. Mavi daire ise çember yönünde dönmeyi zorunlu kılar.",
+          "tr": "Üçgen çemberin yaklaştığını haber verir. Mavi daire ise çemberde ok yönünde dönmeyi zorunlu kılar.",
           "en": "The triangle warns that a roundabout is coming. The blue disc orders you to go round it."
         }
       }
@@ -715,8 +715,8 @@
     "kktc": {
       "status": "seen",
       "note": {
-        "tr": "Bakanlığın KKTC trafik broşüründe bu levha yer alır.",
-        "en": "This sign appears on the ministry's KKTC traffic leaflet."
+        "tr": "Bakanlığın trafik broşüründe bu levha yer alır.",
+        "en": "This sign appears in the ministry's traffic leaflet."
       }
     },
     "reviewedAt": "2026-10-20"
@@ -752,7 +752,7 @@
       {
         "with": "warning.pedestrian-crossing",
         "tip": {
-          "tr": "Çizgiler üzerindeki tek yaya geçit uyarısıdır. İki çocuk figürü okul ya da çocuk bölgesi demektir.",
+          "tr": "Çizgiler üzerinde yürüyen tek figür yaya geçidi uyarısıdır. İki çocuk figürü okul ya da çocuk bölgesi demektir.",
           "en": "A single figure on stripes warns of a crossing. Two child figures mean a school or children's area."
         }
       }
@@ -809,7 +809,7 @@
       {
         "with": "priority.give-way-to-oncoming",
         "tip": {
-          "tr": "Daralma levhası yalnız uyarır. Kırmızı daire içindeki oklar kimin önce geçeceğini belirler.",
+          "tr": "Daralma levhası yalnız uyarır. Kırmızı halkalı daire içindeki oklar kimin önce geçeceğini belirler.",
           "en": "The narrowing sign only warns. A red ring with arrows decides who goes first."
         }
       }
@@ -1009,8 +1009,8 @@
       {
         "with": "warning.other-danger",
         "tip": {
-          "tr": "Ünlem işareti genel bir tehlikedir. Kürekli işçi figürü yalnız yol çalışmasını gösterir.",
-          "en": "The exclamation mark is a general danger. The worker with a shovel means road works only."
+          "tr": "Ünlem işareti genel bir tehlike uyarısıdır. Kürekli işçi figürü yalnız yol çalışmasını gösterir.",
+          "en": "The exclamation mark warns of a general danger. The worker with a shovel means road works only."
         }
       }
     ],
@@ -1022,8 +1022,8 @@
     "kktc": {
       "status": "seen",
       "note": {
-        "tr": "Kuzeyde yol çalışması levhaları fotoğraflandı.",
-        "en": "Road-works signs have been photographed in the north."
+        "tr": "KKTC'de yol çalışması levhaları fotoğraflandı.",
+        "en": "Road-works signs have been photographed in North Cyprus."
       }
     },
     "reviewedAt": "2026-10-20"
@@ -1108,14 +1108,14 @@
       {
         "with": "priority.give-way-to-oncoming",
         "tip": {
-          "tr": "Üçgendeki siyah oklar yalnız uyarır. Kırmızı daire içindeki kırmızı ve siyah oklar karşıdan gelene yol vermeni ister.",
+          "tr": "Üçgendeki siyah oklar yalnız uyarır. Kırmızı halkalı daire içindeki kırmızı ve siyah oklar karşıdan gelene yol vermeni ister.",
           "en": "Black arrows in a triangle only warn. Red and black arrows in a red ring tell you to give way to oncoming traffic."
         }
       },
       {
         "with": "priority.priority-over-oncoming",
         "tip": {
-          "tr": "Mavi kare levhada geçiş önceliği sendedir; üçgen ise yalnız iki yönlü trafiği haber verir.",
+          "tr": "Mavi kare levhada öncelik sendedir; üçgen ise yalnız iki yönlü trafiği haber verir.",
           "en": "On the blue square sign you have priority; the triangle only warns of two-way traffic."
         }
       }
@@ -1159,7 +1159,7 @@
       "en": "There is a steep downhill stretch ahead. The percentage on the sign shows how steep it is."
     },
     "driverAction": {
-      "tr": "İnişten önce yavaşla, düşük vitese geç ve frene sürekli basarak ısıtma.",
+      "tr": "İnişten önce yavaşla, düşük vitese geç, frene sürekli basıp frenleri ısıtma.",
       "en": "Slow down before the descent, change to a lower gear and avoid riding the brakes all the way down."
     },
     "confusions": [
@@ -1407,7 +1407,7 @@
     },
     "driverAction": {
       "tr": "Yavaşla ve hayvanların yanından korna çalmadan, geniş mesafe bırakarak geç.",
-      "en": "Slow down and pass the animals widely and without sounding your horn."
+      "en": "Slow down, give the animals plenty of room as you pass and do not sound your horn."
     },
     "confusions": [
       {
@@ -1425,8 +1425,8 @@
     "kktc": {
       "status": "seen",
       "note": {
-        "tr": "Kuzeyde inekli ve eşekli hayvan uyarı levhaları fotoğraflandı.",
-        "en": "Animal warning signs showing a cow or a donkey have been photographed in the north."
+        "tr": "KKTC'de inekli ve eşekli hayvan uyarı levhaları fotoğraflandı.",
+        "en": "Animal warning signs showing a cow or a donkey have been photographed in North Cyprus."
       }
     },
     "reviewedAt": "2026-10-20"
@@ -1451,12 +1451,12 @@
       "en": "Cyclists"
     },
     "meaning": {
-      "tr": "İleride bisikletliler yola çıkabilir ya da bir bisiklet yolu yolu kesiyor.",
+      "tr": "İleride yolda bisikletliler olabilir ya da bisikletliler yolu karşıdan karşıya geçebilir.",
       "en": "Cyclists may be on or crossing the road ahead."
     },
     "driverAction": {
       "tr": "Yavaşla ve bisikletlileri sollarken yeterli yan mesafe bırak.",
-      "en": "Slow down and leave plenty of room when you pass cyclists."
+      "en": "Slow down and leave plenty of room when you overtake cyclists."
     },
     "confusions": [
       {
@@ -1531,8 +1531,8 @@
     "kktc": {
       "status": "seen",
       "note": {
-        "tr": "Bakanlığın KKTC trafik broşüründe bu levha yer alır.",
-        "en": "This sign appears on the ministry's KKTC traffic leaflet."
+        "tr": "Bakanlığın trafik broşüründe bu levha yer alır.",
+        "en": "This sign appears in the ministry's traffic leaflet."
       }
     },
     "reviewedAt": "2026-10-20"

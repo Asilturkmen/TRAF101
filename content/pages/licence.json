@@ -105,7 +105,7 @@
     {
       "heading": { "tr": "AB ve diğer ehliyetler", "en": "EU and other licences" },
       "body": {
-        "tr": "Yeni yönetmelikte AB ehliyetlerinin denk sınıflara çevrilmesi yazıyor, ama bu yönetmelik henüz uygulanmıyor. AB ya da Kıbrıs Cumhuriyeti ehliyetin varsa, Trafik Dairesi aksini söylemedikçe Türkiye dışı ehliyetler için anlatılan yolu bekle.",
+        "tr": "Yeni yönetmelikte AB ehliyetlerinin denk sınıflara çevrilmesi yazıyor, ama bu yönetmelik henüz uygulanmıyor. AB ya da Kıbrıs Cumhuriyeti ehliyetin varsa, Trafik Dairesi aksini söylemedikçe Türkiye dışındaki ehliyetler için anlatılan yolun geçerli olacağını varsay.",
         "en": "The new regulation provides for EU licences to be converted into equivalent classes, but it is not in force yet. If you hold an EU or Republic of Cyprus licence, expect the route described for licences from outside Turkey unless the Traffic Department tells you otherwise."
       },
       "basis": "practice", "sourceId": null, "sourceRef": null

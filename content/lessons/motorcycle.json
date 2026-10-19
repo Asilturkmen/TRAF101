@@ -24,8 +24,8 @@
     },
     {
       "heading": {
-        "tr": "Kask ve koruyucu giysi",
-        "en": "Helmet and protective clothing"
+        "tr": "Kask",
+        "en": "Helmets"
       },
       "body": {
         "tr": "Motosiklet, moped, motorlu üç tekerlekli ve ATV'de **sürücü ve yolcu** kask takar. Motorun hacmi ya da gücü fark etmez.\n\nKask başına tam oturmalı, çene kayışı bağlı ve vizörü temiz olmalı.",
@@ -37,8 +37,8 @@
     },
     {
       "heading": {
-        "tr": "Kaskın yanında",
-        "en": "Beyond the helmet"
+        "tr": "Koruyucu giysi",
+        "en": "Protective clothing"
       },
       "body": {
         "tr": "Kaskın yanında şunları da giy:\n\n- eldiven, çünkü düşerken önce ellerin yere değer,\n- dizleri ve dirsekleri koruyan ceket ve pantolon,\n- bileği kapatan bot,\n- gündüz açık renkli, gece yansıtıcı giysi.\n\nSıcak havada kısa kollu sürmek cazip gelir, ama asfalt çıplak cildi çok kısa sürede yaralar.",
@@ -54,8 +54,8 @@
         "en": "Speed limits"
       },
       "body": {
-        "tr": "2019 hız bildirisine göre, basında yer aldığı biçimiyle, motosikletler için sınırlar:\n\n- bölünmüş yollarda 85 km/sa,\n- birinci ve ikinci sınıf yollarda 75 km/sa,\n- üçüncü sınıf ve köy yollarında 60 km/sa.\n\nBölünmüş yolda otomobil için sınır daha yüksektir; otomobillerin hızına uymaya çalışma.",
-        "en": "According to the 2019 speed notice, as reported in the press, the limits for motorcycles are:\n\n- 85 km/h on divided roads,\n- 75 km/h on first- and second-class roads,\n- 60 km/h on third-class and village roads.\n\nCars have a higher limit on divided roads; do not try to keep up with them."
+        "tr": "2019 hız bildirisine göre, basında yer aldığı biçimiyle, motosikletler için sınırlar:\n\n- çift şeritli (bölünmüş) yollarda 85 km/sa,\n- birinci ve ikinci sınıf yollarda 75 km/sa,\n- üçüncü sınıf ve köy yollarında 60 km/sa.\n\nÇift şeritli yolda otomobil için sınır daha yüksektir; otomobillerin hızına uymaya çalışma.",
+        "en": "According to the 2019 speed notice, as reported in the press, the limits for motorcycles are:\n\n- 85 km/h on dual carriageways,\n- 75 km/h on first- and second-class roads,\n- 60 km/h on third-class and village roads.\n\nCars have a higher limit on dual carriageways; do not try to keep up with them."
       },
       "basis": "secondary",
       "sourceId": "s27",
@@ -63,11 +63,11 @@
     },
     {
       "heading": {
-        "tr": "Yolda konumun ve yüzey",
+        "tr": "Yoldaki konumun ve yol yüzeyi",
         "en": "Road position and surface"
       },
       "body": {
-        "tr": "- Şeridin içinde görünür olduğun ve kaçış payı bıraktığın bir yerde git. Kaldırıma çok yakın gitmek seni araçların arkasında gizler.\n- Sollamayı her araç gibi **sağdan** yap. Sollamadan ve sağa dönmeden önce sağ omzunun üstünden kör noktana bak.\n- Kavşakta bir sürücünün seni görmediğini varsay.\n- Gündüz de farını yak.\n- Boyalı yol çizgileri, rögar kapakları, çakıl, kum ve dökülmüş yağ, özellikle ıslakken kaygandır.\n- Freni virajdan önce, motosiklet düz giderken yap.\n- Yan rüzgarda, özellikle kamyon sollarken, gidonu sıkı ama gergin olmadan tut.",
+        "tr": "- Şeridin içinde görünür olduğun ve kaçış payı bıraktığın bir yerde git. Kaldırıma çok yakın gitmek seni araçların arkasında gizler.\n- Sollamayı her araç gibi **sağdan** yap. Sollamadan ve sağa dönmeden önce sağ omzunun üstünden kör noktana bak.\n- Kavşakta bir sürücünün seni görmediğini varsay.\n- Gündüz de farını yak.\n- Boyalı yol çizgileri, rögar kapakları, çakıl, kum ve dökülmüş yağ, özellikle ıslakken kaygandır.\n- Freni virajdan önce, motosiklet düz giderken yap.\n- Yan rüzgârda, özellikle kamyon sollarken, gidonu sıkı ama gergin olmadan tut.",
         "en": "- Ride where you can be seen and have room to escape. Hugging the kerb hides you behind other vehicles.\n- Overtake on the **right**, like any other vehicle. Before overtaking or turning right, look over your right shoulder into the blind spot.\n- At junctions, assume drivers have not seen you.\n- Use your headlight in daylight too.\n- Painted lines, manhole covers, gravel, sand and spilt oil are slippery, especially when wet.\n- Brake before a bend, while the bike is upright.\n- In a side wind, especially when passing a lorry, grip the bars firmly without tensing up."
       },
       "basis": "practice",
@@ -81,7 +81,7 @@
       },
       "body": {
         "tr": "Mopedde çocuk yolcu yalnız 7 ile 12 yaş arasındaysa, uygun bir koltukta oturuyorsa, ayakları ayak dayama yerine yetişiyorsa ve kask takıyorsa taşınabilir.\n\nHızı en fazla 30 km/sa, gücü 351 W'tan az olan e-scooter ve e-mopedler ehliyet istemez, ama sürücü en az 18 yaşında olmalıdır. Daha hızlı araçlar için J, H1, H2 ya da H ehliyeti gerekir.",
-        "en": "A child may ride as a moped passenger only if aged 7 to 12, seated on a proper seat, able to reach the footrests and wearing a helmet.\n\nE-scooters and e-mopeds with a top speed of 30 km/h and under 351 W need no licence, but the rider must be at least 18. Faster vehicles need a J, H1, H2 or H licence."
+        "en": "A child may ride as a moped passenger only if aged 7 to 12, seated on a proper seat, able to reach the footrests and wearing a helmet.\n\nE-scooters and e-mopeds with a top speed of up to 30 km/h and under 351 W need no licence, but the rider must be at least 18. Faster vehicles need a J, H1, H2 or H licence."
       },
       "basis": "law",
       "sourceId": "s10",
@@ -118,8 +118,8 @@
     },
     {
       "text": {
-        "tr": "Bölünmüş yolda motosiklet sınırı 85 km/sa, köy yolunda 60 km/sa.",
-        "en": "The motorcycle limit is 85 km/h on divided roads and 60 km/h on village roads."
+        "tr": "Çift şeritli yolda motosiklet sınırı 85 km/sa, köy yolunda 60 km/sa.",
+        "en": "The motorcycle limit is 85 km/h on dual carriageways and 60 km/h on village roads."
       },
       "basis": "secondary",
       "sourceId": "s27",

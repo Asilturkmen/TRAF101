@@ -158,7 +158,7 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "Lastik dişleri suyu lastiğin altından dışarı atar. Diş azaldıkça su altta kalır, lastik kayar ve durman uzar.",
+      "tr": "Lastik dişleri suyu lastiğin altından dışarı atar. Diş azaldıkça su altta kalır, lastik kayar ve durma mesafen uzar.",
       "en": "Tread grooves push water out from under the tyre. With less tread, water stays underneath, the tyre slides and you need longer to stop."
     },
     "signId": null,
@@ -186,7 +186,7 @@
       {
         "id": "a",
         "text": {
-          "tr": "Lastik basıncının tam olması gerektiği gibi olduğunu",
+          "tr": "Lastik basınçlarının tam doğru olduğunu",
           "en": "The tyre pressures are exactly right"
         }
       },
@@ -201,14 +201,14 @@
         "id": "c",
         "text": {
           "tr": "Yalnız yolun bozuk olduğunu, araçta sorun olmadığını",
-          "en": "Only that the road is poor, not that anything is wrong with the vehicle"
+          "en": "The road is poor and nothing is wrong with the vehicle"
         }
       },
       {
         "id": "d",
         "text": {
-          "tr": "Amortisörler aşınmış, kontrol ettirmelisin",
-          "en": "Worn shock absorbers that need checking"
+          "tr": "Amortisörlerin aşındığını, kontrol gerektiğini",
+          "en": "The shock absorbers are worn and need checking"
         }
       }
     ],
@@ -319,8 +319,8 @@
       {
         "id": "d",
         "text": {
-          "tr": "Fren sisteminde hava ya da sıvı kaçağı olabilir",
-          "en": "There may be air or a fluid leak in the brake system"
+          "tr": "Fren sisteminde hava ya da sıvı kaçağı olabileceğini",
+          "en": "There may be air in the system or a fluid leak"
         }
       }
     ],
@@ -355,7 +355,7 @@
         "id": "a",
         "text": {
           "tr": "Yolun hafif eğimli olması; bu durum her zaman normaldir",
-          "en": "A slight slope in the road, which is always quite normal"
+          "en": "A slight slope in the road, which is always normal"
         }
       },
       {
@@ -403,7 +403,7 @@
     ],
     "difficulty": "medium",
     "prompt": {
-      "tr": "Fren hidroliği, haznedeki en düşük seviye çizgisinin altına inmiş. Doğru yaklaşım hangisi?",
+      "tr": "Fren hidroliği haznedeki en düşük seviye çizgisinin altına inmiş. Doğru olan hangisi?",
       "en": "The brake fluid has dropped below the minimum mark on the reservoir. What is the right approach?"
     },
     "options": [
@@ -648,8 +648,8 @@
       {
         "id": "c",
         "text": {
-          "tr": "Farların kısa huzmede açık olduğunu",
-          "en": "The headlights are on dipped beam"
+          "tr": "Kısa farların açık olduğunu",
+          "en": "The dipped headlights are on"
         }
       },
       {
@@ -774,7 +774,7 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Panel simgesi düğmenin açık olduğunu söyler, ampulün yandığını söylemez. Stop lambalarını kendin göremezsin; bir yardımcı ya da cam veya duvardaki yansıma işini görür.",
+      "tr": "Panel simgesi düğmenin açık olduğunu söyler, ampulün yandığını söylemez. Stop lambalarını kendin göremezsin; bir yardımcıdan ya da bir camdaki veya duvardaki yansımadan yararlan.",
       "en": "The dashboard symbol shows the switch is on, not that the bulb works. You cannot see your own brake lights, so use a helper or a reflection in a window or wall."
     },
     "signId": null,
@@ -796,7 +796,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "Aracının ışıkları kurallara uygun çalışmıyor. KKTC'deki ceza listesine göre bu nedir?",
-      "en": "Your vehicle lights do not work as the rules require. Under the KKTC fines list, what is this?"
+      "en": "Your vehicle lights do not work as the rules require. Under the North Cyprus fines list, what is this?"
     },
     "options": [
       {
@@ -872,8 +872,8 @@
       {
         "id": "c",
         "text": {
-          "tr": "Dörtlü flaşörlerin açık olduğunu",
-          "en": "The hazard warning lights are on"
+          "tr": "Dörtlü flaşörün açık olduğunu",
+          "en": "The hazard lights are on"
         }
       },
       {
@@ -886,8 +886,8 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Çoğu araçta bir ampul yandığında sinyal hızlanır. Diğerleri dönüşünü göremeyebilir, ampulü hemen değiştir.",
-      "en": "In most vehicles the flash rate speeds up when a bulb fails. Others may not see your signal, so replace the bulb soon."
+      "tr": "Çoğu araçta bir ampul yandığında sinyal hızlanır. Diğer sürücüler sinyalini göremeyebilir; ampulü hemen değiştir.",
+      "en": "In most vehicles the flash rate speeds up when a bulb fails. Others may not see your signal, so replace the bulb straight away."
     },
     "signId": null,
     "basis": "practice",
@@ -999,7 +999,7 @@
     "answer": "c",
     "why": {
       "tr": "Aynalar aracın hemen yanındaki bir bölümü göstermez. KKTC'de kaldırımdan yola sağa doğru çıktığın için sağ omzunun üstünden bakarsın.",
-      "en": "Mirrors leave an area beside the vehicle unseen. In KKTC you pull out from the kerb to the right, so you look over your right shoulder."
+      "en": "Mirrors leave an area beside the vehicle unseen. In North Cyprus you pull out from the kerb to the right, so you look over your right shoulder."
     },
     "signId": null,
     "basis": "practice",

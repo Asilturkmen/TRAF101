@@ -99,7 +99,7 @@
     "answer": "c",
     "why": {
       "tr": "H1 sınıfı 125 cc'ye, 11 kW'a ve 0,1 kW/kg güç-ağırlık oranına kadar olan motosikletleri kapsar. H2 daha güçlü motosikletler, J mopedler içindir. B bugün ağır kamyon sınıfıdır.",
-      "en": "Class H1 covers motorcycles up to 125 cc, 11 kW and 0.1 kW/kg. H2 is for more powerful motorcycles and J for mopeds. In KKTC today, B is the heavy truck class."
+      "en": "Class H1 covers motorcycles up to 125 cc, 11 kW and 0.1 kW/kg. H2 is for more powerful motorcycles and J for mopeds. In North Cyprus today, B is the heavy lorry class."
     },
     "signId": null,
     "basis": "law",
@@ -118,7 +118,7 @@
     "difficulty": "hard",
     "prompt": {
       "tr": "H2 sınıfı ehliyet en çok hangi güçteki motosikletleri kapsar?",
-      "en": "Up to what power does a class H2 licence cover motorcycles?"
+      "en": "What is the highest motorcycle power a class H2 licence covers?"
     },
     "options": [
       {
@@ -260,7 +260,7 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "2019 bildirisine göre köy yollarında motosiklet saatte 60 km, otomobil 70 km ile sınırlıdır. Birinci ve ikinci sınıf yollarda motosiklet sınırı saatte 75 km'dir.",
+      "tr": "2019 bildirisine göre köy yollarında motosiklet 60 km/sa, otomobil 70 km/sa ile sınırlıdır. Birinci ve ikinci sınıf yollarda motosiklet sınırı 75 km/sa.",
       "en": "Under the 2019 notice, motorcycles are limited to 60 km/h and cars to 70 km/h on village roads. On first- and second-class roads the motorcycle limit is 75 km/h."
     },
     "signId": null,
@@ -314,7 +314,7 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "BUB broşürüne göre yerleşim yerlerinde hız sınırı saatte 50 km'dir. Bu sınır motosikletler için de geçerlidir.",
+      "tr": "Bakanlığın trafik broşürüne göre yerleşim yerlerinde hız sınırı 50 km/sa. Bu sınır motosikletler için de geçerlidir.",
       "en": "According to the ministry leaflet, the limit in built-up areas is 50 km/h. It applies to motorcycles too."
     },
     "signId": null,
@@ -368,8 +368,8 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Yolun sol kenarında kum, çakıl ve rögar kapakları olur ve yan yoldan çıkan sürücüler seni geç görür. Şeridin ortasına yakın gitmek hem görüşünü hem görünürlüğünü artırır. Konumunu yola ve trafiğe göre değiştir.",
-      "en": "The left edge of the road collects sand, gravel and drain covers, and drivers coming out of side roads see you late. Riding near the centre of the lane improves both your view and how visible you are. Adjust your position to the road and traffic."
+      "tr": "Yolun sol kenarında kum, çakıl ve rögar kapakları bulunur ve yan yoldan çıkan sürücüler seni geç görür. Şeridin ortasına yakın gitmek hem görüşünü hem görünürlüğünü artırır. Konumunu yola ve trafiğe göre değiştir.",
+      "en": "The left edge of the road has sand, gravel and drain covers, and drivers coming out of side roads see you late. Riding near the centre of the lane improves both your view and how visible you are. Adjust your position to the road and traffic."
     },
     "signId": null,
     "basis": "practice",
@@ -415,15 +415,15 @@
       {
         "id": "d",
         "text": {
-          "tr": "Kısa far ve parlak renkli ya da yansıtıcı giysi",
-          "en": "A dipped headlight and bright or reflective clothing"
+          "tr": "Kısa far ve parlak ya da yansıtıcı giysi",
+          "en": "Dipped headlight and bright or reflective kit"
         }
       }
     ],
     "answer": "d",
     "why": {
-      "tr": "Motosiklet küçük bir araçtır ve diğer sürücüler onu kolayca gözden kaçırır. Açık far ve parlak ya da yansıtıcı giysi seni daha erken fark ettirir. Ses görünürlüğün yerini tutmaz.",
-      "en": "A motorcycle is small and other drivers easily miss it. A headlight and bright or reflective clothing get you noticed sooner. Noise is no substitute for being seen."
+      "tr": "Motosiklet küçük bir araçtır ve diğer sürücüler onu kolayca gözden kaçırır. Yanan kısa far ve parlak ya da yansıtıcı giysi seni daha erken fark ettirir. Ses görünürlüğün yerini tutmaz.",
+      "en": "A motorcycle is small and other drivers easily miss it. A dipped headlight and bright or reflective clothing get you noticed sooner. Noise is no substitute for being seen."
     },
     "signId": null,
     "basis": "practice",
@@ -476,8 +476,8 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "KKTC mevzuatında kask dışında bir koruyucu giysi zorunluluğu bulunamadı. Ama düşen bir sürücü yola sürtünür ve çarpar. Koruyucu ceket, eldiven ve bot yaraları ve kırıkları azaltır.",
-      "en": "No rule requiring protective clothing other than a helmet was found in KKTC law. But a rider who falls slides along and hits the road. A protective jacket, gloves and boots reduce cuts, grazes and fractures."
+      "tr": "KKTC mevzuatında kask dışında bir koruyucu giysi zorunluluğu bulunamadı. Ama düşen sürücü yolda sürüklenir ve yere çarpar. Koruyucu ceket, eldiven ve bot yaraları ve kırıkları azaltır.",
+      "en": "No rule requiring protective clothing other than a helmet was found in North Cyprus law. But a rider who falls slides along and hits the road. A protective jacket, gloves and boots reduce cuts, grazes and fractures."
     },
     "signId": null,
     "basis": "practice",
@@ -502,28 +502,28 @@
       {
         "id": "a",
         "text": {
-          "tr": "Ön ve arka freni birlikte, giderek artan bir kuvvetle kullanırım",
+          "tr": "Ön ve arka freni birlikte, giderek artan bir kuvvetle kullanırsın",
           "en": "Use the front and rear brakes together, squeezing progressively"
         }
       },
       {
         "id": "b",
         "text": {
-          "tr": "Yalnız arka freni kullanırım, ön fren motosikleti devirir",
-          "en": "Use only the rear brake, because the front brake will throw me off"
+          "tr": "Yalnız arka freni kullanırsın, ön fren motosikleti devirir",
+          "en": "Use only the rear brake, as the front brake will throw you off"
         }
       },
       {
         "id": "c",
         "text": {
-          "tr": "Ön fren kolunu bir anda sonuna kadar sıkarım",
+          "tr": "Ön fren kolunu bir anda sonuna kadar sıkarsın",
           "en": "Grab the front brake lever fully in one go"
         }
       },
       {
         "id": "d",
         "text": {
-          "tr": "Debriyajı tutup motosikletin kendi kendine yavaşlamasını beklerim",
+          "tr": "Debriyajı tutup motosikletin kendi kendine yavaşlamasını beklersin",
           "en": "Pull in the clutch and let the motorcycle roll to a stop"
         }
       }
@@ -672,7 +672,7 @@
         "id": "b",
         "text": {
           "tr": "Ayaklarını yere yakın tutsun, durunca destek olsun",
-          "en": "Keep their feet near the ground to help when you stop"
+          "en": "Keep your feet near the ground to help when we stop"
         }
       },
       {
@@ -685,8 +685,8 @@
       {
         "id": "d",
         "text": {
-          "tr": "Tutunsun, ayakları basamakta kalsın, virajda seninle yatsın",
-          "en": "Hold on, keep their feet on the footrests and lean with you"
+          "tr": "Tutunsun, ayakları basamakta dursun, seninle yatsın",
+          "en": "Hold on, feet on the footrests, lean with me"
         }
       }
     ],
@@ -732,8 +732,8 @@
       {
         "id": "c",
         "text": {
-          "tr": "Fren mesafesi uzar; lastikleri ve süspansiyonu el kitabına göre ayarla",
-          "en": "Braking distances get longer; set the tyres and suspension as the handbook says"
+          "tr": "Fren mesafesi uzar; lastik ve süspansiyonu el kitabına göre ayarlarsın",
+          "en": "Braking distances grow; adjust tyres and suspension as the handbook says"
         }
       },
       {
@@ -800,7 +800,7 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Tüzük md. 58(2) mopette çocuk yolcuyu şu koşullara bağlar: 7 ile 12 yaş arası, uygun bir oturak, basamağa yetişen ayaklar ve kask.",
+      "tr": "Tüzük md. 58(2) mopedde çocuk yolcuyu şu koşullara bağlar: 7 ile 12 yaş arası, uygun bir oturak, basamağa yetişen ayaklar ve kask.",
       "en": "Regulation art. 58(2) allows a child passenger on a moped only if the child is aged 7 to 12, sits on a proper seat, can reach the footrests and wears a helmet."
     },
     "signId": null,
@@ -880,29 +880,29 @@
       {
         "id": "a",
         "text": {
-          "tr": "Önceliğim olduğu ve sürücü beklemek zorunda olduğu için hızımı korurum",
-          "en": "I keep my speed, because I have priority and the driver must wait"
+          "tr": "Önceliğin olduğu ve sürücü beklemek zorunda olduğu için hızını korursun",
+          "en": "Keep your speed, because you have priority and the driver must wait"
         }
       },
       {
         "id": "b",
         "text": {
-          "tr": "Hızlanıp o dönmeden önünden geçerim",
-          "en": "I speed up to get past before it turns"
+          "tr": "Hızlanıp o dönmeden önünden geçersin",
+          "en": "Speed up to get past before it turns"
         }
       },
       {
         "id": "c",
         "text": {
-          "tr": "Şeridimin sol kenarına geçip korna çalarım",
-          "en": "I move to the left edge of my lane and sound the horn"
+          "tr": "Şeridinin sol kenarına geçip korna çalarsın",
+          "en": "Move to the left edge of your lane and sound the horn"
         }
       },
       {
         "id": "d",
         "text": {
-          "tr": "Sürücü beni görmemiş olabilir; yavaşlar ve frene hazır olurum",
-          "en": "The driver may not have seen me, so I slow down and cover the brakes"
+          "tr": "Sürücü seni görmemiş olabilir; yavaşlar ve frene hazır olursun",
+          "en": "Slow down and cover the brakes, as the driver may not have seen you"
         }
       }
     ],
@@ -963,7 +963,7 @@
     "answer": "a",
     "why": {
       "tr": "Yol Kuralları Yasası md. 2'ye göre KKTC'de sağdan sollanır. Bu kural motosikletler için de geçerlidir. Bir aracı solundan geçmek ceza listesinde ayrı bir suçtur.",
-      "en": "Under the Road Rules Law, art. 2, you overtake on the right in KKTC. This applies to motorcycles too. Passing a vehicle on its left is a separate offence in the fines list."
+      "en": "Under the Road Rules Law, art. 2, you overtake on the right in North Cyprus. This applies to motorcycles too. Passing a vehicle on its left is a separate offence in the fines list."
     },
     "signId": null,
     "basis": "law",
@@ -996,7 +996,7 @@
         "id": "b",
         "text": {
           "tr": "Yalnız aynaları ve plakayı, çünkü polis bunlara bakar",
-          "en": "Only the mirrors and number plate, because police look at those"
+          "en": "Only the mirrors and number plate, because the police check those"
         }
       },
       {
@@ -1042,28 +1042,28 @@
       {
         "id": "a",
         "text": {
-          "tr": "Kamyonun arkasına çekilip dönmesini beklerim",
+          "tr": "Kamyonun arkasına çekilip dönmesini beklersin",
           "en": "Drop back behind the lorry and let it turn"
         }
       },
       {
         "id": "b",
         "text": {
-          "tr": "Kamyon dönmeden hızlanıp önüne geçerim",
+          "tr": "Kamyon dönmeden hızlanıp önüne geçersin",
           "en": "Accelerate to get ahead before it turns"
         }
       },
       {
         "id": "c",
         "text": {
-          "tr": "Yerimde kalırım, sürücü beni aynada görür",
-          "en": "Stay where I am; the driver will see me in the mirror"
+          "tr": "Yerinde kalırsın, sürücü seni aynada görür",
+          "en": "Stay where you are; the driver will see you in the mirror"
         }
       },
       {
         "id": "d",
         "text": {
-          "tr": "Korna çalıp kamyonun beklemesini isterim",
+          "tr": "Korna çalıp kamyonun beklemesini istersin",
           "en": "Sound the horn so the lorry waits"
         }
       }
@@ -1090,7 +1090,7 @@
     "difficulty": "easy",
     "prompt": {
       "tr": "H1 sınıfı ehliyetin var. 50 cc'lik bir mopedi kullanabilir misin?",
-      "en": "You hold a class H1 licence. May you ride a 50 cc moped?"
+      "en": "You hold a class H1 licence. Can you ride a 50 cc moped?"
     },
     "options": [
       {
@@ -1124,7 +1124,7 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Tüzük md. 34(4)'e göre üst motosiklet sınıfları alttakileri kapsar: H1, J'yi kapsar. H2, H1 ve J'yi; H ise H2, H1 ve J'yi kapsar.",
+      "tr": "Tüzük md. 34(4)'e göre üst motosiklet sınıfları alttakileri kapsar: H1 J'yi, H2 H1 ile J'yi, H ise H2, H1 ve J'yi kapsar.",
       "en": "Under Regulation art. 34(4), higher motorcycle classes cover the lower ones: H1 covers J, H2 covers H1 and J, and H covers H2, H1 and J."
     },
     "signId": null,
@@ -1151,27 +1151,27 @@
         "id": "a",
         "text": {
           "tr": "Hiçbir şey, aynalar arkadaki her yeri gösterir",
-          "en": "Nothing; the mirrors show everything behind me"
+          "en": "Nothing; the mirrors show everything behind you"
         }
       },
       {
         "id": "b",
         "text": {
-          "tr": "Sağ omzumun üzerinden kısa bir bakış atarım",
-          "en": "Take a quick look over my right shoulder"
+          "tr": "Sağ omzunun üzerinden kısa bir bakış atarsın",
+          "en": "Take a quick look over your right shoulder"
         }
       },
       {
         "id": "c",
         "text": {
-          "tr": "Sola bakıp kaldırım tarafını denetlerim",
+          "tr": "Sola bakıp kaldırım tarafını denetlersin",
           "en": "Look left to check the kerb side"
         }
       },
       {
         "id": "d",
         "text": {
-          "tr": "Korna çalıp hemen çıkarım",
+          "tr": "Korna çalıp hemen çıkarsın",
           "en": "Sound the horn and pull out at once"
         }
       }
@@ -1179,7 +1179,7 @@
     "answer": "b",
     "why": {
       "tr": "Motosiklet aynalarında da kör nokta vardır. Sollamadan ya da şerit değiştirmeden önce gideceğin tarafa kısa bir omuz bakışı at. KKTC'de sağdan sollandığı için bu bakış sağ omzunun üzerinden olur.",
-      "en": "Motorcycle mirrors have blind spots too. Before overtaking or changing lanes, glance over your shoulder on the side you are moving to. In KKTC you overtake on the right, so that is your right shoulder."
+      "en": "Motorcycle mirrors have blind spots too. Before overtaking or changing lanes, glance over your shoulder on the side you are moving to. In North Cyprus you overtake on the right, so that is your right shoulder."
     },
     "signId": null,
     "basis": "practice",
@@ -1197,36 +1197,36 @@
     ],
     "difficulty": "medium",
     "prompt": {
-      "tr": "Bölünmüş yolda büyük bir kamyonu sollarken motosikletin rüzgârla sarsılıyor. Ne yapmalısın?",
+      "tr": "Çift şeritli yolda büyük bir kamyonu sollarken motosikletin rüzgârla sarsılıyor. Ne yapmalısın?",
       "en": "On a dual carriageway your motorcycle is buffeted by the wind as you overtake a large lorry. What should you do?"
     },
     "options": [
       {
         "id": "a",
         "text": {
-          "tr": "Rüzgârdan kurtulmak için kamyonun olabildiğince yakınından geçerim",
+          "tr": "Rüzgârdan kurtulmak için kamyonun olabildiğince yakınından geçersin",
           "en": "Pass as close to the lorry as possible to get out of the wind"
         }
       },
       {
         "id": "b",
         "text": {
-          "tr": "Gidonu sıkmadan kavrar, kamyondan geniş boşluk bırakırım",
-          "en": "Keep a firm but relaxed grip and leave a wide gap from the lorry"
+          "tr": "Gidonu sıkmadan kavrar, kamyondan geniş boşluk bırakırsın",
+          "en": "Keep a firm, relaxed grip and give the lorry a wide berth"
         }
       },
       {
         "id": "c",
         "text": {
-          "tr": "Sarsıntı başlayınca sert fren yaparım",
+          "tr": "Sarsıntı başlayınca sert fren yaparsın",
           "en": "Brake hard as soon as the buffeting starts"
         }
       },
       {
         "id": "d",
         "text": {
-          "tr": "Gidona tüm gücümle asılıp gövdemi kaskatı tutarım",
-          "en": "Grip the bars as hard as I can and keep my whole body stiff"
+          "tr": "Gidona tüm gücünle asılıp gövdeni kaskatı tutarsın",
+          "en": "Grip the bars as hard as you can and keep your whole body stiff"
         }
       }
     ],
@@ -1258,35 +1258,35 @@
       {
         "id": "a",
         "text": {
-          "tr": "Vizörü yenisiyle değiştiririm",
+          "tr": "Vizörü yenisiyle değiştirirsin",
           "en": "Replace the visor"
         }
       },
       {
         "id": "b",
         "text": {
-          "tr": "Gece için koyu renk bir vizör takarım",
+          "tr": "Gece için koyu renk bir vizör takarsın",
           "en": "Fit a dark tinted visor for night riding"
         }
       },
       {
         "id": "c",
         "text": {
-          "tr": "Vizörü açık bırakıp göz koruması olmadan sürerim",
+          "tr": "Vizörü açık bırakıp göz koruması olmadan sürersin",
           "en": "Ride with the visor up and no eye protection"
         }
       },
       {
         "id": "d",
         "text": {
-          "tr": "Çizikleri cilayla kapatıp kullanmaya devam ederim",
+          "tr": "Çizikleri cilayla kapatıp kullanmaya devam edersin",
           "en": "Polish over the scratches and keep using it"
         }
       }
     ],
     "answer": "a",
     "why": {
-      "tr": "Çizik vizör ışığı dağıtır ve gece görüşü ciddi biçimde azaltır. Koyu renk vizör gece görüşü daha da kısaltır. Temiz, çiziksiz ve renksiz bir vizör kullan.",
+      "tr": "Çizik vizör ışığı dağıtır ve gece görüşü ciddi biçimde azaltır. Koyu renk vizör gece görüşü daha da azaltır. Temiz, çiziksiz ve renksiz bir vizör kullan.",
       "en": "A scratched visor scatters light and badly cuts your vision at night. A tinted visor makes it worse still. Use a clean, unscratched, clear visor."
     },
     "signId": null,
@@ -1312,28 +1312,28 @@
       {
         "id": "a",
         "text": {
-          "tr": "Gözümün önünde olsun diye gidona asarım",
-          "en": "Hang it from the handlebars so I can see it"
+          "tr": "Gözünün önünde olsun diye gidona asarsın",
+          "en": "Hang it from the handlebars so you can see it"
         }
       },
       {
         "id": "b",
         "text": {
-          "tr": "Bağlamadan depo üzerine koyar, dizlerimle tutarım",
-          "en": "Rest it unstrapped on the tank and grip it with my knees"
+          "tr": "Bağlamadan depo üzerine koyar, dizlerinle tutarsın",
+          "en": "Rest it unstrapped on the tank and grip it with your knees"
         }
       },
       {
         "id": "c",
         "text": {
-          "tr": "Yolcunun bir eliyle tutmasını, diğeriyle tutunmasını isterim",
-          "en": "Ask my passenger to hold it with one hand and hold on with the other"
+          "tr": "Yolcunun bir eliyle tutmasını, diğeriyle tutunmasını istersin",
+          "en": "Ask your passenger to hold it with one hand and hold on with the other"
         }
       },
       {
         "id": "d",
         "text": {
-          "tr": "Arka taşıyıcıya ya da yan çantaya sıkıca bağlarım",
+          "tr": "Arka taşıyıcıya ya da yan çantaya sıkıca bağlarsın",
           "en": "Strap it firmly to a rear rack or into panniers"
         }
       }
@@ -1366,29 +1366,29 @@
       {
         "id": "a",
         "text": {
-          "tr": "Motor çalışıyorsa hemen yola çıkarım",
+          "tr": "Motor çalışıyorsa hemen yola çıkarsın",
           "en": "Ride off straight away if the engine starts"
         }
       },
       {
         "id": "b",
         "text": {
-          "tr": "Yalnız boyada çizik var mı diye bakarım",
+          "tr": "Yalnız boyada çizik var mı diye bakarsın",
           "en": "Only look for scratches in the paint"
         }
       },
       {
         "id": "c",
         "text": {
-          "tr": "Frenleri ilk virajda sert fren yaparak denerim",
+          "tr": "İlk virajda sert fren yapıp frenleri denersin",
           "en": "Test the brakes by braking hard in the first bend"
         }
       },
       {
         "id": "d",
         "text": {
-          "tr": "Fren ve debriyaj kollarını, basamakları ve ışıkları denetlerim",
-          "en": "Check the brake and clutch levers, footrests and lights"
+          "tr": "Kolları, basamakları ve ışıkları denetlersin",
+          "en": "Check the levers, footrests and lights"
         }
       }
     ],
@@ -1420,29 +1420,29 @@
       {
         "id": "a",
         "text": {
-          "tr": "Sinyal vermediği için düz gideceğini varsayıp sollarım",
-          "en": "It is not signalling, so I assume it is going straight and overtake"
+          "tr": "Sinyal vermediği için düz gideceğini varsayıp sollarsın",
+          "en": "Assume it is going straight, as it is not signalling, and overtake"
         }
       },
       {
         "id": "b",
         "text": {
-          "tr": "Korna çalıp hızla sollarım",
+          "tr": "Korna çalıp hızla sollarsın",
           "en": "Sound the horn and overtake quickly"
         }
       },
       {
         "id": "c",
         "text": {
-          "tr": "Solundan, kaldırım tarafından geçerim",
+          "tr": "Solundan, kaldırım tarafından geçersin",
           "en": "Pass it on the left, on the kerb side"
         }
       },
       {
         "id": "d",
         "text": {
-          "tr": "Sollamam; sağa dönebilir, arkasında kalırım",
-          "en": "I do not overtake; it may turn right, so I stay behind"
+          "tr": "Sollamaz, sağa dönebileceği için arkasında kalırsın",
+          "en": "Stay behind, as it may turn right"
         }
       }
     ],
@@ -1467,42 +1467,42 @@
     ],
     "difficulty": "medium",
     "prompt": {
-      "tr": "Arkadaşlarınla grup halinde sürüyorsun. Öndeki motosikletli bir kamyonu sollayıp geçti ve sen karşı şeridi tam göremiyorsun. Ne yaparsın?",
+      "tr": "Arkadaşlarınla grup hâlinde sürüyorsun. Öndeki motosikletli bir kamyonu sollayıp geçti ve sen karşı şeridi tam göremiyorsun. Ne yaparsın?",
       "en": "You are riding in a group. The rider ahead has just overtaken a lorry, and you cannot see the oncoming lane clearly. What do you do?"
     },
     "options": [
       {
         "id": "a",
         "text": {
-          "tr": "Gruptan kopmamak için hemen onun arkasından sollarım",
+          "tr": "Gruptan kopmamak için hemen onun arkasından sollarsın",
           "en": "Overtake straight after them so as not to lose the group"
         }
       },
       {
         "id": "b",
         "text": {
-          "tr": "Öndeki geçebildiyse yol boştur, ben de sollarım",
-          "en": "If they got past, the road must be clear, so I overtake too"
+          "tr": "Öndeki geçebildiyse yol boştur, sen de sollarsın",
+          "en": "If they got past, the road must be clear, so overtake too"
         }
       },
       {
         "id": "c",
         "text": {
-          "tr": "Korna çalıp kamyonun kenara çekmesini beklerim",
+          "tr": "Korna çalıp kamyonun kenara çekmesini beklersin",
           "en": "Sound the horn and wait for the lorry to pull over"
         }
       },
       {
         "id": "d",
         "text": {
-          "tr": "Kendi kararımı verir, yolu görene kadar sollamam",
-          "en": "Make my own decision and wait until I can see the road is clear"
+          "tr": "Kendi kararını verir, yolu görene kadar sollamazsın",
+          "en": "Decide for yourself; wait until you can see it is clear"
         }
       }
     ],
     "answer": "d",
     "why": {
-      "tr": "Öndekinin geçtiği an yol boştu; senin geçeceğin an boş olmayabilir. Grup halinde de her sürücü kendi sollamasına kendisi karar verir. Grup ileride bekleyebilir.",
+      "tr": "Öndekinin geçtiği an yol boştu; senin geçeceğin an boş olmayabilir. Grup hâlinde de her sürücü kendi sollamasına kendisi karar verir. Grup ileride bekleyebilir.",
       "en": "The road was clear when the rider ahead went; it may not be when you go. In a group, every rider still makes their own overtaking decision. The group can wait for you further on."
     },
     "signId": null,

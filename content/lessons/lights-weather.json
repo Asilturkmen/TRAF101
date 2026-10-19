@@ -16,7 +16,7 @@
       },
       "body": {
         "tr": "- **Kısa far:** gece, alacakaranlıkta, tünelde ve görüşün azaldığı her durumda.\n- **Uzun far:** aydınlatması olmayan yollarda, önünde ve karşında araç yokken. Karşıdan araç geldiğinde, birini takip ederken ve kavşağa yaklaşırken kısa fara geç.\n- **Sis farı:** yalnız sis, yoğun toz ya da şiddetli yağmur görüşü ciddi biçimde azalttığında. Görüş açılınca kapat, çünkü başkalarının gözünü alır.\n- **Dörtlü flaşör:** aracın arızalandığında ya da yolu kapattığında, tehlikeyi bildirmek için. Yasak bir yerde durmanın bahanesi değildir.",
-        "en": "- **Dipped headlights:** at night, at dusk, in tunnels and whenever visibility drops.\n- **Full beam:** on unlit roads with no one ahead or coming towards you. Dip them when a vehicle approaches, when you are following someone and when you approach a junction.\n- **Fog lights:** only when fog, heavy dust or heavy rain seriously cuts visibility. Switch them off when it clears, because they dazzle others.\n- **Hazard warning lights:** when your vehicle has broken down or is blocking the road, to warn others. They are not an excuse to stop where you should not."
+        "en": "- **Dipped headlights:** at night, at dusk, in tunnels and whenever visibility drops.\n- **Main beam:** on unlit roads with no one ahead or coming towards you. Dip them when a vehicle approaches, when you are following someone and when you approach a junction.\n- **Fog lights:** only when fog, heavy dust or heavy rain seriously cuts visibility. Switch them off when it clears, because they dazzle others.\n- **Hazard warning lights:** when your vehicle has broken down or is blocking the road, to warn others. They are not an excuse to stop where you should not."
       },
       "basis": "practice",
       "sourceId": null,
@@ -41,7 +41,7 @@
         "en": "Rain and slippery roads"
       },
       "body": {
-        "tr": "Uzun bir kuru dönemden sonraki ilk yağmur yoldaki toz ve yağı yüzeye çıkarır. Yol o zaman çok kayganlaşır.\n\n- Hızını düşür ve öndeki araçla aranı belirgin biçimde aç.\n- Fren, gaz ve direksiyon hareketlerini yumuşak yap.\n- Kısa farını yak ki görünür ol.\n\n**Su kızağı:** lastikler suyun üstünde kayar, direksiyon hafifler. Gazı yavaşça bırak, sert fren yapma, direksiyonu düz tut ve lastikler yeniden yola tutunana kadar bekle.",
+        "tr": "Uzun bir kuru dönemden sonraki ilk yağmur yoldaki toz ve yağı yüzeye çıkarır. Yol o zaman çok kayganlaşır.\n\n- Hızını düşür ve öndeki araçla aranı belirgin biçimde aç.\n- Fren, gaz ve direksiyon hareketlerini yumuşak yap.\n- Görünür olmak için kısa farını yak.\n\n**Su kızağı:** lastikler suyun üstünde kayar, direksiyon hafifler. Gazı yavaşça bırak, sert fren yapma, direksiyonu düz tut ve lastikler yeniden yola tutunana kadar bekle.",
         "en": "The first rain after a long dry spell lifts dust and oil to the surface, and the road becomes very slippery.\n\n- Slow down and leave a much bigger gap to the vehicle in front.\n- Brake, accelerate and steer smoothly.\n- Switch on dipped headlights so you can be seen.\n\n**Aquaplaning:** the tyres ride on the water and the steering goes light. Ease off the accelerator gently, do not brake hard, keep the wheel straight and wait for the tyres to grip again."
       },
       "basis": "practice",
@@ -50,12 +50,12 @@
     },
     {
       "heading": {
-        "tr": "Sis, toz ve rüzgar",
+        "tr": "Sis, toz ve rüzgâr",
         "en": "Fog, dust and wind"
       },
       "body": {
-        "tr": "Sisli havada kısa farını yak, görüş çok azsa sis farlarını da aç. Uzun far sisi aydınlatır ve görüşünü daha da kötüleştirir.\n\n- Öndeki aracın arka lambalarını izlemek seni ona fazla yaklaştırabilir; arayı aç.\n- Yolun sol kenarındaki çizgiyi izle.\n- Sis birden açılsa bile hemen hızlanma; ileride yeniden yoğunlaşabilir.\n\nYazın toz bulutları, dağ geçitlerinde de ani yan rüzgarlar görüşü ve yol tutuşunu etkiler. Yan rüzgarda direksiyonu sıkı tut, özellikle kamyon sollarken ve açık vadi geçişlerinde.",
-        "en": "In fog, switch on dipped headlights, and add fog lights if visibility is very poor. Full beam lights up the fog and makes things worse.\n\n- Following the tail lights in front can pull you too close; leave a gap.\n- Follow the line along the left edge of the road.\n- Even if the fog suddenly lifts, do not speed up at once; it may thicken again ahead.\n\nIn summer, dust clouds, and on mountain passes sudden side winds, affect visibility and grip. In a side wind, hold the wheel firmly, especially when overtaking a lorry and on exposed stretches."
+        "tr": "Sisli havada kısa farını yak, görüş çok azsa sis farlarını da aç. Uzun far sisi aydınlatır ve görüşünü daha da kötüleştirir.\n\n- Öndeki aracın arka lambalarını izlemek seni ona fazla yaklaştırabilir; arayı aç.\n- Yolun sol kenarındaki çizgiyi izle.\n- Sis birden açılsa bile hemen hızlanma; ileride yeniden yoğunlaşabilir.\n\nYazın toz bulutları, dağ geçitlerinde de ani yan rüzgârlar görüşü ve yol tutuşunu etkiler. Yan rüzgârda direksiyonu sıkı tut, özellikle kamyon sollarken ve açık vadi geçişlerinde.",
+        "en": "In fog, switch on dipped headlights, and add fog lights if visibility is very poor. Main beam lights up the fog and makes things worse.\n\n- Following the tail lights in front can pull you too close; leave a gap.\n- Follow the line along the left edge of the road.\n- Even if the fog suddenly lifts, do not speed up at once; it may thicken again ahead.\n\nIn summer, dust clouds, and on mountain passes sudden side winds, affect visibility and grip. In a side wind, hold the wheel firmly, especially when overtaking a lorry and on exposed stretches."
       },
       "basis": "practice",
       "sourceId": null,

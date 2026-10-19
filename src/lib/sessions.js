@@ -4,7 +4,7 @@ import { isDue, inMistakes, mastery } from './leitner.js';
 import { shuffle, sample } from './random.js';
 
 export const DAILY_SIZE = 20;
-export const NEW_PER_DAY = 10;
+export const NEW_PER_DAY = 20;
 
 // Avoid two items of the same topic in a row when another topic is available.
 export function interleave(items, key = (q) => q.lesson) {
@@ -50,7 +50,9 @@ export function buildDailyReview(pool, items, day, rand = Math.random, size = DA
   const signsFirst = weakestFirst.filter((q) => q.signId);
   const others = weakestFirst.filter((q) => !q.signId);
   const haveSigns = [...due, ...mistakes].filter((q) => q.signId).length;
-  const room = Math.min(NEW_PER_DAY, size - chosen.size);
+  // The new-item limit is per day, not per round.
+  const introducedToday = pool.filter((q) => items[q.id]?.f === day).length;
+  const room = Math.max(0, Math.min(NEW_PER_DAY - introducedToday, size - chosen.size));
   for (const q of signsFirst.slice(0, Math.max(0, Math.min(room, signQuota - haveSigns)))) fresh.push(q);
   for (const q of others) {
     if (fresh.length >= room) break;
@@ -61,11 +63,12 @@ export function buildDailyReview(pool, items, day, rand = Math.random, size = DA
     if (!fresh.includes(q)) fresh.push(q);
   }
   let session = [...due, ...mistakes, ...fresh];
-  // Fill with the least recently seen items if the day is light.
+  // Fill with the least recently seen items if the day is light. Unseen items are
+  // not used as filler, so the daily new-item limit holds.
   if (session.length < size) {
     const ids = new Set(session.map((q) => q.id));
     const filler = pool
-      .filter((q) => !ids.has(q.id))
+      .filter((q) => !ids.has(q.id) && items[q.id]?.s > 0)
       .sort((a, b) => (items[a.id]?.l ?? -1) - (items[b.id]?.l ?? -1))
       .slice(0, size - session.length);
     session = session.concat(filler);

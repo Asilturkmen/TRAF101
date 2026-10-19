@@ -226,7 +226,7 @@
       "en": "No through road"
     },
     "meaning": {
-      "tr": "İleride yol kapalı; başka bir yola çıkış yok.",
+      "tr": "Bu yolun sonu kapalıdır; başka bir yola çıkış yoktur.",
       "en": "The road ahead is closed at the end; there is no way through."
     },
     "driverAction": {
@@ -249,8 +249,8 @@
     "kktc": {
       "status": "seen",
       "note": {
-        "tr": "Kuzeyde fotoğraflandı.",
-        "en": "Photographed in the north."
+        "tr": "KKTC'de fotoğraflandı.",
+        "en": "Photographed in North Cyprus."
       }
     },
     "reviewedAt": "2026-10-20"
@@ -298,8 +298,8 @@
     "kktc": {
       "status": "seen",
       "note": {
-        "tr": "Kuzeyde kızılay simgeli Türkçe biçim kullanılır; levhanın ayrıntılı tasarımı doğrulanmadı.",
-        "en": "The north uses a Turkish version with a red crescent; the exact design has not been confirmed."
+        "tr": "KKTC'de kızılay simgeli Türkçe biçim kullanılır; levhanın ayrıntılı tasarımı doğrulanmadı.",
+        "en": "North Cyprus uses a Turkish version with a red crescent; the exact design has not been confirmed."
       }
     },
     "reviewedAt": "2026-10-20"
@@ -347,8 +347,8 @@
     "kktc": {
       "status": "likely",
       "note": {
-        "tr": "Kuzeydeki durak levhalarının biçimi doğrulanmadı.",
-        "en": "The design of bus-stop signs in the north has not been confirmed."
+        "tr": "KKTC'deki durak levhalarının biçimi doğrulanmadı.",
+        "en": "The design of bus-stop signs in North Cyprus has not been confirmed."
       }
     },
     "reviewedAt": "2026-10-20"
@@ -473,11 +473,11 @@
       "en": "Speed camera"
     },
     "meaning": {
-      "tr": "Bu yolda hız kamerası ile denetim yapılıyor.",
+      "tr": "Bu yolda hız kamerasıyla denetim yapılıyor.",
       "en": "Speed is checked by camera on this road."
     },
     "driverAction": {
-      "tr": "Hız sınırına uy. Kameranın önünde ani fren yapma; sınırda sürekli kal.",
+      "tr": "Hız sınırına uy. Kameranın önünde ani fren yapma; sınırı hiçbir yerde aşma.",
       "en": "Keep to the speed limit. Do not brake suddenly at the camera; stay within the limit all the time."
     },
     "confusions": [
@@ -497,8 +497,8 @@
     "kktc": {
       "status": "seen",
       "note": {
-        "tr": "Bakanlığın KKTC trafik broşüründe yer alır ve Kalkanlı yakınında fotoğraflandı.",
-        "en": "Shown on the ministry's KKTC traffic leaflet and photographed near Kalkanlı."
+        "tr": "Bakanlığın trafik broşüründe yer alır ve Kalkanlı yakınında fotoğraflandı.",
+        "en": "Shown in the ministry's traffic leaflet and photographed near Kalkanlı."
       }
     },
     "reviewedAt": "2026-10-20"
@@ -596,8 +596,8 @@
     "kktc": {
       "status": "unverified",
       "note": {
-        "tr": "Kuzeydeki taksi durağı levhasının biçimi doğrulanmadı.",
-        "en": "The design of taxi-rank signs in the north has not been confirmed."
+        "tr": "KKTC'deki taksi durağı levhasının biçimi doğrulanmadı.",
+        "en": "The design of taxi-rank signs in North Cyprus has not been confirmed."
       }
     },
     "reviewedAt": "2026-10-20"

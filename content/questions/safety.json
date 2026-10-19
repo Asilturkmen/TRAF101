@@ -46,8 +46,8 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Bakanlığın kuralına göre yaya geçidini kullanan ya da kullanmaya hazırlanan yayaya durup yol verirsin. Geçmek için bekleyen yaya da buna girer.",
-      "en": "The ministry rule is to stop and give way to a pedestrian who is using or preparing to use the crossing. Someone waiting to cross counts."
+      "tr": "Bakanlığın trafik broşürüne göre yaya geçidini kullanan ya da kullanmaya hazırlanan yayaya durup yol verirsin. Geçmek için bekleyen yaya da buna girer.",
+      "en": "The ministry leaflet says you stop and give way to a pedestrian who is using or preparing to use the crossing. This includes someone waiting to cross."
     },
     "signId": null,
     "basis": "law",
@@ -236,7 +236,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "Önünde bir bisikletli var ve onu geçmek istiyorsun. Doğru olan hangisi?",
-      "en": "There is a cyclist ahead of you and you want to pass. What is right?"
+      "en": "There is a cyclist ahead of you and you want to pass. What is the right way to do it?"
     },
     "options": [
       {
@@ -271,7 +271,7 @@
     "answer": "c",
     "why": {
       "tr": "KKTC'de sağdan sollanır. Bisikletli bir çukur ya da rüzgâr yüzünden yalpalayabilir; bu yüzden otomobili geçer gibi geniş boşluk bırak.",
-      "en": "In KKTC you overtake on the right. A cyclist may wobble round a pothole or in a gust, so give as much room as you would give a car."
+      "en": "In North Cyprus you overtake on the right. A cyclist may wobble round a pothole or in a gust, so give as much room as you would give a car."
     },
     "signId": null,
     "basis": "practice",
@@ -354,8 +354,8 @@
       {
         "id": "a",
         "text": {
-          "tr": "Görmesi zordur ve sandığından hızlı yaklaşabilirler",
-          "en": "They are hard to see and may be approaching faster than you think"
+          "tr": "Görülmeleri zordur, sandığından hızlı gelebilirler",
+          "en": "They are hard to see and may be faster than you think"
         }
       },
       {
@@ -368,15 +368,15 @@
       {
         "id": "c",
         "text": {
-          "tr": "Ana yolda yalnız sağ şeritte gidebildikleri için",
-          "en": "Because on a main road they may only use the right-hand lane"
+          "tr": "Ana yolda yalnız sağ şeritte gidebilirler",
+          "en": "On a main road they may only use the right-hand lane"
         }
       },
       {
         "id": "d",
         "text": {
-          "tr": "Durma mesafeleri her koşulda otomobilinkinden daha kısa olduğu için",
-          "en": "Because their stopping distance is always shorter than a car's"
+          "tr": "Durma mesafeleri her koşulda otomobilinkinden kısadır",
+          "en": "Their stopping distance is always shorter than a car's"
         }
       }
     ],
@@ -409,7 +409,7 @@
       {
         "id": "a",
         "text": {
-          "tr": "Dörtlüleri yakıp kapıyı hemen açarsın",
+          "tr": "Dörtlü flaşörü yakıp kapıyı hemen açarsın",
           "en": "Switch on the hazard lights and open the door at once"
         }
       },
@@ -459,7 +459,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "Durakta duran bir otobüsün yanından geçeceksin. Neye dikkat edersin?",
-      "en": "You are about to pass a bus waiting at a stop. What should you watch for?"
+      "en": "You are about to pass a bus waiting at a stop. What do you watch out for?"
     },
     "options": [
       {
@@ -878,8 +878,8 @@
       {
         "id": "d",
         "text": {
-          "tr": "Aynaların göstermediği yerde bir motosiklet olabilir",
-          "en": "A motorcycle could be where the mirrors do not reach"
+          "tr": "Kör noktada bir motosiklet olabileceği için",
+          "en": "Because a motorcycle may be in your blind spot"
         }
       }
     ],
@@ -990,7 +990,7 @@
       {
         "id": "d",
         "text": {
-          "tr": "Farlar kapalıyken dörtlüleri",
+          "tr": "Farlar kapalıyken dörtlü flaşörü",
           "en": "Hazard lights, with headlights off"
         }
       }
@@ -1131,7 +1131,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "Su birikintisinden geçerken direksiyon birden hafifledi ve tepki vermiyor. Ne yaparsın?",
-      "en": "Driving through standing water, the steering suddenly feels light and unresponsive. What do you do?"
+      "en": "As you drive through standing water, the steering suddenly feels light and unresponsive. What do you do?"
     },
     "options": [
       {
@@ -1221,8 +1221,8 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Göremediğin bir yolda hızla ilerlememelisin. Yavaşla, gerekirse dur ve bakışını sol kenara kaydır; böylece kendi şeridinde kalırsın.",
-      "en": "Never drive fast into road you cannot see. Slow down, stop if necessary, and look to the left-hand edge so you stay in your lane."
+      "tr": "Göremediğin bir yola hızla girme. Yavaşla, gerekirse dur ve bakışını sol kenara kaydır; böylece kendi şeridinde kalırsın.",
+      "en": "Do not drive fast into a stretch of road you cannot see. Slow down, stop if necessary, and look to the left-hand edge so you stay in your lane."
     },
     "signId": null,
     "basis": "practice",
@@ -1361,7 +1361,7 @@
       {
         "id": "a",
         "text": {
-          "tr": "Fren pedalına basılı tutar, fren lambalarını yanık bırakırsın",
+          "tr": "Fren pedalını basılı tutar, fren lambalarını yanık bırakırsın",
           "en": "Keep the footbrake pressed so your brake lights stay on"
         }
       },
@@ -1376,13 +1376,13 @@
         "id": "c",
         "text": {
           "tr": "El frenini çeker, ayağını fren pedalından kaldırırsın",
-          "en": "Apply the parking brake and take your foot off the footbrake"
+          "en": "Apply the handbrake and take your foot off the footbrake"
         }
       },
       {
         "id": "d",
         "text": {
-          "tr": "Kuyruk açılana kadar dörtlüleri yakarsın",
+          "tr": "Kuyruk açılana kadar dörtlü flaşörü yakarsın",
           "en": "Turn on the hazard lights until the queue moves"
         }
       }
@@ -1390,7 +1390,7 @@
     "answer": "c",
     "why": {
       "tr": "Fren lambaları yakındaki sürücünün gözünü alır. Arkandaki durunca el frenini çek ve ayağını frenden kaldır; araç yine güvenle durur.",
-      "en": "Brake lights dazzle a driver close behind. Once they have stopped, apply the parking brake and lift your foot; the car still stays put."
+      "en": "Brake lights dazzle a driver close behind. Once they have stopped, apply the handbrake and lift your foot; the car still stays put."
     },
     "signId": null,
     "basis": "practice",
@@ -1410,28 +1410,28 @@
     ],
     "difficulty": "medium",
     "prompt": {
-      "tr": "Şiddetli yağmurda bazı sürücüler dörtlüleri yakarak gidiyor. Doğru olan hangisi?",
+      "tr": "Şiddetli yağmurda bazı sürücüler dörtlü flaşörü yakarak gidiyor. Doğru olan hangisi?",
       "en": "In heavy rain some drivers drive with their hazard lights on. What is correct?"
     },
     "options": [
       {
         "id": "a",
         "text": {
-          "tr": "Dörtlüleri yakıp aynı hızla devam etmek",
+          "tr": "Dörtlü flaşörü yakıp aynı hızla devam etmek",
           "en": "Switch on hazard lights and carry on at the same speed"
         }
       },
       {
         "id": "b",
         "text": {
-          "tr": "Dörtlülerle birlikte uzun farları da yakmak",
+          "tr": "Dörtlü flaşörle birlikte uzun farları da yakmak",
           "en": "Use hazard lights together with main beam"
         }
       },
       {
         "id": "c",
         "text": {
-          "tr": "Farları kapatıp yalnız dörtlüleri kullanmak",
+          "tr": "Farları kapatıp yalnız dörtlü flaşörü kullanmak",
           "en": "Turn the headlights off and use only hazard lights"
         }
       },
@@ -1445,7 +1445,7 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "Dörtlüler aracın durduğunu ya da yolu kapattığını anlatır. Giderken yakılırsa sinyallerin görünmez ve başkaları seni yanlış anlar.",
+      "tr": "Dörtlü flaşör aracın durduğunu ya da yolu kapattığını anlatır. Giderken yakılırsa sinyallerin görünmez ve başkaları seni yanlış anlar.",
       "en": "Hazard lights tell others you are stopped or blocking the road. Used on the move, they hide your indicators and confuse other drivers."
     },
     "signId": null,
@@ -1558,7 +1558,7 @@
     "answer": "a",
     "why": {
       "tr": "Göremediğin bir yola hızla girmek tehlikelidir. Gözün kamaşınca yavaşla, gerekirse güvenli bir yerde dur.",
-      "en": "Driving fast into road you cannot see is dangerous. When dazzled, slow down and stop somewhere safe if you need to."
+      "en": "Driving fast into a road you cannot see is dangerous. When dazzled, slow down and stop somewhere safe if you need to."
     },
     "signId": null,
     "basis": "practice",
@@ -1585,29 +1585,29 @@
       {
         "id": "a",
         "text": {
-          "tr": "Yalnız arkandan gelen otomobiller",
+          "tr": "Yalnız arkandan gelen otomobillere",
           "en": "Only cars coming up behind you"
         }
       },
       {
         "id": "b",
         "text": {
-          "tr": "Yalnız yayalar, çünkü rüzgâr araçları etkilemez",
+          "tr": "Yalnız yayalara, çünkü rüzgâr araçları etkilemez",
           "en": "Only pedestrians, because wind does not affect vehicles"
         }
       },
       {
         "id": "c",
         "text": {
-          "tr": "Bisikletli, motosikletli ve yüksek kasalı araçlar",
+          "tr": "Bisikletlilere, motosikletlilere ve yüksek kasalı araçlara",
           "en": "Cyclists, motorcyclists and high-sided vehicles"
         }
       },
       {
         "id": "d",
         "text": {
-          "tr": "Hiç kimse, rüzgâr yalnız yakıt tüketimini etkiler",
-          "en": "Nobody; wind only affects fuel use"
+          "tr": "Hiç kimseye, çünkü rüzgâr yalnızca yakıt tüketimini etkiler",
+          "en": "Nobody, because wind only affects fuel use"
         }
       }
     ],
@@ -1691,7 +1691,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "Gece aydınlatmasız bir yolda hızını neye göre ayarlarsın?",
-      "en": "At night on an unlit road, what should set your speed?"
+      "en": "At night on an unlit road, what do you base your speed on?"
     },
     "options": [
       {
@@ -1747,7 +1747,7 @@
     "difficulty": "hard",
     "prompt": {
       "tr": "Kavşakta bekliyorsun. Ana yoldaki bir sürücü sana selektör yaptı. Bunu nasıl yorumlarsın?",
-      "en": "You are waiting at a junction. A driver on the main road flashes their headlights at you. How do you take it?"
+      "en": "You are waiting at a junction. A driver on the main road flashes their headlights at you. How do you read this?"
     },
     "options": [
       {
@@ -1781,7 +1781,7 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Selektör yalnız varlığını bildirmek içindir; başka bir anlam taşıdığı kesin değildir. Çıkmadan önce iki yöne kendin bak, başka bir araç yaklaşıyor olabilir.",
+      "tr": "Selektör yalnız sürücünün orada olduğunu bildirir; başka her anlam bir tahmindir. Çıkmadan önce iki yöne kendin bak, başka bir araç yaklaşıyor olabilir.",
       "en": "Flashing headlights should only say that someone is there; any other meaning is a guess. Check both ways yourself, as another vehicle may be coming."
     },
     "signId": null,
@@ -1893,8 +1893,8 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "Arka lambalar sana yolun açık olduğu duygusunu verir ama siste mesafeyi kestirmek zordur. Boşluğu artır ve gördüğün mesafede durabileceğin hızla git.",
-      "en": "Rear lights give a false sense of security, and distances are hard to judge in fog. Leave a larger gap and drive so you can stop within what you can see."
+      "tr": "Arka lambalar sahte bir güven duygusu verir; siste mesafeyi kestirmek de zordur. Boşluğu artır ve gördüğün mesafede durabileceğin hızla git.",
+      "en": "Rear lights give a false sense of security, and distances are hard to judge in fog. Leave a larger gap and drive so you can stop within the distance you can see."
     },
     "signId": null,
     "basis": "practice",
@@ -2061,7 +2061,7 @@
     "answer": "b",
     "why": {
       "tr": "KKTC'de boyu 150 cm'nin altındaki çocukların ön koltukta taşınması yasaktır. Arka koltuk çocuk için en güvenli yerdir.",
-      "en": "In KKTC children under 150 cm may not travel in the front seat. The back is the safest place for a child."
+      "en": "In North Cyprus children under 150 cm may not travel in the front seat. The back is the safest place for a child."
     },
     "signId": null,
     "basis": "law",
@@ -2225,7 +2225,7 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "Polisin açıklamasına göre 3 yaşından küçük çocuk çocuk koltuğu olmadan taşınamaz. Çarpışmada hiç kimse bebeği kollarında tutamaz.",
+      "tr": "Polisin açıklamasına göre 3 yaşından küçük çocuklar çocuk koltuğu olmadan taşınamaz. Çarpışmada hiç kimse bebeği kollarında tutamaz.",
       "en": "According to the police, a child under 3 may not travel without a child seat. In a crash nobody can hold on to a baby."
     },
     "signId": null,
@@ -2302,8 +2302,8 @@
     ],
     "difficulty": "medium",
     "prompt": {
-      "tr": "Emniyet kemerini doğru taktığını nasıl anlarsın?",
-      "en": "How do you know you are wearing your seat belt correctly?"
+      "tr": "Doğru takılmış bir emniyet kemeri nasıl durur?",
+      "en": "How does a correctly worn seat belt sit?"
     },
     "options": [
       {
@@ -2316,8 +2316,8 @@
       {
         "id": "b",
         "text": {
-          "tr": "Bel kısmı kalçada, omuz kısmı göğüs ve omuz üstünde",
-          "en": "Lap part low on the hips, shoulder part across chest and shoulder"
+          "tr": "Bel kısmı kalçada, omuz kısmı göğsün üstünde",
+          "en": "Lap part on the hips, shoulder part across the chest"
         }
       },
       {
@@ -2330,7 +2330,7 @@
       {
         "id": "d",
         "text": {
-          "tr": "Omuz kısmı boynunun üstünden geçecek biçimde ve gevşek",
+          "tr": "Omuz kısmı boynunun üstünde ve gevşek",
           "en": "Shoulder part across the neck and fairly loose"
         }
       }
@@ -2415,7 +2415,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "Arkadaşın küçük motorlu bir mopedle yalnız mahalle içinde gidecek. Kask takması gerekir mi?",
-      "en": "A friend is riding a small moped just around the neighbourhood. Do they need a helmet?"
+      "en": "A friend is going to ride a small moped just around the neighbourhood. Do they need a helmet?"
     },
     "options": [
       {
@@ -2505,7 +2505,7 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Tüzük kask zorunluluğunu ATV'ler için de açıkça yazar. Sürücü de yolcu da kasksız binemez.",
+      "tr": "Tüzük, kask zorunluluğunda ATV'leri de açıkça sayar. Sürücü de yolcu da kasksız binemez.",
       "en": "The regulation names ATVs in the helmet rule. Neither the rider nor the passenger may ride without one."
     },
     "signId": null,
@@ -2673,7 +2673,7 @@
     "answer": "d",
     "why": {
       "tr": "KKTC'de kaldırım soldadır. Kaldırım tarafından inen çocuklar trafiğe hiç çıkmadan güvende kalır.",
-      "en": "In KKTC the kerb is on the left. Getting out on the kerb side keeps children away from passing traffic."
+      "en": "In North Cyprus the kerb is on the left. Getting out on the kerb side keeps children away from passing traffic."
     },
     "signId": null,
     "basis": "practice",
@@ -2809,7 +2809,7 @@
       {
         "id": "a",
         "text": {
-          "tr": "Çocuklar kendi kemerlerinden sorumludur",
+          "tr": "Çocukların kendileri",
           "en": "The children themselves"
         }
       },
@@ -2879,7 +2879,7 @@
       {
         "id": "c",
         "text": {
-          "tr": "Dörtlüleri yakarsın",
+          "tr": "Dörtlü flaşörü yakarsın",
           "en": "Switch on the hazard lights"
         }
       },
@@ -2893,7 +2893,7 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Dörtlüler, yaklaşan sürücülere aracın durduğunu hemen gösterir. Sonra aracı mümkünse yoldan çıkar ve yolcuları güvenli bir yere al.",
+      "tr": "Dörtlü flaşör, yaklaşan sürücülere aracın durduğunu hemen gösterir. Sonra aracı mümkünse yoldan çıkar ve yolcuları güvenli bir yere al.",
       "en": "Hazard lights tell approaching drivers at once that you have stopped. Then move the car off the road if you can and get passengers to safety."
     },
     "signId": null,
@@ -2915,7 +2915,7 @@
     "difficulty": "easy",
     "prompt": {
       "tr": "Giderken motorunda bir sorun olduğunu fark ettin ama araç hâlâ ilerliyor. Ne yaparsın?",
-      "en": "While driving you notice an engine problem, but the car still moves. What do you do?"
+      "en": "While driving you notice an engine problem, but the car is still moving. What do you do?"
     },
     "options": [
       {
@@ -2942,7 +2942,7 @@
       {
         "id": "d",
         "text": {
-          "tr": "Görünmemek için bir virajın hemen sonrasında durursun",
+          "tr": "Yolu kapatmamak için bir virajın hemen arkasında durursun",
           "en": "Stop just after a bend, out of the way"
         }
       }
@@ -2950,7 +2950,7 @@
     "answer": "b",
     "why": {
       "tr": "KKTC'de soldan gidildiği için güvenli kenar soldur. Viraj ve tepe gibi görüşün kısıtlı olduğu yerlerden uzakta, trafiği engellemeyen bir yer seç.",
-      "en": "In KKTC you drive on the left, so the safe edge is on the left. Choose a spot away from bends and hill crests where you do not block traffic."
+      "en": "In North Cyprus you drive on the left, so the safe edge is on the left. Choose a spot away from bends and hill crests where you do not block traffic."
     },
     "signId": null,
     "basis": "practice",
@@ -3060,7 +3060,7 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Üçgen, sürücülere araca varmadan önce yavaşlama zamanı verir. Virajdaysan virajdan önce görülecek yere koy ve koyarken trafiğe dikkat et.",
+      "tr": "Reflektör, sürücülere araca varmadan önce yavaşlama zamanı verir. Virajdaysan virajdan önce görülecek yere koy ve koyarken trafiğe dikkat et.",
       "en": "The triangle gives drivers time to slow down before they reach you. On a bend, place it where it is seen before the bend, and watch for traffic while you do it."
     },
     "signId": null,
@@ -3117,7 +3117,7 @@
     "answer": "a",
     "why": {
       "tr": "KKTC'de 112 ambulans, 155 polis numarasıdır. Yaralı varsa ikisini de ara; 199 itfaiyedir.",
-      "en": "In KKTC 112 is the ambulance and 155 the police. If someone is hurt, call both; 199 is the fire service."
+      "en": "In North Cyprus 112 is the ambulance and 155 the police. If someone is hurt, call both; 199 is the fire service."
     },
     "signId": null,
     "basis": "law",
@@ -3312,7 +3312,7 @@
       {
         "id": "a",
         "text": {
-          "tr": "Güvenle durur, olay yerini güvene alırsın",
+          "tr": "Uygun yerde durur, olay yerini güvene alırsın",
           "en": "Stop safely and make the scene safe"
         }
       },
@@ -3340,8 +3340,8 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Önce sen ve diğerleri yeni bir çarpışmadan korunmalısınız. Dörtlüleri yak, ardından ambulansı ve polisi ara, sonra yaralılara yardım et.",
-      "en": "First you and others must be protected from a second collision. Switch on your hazard lights, call the ambulance and the police, then help the injured."
+      "tr": "Önce kendini ve başkalarını yeni bir çarpışmadan korursun. Dörtlü flaşörü yak, ardından ambulansı ve polisi ara, sonra yaralılara yardım et.",
+      "en": "First protect yourself and others from a second collision. Switch on your hazard lights, call the ambulance and the police, then help the injured."
     },
     "signId": null,
     "basis": "practice",
@@ -3452,8 +3452,8 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Kaskı çıkarmak boyun yaralanmasını ağırlaştırabilir. Gerçekten gerekmedikçe ve bu konuda eğitimin yoksa kaska dokunma.",
-      "en": "Removing a helmet can worsen a neck injury. Leave it on unless it is essential and you are trained to do it."
+      "tr": "Kaskı çıkarmak boyun yaralanmasını ağırlaştırabilir. Kaskı ancak gerçekten gerekiyorsa ve bu konuda eğitimliysen çıkar.",
+      "en": "Removing a helmet can worsen a neck injury. Only remove it if it is really necessary and you are trained to do so."
     },
     "signId": null,
     "basis": "practice",
@@ -3495,13 +3495,13 @@
         "id": "c",
         "text": {
           "tr": "Motorları kapatmalarını ve sigara içmemelerini",
-          "en": "Switch off engines and not smoke"
+          "en": "Switch off their engines and not smoke"
         }
       },
       {
         "id": "d",
         "text": {
-          "tr": "Dörtlüleri kapatıp yolu hemen açmalarını",
+          "tr": "Dörtlü flaşörü kapatıp yolu hemen açmalarını",
           "en": "Turn off their hazard lights and clear the road at once"
         }
       }
@@ -3564,7 +3564,7 @@
     "answer": "b",
     "why": {
       "tr": "Polise göre moped ve motosiklet dışındaki bütün motorlu araçlarda en az 1 kg söndürücü bulunmalıdır. Kamyon ve otobüslerde bu 6 kg'dır.",
-      "en": "The police say every motor vehicle except mopeds and motorcycles must carry at least a 1 kg extinguisher. Trucks and buses need 6 kg."
+      "en": "The police say every motor vehicle except mopeds and motorcycles must carry at least a 1 kg extinguisher. Lorries and buses need 6 kg."
     },
     "signId": null,
     "basis": "secondary",
@@ -3675,8 +3675,8 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "KKTC'de soldan gidildiği için yol vermek için sola çekilirsin ve ambulans sağından geçer. Ani fren yapma, kaldırıma çıkma.",
-      "en": "In KKTC you keep left, so you move over to the left and the ambulance passes on your right. Do not brake suddenly or mount the kerb."
+      "tr": "KKTC'de soldan gidilir; yol vermek için sola çekilirsin ve ambulans sağından geçer. Ani fren yapma, kaldırıma çıkma.",
+      "en": "In North Cyprus you keep left, so you move over to the left and the ambulance passes on your right. Do not brake suddenly or mount the kerb."
     },
     "signId": null,
     "basis": "practice",
@@ -3752,7 +3752,7 @@
     ],
     "difficulty": "medium",
     "prompt": {
-      "tr": "Sireni çalan bir ambulansa, itfaiyeye ya da polis aracına yol vermemek için hangisi doğrudur?",
+      "tr": "Sireni çalan bir ambulansa, itfaiyeye ya da polis aracına yol vermemekle ilgili hangisi doğrudur?",
       "en": "What is true about failing to give way to an ambulance, fire engine or police car using its siren?"
     },
     "options": [
@@ -3787,7 +3787,7 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "Basında yer alan ceza listesine göre geçiş üstünlüğü olan araca yol vermemek para cezası ve ceza puanı gerektirir. O araç birinin hayatına yetişmeye çalışıyor olabilir.",
+      "tr": "Basında yer alan ceza listesine göre geçiş üstünlüğü olan araca yol vermemek para cezası ve ceza puanı gerektirir. O araç bir hayat kurtarmak için yetişmeye çalışıyor olabilir.",
       "en": "Under the published fine list, failing to give way to an emergency vehicle brings a fine and penalty points. That vehicle may be racing to save a life."
     },
     "signId": null,
@@ -4089,7 +4089,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "Arkandaki araç sana çok yakın geliyor ve seni sıkıştırıyor. Ne yaparsın?",
-      "en": "The vehicle behind is far too close and pushing you. What do you do?"
+      "en": "The vehicle behind is driving far too close and pressuring you. What do you do?"
     },
     "options": [
       {
@@ -4116,14 +4116,14 @@
       {
         "id": "d",
         "text": {
-          "tr": "Dörtlüleri yakıp geçemesin diye yolun ortasından gidersin",
-          "en": "Put on your hazards and drive in the middle so it cannot pass"
+          "tr": "Dörtlü flaşörü yakıp geçemesin diye yolun ortasından gidersin",
+          "en": "Put on your hazard lights and drive in the middle so it cannot pass"
         }
       }
     ],
     "answer": "a",
     "why": {
-      "tr": "Arkandaki çok yakınsa ani bir durumda sana çarpabilir. Önündeki boşluğu artırırsan yumuşak fren yaparsın ve ona da durmak için zaman kalır.",
+      "tr": "Arkandaki çok yakınsa ani bir durumda sana çarpabilir. Önündeki boşluğu artırırsan yumuşak fren yapabilirsin ve ona da durmak için zaman kalır.",
       "en": "A driver too close behind may hit you if you stop suddenly. A bigger gap ahead lets you brake gently, giving them time to stop as well."
     },
     "signId": null,
@@ -4201,7 +4201,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "Park etmiş bir aracın içinde sürücü var ve egzozundan duman çıkıyor. Ne beklersin?",
-      "en": "There is a driver in a parked car and exhaust is coming from it. What should you expect?"
+      "en": "A parked car has a driver inside and fumes coming from its exhaust. What should you expect?"
     },
     "options": [
       {
@@ -4761,7 +4761,7 @@
     "difficulty": "medium",
     "prompt": {
       "tr": "Yağmurlu bir günde bir kamyonu sollarken neye hazırlıklı olursun?",
-      "en": "Overtaking a lorry in the rain, what should you be ready for?"
+      "en": "When you overtake a lorry in the rain, what do you need to be ready for?"
     },
     "options": [
       {
@@ -4816,7 +4816,7 @@
     ],
     "difficulty": "easy",
     "prompt": {
-      "tr": "Trafikte yavaş ilerlerken telefondan mesaj yazmak için hangisi doğrudur?",
+      "tr": "Trafikte yavaş ilerlerken telefondan mesaj yazmakla ilgili hangisi doğrudur?",
       "en": "What is true about texting while moving slowly in traffic?"
     },
     "options": [
@@ -4928,7 +4928,7 @@
     ],
     "difficulty": "medium",
     "prompt": {
-      "tr": "Telefonu eline almadan araçtaki Bluetooth sistemiyle konuşmak için 2025 düzenlemesi ne der?",
+      "tr": "Telefonu eline almadan araçtaki Bluetooth sistemiyle konuşmak konusunda 2025 düzenlemesi ne der?",
       "en": "What does the 2025 change say about talking through the car's Bluetooth system without holding the phone?"
     },
     "options": [
@@ -5075,7 +5075,7 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "Elinde telefonla konuşmak yasaktır ve aracın kontrolünü zayıflatır. Arama bekleyebilir; güvenli bir yerde durunca geri dön.",
+      "tr": "Elinde telefonla konuşmak yasaktır ve aracın kontrolünü zayıflatır. Arama bekleyebilir; güvenli bir yerde durunca geri ara.",
       "en": "Talking with the phone in your hand is banned and weakens your control of the car. The call can wait until you have stopped safely."
     },
     "signId": null,

@@ -7,14 +7,18 @@ import { fileURLToPath } from 'node:url';
 import satori from 'satori';
 import { Resvg } from '@resvg/resvg-js';
 import { generateSW } from 'workbox-build';
+import { createHash } from 'node:crypto';
+import { loadEnv } from 'vite';
 import { TABLE } from '../src/router/table.js';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const dist = path.join(root, 'dist');
-const SITE_URL = (process.env.VITE_SITE_URL || 'https://test2drive.example').replace(/\/$/, '');
+// Same source as the app build: the environment, then .env files Vite would read.
+const configuredUrl = process.env.VITE_SITE_URL || loadEnv('production', root, 'VITE_').VITE_SITE_URL;
+const SITE_URL = (configuredUrl || 'https://test2drive.example').replace(/\/$/, '');
 const skipOg = process.argv.includes('--no-og');
 
-if (!process.env.VITE_SITE_URL) {
+if (!configuredUrl) {
   console.warn('[postbuild] VITE_SITE_URL is not set; canonical and sitemap URLs use the placeholder domain.');
 }
 
@@ -139,12 +143,19 @@ if (!skipOg) {
 }
 
 // 5. Service worker: app shell, content, signs and the main pages offline.
+const buildId = createHash('sha256').update(pages.map((p) => p.html).join('\n')).digest('hex').slice(0, 12);
 const CORE = ['home', 'practise', 'review', 'signExam', 'mistakes', 'scenarios', 'signs', 'topics', 'mock', 'progress'];
 const coreHtml = [
   '404.html',
   ...CORE.flatMap((k) => ['tr', 'en'].map((l) => `${TABLE[k][l].slice(1)}index.html`)),
 ].filter((f) => fs.existsSync(path.join(dist, f)));
+// Removes page caches left by earlier builds when the new worker activates.
+fs.writeFileSync(
+  path.join(dist, 'sw-cleanup.js'),
+  `self.addEventListener('activate', (e) => e.waitUntil(caches.keys().then((keys) => Promise.all(keys.filter((k) => k.startsWith('pages') && k !== 'pages-${buildId}').map((k) => caches.delete(k))))));\n`,
+);
 const { count, size, warnings } = await generateSW({
+  importScripts: ['sw-cleanup.js'],
   globDirectory: dist,
   globPatterns: ['assets/**/*.{js,css,woff2}', 'signs/**/*.svg', 'icons/*.png', 'logo-320.png', 'favicon.ico', 'manifest.webmanifest', ...coreHtml],
   globIgnores: ['og/**'],
@@ -155,22 +166,27 @@ const { count, size, warnings } = await generateSW({
   maximumFileSizeToCacheInBytes: 2 * 1024 * 1024,
   navigateFallback: null,
   runtimeCaching: [
+    // Pages not in the precache: network first, then the cached copy, then the
+    // precached home page of the same language. The cache name carries the build
+    // id, so HTML that points at removed bundles never outlives an update.
+    {
+      urlPattern: ({ request, url }) => request.mode === 'navigate' && /^\/en(\/|$)/.test(url.pathname),
+      handler: 'NetworkFirst',
+      options: {
+        cacheName: `pages-${buildId}`,
+        networkTimeoutSeconds: 4,
+        expiration: { maxEntries: 200 },
+        precacheFallback: { fallbackURL: 'en/index.html' },
+      },
+    },
     {
       urlPattern: ({ request }) => request.mode === 'navigate',
       handler: 'NetworkFirst',
       options: {
-        cacheName: 'pages',
+        cacheName: `pages-${buildId}`,
         networkTimeoutSeconds: 4,
         expiration: { maxEntries: 200 },
-        plugins: [
-          {
-            handlerDidError: async ({ request }) => {
-              const url = new URL(request.url);
-              const key = url.pathname.startsWith('/en/') ? '/en/' : '/';
-              return (await caches.match(key, { ignoreSearch: true })) || Response.error();
-            },
-          },
-        ],
+        precacheFallback: { fallbackURL: 'index.html' },
       },
     },
     {

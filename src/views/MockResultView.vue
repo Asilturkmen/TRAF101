@@ -28,7 +28,19 @@ const attempt = computed(() => {
   return list.find((a) => a.id === route.query.id) || list[list.length - 1] || null;
 });
 const track = computed(() => (attempt.value ? trackById(attempt.value.track) : null));
-const questions = computed(() => (attempt.value ? attempt.value.questionIds.map(questionById).filter(Boolean) : []));
+// Review uses the answer key frozen when the exam was taken.
+const questions = computed(() =>
+  attempt.value
+    ? attempt.value.questionIds
+        .map(questionById)
+        .filter(Boolean)
+        .map((q) => ({
+          ...q,
+          answer: attempt.value.key?.[q.id] ?? q.answer,
+          updated: (attempt.value.revs?.[q.id] ?? q.rev ?? 1) !== (q.rev || 1),
+        }))
+    : [],
+);
 const wrong = computed(() => questions.value.filter((q) => attempt.value.answers[q.id] !== q.answer));
 const showAll = ref(false);
 const reviewList = computed(() => (showAll.value ? questions.value : wrong.value));
@@ -59,6 +71,7 @@ const copy = {
     noneText: 'Bir deneme sınavını bitirdiğinde sonucu burada görürsün.',
     start: 'Deneme sınavına gir',
     note: 'Bu bir provadır; gerçek sınavın sonucunu göstermez.',
+    updated: 'Bu soru sınavından sonra güncellendi. Puanın, sınav anındaki cevap anahtarına göre hesaplandı.',
   },
   en: {
     title: 'Mock exam result',
@@ -85,6 +98,7 @@ const copy = {
     noneText: 'When you finish a mock exam, the result appears here.',
     start: 'Take a mock exam',
     note: 'This is a rehearsal; it does not predict the result of the real exam.',
+    updated: 'This question was updated after your exam. Your score used the answer key from the time of the exam.',
   },
 };
 const c = computed(() => copy[lang.value]);
@@ -157,9 +171,9 @@ const headline = computed(() => {
             <button type="button" class="btn btn-ghost" @click="showAll = !showAll">{{ showAll ? c.showWrong : c.showAll }}</button>
           </div>
           <div class="review-list">
+            <div v-for="q in reviewList" :key="q.id" class="review-item">
+            <p v-if="q.updated" class="updated-note">{{ c.updated }}</p>
             <QuestionCard
-              v-for="(q, i) in reviewList"
-              :key="q.id"
               :question="q"
               :lang="lang"
               mode="review"
@@ -169,6 +183,7 @@ const headline = computed(() => {
               :total="attempt.total"
               :autofocus="false"
             />
+            </div>
           </div>
         </section>
       </template>
@@ -268,6 +283,11 @@ const headline = computed(() => {
 .review-list {
   display: grid;
   gap: 1.25rem;
+}
+.updated-note {
+  font-size: 0.875rem;
+  color: var(--color-text-muted);
+  margin-bottom: 0.5rem;
 }
 @media (max-width: 640px) {
   .bar-cell {

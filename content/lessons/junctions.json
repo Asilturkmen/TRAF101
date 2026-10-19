@@ -1,11 +1,11 @@
 {
   "id": "junctions",
   "title": {
-    "tr": "Kavşaklar ve dönel kavşaklar",
+    "tr": "Kavşaklar ve çemberler",
     "en": "Junctions and roundabouts"
   },
   "summary": {
-    "tr": "Sol trafikte dönel kavşakta saat yönünde dönülür ve içerideki araç önceliklidir; denetimsiz kavşakta sağdan gelene yol verirsin.",
+    "tr": "Sol trafikte çemberde (dönel kavşakta) saat yönünde dönülür ve içerideki araç önceliklidir; kontrolsüz kavşakta sağdan gelene yol verirsin.",
     "en": "In left-hand traffic you go round a roundabout clockwise and traffic already on it has priority; at an uncontrolled junction you give way to the right."
   },
   "sections": [
@@ -15,8 +15,8 @@
         "en": "If you learned to drive on the right"
       },
       "body": {
-        "tr": "Kendi ülkende sağdan sürdüysen KKTC'de çoğu şey ayna görüntüsüdür:\n\n- Yolun **sol** şeridinde gidersin, karşıdan gelenler senin sağından geçer.\n- **Sola dönüş kısa** dönüştür: sol kenara yakın kalırsın, karşı şeridi kesmezsin.\n- **Sağa dönüş uzun** dönüştür: karşı yönün şeridini keserek dönersin, bu yüzden karşıdan gelene yol verirsin.\n- Dönel kavşakta **saat yönünde** dönersin.\n\nBir kural ise değişmez: işaretsiz kavşakta **sağdan gelen** önceliklidir. Kıta Avrupası'nda sürdüysen bu kural sana tanıdık gelir.\n\nAlışkanlık seni en çok boş yollarda, sabah ilk çıkışta ve bir kavşaktan çıktıktan hemen sonra sağ şeride çeker. Her dönüşten sonra kendine \"solda kal\" de.",
-        "en": "If you learned to drive on the right, most things in KKTC are a mirror image:\n\n- You drive in the **left** lane, and oncoming traffic passes on your right.\n- **Turning left is the short turn**: you stay close to the left edge and do not cross the other lane.\n- **Turning right is the long turn**: you cut across the opposite lane, so you give way to oncoming traffic.\n- At a roundabout you go round **clockwise**.\n\nOne rule does not change: at an unmarked junction, traffic **from the right** has priority. If you have driven in continental Europe, this will feel familiar.\n\nHabit pulls you back to the right most often on empty roads, on your first drive of the morning and just after leaving a junction. After every turn, tell yourself \"keep left\"."
+        "tr": "Kendi ülkende sağdan sürdüysen KKTC'de çoğu şey ayna görüntüsüdür:\n\n- Yolun **sol** şeridinde gidersin, karşıdan gelenler senin sağından geçer.\n- **Sola dönüş kısa** dönüştür: sol kenara yakın kalırsın, karşı şeridi kesmezsin.\n- **Sağa dönüş uzun** dönüştür: karşı yönün şeridini keserek dönersin, bu yüzden karşıdan gelene yol verirsin.\n- Çemberde **saat yönünde** dönersin.\n\nBir kural ise değişmez: işaretsiz kavşakta **sağdan gelen** önceliklidir. Kıta Avrupası'nda sürdüysen bu kural sana tanıdık gelir.\n\nAlışkanlık seni en çok boş yollarda, sabah ilk çıkışta ve bir kavşaktan çıktıktan hemen sonra sağ şeride çeker. Her dönüşten sonra kendine \"solda kal\" de.",
+        "en": "If you learned to drive on the right, most things in North Cyprus are a mirror image:\n\n- You drive in the **left** lane, and oncoming traffic passes on your right.\n- **Turning left is the short turn**: you stay close to the left edge and do not cross the other lane.\n- **Turning right is the long turn**: you cut across the opposite lane, so you give way to oncoming traffic.\n- At a roundabout you go round **clockwise**.\n\nOne rule does not change: at an unmarked junction, traffic **from the right** has priority. If you have driven in continental Europe, this will feel familiar.\n\nHabit pulls you back to the right most often on empty roads, on your first drive of the morning and just after leaving a junction. After every turn, tell yourself \"keep left\"."
       },
       "basis": "practice",
       "sourceId": null,
@@ -24,12 +24,12 @@
     },
     {
       "heading": {
-        "tr": "Dönel kavşak nasıl işler",
+        "tr": "Çember nasıl işler",
         "en": "How a roundabout works"
       },
       "body": {
-        "tr": "Dönel kavşakta (çember) trafik saat yönünde akar. Bakanlığın trafik broşüründeki zorunlu dönel kavşak levhası da okları saat yönünde gösterir.\n\nBroşürdeki kurallar şöyle:\n\n- Çembere yaklaşırken yavaşla.\n- Sağdan araç geliyorsa çembere girme.\n- Çemberin içindeki araç önceliklidir.\n\nSaat yönünde dönüldüğü için çemberin içindeki araçlar sana hep **sağından** gelir. Yani \"içerideki önceliklidir\" ile \"sağdan gelene yol ver\" aynı şeyi söyler: girişte sağına bak.",
-        "en": "On a roundabout (*çember*) traffic flows clockwise. The mandatory roundabout sign in the ministry's traffic leaflet also shows its arrows going clockwise.\n\nThe leaflet's rules are:\n\n- Slow down as you approach the roundabout.\n- Do not enter if a vehicle is coming from the right.\n- A vehicle already on the roundabout has priority.\n\nBecause traffic goes round clockwise, vehicles on the roundabout always reach you from your **right**. So \"traffic on the roundabout has priority\" and \"give way to the right\" say the same thing: as you arrive, look right."
+        "tr": "Çemberde trafik saat yönünde akar. Bakanlığın trafik broşüründeki mecburi çember levhası da okları saat yönünde gösterir.\n\nBroşürdeki kurallar şöyle:\n\n- Çembere yaklaşırken yavaşla.\n- Sağdan araç geliyorsa çembere girme.\n- Çemberin içindeki araç önceliklidir.\n\nSaat yönünde dönüldüğü için çemberin içindeki araçlar sana hep **sağından** gelir. Yani \"içerideki önceliklidir\" ile \"sağdan gelene yol ver\" aynı şeyi söyler: girişte sağına bak.",
+        "en": "On a roundabout (çember) traffic flows clockwise. The mandatory roundabout sign in the ministry's traffic leaflet also shows its arrows going clockwise.\n\nThe leaflet's rules are:\n\n- Slow down as you approach the roundabout.\n- Do not enter if a vehicle is coming from the right.\n- A vehicle already on the roundabout has priority.\n\nBecause traffic goes round clockwise, vehicles on the roundabout always reach you from your **right**. So \"traffic on the roundabout has priority\" and \"give way to the right\" say the same thing: as you arrive, look right."
       },
       "basis": "law",
       "sourceId": "s1",
@@ -37,12 +37,12 @@
     },
     {
       "heading": {
-        "tr": "Dönel kavşağa adım adım",
+        "tr": "Çemberde adım adım",
         "en": "A roundabout step by step"
       },
       "body": {
         "tr": "- Yaklaşırken levhalardan hangi çıkışı kullanacağını belirle ve erken doğru şeride geç.\n- Hızını düşür ve sağına bak. Sağdan gelen ya da çemberde dönen araç varsa dur ve bekle.\n- Boşluk olunca **sola** doğru girerek çembere katıl ve saat yönünde dön.\n- Çıkacağın yoldan bir önceki çıkışı geçerken sol sinyal ver.\n- Sola doğru çık. Çıkışta yaya geçidi olabilir, ona da dikkat et.\n\nÇok şeritli çemberlerde yoldaki oklara ve levhalara uy. Çember içinde şerit değiştireceksen aynalarına ve kör noktana bak.",
-        "en": "- As you approach, use the signs to decide which exit you need and move into the right lane early.\n- Slow down and look right. If a vehicle is coming from the right or circulating on the roundabout, stop and wait.\n- When there is a gap, join by turning **left** onto the roundabout and go round clockwise.\n- As you pass the exit before yours, signal left.\n- Leave by turning left. There may be a pedestrian crossing at the exit, so watch for it.\n\nOn roundabouts with several lanes, follow the road arrows and signs. If you need to change lane on the roundabout, check your mirrors and blind spot."
+        "en": "- As you approach, use the signs to decide which exit you need and move into the correct lane early.\n- Slow down and look right. If a vehicle is coming from the right or circulating on the roundabout, stop and wait.\n- When there is a gap, join by turning **left** onto the roundabout and go round clockwise.\n- As you pass the exit before yours, signal left.\n- Leave by turning left. There may be a pedestrian crossing at the exit, so watch for it.\n\nOn roundabouts with several lanes, follow the road arrows and signs. If you need to change lane on the roundabout, check your mirrors and blind spot."
       },
       "basis": "practice",
       "sourceId": null,
@@ -50,7 +50,7 @@
     },
     {
       "heading": {
-        "tr": "Denetimsiz kavşak",
+        "tr": "Kontrolsüz kavşak",
         "en": "Uncontrolled junctions"
       },
       "body": {
@@ -78,7 +78,7 @@
   "keyPoints": [
     {
       "text": {
-        "tr": "Dönel kavşakta saat yönünde dönülür; çemberin içindeki araç önceliklidir.",
+        "tr": "Çemberde saat yönünde dönülür; içerideki araç önceliklidir.",
         "en": "You go round a roundabout clockwise; traffic already on it has priority."
       },
       "basis": "law",

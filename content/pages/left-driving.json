@@ -20,7 +20,7 @@
       "basis": "law", "sourceId": "s1", "sourceRef": null
     },
     {
-      "text": { "tr": "Sireni çalan bir acil araç gelirse sinyal ver ve sola yanaş.", "en": "If an emergency vehicle with a siren comes up behind you, signal and pull over to the left." },
+      "text": { "tr": "Arkandan sireni çalan bir acil araç gelirse sinyal ver ve sola yanaş.", "en": "If an emergency vehicle with a siren comes up behind you, signal and pull over to the left." },
       "basis": "practice", "sourceId": null, "sourceRef": null
     },
     {
@@ -52,7 +52,7 @@
     {
       "heading": { "tr": "Şerit alışkanlığı", "en": "Lane habits" },
       "body": {
-        "tr": "Çift şeritli yolda soldaki şeritte sür, sağdaki şeridi sollama için kullan. Sollamayı bitirince yeniden sola dön.\n\nYavaş giden bir aracı solundan geçme. Sağdan trafiğe alışkın biri bu hatayı özellikle boş yollarda kolayca yapar.",
+        "tr": "Çift şeritli yolda soldaki şeritte sür, sağdaki şeridi sollama için kullan. Sollamayı bitirince yeniden sol şeride geç.\n\nYavaş giden bir aracı solundan geçme. Sağdan trafiğe alışkın biri bu hatayı özellikle boş yollarda kolayca yapar.",
         "en": "On a dual carriageway, drive in the left-hand lane and use the right-hand lane for overtaking. Move back to the left when you have passed.\n\nDo not pass a slower vehicle on its left. Drivers used to right-hand traffic make this mistake easily, especially on empty roads."
       },
       "basis": "practice", "sourceId": null, "sourceRef": null
@@ -85,12 +85,12 @@
       "heading": { "tr": "Sağa dönüş karşı şeridi keser", "en": "Turning right crosses oncoming traffic" },
       "body": {
         "tr": "Soldan trafikte sağa dönüş, sağdan trafikteki sola dönüş gibidir: karşı şeridi kesersin. Karşıdan gelen trafiğe yol vermeden sağa dönmek ceza listesinde ayrı bir suçtur.",
-        "en": "When traffic drives on the left, turning right is like turning left at home: you cross the oncoming lane. Turning right without giving way to oncoming traffic is a separate offence on the fines list."
+        "en": "When traffic drives on the left, turning right is like turning left in right-hand traffic: you cross the oncoming lane. Turning right without giving way to oncoming traffic is a separate offence on the fines list."
       },
       "basis": "secondary", "sourceId": "s31", "sourceRef": "19.01.2023"
     },
     {
-      "heading": { "tr": "Dönüşlerde nerede durursun", "en": "Where to position for turns" },
+      "heading": { "tr": "Dönüşlerde yoldaki yerin", "en": "Your position for turns" },
       "body": {
         "tr": "- **Sola dönerken** yolun solunda kal ve dönüşü kısa tut.\n- **Sağa dönerken** yolun ortasına yakın bekle. Karşı şerit boşalınca dön ve yeni yolun soluna geç.\n- Dönüşten sonra yolun sağına geçme alışkanlığına dikkat et. Bu hata özellikle günün ilk sürüşünde ve boş yollarda kolayca yapılır.",
         "en": "- **When turning left**, stay on the left of the road and keep the turn tight.\n- **When turning right**, wait near the centre of the road. Turn when the oncoming lane is clear and move into the left side of the new road.\n- After a turn, watch out for drifting to the right-hand side. This happens easily, especially on the first drive of the day and on empty roads."
@@ -101,7 +101,7 @@
       "heading": { "tr": "Acil araca yol ver: sola yanaş", "en": "Emergency vehicles: pull over to the left" },
       "body": {
         "tr": "Arkandan sireni çalan bir ambulans, itfaiye ya da polis aracı geliyorsa sinyal ver, **sola** yanaş, yavaşla ve gerekirse dur. Ani fren yapma, kaldırıma çıkma.\n\nSağa çekmek sağdan trafikteki alışkanlıktır ve burada acil aracın önünü kapatır. KKTC mevzuatında hangi tarafa yanaşılacağı yazılı değil. Soldan trafikte güvenli olan budur.",
-        "en": "If an ambulance, fire engine or police vehicle with its siren on comes up behind you, signal, pull over to the **left**, slow down and stop if needed. Do not brake suddenly or mount the kerb.\n\nPulling to the right is a right-hand-traffic habit, and here it blocks the emergency vehicle. North Cyprus law does not say which side to pull over to. On the left, this is the safe choice."
+        "en": "If an ambulance, fire engine or police vehicle with its siren on comes up behind you, signal, pull over to the **left**, slow down and stop if needed. Do not brake suddenly or mount the kerb.\n\nPulling to the right is a right-hand-traffic habit, and here it blocks the emergency vehicle. North Cyprus law does not say which side to pull over to. In left-hand traffic, this is the safe choice."
       },
       "basis": "practice", "sourceId": null, "sourceRef": null
     },
@@ -109,7 +109,7 @@
       "heading": { "tr": "Park ederken kaldırım solda", "en": "Parking: the kerb is on your left" },
       "body": {
         "tr": "Yolun solunda, trafik akışı yönünde park edersin. Kaldırım solundadır.\n\n- Yokuş yukarı park ederken kaldırım varsa tekerlekleri **sağa**, kaldırımdan uzağa çevir.\n- Yokuş aşağı park ederken tekerlekleri **sola**, kaldırıma doğru çevir.\n- Sürücü kapın trafiğe açılıyorsa, açmadan önce aynaya ve omzunun üstünden arkaya bak.\n- Yolcular kaldırım tarafından insin.",
-        "en": "You park on the left of the road, facing the direction of traffic. The kerb is on your left.\n\n- Parking uphill next to a kerb, turn the wheels to the **right**, away from the kerb.\n- Parking downhill, turn the wheels to the **left**, towards the kerb.\n- If your door opens into traffic, check the mirror and look over your shoulder before opening it.\n- Let passengers get out on the kerb side."
+        "en": "You park on the left of the road, facing the direction of traffic. The kerb is on your left.\n\n- Parking uphill next to a kerb, turn the wheels to the **right**, away from the kerb.\n- Parking downhill, turn the wheels to the **left**, towards the kerb.\n- If the driver's door opens into traffic, check the mirror and look over your shoulder before opening it.\n- Let passengers get out on the kerb side."
       },
       "basis": "practice", "sourceId": null, "sourceRef": null
     },
@@ -132,7 +132,7 @@
     {
       "heading": { "tr": "Hız sınırları kısaca", "en": "Speed limits in brief" },
       "body": {
-        "tr": "- Yerleşim yerlerinde hız sınırı saatte 50 km'dir.\n- Şehir dışında sınır yolun türüne göre saatte 65 ile 90 km arasında değişir.\n- Çift şeritli yollarda otomobil için sınır saatte 100 km'dir.\n\nLevhada başka bir sınır yazıyorsa levhaya uy. Hız kilometreyle ölçülür, mille değil.",
+        "tr": "- Yerleşim yerlerinde hız sınırı 50 km/sa.\n- Şehir dışında sınır, yolun türüne göre 65 ile 90 km/sa arasında değişir.\n- Çift şeritli yollarda otomobil için sınır 100 km/sa.\n\nLevhada başka bir sınır yazıyorsa levhaya uy. Hız kilometreyle ölçülür, mille değil.",
         "en": "- In built-up areas the limit is 50 km/h.\n- Outside towns it is between 65 and 90 km/h, depending on the road.\n- On dual carriageways the limit for cars is 100 km/h.\n\nIf a sign shows a different limit, follow the sign. Speeds are in kilometres per hour, not miles."
       },
       "basis": "law", "sourceId": "s1", "sourceRef": null
@@ -141,7 +141,7 @@
       "heading": { "tr": "Araçta alışman gerekenler", "en": "Getting used to the car" },
       "body": {
         "tr": "Direksiyonun hangi tarafta olduğuna, vites kolunun ve sinyal kolunun yerine alış. Sinyal yerine silecek çalıştırmak ilk günlerin olağan hatasıdır.\n\nTrafiğe çıkmadan önce boş bir otoparkta birkaç tur at. İlk sürüşlerini sakin saatlerde ve bildiğin yollarda yap.",
-        "en": "Get used to which side the steering wheel is on and where the gear lever and indicator stalk are. Switching on the wipers instead of the indicator is a normal mistake in the first days.\n\nBefore going into traffic, drive a few laps of an empty car park. Do your first drives at quiet times and on roads you know."
+        "en": "Get used to which side the steering wheel is on and where the gear lever and indicator stalk are. Switching on the wipers instead of the indicator is a common mistake in the first days.\n\nBefore going into traffic, drive a few laps of an empty car park. Do your first drives at quiet times and on roads you know."
       },
       "basis": "practice", "sourceId": null, "sourceRef": null
     },

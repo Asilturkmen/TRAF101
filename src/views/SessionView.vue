@@ -1,7 +1,7 @@
 <script setup>
 // One view for Today's review, topic practice and My mistakes: immediate feedback,
 // every answer feeds the Leitner schedule, wrong answers come back once at the end.
-import { computed, onMounted, ref } from 'vue';
+import { computed, nextTick, onMounted, ref, watch } from 'vue';
 import { RouterLink, useRoute } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { PartyPopper, CircleAlert, Inbox } from 'lucide-vue-next';
@@ -90,6 +90,14 @@ const requeued = ref(new Set());
 const seed = ref(1);
 const justRequeued = ref(false);
 const finished = computed(() => ready.value && index.value >= queue.value.length);
+// When a round ends, move focus to the result so keyboard and screen-reader
+// users land on it instead of on a button that no longer exists.
+const resultHeading = ref(null);
+watch(finished, async (done) => {
+  if (!done) return;
+  await nextTick();
+  resultHeading.value?.focus();
+});
 const current = computed(() => queue.value[index.value] || null);
 const firstCount = computed(() => Object.keys(firstTry.value).length);
 const firstCorrect = computed(() => Object.values(firstTry.value).filter(Boolean).length);
@@ -166,6 +174,8 @@ const progressPct = computed(() => (queue.value.length ? (index.value / queue.va
           </div>
         </div>
         <QuestionCard
+          :key="`${index}-${current.id}`"
+          :focus-on-mount="index > 0"
           v-model="answer"
           :question="current"
           :lang="lang"
@@ -183,7 +193,7 @@ const progressPct = computed(() => (queue.value.length ? (index.value / queue.va
       <div v-else class="results-screen">
         <div class="results-card">
           <PartyPopper :size="56" :stroke-width="1.5" class="results-icon" aria-hidden="true" />
-          <h2>{{ c.doneTitle }}</h2>
+          <h2 ref="resultHeading" tabindex="-1" class="result-heading">{{ c.doneTitle }}</h2>
           <div class="score-number">{{ firstCorrect }} / {{ firstCount }}</div>
           <p class="results-message">{{ c.done(firstCorrect, firstCount) }}</p>
           <div v-if="wrongItems.length" class="wrong-list">
@@ -204,6 +214,13 @@ const progressPct = computed(() => (queue.value.length ? (index.value / queue.va
 </template>
 
 <style scoped>
+.result-heading:focus {
+  outline: none;
+}
+.result-heading:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 4px;
+}
 .results-icon {
   color: var(--color-primary);
   margin-bottom: 1rem;
