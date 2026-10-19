@@ -190,7 +190,7 @@ const footer = computed(() => [
           <p class="footer-tagline">{{ t('tagline') }}</p>
         </div>
         <nav v-for="col in footer" :key="col.title" class="footer-section" :aria-label="col.title">
-          <h2 class="footer-heading">{{ col.title }}</h2>
+          <h2 class="footer-heading" :lang="col.title === 'Test2Drive' ? 'en' : undefined">{{ col.title }}</h2>
           <ul>
             <li v-for="link in col.links" :key="link.label">
               <a v-if="link.href" :href="link.href" rel="noopener" target="_blank">{{ link.label }}</a>
@@ -339,8 +339,8 @@ const footer = computed(() => [
   border-color: var(--color-primary);
 }
 
-.nav-cta,
-.menu-button {
+.nav-tools .nav-cta,
+.nav-tools .menu-button {
   display: none;
 }
 
@@ -579,14 +579,15 @@ const footer = computed(() => [
   .nav-links {
     display: none;
   }
-  .nav-cta {
+  .nav-tools .nav-cta {
     display: inline-flex;
     padding: 0.625rem 1.25rem;
     font-size: 0.9375rem;
     min-height: 44px;
   }
-  .menu-button {
+  .nav-tools .menu-button {
     display: inline-flex;
+    flex-shrink: 0;
   }
 }
 
@@ -611,8 +612,8 @@ const footer = computed(() => [
   }
 }
 
-@media (max-width: 380px) {
-  .nav-cta {
+@media (max-width: 480px) {
+  .nav-tools .nav-cta {
     display: none;
   }
 }

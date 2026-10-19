@@ -2,309 +2,353 @@
   {
     "id": "s1",
     "kind": "official",
-    "title": "BUB, \"KKTC trafiğinde araç kullanırken: Lütfen dikkat!\" leaflet (keep left, priority, alcohol, belts, speed, phones, helmets, 90-day licence rule, emergency numbers)",
+    "title": "BUB, KKTC trafiğinde araç kullanırken: Lütfen dikkat! (bilgilendirme broşürü)",
     "url": "https://bub.gov.ct.tr/Portals/42/TRAFIK_BILGI_INTERNET_TUR_1_1_1.pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "BUB, \"KKTC trafiğinde araç kullanırken: Lütfen dikkat!\" leaflet (keep left, priority, alcohol, belts, speed, phones, helmets, 90-day licence rule, emergency numbers)"
   },
   {
     "id": "s2",
     "kind": "official",
-    "title": "BUB legislation page (Mevzuat)",
+    "title": "BUB, Mevzuat sayfası",
     "url": "https://bub.gov.ct.tr/BAKANLIK/MEVZUAT",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "BUB legislation page (Mevzuat)"
   },
   {
     "id": "s3",
     "kind": "official",
-    "title": "Ehliyet, Sınav ve Sürüş Ehliyet Müfettişleri ile İlgili Usul ve Kurallar Tüzüğü (Sayı/A.E. 297, 2017; 24-month delayed entry into force)",
+    "title": "Ehliyet, Sınav ve Sürüş Ehliyet Müfettişleri ile İlgili Usul ve Kurallar Tüzüğü (A.E. 297, 2017)",
     "url": "https://bub.gov.ct.tr/Portals/42/tuzuk3.pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Ehliyet, Sınav ve Sürüş Ehliyet Müfettişleri ile İlgili Usul ve Kurallar Tüzüğü (Sayı/A.E. 297, 2017; 24-month delayed entry into force)"
   },
   {
     "id": "s4",
     "kind": "official",
-    "title": "Motorlu Araçlar ve Yol Trafik (Değişiklik) Tüzüğü (Sayı/A.E. 296, 2017; EU classes, ages, probation, foreign licences, Ek VI conversion table)",
+    "title": "Motorlu Araçlar ve Yol Trafik (Değişiklik) Tüzüğü (A.E. 296, 2017)",
     "url": "https://bub.gov.ct.tr/Portals/42/tuzuk2.pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Motorlu Araçlar ve Yol Trafik (Değişiklik) Tüzüğü (Sayı/A.E. 296, 2017; EU classes, ages, probation, foreign licences, Ek VI conversion table)"
   },
   {
     "id": "s5",
     "kind": "official",
-    "title": "Sürüş Eğitim İzni ve Sürüş Ehliyetleri Sağlık Tüzüğü (Sayı 298)",
+    "title": "Sürüş Eğitim İzni ve Sürüş Ehliyetleri Sağlık Tüzüğü",
     "url": "https://bub.gov.ct.tr/Portals/42/tuzuk4.pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Sürüş Eğitim İzni ve Sürüş Ehliyetleri Sağlık Tüzüğü (Sayı 298)"
   },
   {
     "id": "s6",
     "kind": "official",
-    "title": "1974 Motorlu Araçlar ve Yol Trafik Yasası 21/1974, consolidated to 43/2014 (art. 9 alcohol, art. 10 fatigue, Ek Kısım II licence fees incl. öğrenci ehliyeti sınavı, one-year first licence, international licence)",
+    "title": "Motorlu Araçlar ve Yol Trafik Yasası (21/1974, 43/2014 değişikliğiyle)",
     "url": "https://bub.gov.ct.tr/Portals/42/yasa8.pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "1974 Motorlu Araçlar ve Yol Trafik Yasası 21/1974, consolidated to 43/2014 (art. 9 alcohol, art. 10 fatigue, Ek Kısım II licence fees incl. öğrenci ehliyeti sınavı, one-year first licence, international licence)"
   },
   {
     "id": "s7",
     "kind": "official",
-    "title": "Yol Kuralları Yasası, Fasıl 334 (keep left, overtake right)",
+    "title": "Yol Kuralları Yasası (Fasıl 334)",
     "url": "https://bub.gov.ct.tr/Portals/42/yasa12.pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Yol Kuralları Yasası, Fasıl 334 (keep left, overtake right)"
   },
   {
     "id": "s8",
     "kind": "official",
-    "title": "Yol Güvenliği Yasası 9/1988, consolidated to 3/2014 (alcohol limits; seat-belt part moved to 29/2012)",
+    "title": "Yol Güvenliği Yasası (9/1988, 3/2014 değişikliğiyle)",
     "url": "https://bub.gov.ct.tr/Portals/42/yasa9.pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Yol Güvenliği Yasası 9/1988, consolidated to 3/2014 (alcohol limits; seat-belt part moved to 29/2012)"
   },
   {
     "id": "s9",
     "kind": "official",
-    "title": "1974 Motorlu Araçlar ve Yol Trafik (Değişiklik) Tüzüğü (helmet art. 58(3), c. 2015)",
+    "title": "Motorlu Araçlar ve Yol Trafik (Değişiklik) Tüzüğü, kask kuralı",
     "url": "https://bub.gov.ct.tr/Portals/42/yasa22.pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "1974 Motorlu Araçlar ve Yol Trafik (Değişiklik) Tüzüğü (helmet art. 58(3), c. 2015)"
   },
   {
     "id": "s10",
     "kind": "official",
-    "title": "Resmi Gazete No. 129, 05.08.2013, EK III A.E. 424 (current class definitions A–K, H1/H2, motorcycle course)",
+    "title": "Resmi Gazete 129, 05.08.2013, EK III A.E. 424 (ehliyet sınıfları)",
     "url": "https://basimevi.gov.ct.tr/Portals/6/2013/129.pdf?ver=2013-04-03-144848-443",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Resmi Gazete No. 129, 05.08.2013, EK III A.E. 424 (current class definitions A–K, H1/H2, motorcycle course)"
   },
   {
     "id": "s11",
     "kind": "official",
-    "title": "Resmi Gazete No. 130, 2007 (Yol ve Trafik Suçlarının Davasız Halli ve Ceza Puanı amendment: 100 points / 15 months)",
+    "title": "Resmi Gazete 130, 2007, Ceza Puanı Yasası değişikliği",
     "url": "https://basimevi.gov.ct.tr/Portals/6/2007/130.pdf?ver=2021-04-03-144848-443",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Resmi Gazete No. 130, 2007 (Yol ve Trafik Suçlarının Davasız Halli ve Ceza Puanı amendment: 100 points / 15 months)"
   },
   {
     "id": "s12",
     "kind": "official",
-    "title": "Resmi Gazete No. 202, 08.10.2025, EK III A.E. 838 (Tüzük art. 25(4), new art. 47A ID/passport)",
+    "title": "Resmi Gazete 202, 08.10.2025, EK III A.E. 838",
     "url": "https://www.ktto.net/wp-content/uploads/2025/10/1974-Motorlu-Araclar-ve-Yol-Trafik-Degisiklik-Tuzugu.pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Resmi Gazete No. 202, 08.10.2025, EK III A.E. 838 (Tüzük art. 25(4), new art. 47A ID/passport)"
   },
   {
     "id": "s13",
     "kind": "official",
-    "title": "BUB 2022 Activity Report (plan to adopt international classes; H2 age change; foreign-licence conversion Tüzük; TC–KKTC exchange agreement)",
+    "title": "BUB 2022 Faaliyet Raporu",
     "url": "http://bub.gov.ct.tr/Portals/42/FAALIYET_RAPORU_2022%20indexli.pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "BUB 2022 Activity Report (plan to adopt international classes; H2 age change; foreign-licence conversion Tüzük; TC–KKTC exchange agreement)"
   },
   {
     "id": "s14",
     "kind": "official",
-    "title": "BUB 2024 Activity Book (decision: learner exam written; translations into English, Russian, Arabic)",
+    "title": "BUB 2024 Faaliyet Kitabı",
     "url": "https://bub.gov.ct.tr/Portals/42/BUB%20FAALIYET%20KITABI%202024%20%20(BASKI%20TAMAM)%20(1).pdf",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "BUB 2024 Activity Book (decision: learner exam written; translations into English, Russian, Arabic)"
   },
   {
     "id": "s15",
     "kind": "official",
-    "title": "KKTC Polis Genel Müdürlüğü homepage (emergency numbers; weekly traffic report)",
+    "title": "KKTC Polis Genel Müdürlüğü",
     "url": "https://www.polis.gov.ct.tr",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "KKTC Polis Genel Müdürlüğü homepage (emergency numbers; weekly traffic report)"
   },
   {
     "id": "s16",
     "kind": "official",
-    "title": "TRNC Public Information Office, FAQ (foreign licences, citing the Traffic Department)",
+    "title": "KKTC Basın-Enformasyon Ofisi, Sık sorulan sorular",
     "url": "https://pio.mfa.gov.ct.tr/en/faq/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "TRNC Public Information Office, FAQ (foreign licences, citing the Traffic Department)"
   },
   {
     "id": "s39",
     "kind": "official",
-    "title": "BUB Trafik Dairesi, \"E-moped kullanım kuralları güncellendi: kask takmak artık zorunlu\" (2026; names classes J, H1, H2, H)",
+    "title": "BUB Trafik Dairesi, E-moped kullanım kuralları güncellendi: kask takmak artık zorunlu",
     "url": "https://bub.gov.ct.tr/DA%C4%B0RE-VE-KURUMLAR/TRAF%C4%B0K-DA%C4%B0RES%C4%B0/e-moped-kullanim-kurallari-g220ncellend%C4%B0-kask-takmak-artik-zorunlu",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "BUB Trafik Dairesi, \"E-moped kullanım kuralları güncellendi: kask takmak artık zorunlu\" (2026; names classes J, H1, H2, H)"
   },
   {
     "id": "s17",
     "kind": "secondary",
-    "title": "Kıbrıs Postası, 26.05.2017, \"KKTC'de sürüş ehliyeti almak eskisi kadar kolay olmayacak!\"",
+    "title": "Kıbrıs Postası, 26.05.2017, KKTC'de sürüş ehliyeti almak eskisi kadar kolay olmayacak",
     "url": "https://www.kibrispostasi.com/c35-KIBRIS_HABERLERI/n221647-kktcde-surus-ehliyeti-almak-eskisi-kadar-kolay-olmayacak",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Kıbrıs Postası, 26.05.2017, \"KKTC'de sürüş ehliyeti almak eskisi kadar kolay olmayacak!\""
   },
   {
     "id": "s18",
     "kind": "secondary",
-    "title": "Kıbrıs Postası, 03.11.2020, \"Sürüş ehliyeti sınavları ve ehliyet yenilemeler durduruldu\"",
+    "title": "Kıbrıs Postası, 03.11.2020, Sürüş ehliyeti sınavları ve ehliyet yenilemeler durduruldu",
     "url": "https://www.kibrispostasi.com/c35-KIBRIS_HABERLERI/n354397-surus-ehliyeti-sinavlari-ve-ehliyet-yenilemeler-durduruldu",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Kıbrıs Postası, 03.11.2020, \"Sürüş ehliyeti sınavları ve ehliyet yenilemeler durduruldu\""
   },
   {
     "id": "s19",
     "kind": "secondary",
-    "title": "Yenidüzen, 22.12.2020, \"Ehliyette düzenleme geçti, yenileme ve sınavlar başladı\"",
+    "title": "Yenidüzen, 22.12.2020, Ehliyette düzenleme geçti, yenileme ve sınavlar başladı",
     "url": "https://www.yeniduzen.com/ehliyette-duzenleme-gecti-yenileme-ve-sinavlar-basladi-135121h.htm",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Yenidüzen, 22.12.2020, \"Ehliyette düzenleme geçti, yenileme ve sınavlar başladı\""
   },
   {
     "id": "s20",
     "kind": "secondary",
-    "title": "Kıbrıs Postası, 09.06.2023, health Tüzük never applied",
+    "title": "Kıbrıs Postası, 09.06.2023, Ehliyet alınırken ve yenilenirken yıllardır sağlık kriteri aranmıyor",
     "url": "https://www.kibrispostasi.com/c35-KIBRIS_HABERLERI/n475028-ehliyet-alinirken-ve-yenilenirken-yillardir-saglik-kriteri-aranmiyor",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Kıbrıs Postası, 09.06.2023, health Tüzük never applied"
   },
   {
     "id": "s21",
     "kind": "secondary",
-    "title": "Kıbrıs Postası, 07.05.2023, \"Yabancı ehliyet sahibi kişilerle ilgili tüzük değişikliği\"",
+    "title": "Kıbrıs Postası, 07.05.2023, Yabancı ehliyet sahibi kişilerle ilgili tüzük değişikliği",
     "url": "https://www.kibrispostasi.com/c35-KIBRIS_HABERLERI/n470625-yabanci-ehliyet-sahibi-kisilerle-ilgili-tuzuk-degisikligi",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Kıbrıs Postası, 07.05.2023, \"Yabancı ehliyet sahibi kişilerle ilgili tüzük değişikliği\""
   },
   {
     "id": "s22",
     "kind": "secondary",
-    "title": "Kıbrıs Postası, 16.04.2024, \"Öğrenci ehliyet sınavları yazılı yapılacak…\"",
+    "title": "Kıbrıs Postası, 16.04.2024, Öğrenci ehliyet sınavları yazılı yapılacak",
     "url": "https://www.kibrispostasi.com/c35-KIBRIS_HABERLERI/n515215-ogrenci-ehliyet-sinavlari-yazili-yapilacak-alkollu-arac-kullananlarin-araclarina-el-konulacak",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Kıbrıs Postası, 16.04.2024, \"Öğrenci ehliyet sınavları yazılı yapılacak…\""
   },
   {
     "id": "s23",
     "kind": "secondary",
-    "title": "Haber Kıbrıs, 31.12.2025, \"KKTC–TC arasında ehliyet sistemi için altyapı çalışması\"",
+    "title": "Haber Kıbrıs, 31.12.2025, KKTC–TC arasında ehliyet sistemi için altyapı çalışması",
     "url": "https://haberkibris.com/kktctc-arasinda-ehliyet-sistemi-icin-altyapi-calismasi-1344-2025-12-31.html",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Haber Kıbrıs, 31.12.2025, \"KKTC–TC arasında ehliyet sistemi için altyapı çalışması\""
   },
   {
     "id": "s24",
     "kind": "secondary",
-    "title": "Haber Kıbrıs, 24.04.2026, fake-licence ring (\"zorunlu sözlü sınavlar\")",
+    "title": "Haber Kıbrıs, 24.04.2026, KKTC'de trafiği sarsan iddia: sahte ehliyet ağı ortaya çıktı",
     "url": "https://haberkibris.com/kktcde-trafigi-sarsan-iddia-sahte-ehliyet-agi-ortaya-cikti-0850-2026-04-24.html",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Haber Kıbrıs, 24.04.2026, fake-licence ring (\"zorunlu sözlü sınavlar\")"
   },
   {
     "id": "s25",
     "kind": "secondary",
-    "title": "Kıbrıs Gazetesi, 23.02.2025, \"Ehliyet alma sistemi değişiyor\" (driving-school union head E. Tilki: process, lessons, waiting times, no curriculum)",
+    "title": "Kıbrıs Gazetesi, 23.02.2025, Ehliyet alma sistemi değişiyor",
     "url": "https://kibrisgazetesi.com/ehliyet-alma-sistemi-degisiyor/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Kıbrıs Gazetesi, 23.02.2025, \"Ehliyet alma sistemi değişiyor\" (driving-school union head E. Tilki: process, lessons, waiting times, no curriculum)"
   },
   {
     "id": "s26",
     "kind": "secondary",
-    "title": "Havadis, 11.05.2015, \"Ehliyet almak çok kolay\" (TKÖD: 5–10 oral questions; official book not used)",
+    "title": "Havadis, 11.05.2015, Ehliyet almak çok kolay",
     "url": "https://www.havadiskibris.com/ehliyet-almak-cok-kolay/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Havadis, 11.05.2015, \"Ehliyet almak çok kolay\" (TKÖD: 5–10 oral questions; official book not used)"
   },
   {
     "id": "s27",
     "kind": "secondary",
-    "title": "Yenidüzen, 20.04.2019, \"Bazı araçların hız limitleri düştü\" (full Hız Sınırının Kısıtlanması Hakkında Bildiri)",
+    "title": "Yenidüzen, 20.04.2019, Bazı araçların hız limitleri düştü",
     "url": "https://www.yeniduzen.com/bazi-araclarin-hiz-limitleri-dustu-114347h.htm",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Yenidüzen, 20.04.2019, \"Bazı araçların hız limitleri düştü\" (full Hız Sınırının Kısıtlanması Hakkında Bildiri)"
   },
   {
     "id": "s28",
     "kind": "secondary",
-    "title": "Haber Kıbrıs, 04.04.2025, police: legal changes applied from 05.04.2025",
+    "title": "Haber Kıbrıs, 04.04.2025, Trafik suçlarında yapılan yasal değişiklikler uygulanmaya başlanıyor",
     "url": "https://haberkibris.com/trafik-suclarinda-yapilan-yasal-degisiklikler-uygulanmaya-baslaniyor-2042-2025-04-04.html",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Haber Kıbrıs, 04.04.2025, police: legal changes applied from 05.04.2025"
   },
   {
     "id": "s29",
     "kind": "secondary",
-    "title": "Haber Kıbrıs, 12.03.2025, bills approved in committee (alcohol bands, phone 50 pts, Bluetooth allowed)",
+    "title": "Haber Kıbrıs, 12.03.2025, Trafikle ilgili yasa tasarılarında bazı suçlar düzenlendi",
     "url": "https://haberkibris.com/trafikle-ilgili-yasa-tasarilarinda-bazi-suclar-duzenlendi-cezalar-artti-1417-2025-03-12.html",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Haber Kıbrıs, 12.03.2025, bills approved in committee (alcohol bands, phone 50 pts, Bluetooth allowed)"
   },
   {
     "id": "s30",
     "kind": "secondary",
-    "title": "Kıbrıs Genç TV, 04.08.2026, \"Trafik cezaları güncellendi\" (TL amounts)",
+    "title": "Kıbrıs Genç TV, 04.08.2026, Trafik cezaları güncellendi",
     "url": "https://www.kibrisgenctv.com/trafik-cezalari-guncellendi",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Kıbrıs Genç TV, 04.08.2026, \"Trafik cezaları güncellendi\" (TL amounts)"
   },
   {
     "id": "s31",
     "kind": "secondary",
-    "title": "Haber Kıbrıs, 19.01.2023, full fine and points list",
+    "title": "Haber Kıbrıs, 19.01.2023, Yeni trafik cezaları belli oldu",
     "url": "https://haberkibris.com/yeni-trafik-cezalari-belli-oldu-iste-trafik-cezalari-listesi-0816-2023-01-19.html",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Haber Kıbrıs, 19.01.2023, full fine and points list"
   },
   {
     "id": "s32",
     "kind": "secondary",
-    "title": "Kıbrıs Postası, 09.08.2024, alcohol bands in the Yol Güvenliği bill",
+    "title": "Kıbrıs Postası, 09.08.2024, Trafik suçlarının cezaları artıyor",
     "url": "https://www.kibrispostasi.com/c35-KIBRIS_HABERLERI/n529302-resmi-gazetede-yayimlandi-trafik-suclarinin-cezalari-artiyor",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Kıbrıs Postası, 09.08.2024, alcohol bands in the Yol Güvenliği bill"
   },
   {
     "id": "s33",
     "kind": "secondary",
-    "title": "Haber Kıbrıs, 02.05.2026, licence fee increases",
+    "title": "Haber Kıbrıs, 02.05.2026, Araç ruhsatı ve sürüş ehliyeti harçlarına zam",
     "url": "https://haberkibris.com/arac-ruhsati-ve-surus-ehliyeti-harclarina-zam-1146-2026-05-02.html",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Haber Kıbrıs, 02.05.2026, licence fee increases"
   },
   {
     "id": "s34",
     "kind": "secondary",
-    "title": "Kıbrıs Postası, 13.08.2026, PGM security and traffic data",
+    "title": "Kıbrıs Postası, 13.08.2026, PGM: KKTC güvenli bir ülkedir",
     "url": "https://www.kibrispostasi.com/c35-KIBRIS_HABERLERI/n610661-pgm-kktc-guvenli-bir-ulkedir-suclarda-dusus-aydinlatma-oraninda-artis-var",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Kıbrıs Postası, 13.08.2026, PGM security and traffic data"
   },
   {
     "id": "s35",
     "kind": "secondary",
-    "title": "Yenidüzen, 27.03.2026, \"3 ayda 8 can kaybı, 14 yılda 527 ölüm\"",
+    "title": "Yenidüzen, 27.03.2026, 3 ayda 8 can kaybı, 14 yılda 527 ölüm",
     "url": "https://www.yeniduzen.com/3-ayda-8-can-kaybi-14-yilda-527-olum-193494h.htm",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Yenidüzen, 27.03.2026, \"3 ayda 8 can kaybı, 14 yılda 527 ölüm\""
   },
   {
     "id": "s36",
     "kind": "secondary",
-    "title": "Yenidüzen, 30.09.2022, \"Yabancıların ehliyet kaosu\"",
+    "title": "Yenidüzen, 30.09.2022, Yabancıların ehliyet kaosu",
     "url": "https://www.yeniduzen.com/yabancilarin-ehliyet-kaosu-156903h.htm",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Yenidüzen, 30.09.2022, \"Yabancıların ehliyet kaosu\""
   },
   {
     "id": "s37",
     "kind": "secondary",
-    "title": "Haber Kıbrıs, 05.06.2025, police holiday statement (child seats, helmets, numbers)",
+    "title": "Haber Kıbrıs, 05.06.2025, Kurban Bayramı yarın başlıyor",
     "url": "https://haberkibris.com/kurban-bayrami-yarin-basliyor-1524-2025-06-05.html",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Haber Kıbrıs, 05.06.2025, police holiday statement (child seats, helmets, numbers)"
   },
   {
     "id": "s38",
     "kind": "secondary",
-    "title": "Kıbrıs Gazetesi, \"Polis: Araçlarımızda yangın söndürme cihazı bulunduralım\"",
+    "title": "Kıbrıs Gazetesi, Polis: Araçlarımızda yangın söndürme cihazı bulunduralım",
     "url": "https://kibrisgazetesi.com/polis-araclarimizda-yangin-sondurme-cihazi-bulunduralim/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Kıbrıs Gazetesi, \"Polis: Araçlarımızda yangın söndürme cihazı bulunduralım\""
   },
   {
     "id": "s40",
     "kind": "secondary",
-    "title": "Kıbrıs Postası, 2026, e-scooter rules updated",
+    "title": "Kıbrıs Postası, 2026, Elektrikli scooter kullanımında yeni dönem",
     "url": "https://www.kibrispostasi.com/c35-KIBRIS_HABERLERI/n610415-elektrikli-scooter-kullaniminda-yeni-donem-kurallar-guncellendi-50-km-uzerindeki-yollarda-kullanmak-yasak",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Kıbrıs Postası, 2026, e-scooter rules updated"
   },
   {
     "id": "s41",
     "kind": "secondary",
-    "title": "Star Kıbrıs, 20.05.2007, \"Ehliyet sınıfları değiştirildi\"",
+    "title": "Star Kıbrıs, 20.05.2007, Ehliyet sınıfları değiştirildi",
     "url": "https://www.starkibris.net/index.asp?haberID=1153",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Star Kıbrıs, 20.05.2007, \"Ehliyet sınıfları değiştirildi\""
   },
   {
     "id": "s41b",
     "kind": "secondary",
-    "title": "TKÖD statement on 10–15 oral questions (Kıbrıs Postası, \"Avcı: Motosiklet ehliyet yaşı ve sistemi değiştirilmeli\")",
+    "title": "Kıbrıs Postası, Avcı: Motosiklet ehliyet yaşı ve sistemi değiştirilmeli",
     "url": "https://www.kibrispostasi.com/c35-KIBRIS_HABERLERI/n86807-avci-motosiklet-ehliyet-yasi-ve-sistemi-degistirilmeli",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "TKÖD statement on 10–15 oral questions (Kıbrıs Postası, \"Avcı: Motosiklet ehliyet yaşı ve sistemi değiştirilmeli\")"
   },
   {
     "id": "s42",
     "kind": "secondary",
-    "title": "Wikipedia, \"Driving licence in Northern Cyprus\" (uncited; [?] only)",
+    "title": "Wikipedia, Driving licence in Northern Cyprus",
     "url": "https://en.wikipedia.org/wiki/Driving_licence_in_Northern_Cyprus",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Wikipedia, \"Driving licence in Northern Cyprus\" (uncited; [?] only)"
   },
   {
     "id": "s43",
     "kind": "secondary",
-    "title": "Vizyon Şoför Okulu, class page (driving school still markets the old letters H / D / B / A)",
+    "title": "Vizyon Şoför Okulu, KKTC ehliyet sınıfları",
     "url": "https://vizyonsoforokulu.com/kktc-ehliyet-siniflari.html",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Vizyon Şoför Okulu, class page (driving school still markets the old letters H / D / B / A)"
   }
 ]

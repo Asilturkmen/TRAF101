@@ -22,7 +22,8 @@ const props = defineProps({
   seed: { type: Number, default: 1 },
   number: { type: Number, default: 1 },
   total: { type: Number, default: 1 },
-  autofocus: { type: Boolean, default: true },
+  autofocus: { type: Boolean, default: true }, // move focus to each new question
+  focusOnMount: { type: Boolean, default: false },
   showTopic: { type: Boolean, default: true },
 });
 const emit = defineEmits(['update:modelValue', 'answered', 'next']);
@@ -73,7 +74,9 @@ watch(
     focusHeading();
   },
 );
-onMounted(focusHeading);
+onMounted(() => {
+  if (props.focusOnMount) focusHeading();
+});
 
 function stateClass(o) {
   if (!revealed.value) return { selected: selected.value === o.id };

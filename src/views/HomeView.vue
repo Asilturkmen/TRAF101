@@ -3,7 +3,7 @@ import { computed, ref } from 'vue';
 import { RouterLink } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import {
-  ArrowRight, BookOpen, RefreshCcw, ClipboardCheck, ShieldCheck, WifiOff, Languages, Scale,
+  ArrowRight, BookOpen, RefreshCcw, ClipboardCheck, ShieldCheck, Lock, Languages, Scale,
   Car, Bike, Bus, Check, X, Flag, MessageSquareWarning,
 } from 'lucide-vue-next';
 import { usePage, useLang } from '../composables/usePage.js';
@@ -413,7 +413,7 @@ const sampleCorrect = computed(() => picked.value && sample.value?.choices.find(
         </div>
         <ul class="grid grid-4 trust-grid">
           <li v-for="(item, i) in c.trust" :key="item.title" class="trust-item">
-            <component :is="[ShieldCheck, ClipboardCheck, MessageSquareWarning, WifiOff][i]" :size="28" :stroke-width="1.75" class="trust-icon" aria-hidden="true" />
+            <component :is="[ShieldCheck, ClipboardCheck, MessageSquareWarning, Lock][i]" :size="28" :stroke-width="1.75" class="trust-icon" aria-hidden="true" />
             <h3>{{ item.title }}</h3>
             <p>{{ item.text || c.checked(checkedDate) }}</p>
           </li>
@@ -1119,6 +1119,11 @@ const sampleCorrect = computed(() => picked.value && sample.value?.choices.find(
 .link-arrow:hover {
   text-decoration: underline;
 }
+.choice-btn {
+  font: inherit;
+  color: inherit;
+  width: 100%;
+}
 .choice-btn:disabled {
   cursor: default;
 }
@@ -1218,10 +1223,14 @@ const sampleCorrect = computed(() => picked.value && sample.value?.choices.find(
   margin: 0 auto;
 }
 .license-card {
-  display: block;
+  display: flex;
+  flex-direction: column;
   height: 100%;
   text-decoration: none;
   color: inherit;
+}
+.license-card .license-desc {
+  flex: 1;
 }
 .license-icon {
   color: var(--color-primary);

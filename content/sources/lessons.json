@@ -1,37 +1,26 @@
 [
   {
-    "id": "le-erc-2025-first-aid",
-    "kind": "reference",
-    "title": "European Resuscitation Council Guidelines 2025: First Aid (Resuscitation 215, 2025, 110752)",
-    "url": "https://www.erc.edu/media/i2vllpae/gl2025-12-faid-e.pdf",
-    "checkedAt": "2026-10-20"
-  },
-  {
     "id": "le-erc-2025-summary",
     "kind": "reference",
-    "title": "European Resuscitation Council Guidelines 2025: Executive Summary (adult basic life support: compression depth and rate, 30:2, compression-only CPR for untrained rescuers)",
+    "title": "European Resuscitation Council Guidelines 2025: Executive Summary",
     "url": "https://www.resuscitationjournal.com/article/S0300-9572(25)00282-5/fulltext",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "European Resuscitation Council Guidelines 2025: Executive Summary (adult basic life support: compression depth and rate, 30:2, compression-only CPR for untrained rescuers)"
   },
   {
     "id": "le-erc-2021-first-aid",
     "kind": "reference",
-    "title": "European Resuscitation Council Guidelines 2021: First Aid (burn cooling and shock; the 2025 edition leaves burn cooling out of scope)",
+    "title": "European Resuscitation Council Guidelines 2021: First Aid",
     "url": "https://www.resuscitationjournal.com/article/S0300-9572(21)00066-6/fulltext",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "European Resuscitation Council Guidelines 2021: First Aid (burn cooling and shock; the 2025 edition leaves burn cooling out of scope)"
   },
   {
     "id": "le-highway-code",
     "kind": "reference",
-    "title": "The Highway Code (Great Britain), rule 126: stopping distances and the two-second gap",
+    "title": "The Highway Code (UK), rule 126",
     "url": "https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158",
-    "checkedAt": "2026-10-20"
-  },
-  {
-    "id": "le-wiki-road-signs-cyprus",
-    "kind": "secondary",
-    "title": "Wikipedia, \"Road signs in Cyprus\", Northern Cyprus section (DUR, Turkish text, red crescent, street names)",
-    "url": "https://en.wikipedia.org/wiki/Road_signs_in_Cyprus",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "The Highway Code (Great Britain), rule 126: stopping distances and the two-second gap"
   }
 ]

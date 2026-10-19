@@ -32,7 +32,7 @@
     "privacy": "Gizlilik",
     "report": "Hata bildir",
     "notOfficial": "Resmi bir kurum değildir.",
-    "checked": "İçerik son kontrol: {date}",
+    "checked": "İçerik son kontrol: {date}.",
     "license": "Levha çizimleri CC0 lisanslıdır."
   },
   "common": {

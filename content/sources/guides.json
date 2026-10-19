@@ -2,15 +2,17 @@
   {
     "id": "gu-infonorthcyprus",
     "kind": "secondary",
-    "title": "Infonorthcyprus, \"Driving licence\" (reviewed July 2026; the driving school applies for the learner permit and arranges the sign test; conversion steps)",
+    "title": "Infonorthcyprus, Driving licence",
     "url": "https://www.infonorthcyprus.com/driving-licence",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Infonorthcyprus, \"Driving licence\" (reviewed July 2026; the driving school applies for the learner permit and arranges the sign test; conversion steps)"
   },
   {
     "id": "gu-webkit-storage",
     "kind": "reference",
-    "title": "WebKit blog, \"Full Third-Party Cookie Blocking and More\" (Safari deletes script-writable storage, including localStorage, of sites not used for a while; web apps added to the home screen keep their own counter)",
+    "title": "WebKit blog, Full Third-Party Cookie Blocking and More",
     "url": "https://webkit.org/blog/10218/full-third-party-cookie-blocking-and-more/",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "WebKit blog, \"Full Third-Party Cookie Blocking and More\" (Safari deletes script-writable storage, including localStorage, of sites not used for a while; web apps added to the home screen keep their own counter)"
   }
 ]

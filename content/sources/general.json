@@ -2,16 +2,18 @@
   {
     "id": "ge-erc-2025-first-aid",
     "kind": "reference",
-    "title": "Djärv T. et al., European Resuscitation Council Guidelines 2025: First Aid. Resuscitation 215 (2025) 110752",
+    "title": "European Resuscitation Council Guidelines 2025: First Aid",
     "url": "https://doi.org/10.1016/j.resuscitation.2025.110752",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Djärv T. et al., European Resuscitation Council Guidelines 2025: First Aid. Resuscitation 215 (2025) 110752"
   },
   {
     "id": "ge-rcuk-2025-adult-bls",
     "kind": "reference",
-    "title": "Resuscitation Council UK, Adult basic life support guidelines 2025 (based on the European Resuscitation Council Guidelines 2025 Adult Basic Life Support)",
+    "title": "Resuscitation Council UK, Adult basic life support guidelines 2025",
     "url": "https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "Resuscitation Council UK, Adult basic life support guidelines 2025 (based on the European Resuscitation Council Guidelines 2025 Adult Basic Life Support)"
   },
   {
     "id": "ge-nhs-burns",
@@ -23,8 +25,9 @@
   {
     "id": "ge-nsw-motorcycle-first-aid",
     "kind": "reference",
-    "title": "NSW Government (Transport for NSW), Emergency first aid for motorcycle accidents",
+    "title": "Transport for NSW, Emergency first aid for motorcycle accidents",
     "url": "https://www.nsw.gov.au/driving-boating-and-transport/roads-safety-and-rules/motorcycles-and-scooters/first-aid",
-    "checkedAt": "2026-10-20"
+    "checkedAt": "2026-10-20",
+    "note": "NSW Government (Transport for NSW), Emergency first aid for motorcycle accidents"
   }
 ]

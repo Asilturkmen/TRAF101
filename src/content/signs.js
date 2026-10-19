@@ -37,6 +37,10 @@ const ICON = {
 };
 export const categoryIcon = (id) => signById(ICON[id]) || signsInCategory(id)[0] || null;
 
+// Variants that mean the same thing must never be offered as each other's distractor.
+const SAME_MEANING = [['priority.stop', 'priority.stop--dur-stop']];
+const sameMeaning = (a, b) => SAME_MEANING.some((g) => g.includes(a.id) && g.includes(b.id));
+
 // "What does this sign mean?" questions are generated from the sign data so the
 // study pages and the quizzes can never disagree. Distractors prefer the signs the
 // data lists as easily confused, then signs of the same category.
@@ -48,7 +52,7 @@ export function signQuestion(sign) {
   const pool = [];
   for (const s of [...confusions, ...sameCategory, ...others]) {
     if (pool.length === 3) break;
-    if (!pool.includes(s) && s.name.tr !== sign.name.tr) pool.push(s);
+    if (!pool.includes(s) && s.name.tr !== sign.name.tr && !sameMeaning(s, sign)) pool.push(s);
   }
   const ordered = shuffle([sign, ...pool], rand);
   const letters = ['a', 'b', 'c', 'd'];
