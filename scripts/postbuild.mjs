@@ -39,6 +39,40 @@ const toUrlPath = (file) => {
 const notFound = path.join(dist, '404', 'index.html');
 if (fs.existsSync(notFound)) fs.copyFileSync(notFound, path.join(dist, '404.html'));
 
+// Practice screens build their content in the browser from the question bank. The
+// data chunks are only discovered after the app and route chunks run, so they are
+// announced in the HTML to download in parallel from the start.
+{
+  const assets = fs.readdirSync(path.join(dist, 'assets'));
+  const chunk = (name) => assets.find((f) => f.startsWith(`${name}-`) && f.endsWith('.js'));
+  // The question bank chunk is per language (virtual:questions/tr and /en).
+  const NEEDS = {
+    'SessionView-': ['bank', 'signs'],
+    'MockExamView-': ['bank', 'signs'],
+    'MockResultView-': ['bank', 'signs'],
+    'ScenarioQuizView-': ['scenarios', 'signs'],
+    'SignExamView-': ['signs'],
+  };
+  let n = 0;
+  for (const file of walk(dist).filter((f) => f.endsWith('.html'))) {
+    let html = fs.readFileSync(file, 'utf8');
+    const wanted = new Set();
+    for (const [view, chunks] of Object.entries(NEEDS)) if (html.includes(`/assets/${view}`)) chunks.forEach((c) => wanted.add(c));
+    const lang = (html.match(/<html lang="([a-z]+)"/) || [])[1] === 'en' ? 'en' : 'tr';
+    const links = [...wanted]
+      .map((c) => chunk(c === 'bank' ? lang : c))
+      .filter((f) => f && !html.includes(`/assets/${f}`))
+      .map((f) => `<link rel="modulepreload" crossorigin href="/assets/${f}">`)
+      .join('');
+    if (links) {
+      html = html.replace('</head>', `${links}</head>`);
+      fs.writeFileSync(file, html);
+      n++;
+    }
+  }
+  console.log(`[postbuild] data preloads added to ${n} pages`);
+}
+
 // Legacy files from the course version are not part of the product.
 for (const f of ['signs.json', 'scenarios.json']) fs.rmSync(path.join(dist, f), { force: true });
 

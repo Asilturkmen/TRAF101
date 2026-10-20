@@ -8,7 +8,6 @@ import { PartyPopper, CircleAlert, Inbox } from 'lucide-vue-next';
 import { usePage, useLang } from '../composables/usePage.js';
 import { usePool } from '../composables/usePool.js';
 import { lessonMetaBySlug } from '../content/meta.js';
-import { questionsFor } from '../content/questions.js';
 import { buildDailyReview, buildLessonPractice, buildMistakes } from '../lib/sessions.js';
 import { dayNumber } from '../lib/leitner.js';
 import { to, lessonPath, lessonPracticePath, lessonTitle, both } from '../lib/paths.js';
@@ -21,7 +20,7 @@ import NotFoundView from './NotFoundView.vue';
 const { t } = useI18n();
 const lang = useLang();
 const route = useRoute();
-const { progress, pool } = usePool();
+const { progress, pool, bank, ready: poolReady } = usePool();
 const mode = computed(() => route.meta.key); // review | lessonPractice | mistakes
 
 const lessonMeta = computed(() => (mode.value === 'lessonPractice' ? lessonMetaBySlug(lang.value, route.params.lesson) : null));
@@ -110,7 +109,7 @@ function build() {
   let list = [];
   if (mode.value === 'review') list = buildDailyReview(pool.value, progress.items, day);
   else if (mode.value === 'mistakes') list = buildMistakes(pool.value, progress.items);
-  else if (lessonMeta.value) list = buildLessonPractice(questionsFor({ lesson: lessonMeta.value.id }), progress.items, day);
+  else if (lessonMeta.value) list = buildLessonPractice(bank.value.questionsFor({ lesson: lessonMeta.value.id }), progress.items, day);
   queue.value = list;
   index.value = 0;
   answer.value = null;
@@ -119,8 +118,8 @@ function build() {
   ready.value = true;
 }
 
-onMounted(() => {
-  progress.load();
+onMounted(async () => {
+  await poolReady;
   build();
 });
 

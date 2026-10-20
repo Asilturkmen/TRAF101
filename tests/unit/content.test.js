@@ -1,7 +1,10 @@
 import { describe, it, expect } from 'vitest';
 import { execFileSync } from 'node:child_process';
 import { signs, signQuestion, categories, signBySlug } from '../../src/content/signs.js';
-import { allQuestions, writtenQuestions } from '../../src/content/questions.js';
+import { loadQuestions } from '../../src/content/questions.js';
+
+const { allQuestions, writtenQuestions } = await loadQuestions('tr');
+const enBank = await loadQuestions('en');
 import { lessons, pageById, PAGE_SLUGS } from '../../src/content/docs.js';
 import { TABLE, pathFor } from '../../src/router/table.js';
 import { proseToHtml } from '../../src/lib/text.js';
@@ -34,6 +37,14 @@ describe('generated sign questions', () => {
 });
 
 describe('question bank', () => {
+  it('loads one language per bank with the same items', () => {
+    expect(enBank.allQuestions.map((q) => q.id)).toEqual(allQuestions.map((q) => q.id));
+    const tr = allQuestions.find((q) => !q.generated);
+    expect(tr.prompt.tr).toBeTruthy();
+    expect(tr.prompt.en).toBeUndefined();
+    expect(enBank.questionById(tr.id).prompt.en).toBeTruthy();
+  });
+
   it('has unique ids across written and generated items', () => {
     expect(new Set(allQuestions.map((q) => q.id)).size).toBe(allQuestions.length);
     expect(writtenQuestions.length).toBeGreaterThan(300);

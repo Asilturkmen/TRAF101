@@ -2,7 +2,9 @@ import { describe, it, expect } from 'vitest';
 import { shuffle, mulberry32, sample } from '../../src/lib/random.js';
 import { buildMock, scoreAnswers, interleave, buildDailyReview, readiness } from '../../src/lib/sessions.js';
 import { answer } from '../../src/lib/leitner.js';
-import { allQuestions } from '../../src/content/questions.js';
+import { loadQuestions } from '../../src/content/questions.js';
+
+const { allQuestions } = await loadQuestions('tr');
 import { examProfile, tracks, formatById } from '../../src/content/meta.js';
 
 describe('random', () => {

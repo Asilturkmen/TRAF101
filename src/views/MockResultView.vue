@@ -1,12 +1,12 @@
 <script setup>
-import { computed, onMounted, ref } from 'vue';
+import { computed, onMounted, ref, shallowRef } from 'vue';
 import { RouterLink, useRoute } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { Trophy, RotateCcw, ClipboardList } from 'lucide-vue-next';
 import { usePage, useLang } from '../composables/usePage.js';
 import { useProgress } from '../stores/progress.js';
 import { trackById, topicById } from '../content/meta.js';
-import { questionById } from '../content/questions.js';
+import { loadQuestions } from '../content/questions.js';
 import { to, mockPath, both } from '../lib/paths.js';
 import { tx, fmtDuration, fmtPercent } from '../lib/text.js';
 import PageHero from '../components/PageHero.vue';
@@ -18,8 +18,11 @@ const lang = useLang();
 const route = useRoute();
 const progress = useProgress();
 const ready = ref(false);
-onMounted(() => {
+const bank = shallowRef(null);
+const questionById = (id) => bank.value?.questionById(id) || null;
+onMounted(async () => {
   progress.load();
+  bank.value = await loadQuestions(lang.value);
   ready.value = true;
 });
 
@@ -32,7 +35,7 @@ const track = computed(() => (attempt.value ? trackById(attempt.value.track) : n
 const questions = computed(() =>
   attempt.value
     ? attempt.value.questionIds
-        .map(questionById)
+        .map((id) => questionById(id))
         .filter(Boolean)
         .map((q) => ({
           ...q,

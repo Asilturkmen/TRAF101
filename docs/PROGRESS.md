@@ -27,8 +27,9 @@ Plan: `docs/PLAN.md`. Branch: `dev` (main'e dokunulmadı). Uygulama 2026-10-20 g
 | Soru 4 | Motosiklet, ağır vasıta, senaryolar | 28 + 47 soru, 35 senaryo |
 | Ders | 17 konu sayfası | `content/lessons/` |
 | Rehber | 6 rehber sayfası, terim sözlüğü, doğrulama listesi, envanter eşlemesi | `content/pages/`, `docs/` |
-| Dil editörü | TR ve EN dil kontrolü (F2.7) | |
-| Bağımsız inceleme | Codex, çekirdek kod | `docs/QA-REPORT.md` |
+| Dil editörü | TR ve EN dil kontrolü (F2.7) | Bütün içerik gözden geçirildi |
+| Olgu denetçisi | Dil editörünün işaretlediği 10 olgu | 8 düzeltme, 1 doğru, 1 sayı kaldırıldı |
+| Bağımsız inceleme | Codex, iki tur | 21 bulgu, hepsi doğrulandı ve düzeltildi (`docs/QA-REPORT.md`) |
 
 ## Varsayımlar ve plan içi kararlar
 
@@ -39,6 +40,8 @@ Plan: `docs/PLAN.md`. Branch: `dev` (main'e dokunulmadı). Uygulama 2026-10-20 g
 - **Senaryo görselleri:** emoji yerine isteğe bağlı levha çizimi kullanılıyor; levhası olmayan senaryolar yalnız metinle gösteriliyor.
 - **Hata bildir:** alt bilgi deponun GitHub issue sayfasına bağlanıyor (A4 varsayılanı).
 - **Deneme süresi:** sekme arka plandayken süre işlemiyor; kapatılan sınav kaldığı süreden devam ediyor.
+- **Levha penceresi yerine levha sayfaları:** plandaki "levha penceresi gerçek bir dialog" maddesi, eski Study sayfasındaki pencere içindi. Her levhanın artık kendi önceden üretilmiş sayfası var (arama motoru ve paylaşım için daha iyi); pencere kaldırıldı, içeriği levha sayfasına taşındı. Uygulamadaki diğer pencereler (menü, onaylar) yerel `<dialog>`.
+- **Soru bankası dile göre bölündü:** her dil için ayrı, isteğe bağlı yüklenen bir dosya; ayrıntı `docs/QA-REPORT.md`.
 - **DAÜ logosu:** izin gelene kadar yayından kaldırıldı, `docs/assets/emu-logo.png` içinde saklanıyor.
 
 ## Bilinçli olarak yapılmayanlar (v1.1, plan bölüm 9)

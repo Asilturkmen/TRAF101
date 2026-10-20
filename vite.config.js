@@ -77,13 +77,43 @@ function slugMap() {
   return map;
 }
 
+// virtual:questions/tr and virtual:questions/en: the written question bank with only
+// one language's text, emitted as a JSON.parse string. Practice screens load the
+// bank for their own language only, which halves the download and parse time.
+function questionsByLang() {
+  const isText = (o) => o && typeof o === 'object' && !Array.isArray(o) && typeof o.tr === 'string' && typeof o.en === 'string';
+  const strip = (o, lang) => {
+    if (Array.isArray(o)) return o.map((x) => strip(x, lang));
+    if (isText(o)) return { [lang]: o[lang] };
+    if (o && typeof o === 'object') return Object.fromEntries(Object.entries(o).map(([k, v]) => [k, strip(v, lang)]));
+    return o;
+  };
+  return {
+    name: 't2d-questions-by-lang',
+    resolveId(id) {
+      if (id.startsWith('virtual:questions/')) return '\0' + id;
+    },
+    load(id) {
+      if (!id.startsWith('\0virtual:questions/')) return;
+      const lang = id.split('/').pop();
+      const files = jsonFiles('content/questions');
+      for (const f of files) this.addWatchFile(path.join(root, f));
+      const data = files.flatMap(readJson).map((q) => strip(q, lang));
+      return `export default JSON.parse(${JSON.stringify(JSON.stringify(data))});`;
+    },
+  };
+}
+
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [vue(), questionsByLang()],
   define: {
     __CONTENT_STATS__: JSON.stringify(contentStats()),
     __SLUG_MAP__: JSON.stringify(slugMap()),
     __VUE_PROD_HYDRATION_MISMATCH_DETAILS__: JSON.stringify(!!process.env.HYDRATION_DEBUG),
   },
+  // Large content JSON is emitted as JSON.parse("...") strings, which parse much
+  // faster than the equivalent object literals.
+  json: { stringify: true },
   server: { port: Number(process.env.PORT) || 5173 },
   cacheDir: process.env.VITE_CACHE_DIR || 'node_modules/.vite',
   test: {

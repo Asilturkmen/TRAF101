@@ -2,14 +2,14 @@
 // Timed mock exam in the regulation format. No feedback until the end; questions
 // can be flagged and revisited; state is saved after every change so a reload or a
 // closed tab resumes where the learner left off.
-import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue';
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, shallowRef, watch } from 'vue';
 import { RouterLink, useRoute, useRouter, onBeforeRouteLeave } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { Flag, ChevronLeft, ChevronRight, Clock, ListChecks } from 'lucide-vue-next';
 import { usePage, useLang } from '../composables/usePage.js';
 import { useProgress } from '../stores/progress.js';
 import { trackBySlug, formatById } from '../content/meta.js';
-import { allQuestions, questionById } from '../content/questions.js';
+import { loadQuestions } from '../content/questions.js';
 import { buildMock, scoreAnswers } from '../lib/sessions.js';
 import { to, mockPath } from '../lib/paths.js';
 import { tx } from '../lib/text.js';
@@ -90,13 +90,16 @@ usePage({
   noindex: true,
 });
 
+// The question bank is loaded in the browser for this page's language.
+const bank = shallowRef(null);
+const questionById = (id) => bank.value?.questionById(id) || null;
 const state = ref(null); // { track, format, questionIds, key, revs, answers, flagged, index, startedAt, elapsed, limit, seed }
 // The answer key is frozen when the exam starts, so a content update between
 // sessions can never change what a saved answer is worth.
 const questions = computed(() =>
   state.value
     ? state.value.questionIds
-        .map(questionById)
+        .map((id) => questionById(id))
         .filter(Boolean)
         .map((q) => ({ ...q, answer: state.value.key?.[q.id] ?? q.answer }))
     : [],
@@ -128,7 +131,7 @@ function save() {
 }
 
 function start() {
-  const pool = allQuestions.filter((q) => q.tracks.includes(track.value.id));
+  const pool = bank.value.allQuestions.filter((q) => q.tracks.includes(track.value.id));
   const { questions: qs, missing } = buildMock(format.value, pool);
   shortage.value = Object.keys(missing).length > 0;
   const factor = progress.settings.timeFactor ?? 1;
@@ -158,9 +161,10 @@ function onVisibility() {
   if (document.hidden) save();
   lastTick = Date.now();
 }
-onMounted(() => {
+onMounted(async () => {
   progress.load();
   if (!track.value) return;
+  bank.value = await loadQuestions(lang.value);
   const saved = progress.mockFor(track.value.id);
   if (saved && saved.questionIds?.length && saved.questionIds.every((id) => questionById(id))) state.value = { ...saved, key: saved.key || {} };
   else start();

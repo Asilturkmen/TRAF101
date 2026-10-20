@@ -182,7 +182,8 @@ const pool = ref([]);
 onMounted(async () => {
   progress.load();
   if (!progress.hasProgress) return;
-  const { allQuestions } = await import('../content/questions.js');
+  const { loadQuestions } = await import('../content/questions.js');
+  const { allQuestions } = await loadQuestions(lang.value);
   const track = progress.settings.track || 'car';
   pool.value = allQuestions.filter((q) => q.tracks.includes(track));
 });
