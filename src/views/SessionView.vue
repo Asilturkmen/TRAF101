@@ -123,9 +123,9 @@ onMounted(async () => {
   build();
 });
 
-function onAnswered(correct) {
+function onAnswered(correct, opts = {}) {
   const q = current.value;
-  progress.record(q, correct);
+  progress.record(q, correct, opts);
   if (!(q.id in firstTry.value)) firstTry.value = { ...firstTry.value, [q.id]: correct };
   // A wrong answer returns once, after at least a few other questions.
   if (!correct && !requeued.value.has(q.id) && mode.value !== 'mistakes') {

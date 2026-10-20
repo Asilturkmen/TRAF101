@@ -37,7 +37,7 @@ const otherPath = computed(() => otherLanguagePath(route, { withQuery: hydrated.
 
 const nav = computed(() => [
   { key: 'practise', label: t('nav.practise'), path: to('practise', lang.value), match: ['practise', 'review', 'lessonPractice', 'signExam', 'mistakes', 'scenarios'] },
-  { key: 'signs', label: t('nav.signs'), path: to('signs', lang.value), match: ['signs', 'signCategory', 'sign'] },
+  { key: 'signs', label: t('nav.signs'), path: to('signs', lang.value), match: ['signs', 'signCategory', 'sign', 'signsPrint'] },
   { key: 'topics', label: t('nav.topics'), path: to('topics', lang.value), match: ['topics', 'lesson'] },
   { key: 'mock', label: t('nav.mock'), path: to('mock', lang.value), match: ['mock', 'mockExam', 'mockResult'] },
   { key: 'progress', label: t('nav.progress'), path: to('progress', lang.value), match: ['progress'] },
@@ -111,6 +111,8 @@ const footer = computed(() => [
       { label: t('footer.exam'), path: to('exam', lang.value) },
       { label: t('footer.licence'), path: to('licence', lang.value) },
       { label: t('footer.leftDriving'), path: to('leftDriving', lang.value) },
+      { label: t('footer.glossary'), path: to('glossary', lang.value) },
+      { label: t('footer.printSigns'), path: to('signsPrint', lang.value) },
     ],
   },
   {

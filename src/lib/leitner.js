@@ -30,11 +30,18 @@ export function reconcile(entry, rev) {
   return { ...entry, b, r: rev };
 }
 
-export function answer(entry, correct, day, rev = 1) {
+// `unsure`: the learner got it right but said they guessed. The item keeps its box
+// and comes back after that box's interval; a guess never counts as knowing.
+export function answer(entry, correct, day, rev = 1, { unsure = false } = {}) {
   const e = { ...reconcile(entry, rev) };
   if (e.s === 0) e.f = day; // first day this item was seen (daily new-item limit)
   e.s += 1;
   e.l = day;
+  if (correct && unsure) {
+    if (e.b === 0) e.b = 1;
+    e.d = day + INTERVAL[e.b];
+    return e;
+  }
   if (correct) {
     if (e.p !== day) {
       e.b = e.b === 0 ? 2 : Math.min(6, e.b + 1);

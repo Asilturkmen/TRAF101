@@ -46,10 +46,10 @@ export const useProgress = defineStore('progress', {
     snapshot() {
       return JSON.parse(JSON.stringify(Object.fromEntries(PERSISTED.map((k) => [k, this[k]]))));
     },
-    record(item, correct) {
+    record(item, correct, opts = {}) {
       const day = dayNumber();
       this.mutate((s) => {
-        s.items[item.id] = leitnerAnswer(s.items[item.id], correct, day, item.rev || 1);
+        s.items[item.id] = leitnerAnswer(s.items[item.id], correct, day, item.rev || 1, opts);
         if (!s.stats.days.includes(day)) s.stats.days = [...s.stats.days.slice(-89), day];
       });
     },

@@ -23,6 +23,7 @@ const copy = {
     explore: 'Tüm levhaları gör',
     more: (n) => `+${n}`,
     rehearse: 'Levha sınavı provasına gir',
+    printList: 'Yazdırılabilir liste',
     rehearseText: 'Bugünkü sözlü sınavda müfettiş levha sorar. Provada levhayı görür, anlamını söyler, sonra cevabı açarsın.',
   },
   en: {
@@ -35,6 +36,7 @@ const copy = {
     explore: 'See all signs',
     more: (n) => `+${n}`,
     rehearse: 'Start the sign exam rehearsal',
+    printList: 'Printable list',
     rehearseText: 'In today’s oral exam the inspector asks about signs. In the rehearsal you see a sign, say what it means, then reveal the answer.',
   },
 };
@@ -113,7 +115,10 @@ const results = computed(() => {
             <h2>{{ c.rehearse }}</h2>
             <p>{{ c.rehearseText }}</p>
           </div>
-          <RouterLink :to="to('signExam', lang)" class="btn btn-primary">{{ c.rehearse }}</RouterLink>
+          <div class="rehearse-actions">
+            <RouterLink :to="to('signExam', lang)" class="btn btn-primary">{{ c.rehearse }}</RouterLink>
+            <RouterLink :to="to('signsPrint', lang)" class="btn btn-ghost">{{ c.printList }}</RouterLink>
+          </div>
         </aside>
       </div>
     </section>
@@ -283,6 +288,14 @@ const results = computed(() => {
   background: white;
   border: 2px solid var(--color-primary);
   border-radius: var(--radius-xl);
+}
+.rehearse-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.rehearse-actions .btn {
+  width: auto;
 }
 .rehearse-card h2 {
   font-size: 1.375rem;

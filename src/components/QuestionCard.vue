@@ -11,6 +11,22 @@ import BasisLine from './BasisLine.vue';
 import { signById } from '../content/signs.js';
 import { topicById } from '../content/meta.js';
 import { lessonPath } from '../lib/paths.js';
+
+// A prefilled GitHub issue for reporting a mistake in this question (K16).
+const REPO_ISSUES = 'https://github.com/Asilturkmen/TRAF101/issues/new';
+const reportUrl = computed(() => {
+  const q = props.question;
+  const title = `${props.lang === 'tr' ? 'Soru hatası' : 'Question error'}: ${q.id}`;
+  const body = [
+    `Soru / Question: ${q.id} (rev ${q.rev || 1}, ${props.lang})`,
+    '',
+    tx(q.prompt, props.lang),
+    '',
+    props.lang === 'tr' ? 'Ne yanlış? Mümkünse kaynak ekle:' : 'What is wrong? Add a source if you can:',
+    '',
+  ].join('\n');
+  return `${REPO_ISSUES}?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
+});
 import { hashString, mulberry32, shuffle } from '../lib/random.js';
 import { tx } from '../lib/text.js';
 
@@ -40,6 +56,7 @@ const sign = computed(() => (props.question.signId ? signById(props.question.sig
 const topic = computed(() => topicById(props.question.topic));
 
 const checked = ref(false);
+const unsure = ref(false); // "I guessed": a correct guess does not promote the item
 const selected = computed({
   get: () => props.modelValue,
   set: (v) => emit('update:modelValue', v),
@@ -58,7 +75,7 @@ function check() {
   announcement.value = isCorrect.value
     ? `${t('common.correct')}.`
     : `${t('common.wrong')}. ${t('common.correctAnswer', { answer })}.`;
-  emit('answered', isCorrect.value);
+  emit('answered', isCorrect.value, { unsure: unsure.value });
   nextTick(() => nextButton.value?.focus());
 }
 
@@ -70,6 +87,7 @@ watch(
   () => props.question.id,
   () => {
     checked.value = false;
+    unsure.value = false;
     announcement.value = '';
     focusHeading();
   },
@@ -120,6 +138,10 @@ function stateClass(o) {
         </div>
       </fieldset>
 
+      <label v-if="mode === 'practice' && !checked" class="unsure">
+        <input v-model="unsure" type="checkbox" />
+        <span>{{ lang === 'tr' ? 'Emin değilim, tahmin ediyorum' : "I'm not sure, I'm guessing" }}</span>
+      </label>
       <div v-if="mode === 'practice' && !checked" class="quiz-actions">
         <button type="submit" class="btn btn-primary btn-large" :disabled="!selected">{{ t('common.check') }}</button>
       </div>
@@ -141,8 +163,12 @@ function stateClass(o) {
         <p>{{ tx(question.why, lang) }}</p>
       </div>
       <BasisLine :item="question" :lang="lang" />
-      <p v-if="question.lesson && !question.generated" class="basis-line">
-        <RouterLink :to="lessonPath(question.lesson, lang)">{{ t('common.seeLesson') }}</RouterLink>
+      <p class="basis-line feedback-links">
+        <RouterLink v-if="question.lesson && !question.generated" :to="lessonPath(question.lesson, lang)">{{ t('common.seeLesson') }}</RouterLink>
+        <a :href="reportUrl" target="_blank" rel="noopener" class="report-link">{{ lang === 'tr' ? 'Bu soruda hata var' : 'Report a mistake in this question' }}</a>
+      </p>
+      <p v-if="mode === 'practice' && unsure && isCorrect" class="basis-line">
+        {{ lang === 'tr' ? 'Tahminle doğru bildin; bu soru yakında yeniden sorulacak.' : 'You guessed right; this question will come back soon.' }}
       </p>
       <div v-if="mode === 'practice'" class="quiz-actions">
         <button ref="nextButton" type="button" class="btn btn-primary btn-large" @click="emit('next')">
@@ -163,5 +189,26 @@ function stateClass(o) {
 }
 .quiz-card legend {
   width: 100%;
+}
+.unsure {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  min-height: 44px;
+  margin: -0.5rem 0 0.25rem;
+  font-size: 0.9375rem;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+}
+.unsure input {
+  width: 20px;
+  height: 20px;
+  accent-color: var(--color-primary);
+}
+.feedback-links {
+  justify-content: space-between;
+}
+.report-link {
+  color: var(--color-text-secondary) !important;
 }
 </style>

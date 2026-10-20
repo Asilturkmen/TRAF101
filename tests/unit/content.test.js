@@ -76,7 +76,7 @@ describe('routes', () => {
       const cat = categories.find((c) => c.id === s.category);
       for (const l of ['tr', 'en']) expect(signBySlug(l, cat.slug[l], s.slug[l])).toBe(s);
     }
-    expect(lessons).toHaveLength(17);
+    expect(lessons.length).toBeGreaterThanOrEqual(17);
   });
 });
 

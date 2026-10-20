@@ -86,8 +86,8 @@ usePage({
   }),
 });
 
-function onAnswered(correct) {
-  progress.record(question.value, correct);
+function onAnswered(correct, opts = {}) {
+  progress.record(question.value, correct, opts);
 }
 </script>
 

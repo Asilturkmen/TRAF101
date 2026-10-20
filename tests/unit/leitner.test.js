@@ -38,6 +38,17 @@ describe('leitner schedule', () => {
     expect(inMistakes(e)).toBe(false);
   });
 
+  it('does not promote a correct guess', () => {
+    let e = answer(null, true, 100);
+    expect(e.b).toBe(2);
+    e = answer(e, true, 101, 1, { unsure: true });
+    expect(e.b).toBe(2);
+    expect(e.d).toBe(101 + INTERVAL[2]);
+    const fresh = answer(null, true, 100, 1, { unsure: true });
+    expect(fresh.b).toBe(1);
+    expect(inMistakes(fresh)).toBe(false);
+  });
+
   it('caps the box at 6', () => {
     let e = null;
     for (let d = 0; d < 20; d++) e = answer(e, true, d);

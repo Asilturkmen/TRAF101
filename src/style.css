@@ -457,3 +457,22 @@ a.card:hover,
     transform: none !important;
   }
 }
+
+/* Printing: only the page content, no site chrome. */
+@media print {
+  .app-header,
+  .app-footer,
+  .notice,
+  .skip-link,
+  .update-toast,
+  .menu-sheet {
+    display: none !important;
+  }
+  body {
+    background: white;
+  }
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}

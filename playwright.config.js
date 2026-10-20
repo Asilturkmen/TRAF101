@@ -1,6 +1,10 @@
-import { defineConfig } from '@playwright/test';
+import { defineConfig, devices } from '@playwright/test';
 
 // End-to-end tests run against the production build (npm run build first).
+// Locally Chromium projects use the installed Microsoft Edge; the iPhone project
+// uses Playwright's WebKit, the engine behind Safari on iOS.
+const edge = process.env.CI ? {} : { executablePath: 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe' };
+
 export default defineConfig({
   testDir: 'tests/e2e',
   timeout: 90_000,
@@ -8,12 +12,12 @@ export default defineConfig({
   reporter: 'list',
   use: {
     baseURL: 'http://localhost:4179',
-    launchOptions: process.env.CI ? {} : { executablePath: 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe' },
     locale: 'tr-TR',
   },
   projects: [
-    { name: 'desktop', use: { viewport: { width: 1440, height: 900 } } },
-    { name: 'phone', use: { viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true } },
+    { name: 'desktop', use: { viewport: { width: 1440, height: 900 }, launchOptions: edge } },
+    { name: 'phone', use: { viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true, launchOptions: edge } },
+    { name: 'iphone', use: { ...devices['iPhone 13'], locale: 'tr-TR' } },
   ],
   webServer: {
     command: 'node scripts/serve.mjs 4179',

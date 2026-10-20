@@ -31,6 +31,7 @@ const copy = {
       ready: 'Bütün konularda güçlüsün ve son denemelerin geçer notun üstünde.',
     },
     estimate: 'Bu bir tahmindir, gerçek sınavın sonucunu garanti etmez.',
+    streak: (a, b) => `Son 7 günün ${a} gününde, son 30 günün ${b} gününde çalıştın.`,
     missing: 'Eksikler',
     seenLabel: 'Görülen soru',
     mastery: 'Genel hakimiyet',
@@ -76,6 +77,7 @@ const copy = {
       ready: 'You are strong in every topic and your recent mocks are above the pass mark.',
     },
     estimate: 'This is an estimate; it does not guarantee the result of the real exam.',
+    streak: (a, b) => `You practised on ${a} of the last 7 days and ${b} of the last 30.`,
     missing: 'What is missing',
     seenLabel: 'Questions seen',
     mastery: 'Overall mastery',
@@ -127,6 +129,11 @@ const r = computed(() =>
   }),
 );
 const STATES = ['start', 'onTheWay', 'close', 'ready'];
+// A quiet count of practice days; no streak counter that punishes a missed day.
+const daysIn = (n) => {
+  const today = dayNumber();
+  return (progress.stats.days || []).filter((d) => today - d < n).length;
+};
 const weakLessons = computed(() =>
   r.value.weakLessons
     .filter((id) => lessonTitle(id))
@@ -195,6 +202,7 @@ function doReset() {
               </ol>
               <p class="state-text">{{ c.stateText[r.state] }}</p>
               <p class="estimate">{{ c.estimate }}</p>
+              <p class="streak">{{ c.streak(daysIn(7), daysIn(30)) }}</p>
               <dl class="stats">
                 <div><dt>{{ c.seenLabel }}</dt><dd>{{ r.seen }} / {{ r.total }}</dd></div>
                 <div><dt>{{ c.mastery }}</dt><dd>{{ fmtPercent(r.overall * 100, lang) }}</dd></div>
@@ -322,6 +330,11 @@ function doReset() {
 .state-text {
   font-size: 1.0625rem;
   color: var(--color-text);
+}
+.streak {
+  margin-top: 0.75rem;
+  font-weight: 600;
+  color: var(--color-primary);
 }
 .estimate {
   font-size: 0.875rem;
