@@ -27,6 +27,10 @@ const { locale } = useI18n();
 
     <section v-for="(s, i) in doc.sections" :key="i" class="doc-section">
       <h2>{{ tx(s.heading, lang) }}</h2>
+      <figure v-if="s.figure" class="doc-figure">
+        <img :src="s.figure.src" :alt="tx(s.figure.alt, lang)" loading="lazy" decoding="async" />
+        <figcaption v-if="s.figure.caption">{{ tx(s.figure.caption, lang) }}</figcaption>
+      </figure>
       <ProseBlock :text="tx(s.body, lang)" />
       <BasisLine v-if="s.basis" :item="s" :lang="lang" />
     </section>
@@ -47,6 +51,24 @@ const { locale } = useI18n();
 .doc-section h2 {
   font-size: clamp(1.25rem, 2.2vw, 1.5rem);
   margin-bottom: 0.875rem;
+}
+.doc-figure {
+  margin: 0 0 1.25rem;
+  padding: 1rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border-light);
+  border-radius: var(--radius-lg);
+  text-align: center;
+}
+.doc-figure img {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+}
+.doc-figure figcaption {
+  margin-top: 0.5rem;
+  font-size: 0.9375rem;
+  color: var(--color-text-secondary);
 }
 .doc-section .basis-line {
   margin-top: 1rem;

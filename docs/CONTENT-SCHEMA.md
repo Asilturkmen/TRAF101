@@ -208,3 +208,13 @@ Ders dosyasıyla aynı yapıdadır (`title`, `summary`, `sections`, `reviewedAt`
 ## Terim sözlüğü (`content/glossary.json`)
 
 `[{ "id": "give-way", "tr": "yol vermek", "en": "give way", "note": { "tr": "", "en": "" } }]`
+
+## v1.1 eklemeleri
+
+- **Paralel levha işi:** yeni levha çizimleri `scripts/signs/defs/<ajan>.mjs` dosyasına yazılır. Dosya `export const SIGNS = { 'kategori/dosya': () => compose(...) }` biçimindedir ve `scripts/signs/lib.mjs` yardımcılarını kullanır (gerekirse `signs.mjs` içindeki küçük yardımcıları kendi dosyana kopyala, `signs.mjs`'i değiştirme). `node scripts/signs/build-signs.mjs` hepsini üretir; aynı anahtar iki dosyada olursa hata verir.
+- **Kategori başına birden çok veri dosyası:** `content/signs/` altındaki her `.json` (categories.json dışında) birleştirilir. Kendi dosyanı yaz, örneğin `content/signs/warning-v11.json`; başka ajanın dosyasını değiştirme. Her levhanın `category` alanı kategorisini belirler.
+- **Yeni kategoriler** (`content/signs/categories.json`, lider yazar): `additional` (Ek levhalar), `marking` (Yol çizgileri), `light` (Trafik ışıkları), `police` (Polis işaretleri). Çizimleri `public/signs/<kategori>/` altına gider. Yol çizgisi, ışık ve polis çizimleri kare olmak zorunda değildir; `viewBox` gerçek oranı taşır.
+- **Ders bölümünde çizim:** bir bölüm isteğe bağlı `"figure": { "src": "/diagrams/<dosya>.svg", "alt": { "tr", "en" }, "caption": { "tr", "en" } }` taşıyabilir. Dosya `public/` altında bulunmalıdır.
+- **Yeni dersler** (`content/lessons.json`, lider yazar): `markings` (`yol-cizgileri-isiklar-ve-polis` / `road-markings-lights-and-police`, sınav konusu rules) ve `roundabouts` (`cember-rehberi` / `roundabout-guide`, sınav konusu rules).
+- **Yeni soru dosyaları:** `content/questions/markings.json` (kimlikler `markings.` ile başlar), `content/questions/roundabouts.json` (`roundabouts.` ile başlar). Kurallar yukarıdakilerle aynıdır.
+- KKTC'de anlamı doğrulanamayan çizgi, ışık ya da işaret için levha verisinde `kktc.status` `unverified` olur ve `kktc.note` bunu açıkça söyler; anlam metni Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamı verir, KKTC'ye özgü bir kural uydurmaz.

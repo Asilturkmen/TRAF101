@@ -1,19 +1,154 @@
 [
-  { "id": "signs-basics", "topic": "rules", "slug": { "tr": "levhalarin-dili", "en": "how-signs-work" } },
-  { "id": "right-of-way", "topic": "rules", "slug": { "tr": "oncelik-kurallari", "en": "right-of-way" } },
-  { "id": "junctions", "topic": "rules", "slug": { "tr": "kavsaklar-ve-cember", "en": "junctions-and-roundabouts" } },
-  { "id": "speed", "topic": "rules", "slug": { "tr": "hiz-ve-takip-mesafesi", "en": "speed-and-following-distance" } },
-  { "id": "overtaking", "topic": "rules", "slug": { "tr": "sollama-ve-serit", "en": "overtaking-and-lanes" } },
-  { "id": "parking", "topic": "rules", "slug": { "tr": "duraklama-ve-park", "en": "stopping-and-parking" } },
-  { "id": "documents", "topic": "rules", "slug": { "tr": "belgeler-ve-ceza-puani", "en": "documents-and-penalty-points" } },
-  { "id": "vulnerable", "topic": "safety", "slug": { "tr": "yayalar-ve-iki-tekerlekliler", "en": "pedestrians-and-riders" } },
-  { "id": "lights-weather", "topic": "safety", "slug": { "tr": "isiklar-gece-ve-kotu-hava", "en": "lights-night-and-bad-weather" } },
-  { "id": "occupants", "topic": "safety", "slug": { "tr": "emniyet-kemeri-cocuk-ve-kask", "en": "seat-belts-children-and-helmets" } },
-  { "id": "emergencies", "topic": "safety", "slug": { "tr": "ariza-kaza-ve-acil-durum", "en": "breakdowns-crashes-and-emergencies" } },
-  { "id": "vehicle", "topic": "vehicle", "slug": { "tr": "arac-teknigi-ve-bakim", "en": "vehicle-checks-and-maintenance" } },
-  { "id": "environment", "topic": "environment", "slug": { "tr": "cevre-ve-verimli-surus", "en": "environment-and-eco-driving" } },
-  { "id": "fitness", "topic": "personal", "slug": { "tr": "alkol-yorgunluk-ve-dikkat", "en": "alcohol-fatigue-and-attention" } },
-  { "id": "first-aid", "topic": "firstaid", "slug": { "tr": "ilk-yardim", "en": "first-aid" } },
-  { "id": "motorcycle", "topic": "safety", "slug": { "tr": "motosiklet", "en": "motorcycles" } },
-  { "id": "heavy", "topic": "safety", "slug": { "tr": "agir-vasitalar", "en": "heavy-vehicles" } }
+  {
+    "id": "signs-basics",
+    "topic": "rules",
+    "slug": {
+      "tr": "levhalarin-dili",
+      "en": "how-signs-work"
+    }
+  },
+  {
+    "id": "markings",
+    "topic": "rules",
+    "slug": {
+      "tr": "yol-cizgileri-isiklar-ve-polis",
+      "en": "road-markings-lights-and-police"
+    }
+  },
+  {
+    "id": "right-of-way",
+    "topic": "rules",
+    "slug": {
+      "tr": "oncelik-kurallari",
+      "en": "right-of-way"
+    }
+  },
+  {
+    "id": "junctions",
+    "topic": "rules",
+    "slug": {
+      "tr": "kavsaklar-ve-cember",
+      "en": "junctions-and-roundabouts"
+    }
+  },
+  {
+    "id": "speed",
+    "topic": "rules",
+    "slug": {
+      "tr": "hiz-ve-takip-mesafesi",
+      "en": "speed-and-following-distance"
+    }
+  },
+  {
+    "id": "overtaking",
+    "topic": "rules",
+    "slug": {
+      "tr": "sollama-ve-serit",
+      "en": "overtaking-and-lanes"
+    }
+  },
+  {
+    "id": "parking",
+    "topic": "rules",
+    "slug": {
+      "tr": "duraklama-ve-park",
+      "en": "stopping-and-parking"
+    }
+  },
+  {
+    "id": "documents",
+    "topic": "rules",
+    "slug": {
+      "tr": "belgeler-ve-ceza-puani",
+      "en": "documents-and-penalty-points"
+    }
+  },
+  {
+    "id": "vulnerable",
+    "topic": "safety",
+    "slug": {
+      "tr": "yayalar-ve-iki-tekerlekliler",
+      "en": "pedestrians-and-riders"
+    }
+  },
+  {
+    "id": "lights-weather",
+    "topic": "safety",
+    "slug": {
+      "tr": "isiklar-gece-ve-kotu-hava",
+      "en": "lights-night-and-bad-weather"
+    }
+  },
+  {
+    "id": "occupants",
+    "topic": "safety",
+    "slug": {
+      "tr": "emniyet-kemeri-cocuk-ve-kask",
+      "en": "seat-belts-children-and-helmets"
+    }
+  },
+  {
+    "id": "emergencies",
+    "topic": "safety",
+    "slug": {
+      "tr": "ariza-kaza-ve-acil-durum",
+      "en": "breakdowns-crashes-and-emergencies"
+    }
+  },
+  {
+    "id": "vehicle",
+    "topic": "vehicle",
+    "slug": {
+      "tr": "arac-teknigi-ve-bakim",
+      "en": "vehicle-checks-and-maintenance"
+    }
+  },
+  {
+    "id": "environment",
+    "topic": "environment",
+    "slug": {
+      "tr": "cevre-ve-verimli-surus",
+      "en": "environment-and-eco-driving"
+    }
+  },
+  {
+    "id": "fitness",
+    "topic": "personal",
+    "slug": {
+      "tr": "alkol-yorgunluk-ve-dikkat",
+      "en": "alcohol-fatigue-and-attention"
+    }
+  },
+  {
+    "id": "first-aid",
+    "topic": "firstaid",
+    "slug": {
+      "tr": "ilk-yardim",
+      "en": "first-aid"
+    }
+  },
+  {
+    "id": "motorcycle",
+    "topic": "safety",
+    "slug": {
+      "tr": "motosiklet",
+      "en": "motorcycles"
+    }
+  },
+  {
+    "id": "heavy",
+    "topic": "safety",
+    "slug": {
+      "tr": "agir-vasitalar",
+      "en": "heavy-vehicles"
+    }
+  },
+  {
+    "id": "roundabouts",
+    "topic": "rules",
+    "slug": {
+      "tr": "cember-rehberi",
+      "en": "roundabout-guide"
+    }
+  }
 ]

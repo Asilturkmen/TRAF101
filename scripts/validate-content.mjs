@@ -241,6 +241,12 @@ function checkDoc(file, id, d) {
   for (const [i, s] of (d.sections || []).entries()) {
     heading(file, id, `sections[${i}].heading`, s.heading);
     checkText(file, id, `sections[${i}].body`, s.body);
+    if (s.figure) {
+      const src = s.figure.src;
+      if (!src || !fs.existsSync(path.join(root, 'public', src))) err(file, id, `sections[${i}].figure image missing: ${src}`);
+      checkText(file, id, `sections[${i}].figure.alt`, s.figure.alt);
+      if (s.figure.caption) checkText(file, id, `sections[${i}].figure.caption`, s.figure.caption);
+    }
     if (s.basis) checkBasis(file, `${id} §${i}`, s, [s.body]);
   }
   for (const [i, k] of (d.keyPoints || []).entries()) {

@@ -78,5 +78,69 @@
       "en": "Blue rectangles and squares give information about the road: parking, a pedestrian crossing, a one-way street, a town, a hospital. Most of them inform rather than order."
     },
     "shape": "rectangle"
+  },
+  {
+    "id": "additional",
+    "slug": {
+      "tr": "ek-levhalar",
+      "en": "additional-plates"
+    },
+    "name": {
+      "tr": "Ek levhalar",
+      "en": "Additional plates"
+    },
+    "description": {
+      "tr": "Bir levhanın altına takılan küçük dikdörtgen levhalardır. Ana levhanın ne kadar ileride, ne kadar boyunca ya da hangi saatlerde, hangi araçlar için geçerli olduğunu söyler.",
+      "en": "Small rectangular plates fitted under a sign. They tell you how far ahead, for how long, at what times or for which vehicles the main sign applies."
+    },
+    "shape": "rectangle"
+  },
+  {
+    "id": "marking",
+    "slug": {
+      "tr": "yol-cizgileri",
+      "en": "road-markings"
+    },
+    "name": {
+      "tr": "Yol çizgileri",
+      "en": "Road markings"
+    },
+    "description": {
+      "tr": "Yolun üzerine boyanan çizgi, ok ve yazılardır. Şeritleri ayırır, sollamanın serbest olup olmadığını ve nerede durman gerektiğini gösterir.",
+      "en": "Lines, arrows and words painted on the road. They separate lanes, show whether you may overtake and where you must stop."
+    },
+    "shape": "rectangle"
+  },
+  {
+    "id": "light",
+    "slug": {
+      "tr": "trafik-isiklari",
+      "en": "traffic-lights"
+    },
+    "name": {
+      "tr": "Trafik ışıkları",
+      "en": "Traffic lights"
+    },
+    "description": {
+      "tr": "Kavşak ve geçitlerdeki ışıklı işaretlerdir. Her renk ve yanıp sönen ışık ayrı bir şey söyler; ışık levhadan önce gelir.",
+      "en": "Light signals at junctions and crossings. Each colour and each flashing light means something different; a signal takes priority over a sign."
+    },
+    "shape": "rectangle"
+  },
+  {
+    "id": "police",
+    "slug": {
+      "tr": "polis-isaretleri",
+      "en": "police-signals"
+    },
+    "name": {
+      "tr": "Polis işaretleri",
+      "en": "Police signals"
+    },
+    "description": {
+      "tr": "Trafiği yöneten polisin el ve kol işaretleridir. Polisin işareti ışıklardan ve levhalardan önce gelir.",
+      "en": "Hand and arm signals given by a police officer directing traffic. An officer's signal takes priority over lights and signs."
+    },
+    "shape": "rectangle"
   }
 ]
