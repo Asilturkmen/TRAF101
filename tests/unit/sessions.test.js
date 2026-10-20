@@ -42,6 +42,16 @@ describe('mock exams', () => {
     });
   }
 
+  it('keeps sign-identification questions to a share of the rules part', () => {
+    const format = formatById('written-standard');
+    const pool = allQuestions.filter((q) => q.tracks.includes('car'));
+    const { questions } = buildMock(format, pool, mulberry32(11));
+    const rules = questions.filter((q) => q.topic === 'rules');
+    const signs = rules.filter((q) => q.generated);
+    expect(signs.length).toBeLessThanOrEqual(Math.round(format.split.rules * 0.4));
+    expect(signs.every((q) => q.examPriority !== 'rare')).toBe(true);
+  });
+
   it('scores answers per topic', () => {
     const qs = allQuestions.slice(0, 4);
     const answers = { [qs[0].id]: qs[0].answer, [qs[1].id]: 'z' };

@@ -6,15 +6,21 @@ const signFiles = import.meta.glob(['../../content/signs/*.json', '!../../conten
   import: 'default',
 });
 
-const ORDER = ['warning', 'priority', 'prohibitory', 'mandatory', 'information', 'additional'];
+const ORDER = ['warning', 'priority', 'prohibitory', 'mandatory', 'information', 'additional', 'marking', 'light', 'police'];
 
 export const categories = (Object.values(categoryFile)[0] || [])
   .slice()
   .sort((a, b) => ORDER.indexOf(a.id) - ORDER.indexOf(b.id));
 
+// Within a category, exam-relevant signs come first (core, then common, then rare).
+const PRIORITY = { core: 0, common: 1, rare: 2 };
 export const signs = Object.values(signFiles)
   .flat()
-  .sort((a, b) => ORDER.indexOf(a.category) - ORDER.indexOf(b.category));
+  .sort(
+    (a, b) =>
+      ORDER.indexOf(a.category) - ORDER.indexOf(b.category) ||
+      (PRIORITY[a.examPriority] ?? 1) - (PRIORITY[b.examPriority] ?? 1),
+  );
 
 const byId = new Map(signs.map((s) => [s.id, s]));
 export const signById = (id) => byId.get(id) || null;
@@ -67,6 +73,7 @@ export function signQuestion(sign) {
     lesson: 'signs-basics',
     tracks: ['car', 'moto', 'heavy'],
     difficulty: sign.examPriority === 'core' ? 'easy' : 'medium',
+    examPriority: sign.examPriority,
     prompt: { tr: 'Bu levha ne anlama gelir?', en: 'What does this sign mean?' },
     options: ordered.map((s, i) => ({ id: letters[i], text: s.name })),
     answer: letters[ordered.indexOf(sign)],

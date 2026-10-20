@@ -85,13 +85,29 @@ export function buildMistakes(pool, items, rand = Math.random) {
   return shuffle(pool.filter((q) => inMistakes(items[q.id])), rand);
 }
 
+// Share of the "rules and signs" part that may be sign-identification questions.
+// The rest are written rule questions, so a mock never turns into a sign quiz.
+export const MOCK_SIGN_SHARE = 0.4;
+
 export function buildMock(format, pool, rand = Math.random) {
   const picked = [];
   const missing = {};
   for (const [topic, need] of Object.entries(format.split)) {
     const candidates = pool.filter((q) => q.topic === topic);
     if (candidates.length < need) missing[topic] = need - candidates.length;
-    picked.push(...sample(candidates, need, rand));
+    if (topic === 'rules') {
+      const signQs = candidates.filter((q) => q.generated && q.examPriority !== 'rare');
+      const written = candidates.filter((q) => !q.generated);
+      const signN = Math.min(signQs.length, Math.round(need * MOCK_SIGN_SHARE));
+      const writtenN = Math.min(written.length, need - signN);
+      const chosen = [...sample(signQs, signN, rand), ...sample(written, writtenN, rand)];
+      // Top up from whatever is left if one side was short.
+      const rest = candidates.filter((q) => !chosen.includes(q));
+      chosen.push(...sample(rest, need - chosen.length, rand));
+      picked.push(...chosen);
+    } else {
+      picked.push(...sample(candidates, need, rand));
+    }
   }
   return { questions: shuffle(picked, rand), missing };
 }
