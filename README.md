@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="public/logo-320.png" alt="Test2Drive" width="260" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/readme/logo-dark.png" />
+    <img src="public/logo-320.png" alt="Test2Drive" width="260" />
+  </picture>
 </p>
 
 <h3 align="center">KKTC ehliyet sınavına ücretsiz hazırlık</h3>
