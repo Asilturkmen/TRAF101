@@ -38,11 +38,12 @@ Plan: `docs/PLAN.md`. Branch: `dev` (main'e dokunulmadı). Uygulama 2026-10-20 g
 - **Ağır vasıta konu dağılımı:** yönetmelik yalnız otomobil dağılımını veriyor; ağır vasıta denemesi bu dağılımın iki katıyla kuruldu ve sayfada "Test2Drive tarafından belirlendi" diye yazıyor.
 - **Ana sayfadaki "Levhalara göz at" bölümü:** hero'daki kategori kartları bu işi gördüğü için ayrı bölüm eklenmedi; kartlar artık gerçek kategori sayfalarına bağlı ve bir "Tüm levhalar" kartı var.
 - **Senaryo görselleri:** emoji yerine isteğe bağlı levha çizimi kullanılıyor; levhası olmayan senaryolar yalnız metinle gösteriliyor.
-- **Hata bildir:** alt bilgi deponun GitHub issue sayfasına bağlanıyor (A4 varsayılanı).
+- **Hata bildir:** alt bilgi deponun GitHub issue sayfasına bağlanıyor (K16, Asil onayladı).
 - **Deneme süresi:** sekme arka plandayken süre işlemiyor; kapatılan sınav kaldığı süreden devam ediyor.
 - **Levha penceresi yerine levha sayfaları:** plandaki "levha penceresi gerçek bir dialog" maddesi, eski Study sayfasındaki pencere içindi. Her levhanın artık kendi önceden üretilmiş sayfası var (arama motoru ve paylaşım için daha iyi); pencere kaldırıldı, içeriği levha sayfasına taşındı. Uygulamadaki diğer pencereler (menü, onaylar) yerel `<dialog>`.
 - **Soru bankası dile göre bölündü:** her dil için ayrı, isteğe bağlı yüklenen bir dosya; ayrıntı `docs/QA-REPORT.md`.
-- **DAÜ logosu:** izin gelene kadar yayından kaldırıldı, `docs/assets/emu-logo.png` içinde saklanıyor.
+- **DAÜ logosu:** kullanılmıyor (K17, Asil'in kararı); dosya depodan kaldırıldı, git geçmişinde duruyor.
+- **Ekip:** Hakkında sayfası Asil Türkmen ve Arda Günsüren'i birlikte anıyor (K15).
 
 ## Bilinçli olarak yapılmayanlar (v1.1, plan bölüm 9)
 
@@ -50,4 +51,4 @@ Kalan yaklaşık 110 levha, yol çizgileri, trafik ışıkları, polis işaretle
 
 ## Senin için açık konular
 
-`docs/LAUNCH.md` bölüm 4: alan adı, DAÜ logosu izni, hata bildirme kanalı, isteğe bağlı sürücü kursu doğrulaması (`docs/verification-checklist.md`).
+`docs/LAUNCH.md` bölüm 4: alan adı ve isteğe bağlı sürücü kursu doğrulaması (`docs/verification-checklist.md`). Logo, ekip ve hata bildirme kararları kapandı.

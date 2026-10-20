@@ -32,6 +32,9 @@ Bu tablodaki kararlar kapalıdır. Uygulayan oturum bunları yeniden tartışmaz
 | K12 | Git | Tüm iş `dev` branch'ında. `dev`'e commit ve push serbest. `main`'e asla merge, rebase ya da push yapılmaz. | 2026-10-20 |
 | K13 | Teknoloji | Vue 3 + Vite kalır. Üzerine vite-ssg ile sayfaların önceden üretilmesi, vue-i18n ve vite-plugin-pwa eklenir. Astro'ya geçilmez, çünkü mevcut tasarım ve bileşenler Vue'da. | 2026-10-20, PM kararı |
 | K14 | Analitik | v1.0'da yok. Gizlilik sayfası "cevapların hiçbir sunucuya gitmez" der. Barındırma seçilince çerezsiz bir seçenek ayrıca değerlendirilir. | 2026-10-20, PM kararı |
+| K15 | Ekip | Site Asil Türkmen ve Arda Günsüren'in ortak işidir; ikisinin adı da Hakkında sayfasında geçer. | 2026-10-20 |
+| K16 | Hata bildirimi | Alt bilgideki "Hata bildir" bağlantısı deponun GitHub issue sayfasına gider. | 2026-10-20 |
+| K17 | DAÜ logosu | Kullanılmaz. DAÜ ve TRAF101 dersi Hakkında sayfasında yazıyla anılır. | 2026-10-20 |
 
 ---
 
@@ -383,7 +386,7 @@ Ajan kuralları: önce bu planı ve `docs/DESIGN.md`'yi okur. Kendi geliştirme 
 - [x] F2.3 Soru bankası: altı konu, bölüm 4.2'deki sayılar. Mevcut 40 soru `kktc-regulations.md` bölüm 7'ye göre düzeltilir; silinmesi gerekenler `inventory-map.md`'ye yazılır.
 - [x] F2.4 Senaryolar: mevcut 15'in düzeltilmesi ve en az 15 yeni senaryo. Her senaryo emoji yerine bir levha ya da basit bir çizimle gösterilir.
 - [x] F2.5 Konu sayfaları, `studyData.js` içeriği dahil.
-- [x] F2.6 Rehber sayfaları ve Hakkında. Hakkında sayfası projenin hikâyesini, Asil Türkmen ve Arda Günsüren adlarını, TRAF101 dersini, Doç. Dr. Metin Kurt'u ve DAÜ'yü anlatır. DAÜ logosu izin gelene kadar kullanılmaz.
+- [x] F2.6 Rehber sayfaları ve Hakkında. Hakkında sayfası projenin hikâyesini, Asil Türkmen ve Arda Günsüren adlarını, TRAF101 dersini, Doç. Dr. Metin Kurt'u ve DAÜ'yü anlatır. DAÜ logosu kullanılmaz (K17).
 - [x] F2.7 TR ve EN dil kontrolü: bir ajan iki dili baştan sona okur, terim tutarlılığını ve Türkçe karakterleri denetler.
 
 ### F3. Öğrenme motoru (4 gün)
@@ -467,9 +470,9 @@ Bunların hiçbiri işi durdurmaz. Gerektiği yerde varsayılan uygulanır.
 | # | Konu | Varsayılan |
 |---|---|---|
 | A1 | Barındırma ve alan adı (K6) | Çıktı her ortama uyar. `SITE_URL` bir yer tutucuyla derlenir. |
-| A2 | DAÜ logosunu Hakkında sayfasında kullanma izni | İzin gelene kadar DAÜ yalnız yazıyla anılır. |
-| A3 | Arda Günsüren'in, adının Hakkında sayfasında geçmesine onayı | Adı geçer, öğrenci numarası geçmez. |
-| A4 | "Hata bildir" kanalı: e-posta mı, GitHub issue mu | Deponun GitHub issue formu. Depo gizliyse bir e-posta adresi gerekir. |
+| A2 | DAÜ logosunu Hakkında sayfasında kullanma izni | Kapandı (K17): logo kullanılmaz, DAÜ yalnız yazıyla anılır. |
+| A3 | Arda Günsüren'in, adının Hakkında sayfasında geçmesine onayı | Kapandı (K15): adı geçmek zorunda; site birlikte yapıldı. Öğrenci numarası geçmez. |
+| A4 | "Hata bildir" kanalı: e-posta mı, GitHub issue mu | Kapandı (K16): deponun GitHub issue sayfası. |
 | A5 | `docs/verification-checklist.md` maddelerini bir sürücü kursuna sormak, isteğe bağlı | Sorulmazsa maddeler etiketleriyle yayınlanır (K11). |
 
 ---

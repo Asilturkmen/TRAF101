@@ -58,8 +58,5 @@ curl -s https://GERCEK-ADRES/sitemap.xml | head -5
 | Konu | Durum |
 |---|---|
 | Alan adı | Bekleniyor |
-| DAÜ logosu için izin | Bekleniyor; izin gelirse `docs/assets/emu-logo.png` Hakkında sayfasına eklenebilir |
-| Arda Günsüren'in adının Hakkında sayfasında geçmesi | Varsayılan: geçiyor |
-| Hata bildirme kanalı | Varsayılan: GitHub issue (`https://github.com/Asilturkmen/TRAF101/issues/new`). Depo gizliyse alt bilgideki bağlantı bir e-posta adresiyle değiştirilmeli (`src/App.vue`) |
 | Doğrulanamayan kurallar | `docs/verification-checklist.md`; bir sürücü kursuna sorulursa içerik `law` etiketine geçer |
 | Analitik | v1.0'da yok (K14) |
