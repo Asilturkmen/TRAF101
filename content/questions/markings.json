@@ -1,0 +1,1682 @@
+[
+  {
+    "id": "markings.broken-line-overtake",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bu çizginin olduğu yolda önünde yavaş bir traktör var. Karşı şerit uzun bir mesafe boyunca boş. Ne yapabilirsin?",
+      "en": "On a road with this line, a slow tractor is ahead of you. The opposite lane is clear for a long way. What may you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Aynalara bakıp sağ sinyal verir, traktörü sağından sollarsın",
+          "en": "Check your mirrors, signal right and overtake the tractor on its right"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Traktörü solundan, yol kenarından geçersin",
+          "en": "Pass the tractor on its left, along the edge of the road"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Çizgi yüzünden yol bitene kadar traktörün arkasında kalmak zorundasın",
+          "en": "Stay behind the tractor all the way, because the line forbids passing"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Korna çalıp traktörün banket üzerine çekmesini beklersin",
+          "en": "Sound your horn and wait for the tractor driver to pull over onto the verge"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Kesik orta çizgi, yol ve görüş elverişliyse sollamak için geçilebilir. KKTC'de araçlar sağından sollanır.",
+      "en": "A broken centre line may be crossed to overtake when the road and your view allow. In North Cyprus you overtake on the right."
+    },
+    "signId": "marking.broken-centre-line",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.solid-line-stay-behind",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Virajlı bir yolda bu çizgi var ve öndeki araç yavaş gidiyor. Ne yaparsın?",
+      "en": "On a winding road with this line, the vehicle ahead is slow. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Karşıdan araç gelmiyorsa hızla sollarsın",
+          "en": "Overtake quickly if nothing is coming the other way"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Çizgi kesikli olana kadar arkasında kalırsın",
+          "en": "Stay behind it until the line is broken again"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Çizginin üzerinden giderek ileriyi görmeye çalışırsın",
+          "en": "Drive on the line to try to see further ahead"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Selektör yapıp öndeki aracın kenara çekmesini istersin",
+          "en": "Flash your lights to ask the driver ahead to pull over"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Kesintisiz orta çizgi ileriyi göremediğin yerlere çizilir; geçilmez ve üzerinden gidilmez. Sollamak için çizgi yeniden kesikli olana kadar beklersin.",
+      "en": "A solid centre line is painted where you cannot see far enough; you do not cross or straddle it. Wait until the line becomes broken before overtaking."
+    },
+    "signId": "marking.solid-centre-line",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.double-line-solid-near",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bu orta çizgiyi görüyorsun. Önündeki aracı sollayabilir misin?",
+      "en": "You see this centre line. May you overtake the vehicle ahead?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Evet; çizgilerden biri kesik olduğu için iki yön de sollayabilir",
+          "en": "Yes; because one line is broken, both directions may overtake"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Evet, ama yalnız gündüz ve görüş açıkken",
+          "en": "Yes, but only in daylight and with a clear view"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hayır; karşıdan gelenler sollayabilir, onlara yer bırakırsın",
+          "en": "No; oncoming drivers may overtake, so you leave them room"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hayır; karşıdan gelenler de bu çizgiyi geçemez",
+          "en": "No; and oncoming drivers may not cross it either"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Çift çizgide sana yakın olan çizgiye uyarsın. Senin tarafındaki kesintisiz olduğu için geçemezsin; karşı taraftaki kesik olduğu için karşıdan gelenler sollayabilir.",
+      "en": "With a double line you obey the line nearer to you. Yours is solid, so you may not cross; the other side is broken, so oncoming drivers may overtake."
+    },
+    "signId": "marking.solid-broken--solid-near",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.double-line-broken-near",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Bu orta çizgide sollamaya başladın. İleride senin tarafında kesintisiz çizgi başlıyor. Ne yaparsın?",
+      "en": "You have started to overtake at this centre line. Ahead, a solid line starts on your side. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kesintisiz çizginin üzerinden sollamayı sürdürürsün",
+          "en": "Carry on overtaking over the solid line"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Karşı şeritte kalıp bir sonraki kesik çizgiyi beklersin",
+          "en": "Stay in the opposite lane until the next broken stretch"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sollamayı bitirmek için sollanan aracın yavaşlamasını beklersin",
+          "en": "Wait for the vehicle you are passing to slow down for you"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kesintisiz çizgi başlamadan sollamayı bitirip sola dönersin",
+          "en": "Finish and move back left before the solid line starts"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Senin tarafındaki çizgi kesikken sollayabilirsin, ama sollamayı kendi tarafında kesintisiz çizgi başlamadan bitirmen gerekir. Bitiremeyeceksen sollamaya hiç başlama.",
+      "en": "You may overtake while the line on your side is broken, but you must finish before a solid line starts on your side. If you cannot, do not start."
+    },
+    "signId": "marking.solid-broken--broken-near",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.double-solid-cyclist",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bu çizginin olduğu bir yolda önündeki bisikletliyi geçmek istiyorsun ama aranda yeterli boşluk kalmayacak. Ne yaparsın?",
+      "en": "On a road with this line you want to pass a cyclist, but there would not be enough room. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Çizgileri ortalayarak bisikletliyi geçersin",
+          "en": "Pass the cyclist with your wheels on the lines"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Bisikletlinin arkasında kalır, güvenli bir yeri beklersin",
+          "en": "Stay behind the cyclist and wait for a safe place"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Korna çalarak bisikletlinin kenara çekmesini sağlarsın",
+          "en": "Sound your horn so the cyclist moves over"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Bisikletliyi sol tarafından, kaldırıma yakın bir yerden geçersin",
+          "en": "Pass the cyclist on the left, squeezing through close to the kerb"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Çift kesintisiz çizgi iki yönden de geçilmez ve üzerinden gidilmez. Bisikletliyi yeterli boşluk bırakmadan geçmek de tehlikelidir; arkasında beklersin.",
+      "en": "A double solid line may not be crossed or straddled from either side. Passing a cyclist without enough room is also dangerous; wait behind."
+    },
+    "signId": "marking.double-solid-line",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.give-way-line-clear",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Yan yoldan ana yola çıkıyorsun ve önünde bu çizgi var. Ana yolda hiç araç yok ve iki yönü de iyi görüyorsun. Ne yaparsın?",
+      "en": "You are coming out of a side road with this line ahead. The main road is empty and you can see well both ways. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Çizgide mutlaka tam durur, sonra çıkarsın",
+          "en": "Always stop fully at the line before going on"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ana yoldaki araçların sana yol vermesini beklersin",
+          "en": "Expect traffic on the main road to give way to you"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yavaşlar, bakar ve durmadan ana yola çıkabilirsin",
+          "en": "Slow down, look, and you may go on without stopping"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Çizgiyi geçip ana yolun ortasında beklersin",
+          "en": "Cross the line and wait in the middle of the main road"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Kesik yol ver çizgisinde ana yoldaki trafiğe yol verirsin. Yol boşsa durmak zorunda değilsin; tam duruş dur çizgisinde zorunludur.",
+      "en": "At a broken give-way line you give way to main-road traffic. If the road is clear you need not stop; a full stop is required at a stop line."
+    },
+    "signId": "marking.give-way-line",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.stop-line-dur",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bu çizgiye geldin. Ana yol boş görünüyor. Ne yaparsın?",
+      "en": "You reach this line. The main road looks clear. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yavaşlayıp iki yana bakar, durmadan ana yola çıkarsın",
+          "en": "Slow down and pull out without stopping"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Çizgiyi geçip ana yolun kenarında durursun",
+          "en": "Cross the line and stop at the edge of the main road"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız arkanda araç yoksa durursun",
+          "en": "Stop only if there is no one behind you"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Çizgide tamamen durur, bakar, güvenliyse çıkarsın",
+          "en": "Stop fully at the line, look, then go if it is safe"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Kesintisiz dur çizgisi ve yerdeki DUR yazısı tam duruşun zorunlu olduğunu gösterir. Yol boş olsa da önce durursun.",
+      "en": "A solid stop line and DUR painted on the road mean a full stop is compulsory. You stop even if the road is clear."
+    },
+    "signId": "marking.stop-line",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.stop-line-blocked-view",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Dur çizgisinde durdun, ama park etmiş araçlar yüzünden ana yolu göremiyorsun. Ne yaparsın?",
+      "en": "You have stopped at a stop line but parked cars block your view of the main road. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yavaşça biraz ilerler, yeniden durup bakarsın",
+          "en": "Creep forward slowly, stop again and look"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yolda az kalmak için hızla çıkarsın",
+          "en": "Pull out quickly so you spend less time in the road"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Korna çalıp ana yola çıkarsın",
+          "en": "Sound your horn and pull out"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Arkandaki sürücünün korna çalmasını bekler, sonra çıkarsın",
+          "en": "Wait for the driver behind to hoot, then go"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Dur çizgisinde durduktan sonra göremiyorsan yolu görebileceğin yere kadar yavaşça ilerler ve yeniden bakarsın. Görmeden çıkmazsın.",
+      "en": "After stopping at the line, if you cannot see, creep forward until you can and look again. Never pull out blind."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.zebra-pedestrian-waiting",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Bu geçide yaklaşıyorsun. Kaldırımda bir yaya geçide doğru yürüyor. Ne yaparsın?",
+      "en": "You are approaching this crossing. Someone on the pavement is walking towards it. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yaya henüz yola adım atmadığı için geçersin",
+          "en": "Drive on, as they have not yet stepped into the road"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yavaşlar, durur ve yayaya yol verirsin",
+          "en": "Slow down, stop and give way to them"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Korna çalıp yayayı uyarır, geçersin",
+          "en": "Sound your horn to warn them and drive on"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yayanın seni görmesi için selektör yapar, geçersin",
+          "en": "Flash your lights so they see you, then drive on"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Yaya geçidini kullanan ya da kullanmaya hazırlanan bir yaya varsa durur ve yol verirsin. Geçide yürüyen kişi geçmeye hazırlanıyor demektir.",
+      "en": "If someone is using a crossing or getting ready to use it, you stop and give way. A person walking towards it is getting ready to cross."
+    },
+    "signId": "marking.zebra-crossing",
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.zebra-stopped-car",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "İki şeritli bir yolda yaya geçidinin önünde yan şeritte bir araç durmuş. Sen öbür şeritte geliyorsun. Ne yaparsın?",
+      "en": "On a road with two lanes, a car has stopped at a crossing in the next lane. You are coming up in the other lane. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Durmuş aracın yanından hızlanarak geçersin",
+          "en": "Speed up past the stopped car so that you clear the crossing as quickly as you can"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Durmuş aracı geçmek için onun şeridine girip önünden geçersin",
+          "en": "Move into its lane and drive round the front of it"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yavaşlar, durmaya hazır olursun; önünde bir yaya olabilir",
+          "en": "Slow down and be ready to stop; someone may be crossing in front of it"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Korna çalarak geçtiğini bildirirsin",
+          "en": "Sound your horn to show you are passing"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Geçidin önünde duran araç, senin göremediğin bir yayaya yol veriyor olabilir. Yanından geçmeden önce yavaşlar ve durmaya hazır olursun.",
+      "en": "A car stopped at a crossing may be giving way to someone you cannot see. Slow down and be ready to stop before passing it."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.hatched-area-queue",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Trafik yavaş akıyor ve bu alanın yanından geçiyorsun. Önündeki kuyruğu geçmek için ne yaparsın?",
+      "en": "Traffic is slow and you are passing this area. What do you do about the queue ahead?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Alanın üzerinden giderek kuyruğu geçersin",
+          "en": "Drive over the hatched area to get past the queue"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Alanın içine girip orada beklersin",
+          "en": "Pull into the area and wait there"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Alanın içinden karşı şeride geçersin",
+          "en": "Cross the area into the opposite lane"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kendi şeridinde kalır, alana girmezsin",
+          "en": "Stay in your lane and keep out of the area"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Taralı alan trafiği ayırır ya da bir tehlikeyi korur. İçine girmez, üzerinde durmazsın; kuyruğu geçmek için de kullanmazsın.",
+      "en": "A hatched area separates traffic or protects a hazard. Do not enter it or stop on it, and do not use it to jump a queue."
+    },
+    "signId": "marking.hatched-area",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.box-junction-exit",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Işık sana yeşil yanıyor. Bu kavşağın öbür tarafında trafik durmuş ve aracına yer yok. Ne yaparsın?",
+      "en": "Your light is green. On the far side of this junction traffic has stopped and there is no room for you. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kutunun önünde, yer açılana kadar beklersin",
+          "en": "Wait before the box until there is room"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yeşil yandığı için kutuya girip beklersin",
+          "en": "Enter the box and wait, since the light is green"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kutunun kenarından geçip öbür şeride kayarsın",
+          "en": "Edge round the box into the other lane"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Korna çalarak öndekilerin ilerlemesini sağlarsın",
+          "en": "Sound your horn so the traffic ahead moves up"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Sarı ızgaralı kutuya çıkışın boş değilse girmezsin. Kutuda kalan araç öbür yönlerin trafiğini de durdurur.",
+      "en": "You do not enter the yellow box unless your exit is clear. A car stuck in the box blocks traffic from the other directions too."
+    },
+    "signId": "marking.box-junction",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.lane-arrows-right-turn",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Kavşakta sağa döneceksin ve bu şerit oklarını görüyorsun. Hangi şeridi kullanırsın?",
+      "en": "You are turning right at the junction and see these lane arrows. Which lane do you use?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sol şeridi, çünkü KKTC'de solda gidilir",
+          "en": "The left lane, because you keep left in North Cyprus"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sağa dönüş oku olan sağ şeridi",
+          "en": "The right lane, with the right-turn arrow"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hangisi daha boşsa onu",
+          "en": "Whichever lane is emptier"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sol şeridi; kavşağın içinde sağa geçersin",
+          "en": "The left lane, moving across inside the junction"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Şerit okları o şeritten hangi yöne gidileceğini gösterir. Sağa döneceksen sağa dönüş oku olan şeride erkenden geçersin.",
+      "en": "Lane arrows show which way each lane goes. To turn right, move early into the lane with the right-turn arrow."
+    },
+    "signId": "marking.lane-arrows",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.wrong-lane-arrow",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kavşağa çok yaklaştın ve yalnız düz gitmeye izin veren şeritte olduğunu fark ettin. Oysa sağa dönecektin. Ne yaparsın?",
+      "en": "You are close to a junction and realise you are in a lane marked ahead only, but you wanted to turn right. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Son anda sağ sinyal verip sağ şeride geçer, kavşakta dönersin",
+          "en": "Signal right at the last moment, cut into the right lane and make the turn"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kavşakta durup sağ şeride geçmek için beklersin",
+          "en": "Stop at the junction and wait to move into the right lane"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Şeridin okuna uyar, düz gider, yolunu sonra düzeltirsin",
+          "en": "Follow your lane's arrow, go ahead and correct your route later"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Geri geri gidip doğru şeride girersin",
+          "en": "Reverse back and join the correct lane"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Kavşağa yakın şerit değiştirmek ve kavşakta beklemek kazaya yol açar. Okun gösterdiği yöne gidip bir sonraki uygun yerde yolunu düzeltirsin.",
+      "en": "Changing lanes late or stopping at the junction causes crashes. Go the way your lane's arrow shows and correct your route at the next suitable place."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.bus-lane-empty",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Yoğun trafikte bu şeridin yanındasın ve şerit boş. Ne yaparsın?",
+      "en": "In heavy traffic you are next to this lane, and it is empty. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Boş olduğu için şeridi kullanırsın",
+          "en": "Use it, since it is empty"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız kısa bir mesafe için şeride girersin",
+          "en": "Use it only for a short distance"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Şeritte kısa bir süre durup yolcu indirirsin",
+          "en": "Stop in it briefly to drop off a passenger"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kendi şeridinde kalır, şeridi kullanmazsın",
+          "en": "Stay in your own lane and keep out of it"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Yere OTOBÜS yazılmış şerit otobüslere ayrılmıştır. Levha başka araçlara izin vermiyorsa şeritte gitmez ve durmazsın.",
+      "en": "A lane with OTOBÜS (bus) painted in it is reserved for buses. Unless a sign allows other vehicles, you do not drive or stop in it."
+    },
+    "signId": "marking.bus-lane",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.parking-bay",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Yol kenarındaki bu park yerlerinden birine park edeceksin. Hangisi doğrudur?",
+      "en": "You are going to park in one of these roadside bays. Which is right?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Aracı kutunun içine, trafik yönünde park edersin",
+          "en": "Park inside the bay, facing the way the traffic goes"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "İki kutunun arasındaki çizgiyi ortalarsın",
+          "en": "Park across the line between two bays"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Karşı kenara, trafiğe ters yönde park edersin",
+          "en": "Park on the other side of the road, facing against the traffic"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kutular doluysa kutunun yanına, yola park edersin",
+          "en": "If the bays are full, park next to them in the road"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Park yeri çizgileri aracın nereye konacağını gösterir. Aracını kutunun içine ve sol trafikte yolun sol kenarına, trafik yönünde park edersin.",
+      "en": "Bay markings show exactly where your vehicle goes. Park inside the bay and, in left-hand traffic, on the left side facing the flow."
+    },
+    "signId": "marking.parking-bays",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.police-over-red",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kavşakta ışık sana kırmızı yanıyor. Trafiği yöneten polis sana bu işareti veriyor. Ne yaparsın?",
+      "en": "Your light at the junction is red. The officer directing traffic gives you this signal. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Kırmızı yandığı için yeşili beklersin",
+          "en": "Wait for green, since the light is red"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Polisin işaretine uyar, dikkatle geçersin",
+          "en": "Follow the officer's signal and go on with care"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Polise ışığı göstermek için korna çalarsın",
+          "en": "Sound your horn to point out the light to the officer"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Polisin yanına gidip ne istediğini sorarsın",
+          "en": "Drive up to the officer and ask what he wants"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Trafiği yöneten polisin işareti ışıklardan ve levhalardan önce gelir. Polis seni çağırıyorsa kırmızıda da dikkatle geçersin.",
+      "en": "An officer directing traffic overrides lights and signs. If the officer calls you on, you go with care even on red."
+    },
+    "signId": "police.beckon-from-front",
+    "basis": "practice",
+    "sourceId": "mk-vienna-road-traffic",
+    "sourceRef": "md. 6",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.light-over-give-way-sign",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bir kavşakta yol ver levhası var ama trafik ışıkları çalışıyor ve sana yeşil yanıyor. Ne yaparsın?",
+      "en": "A junction has a give-way sign, but the traffic lights are working and show you green. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Levhaya uyar, her yönden gelene yol verirsin",
+          "en": "Follow the sign and give way to everyone"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Levha ışıktan önce geldiği için durursun",
+          "en": "Stop, because the sign overrides the light"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Işığa uyar, kavşak boşsa geçersin",
+          "en": "Follow the light and go if the junction is clear"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kavşağa bakmadan hızlanırsın, öncelik sendedir",
+          "en": "Speed up without looking, as the green light gives you priority"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Işıklar çalışırken ışık levhadan önce gelir. Yeşil yine de kavşakta kalmış araçlara ve geçen yayalara yol verme yükümlülüğünü kaldırmaz.",
+      "en": "When the lights are working they come before the sign. Green still does not remove your duty to give way to vehicles in the junction and pedestrians crossing."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.lights-out",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kavşaktaki trafik ışıkları tamamen sönük, hiçbir lamba yanmıyor. Ne yaparsın?",
+      "en": "The traffic lights at a junction are completely dark; no lamp is lit. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Ana yoldaysan her zaman önce sen geçersin",
+          "en": "If you are on the main road, you always go first"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kavşağın önünde durur, polis gelip trafiği yönetene kadar beklersin",
+          "en": "Stop before the junction and wait until a police officer comes to direct the traffic"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kavşağa ilk giren geçer, hızını korursun",
+          "en": "Whoever gets there first goes, so keep your speed"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Levhaya, levha yoksa sağdan gelene yol verme kuralına uyarsın",
+          "en": "Follow the signs, or give way to traffic from the right if there are none"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Işıklar çalışmıyorsa kavşak ışıksız bir kavşak gibidir. Levha varsa ona uyarsın; levha yoksa KKTC'de sağdan gelene yol verirsin.",
+      "en": "If the lights are not working, treat it as a junction without lights. Follow any sign; with no sign, in North Cyprus you give way to traffic from the right."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.amber-can-stop",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Kavşağa yaklaşırken ışık yeşilden bu renge döndü. Dur çizgisinde rahatça durabileceğin uzaklıktasın. Ne yaparsın?",
+      "en": "As you approach a junction, the light changes from green to this. You can stop at the line comfortably. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yavaşlar ve çizgide durursun",
+          "en": "Slow down and stop at the line"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kırmızıya dönmeden geçmek için hızlanırsın",
+          "en": "Speed up to get through before red"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hızını koruyarak geçersin, bu renkte geçmek serbesttir",
+          "en": "Keep your speed and go, as this colour allows it"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Korna çalarak kavşağa girersin",
+          "en": "Sound your horn and enter the junction"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Sürekli sarı dur demektir. Yalnız çizgiye çok yakınsan ve güvenle duramayacaksan geçersin. Rahatça durabiliyorsan durursun.",
+      "en": "Steady amber means stop. You go on only if you are too close to stop safely. If you can stop comfortably, you stop."
+    },
+    "signId": "light.amber",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.amber-too-close",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Işık bu renge döndüğünde dur çizgisine çok yakınsın. Sert fren yaparsan kavşağın içinde durabilirsin ve arkandaki araç sana çarpabilir. Ne yaparsın?",
+      "en": "The light changes to this when you are very close to the stop line. If you brake hard you may stop inside the junction and the car behind may hit you. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Ne olursa olsun sert fren yapıp durursun",
+          "en": "Brake hard and stop whatever happens"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Dikkatle geçersin",
+          "en": "Go on with care"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kavşağın ortasında durup kırmızıyı beklersin",
+          "en": "Stop in the middle of the junction and wait for red"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Geri vitese takıp çizginin gerisine dönersin",
+          "en": "Reverse back behind the line"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Sarı yandığında çizgiye güvenle duramayacak kadar yakınsan geçebilirsin. Bu bir istisnadır; sarıda hızlanmak için bir neden değildir.",
+      "en": "If amber shows when you are too close to stop safely, you may go on. It is an exception, not a reason to speed up on amber."
+    },
+    "signId": "light.amber",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.flashing-amber-car-right",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Bu ışığın yandığı kavşakta hiç levha yok. Sağdan bir araç geliyor. Ne yaparsın?",
+      "en": "This light is showing at a junction with no signs. A car is coming from the right. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Işık sana yandığı için önce sen geçersin",
+          "en": "Go first, since the light is facing you"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yanıp sönen ışık uyarı olduğu için hızını koruyup geçersin",
+          "en": "Keep your speed, as a flashing light is only a warning"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sağdan gelen araca yol verirsin",
+          "en": "Give way to the car from the right"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Selektör yapıp sağdaki araca önce geçeceğini bildirirsin",
+          "en": "Flash your lights to tell the car on the right you are going first"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Yanıp sönen sarı ışık kavşağı yönetmez, sana öncelik de vermez. Levha yoksa KKTC'de sağdan gelene yol verirsin.",
+      "en": "A flashing amber light does not control the junction and gives you no priority. With no sign, in North Cyprus you give way to traffic from the right."
+    },
+    "signId": "light.amber-flashing",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.red-light-offence",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "KKTC'de bu ışıkta durmadan geçmenin sonucu nedir?",
+      "en": "In North Cyprus, what happens if you drive through this light?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız kaza olursa suç sayılır",
+          "en": "It is an offence only if there is a crash"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Gece ve yol boşken suç sayılmaz",
+          "en": "It is not an offence at night on an empty road"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yalnız sözlü uyarı verilir, para cezası yoktur",
+          "en": "You only get a verbal warning, never a fine"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Para cezası gerektiren bir trafik suçudur",
+          "en": "It is a traffic offence with a fine"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Kırmızı ışıkta geçmek KKTC'de para cezası gerektiren bir suçtur. Ağustos 2026 ceza listesinde cezası 14.178 TL olarak yer alır.",
+      "en": "Running a red light is an offence with a fine in North Cyprus. The August 2026 penalty list gives the fine as 14,178 TL."
+    },
+    "signId": "light.red",
+    "basis": "secondary",
+    "sourceId": "s30",
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.green-car-in-junction",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Işık bu renge döndü, ama kavşağın içinde karşıdan dönen bir araç kalmış. Ne yaparsın?",
+      "en": "The light has turned to this, but a car turning from the other direction is still in the junction. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Aracın kavşaktan çıkmasını bekler, sonra geçersin",
+          "en": "Wait for it to clear the junction, then go"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Geçiş sende olduğu için hemen kalkarsın",
+          "en": "Move off at once, as it is your turn"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Korna çalarak aracın acele etmesini sağlarsın",
+          "en": "Sound your horn to hurry the car along"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Aracın arkasından dolanıp kavşağa girer, yoluna devam edersin",
+          "en": "Drive round behind the car into the junction"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Yeşil geçme izni verir, kavşakta kalmış araçlara yol verme yükümlülüğünü kaldırmaz. Kalkmadan önce kavşağın boş olduğuna bakarsın.",
+      "en": "Green lets you go but does not remove your duty to give way to vehicles still in the junction. Check the junction is clear before moving off."
+    },
+    "signId": "light.green",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.filter-arrow-straight-on",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Bu ışıkta düz gideceksin. Ne yaparsın?",
+      "en": "At this signal you want to go straight ahead. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yeşil ok yandığı için düz geçersin",
+          "en": "Go ahead, since a green arrow is showing"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ana ışık yeşil yanana kadar beklersin",
+          "en": "Wait until the main light turns green"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Okun yönündeki şeride geçip kavşağa girersin",
+          "en": "Move into the arrow lane and enter the junction"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Kavşak boşsa kırmızıda dikkatle geçersin",
+          "en": "Go on red with care if the junction is empty"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Yeşil ok yalnız okun gösterdiği yöne izin verir. Düz gideceksen ya da öbür yöne döneceksen ana ışıktaki kırmızıya uyarsın.",
+      "en": "A green arrow allows only the direction it points. If you are going ahead or the other way, you obey the red on the main light."
+    },
+    "signId": "light.green-filter-arrow",
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.pedestrian-green-turning",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Işıklı bir kavşakta dönüyorsun. Döndüğün yoldaki yaya geçidinde bu ışık yanıyor ve yayalar karşıya geçiyor. Ne yaparsın?",
+      "en": "You are turning at a junction with lights. At the crossing in the road you turn into, this signal is showing and people are crossing. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Senin ışığın da yeşil olduğu için dönersin",
+          "en": "Turn anyway, since your light is green too"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yayaların arasından yavaşça geçersin",
+          "en": "Edge slowly through a gap between them"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yayalara yol verir, geçmelerini beklersin",
+          "en": "Give way and wait for them to cross"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Korna çalıp yayaları durdurursun",
+          "en": "Sound your horn so they stop"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Yaya geçidini kullanan yaya varsa durur ve yol verirsin. Dönerken senin ışığının yeşil olması bu kuralı değiştirmez.",
+      "en": "If someone is using a crossing, you stop and give way. Your own green light when turning does not change this."
+    },
+    "signId": "light.pedestrian-green",
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.police-raised-arm",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Kavşağa yaklaşırken trafiği yöneten polis bu işareti veriyor. Ne yaparsın?",
+      "en": "As you approach a junction, the officer directing traffic gives this signal. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Polis sana bakmadığı sürece geçersin",
+          "en": "Go on unless the officer is looking at you"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Işık yeşilse ışığa uyar, geçersin",
+          "en": "Follow the light and go if it is green"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "İşaret yayalar için olduğundan geçersin",
+          "en": "Go on, as the signal is for pedestrians"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yavaşlar ve durursun",
+          "en": "Slow down and stop"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Yukarı kalkmış kol dikkat, dur demektir ve her yönden gelen trafik için geçerlidir. Polisin işareti ışıktan önce gelir.",
+      "en": "A raised arm means attention, stop, and applies to traffic from every direction. The officer's signal comes before the lights."
+    },
+    "signId": "police.raised-arm",
+    "basis": "practice",
+    "sourceId": "mk-vienna-road-traffic",
+    "sourceRef": "md. 6",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.police-arms-out-facing",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Kavşakta polis sana bakarak bu işareti veriyor. Ne yaparsın?",
+      "en": "At a junction the officer faces you and gives this signal. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Durursun",
+          "en": "Stop"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Kolları yana açık olduğu için geçersin",
+          "en": "Go on, as his arms are out to the sides"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sağa ya da sola döneceksen geçersin",
+          "en": "Go on if you are turning left or right"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yavaşlayıp kavşağa girersin",
+          "en": "Slow down and enter the junction"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Kollar iki yana açıkken polisin önünden ve arkasından gelen trafik durur. Polis sana bakıyorsa onun önünden geliyorsun demektir.",
+      "en": "With arms out to the sides, traffic from in front of and behind the officer stops. If he is facing you, you are coming from in front of him."
+    },
+    "signId": "police.stop-front-and-behind",
+    "basis": "practice",
+    "sourceId": "mk-vienna-road-traffic",
+    "sourceRef": "md. 6",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.police-arms-out-side",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Kavşaktaki polis kollarını iki yana açmış. Sen polisin yan tarafından, kollarının uzandığı doğrultuda geliyorsun. Ne yaparsın?",
+      "en": "The officer at a junction has his arms stretched out to the sides. You are coming from his side, along the line of his arms. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Durursun, açık kollar her yönü durdurur",
+          "en": "Stop, as outstretched arms stop every direction"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Dikkatle geçebilirsin",
+          "en": "You may go on with care"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Polis sana dönene kadar beklersin",
+          "en": "Wait until the officer turns to face you"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Polisin dikkatini çekmek için korna çalarsın",
+          "en": "Sound your horn to get the officer's attention"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Kollar iki yana açıkken yalnız polisin önünden ve arkasından gelen trafik durur. Kollarının doğrultusunda, yanından gelen trafik dikkatle geçebilir.",
+      "en": "With arms out to the sides, only traffic from in front of and behind the officer stops. Traffic from his sides, along the line of his arms, may go on with care."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": "mk-vienna-road-traffic",
+    "sourceRef": "md. 6",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "markings.police-stop-points",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "markings",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Polisin dur ihtarına uymamak kaç ceza puanıdır?",
+      "en": "How many penalty points does ignoring a police order to stop carry?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "200 puan",
+          "en": "200 points"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "20 puan",
+          "en": "20 points"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "100 puan",
+          "en": "100 points"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "50 puan",
+          "en": "50 points"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "5 Nisan 2025'te yürürlüğe giren değişikliklerle polisin dur ihtarına uymamak 100 ceza puanıdır.",
+      "en": "Under the changes in force from 5 April 2025, ignoring a police order to stop carries 100 penalty points."
+    },
+    "signId": null,
+    "basis": "secondary",
+    "sourceId": "s28",
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  }
+]

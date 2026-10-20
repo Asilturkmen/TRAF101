@@ -1,0 +1,1510 @@
+[
+  {
+    "id": "warning.staggered-junction--right-first",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/staggered-junction--right-first.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde kalın dikey çizgi, altta sağa, daha yukarıda sola ayrılan iki ince çizgi.",
+        "en": "White triangle with a red border; inside, a thick vertical bar with a thin branch to the right and, higher up, a thin branch to the left."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "kademeli-kavsak-once-sagdan",
+      "en": "staggered-junction-right-first"
+    },
+    "name": {
+      "tr": "Kademeli kavşak (önce sağdan)",
+      "en": "Staggered junction, first from the right"
+    },
+    "meaning": {
+      "tr": "İleride kısa aralıkla iki yan yol var: önce sağdan, sonra soldan.",
+      "en": "Two side roads join a short distance apart ahead: first from the right, then from the left."
+    },
+    "driverAction": {
+      "tr": "Yavaşla ve iki yan yoldan çıkabilecek taşıtlara hazır ol. Bu kesimde sollama yapma.",
+      "en": "Slow down and be ready for vehicles from both side roads. Do not overtake on this stretch."
+    },
+    "confusions": [
+      {
+        "with": "warning.staggered-junction",
+        "tip": {
+          "tr": "Hangi yan yol aşağıda, yani sana daha yakın çiziliyse ilk o gelir.",
+          "en": "The side road drawn lower, nearer to you, comes first."
+        }
+      },
+      {
+        "with": "warning.crossroads",
+        "tip": {
+          "tr": "Yan yollar aynı noktada çiziliyse dört yol ağzıdır. Kaymış çiziliyse kademeli kavşaktır.",
+          "en": "If both side roads meet at the same point it is a crossroads. If they are offset it is a staggered junction."
+        }
+      }
+    ],
+    "related": [
+      "warning.staggered-junction",
+      "warning.side-road--right"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.junction-on-bend--left-outside",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/junction-on-bend--left-outside.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde yukarı çıkıp sola kıvrılan kalın siyah çizgi; virajın başından düz yukarı devam eden ince çizgi.",
+        "en": "White triangle with a red border; inside, a thick black line that rises and curves to the left, with a thin line carrying straight on from the start of the bend."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "sola-virajda-kavsak-yan-yol-ileride",
+      "en": "junction-on-left-bend-side-road-ahead"
+    },
+    "name": {
+      "tr": "Sola virajda kavşak (yan yol düz devam eder)",
+      "en": "Junction on a left-hand bend, side road straight ahead"
+    },
+    "meaning": {
+      "tr": "İleride ana yol sola kıvrılıyor. Virajın dış tarafında düz devam eden bir yan yol var.",
+      "en": "The main road bends to the left ahead. A side road carries straight on from the outside of the bend."
+    },
+    "driverAction": {
+      "tr": "Virajdan önce yavaşla ve virajda sollama yapma. Yan yoldan ana yola çıkabilecek taşıtlara hazır ol. Ana yolu izliyorsan yanlışlıkla düz gidip yan yola girme.",
+      "en": "Slow down before the bend and do not overtake on it. Be ready for vehicles coming out of the side road. If you are following the main road, do not drift straight on into the side road."
+    },
+    "confusions": [
+      {
+        "with": "warning.bend--left",
+        "tip": {
+          "tr": "İnce çizgi yoksa yalnız viraj vardır. İnce çizgi virajda bağlanan bir yan yolu gösterir.",
+          "en": "Without the thin line it is only a bend. The thin line shows a side road joining at the bend."
+        }
+      },
+      {
+        "with": "warning.junction-on-bend--left-inside",
+        "tip": {
+          "tr": "İnce çizgi düz yukarı gidiyorsa yan yol virajın dış tarafındadır. Yana gidiyorsa iç tarafındadır.",
+          "en": "If the thin line goes straight up, the side road is on the outside of the bend. If it goes sideways, it is on the inside."
+        }
+      }
+    ],
+    "related": [
+      "warning.bend--left",
+      "warning.junction-on-bend--left-inside"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.junction-on-bend--left-inside",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/junction-on-bend--left-inside.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde yukarı çıkıp sola kıvrılan kalın siyah çizgi; virajdan önce solda yana ayrılan ince çizgi.",
+        "en": "White triangle with a red border; inside, a thick black line that rises and curves to the left, with a thin line branching off to the left just before the bend."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "sola-virajda-kavsak-yan-yol-solda",
+      "en": "junction-on-left-bend-side-road-left"
+    },
+    "name": {
+      "tr": "Sola virajda kavşak (yan yol solda)",
+      "en": "Junction on a left-hand bend, side road on the left"
+    },
+    "meaning": {
+      "tr": "İleride ana yol sola kıvrılıyor. Virajın iç tarafında, solda bir yan yol ayrılıyor.",
+      "en": "The main road bends to the left ahead. A side road leaves on the left, on the inside of the bend."
+    },
+    "driverAction": {
+      "tr": "Virajdan önce yavaşla. Soldaki yan yoldan çıkan sürücü seni geç görebilir. Öndeki taşıt yan yola dönmek için yavaşlayabilir.",
+      "en": "Slow down before the bend. A driver coming out of the side road on the left may see you late, and the vehicle in front may slow down to turn into it."
+    },
+    "confusions": [
+      {
+        "with": "warning.side-road--left",
+        "tip": {
+          "tr": "Kalın çizgi düz gidiyorsa yalnız yan yol vardır. Kalın çizgi kıvrılıyorsa yan yol bir virajın üzerindedir.",
+          "en": "If the thick line runs straight, there is only a side road. If it curves, the side road is on a bend."
+        }
+      },
+      {
+        "with": "warning.junction-on-bend--left-outside",
+        "tip": {
+          "tr": "İnce çizgi yana gidiyorsa yan yol virajın iç tarafındadır. Düz yukarı gidiyorsa dış tarafındadır.",
+          "en": "If the thin line goes sideways, the side road is on the inside of the bend. If it goes straight up, it is on the outside."
+        }
+      }
+    ],
+    "related": [
+      "warning.junction-on-bend--left-outside",
+      "warning.side-road--left"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.junction-on-bend--right-outside",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/junction-on-bend--right-outside.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde yukarı çıkıp sağa kıvrılan kalın siyah çizgi; virajın başından düz yukarı devam eden ince çizgi.",
+        "en": "White triangle with a red border; inside, a thick black line that rises and curves to the right, with a thin line carrying straight on from the start of the bend."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "saga-virajda-kavsak-yan-yol-ileride",
+      "en": "junction-on-right-bend-side-road-ahead"
+    },
+    "name": {
+      "tr": "Sağa virajda kavşak (yan yol düz devam eder)",
+      "en": "Junction on a right-hand bend, side road straight ahead"
+    },
+    "meaning": {
+      "tr": "İleride ana yol sağa kıvrılıyor. Virajın dış tarafında düz devam eden bir yan yol var.",
+      "en": "The main road bends to the right ahead. A side road carries straight on from the outside of the bend."
+    },
+    "driverAction": {
+      "tr": "Virajdan önce yavaşla ve virajda sollama yapma. Yan yoldan ana yola çıkabilecek taşıtlara hazır ol. Ana yolu izliyorsan yanlışlıkla düz gidip yan yola girme.",
+      "en": "Slow down before the bend and do not overtake on it. Be ready for vehicles coming out of the side road. If you are following the main road, do not drift straight on into the side road."
+    },
+    "confusions": [
+      {
+        "with": "warning.bend--right",
+        "tip": {
+          "tr": "İnce çizgi yoksa yalnız viraj vardır. İnce çizgi virajda bağlanan bir yan yolu gösterir.",
+          "en": "Without the thin line it is only a bend. The thin line shows a side road joining at the bend."
+        }
+      },
+      {
+        "with": "warning.junction-on-bend--right-inside",
+        "tip": {
+          "tr": "İnce çizgi düz yukarı gidiyorsa yan yol virajın dış tarafındadır. Yana gidiyorsa iç tarafındadır.",
+          "en": "If the thin line goes straight up, the side road is on the outside of the bend. If it goes sideways, it is on the inside."
+        }
+      }
+    ],
+    "related": [
+      "warning.bend--right",
+      "warning.junction-on-bend--right-inside"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.junction-on-bend--right-inside",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/junction-on-bend--right-inside.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde yukarı çıkıp sağa kıvrılan kalın siyah çizgi; virajdan önce sağda yana ayrılan ince çizgi.",
+        "en": "White triangle with a red border; inside, a thick black line that rises and curves to the right, with a thin line branching off to the right just before the bend."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "saga-virajda-kavsak-yan-yol-sagda",
+      "en": "junction-on-right-bend-side-road-right"
+    },
+    "name": {
+      "tr": "Sağa virajda kavşak (yan yol sağda)",
+      "en": "Junction on a right-hand bend, side road on the right"
+    },
+    "meaning": {
+      "tr": "İleride ana yol sağa kıvrılıyor. Virajın iç tarafında, sağda bir yan yol ayrılıyor.",
+      "en": "The main road bends to the right ahead. A side road leaves on the right, on the inside of the bend."
+    },
+    "driverAction": {
+      "tr": "Virajdan önce yavaşla. Sağdaki yan yoldan çıkan sürücü seni geç görebilir. Öndeki taşıt yan yola dönmek için yavaşlayabilir.",
+      "en": "Slow down before the bend. A driver coming out of the side road on the right may see you late, and the vehicle in front may slow down to turn into it."
+    },
+    "confusions": [
+      {
+        "with": "warning.side-road--right",
+        "tip": {
+          "tr": "Kalın çizgi düz gidiyorsa yalnız yan yol vardır. Kalın çizgi kıvrılıyorsa yan yol bir virajın üzerindedir.",
+          "en": "If the thick line runs straight, there is only a side road. If it curves, the side road is on a bend."
+        }
+      },
+      {
+        "with": "warning.junction-on-bend--right-outside",
+        "tip": {
+          "tr": "İnce çizgi yana gidiyorsa yan yol virajın iç tarafındadır. Düz yukarı gidiyorsa dış tarafındadır.",
+          "en": "If the thin line goes sideways, the side road is on the inside of the bend. If it goes straight up, it is on the outside."
+        }
+      }
+    ],
+    "related": [
+      "warning.junction-on-bend--right-outside",
+      "warning.side-road--right"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.side-road-angled--left",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/side-road-angled--left.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde kalın dikey çizgi; ondan sola ve yukarı doğru çapraz ayrılan ince çizgi.",
+        "en": "White triangle with a red border; inside, a thick vertical bar with a thin line branching off diagonally up to the left."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "soldan-egik-yan-yol",
+      "en": "side-road-at-angle-left"
+    },
+    "name": {
+      "tr": "Soldan eğik yan yol",
+      "en": "Side road at an angle on the left"
+    },
+    "meaning": {
+      "tr": "İleride solda, ana yola eğik açıyla bağlanan bir yan yol var.",
+      "en": "A side road joins at an angle on the left ahead."
+    },
+    "driverAction": {
+      "tr": "Yavaşla. Eğik bağlanan yoldan çıkan sürücü ana yolu omzunun üstünden görmek zorundadır ve seni geç fark edebilir. Ona karşı hazırlıklı ol.",
+      "en": "Slow down. A driver coming out of an angled side road has to look back over the shoulder and may see you late. Be ready for them."
+    },
+    "confusions": [
+      {
+        "with": "warning.side-road--left",
+        "tip": {
+          "tr": "Yan yol dik açıyla çiziliyse düz yan yoldur. Çapraz çiziliyse eğik bağlanır.",
+          "en": "A side road drawn at a right angle is an ordinary side road. One drawn diagonally joins at an angle."
+        }
+      },
+      {
+        "with": "warning.traffic-merging--left",
+        "tip": {
+          "tr": "Katılan trafik levhasında yan yol kavisli olarak ana yola karışır. Eğik yan yolda düz çapraz bir çizgi vardır.",
+          "en": "On the merging sign the side road curves in and blends with the main road. On the angled side road sign it is a straight diagonal line."
+        }
+      }
+    ],
+    "related": [
+      "warning.side-road--left",
+      "warning.side-road-angled--right"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.side-road-angled--right",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/side-road-angled--right.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde kalın dikey çizgi; ondan sağa ve yukarı doğru çapraz ayrılan ince çizgi.",
+        "en": "White triangle with a red border; inside, a thick vertical bar with a thin line branching off diagonally up to the right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "sagdan-egik-yan-yol",
+      "en": "side-road-at-angle-right"
+    },
+    "name": {
+      "tr": "Sağdan eğik yan yol",
+      "en": "Side road at an angle on the right"
+    },
+    "meaning": {
+      "tr": "İleride sağda, ana yola eğik açıyla bağlanan bir yan yol var.",
+      "en": "A side road joins at an angle on the right ahead."
+    },
+    "driverAction": {
+      "tr": "Yavaşla. Eğik bağlanan yoldan çıkan sürücü ana yolu omzunun üstünden görmek zorundadır ve seni geç fark edebilir. Ona karşı hazırlıklı ol.",
+      "en": "Slow down. A driver coming out of an angled side road has to look back over the shoulder and may see you late. Be ready for them."
+    },
+    "confusions": [
+      {
+        "with": "warning.side-road--right",
+        "tip": {
+          "tr": "Yan yol dik açıyla çiziliyse düz yan yoldur. Çapraz çiziliyse eğik bağlanır.",
+          "en": "A side road drawn at a right angle is an ordinary side road. One drawn diagonally joins at an angle."
+        }
+      },
+      {
+        "with": "warning.traffic-merging--right",
+        "tip": {
+          "tr": "Katılan trafik levhasında yan yol kavisli olarak ana yola karışır. Eğik yan yolda düz çapraz bir çizgi vardır.",
+          "en": "On the merging sign the side road curves in and blends with the main road. On the angled side road sign it is a straight diagonal line."
+        }
+      }
+    ],
+    "related": [
+      "warning.side-road--right",
+      "warning.side-road-angled--left"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.two-way-traffic-crossing",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/two-way-traffic-crossing.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde iki yatay siyah ok; üstteki sağı, alttaki solu gösterir.",
+        "en": "White triangle with a red border; inside, two horizontal black arrows; the upper one points right, the lower one points left."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "tek-yonlu-yolu-kesen-iki-yonlu-trafik",
+      "en": "two-way-traffic-crossing-one-way-road"
+    },
+    "name": {
+      "tr": "Tek yönlü yolu kesen iki yönlü trafik",
+      "en": "Two-way traffic crossing a one-way road"
+    },
+    "meaning": {
+      "tr": "Tek yönlü bir yolda gidiyorsun. İleride iki yönlü trafiği olan bir yol yolunu kesiyor.",
+      "en": "You are on a one-way road. Ahead, a road with traffic in both directions crosses it."
+    },
+    "driverAction": {
+      "tr": "Kavşağa yaklaşırken yavaşla ve iki yönden gelebilecek taşıtlara bak. Yalnız bir yöne bakıp çıkma.",
+      "en": "Slow down as you approach and look for traffic from both directions. Do not pull out after looking only one way."
+    },
+    "confusions": [
+      {
+        "with": "warning.two-way-traffic",
+        "tip": {
+          "tr": "Oklar dikeyse senin yolun iki yönlü olur. Oklar yataysa yolunu kesen yol iki yönlüdür.",
+          "en": "Upright arrows mean your own road becomes two-way. Horizontal arrows mean the road crossing yours carries two-way traffic."
+        }
+      }
+    ],
+    "related": [
+      "warning.two-way-traffic",
+      "information.one-way-street"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.dual-carriageway-ends",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/dual-carriageway-ends.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde iki dikey kenar çizgisi ve aralarında alttan başlayıp yarıda biten kalın orta çizgi.",
+        "en": "White triangle with a red border; inside, two vertical edge lines with a thick centre line that starts at the bottom and stops half-way up."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "cift-seritli-yol-sonu",
+      "en": "dual-carriageway-ends"
+    },
+    "name": {
+      "tr": "Çift şeritli yol sonu",
+      "en": "Dual carriageway ends"
+    },
+    "meaning": {
+      "tr": "Ortası ayrılmış çift şeritli yol bitiyor. İleride iki yönün trafiği aynı yolu paylaşır.",
+      "en": "The dual carriageway ends. Ahead, traffic in both directions shares one carriageway."
+    },
+    "driverAction": {
+      "tr": "Sağ şeritteysen erken sinyal ver ve güvenle sol şeride geç. Karşıdan gelen trafiğe hazır ol. Sollamadan önce yolun açık olduğundan emin ol.",
+      "en": "If you are in the right-hand lane, signal early and move safely into the left-hand lane. Expect oncoming traffic, and make sure the road is clear before you overtake."
+    },
+    "confusions": [
+      {
+        "with": "warning.two-way-traffic",
+        "tip": {
+          "tr": "Çift şeritli yol sonu levhası orta ayırıcının bittiğini gösterir. İki yönlü trafik levhasında iki ters ok vardır.",
+          "en": "The dual carriageway ends sign shows the central reservation stopping. The two-way traffic sign shows two opposing arrows."
+        }
+      },
+      {
+        "with": "warning.road-narrows--both",
+        "tip": {
+          "tr": "Daralan yol levhasında kenar çizgileri içe doğru kıvrılır. Burada kenarlar düz kalır, ortadaki çizgi biter.",
+          "en": "On the road narrows sign the edge lines bend inwards. Here the edges stay straight and the centre line ends."
+        }
+      }
+    ],
+    "related": [
+      "warning.two-way-traffic",
+      "warning.lane-ends--right"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.lane-ends--right",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/lane-ends--right.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde iki kalın kenar çizgisi; sağdaki içe kıvrılır. Aralarında yarıda biten kesik şerit çizgisi.",
+        "en": "White triangle with a red border; inside, two thick edge lines, the right-hand one bending inwards, with a broken lane line between them that stops half-way up."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "sag-serit-sona-eriyor",
+      "en": "right-hand-lane-ends"
+    },
+    "name": {
+      "tr": "Sağ şerit sona eriyor",
+      "en": "Right-hand lane ends"
+    },
+    "meaning": {
+      "tr": "İleride iki şeritli yolun sağ şeridi bitiyor ve yol tek şeride iniyor.",
+      "en": "The right-hand lane of a two-lane road ends ahead and the road becomes a single lane."
+    },
+    "driverAction": {
+      "tr": "Sağ şeritteysen erken sinyal ver ve öbür şeritteki trafiğe uyarak geç. Öbür şeritteysen birleşen taşıtlara yer bırak.",
+      "en": "If you are in the right-hand lane, signal early and merge when there is a safe gap. If you are in the other lane, leave room for vehicles merging in."
+    },
+    "confusions": [
+      {
+        "with": "warning.road-narrows--right",
+        "tip": {
+          "tr": "Kesik şerit çizgisi varsa şeritlerden biri biter. Kesik çizgi yoksa yolun kendisi daralır.",
+          "en": "With a broken lane line, one of the lanes ends. Without it, the road itself narrows."
+        }
+      },
+      {
+        "with": "warning.lane-ends--left",
+        "tip": {
+          "tr": "İçe kıvrılan kenar hangi yandaysa o yandaki şerit biter.",
+          "en": "The lane that ends is on the side where the edge line bends inwards."
+        }
+      }
+    ],
+    "related": [
+      "warning.road-narrows--right",
+      "warning.dual-carriageway-ends",
+      "warning.road-works"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Bu çizim Viyana tipi genel biçimi verir. Levhanın KKTC yollarında aynı biçimde kullanıldığı sahada doğrulanmadı.",
+        "en": "The drawing shows the general Vienna-style form. Its use in this form on KKTC roads has not been checked in the field."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.lane-ends--left",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/lane-ends--left.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde iki kalın kenar çizgisi; soldaki içe kıvrılır. Aralarında yarıda biten kesik şerit çizgisi.",
+        "en": "White triangle with a red border; inside, two thick edge lines, the left-hand one bending inwards, with a broken lane line between them that stops half-way up."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "sol-serit-sona-eriyor",
+      "en": "left-hand-lane-ends"
+    },
+    "name": {
+      "tr": "Sol şerit sona eriyor",
+      "en": "Left-hand lane ends"
+    },
+    "meaning": {
+      "tr": "İleride iki şeritli yolun sol şeridi bitiyor ve yol tek şeride iniyor.",
+      "en": "The left-hand lane of a two-lane road ends ahead and the road becomes a single lane."
+    },
+    "driverAction": {
+      "tr": "Sol şeritteysen erken sinyal ver ve öbür şeritteki trafiğe uyarak geç. Öbür şeritteysen birleşen taşıtlara yer bırak.",
+      "en": "If you are in the left-hand lane, signal early and merge when there is a safe gap. If you are in the other lane, leave room for vehicles merging in."
+    },
+    "confusions": [
+      {
+        "with": "warning.road-narrows--left",
+        "tip": {
+          "tr": "Kesik şerit çizgisi varsa şeritlerden biri biter. Kesik çizgi yoksa yolun kendisi daralır.",
+          "en": "With a broken lane line, one of the lanes ends. Without it, the road itself narrows."
+        }
+      },
+      {
+        "with": "warning.lane-ends--right",
+        "tip": {
+          "tr": "İçe kıvrılan kenar hangi yandaysa o yandaki şerit biter.",
+          "en": "The lane that ends is on the side where the edge line bends inwards."
+        }
+      }
+    ],
+    "related": [
+      "warning.road-narrows--left",
+      "warning.dual-carriageway-ends",
+      "warning.road-works"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Bu çizim Viyana tipi genel biçimi verir. Levhanın KKTC yollarında aynı biçimde kullanıldığı sahada doğrulanmadı.",
+        "en": "The drawing shows the general Vienna-style form. Its use in this form on KKTC roads has not been checked in the field."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.traffic-queues",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/traffic-queues.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde arka arkaya dizilmiş, uzaklaştıkça küçülen üç siyah araba, arkadan görünüş.",
+        "en": "White triangle with a red border; inside, three black cars seen from behind, one after another, getting smaller with distance."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "trafik-birikmesi-olabilir",
+      "en": "traffic-queues-likely"
+    },
+    "name": {
+      "tr": "Trafik birikmesi olabilir",
+      "en": "Traffic queues likely"
+    },
+    "meaning": {
+      "tr": "İleride trafik yavaşlayabilir ya da durabilir. Kuyruk oluşabilir.",
+      "en": "Traffic ahead may slow down or stop, and queues may form."
+    },
+    "driverAction": {
+      "tr": "Hızını şimdiden düşür ve takip mesafesini artır. Kuyruğun sonuna yaklaşırken durmaya hazır ol.",
+      "en": "Slow down now and leave a bigger gap. Be ready to stop as you reach the end of the queue."
+    },
+    "confusions": [
+      {
+        "with": "warning.road-works",
+        "tip": {
+          "tr": "Arka arkaya arabalar kuyruğu gösterir. Yol çalışması levhasında kürekle çalışan bir işçi vardır.",
+          "en": "A line of cars shows queues. The road works sign shows a worker with a shovel."
+        }
+      }
+    ],
+    "related": [
+      "warning.road-works",
+      "warning.traffic-signals"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "İngiliz kökenli bir levha. KKTC yollarında kullanıldığı sahada doğrulanmadı.",
+        "en": "A sign of British origin. Its use on KKTC roads has not been checked in the field."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.loose-chippings",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/loose-chippings.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde arkadan görünen siyah araba ve tekerleklerinin iki yanına saçılan küçük taşlar.",
+        "en": "White triangle with a red border; inside, a black car seen from behind with small stones scattering from its wheels on both sides."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "gevsek-malzemeli-yol",
+      "en": "loose-chippings"
+    },
+    "name": {
+      "tr": "Gevşek malzemeli yol",
+      "en": "Loose chippings"
+    },
+    "meaning": {
+      "tr": "Yol yüzeyinde gevşek taş ya da mıcır var. Tekerlekler taş fırlatabilir.",
+      "en": "There are loose stones or chippings on the road surface. Wheels may throw them up."
+    },
+    "driverAction": {
+      "tr": "Yavaşla ve öndeki taşıtla aranı aç. Ani fren ve sert direksiyon hareketinden kaçın.",
+      "en": "Slow down and drop back from the vehicle in front. Avoid harsh braking and sharp steering."
+    },
+    "confusions": [
+      {
+        "with": "warning.slippery-road",
+        "tip": {
+          "tr": "Kayan araba ve kıvrık izler kaygan yolu gösterir. Tekerleklerden saçılan taşlar gevşek malzemeyi gösterir.",
+          "en": "A skidding car with wavy tracks means a slippery road. Stones flying from the wheels mean loose chippings."
+        }
+      }
+    ],
+    "related": [
+      "warning.slippery-road",
+      "warning.road-works"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.soft-verges",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/soft-verges.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde siyah yol kesiti; araba sol tekerlekleriyle yolun kenarındaki alçak bankete kaymış ve yana yatmış.",
+        "en": "White triangle with a red border; inside, a black road profile with a car tilted over, its left wheels slipping onto the low verge at the side."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yumusak-banket",
+      "en": "soft-verges"
+    },
+    "name": {
+      "tr": "Yumuşak banket",
+      "en": "Soft verges"
+    },
+    "meaning": {
+      "tr": "Yolun kenarındaki banket yumuşak. Taşıtın ağırlığını taşımayabilir.",
+      "en": "The verge at the side of the road is soft and may not take the weight of a vehicle."
+    },
+    "driverAction": {
+      "tr": "Yolun kenarına fazla yaklaşma. Zorunlu kalmadıkça banket üzerine çıkma ve orada durma.",
+      "en": "Keep away from the edge of the road. Do not drive or stop on the verge unless you have to."
+    },
+    "confusions": [
+      {
+        "with": "warning.uneven-road",
+        "tip": {
+          "tr": "Bozuk yol levhasında yol yüzeyinde tümsekler vardır. Bu levhada araba yol kenarında yana yatar.",
+          "en": "The uneven road sign shows bumps in the surface. This sign shows a car tipping over at the edge of the road."
+        }
+      }
+    ],
+    "related": [
+      "warning.uneven-road",
+      "warning.loose-chippings"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.cross-wind",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/cross-wind.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde direğe bağlı, yatay uçuşan çizgili rüzgâr tulumu.",
+        "en": "White triangle with a red border; inside, a striped windsock on a pole, blowing out sideways."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yan-ruzgar",
+      "en": "side-winds"
+    },
+    "name": {
+      "tr": "Yan rüzgâr",
+      "en": "Side winds"
+    },
+    "meaning": {
+      "tr": "Bu kesimde yandan kuvvetli rüzgâr esebilir.",
+      "en": "Strong side winds may blow across this stretch of road."
+    },
+    "driverAction": {
+      "tr": "Direksiyonu iki elinle sıkı tut ve hızını düşür. Açık alanlarda, köprülerde ve büyük taşıtları geçerken savrulmaya hazır ol. Motosiklet ve karavanlar daha çok etkilenir.",
+      "en": "Keep both hands firmly on the wheel and slow down. Expect to be pushed sideways in open country, on bridges and when passing large vehicles. Motorcycles and caravans are affected most."
+    },
+    "confusions": [
+      {
+        "with": "warning.low-flying-aircraft",
+        "tip": {
+          "tr": "Rüzgâr tulumu yan rüzgârı, uçak resmi alçak uçuşu gösterir. İkisi de havaalanı çevresinde görülebilir.",
+          "en": "The windsock means side winds; the aircraft means low-flying aircraft. Both can appear near airfields."
+        }
+      }
+    ],
+    "related": [
+      "warning.low-flying-aircraft"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.tunnel",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/tunnel.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde altında kemerli bir açıklık olan kalın siyah tünel ağzı.",
+        "en": "White triangle with a red border; inside, a thick black tunnel portal with an arched opening at the bottom."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "ileride-tunel",
+      "en": "tunnel-ahead"
+    },
+    "name": {
+      "tr": "Tünel",
+      "en": "Tunnel"
+    },
+    "meaning": {
+      "tr": "İleride bir tünel var.",
+      "en": "There is a tunnel ahead."
+    },
+    "driverAction": {
+      "tr": "Tünele girmeden önce farlarını yak ve hızını düşür. Gözlerin karanlığa alışana kadar dikkatli ol. Tünelde sollama yapma ve durma.",
+      "en": "Switch on your headlights and slow down before you enter. Take care while your eyes adjust to the dark. Do not overtake or stop in the tunnel."
+    },
+    "confusions": [
+      {
+        "with": "warning.hump-bridge",
+        "tip": {
+          "tr": "Yol kemerin içinden geçiyorsa tüneldir. Yol kemerin üstünden geçiyorsa kambur köprüdür.",
+          "en": "If the road goes through the arch, it is a tunnel. If the road goes over the arch, it is a hump bridge."
+        }
+      }
+    ],
+    "related": [
+      "warning.hump-bridge"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Levhanın KKTC yollarında kullanıldığı sahada doğrulanmadı.",
+        "en": "Its use on KKTC roads has not been checked in the field."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.hump-bridge",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/hump-bridge.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde ortası yükselen siyah köprü kesiti; altında yarım daire biçiminde açıklık.",
+        "en": "White triangle with a red border; inside, a black bridge profile that rises in the middle, with a semicircular opening underneath."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "kambur-kopru",
+      "en": "hump-bridge"
+    },
+    "name": {
+      "tr": "Kambur köprü",
+      "en": "Hump bridge"
+    },
+    "meaning": {
+      "tr": "İleride ortası yükselen dar bir köprü var. Karşıdan gelen taşıt köprünün öbür yanında görünmeyebilir.",
+      "en": "There is a narrow bridge with a raised middle ahead. Oncoming vehicles may be hidden on the other side."
+    },
+    "driverAction": {
+      "tr": "Yavaşla ve şeridinin solunda kal. Köprünün üstünde sollama yapma ve karşıdan taşıt çıkabileceğini unutma.",
+      "en": "Slow down and keep well to the left. Do not overtake on the bridge, and expect oncoming vehicles to appear suddenly."
+    },
+    "confusions": [
+      {
+        "with": "warning.road-hump",
+        "tip": {
+          "tr": "Hız tümseğinde düz yolun ortasında tek tümsek vardır. Kambur köprüde tümseğin altında açıklık görülür.",
+          "en": "The road hump sign shows a single bump on a flat road. The hump bridge sign has an opening under the hump."
+        }
+      }
+    ],
+    "related": [
+      "warning.road-hump",
+      "warning.tunnel"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.quayside",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/quayside.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde solda siyah rıhtım bloğu; sağında suya düşen bir araba ve dalga çizgileri.",
+        "en": "White triangle with a red border; inside, a black quay block on the left and, to its right, a car falling into wavy water."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "rihtim-veya-dere-kenari",
+      "en": "quayside-or-river-bank"
+    },
+    "name": {
+      "tr": "Rıhtım ya da dere kenarı",
+      "en": "Quayside or river bank"
+    },
+    "meaning": {
+      "tr": "Yol suyun kıyısına, bir rıhtıma ya da dere kenarına çıkıyor.",
+      "en": "The road runs out onto a quayside or river bank."
+    },
+    "driverAction": {
+      "tr": "Yavaşla ve yolun kenarına yaklaşma. Gece ve yağmurda ayrıca dikkatli ol.",
+      "en": "Slow down and keep away from the edge. Take extra care at night and in the rain."
+    },
+    "confusions": [
+      {
+        "with": "warning.soft-verges",
+        "tip": {
+          "tr": "Suya düşen araba rıhtımı gösterir. Yol kenarında yana yatan araba yumuşak banketi gösterir.",
+          "en": "A car falling into water means a quayside. A car tipping over at the roadside means soft verges."
+        }
+      }
+    ],
+    "related": [
+      "warning.soft-verges"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Levhanın KKTC yollarında kullanıldığı sahada doğrulanmadı.",
+        "en": "Its use on KKTC roads has not been checked in the field."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.ice",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/ice.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde altı kollu siyah kar tanesi.",
+        "en": "White triangle with a red border; inside, a black six-armed snowflake."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "buzlanma",
+      "en": "risk-of-ice"
+    },
+    "name": {
+      "tr": "Buzlanma",
+      "en": "Risk of ice"
+    },
+    "meaning": {
+      "tr": "Yol yüzeyi buzlanabilir ya da kar tutabilir.",
+      "en": "The road surface may be icy or covered in snow."
+    },
+    "driverAction": {
+      "tr": "Hızını düşür ve takip mesafesini artır. Ani fren, ani hızlanma ve sert direksiyon hareketinden kaçın.",
+      "en": "Slow down and leave a much bigger gap. Avoid harsh braking, sudden acceleration and sharp steering."
+    },
+    "confusions": [
+      {
+        "with": "warning.slippery-road",
+        "tip": {
+          "tr": "Kar tanesi buz ve karı gösterir. Kayan araba her türlü kayganlık için kullanılır.",
+          "en": "The snowflake means ice or snow. The skidding car is used for any slippery surface."
+        }
+      }
+    ],
+    "related": [
+      "warning.slippery-road"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC ikliminde buzlanma seyrektir. Levhanın KKTC yollarında kullanıldığı sahada doğrulanmadı.",
+        "en": "Ice is rare in the KKTC climate. Its use on KKTC roads has not been checked in the field."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.low-flying-aircraft",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/low-flying-aircraft.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde çapraz uçan siyah uçak, üstten görünüş.",
+        "en": "White triangle with a red border; inside, a black aircraft seen from above, flying diagonally."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "alcak-ucus",
+      "en": "low-flying-aircraft"
+    },
+    "name": {
+      "tr": "Alçak uçuş",
+      "en": "Low-flying aircraft"
+    },
+    "meaning": {
+      "tr": "Yolun yakınında alçaktan uçan uçaklar olabilir. Ani ve yüksek ses duyabilirsin.",
+      "en": "Aircraft may fly low near the road, and you may hear sudden loud noise."
+    },
+    "driverAction": {
+      "tr": "Uçak sesi ya da gölgesi seni şaşırtmasın. Dikkatini yoldan ayırma ve ani fren yapma.",
+      "en": "Do not let the noise or shadow of an aircraft startle you. Keep your eyes on the road and do not brake suddenly."
+    },
+    "confusions": [
+      {
+        "with": "warning.cross-wind",
+        "tip": {
+          "tr": "Uçak alçak uçuşu, rüzgâr tulumu yan rüzgârı gösterir.",
+          "en": "The aircraft means low-flying aircraft; the windsock means side winds."
+        }
+      }
+    ],
+    "related": [
+      "warning.cross-wind"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Ercan Havalimanı çevresinde olası. KKTC yollarında kullanıldığı sahada doğrulanmadı.",
+        "en": "Plausible near Ercan airport. Its use on KKTC roads has not been checked in the field."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.pedestrians",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/pedestrians.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde yürüyen siyah bir insan figürü; altında çizgi yok.",
+        "en": "White triangle with a red border; inside, a black figure of a walking person, with no stripes underneath."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "dikkat-yayalar",
+      "en": "pedestrians-in-road"
+    },
+    "name": {
+      "tr": "Dikkat yayalar",
+      "en": "Pedestrians in the road"
+    },
+    "meaning": {
+      "tr": "İleride yolda ya da yol kenarında yürüyen yayalar olabilir. Kaldırım olmayabilir.",
+      "en": "There may be people walking in or beside the road ahead, possibly with no pavement."
+    },
+    "driverAction": {
+      "tr": "Yavaşla, yayalara geniş yer bırak ve gerekirse dur.",
+      "en": "Slow down, give pedestrians plenty of room and stop if you need to."
+    },
+    "confusions": [
+      {
+        "with": "warning.pedestrian-crossing",
+        "tip": {
+          "tr": "Yayanın altında çizgiler varsa ileride yaya geçidi vardır. Çizgi yoksa yolda yaya olabilir.",
+          "en": "With stripes under the figure, there is a pedestrian crossing ahead. Without stripes, people may be walking in the road."
+        }
+      },
+      {
+        "with": "mandatory.pedestrian-route",
+        "tip": {
+          "tr": "Mavi daire yalnız yayaların kullanacağı yolu gösterir. Üçgen yalnız uyarır.",
+          "en": "The blue disc marks a route for pedestrians only. The triangle only warns."
+        }
+      }
+    ],
+    "related": [
+      "warning.pedestrian-crossing",
+      "warning.elderly-people"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.elderly-people",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/elderly-people.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde öne eğik yürüyen iki siyah figür; öndeki bastonla yürüyor.",
+        "en": "White triangle with a red border; inside, two black figures walking with a stoop; the front one uses a walking stick."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yasli-veya-engelli-yayalar",
+      "en": "elderly-or-disabled-pedestrians"
+    },
+    "name": {
+      "tr": "Yaşlı ya da engelli yayalar",
+      "en": "Elderly or disabled pedestrians"
+    },
+    "meaning": {
+      "tr": "Bu kesimde yavaş yürüyen yaşlı ya da engelli yayalar yolu geçebilir.",
+      "en": "Elderly or disabled people, who may walk slowly, may be crossing the road here."
+    },
+    "driverAction": {
+      "tr": "Yavaşla ve yolu geçen yayaya yetecek zaman bırak. Acele ettirme ve korna çalma.",
+      "en": "Slow down and give people crossing plenty of time. Do not hurry them or sound your horn."
+    },
+    "confusions": [
+      {
+        "with": "warning.children",
+        "tip": {
+          "tr": "Bastonlu ve öne eğik figürler yaşlı yayaları, küçük figürler çocukları gösterir.",
+          "en": "Stooping figures with a stick mean elderly people; small figures mean children."
+        }
+      }
+    ],
+    "related": [
+      "warning.pedestrians",
+      "warning.pedestrian-crossing"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.school-crossing",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/school-crossing.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde yürüyen iki küçük siyah çocuk figürü ve altlarında yaya geçidi çizgileri.",
+        "en": "White triangle with a red border; inside, two small black figures of children walking, with crossing stripes underneath."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "okul-gecidi",
+      "en": "school-crossing"
+    },
+    "name": {
+      "tr": "Okul geçidi",
+      "en": "School crossing"
+    },
+    "meaning": {
+      "tr": "İleride okul çocuklarının kullandığı bir yaya geçidi var.",
+      "en": "There is a crossing used by schoolchildren ahead."
+    },
+    "driverAction": {
+      "tr": "Yavaşla ve durmaya hazır ol. Geçitte bekleyen ya da geçen çocuk varsa dur. Görevli dur işareti verirse ona uy.",
+      "en": "Slow down and be ready to stop. Stop if children are waiting at or using the crossing. Obey a crossing patrol that signals you to stop."
+    },
+    "confusions": [
+      {
+        "with": "warning.children",
+        "tip": {
+          "tr": "Çocukların altında çizgiler varsa ileride okul geçidi vardır. Çizgi yoksa çocukların bulunabileceği bir bölgedir.",
+          "en": "With stripes under the children, there is a school crossing ahead. Without stripes, children may be about in the area."
+        }
+      },
+      {
+        "with": "warning.pedestrian-crossing",
+        "tip": {
+          "tr": "Tek yetişkin figür genel yaya geçidini, iki çocuk figürü okul geçidini gösterir.",
+          "en": "One adult figure means an ordinary pedestrian crossing; two children mean a school crossing."
+        }
+      }
+    ],
+    "related": [
+      "warning.children",
+      "warning.pedestrian-crossing"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC'de ayrı bir okul geçidi levhası kullanıldığı doğrulanmadı.",
+        "en": "It has not been confirmed that KKTC uses a separate school crossing sign."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.wild-animals",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/wild-animals.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz üçgen; içinde sıçrayan boynuzlu siyah bir geyik.",
+        "en": "White triangle with a red border; inside, a black leaping deer with antlers."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "vahsi-hayvan-gecebilir",
+      "en": "wild-animals"
+    },
+    "name": {
+      "tr": "Vahşi hayvan geçebilir",
+      "en": "Wild animals"
+    },
+    "meaning": {
+      "tr": "Bu kesimde yabani hayvanlar aniden yola çıkabilir.",
+      "en": "Wild animals may suddenly come onto the road along this stretch."
+    },
+    "driverAction": {
+      "tr": "Özellikle akşam ve gece yavaşla. Hayvan görürsen fren yap ama sert direksiyon kırma.",
+      "en": "Slow down, especially at dusk and at night. If an animal appears, brake firmly but do not swerve hard."
+    },
+    "confusions": [
+      {
+        "with": "warning.domestic-animals",
+        "tip": {
+          "tr": "İnek evcil hayvanı, sıçrayan geyik yabani hayvanı gösterir.",
+          "en": "A cow means farm animals; a leaping deer means wild animals."
+        }
+      }
+    ],
+    "related": [
+      "warning.domestic-animals"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.sharp-deviation--left",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/sharp-deviation--left.svg",
+      "alt": {
+        "tr": "Yatay beyaz levha; içinde sola bakan üç kalın siyah ok başı.",
+        "en": "Wide white board with three thick black chevrons pointing left."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "sola-keskin-yon-degisikligi",
+      "en": "sharp-deviation-left"
+    },
+    "name": {
+      "tr": "Sola keskin yön değişikliği",
+      "en": "Sharp deviation of route to the left"
+    },
+    "meaning": {
+      "tr": "Yol burada sola keskin bir dönüş yapıyor ya da geçici olarak sola sapıyor.",
+      "en": "The road turns sharply to the left here, or is temporarily diverted to the left."
+    },
+    "driverAction": {
+      "tr": "Levhaya gelmeden hızını iyice düşür ve okların gösterdiği yönde, sola dön.",
+      "en": "Slow right down before you reach the board and follow the chevrons to the left."
+    },
+    "confusions": [
+      {
+        "with": "warning.bend--left",
+        "tip": {
+          "tr": "Üçgen levha virajı önceden haber verir. Ok başlı levha dönüşün tam yerinde durur ve yönü gösterir.",
+          "en": "The triangle warns of the bend in advance. The chevron board stands at the turn itself and shows the direction."
+        }
+      },
+      {
+        "with": "mandatory.turn-left",
+        "tip": {
+          "tr": "Mavi daire içindeki ok dönmeyi zorunlu kılan bir emirdir. Ok başlı beyaz levha yolun kıvrıldığını gösterir.",
+          "en": "The arrow on a blue disc is an order to turn. The white chevron board shows that the road itself turns."
+        }
+      }
+    ],
+    "related": [
+      "warning.bend--left",
+      "warning.road-works"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.sharp-deviation--right",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/sharp-deviation--right.svg",
+      "alt": {
+        "tr": "Yatay beyaz levha; içinde sağa bakan üç kalın siyah ok başı.",
+        "en": "Wide white board with three thick black chevrons pointing right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "saga-keskin-yon-degisikligi",
+      "en": "sharp-deviation-right"
+    },
+    "name": {
+      "tr": "Sağa keskin yön değişikliği",
+      "en": "Sharp deviation of route to the right"
+    },
+    "meaning": {
+      "tr": "Yol burada sağa keskin bir dönüş yapıyor ya da geçici olarak sağa sapıyor.",
+      "en": "The road turns sharply to the right here, or is temporarily diverted to the right."
+    },
+    "driverAction": {
+      "tr": "Levhaya gelmeden hızını iyice düşür ve okların gösterdiği yönde, sağa dön.",
+      "en": "Slow right down before you reach the board and follow the chevrons to the right."
+    },
+    "confusions": [
+      {
+        "with": "warning.bend--right",
+        "tip": {
+          "tr": "Üçgen levha virajı önceden haber verir. Ok başlı levha dönüşün tam yerinde durur ve yönü gösterir.",
+          "en": "The triangle warns of the bend in advance. The chevron board stands at the turn itself and shows the direction."
+        }
+      },
+      {
+        "with": "mandatory.turn-right",
+        "tip": {
+          "tr": "Mavi daire içindeki ok dönmeyi zorunlu kılan bir emirdir. Ok başlı beyaz levha yolun kıvrıldığını gösterir.",
+          "en": "The arrow on a blue disc is an order to turn. The white chevron board shows that the road itself turns."
+        }
+      }
+    ],
+    "related": [
+      "warning.bend--right",
+      "warning.road-works"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.hazard-marker--pass-left",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/hazard-marker--pass-left.svg",
+      "alt": {
+        "tr": "Dik beyaz levha; sola doğru inen kalın siyah çapraz çizgiler.",
+        "en": "Tall white board with thick black diagonal stripes sloping down to the left."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "engel-isareti-soldan-gec",
+      "en": "hazard-marker-pass-left"
+    },
+    "name": {
+      "tr": "Engel işareti (soldan geç)",
+      "en": "Hazard marker, pass on the left"
+    },
+    "meaning": {
+      "tr": "Levhanın olduğu yerde bir engel, ada ya da yol ayrımı var. Çizgilerin indiği yandan, yani soldan geçilir.",
+      "en": "There is an obstacle, island or fork where the board stands. Pass on the side the stripes slope down to: the left."
+    },
+    "driverAction": {
+      "tr": "Hızını düşür ve engelin solundan geç.",
+      "en": "Slow down and pass the obstacle on its left."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.keep-left",
+        "tip": {
+          "tr": "Mavi daire içindeki ok soldan gitmeyi zorunlu kılar. Çizgili levha engelin yerini gösterir; çizgiler hangi yana iniyorsa o yandan geçersin.",
+          "en": "The arrow on a blue disc orders you to keep left. The striped board marks the obstacle itself; you pass on the side the stripes slope down to."
+        }
+      },
+      {
+        "with": "warning.hazard-marker--pass-right",
+        "tip": {
+          "tr": "Çizgilerin alt ucu hangi yandaysa o yandan geçilir.",
+          "en": "Pass on the side where the stripes end lowest."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.keep-left",
+      "warning.hazard-marker--pass-right"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Viyana Sözleşmesi'ndeki genel biçim. KKTC'de kullanılan renk ve biçim sahada doğrulanmadı.",
+        "en": "The general form from the Vienna Convention. The colours and form used in KKTC have not been checked in the field."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "warning.hazard-marker--pass-right",
+    "category": "warning",
+    "image": {
+      "src": "/signs/warning/hazard-marker--pass-right.svg",
+      "alt": {
+        "tr": "Dik beyaz levha; sağa doğru inen kalın siyah çapraz çizgiler.",
+        "en": "Tall white board with thick black diagonal stripes sloping down to the right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "engel-isareti-sagdan-gec",
+      "en": "hazard-marker-pass-right"
+    },
+    "name": {
+      "tr": "Engel işareti (sağdan geç)",
+      "en": "Hazard marker, pass on the right"
+    },
+    "meaning": {
+      "tr": "Levhanın olduğu yerde bir engel, ada ya da yol ayrımı var. Çizgilerin indiği yandan, yani sağdan geçilir.",
+      "en": "There is an obstacle, island or fork where the board stands. Pass on the side the stripes slope down to: the right."
+    },
+    "driverAction": {
+      "tr": "Hızını düşür ve engelin sağından geç.",
+      "en": "Slow down and pass the obstacle on its right."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.keep-right",
+        "tip": {
+          "tr": "Mavi daire içindeki ok sağdan gitmeyi zorunlu kılar. Çizgili levha engelin yerini gösterir; çizgiler hangi yana iniyorsa o yandan geçersin.",
+          "en": "The arrow on a blue disc orders you to keep right. The striped board marks the obstacle itself; you pass on the side the stripes slope down to."
+        }
+      },
+      {
+        "with": "warning.hazard-marker--pass-left",
+        "tip": {
+          "tr": "Çizgilerin alt ucu hangi yandaysa o yandan geçilir.",
+          "en": "Pass on the side where the stripes end lowest."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.keep-right",
+      "warning.hazard-marker--pass-left"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Viyana Sözleşmesi'ndeki genel biçim. KKTC'de kullanılan renk ve biçim sahada doğrulanmadı.",
+        "en": "The general form from the Vienna Convention. The colours and form used in KKTC have not been checked in the field."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  }
+]

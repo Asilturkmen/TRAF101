@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "roundabouts.first-exit-signal",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Çemberden ilk çıkıştan, yani sola çıkacaksın. Yaklaşırken ne yaparsın?",
+      "en": "You will leave the roundabout at the first exit, to the left. What do you do as you approach?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sağ sinyal verir, çembere sağ şeritten girerim",
+          "en": "I signal right and join from the right-hand lane"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sol sinyal verir ve solda kalırım",
+          "en": "I signal left and keep to the left"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Girişte sinyal vermem, yalnız çıkışta veririm",
+          "en": "I give no signal as I join, only at the exit"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Çemberde bir tur dönüp öyle çıkarım",
+          "en": "I go once round the roundabout before leaving"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "İlk çıkıştan sola çıkacaksan yaklaşırken sol sinyal verir ve solda kalırsın. Bu, çemberdeki en kısa yoldur.",
+      "en": "For the first exit you signal left on the approach and keep to the left. It is the shortest way round."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "roundabouts.straight-on-signal",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Çemberden düz geçeceksin. Sinyali ne zaman verirsin?",
+      "en": "You are going straight on at a roundabout. When do you signal?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Girişte sağ sinyal, çıkışta sol sinyal veririm",
+          "en": "Right as I join, then left at the exit"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Girişte sol sinyal verir, çıkana kadar açık tutarım",
+          "en": "Left as I join, and I keep it on all the way until I leave"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Girişte vermem, önceki çıkışı geçince sol veririm",
+          "en": "None as I join; left once I pass the exit before mine"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hiç vermem, düz giden sinyal vermez",
+          "en": "Never; going straight on needs no signal"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Düz geçerken girişte sinyal vermezsin. Çıkışından bir önceki çıkışı geçince sol sinyal verip çıkarsın.",
+      "en": "Going straight on, you give no signal as you join. Once you pass the exit before yours, you signal left and leave."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "roundabouts.right-turn-approach",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Dört kollu bir çemberde sağa, üçüncü çıkışa gideceksin. Yaklaşırken hangi sinyali verirsin?",
+      "en": "You are turning right at a four-way roundabout, taking the third exit. Which signal do you give on the approach?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sağ sinyal",
+          "en": "A right signal"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sol sinyal",
+          "en": "A left signal"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sinyal vermem",
+          "en": "No signal"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Dörtlü flaşör",
+          "en": "Hazard warning lights"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Sağa dönerken yaklaşırken sağ sinyal verir ve çemberde dönerken açık tutarsın. Bu sinyal ilk çıkışlardan çıkmayacağını gösterir.",
+      "en": "When turning right you signal right on the approach and keep it on as you go round. It shows you are not leaving at the first exits."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "roundabouts.right-turn-switch",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Çemberde sağa dönüyorsun ve sağ sinyalin açık. Sol sinyale ne zaman geçersin?",
+      "en": "You are turning right on a roundabout with your right signal on. When do you change to a left signal?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Çembere girer girmez",
+          "en": "As soon as I join the roundabout"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Çıkıp yeni yola girdikten sonra",
+          "en": "Once I am on the new road"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Hiç geçmem, sağ sinyalle çıkarım",
+          "en": "I do not; I leave with the right signal on"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Çıkışımdan önceki çıkışı geçince",
+          "en": "When I pass the exit before mine"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Çıkışından bir önceki çıkışı geçince sağ sinyali kapat ve sol sinyal ver. Böylece girişlerde bekleyenler çıkacağını bilir.",
+      "en": "When you pass the exit before yours, switch off the right signal and signal left. Drivers waiting at the entries then know you are leaving."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "roundabouts.join-direction",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Çembere girerken hangi yöne dönersin?",
+      "en": "Which way do you turn as you join a roundabout?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sağa, ada solumda kalsın diye",
+          "en": "Right, so the island is on my left"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sola, çünkü dönüş saat yönündedir",
+          "en": "Left, because traffic goes round clockwise"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Çıkışıma göre sağa ya da sola",
+          "en": "Right or left, depending on my exit"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hiçbir yöne, adaya doğru düz giderim",
+          "en": "Neither; I drive straight towards the island"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Sol trafikte çemberde saat yönünde dönülür. Her girişte sola doğru girersin ve ada sağında kalır.",
+      "en": "In left-hand traffic you go round clockwise, so at every entry you turn left onto the roundabout and keep the island on your right."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "roundabouts.look-right",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Çember girişinde bu levha var. Girmeden önce ilk hangi yöne bakarsın?",
+      "en": "This sign is at the roundabout entry. Which way do you look first before joining?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sola, sağdan trafikte yapıldığı gibi",
+          "en": "Left, as you would in right-hand traffic"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Yalnız karşıya, çıkacağım yola",
+          "en": "Straight ahead, at my exit only"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sağa, trafik oradan gelir",
+          "en": "Right, where the traffic comes from"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Aynaya, arkamdaki araçlara",
+          "en": "In the mirror, at traffic behind"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Sağdan araç geliyorsa çembere girmezsin. Çemberde dönen trafik sana sağından gelir, bu yüzden önce sağına bakarsın.",
+      "en": "You must not enter if a vehicle is coming from the right. Traffic on the roundabout reaches you from the right, so you look right first."
+    },
+    "signId": "priority.give-way",
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "roundabouts.misleading-signal",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Çember girişinde bekliyorsun. Sağından gelen bir araç sol sinyal veriyor, senin yoluna çıkacak gibi. Ne yaparsın?",
+      "en": "You are waiting at a roundabout entry. A vehicle coming from your right is signalling left, as if it is about to turn into your road. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Gerçekten çıktığını görene kadar beklerim",
+          "en": "I wait until I can see it is really turning off"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sinyale güvenip beklemeden hemen çembere girerim",
+          "en": "I trust the signal and pull out straight away without waiting"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Korna çalıp girdiğimi bildiririm",
+          "en": "I sound the horn and pull out"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Sağ sinyal verip yavaşça girerim",
+          "en": "I signal right and edge out slowly"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Sinyal unutulmuş ya da erken verilmiş olabilir. Araç çemberden ayrılmaya başlamadan önüne çıkma.",
+      "en": "The signal may have been left on or given too early. Do not pull out until the vehicle has started to leave the roundabout."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "roundabouts.missed-exit",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Çemberde çıkışını kaçırdın. Ne yaparsın?",
+      "en": "You have missed your exit on a roundabout. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Durup geri geri çıkışa dönerim",
+          "en": "I stop and reverse back to it"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ters yöne dönüp çıkışa giderim",
+          "en": "I turn back anticlockwise to the exit"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Çemberde durup boşluk beklerim",
+          "en": "I stop on the roundabout and wait for a gap"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Bir tur daha dönüp çıkarım",
+          "en": "I go round again and take it"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Çemberde geri gitmek, durmak ya da ters yöne dönmek tehlikelidir. Sakin kal ve bir tur daha dön.",
+      "en": "Reversing, stopping or going anticlockwise on a roundabout is dangerous. Stay calm and go round again."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "roundabouts.go-back",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Geldiğin yola geri dönmek istiyorsun ve önünde bir çember var. Ne yaparsın?",
+      "en": "You want to go back the way you came, and there is a roundabout ahead. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Çembere gelmeden yolun ortasında geri dönerim",
+          "en": "I make a U-turn in the road before the roundabout"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Sağ sinyalle girer, çemberi tam dönerim",
+          "en": "I join signalling right and go all the way round"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Adanın solundan kısa yoldan dönerim",
+          "en": "I turn back the short way, left of the island"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Girişte durur, boşlukta ters yöne dönerim",
+          "en": "I stop at the entry and turn back against the flow"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Geri dönmek için çemberin etrafında saat yönünde tam dönersin. Sinyaller sağa dönüşteki gibidir: önce sağ, çıkışından önceki çıkışı geçince sol.",
+      "en": "To go back, you go all the way round clockwise. Signal as for turning right: right first, then left once you pass the exit before yours."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "roundabouts.mini-painted-circle",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Kavşağın ortasında yola boyanmış küçük beyaz bir daire var. Sağa döneceksin. Ne yaparsın?",
+      "en": "There is a small white circle painted in the middle of a junction. You are turning right. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yalnız boya olduğu için üstünden geçerim",
+          "en": "I drive over it, as it is only paint"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Daireyi solumda bırakıp kısa yoldan dönerim",
+          "en": "I turn the short way, with the circle on my left"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Daireyi sağımda tutarak etrafından dönerim",
+          "en": "I go round it, keeping it on my right"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Daireyi yok sayar, normal kavşak gibi dönerim",
+          "en": "I ignore it and turn as at a normal junction"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Boyalı daire mini bir çemberdir. Büyük çemberdeki gibi daireyi sağında tutarak saat yönünde dönersin ve üstünden geçmezsin.",
+      "en": "The painted circle is a mini roundabout. As on a large one, you go round clockwise with the circle on your right and do not drive over it."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "roundabouts.mini-same-time",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Mini bir çembere geliyorsun. Sağındaki girişe de aynı anda bir araç geliyor. Önce kim geçer?",
+      "en": "You reach a mini roundabout at the same time as a vehicle at the entry on your right. Who goes first?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sağımdaki araç",
+          "en": "The vehicle on my right"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Ben, çünkü ana yoldayım",
+          "en": "I do, because I am on the main road"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Önce sinyal veren",
+          "en": "Whoever signals first"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Daha büyük olan araç",
+          "en": "The larger vehicle"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Mini çember de bir çemberdir. Sağdan araç geliyorsa girmezsin, ona yol verirsin.",
+      "en": "A mini roundabout is still a roundabout. If a vehicle is coming from the right, you do not enter; you give way to it."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "roundabouts.exit-crossing",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Çemberden çıkıyorsun. Çıkıştaki yaya geçidinin kenarında bir yaya karşıya geçmeye hazırlanıyor. Ne yaparsın?",
+      "en": "You are leaving a roundabout. A pedestrian is at the kerb by the crossing at your exit, about to cross. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Çemberden çıkışı bitirmek için biraz hızlanırım",
+          "en": "I speed up to finish leaving the roundabout"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Geçitte durur, yayaya yol veririm",
+          "en": "I stop at the crossing and let them cross"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Korna çalıp yayayı uyarırım",
+          "en": "I sound the horn to warn them"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Yaya henüz yolda değilse geçerim",
+          "en": "I go on, as they are not on the road yet"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "Geçitten geçen ya da geçmeye hazırlanan bir yaya varsa durup yol verirsin. Bu kural çemberin çıkışında da geçerlidir.",
+      "en": "If someone is crossing or about to cross, you stop and give way. This applies at a roundabout exit too."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s1",
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "roundabouts.cyclist-ahead",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Çemberde önünde, dış kenarda giden bir bisikletli var. Ne yaparsın?",
+      "en": "A cyclist is ahead of you on the roundabout, keeping to the outside edge. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Çemberin içinde onu sağından hızla sollarım",
+          "en": "I overtake on their right while on the roundabout"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Korna çalıp kenara çekilmesini isterim",
+          "en": "I sound the horn so they move over"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Kenarla bisikletlinin arasından geçerim",
+          "en": "I pass between them and the kerb"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Arkasında kalır, nereye gittiğini izlerim",
+          "en": "I stay behind and watch where they go"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Bisikletli dış kenarda kalıp birkaç çıkışı geçebilir. Çemberde sollamaya çalışma; arkasında kal ve ona yer bırak.",
+      "en": "A cyclist may keep to the outside and go past several exits. Do not try to overtake on the roundabout; stay behind and give them room."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "roundabouts.long-vehicle-ahead",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Çemberde hemen önünde uzun bir kamyon dönüyor. Ne yaparsın?",
+      "en": "A long lorry is going round the roundabout just ahead of you. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Yanından geçip önüne çıkarım",
+          "en": "I drive alongside it and get in front before the exit"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Arkasına iyice yaklaşıp hızlanmasını beklerim",
+          "en": "I close up behind so it speeds up"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Arkasında mesafe bırakırım, yanında gitmem",
+          "en": "I keep well back and do not drive alongside"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Selektör yapıp yol vermesini isterim",
+          "en": "I flash my headlights for it to let me by"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Uzun araçlar çemberde iki şeridi kullanabilir ve arka tekerlekleri içeriden keser. Yanında kalırsan sıkışırsın; arkasında mesafe bırak.",
+      "en": "Long vehicles may need both lanes on a roundabout, and their rear wheels cut inside. Alongside one you can get squeezed, so keep well back."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "roundabouts.ambulance-on-roundabout",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Çemberde dönerken arkandan sireni çalan bir ambulans geliyor. Ne yaparsın?",
+      "en": "You are going round a roundabout when an ambulance with its siren on comes up behind you. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Çemberden çıkıp sola yanaşırım",
+          "en": "I leave the roundabout and pull in to the left"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Olduğum yerde, çemberin içinde dururum",
+          "en": "I stop where I am, on the roundabout itself"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Sağa, adaya doğru yanaşıp dururum",
+          "en": "I pull right towards the island and stop"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hızlanıp çıkışıma kadar önünden kaçarım",
+          "en": "I speed up to stay ahead of it until I reach my exit"
+        }
+      }
+    ],
+    "answer": "a",
+    "why": {
+      "tr": "Çemberin içinde durmak ambulansın yolunu kapatır. Güvenli bir çıkıştan çık, sonra sinyal verip sola yanaş.",
+      "en": "Stopping on the roundabout blocks the ambulance. Leave at a safe exit, then signal and pull in to the left."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "roundabouts.keep-left-after-exit",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "easy",
+    "prompt": {
+      "tr": "Çemberden çıktın, önündeki yol boş. Yolun hangi tarafında gidersin?",
+      "en": "You have left the roundabout and the road ahead is empty. Which side of the road do you drive on?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sağda, karşıdan araç gelmedikçe",
+          "en": "The right, as long as nothing is coming"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Solda",
+          "en": "The left"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Yolun ortasında",
+          "en": "The middle of the road"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Hangi taraf daha düzse orada",
+          "en": "Whichever side is smoother"
+        }
+      }
+    ],
+    "answer": "b",
+    "why": {
+      "tr": "KKTC'de yolun solundan gidilir. Sağdan trafiğe alışkın sürücüler çemberden çıkınca kolayca sağa kayar; boş yolda da solda kal.",
+      "en": "In North Cyprus you drive on the left. Drivers used to right-hand traffic easily drift right after a roundabout; keep left even on an empty road."
+    },
+    "signId": null,
+    "basis": "law",
+    "sourceId": "s7",
+    "sourceRef": "md. 2(a)",
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "roundabouts.lane-arrows",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "medium",
+    "prompt": {
+      "tr": "Çembere iki şeritli bir yoldan yaklaşıyorsun. Şeritlerde yön okları var. Ne yaparsın?",
+      "en": "You are approaching a roundabout on a two-lane road with direction arrows painted in the lanes. What do you do?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Hangi şerit boşsa ona girerim",
+          "en": "I use whichever lane is emptier"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Okları sağdan trafikteki gibi ters okurum",
+          "en": "I read the arrows the other way round"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Çıkışımı gösteren şeride erken geçerim",
+          "en": "I move early into the lane for my exit"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "Doğru şeride çemberin içinde geçerim",
+          "en": "I sort out my lane once on the roundabout"
+        }
+      }
+    ],
+    "answer": "c",
+    "why": {
+      "tr": "Yol okları hangi şeridin hangi çıkışa gittiğini gösterir. Doğru şeride erken geç; son anda ya da çemberin içinde şerit değiştirme.",
+      "en": "Road arrows show which lane leads to which exit. Get into the right lane early, not at the last moment or on the roundabout."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "roundabouts.early-left-signal",
+    "rev": 1,
+    "topic": "rules",
+    "lesson": "roundabouts",
+    "tracks": [
+      "car",
+      "moto",
+      "heavy"
+    ],
+    "difficulty": "hard",
+    "prompt": {
+      "tr": "Çemberden düz geçeceksin ama girer girmez sol sinyal veriyorsun. Bu neden tehlikelidir?",
+      "en": "You are going straight on but switch on your left signal as soon as you join. Why is this dangerous?"
+    },
+    "options": [
+      {
+        "id": "a",
+        "text": {
+          "tr": "Sol sinyal çemberdeki bütün trafiği yavaşlatır",
+          "en": "A left signal slows down all traffic on the roundabout"
+        }
+      },
+      {
+        "id": "b",
+        "text": {
+          "tr": "Arkandaki araç seni sağından sollamaya kalkar",
+          "en": "The driver behind will try to overtake you on the right"
+        }
+      },
+      {
+        "id": "c",
+        "text": {
+          "tr": "Karşı girişteki sürücüler sinyalini göremez",
+          "en": "Drivers at the opposite entry cannot see your indicator"
+        }
+      },
+      {
+        "id": "d",
+        "text": {
+          "tr": "İlk çıkışın yolunda bekleyen önüne çıkabilir",
+          "en": "A driver joining from the first exit road may pull out"
+        }
+      }
+    ],
+    "answer": "d",
+    "why": {
+      "tr": "Sol sinyal çemberden ayrılacağını söyler. Erken verirsen ilk çıkışın yolunda bekleyen sürücü orada çıkacağını sanıp önüne çıkabilir. Sinyali bir önceki çıkışı geçince ver.",
+      "en": "A left signal says you are leaving. Give it too early and a driver waiting on the first exit road may think you are turning off there and pull out in front of you. Signal once you pass the exit before yours."
+    },
+    "signId": null,
+    "basis": "practice",
+    "sourceId": null,
+    "sourceRef": null,
+    "reviewedAt": "2026-10-20"
+  }
+]

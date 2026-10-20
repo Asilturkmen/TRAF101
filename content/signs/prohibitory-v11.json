@@ -1,0 +1,1107 @@
+[
+  {
+    "id": "prohibitory.no-goods-vehicles-over-weight",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-goods-vehicles-over-weight.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; ortasında siyah kamyon çizimi, altında 7,5t yazısı.",
+        "en": "White disc with a red ring, a black lorry and the figure 7,5t below it."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "belirtilen-agirliktan-agir-kamyon-giremez",
+      "en": "no-goods-vehicles-over-weight-shown"
+    },
+    "name": {
+      "tr": "Belirtilen ağırlıktan ağır kamyon giremez",
+      "en": "No goods vehicles over the weight shown"
+    },
+    "meaning": {
+      "tr": "Yüklü ağırlığı levhada yazan değeri aşan yük taşıtları bu yola giremez. Daha hafif kamyonlar ve öteki taşıtlar girebilir.",
+      "en": "Goods vehicles whose laden weight is over the figure shown must not enter. Lighter lorries and other vehicles may."
+    },
+    "driverAction": {
+      "tr": "Kamyonunun yüklü ağırlığını bil. Sınırı aşıyorsan levhadan önce başka bir yola sap.",
+      "en": "Know the laden weight of your lorry. If it is over the limit, turn off onto another road before the sign."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-goods-vehicles",
+        "tip": {
+          "tr": "Ağırlık yazmıyorsa bütün kamyonlar giremez; ağırlık yazıyorsa yalnız o değeri aşanlar giremez.",
+          "en": "With no weight shown, no lorries may enter; with a weight, only those over it are banned."
+        }
+      },
+      {
+        "with": "prohibitory.weight-limit",
+        "tip": {
+          "tr": "Kamyon çizimi yoksa sınır her taşıt için geçerlidir; kamyon çizimi varsa yalnız yük taşıtları içindir.",
+          "en": "Without a lorry symbol the limit applies to every vehicle; with one, it applies to goods vehicles only."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-goods-vehicles",
+      "prohibitory.weight-limit",
+      "prohibitory.axle-weight-limit"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "Kuzeyde kamyon ve otobüs yasağı levhaları fotoğraflandı; ağırlık yazılı biçim henüz görülmedi.",
+        "en": "Lorry and bus bans have been photographed in the north; the version with a weight figure has not been seen yet."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.axle-weight-limit",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/axle-weight-limit.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; üstte 8t yazısı, altında iki çift tekerlekli bir dingil çizimi.",
+        "en": "White disc with a red ring, the figure 8t and below it an axle with two pairs of wheels."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "dingil-basina-azami-agirlik",
+      "en": "maximum-axle-weight"
+    },
+    "name": {
+      "tr": "Dingil başına azami ağırlık",
+      "en": "Maximum axle weight"
+    },
+    "meaning": {
+      "tr": "Herhangi bir dingiline düşen ağırlık levhadaki değeri aşan taşıtlar geçemez. Toplam ağırlık değil, tek dingile düşen yük sınırlanır.",
+      "en": "Vehicles with more than the weight shown on any one axle must not pass. It limits the load on a single axle, not the total weight."
+    },
+    "driverAction": {
+      "tr": "Ağır taşıt kullanıyorsan dingil yüklerini bil. Sınırı aşıyorsan yükü azalt ya da başka yol kullan.",
+      "en": "If you drive a heavy vehicle, know its axle loads. If one is over the limit, reduce the load or use another route."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.weight-limit",
+        "tip": {
+          "tr": "Dingil çizimi varsa sınır tek dingil içindir; yalnız sayı ve t varsa taşıtın toplam ağırlığı içindir.",
+          "en": "With the axle symbol the limit is per axle; a figure in tonnes on its own is the total weight."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.weight-limit",
+      "prohibitory.no-goods-vehicles-over-weight"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.length-limit",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/length-limit.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; üstte 10m yazısı, altında kamyon çizimi ve iki yanı oklu bir ölçü çizgisi.",
+        "en": "White disc with a red ring, the figure 10m, a lorry and a measuring line with an arrow at each end."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "azami-uzunluk",
+      "en": "maximum-length"
+    },
+    "name": {
+      "tr": "Azami uzunluk",
+      "en": "Maximum length"
+    },
+    "meaning": {
+      "tr": "Yüküyle birlikte uzunluğu levhadaki değeri aşan taşıtlar, römorklu taşıtlar dahil, bu yola giremez. Genellikle dar dönemeçli yollarda ve köy içlerinde konur.",
+      "en": "Vehicles longer than the figure shown, load and trailer included, must not enter. It is usually placed before tight bends or narrow village streets."
+    },
+    "driverAction": {
+      "tr": "Aracının ve römorkunun toplam uzunluğunu bil. Uzunsan levhadan önce başka bir yol seç.",
+      "en": "Know the total length of your vehicle and any trailer. If you are too long, choose another road before the sign."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.width-limit",
+        "tip": {
+          "tr": "Oklar yatayda karşılıklı içe bakıyorsa genişlik sınırıdır; taşıt altındaki iki yönlü ölçü çizgisi uzunluk sınırıdır.",
+          "en": "Two arrowheads pointing in from the sides mean width; a measuring line under a vehicle means length."
+        }
+      },
+      {
+        "with": "prohibitory.height-limit",
+        "tip": {
+          "tr": "Üstte ve altta içe bakan oklar yüksekliği gösterir.",
+          "en": "Arrowheads above and below pointing inwards show height."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.width-limit",
+      "prohibitory.height-limit",
+      "prohibitory.no-towed-caravans"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "Kuzeyde uzunluğu yazıyla veren bir levha fotoğraflandı (\"Araç uzunluk max 5 m\"). Simgeli biçim henüz görülmedi.",
+        "en": "A sign giving the length in words (\"Araç uzunluk max 5 m\") has been photographed in the north. The symbol version has not been seen yet."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-towed-caravans",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-towed-caravans.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; arkasına karavan bağlamış siyah otomobil.",
+        "en": "White disc with a red ring and a black car towing a caravan."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "karavan-ceken-tasit-giremez",
+      "en": "no-towed-caravans"
+    },
+    "name": {
+      "tr": "Karavan çeken taşıt giremez",
+      "en": "No towed caravans"
+    },
+    "meaning": {
+      "tr": "Karavan ya da römork çeken taşıtlar bu yola giremez. Römorksuz otomobiller girebilir.",
+      "en": "Vehicles towing a caravan or trailer must not enter. Cars without a trailer may."
+    },
+    "driverAction": {
+      "tr": "Karavan ya da römork çekiyorsan levhadan önce başka yol seç; ters yönde manevra yapmak zorunda kalma.",
+      "en": "If you are towing, take another road before the sign so you are not forced to manoeuvre back."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-overtaking",
+        "tip": {
+          "tr": "İki otomobil yan yana duruyorsa geçme yasağıdır; otomobilin arkasında karavan varsa römorklu giriş yasağıdır.",
+          "en": "Two cars side by side mean no overtaking; a car pulling a caravan bans towing vehicles."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.length-limit",
+      "prohibitory.no-motor-vehicles"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-hand-carts",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-hand-carts.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; tek tekerlekli, iki saplı siyah el arabası.",
+        "en": "White disc with a red ring and a black one-wheeled hand cart with handles."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "el-arabasi-giremez",
+      "en": "no-hand-carts"
+    },
+    "name": {
+      "tr": "El arabası giremez",
+      "en": "No hand carts"
+    },
+    "meaning": {
+      "tr": "El ile itilen ya da çekilen arabalar bu yolu kullanamaz.",
+      "en": "Carts pushed or pulled by hand must not use this road."
+    },
+    "driverAction": {
+      "tr": "El arabasıyla yürüyorsan başka bir yol kullan. Sürücüysen bu levha seni doğrudan sınırlamaz.",
+      "en": "If you are pushing a hand cart, use another route. As a driver this sign does not restrict you directly."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-pedestrians",
+        "tip": {
+          "tr": "Yürüyen insan varsa yayalar giremez; el arabası varsa yalnız el arabaları giremez.",
+          "en": "A walking person bans pedestrians; a hand cart bans only hand carts."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-pedestrians",
+      "prohibitory.no-animal-drawn-vehicles"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-buses",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-buses.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; yandan görünen siyah otobüs.",
+        "en": "White disc with a red ring and a black bus seen from the side."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "otobus-giremez",
+      "en": "no-buses"
+    },
+    "name": {
+      "tr": "Otobüs giremez",
+      "en": "No buses"
+    },
+    "meaning": {
+      "tr": "Otobüsler bu yola giremez. Öteki taşıtlar girebilir.",
+      "en": "Buses must not enter this road. Other vehicles may."
+    },
+    "driverAction": {
+      "tr": "Otobüs kullanıyorsan levhadan önce güzergâhını değiştir.",
+      "en": "If you drive a bus, change your route before the sign."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.buses-only",
+        "tip": {
+          "tr": "Kırmızı halkalı daire otobüsü yasaklar; mavi dairedeki otobüs, yolun yalnız otobüslere ait olduğunu söyler.",
+          "en": "A red ring bans buses; a bus on a blue disc means the route is for buses only."
+        }
+      },
+      {
+        "with": "information.bus-stop",
+        "tip": {
+          "tr": "Mavi karedeki otobüs durak yerini gösterir, yasak getirmez.",
+          "en": "A bus on a blue square marks a bus stop and bans nothing."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-goods-vehicles",
+      "mandatory.buses-only"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "Kuzeyde kamyon ve otobüs yasağı levhaları fotoğraflandı.",
+        "en": "Lorry and bus bans have been photographed in the north."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-tractors",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-tractors.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; büyük arka tekerlekli siyah traktör.",
+        "en": "White disc with a red ring and a black tractor with a large rear wheel."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "traktor-giremez",
+      "en": "no-tractors"
+    },
+    "name": {
+      "tr": "Traktör giremez",
+      "en": "No tractors"
+    },
+    "meaning": {
+      "tr": "Traktörler ve öteki yavaş tarım araçları bu yola giremez.",
+      "en": "Tractors and other slow agricultural vehicles must not enter this road."
+    },
+    "driverAction": {
+      "tr": "Traktör ya da iş makinesi kullanıyorsan başka bir yol seç.",
+      "en": "If you drive a tractor or similar machine, choose another road."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-goods-vehicles",
+        "tip": {
+          "tr": "Kasalı kamyon çizimi yük taşıtlarını, büyük arka tekerlekli çizim traktörleri yasaklar.",
+          "en": "A lorry with a load box bans goods vehicles; a vehicle with a large rear wheel bans tractors."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-animal-drawn-vehicles",
+      "prohibitory.no-goods-vehicles"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-animal-drawn-vehicles",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-animal-drawn-vehicles.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; tekerlekli bir araba çeken siyah at.",
+        "en": "White disc with a red ring and a black horse pulling a cart."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "hayvanla-cekilen-tasit-giremez",
+      "en": "no-animal-drawn-vehicles"
+    },
+    "name": {
+      "tr": "Hayvanla çekilen taşıt giremez",
+      "en": "No animal-drawn vehicles"
+    },
+    "meaning": {
+      "tr": "At ya da başka bir hayvanla çekilen arabalar bu yola giremez.",
+      "en": "Carts drawn by a horse or another animal must not enter this road."
+    },
+    "driverAction": {
+      "tr": "Hayvanla çekilen bir araba kullanıyorsan başka bir yol seç.",
+      "en": "If you are driving an animal-drawn cart, choose another road."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.horse-riders",
+        "tip": {
+          "tr": "Kırmızı halkalı daire yasaklar; mavi dairedeki atlı, yolun atlılara ayrıldığını söyler.",
+          "en": "A red ring bans; a rider on a blue disc means the path is for horse riders."
+        }
+      },
+      {
+        "with": "warning.domestic-animals",
+        "tip": {
+          "tr": "Üçgen içindeki hayvan, yola hayvan çıkabileceği uyarısıdır.",
+          "en": "An animal in a triangle warns that animals may be on the road."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-tractors",
+      "prohibitory.no-hand-carts"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-mopeds",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-mopeds.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; küçük motorlu ve depolu siyah bisiklet.",
+        "en": "White disc with a red ring and a black bicycle with a small engine and fuel tank."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "motorlu-bisiklet-giremez",
+      "en": "no-mopeds"
+    },
+    "name": {
+      "tr": "Motorlu bisiklet giremez",
+      "en": "No mopeds"
+    },
+    "meaning": {
+      "tr": "Motorlu bisikletler (mopedler) bu yola giremez.",
+      "en": "Mopeds must not enter this road."
+    },
+    "driverAction": {
+      "tr": "Moped kullanıyorsan başka bir yol seç.",
+      "en": "If you ride a moped, choose another road."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-cycling",
+        "tip": {
+          "tr": "Yalın bisiklet bisikletleri yasaklar; motor bloğu ve depo çizilmişse mopedleri yasaklar.",
+          "en": "A plain bicycle bans cycles; one with an engine block and tank bans mopeds."
+        }
+      },
+      {
+        "with": "prohibitory.no-motorcycles",
+        "tip": {
+          "tr": "Sürücülü motosiklet çizimi motosikletleri yasaklar.",
+          "en": "A motorcycle with a rider bans motorcycles."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-motorcycles",
+      "prohibitory.no-cycling"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-motor-vehicles-except-motorcycles",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-motor-vehicles-except-motorcycles.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; yandan görünen siyah otomobil, yazı yok.",
+        "en": "White disc with a red ring and a black car seen from the side, with no text."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "motosiklet-disindaki-motorlu-tasitlar-giremez",
+      "en": "no-motor-vehicles-except-motorcycles"
+    },
+    "name": {
+      "tr": "Motosiklet dışındaki motorlu taşıtlar giremez",
+      "en": "No motor vehicles except motorcycles"
+    },
+    "meaning": {
+      "tr": "Otomobil, kamyon, otobüs gibi motorlu taşıtlar bu yola giremez. İki tekerlekli motosikletler girebilir.",
+      "en": "Cars, lorries, buses and other motor vehicles must not enter. Two-wheeled motorcycles may."
+    },
+    "driverAction": {
+      "tr": "Otomobil ya da daha büyük bir taşıt kullanıyorsan levhadan önce başka bir yola sap.",
+      "en": "If you drive a car or anything larger, turn off before the sign."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-motor-vehicles",
+        "tip": {
+          "tr": "Altında ARAÇ GİREMEZ yazan otomobil çizimi kuzeyde kullanılan yazılı biçimdir; yazısız otomobil çizimi motosikletlere izin verir.",
+          "en": "The car with the words ARAÇ GİREMEZ is the text version used in the north; the car alone still lets motorcycles in."
+        }
+      },
+      {
+        "with": "prohibitory.no-overtaking",
+        "tip": {
+          "tr": "Yan yana iki otomobil geçme yasağıdır, giriş yasağı değildir.",
+          "en": "Two cars side by side mean no overtaking, not no entry."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-motor-vehicles",
+      "prohibitory.no-vehicles"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.speed-limit--10",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/speed-limit--10.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; ortasında siyah 10 rakamı.",
+        "en": "White disc with a red ring and the black number 10."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "azami-hiz-10",
+      "en": "speed-limit-10"
+    },
+    "name": {
+      "tr": "Azami hız sınırı (10 km/sa)",
+      "en": "10 km/h speed limit"
+    },
+    "meaning": {
+      "tr": "Bu noktadan sonra saatte 10 kilometreden hızlı gidemezsin. Yaya ve araçların iç içe olduğu dar alanlarda kullanılır.",
+      "en": "From here you must not go faster than 10 km/h. It is used in tight areas where people and vehicles mix."
+    },
+    "driverAction": {
+      "tr": "Yürüme hızına yakın git, her an durmaya hazır ol ve yayalara yol ver.",
+      "en": "Drive at little more than walking pace, be ready to stop at any moment and give way to pedestrians."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.speed-limit--100",
+        "tip": {
+          "tr": "İkisi de rakamla yazılır; 10 iki haneli, 100 üç hanelidir. Rakamı dikkatle oku.",
+          "en": "Both are numbers; 10 has two digits and 100 has three. Read the figure carefully."
+        }
+      },
+      {
+        "with": "information.recommended-speed--50",
+        "tip": {
+          "tr": "Mavi karedeki rakam tavsiyedir; kırmızı halkadaki rakam zorunlu sınırdır.",
+          "en": "A number on a blue square is advice; a number in a red ring is a compulsory limit."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.speed-limit--20",
+      "prohibitory.speed-limit-zone--20"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Kuzeyde 10 km/sa levhaları fotoğraflandı; genellikle otopark, site içi ve dar geçitlerde.",
+        "en": "10 km/h signs have been photographed in the north, usually in car parks, estates and narrow passages."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.speed-limit--90",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/speed-limit--90.svg",
+      "alt": {
+        "tr": "Kırmızı halkalı beyaz daire; ortasında siyah 90 rakamı.",
+        "en": "White disc with a red ring and the black number 90."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "azami-hiz-90",
+      "en": "speed-limit-90"
+    },
+    "name": {
+      "tr": "Azami hız sınırı (90 km/sa)",
+      "en": "90 km/h speed limit"
+    },
+    "meaning": {
+      "tr": "Bu noktadan sonra saatte 90 kilometreden hızlı gidemezsin. Sınır, başka bir hız levhası ya da sınır sonu levhası gelene kadar sürer.",
+      "en": "From here you must not go faster than 90 km/h. The limit lasts until another speed sign or an end-of-limit sign."
+    },
+    "driverAction": {
+      "tr": "Hızını 90 km/sa altında tut; yol, hava ya da trafik kötüyse daha da yavaş git.",
+      "en": "Keep below 90 km/h, and slower still if the road, weather or traffic calls for it."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.speed-limit--80",
+        "tip": {
+          "tr": "Rakamı oku: 90 ile 80 arasında tek bir rakam farkı var.",
+          "en": "Read the number: 90 and 80 differ by one digit."
+        }
+      },
+      {
+        "with": "mandatory.minimum-speed--30",
+        "tip": {
+          "tr": "Mavi dairedeki rakam en az hızdır; kırmızı halkadaki rakam en çok hızdır.",
+          "en": "A number on a blue disc is a minimum; a number in a red ring is a maximum."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.speed-limit--80",
+      "prohibitory.speed-limit--100"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "Bakanlık broşürü kırsal yollar için 65 ile 90 km/sa arası sınır veriyor; 90 levhası fotoğraflanmadı.",
+        "en": "The ministry leaflet gives rural limits of 65 to 90 km/h; a 90 sign has not been photographed."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.end-of-speed-limit--20",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/end-of-speed-limit--20.svg",
+      "alt": {
+        "tr": "İnce siyah halkalı beyaz daire; gri 20 rakamı ve üzerinden geçen siyah çapraz çizgiler.",
+        "en": "White disc with a thin black ring; a grey number 20 crossed by a band of black diagonal lines."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "azami-hiz-sonu-20",
+      "en": "end-of-speed-limit-20"
+    },
+    "name": {
+      "tr": "Azami hız sınırı sonu (20 km/sa)",
+      "en": "End of 20 km/h speed limit"
+    },
+    "meaning": {
+      "tr": "20 km/sa hız sınırı burada biter. Bundan sonra yolun genel hız sınırı geçerlidir.",
+      "en": "The 20 km/h limit ends here. The general limit for the road applies from now on."
+    },
+    "driverAction": {
+      "tr": "Yolun genel sınırını aşmadan ve koşullara uygun biçimde hızlanabilirsin.",
+      "en": "You may speed up, within the general limit for the road and to suit the conditions."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.speed-limit--20",
+        "tip": {
+          "tr": "Kırmızı halkalı 20 sınırı başlatır; gri 20 ve çapraz çizgiler sınırı bitirir.",
+          "en": "A red-ringed 20 starts the limit; a grey 20 with diagonal lines ends it."
+        }
+      },
+      {
+        "with": "prohibitory.end-of-restrictions",
+        "tip": {
+          "tr": "Rakam varsa yalnız o hız sınırı biter; çizim yoksa bütün yasaklar biter.",
+          "en": "With a number, only that speed limit ends; with no symbol, all restrictions end."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.speed-limit--20",
+      "prohibitory.end-of-speed-limit--50",
+      "prohibitory.end-of-restrictions"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.end-of-speed-limit--30",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/end-of-speed-limit--30.svg",
+      "alt": {
+        "tr": "İnce siyah halkalı beyaz daire; gri 30 rakamı ve üzerinden geçen siyah çapraz çizgiler.",
+        "en": "White disc with a thin black ring; a grey number 30 crossed by a band of black diagonal lines."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "azami-hiz-sonu-30",
+      "en": "end-of-speed-limit-30"
+    },
+    "name": {
+      "tr": "Azami hız sınırı sonu (30 km/sa)",
+      "en": "End of 30 km/h speed limit"
+    },
+    "meaning": {
+      "tr": "30 km/sa hız sınırı burada biter. Bundan sonra yolun genel hız sınırı geçerlidir.",
+      "en": "The 30 km/h limit ends here. The general limit for the road applies from now on."
+    },
+    "driverAction": {
+      "tr": "Yolun genel sınırını aşmadan ve koşullara uygun biçimde hızlanabilirsin.",
+      "en": "You may speed up, within the general limit for the road and to suit the conditions."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.speed-limit--30",
+        "tip": {
+          "tr": "Kırmızı halkalı 30 sınırı başlatır; gri 30 ve çapraz çizgiler sınırı bitirir.",
+          "en": "A red-ringed 30 starts the limit; a grey 30 with diagonal lines ends it."
+        }
+      },
+      {
+        "with": "prohibitory.end-of-restrictions",
+        "tip": {
+          "tr": "Rakam varsa yalnız o hız sınırı biter; çizim yoksa bütün yasaklar biter.",
+          "en": "With a number, only that speed limit ends; with no symbol, all restrictions end."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.speed-limit--30",
+      "prohibitory.end-of-speed-limit--50",
+      "prohibitory.end-of-restrictions"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.end-of-speed-limit--65",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/end-of-speed-limit--65.svg",
+      "alt": {
+        "tr": "İnce siyah halkalı beyaz daire; gri 65 rakamı ve üzerinden geçen siyah çapraz çizgiler.",
+        "en": "White disc with a thin black ring; a grey number 65 crossed by a band of black diagonal lines."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "azami-hiz-sonu-65",
+      "en": "end-of-speed-limit-65"
+    },
+    "name": {
+      "tr": "Azami hız sınırı sonu (65 km/sa)",
+      "en": "End of 65 km/h speed limit"
+    },
+    "meaning": {
+      "tr": "65 km/sa hız sınırı burada biter. Bundan sonra yolun genel hız sınırı geçerlidir.",
+      "en": "The 65 km/h limit ends here. The general limit for the road applies from now on."
+    },
+    "driverAction": {
+      "tr": "Yolun genel sınırını aşmadan ve koşullara uygun biçimde hızlanabilirsin.",
+      "en": "You may speed up, within the general limit for the road and to suit the conditions."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.speed-limit--65",
+        "tip": {
+          "tr": "Kırmızı halkalı 65 sınırı başlatır; gri 65 ve çapraz çizgiler sınırı bitirir.",
+          "en": "A red-ringed 65 starts the limit; a grey 65 with diagonal lines ends it."
+        }
+      },
+      {
+        "with": "prohibitory.end-of-restrictions",
+        "tip": {
+          "tr": "Rakam varsa yalnız o hız sınırı biter; çizim yoksa bütün yasaklar biter.",
+          "en": "With a number, only that speed limit ends; with no symbol, all restrictions end."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.speed-limit--65",
+      "prohibitory.end-of-speed-limit--50",
+      "prohibitory.end-of-restrictions"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.end-of-speed-limit--80",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/end-of-speed-limit--80.svg",
+      "alt": {
+        "tr": "İnce siyah halkalı beyaz daire; gri 80 rakamı ve üzerinden geçen siyah çapraz çizgiler.",
+        "en": "White disc with a thin black ring; a grey number 80 crossed by a band of black diagonal lines."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "azami-hiz-sonu-80",
+      "en": "end-of-speed-limit-80"
+    },
+    "name": {
+      "tr": "Azami hız sınırı sonu (80 km/sa)",
+      "en": "End of 80 km/h speed limit"
+    },
+    "meaning": {
+      "tr": "80 km/sa hız sınırı burada biter. Bundan sonra yolun genel hız sınırı geçerlidir.",
+      "en": "The 80 km/h limit ends here. The general limit for the road applies from now on."
+    },
+    "driverAction": {
+      "tr": "Yolun genel sınırını aşmadan ve koşullara uygun biçimde hızlanabilirsin.",
+      "en": "You may speed up, within the general limit for the road and to suit the conditions."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.speed-limit--80",
+        "tip": {
+          "tr": "Kırmızı halkalı 80 sınırı başlatır; gri 80 ve çapraz çizgiler sınırı bitirir.",
+          "en": "A red-ringed 80 starts the limit; a grey 80 with diagonal lines ends it."
+        }
+      },
+      {
+        "with": "prohibitory.end-of-restrictions",
+        "tip": {
+          "tr": "Rakam varsa yalnız o hız sınırı biter; çizim yoksa bütün yasaklar biter.",
+          "en": "With a number, only that speed limit ends; with no symbol, all restrictions end."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.speed-limit--80",
+      "prohibitory.end-of-speed-limit--50",
+      "prohibitory.end-of-restrictions"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.speed-limit-zone--20",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/speed-limit-zone--20.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz dikdörtgen; üstte kırmızı halkalı 20 hız sınırı dairesi, altında BÖLGE yazısı.",
+        "en": "White rectangle with a black border; a red-ringed 20 speed-limit disc at the top and the word BÖLGE below."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "hiz-siniri-bolgesi-20",
+      "en": "speed-limit-zone-20"
+    },
+    "name": {
+      "tr": "Hız sınırı bölgesi (20 km/sa)",
+      "en": "20 km/h speed limit zone"
+    },
+    "meaning": {
+      "tr": "Bir bölgenin girişindedir. Bölgenin bütün sokaklarında, bölge sonu levhasına kadar 20 km/sa sınırı geçerlidir; her sokakta ayrıca levha olmaz.",
+      "en": "Placed at the entrance to an area. The 20 km/h limit applies on every street inside until the end-of-zone sign, without a repeat sign on each street."
+    },
+    "driverAction": {
+      "tr": "Bölgenin içinde, kavşaklardan sonra da 20 km/sa altında kal. Sınırın bitişini bölge sonu levhasından anla.",
+      "en": "Stay below 20 km/h everywhere inside, even after junctions. Only the end-of-zone sign ends it."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.speed-limit--20",
+        "tip": {
+          "tr": "Tek daire yalnız o yol için geçerlidir; BÖLGE yazılı levha bütün bölge için geçerlidir.",
+          "en": "A disc alone applies to that road; the panel with BÖLGE applies to the whole area."
+        }
+      },
+      {
+        "with": "information.home-zone",
+        "tip": {
+          "tr": "Mavi yaşam alanı levhası yayalara öncelik verir; bölge levhası yalnız hızı sınırlar.",
+          "en": "The blue home-zone sign gives pedestrians priority; the zone panel only limits speed."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.end-of-speed-limit-zone--20",
+      "prohibitory.speed-limit--20",
+      "information.home-zone"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Girne'de bir bölge hız levhası fotoğraflandı; fotoğraftaki levhada İngilizce ZONE yazıyordu. Çizimimiz Türkçe BÖLGE yazısını kullanır.",
+        "en": "A zone speed sign has been photographed in Girne; the photographed sign read ZONE in English. Our drawing uses the Turkish word BÖLGE."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.end-of-speed-limit-zone--20",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/end-of-speed-limit-zone--20.svg",
+      "alt": {
+        "tr": "Gri tonlu bölge levhası; gri 20 dairesi ve BÖLGE yazısı, üzerinden geçen siyah çapraz çizgiler.",
+        "en": "The zone panel in grey: a grey 20 disc and the word BÖLGE, crossed by black diagonal lines."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "hiz-siniri-bolgesi-sonu-20",
+      "en": "end-of-speed-limit-zone-20"
+    },
+    "name": {
+      "tr": "Hız sınırı bölgesi sonu (20 km/sa)",
+      "en": "End of 20 km/h speed limit zone"
+    },
+    "meaning": {
+      "tr": "20 km/sa hız sınırı bölgesi burada biter. Bundan sonra yolun kendi sınırı geçerlidir.",
+      "en": "The 20 km/h zone ends here. The road's own limit applies from now on."
+    },
+    "driverAction": {
+      "tr": "Yolun sınırını ve koşulları gözeterek hızını ayarla.",
+      "en": "Adjust your speed to the road's limit and the conditions."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.speed-limit-zone--20",
+        "tip": {
+          "tr": "Renkli levha bölgeyi başlatır; gri ve çizgili levha bitirir.",
+          "en": "The coloured panel starts the zone; the grey striped one ends it."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.speed-limit-zone--20",
+      "prohibitory.end-of-speed-limit--20"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.no-parking-zone",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/no-parking-zone.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz dikdörtgen; üstte kırmızı halkalı, tek çaprazlı mavi daire, altında BÖLGE yazısı.",
+        "en": "White rectangle with a black border; a blue disc with a red ring and one red bar at the top, and the word BÖLGE below."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "park-yasagi-bolgesi",
+      "en": "no-parking-zone"
+    },
+    "name": {
+      "tr": "Park yasağı bölgesi",
+      "en": "No parking zone"
+    },
+    "meaning": {
+      "tr": "Bölgenin içindeki bütün sokaklarda, bölge sonu levhasına kadar park etmek yasaktır. İzin verilen yerler ayrıca işaretlenir.",
+      "en": "Parking is banned on every street inside the area until the end-of-zone sign. Places where it is allowed are marked separately."
+    },
+    "driverAction": {
+      "tr": "Bölgede yalnız işaretli park yerlerini kullan. Yolcu indirmek için kısa süre durabilirsin.",
+      "en": "Inside the zone, park only in marked bays. You may stop briefly to set down passengers."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-parking",
+        "tip": {
+          "tr": "Tek daire yalnız o yol kesimi için geçerlidir; BÖLGE yazılı levha bütün alan için geçerlidir.",
+          "en": "A disc alone covers that stretch of road; the panel with BÖLGE covers the whole area."
+        }
+      },
+      {
+        "with": "prohibitory.no-stopping",
+        "tip": {
+          "tr": "Tek çapraz park yasağıdır; çift çapraz durmayı da yasaklar.",
+          "en": "One bar bans parking; a cross bans stopping too."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.end-of-no-parking-zone",
+      "prohibitory.no-parking"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "prohibitory.end-of-no-parking-zone",
+    "category": "prohibitory",
+    "image": {
+      "src": "/signs/prohibitory/end-of-no-parking-zone.svg",
+      "alt": {
+        "tr": "Gri tonlu bölge levhası; gri park yasağı dairesi ve BÖLGE yazısı, üzerinden geçen siyah çapraz çizgiler.",
+        "en": "The zone panel in grey: a grey no-parking disc and the word BÖLGE, crossed by black diagonal lines."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "park-yasagi-bolgesi-sonu",
+      "en": "end-of-no-parking-zone"
+    },
+    "name": {
+      "tr": "Park yasağı bölgesi sonu",
+      "en": "End of no parking zone"
+    },
+    "meaning": {
+      "tr": "Park yasağı bölgesi burada biter. Bundan sonra genel park kuralları ve oradaki levhalar geçerlidir.",
+      "en": "The no parking zone ends here. General parking rules and any local signs apply from now on."
+    },
+    "driverAction": {
+      "tr": "Park etmeden önce yeni levhalara ve yol çizgilerine bak.",
+      "en": "Check for new signs and kerb markings before you park."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-parking-zone",
+        "tip": {
+          "tr": "Renkli levha bölgeyi başlatır; gri ve çizgili levha bitirir.",
+          "en": "The coloured panel starts the zone; the grey striped one ends it."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-parking-zone",
+      "prohibitory.no-parking"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  }
+]

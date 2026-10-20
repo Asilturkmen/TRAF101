@@ -1,0 +1,287 @@
+{
+  "id": "markings",
+  "title": {
+    "tr": "Yol çizgileri, ışıklar ve polis işaretleri",
+    "en": "Road markings, lights and police signals"
+  },
+  "summary": {
+    "tr": "Polisin işareti ışıktan, ışık levhadan, levha yol çizgisinden önce gelir; bu derste çizgileri, ışıkları ve polis işaretlerini okumayı öğrenirsin.",
+    "en": "A police officer's signal comes before a light, a light before a sign and a sign before a road marking; this lesson shows you how to read markings, lights and police signals."
+  },
+  "sections": [
+    {
+      "heading": {
+        "tr": "Önce kimi dinlersin",
+        "en": "Who do you obey first"
+      },
+      "body": {
+        "tr": "Bir yerde birden çok işaret varsa şu sırayla uyarsın:\n\n- Trafiği yöneten polisin işareti\n- Trafik ışıkları\n- Levhalar\n- Yol çizgileri\n\nÜstteki alttakinden önce gelir. Polis yeşil ışıkta seni durdurursa durursun. Işıklar çalışıyorsa kavşaktaki yol ver levhası değil ışık geçerlidir. Yol çalışmasındaki geçici levhalar yerdeki eski çizgilerden önce gelir.\n\nViyana Sözleşmesi trafiği yöneten görevlinin işaretlerinin levhalardan, ışıklardan ve çizgilerden önce geldiğini yazar. KKTC bu sözleşmeye taraf değildir ve KKTC mevzuatında bu sırayı yazan bir madde bulunamadı. Bu sıra, güvenli sürüşte ve uluslararası uygulamada geçerli olandır.",
+        "en": "Where more than one instruction applies, obey them in this order:\n\n- a police officer directing traffic\n- traffic lights\n- signs\n- road markings\n\nEach one comes before those below it. If an officer stops you on a green light, you stop. If the lights are working, the light applies, not the give-way sign at the junction. Temporary signs at roadworks come before the old lines on the road.\n\nThe Vienna Convention says the signals of an official directing traffic come before signs, lights and markings. North Cyprus is not a party to it, and no KKTC provision setting out this order was found. It is the order that safe driving and international practice follow."
+      },
+      "basis": "practice",
+      "sourceId": "mk-vienna-road-traffic",
+      "sourceRef": "md. 6"
+    },
+    {
+      "heading": {
+        "tr": "Orta çizgiler",
+        "en": "Centre lines"
+      },
+      "body": {
+        "tr": "Orta çizgi iki yönlü yolda iki yönü ayırır. Sen her zaman çizginin solunda kalırsın.\n\n- **Kesik çizgi:** yol ve görüş elverişliyse sollamak için geçebilirsin.\n- **Kesintisiz çizgi:** geçmez ve üzerinden gitmezsin. Virajlarda, tepe üstlerinde ve kavşak yakınında çizilir.\n- **Çift kesintisiz çizgi:** iki yönden gelenler de geçemez.\n- **Biri kesik, biri kesintisiz çift çizgi:** sana yakın olan çizgiye uyarsın. Senin tarafındaki kesikse sollayabilirsin; kesintisizse sollayamazsın.\n\nKesik çizgi kısalıp sıklaşmaya başlarsa ileride kesintisiz çizgi başlayabilir. Sollamayı ondan önce bitiremeyeceksen başlama.",
+        "en": "A centre line separates the two directions on a two-way road. You always keep to the left of it.\n\n- **Broken line:** you may cross it to overtake when the road and your view allow.\n- **Solid line:** do not cross or straddle it. It is painted on bends, over hill crests and near junctions.\n- **Double solid line:** traffic from neither direction may cross.\n- **One broken and one solid line:** obey the line nearer to you. If the line on your side is broken you may overtake; if it is solid you may not.\n\nIf the broken line gets longer and the gaps shorter, a solid line may be about to start. Do not begin an overtake you cannot finish before it."
+      },
+      "basis": "practice",
+      "sourceId": "mk-hc-road-markings",
+      "sourceRef": null,
+      "figure": {
+        "src": "/signs/marking/solid-broken--broken-near.svg",
+        "alt": {
+          "tr": "Üstten görülen iki yönlü yol; ortada çift çizgi var, sol şeritteki mavi aracın tarafındaki çizgi kesik, karşı taraftaki kesintisiz.",
+          "en": "Two-way road seen from above with a double centre line: the line on the side of the blue car in the left lane is broken, the line on the other side is solid."
+        },
+        "caption": {
+          "tr": "Sana yakın çizgi kesik: güvenliyse sollayabilirsin. Karşıdan gelenler sollayamaz.",
+          "en": "The line nearer to you is broken: you may overtake when it is safe. Oncoming traffic may not."
+        }
+      }
+    },
+    {
+      "heading": {
+        "tr": "Dur ve yol ver çizgileri",
+        "en": "Stop and give-way lines"
+      },
+      "body": {
+        "tr": "Kavşağa çıkarken yerde enine bir çizgi görürsün.\n\n- **Kesintisiz dur çizgisi:** DUR levhası ya da trafik ışığıyla birlikte bulunur. Aracının önü çizgiyi geçmeden tamamen durursun. Yere DUR yazılmış olabilir.\n- **Kesik yol ver çizgisi:** ana yoldaki trafiğe bu çizgide yol verirsin. Yol boşsa durmadan devam edebilirsin. Önündeki yere boyalı üçgen, yol vermen gerektiğini önceden haber verir.\n\nDurduktan sonra yolu göremiyorsan yavaşça biraz ilerle ve yeniden bak.",
+        "en": "As you come out of a side road you will see a line across your lane.\n\n- **Solid stop line:** used with a DUR (stop) sign or a traffic light. You stop completely before the front of your vehicle crosses it. DUR may be painted on the road.\n- **Broken give-way line:** you give way to main-road traffic at this line. If the road is clear you may go on without stopping. A triangle painted before it warns you in advance.\n\nIf you cannot see after stopping, creep forward and look again."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null,
+      "figure": {
+        "src": "/signs/marking/stop-line.svg",
+        "alt": {
+          "tr": "Üstten görülen T kavşak; yan yolun sol şeridinde geniş beyaz dur çizgisi ve önünde yere yazılmış DUR.",
+          "en": "T-junction seen from above with a wide white stop line across the left lane of the side road and DUR painted before it."
+        },
+        "caption": {
+          "tr": "Dur çizgisi: yol boş olsa da çizgide tamamen durursun.",
+          "en": "Stop line: you stop fully at the line even if the road is clear."
+        }
+      }
+    },
+    {
+      "heading": {
+        "tr": "Yaya geçidi",
+        "en": "Pedestrian crossings"
+      },
+      "body": {
+        "tr": "Yaya geçitlerinde geçiş hakkı yayalarındır. Yaya geçidine yaklaşırken hızını düşürürsün. Geçidi kullanan ya da kullanmaya hazırlanan bir yaya varsa durur ve yol verirsin.",
+        "en": "At pedestrian crossings, pedestrians have the right of way. Slow down as you approach a crossing. If someone is using the crossing or getting ready to use it, stop and give way."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null,
+      "figure": {
+        "src": "/signs/marking/zebra-crossing.svg",
+        "alt": {
+          "tr": "Üstten görülen iki yönlü yol; yol boyunca uzanan kalın beyaz şeritlerden oluşan yaya geçidi ve ona yaklaşan mavi araç.",
+          "en": "Two-way road seen from above with a crossing of wide white stripes and a blue car approaching it."
+        },
+        "caption": {
+          "tr": "Geçide yaklaşan ya da geçitteki yayaya yol verirsin.",
+          "en": "You give way to anyone on the crossing or about to step onto it."
+        }
+      }
+    },
+    {
+      "heading": {
+        "tr": "Taralı alan, sarı ızgara ve şerit okları",
+        "en": "Hatched areas, yellow boxes and lane arrows"
+      },
+      "body": {
+        "tr": "- **Taralı alan:** eğik beyaz çizgilerle taranmış alan trafiği ayırır ya da bir tehlikeyi korur. İçine girmez, üzerinde durmazsın.\n- **Sarı ızgaralı kavşak:** kavşağın ortasındaki sarı çapraz çizgiler, çıkışın boş değilse kutuya girmemen gerektiğini söyler. Işık yeşil olsa da kavşağın öbür tarafında yerin yoksa kutunun önünde beklersin.\n- **Şerit okları:** kavşakta o şeritten hangi yöne gidebileceğini gösterir. Gideceğin yönün şeridine erkenden geç. Kavşağa yakın şerit çizgisi kesintisizse artık şerit değiştirme; yanlış şeritteysen okun yönüne git ve yolunu sonra düzelt.\n- **Otobüs şeridi ve park yerleri:** yere OTOBÜS yazılmış şerit otobüsler içindir. Beyaz çizgili park yerlerinde aracını kutunun içine, trafik yönünde park edersin.",
+        "en": "- **Hatched area:** an area filled with diagonal white stripes separates traffic or protects a hazard. Do not drive into it or stop on it.\n- **Yellow box junction:** yellow criss-cross lines in the middle of a junction mean you must not enter the box unless your exit is clear. Even on green, wait before the box if there is no room for you on the far side.\n- **Lane arrows:** they show which way you may go from that lane at the junction. Move early into the lane for your direction. If the lane line near the junction is solid, do not change lanes any more; if you are in the wrong lane, follow its arrow and correct your route later.\n- **Bus lanes and parking bays:** a lane with OTOBÜS (bus) painted in it is for buses. In marked parking bays, park inside the bay and facing the direction of traffic."
+      },
+      "basis": "practice",
+      "sourceId": "mk-hc-road-markings",
+      "sourceRef": null,
+      "figure": {
+        "src": "/signs/marking/box-junction.svg",
+        "alt": {
+          "tr": "Üstten görülen dört yönlü kavşak; ortadaki kare sarı çapraz çizgilerle dolu, mavi araç kavşağın önünde bekliyor.",
+          "en": "Crossroads seen from above; the square in the middle is filled with yellow criss-cross lines and a blue car waits before it."
+        },
+        "caption": {
+          "tr": "Çıkışın boş değilse sarı kutuya girmezsin.",
+          "en": "Do not enter the yellow box unless your exit is clear."
+        }
+      }
+    },
+    {
+      "heading": {
+        "tr": "Trafik ışıkları",
+        "en": "Traffic lights"
+      },
+      "body": {
+        "tr": "- **Kırmızı:** dur çizgisinin gerisinde durursun.\n- **Sarı:** durursun. Sarı yandığında çizgiye çok yakınsan ve güvenle duramayacaksan geçebilirsin. Sarıyı hızlanma işareti sayma.\n- **Yeşil:** yol boşsa geçersin. Kavşakta kalmış araçlara ve dönerken geçen yayalara yine yol verirsin. Kavşağın öbür tarafında yer yoksa girmezsin.\n- **Yanıp sönen sarı:** ışık kavşağı yönetmiyor. Yavaşlarsın; levhaya, levha yoksa sağdan gelene yol verme kuralına uyarsın.\n- **Yeşil ok:** ana ışık kırmızı olsa bile yalnız okun yönüne gidebilirsin. Öbür yönler için kırmızıda beklersin.\n- **Yaya ışıkları:** kırmızı duran figür ve yeşil yürüyen figür yayalar içindir. Sen kendi ışığına uyarsın; dönerken yeşilde geçen yayalara yol verirsin.\n\nKKTC'de ışıkların sırası doğrulanamadı; örneğin kırmızıyla birlikte sarı yanan bir evre olup olmadığı bilinmiyor. Kırmızıdan sonra ne yanarsa yansın, yeşil yanmadan kalkmazsın.",
+        "en": "- **Red:** stop behind the stop line.\n- **Amber:** stop. If amber shows when you are so close to the line that you cannot stop safely, go on. Never treat amber as a signal to speed up.\n- **Green:** go if the way is clear. You still give way to vehicles left in the junction and to pedestrians crossing when you turn. Do not enter if there is no room on the far side.\n- **Flashing amber:** the light is not controlling the junction. Slow down and follow any sign; if there is none, give way to traffic from the right.\n- **Green arrow:** even with the main light on red, you may go in the direction of the arrow only. For other directions, wait at the red.\n- **Pedestrian signals:** the red standing figure and the green walking figure are for pedestrians. You follow your own light, and when you turn you give way to people crossing on their green.\n\nThe light sequence in North Cyprus could not be confirmed; for example, it is not known whether there is a phase with red and amber together. Whatever follows red, do not move off until green shows."
+      },
+      "basis": "practice",
+      "sourceId": "mk-hc-light-signals",
+      "sourceRef": null,
+      "figure": {
+        "src": "/signs/light/amber.svg",
+        "alt": {
+          "tr": "Siyah bir trafik ışığı; ortadaki sarı lamba yanıyor, kırmızı ve yeşil sönük.",
+          "en": "A black traffic light with the amber lamp in the middle lit; red and green are off."
+        },
+        "caption": {
+          "tr": "Sürekli sarı: dur. Ancak güvenle duramayacak kadar yakınsan geç.",
+          "en": "Steady amber: stop, unless you are too close to stop safely."
+        }
+      }
+    },
+    {
+      "heading": {
+        "tr": "Kırmızı ışık ve ceza",
+        "en": "Red lights and fines"
+      },
+      "body": {
+        "tr": "Kırmızı ışıkta geçmek KKTC'de para cezası gerektiren bir trafik suçudur. Ağustos 2026'da güncellenen ceza listesinde bu suçun cezası 14.178 TL olarak yer alır.",
+        "en": "Running a red light is a traffic offence with a fine in North Cyprus. The penalty list updated in August 2026 gives the fine as 14,178 TL."
+      },
+      "basis": "secondary",
+      "sourceId": "s30",
+      "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Polisin işaretleri",
+        "en": "Police signals"
+      },
+      "body": {
+        "tr": "Trafiği yöneten polisin işaretine hemen uyarsın. Işık ve levha ne gösterirse göstersin polisin işareti önce gelir.\n\n- **Kol dimdik yukarıda:** dikkat, dur. Her yönden gelen durur; güvenle duramayacak kadar yakın olan ya da kavşağın içinde olan kavşağı boşaltır.\n- **Kollar iki yana açık:** polisin önünden ve arkasından gelen trafik durur. Polisin yanından, kollarının doğrultusunda gelen trafik geçebilir.\n- **Avuç sana dönük:** polis sana bakıyorsa ya da sırtı dönükken elini sana kaldırmışsa durursun.\n- **El kendine ya da ileriye sallanıyor:** polis seni çağırıyor; dikkatle geçersin.\n- **Kol yanda inip kalkıyor:** yavaşla.\n\nKKTC polisinin el işaretlerini gösteren bir metin bulunamadı. Bu anlatım Viyana Sözleşmesi ve sol trafikteki Birleşik Krallık uygulamasındaki işaretlere dayanır. Emin olmadığın bir işarette yavaşla, dur ve polisin seni açıkça geçirmesini bekle.",
+        "en": "Obey the signals of an officer directing traffic at once. Whatever the lights and signs show, the officer's signal comes first.\n\n- **Arm held straight up:** attention, stop. Traffic from every direction stops; anyone too close to stop safely, or already in the junction, clears it.\n- **Arms stretched out to the sides:** traffic from in front of and behind the officer stops. Traffic from his sides, along the line of his arms, may go.\n- **Palm turned towards you:** if the officer faces you, or has his back to you and raises a hand towards you, you stop.\n- **Hand swinging towards himself or forward:** he is calling you on; go with care.\n- **Arm out to the side moving up and down:** slow down.\n\nNo KKTC text showing police hand signals was found. This explanation follows the Vienna Convention and the signals used in the UK, which also drives on the left. If you are not sure what a signal means, slow down, stop and wait until the officer clearly waves you on."
+      },
+      "basis": "secondary",
+      "sourceId": "mk-vienna-road-traffic",
+      "sourceRef": "md. 6",
+      "figure": {
+        "src": "/signs/police/stop-front-and-behind.svg",
+        "alt": {
+          "tr": "Mavi üniformalı bir polis sana bakıyor; iki kolu da omuz hizasında yanlara açık.",
+          "en": "A police officer in a blue uniform faces you with both arms stretched out to the sides at shoulder height."
+        },
+        "caption": {
+          "tr": "Kollar iki yana açık: polisin önünden ve arkasından gelen durur.",
+          "en": "Arms out to the sides: traffic from in front of and behind the officer stops."
+        }
+      }
+    },
+    {
+      "heading": {
+        "tr": "Emin olmadığında",
+        "en": "When you are not sure"
+      },
+      "body": {
+        "tr": "Çizgiler silinmiş, levhayla çelişiyor ya da yol çalışması yüzünden karışmış olabilir. Böyle bir yerde:\n\n- daha kısıtlayıcı olanı uygula; örneğin sollama yapma,\n- yavaşla ve öbür sürücülerin ne yaptığına bak,\n- geçici sarı çizgi ve levhalar varsa eski beyaz çizgiler yerine onlara uy.",
+        "en": "Lines may be worn, may conflict with a sign or may be confused by roadworks. In such a place:\n\n- follow the stricter reading; for example, do not overtake,\n- slow down and watch what other drivers are doing,\n- if there are temporary yellow lines and signs, follow them rather than the old white lines."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    }
+  ],
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Önce polise, sonra ışığa, sonra levhaya, en son yol çizgisine uyarsın.",
+        "en": "Obey the police first, then the lights, then signs, then road markings."
+      },
+      "basis": "practice",
+      "sourceId": "mk-vienna-road-traffic",
+      "sourceRef": "md. 6"
+    },
+    {
+      "text": {
+        "tr": "Kesik orta çizgiyi güvenliyse geçebilirsin; kesintisiz çizgiyi geçmezsin.",
+        "en": "You may cross a broken centre line when it is safe; you do not cross a solid one."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Biri kesik biri kesintisiz çift çizgide sana yakın olan çizgiye uyarsın.",
+        "en": "With one broken and one solid line, obey the line nearer to you."
+      },
+      "basis": "practice",
+      "sourceId": "mk-hc-road-markings",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Yaya geçidini kullanan ya da kullanmaya hazırlanan yaya varsa durur ve yol verirsin.",
+        "en": "If someone is using a crossing or getting ready to use it, stop and give way."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Yanıp sönen sarı ışıkta levhaya, levha yoksa sağdan gelene yol verme kuralına uyarsın.",
+        "en": "At a flashing amber light, follow the signs, or give way to traffic from the right if there are none."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Kırmızı ışıkta geçmek para cezası gerektiren bir suçtur.",
+        "en": "Running a red light is an offence with a fine."
+      },
+      "basis": "secondary",
+      "sourceId": "s30",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Polisin dur ihtarına uymamak 100 ceza puanıdır.",
+        "en": "Ignoring a police order to stop carries 100 penalty points."
+      },
+      "basis": "secondary",
+      "sourceId": "s28",
+      "sourceRef": null
+    }
+  ],
+  "relatedSigns": [
+    "marking.broken-centre-line",
+    "marking.solid-centre-line",
+    "marking.double-solid-line",
+    "marking.solid-broken--broken-near",
+    "marking.solid-broken--solid-near",
+    "marking.stop-line",
+    "marking.give-way-line",
+    "marking.zebra-crossing",
+    "marking.hatched-area",
+    "marking.box-junction",
+    "marking.lane-arrows",
+    "light.red",
+    "light.amber",
+    "light.green",
+    "light.amber-flashing",
+    "light.green-filter-arrow",
+    "light.pedestrian-green",
+    "police.raised-arm",
+    "police.stop-from-front",
+    "police.stop-front-and-behind",
+    "police.beckon-from-front",
+    "priority.stop",
+    "priority.give-way"
+  ],
+  "reviewedAt": "2026-10-20"
+}

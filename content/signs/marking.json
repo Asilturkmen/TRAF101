@@ -1,0 +1,778 @@
+[
+  {
+    "id": "marking.broken-centre-line",
+    "category": "marking",
+    "image": {
+      "src": "/signs/marking/broken-centre-line.svg",
+      "alt": {
+        "tr": "Üstten görülen iki yönlü yol. Yolun ortasında beyaz kesik bir çizgi var. Mavi araç sol şeritte yukarı gidiyor, karşı şeritte gri bir araç aşağı geliyor.",
+        "en": "Two-way road seen from above. A broken white line runs down the middle. A blue car drives up the left lane; a grey car comes down the other lane."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "kesik-orta-cizgi",
+      "en": "broken-centre-line"
+    },
+    "name": {
+      "tr": "Kesik orta çizgi",
+      "en": "Broken centre line"
+    },
+    "meaning": {
+      "tr": "İki yönlü yolda iki yönü birbirinden ayırır. Yol ve görüş elverişliyse sollamak için bu çizgiyi geçebilirsin.",
+      "en": "Separates the two directions on a two-way road. You may cross it to overtake when the road and your view allow."
+    },
+    "driverAction": {
+      "tr": "Sol şeridinde kal. Sollayacaksan karşı şeridin sollamayı bitirecek kadar uzun bir mesafe boyunca boş olduğundan emin ol ve aracı sağından solla.",
+      "en": "Keep to the left lane. If you overtake, make sure the opposite lane is clear for long enough to finish, and pass on the right."
+    },
+    "confusions": [
+      {
+        "with": "marking.solid-centre-line",
+        "tip": {
+          "tr": "Kesik çizgiyi güvenliyse geçebilirsin. Kesintisiz çizgiyi geçmezsin.",
+          "en": "You may cross a broken line when it is safe. You do not cross a solid line."
+        }
+      }
+    ],
+    "related": [
+      "marking.solid-centre-line",
+      "marking.solid-broken--broken-near",
+      "marking.lane-lines"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "Yaygın kullanılan bir çizgidir. Anlamını yazan bir KKTC metni bulunamadı; anlatım Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamı verir.",
+        "en": "A widely used marking. No KKTC text giving its meaning was found; the explanation gives the general meaning under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "marking.solid-centre-line",
+    "category": "marking",
+    "image": {
+      "src": "/signs/marking/solid-centre-line.svg",
+      "alt": {
+        "tr": "Üstten görülen iki yönlü yol. Yolun ortasında beyaz kesintisiz bir çizgi var. Mavi araç sol şeritte yukarı gidiyor, karşı şeritte gri bir araç aşağı geliyor.",
+        "en": "Two-way road seen from above. A solid white line runs down the middle. A blue car drives up the left lane; a grey car comes down the other lane."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "kesintisiz-orta-cizgi",
+      "en": "solid-centre-line"
+    },
+    "name": {
+      "tr": "Kesintisiz orta çizgi",
+      "en": "Solid centre line"
+    },
+    "meaning": {
+      "tr": "Bu çizgiyi geçemez ve üzerinden gidemezsin. Genellikle virajda, tepe üstünde ve kavşak yakınında, yani ileriyi iyi göremediğin yerlerde çizilir.",
+      "en": "You must not cross or straddle this line. It is usually painted where you cannot see far ahead: on bends, over hill crests and near junctions."
+    },
+    "driverAction": {
+      "tr": "Sollama yapma, kendi şeridinde kal. Sollamak istiyorsan çizgi yeniden kesikli olana kadar bekle.",
+      "en": "Do not overtake; stay in your lane. If you want to overtake, wait until the line becomes broken again."
+    },
+    "confusions": [
+      {
+        "with": "marking.broken-centre-line",
+        "tip": {
+          "tr": "Kesintisiz çizgi geçilmez. Kesik çizgide güvenliyse sollayabilirsin.",
+          "en": "A solid line may not be crossed. At a broken line you may overtake when it is safe."
+        }
+      },
+      {
+        "with": "marking.double-solid-line",
+        "tip": {
+          "tr": "Tek ve çift kesintisiz çizgi aynı şeyi söyler: iki yön de çizgiyi geçmez.",
+          "en": "A single and a double solid line say the same thing: neither direction crosses."
+        }
+      }
+    ],
+    "related": [
+      "marking.double-solid-line",
+      "prohibitory.no-overtaking"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Bu çizginin KKTC'deki anlamını yazan bir metin bulunamadı. Anlatım, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamı verir.",
+        "en": "No KKTC text giving the meaning of this marking was found. The explanation gives the general meaning under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "marking.double-solid-line",
+    "category": "marking",
+    "image": {
+      "src": "/signs/marking/double-solid-line.svg",
+      "alt": {
+        "tr": "Üstten görülen iki yönlü yol. Yolun ortasında yan yana iki beyaz kesintisiz çizgi var. Mavi araç sol şeritte yukarı gidiyor, karşı şeritte gri bir araç aşağı geliyor.",
+        "en": "Two-way road seen from above. Two solid white lines run side by side down the middle. A blue car drives up the left lane; a grey car comes down the other lane."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "cift-kesintisiz-orta-cizgi",
+      "en": "double-solid-centre-line"
+    },
+    "name": {
+      "tr": "Çift kesintisiz orta çizgi",
+      "en": "Double solid centre line"
+    },
+    "meaning": {
+      "tr": "İki yönü kesin olarak ayırır. İki yönden gelenler de bu çizgileri geçemez ve üzerlerinden gidemez.",
+      "en": "Firmly separates the two directions. Traffic from neither direction may cross or straddle the lines."
+    },
+    "driverAction": {
+      "tr": "Sollama yapma ve çizgilerin üzerine çıkma. Önündeki yavaş araç ya da bisikletli için güvenli, kesikli çizgili bir yeri bekle.",
+      "en": "Do not overtake and do not drive on the lines. Behind a slow vehicle or a cyclist, wait for a safe stretch with a broken line."
+    },
+    "confusions": [
+      {
+        "with": "marking.solid-broken--solid-near",
+        "tip": {
+          "tr": "Çiftin bir tarafı kesikliyse kural yöne göre değişir: sana yakın çizgiye bakarsın. İkisi de kesintisizse kimse geçmez.",
+          "en": "If one line of the pair is broken, the rule depends on your side: look at the line nearer to you. If both are solid, nobody crosses."
+        }
+      }
+    ],
+    "related": [
+      "marking.solid-centre-line",
+      "marking.hatched-area",
+      "prohibitory.no-overtaking"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Bu çizginin KKTC'deki anlamını yazan bir metin bulunamadı. Anlatım, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamı verir.",
+        "en": "No KKTC text giving the meaning of this marking was found. The explanation gives the general meaning under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "marking.solid-broken--broken-near",
+    "category": "marking",
+    "image": {
+      "src": "/signs/marking/solid-broken--broken-near.svg",
+      "alt": {
+        "tr": "Üstten görülen iki yönlü yol. Yolun ortasında iki çizgi var: senin şeridine yakın olan kesik, karşı şeride yakın olan kesintisiz. Mavi araç sol şeritte yukarı gidiyor, karşı şeritte gri bir araç aşağı geliyor.",
+        "en": "Two-way road seen from above. Two lines run down the middle: the one nearer your lane is broken, the one nearer the other lane is solid. A blue car drives up the left lane; a grey car comes down the other lane."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "cift-orta-cizgi-kesik-senin-tarafinda",
+      "en": "double-line-broken-on-your-side"
+    },
+    "name": {
+      "tr": "Çift orta çizgi, kesik olan senin tarafında",
+      "en": "Double line, broken line on your side"
+    },
+    "meaning": {
+      "tr": "Çizgilerden sana yakın olana uyarsın. Senin tarafındaki çizgi kesikli olduğu için güvenliyse sollamak için geçebilirsin. Karşı yönden gelenler kesintisiz çizgiyi geçemez.",
+      "en": "You obey the line nearer to you. The line on your side is broken, so you may cross to overtake when it is safe. Traffic from the other direction may not cross its solid line."
+    },
+    "driverAction": {
+      "tr": "Sollamaya ancak senin tarafında kesintisiz çizgi başlamadan sollamayı bitirip sol şeride dönebileceksen başla.",
+      "en": "Start to overtake only if you can finish and get back into the left lane before a solid line starts on your side."
+    },
+    "confusions": [
+      {
+        "with": "marking.solid-broken--solid-near",
+        "tip": {
+          "tr": "Hangi çizginin kesikli olduğuna bak: sana yakın olan kesikliyse geçebilirsin, kesintisizse geçemezsin.",
+          "en": "Check which line is broken: if the one nearer to you is broken you may cross; if it is solid you may not."
+        }
+      }
+    ],
+    "related": [
+      "marking.solid-broken--solid-near",
+      "marking.broken-centre-line"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Bu çizginin KKTC'deki anlamını yazan bir metin bulunamadı. Anlatım, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamı verir.",
+        "en": "No KKTC text giving the meaning of this marking was found. The explanation gives the general meaning under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "marking.solid-broken--solid-near",
+    "category": "marking",
+    "image": {
+      "src": "/signs/marking/solid-broken--solid-near.svg",
+      "alt": {
+        "tr": "Üstten görülen iki yönlü yol. Yolun ortasında iki çizgi var: senin şeridine yakın olan kesintisiz, karşı şeride yakın olan kesik. Mavi araç sol şeritte yukarı gidiyor, karşı şeritte gri bir araç aşağı geliyor.",
+        "en": "Two-way road seen from above. Two lines run down the middle: the one nearer your lane is solid, the one nearer the other lane is broken. A blue car drives up the left lane; a grey car comes down the other lane."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "cift-orta-cizgi-kesintisiz-senin-tarafinda",
+      "en": "double-line-solid-on-your-side"
+    },
+    "name": {
+      "tr": "Çift orta çizgi, kesintisiz olan senin tarafında",
+      "en": "Double line, solid line on your side"
+    },
+    "meaning": {
+      "tr": "Çizgilerden sana yakın olana uyarsın. Senin tarafındaki çizgi kesintisiz olduğu için geçemezsin. Karşı yönden gelenler güvenliyse sollamak için geçebilir.",
+      "en": "You obey the line nearer to you. The line on your side is solid, so you may not cross it. Traffic from the other direction may cross to overtake when it is safe."
+    },
+    "driverAction": {
+      "tr": "Sollama yapma ve şeridinin solunda kal. Karşıdan sollayarak sana doğru gelen bir araç olabilir; ona yer bırak.",
+      "en": "Do not overtake and keep to the left of your lane. An oncoming driver may be overtaking towards you; leave them room."
+    },
+    "confusions": [
+      {
+        "with": "marking.solid-broken--broken-near",
+        "tip": {
+          "tr": "Hangi çizginin kesikli olduğuna bak: sana yakın olan kesintisizse geçemezsin.",
+          "en": "Check which line is broken: if the one nearer to you is solid, you may not cross."
+        }
+      }
+    ],
+    "related": [
+      "marking.solid-broken--broken-near",
+      "marking.solid-centre-line"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Bu çizginin KKTC'deki anlamını yazan bir metin bulunamadı. Anlatım, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamı verir.",
+        "en": "No KKTC text giving the meaning of this marking was found. The explanation gives the general meaning under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "marking.lane-lines",
+    "category": "marking",
+    "image": {
+      "src": "/signs/marking/lane-lines.svg",
+      "alt": {
+        "tr": "Üstten görülen, iki şeridi de aynı yöne giden bir yol. Şeritler arasında beyaz kesik çizgi, iki kenarda kesintisiz kenar çizgisi var. Mavi araç sol şeritte, gri araç sağ şeritte yukarı gidiyor.",
+        "en": "Road seen from above with two lanes going the same way. A broken white line separates the lanes and solid lines mark both edges. A blue car is in the left lane and a grey car in the right lane, both going up."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "serit-cizgisi",
+      "en": "lane-line"
+    },
+    "name": {
+      "tr": "Şerit çizgisi",
+      "en": "Lane line"
+    },
+    "meaning": {
+      "tr": "Aynı yöne giden şeritleri birbirinden ayırır. Çift şeritli yolda sol şerit normal sürüş şeridindir, sağ şerit sollama içindir.",
+      "en": "Separates lanes going in the same direction. On a dual carriageway the left lane is your normal lane and the right lane is for overtaking."
+    },
+    "driverAction": {
+      "tr": "Şeridinin ortasında git. Şerit değiştirmeden önce aynalarına ve kör noktana bak, sinyal ver. Sollama bitince sol şeride dön.",
+      "en": "Drive in the middle of your lane. Before changing lanes, check your mirrors and blind spot and signal. Move back to the left lane after overtaking."
+    },
+    "confusions": [
+      {
+        "with": "marking.broken-centre-line",
+        "tip": {
+          "tr": "İkisi de kesiktir. Orta çizgi karşı yöne giden trafiği ayırır, şerit çizgisi aynı yöne gidenleri. Araçların ve okların yönüne bak.",
+          "en": "Both are broken. A centre line separates opposing traffic; a lane line separates traffic going the same way. Look at the direction of the vehicles and arrows."
+        }
+      }
+    ],
+    "related": [
+      "marking.lane-arrows",
+      "marking.edge-line"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Bu çizginin KKTC'deki anlamını yazan bir metin bulunamadı. Anlatım, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamı verir.",
+        "en": "No KKTC text giving the meaning of this marking was found. The explanation gives the general meaning under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "marking.edge-line",
+    "category": "marking",
+    "image": {
+      "src": "/signs/marking/edge-line.svg",
+      "alt": {
+        "tr": "Üstten görülen iki yönlü yol. İki kenarda beyaz kesintisiz kenar çizgisi var; solda bir yan yolun bağlandığı yerde kenar çizgisi kesikli. Mavi araç sol şeritte yukarı gidiyor.",
+        "en": "Two-way road seen from above with solid white edge lines on both sides. On the left, where a side road joins, the edge line is broken. A blue car drives up the left lane."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "kenar-cizgisi",
+      "en": "edge-line"
+    },
+    "name": {
+      "tr": "Kenar çizgisi",
+      "en": "Edge line"
+    },
+    "meaning": {
+      "tr": "Taşıt yolunun kenarını gösterir. Kesintisiz olduğu yerde yol orada biter; kesikli olduğu yerde bir yan yol, giriş ya da çıkış vardır.",
+      "en": "Marks the edge of the carriageway. Where it is solid, the road ends there; where it is broken, there is a side road, an entrance or an exit."
+    },
+    "driverAction": {
+      "tr": "Gece ve kötü havada kenar çizgisini yolu izlemek için kullan. Kesik kısma yaklaşırken yan yoldan çıkabilecek araçlara dikkat et.",
+      "en": "At night and in bad weather, use the edge line to follow the road. Where it is broken, watch for vehicles coming out of the side road."
+    },
+    "confusions": [
+      {
+        "with": "marking.lane-lines",
+        "tip": {
+          "tr": "Kenar çizgisi yolun bittiği yeri, şerit çizgisi iki şeridin sınırını gösterir.",
+          "en": "An edge line shows where the road ends; a lane line shows the boundary between two lanes."
+        }
+      }
+    ],
+    "related": [
+      "marking.lane-lines",
+      "marking.broken-centre-line"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Bu çizginin KKTC'deki anlamını yazan bir metin bulunamadı. Anlatım, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamı verir.",
+        "en": "No KKTC text giving the meaning of this marking was found. The explanation gives the general meaning under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "marking.give-way-line",
+    "category": "marking",
+    "image": {
+      "src": "/signs/marking/give-way-line.svg",
+      "alt": {
+        "tr": "Üstten görülen T kavşak. Aşağıdan gelen yan yolun sol şeridinde, ana yola çıkışta enine beyaz kesik bir çizgi; çizginin önünde yere boyanmış, ucu sürücüye bakan beyaz bir üçgen. Mavi araç çizgiye yaklaşıyor.",
+        "en": "T-junction seen from above. Across the left lane of the side road, at the mouth of the main road, is a broken white line; before it a white triangle is painted on the road, pointing towards the driver. A blue car approaches the line."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yol-ver-cizgisi",
+      "en": "give-way-line"
+    },
+    "name": {
+      "tr": "Yol ver çizgisi",
+      "en": "Give-way line"
+    },
+    "meaning": {
+      "tr": "Ana yoldaki trafiğe bu çizgide yol verirsin. Ana yol boşsa durmadan devam edebilirsin. Yere boyanmış üçgen ileride yol vermen gerektiğini haber verir.",
+      "en": "You give way to traffic on the main road at this line. If the main road is clear you may go on without stopping. The triangle painted on the road warns that you will have to give way ahead."
+    },
+    "driverAction": {
+      "tr": "Çizgiye yaklaşırken yavaşla ve iki yöne bak. Ana yolda araç geliyorsa çizginin gerisinde bekle.",
+      "en": "Slow down as you approach and look both ways. If traffic is coming on the main road, wait behind the line."
+    },
+    "confusions": [
+      {
+        "with": "marking.stop-line",
+        "tip": {
+          "tr": "Yol ver çizgisi kesiklidir; yol boşsa durmadan geçersin. Dur çizgisi kesintisizdir; her zaman tam durursun.",
+          "en": "A give-way line is broken: if the road is clear you go without stopping. A stop line is solid: you always stop fully."
+        }
+      }
+    ],
+    "related": [
+      "priority.give-way",
+      "marking.stop-line"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "Yol ver ve dur çizgilerinin KKTC'de kullanıldığı ikincil kaynaklarda geçer. Biçimlerini ve anlamlarını yazan bir KKTC metni bulunamadı; anlatım Viyana Sözleşmesi ve Türkiye uygulamasına dayanır.",
+        "en": "Secondary sources mention give-way and stop lines in use in North Cyprus. No KKTC text setting out their form and meaning was found; the explanation follows the Vienna Convention and practice in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "marking.stop-line",
+    "category": "marking",
+    "image": {
+      "src": "/signs/marking/stop-line.svg",
+      "alt": {
+        "tr": "Üstten görülen T kavşak. Yan yolun sol şeridinde, ana yola çıkışta enine geniş beyaz kesintisiz çizgi; çizginin önünde yere uzun harflerle DUR yazılmış. Mavi araç çizgiye yaklaşıyor.",
+        "en": "T-junction seen from above. Across the left lane of the side road, at the mouth of the main road, is a wide solid white line; before it DUR is painted on the road in tall letters. A blue car approaches the line."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "dur-cizgisi",
+      "en": "stop-line"
+    },
+    "name": {
+      "tr": "Dur çizgisi",
+      "en": "Stop line"
+    },
+    "meaning": {
+      "tr": "DUR levhası ya da trafik ışığı olan yerde aracını durduracağın yeri gösterir. Yere yazılmış DUR, durmanın zorunlu olduğunu hatırlatır.",
+      "en": "Shows where you stop at a DUR (stop) sign or a traffic light. The word DUR painted on the road reminds you that stopping is compulsory."
+    },
+    "driverAction": {
+      "tr": "Aracının önü çizgiyi geçmeden tamamen dur. Yolu göremiyorsan durduktan sonra yavaşça biraz ilerle ve yeniden bak.",
+      "en": "Stop completely before the front of your vehicle crosses the line. If you cannot see the road, creep forward after stopping and look again."
+    },
+    "confusions": [
+      {
+        "with": "marking.give-way-line",
+        "tip": {
+          "tr": "Dur çizgisinde yol boş olsa da durursun. Yol ver çizgisinde yol boşsa durmadan geçebilirsin.",
+          "en": "At a stop line you stop even if the road is clear. At a give-way line you may go without stopping if it is clear."
+        }
+      },
+      {
+        "with": "priority.stop",
+        "tip": {
+          "tr": "DUR levhası durmanı söyler, yerdeki çizgi nerede duracağını gösterir.",
+          "en": "The DUR sign tells you to stop; the line on the road shows where."
+        }
+      }
+    ],
+    "related": [
+      "priority.stop",
+      "light.red",
+      "marking.give-way-line"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "Yol ver ve dur çizgilerinin KKTC'de kullanıldığı ikincil kaynaklarda geçer. Yere DUR yazılıp yazılmadığı ve çizginin tanımı bir KKTC metninde bulunamadı.",
+        "en": "Secondary sources mention give-way and stop lines in use in North Cyprus. Whether DUR is painted on the road, and the definition of the line, were not found in a KKTC text."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "marking.zebra-crossing",
+    "category": "marking",
+    "image": {
+      "src": "/signs/marking/zebra-crossing.svg",
+      "alt": {
+        "tr": "Üstten görülen iki yönlü yol; yolun bir yanından öbürüne uzanan kalın beyaz şeritlerden oluşan yaya geçidi. Mavi araç sol şeritte geçide yaklaşıyor.",
+        "en": "Two-way road seen from above with a crossing of wide white stripes from one side of the road to the other. A blue car approaches the crossing in the left lane."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yaya-gecidi-cizgileri",
+      "en": "zebra-crossing"
+    },
+    "name": {
+      "tr": "Yaya geçidi çizgileri",
+      "en": "Zebra crossing"
+    },
+    "meaning": {
+      "tr": "Yayaların karşıya geçtiği yerdir. Geçidi kullanan ya da kullanmaya hazırlanan bir yaya varsa durur ve yol verirsin.",
+      "en": "A place where pedestrians cross the road. If someone is using the crossing or getting ready to use it, you stop and give way."
+    },
+    "driverAction": {
+      "tr": "Geçide yaklaşırken yavaşla. Kaldırımda geçide doğru gelen biri varsa çizginin biraz gerisinde dur. Geçitte ve hemen önünde sollama yapma, durma ve park etme.",
+      "en": "Slow down as you approach. If someone on the pavement is heading for the crossing, stop a little before it. Do not overtake, stop or park on the crossing or just before it."
+    },
+    "confusions": [
+      {
+        "with": "information.pedestrian-crossing",
+        "tip": {
+          "tr": "Mavi levha geçidin yerini gösterir, yerdeki şeritler geçidin kendisidir. Kural ikisinde de aynıdır.",
+          "en": "The blue sign marks where the crossing is; the stripes on the road are the crossing itself. The rule is the same."
+        }
+      },
+      {
+        "with": "warning.pedestrian-crossing",
+        "tip": {
+          "tr": "Üçgen levha ileride bir geçit olduğunu haber verir; geçide gelmeden yavaşlamaya başla.",
+          "en": "The triangle warns that a crossing is ahead; start slowing before you reach it."
+        }
+      }
+    ],
+    "related": [
+      "information.pedestrian-crossing",
+      "warning.pedestrian-crossing",
+      "light.pedestrian-green"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "Yaya geçidinde yayaya yol verme kuralı BUB bilgilendirme broşüründe yazılıdır. Geçit çizgilerinin biçimini tanımlayan bir KKTC metni bulunamadı.",
+        "en": "The rule to give way to pedestrians at crossings is written in the BUB information leaflet. No KKTC text defining how the crossing is painted was found."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "marking.hatched-area",
+    "category": "marking",
+    "image": {
+      "src": "/signs/marking/hatched-area.svg",
+      "alt": {
+        "tr": "Üstten görülen iki yönlü yol. Yolun ortasında, kenarları beyaz kesintisiz çizgiyle çevrili ve içi beyaz eğik çizgilerle taranmış uzun bir alan var. Mavi araç alanın solunda yukarı gidiyor.",
+        "en": "Two-way road seen from above. In the middle of the road is a long area bordered by solid white lines and filled with diagonal white stripes. A blue car drives up on its left."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "tarali-alan",
+      "en": "hatched-area"
+    },
+    "name": {
+      "tr": "Taralı alan",
+      "en": "Hatched area"
+    },
+    "meaning": {
+      "tr": "Eğik çizgilerle taranmış alan trafiği ayırır ya da bir tehlikeyi korur. Bu alana girmez, üzerinde durmaz ve park etmezsin.",
+      "en": "A hatched area separates traffic or protects a hazard. You do not drive into it, stop on it or park on it."
+    },
+    "driverAction": {
+      "tr": "Taralı alanın solundan kendi şeridinde git. Sollamak ya da kuyruğu geçmek için alanın üzerine çıkma.",
+      "en": "Keep to your lane on the left of the hatched area. Do not use it to overtake or to jump a queue."
+    },
+    "confusions": [
+      {
+        "with": "marking.box-junction",
+        "tip": {
+          "tr": "Sarı ızgara kavşaktadır; çıkışın boşsa üzerinden geçersin. Beyaz taralı alana hiç girmezsin.",
+          "en": "The yellow grid is at a junction; you drive across it when your exit is clear. You never enter a white hatched area."
+        }
+      }
+    ],
+    "related": [
+      "marking.double-solid-line",
+      "marking.box-junction"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "Taralı alanlar ikincil kaynaklarda KKTC yollarında geçer. Kuralını yazan bir KKTC metni bulunamadı; anlatım Viyana Sözleşmesi ve Türkiye uygulamasına dayanır.",
+        "en": "Secondary sources mention hatched areas on roads in North Cyprus. No KKTC text stating the rule was found; the explanation follows the Vienna Convention and practice in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "marking.box-junction",
+    "category": "marking",
+    "image": {
+      "src": "/signs/marking/box-junction.svg",
+      "alt": {
+        "tr": "Üstten görülen dört yönlü kavşak. Kavşağın ortasındaki kare, sarı bir çerçeve ve sarı çapraz çizgilerle doldurulmuş. Mavi araç kavşağın önünde bekliyor.",
+        "en": "Crossroads seen from above. The square in the middle of the junction has a yellow border and is filled with yellow criss-cross lines. A blue car waits before the junction."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "kavsak-kutusu-cizgileri",
+      "en": "box-junction-marking"
+    },
+    "name": {
+      "tr": "Kavşak kutusu çizgileri",
+      "en": "Box junction marking"
+    },
+    "meaning": {
+      "tr": "Kavşağın ortasına boyanmış sarı çapraz çizgilerdir. Çıkışın boş değilse bu alana girmezsin; böylece kavşak öbür yönler için açık kalır.",
+      "en": "Yellow criss-cross lines painted in the middle of a junction. You do not enter the box unless your exit is clear, so the junction stays open for the other directions."
+    },
+    "driverAction": {
+      "tr": "Işık yeşil olsa bile kavşağın öbür tarafında aracına yer yoksa kutunun önünde bekle.",
+      "en": "Even on green, wait before the box if there is no room for your vehicle on the far side."
+    },
+    "confusions": [
+      {
+        "with": "priority.box-junction",
+        "tip": {
+          "tr": "Levha ileride böyle bir kavşak olduğunu söyler, yerdeki sarı ızgara kutunun sınırını gösterir. Kural aynıdır.",
+          "en": "The sign says such a junction is ahead; the yellow grid on the road shows the edges of the box. The rule is the same."
+        }
+      }
+    ],
+    "related": [
+      "priority.box-junction",
+      "light.green",
+      "marking.hatched-area"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "Kavşak kutusu levhası Lefkoşa'da fotoğraflandı ve kural bir gezi yazısında aynı biçimde anlatılıyor. Yerdeki sarı ızgarayı tanımlayan bir KKTC metni bulunamadı.",
+        "en": "The box-junction sign has been photographed in Lefkoşa and a travel report describes the same rule. No KKTC text defining the yellow grid on the road was found."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "marking.lane-arrows",
+    "category": "marking",
+    "image": {
+      "src": "/signs/marking/lane-arrows.svg",
+      "alt": {
+        "tr": "Üstten görülen, iki şeridi de aynı yöne giden ve dur çizgisinde biten bir yol. Sol şeritte hem düz hem sola gösteren beyaz ok, sağ şeritte sağa dönen beyaz ok var. Çizgiye yakın kısımda şerit çizgisi kesintisiz.",
+        "en": "Road seen from above with two lanes going the same way, ending at a stop line. The left lane has a white arrow pointing ahead and left; the right lane has a white arrow turning right. Near the line the lane line is solid."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "serit-oklari",
+      "en": "lane-arrows"
+    },
+    "name": {
+      "tr": "Şerit okları",
+      "en": "Lane arrows"
+    },
+    "meaning": {
+      "tr": "Oklar kavşakta o şeritten hangi yöne gidebileceğini gösterir. Kavşağa yakın kesintisiz şerit çizgisi artık şerit değiştirmemen gerektiğini gösterir.",
+      "en": "The arrows show which way you may go from that lane at the junction. A solid lane line near the junction means you should no longer change lanes."
+    },
+    "driverAction": {
+      "tr": "Gideceğin yönün okunu taşıyan şeride erkenden geç. Yanlış şeritte kaldıysan okun gösterdiği yöne git, yolunu sonra düzelt.",
+      "en": "Move early into the lane whose arrow shows your direction. If you end up in the wrong lane, go the way its arrow shows and correct your route later."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.ahead-or-left",
+        "tip": {
+          "tr": "Mavi levha yönü tüm yol için zorunlu kılar. Yerdeki ok yalnız bulunduğu şerit için geçerlidir.",
+          "en": "A blue sign orders the direction for the whole road. An arrow on the road applies only to its own lane."
+        }
+      }
+    ],
+    "related": [
+      "marking.lane-lines",
+      "marking.stop-line"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Bu çizginin KKTC'deki anlamını yazan bir metin bulunamadı. Anlatım, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamı verir.",
+        "en": "No KKTC text giving the meaning of this marking was found. The explanation gives the general meaning under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "marking.bus-lane",
+    "category": "marking",
+    "image": {
+      "src": "/signs/marking/bus-lane.svg",
+      "alt": {
+        "tr": "Üstten görülen, iki şeridi de aynı yöne giden yol. Sol şerit geniş beyaz kesintisiz çizgiyle ayrılmış; içinde yere OTOBÜS yazılmış ve bir otobüs var. Mavi araç sağ şeritte.",
+        "en": "Road seen from above with two lanes going the same way. The left lane is set apart by a wide solid white line; OTOBÜS (bus) is painted in it and a bus is in it. A blue car is in the right lane."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "otobus-seridi",
+      "en": "bus-lane"
+    },
+    "name": {
+      "tr": "Otobüs şeridi",
+      "en": "Bus lane"
+    },
+    "meaning": {
+      "tr": "Bu şerit otobüslere ayrılmıştır. Levha başka araçlara izin vermiyorsa bu şeritte gitmez ve durmazsın.",
+      "en": "This lane is reserved for buses. Unless a sign allows other vehicles, you do not drive or stop in it."
+    },
+    "driverAction": {
+      "tr": "Trafik yoğun olsa da kendi şeridinde kal. Sola dönmek için şeridi geçmen gerekiyorsa önce aynana bak; arkadan otobüs ya da bisikletli gelebilir.",
+      "en": "Stay in your own lane even in heavy traffic. If you have to cross the lane to turn left, check your mirror first; a bus or a cyclist may be coming up behind."
+    },
+    "confusions": [
+      {
+        "with": "information.bus-stop",
+        "tip": {
+          "tr": "Durak levhası otobüsün durduğu yeri gösterir. Otobüs şeridi yol boyunca otobüslere ayrılmış bir şerittir.",
+          "en": "A bus-stop sign shows where buses stop. A bus lane is a lane kept for buses along the road."
+        }
+      }
+    ],
+    "related": [
+      "information.bus-stop",
+      "marking.lane-lines"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC'de otobüs şeridi olup olmadığı ve kuralı doğrulanamadı. Çizim Türkiye'deki yaygın biçimi gösterir.",
+        "en": "Whether North Cyprus has bus lanes, and the rule for them, could not be confirmed. The drawing shows the common form used in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "marking.parking-bays",
+    "category": "marking",
+    "image": {
+      "src": "/signs/marking/parking-bays.svg",
+      "alt": {
+        "tr": "Üstten görülen yol. Sol kenarda beyaz çizgilerle ayrılmış, art arda dizilmiş park yerleri var; birinde mavi bir araç park etmiş.",
+        "en": "Road seen from above. Along the left kerb, white lines mark a row of parking bays; a blue car is parked in one of them."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "park-yeri-cizgileri",
+      "en": "parking-bay-markings"
+    },
+    "name": {
+      "tr": "Park yeri çizgileri",
+      "en": "Parking bay markings"
+    },
+    "meaning": {
+      "tr": "Beyaz çizgiler yol kenarında park edebileceğin yerleri gösterir. Aracını bir kutunun içine, çizgilerin dışına taşırmadan park edersin.",
+      "en": "White lines show where you may park at the side of the road. You park inside one bay without sticking out over the lines."
+    },
+    "driverAction": {
+      "tr": "Kutunun içine ve trafik yönünde, yani yolun sol kenarına park et. Yakındaki levhada süre ya da ücret kuralı varsa ona uy.",
+      "en": "Park inside the bay and facing the direction of traffic, on the left side of the road. If a nearby sign sets a time limit or a charge, follow it."
+    },
+    "confusions": [
+      {
+        "with": "information.parking",
+        "tip": {
+          "tr": "P levhası orada park yeri olduğunu söyler. Çizgiler aracını tam olarak nereye koyacağını gösterir.",
+          "en": "The P sign says parking is available; the lines show exactly where to put your vehicle."
+        }
+      }
+    ],
+    "related": [
+      "information.parking",
+      "prohibitory.no-parking"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Bu çizginin KKTC'deki anlamını yazan bir metin bulunamadı. Anlatım, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamı verir.",
+        "en": "No KKTC text giving the meaning of this marking was found. The explanation gives the general meaning under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  }
+]

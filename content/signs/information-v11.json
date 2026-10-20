@@ -1,0 +1,1264 @@
+[
+  {
+    "id": "information.information-point",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/information-point.svg",
+      "alt": {
+        "tr": "Mavi kare; içinde beyaz bir alan ve ortasında siyah küçük i harfi.",
+        "en": "Blue square with a white panel and a black lower-case letter i."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "danisma",
+      "en": "information-point"
+    },
+    "name": {
+      "tr": "Danışma",
+      "en": "Information point"
+    },
+    "meaning": {
+      "tr": "Yakında turistik ya da genel bilgi alabileceğin bir danışma noktası var.",
+      "en": "There is an information point nearby where you can get tourist or general information."
+    },
+    "driverAction": {
+      "tr": "Bilgi almak istiyorsan levhanın gösterdiği yere git ve güvenli bir yerde park et.",
+      "en": "If you need information, follow the sign and park safely."
+    },
+    "confusions": [
+      {
+        "with": "information.hospital",
+        "tip": {
+          "tr": "Beyaz alandaki siyah i danışmadır; mavi üzerindeki büyük beyaz H hastanedir.",
+          "en": "A black i on a white panel is information; a large white H on blue is a hospital."
+        }
+      }
+    ],
+    "related": [
+      "information.telephone",
+      "information.toilets"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.telephone",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/telephone.svg",
+      "alt": {
+        "tr": "Mavi kare; içinde beyaz bir alan ve siyah masa telefonu çizimi.",
+        "en": "Blue square with a white panel and a black desk telephone."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "telefon",
+      "en": "telephone"
+    },
+    "name": {
+      "tr": "Telefon",
+      "en": "Telephone"
+    },
+    "meaning": {
+      "tr": "Yakında kullanılabilecek bir telefon var.",
+      "en": "There is a telephone nearby."
+    },
+    "driverAction": {
+      "tr": "Telefonu kullanmak için güvenli bir yerde dur; yolun ortasında durma.",
+      "en": "To use it, stop somewhere safe; never stop in the carriageway."
+    },
+    "confusions": [
+      {
+        "with": "information.emergency-telephone",
+        "tip": {
+          "tr": "Altında SOS yazıyorsa acil durum telefonudur.",
+          "en": "With SOS written below, it is an emergency telephone."
+        }
+      }
+    ],
+    "related": [
+      "information.emergency-telephone",
+      "information.information-point"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.emergency-telephone",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/emergency-telephone.svg",
+      "alt": {
+        "tr": "Mavi kare; içinde beyaz bir alan, siyah telefon çizimi ve altında SOS yazısı.",
+        "en": "Blue square with a white panel, a black telephone and the letters SOS."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "acil-telefon",
+      "en": "emergency-telephone"
+    },
+    "name": {
+      "tr": "Acil telefon",
+      "en": "Emergency telephone"
+    },
+    "meaning": {
+      "tr": "Yakında arıza ya da kaza durumunda yardım çağırabileceğin bir acil telefon var.",
+      "en": "There is an emergency telephone nearby for calling help after a breakdown or crash."
+    },
+    "driverAction": {
+      "tr": "Kaza ya da arıza olduğunda güvenli bir yerde dur, yardım çağır. Yaralı varsa 112 ve 155'i birlikte ara.",
+      "en": "After a crash or breakdown, stop safely and call for help. If someone is hurt, call 112 and 155."
+    },
+    "confusions": [
+      {
+        "with": "information.telephone",
+        "tip": {
+          "tr": "SOS yazısı yoksa genel bir telefondur.",
+          "en": "Without SOS it is an ordinary telephone."
+        }
+      }
+    ],
+    "related": [
+      "information.telephone",
+      "information.first-aid"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.hotel",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/hotel.svg",
+      "alt": {
+        "tr": "Mavi kare; içinde beyaz bir alan ve siyah yatakta yatan bir kişi çizimi.",
+        "en": "Blue square with a white panel and a black bed with a person lying in it."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "otel",
+      "en": "hotel"
+    },
+    "name": {
+      "tr": "Otel",
+      "en": "Hotel"
+    },
+    "meaning": {
+      "tr": "Yakında konaklayabileceğin bir otel ya da konaklama yeri var.",
+      "en": "There is a hotel or other accommodation nearby."
+    },
+    "driverAction": {
+      "tr": "Konaklamak istiyorsan levhayı izle; sapmadan önce sinyal ver ve yavaşla.",
+      "en": "If you want to stay, follow the sign; signal and slow down before turning off."
+    },
+    "confusions": [
+      {
+        "with": "information.hospital",
+        "tip": {
+          "tr": "Yatak çizimi oteldir; büyük H harfi hastanedir.",
+          "en": "A bed is a hotel; a large letter H is a hospital."
+        }
+      }
+    ],
+    "related": [
+      "information.restaurant",
+      "information.camping-site"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.restaurant",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/restaurant.svg",
+      "alt": {
+        "tr": "Mavi kare; içinde beyaz bir alan, siyah çatal ve bıçak.",
+        "en": "Blue square with a white panel and a black fork and knife."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "lokanta",
+      "en": "restaurant"
+    },
+    "name": {
+      "tr": "Lokanta",
+      "en": "Restaurant"
+    },
+    "meaning": {
+      "tr": "Yakında yemek yiyebileceğin bir lokanta var.",
+      "en": "There is a restaurant nearby."
+    },
+    "driverAction": {
+      "tr": "Mola vermek istiyorsan levhayı izle. Uzun yolda yorgunluğa karşı mola ver.",
+      "en": "Follow the sign if you want a break. On long journeys, stop regularly against fatigue."
+    },
+    "confusions": [
+      {
+        "with": "information.picnic-area",
+        "tip": {
+          "tr": "Çatal ve bıçak lokantadır; masa ve bank piknik yeridir.",
+          "en": "A fork and knife is a restaurant; a table with benches is a picnic area."
+        }
+      }
+    ],
+    "related": [
+      "information.hotel",
+      "information.picnic-area"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.toilets",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/toilets.svg",
+      "alt": {
+        "tr": "Mavi kare; içinde beyaz bir alan ve siyah WC harfleri.",
+        "en": "Blue square with a white panel and the black letters WC."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "tuvalet",
+      "en": "toilets"
+    },
+    "name": {
+      "tr": "Tuvalet",
+      "en": "Toilets"
+    },
+    "meaning": {
+      "tr": "Yakında umuma açık tuvalet var.",
+      "en": "There are public toilets nearby."
+    },
+    "driverAction": {
+      "tr": "Kullanmak istiyorsan levhayı izle ve güvenli bir yerde park et.",
+      "en": "Follow the sign if you need them and park safely."
+    },
+    "confusions": [
+      {
+        "with": "information.information-point",
+        "tip": {
+          "tr": "WC harfleri tuvalettir; küçük i harfi danışmadır.",
+          "en": "The letters WC mean toilets; a small letter i means information."
+        }
+      }
+    ],
+    "related": [
+      "information.information-point",
+      "information.restaurant"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.picnic-area",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/picnic-area.svg",
+      "alt": {
+        "tr": "Mavi kare; içinde beyaz bir alan ve siyah piknik masası ile bankları.",
+        "en": "Blue square with a white panel and a black picnic table with benches."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "piknik-yeri",
+      "en": "picnic-area"
+    },
+    "name": {
+      "tr": "Piknik yeri",
+      "en": "Picnic area"
+    },
+    "meaning": {
+      "tr": "Yakında masaları olan bir piknik ve dinlenme yeri var.",
+      "en": "There is a picnic and rest area with tables nearby."
+    },
+    "driverAction": {
+      "tr": "Dinlenmek istiyorsan piknik yerine sap; yol kenarında rastgele durma.",
+      "en": "If you want a rest, pull into the picnic area rather than stopping at the roadside."
+    },
+    "confusions": [
+      {
+        "with": "information.camping-site",
+        "tip": {
+          "tr": "Masa ve bank piknik yeridir; çadır kamp yeridir.",
+          "en": "A table with benches is a picnic area; a tent is a camp site."
+        }
+      }
+    ],
+    "related": [
+      "information.camping-site",
+      "information.restaurant"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.camping-site",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/camping-site.svg",
+      "alt": {
+        "tr": "Mavi kare; içinde beyaz bir alan ve siyah çadır.",
+        "en": "Blue square with a white panel and a black tent."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "kamp-yeri",
+      "en": "camp-site"
+    },
+    "name": {
+      "tr": "Kamp yeri",
+      "en": "Camp site"
+    },
+    "meaning": {
+      "tr": "Yakında çadır kurulabilecek bir kamp yeri var.",
+      "en": "There is a camp site nearby."
+    },
+    "driverAction": {
+      "tr": "Kamp yerine gidiyorsan levhayı izle; karavan çekiyorsan dönüş için erken yavaşla.",
+      "en": "Follow the sign to the camp site; if towing, slow down early for the turn."
+    },
+    "confusions": [
+      {
+        "with": "information.picnic-area",
+        "tip": {
+          "tr": "Çadır kamp yeri, masa piknik yeridir.",
+          "en": "A tent is a camp site; a table is a picnic area."
+        }
+      }
+    ],
+    "related": [
+      "information.picnic-area",
+      "information.hotel"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.car-repair",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/car-repair.svg",
+      "alt": {
+        "tr": "Mavi kare; içinde beyaz bir alan ve çapraz duran siyah açık ağızlı anahtar.",
+        "en": "Blue square with a white panel and a black spanner lying diagonally."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "tamirhane",
+      "en": "vehicle-repair"
+    },
+    "name": {
+      "tr": "Tamirhane",
+      "en": "Vehicle repair"
+    },
+    "meaning": {
+      "tr": "Yakında taşıt onarımı yapılan bir yer var.",
+      "en": "There is a vehicle repair workshop nearby."
+    },
+    "driverAction": {
+      "tr": "Aracında arıza varsa levhayı izle; arızalı aracı yolda bırakmak zorundaysan uyarı üçgenini koy.",
+      "en": "If your vehicle has a fault, follow the sign; if you must leave it on the road, put out your warning triangle."
+    },
+    "confusions": [
+      {
+        "with": "information.petrol-station",
+        "tip": {
+          "tr": "Pompa akaryakıt istasyonudur; anahtar tamirhanedir.",
+          "en": "A pump is a petrol station; a spanner is a repair workshop."
+        }
+      }
+    ],
+    "related": [
+      "information.petrol-station",
+      "information.emergency-telephone"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.airport",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/airport.svg",
+      "alt": {
+        "tr": "Mavi kare; içinde beyaz bir alan ve çapraz yönde uçan siyah uçak.",
+        "en": "Blue square with a white panel and a black aircraft flying diagonally."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "havalimani",
+      "en": "airport"
+    },
+    "name": {
+      "tr": "Havalimanı",
+      "en": "Airport"
+    },
+    "meaning": {
+      "tr": "Bu yön havalimanına gider.",
+      "en": "This way leads to an airport."
+    },
+    "driverAction": {
+      "tr": "Havalimanına gidiyorsan levhayı izle ve şeridini erken seç.",
+      "en": "If you are going to the airport, follow the sign and choose your lane early."
+    },
+    "confusions": [
+      {
+        "with": "warning.other-danger",
+        "tip": {
+          "tr": "Mavi karedeki uçak yön bilgisidir; alçak uçuş uyarısı kırmızı üçgen içinde olur.",
+          "en": "An aircraft on a blue square is direction information; a low-flying aircraft warning is a red triangle."
+        }
+      }
+    ],
+    "related": [
+      "information.direction-sign"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.disabled-parking",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/disabled-parking.svg",
+      "alt": {
+        "tr": "Mavi kare; solda büyük beyaz P harfi, sağda beyaz tekerlekli sandalye simgesi.",
+        "en": "Blue square with a large white P on the left and a white wheelchair symbol on the right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "engelli-park-yeri",
+      "en": "disabled-parking"
+    },
+    "name": {
+      "tr": "Engelli park yeri",
+      "en": "Disabled parking"
+    },
+    "meaning": {
+      "tr": "Bu park yeri yalnız engelli kişilerin kullandığı ya da taşıdığı araçlar içindir.",
+      "en": "This parking space is only for vehicles used by or carrying disabled people."
+    },
+    "driverAction": {
+      "tr": "Engelli kartın ya da engelli bir yolcun yoksa buraya park etme, kısa süreliğine bile.",
+      "en": "Do not park here, even briefly, unless you have a disabled badge or are carrying a disabled passenger."
+    },
+    "confusions": [
+      {
+        "with": "information.parking",
+        "tip": {
+          "tr": "Yalnız P harfi herkese açık park yeridir; tekerlekli sandalye varsa yer engellilere ayrılmıştır.",
+          "en": "A P alone is parking for everyone; with the wheelchair it is reserved for disabled people."
+        }
+      }
+    ],
+    "related": [
+      "information.parking",
+      "prohibitory.no-parking"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.bus-lane",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/bus-lane.svg",
+      "alt": {
+        "tr": "Mavi kare; dikey beyaz çizgiyle ayrılmış iki şerit, sol şeritte önden görünen beyaz otobüs, sağ şeritte yukarı bakan beyaz ok.",
+        "en": "Blue square with two lanes divided by a white line: a white bus seen from the front in the left lane and a white arrow pointing up in the right lane."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "otobus-seridi-levhasi",
+      "en": "bus-lane-sign"
+    },
+    "name": {
+      "tr": "Otobüs şeridi",
+      "en": "Bus lane"
+    },
+    "meaning": {
+      "tr": "Yolun sol şeridi otobüslere ayrılmıştır. Öteki taşıtlar yanındaki şeridi kullanır.",
+      "en": "The left-hand lane is reserved for buses. Other vehicles use the lane next to it."
+    },
+    "driverAction": {
+      "tr": "Otobüs değilsen otobüs şeridinde gitme ve orada durma. Sola dönmek için şeride ancak yol çizgileri izin veriyorsa kısa bir mesafede gir.",
+      "en": "Unless you drive a bus, do not drive or stop in the bus lane. Enter it to turn left only where the road markings allow, and only for a short distance."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.buses-only",
+        "tip": {
+          "tr": "Mavi dairedeki otobüs yolun tamamını otobüslere ayırır; karedeki şerit çizimi yalnız bir şeridi.",
+          "en": "A bus on a blue disc reserves the whole road; the square lane sign reserves one lane."
+        }
+      },
+      {
+        "with": "information.bus-stop",
+        "tip": {
+          "tr": "Beyaz alanda yandan görünen otobüs durak yeridir.",
+          "en": "A bus seen from the side on a white panel marks a bus stop."
+        }
+      }
+    ],
+    "related": [
+      "information.end-of-bus-lane",
+      "mandatory.buses-only",
+      "information.bus-stop"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.end-of-bus-lane",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/end-of-bus-lane.svg",
+      "alt": {
+        "tr": "Otobüs şeridi levhası; üzerinden geçen kırmızı çapraz çizgi.",
+        "en": "The bus lane sign crossed by a red diagonal bar."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "otobus-seridi-sonu",
+      "en": "end-of-bus-lane"
+    },
+    "name": {
+      "tr": "Otobüs şeridi sonu",
+      "en": "End of bus lane"
+    },
+    "meaning": {
+      "tr": "Otobüs şeridi burada biter. Bundan sonra şeridi bütün taşıtlar kullanabilir.",
+      "en": "The bus lane ends here. From now on all vehicles may use the lane."
+    },
+    "driverAction": {
+      "tr": "Şeride geçmeden önce aynalarına bak ve sinyal ver; şeritten çıkan otobüslere yer bırak.",
+      "en": "Check your mirrors and signal before moving into the lane, and leave room for buses pulling out."
+    },
+    "confusions": [
+      {
+        "with": "information.bus-lane",
+        "tip": {
+          "tr": "Kırmızı çapraz çizgi şeridin bittiğini gösterir.",
+          "en": "The red bar shows the lane has ended."
+        }
+      }
+    ],
+    "related": [
+      "information.bus-lane"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.pedestrian-overpass",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/pedestrian-overpass.svg",
+      "alt": {
+        "tr": "Mavi kare; soldan yükselen beyaz merdiven, üstünde bir köprü ve köprüde yürüyen beyaz yaya.",
+        "en": "Blue square with white steps rising to a bridge and a white pedestrian walking across it."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yaya-ust-gecidi",
+      "en": "pedestrian-footbridge"
+    },
+    "name": {
+      "tr": "Yaya üst geçidi",
+      "en": "Pedestrian footbridge"
+    },
+    "meaning": {
+      "tr": "Yayaların yolun üstünden karşıya geçtiği bir köprü var.",
+      "en": "There is a footbridge for pedestrians to cross over the road."
+    },
+    "driverAction": {
+      "tr": "Yayaysan karşıya köprüden geç. Sürücüysen köprü çevresinde yine de yoldan geçen yayalara karşı dikkatli ol.",
+      "en": "As a pedestrian, use the bridge. As a driver, still watch for people crossing at road level near it."
+    },
+    "confusions": [
+      {
+        "with": "information.pedestrian-underpass",
+        "tip": {
+          "tr": "Köprü ve yukarı çıkan merdiven üst geçittir; tavan altına inen merdiven alt geçittir.",
+          "en": "A bridge with steps going up is a footbridge; steps going down under a roof is a subway."
+        }
+      },
+      {
+        "with": "information.pedestrian-crossing",
+        "tip": {
+          "tr": "Üçgenli mavi kare yol düzeyindeki yaya geçididir.",
+          "en": "The blue square with a triangle marks a crossing at road level."
+        }
+      }
+    ],
+    "related": [
+      "information.pedestrian-underpass",
+      "information.pedestrian-crossing"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.pedestrian-underpass",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/pedestrian-underpass.svg",
+      "alt": {
+        "tr": "Mavi kare; üstte beyaz bir yol bandı, altına inen beyaz merdiven ve tünelde yürüyen beyaz yaya.",
+        "en": "Blue square with a white road band at the top, white steps going down under it and a white pedestrian walking in the tunnel."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yaya-alt-gecidi",
+      "en": "pedestrian-subway"
+    },
+    "name": {
+      "tr": "Yaya alt geçidi",
+      "en": "Pedestrian subway"
+    },
+    "meaning": {
+      "tr": "Yayaların yolun altından karşıya geçtiği bir alt geçit var.",
+      "en": "There is a subway for pedestrians to cross under the road."
+    },
+    "driverAction": {
+      "tr": "Yayaysan karşıya alt geçitten geç. Sürücüysen geçit girişlerinin çevresinde yayalara dikkat et.",
+      "en": "As a pedestrian, use the subway. As a driver, watch for pedestrians around its entrances."
+    },
+    "confusions": [
+      {
+        "with": "information.pedestrian-overpass",
+        "tip": {
+          "tr": "Merdiven aşağı iniyorsa alt geçit, köprüye çıkıyorsa üst geçittir.",
+          "en": "Steps going down mean a subway; steps up to a bridge mean a footbridge."
+        }
+      }
+    ],
+    "related": [
+      "information.pedestrian-overpass",
+      "information.pedestrian-crossing"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.one-way-street--left",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/one-way-street--left.svg",
+      "alt": {
+        "tr": "Yatay mavi dikdörtgen; sola bakan uzun beyaz ok.",
+        "en": "Wide blue rectangle with a long white arrow pointing left."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "tek-yonlu-yol-sola",
+      "en": "one-way-traffic-left"
+    },
+    "name": {
+      "tr": "Tek yönlü yol (sola)",
+      "en": "One-way traffic to the left"
+    },
+    "meaning": {
+      "tr": "Kesiştiğin yol tek yönlüdür ve trafik sola akar. Genellikle kavşakta, karşıdaki köşeye konur.",
+      "en": "The road you are joining is one-way, with traffic flowing to the left. It is usually placed on the far corner of a junction."
+    },
+    "driverAction": {
+      "tr": "Bu yola yalnız sola dönerek girebilirsin. Sola döndükten sonra yolun sol yanında kal.",
+      "en": "You may only turn left into this road. Once in it, keep to the left-hand side."
+    },
+    "confusions": [
+      {
+        "with": "information.one-way-street",
+        "tip": {
+          "tr": "Dikey oklu kare, içinde bulunduğun yolun tek yönlü olduğunu gösterir; yatay oklu dikdörtgen kesiştiğin yolun yönünü.",
+          "en": "The square with an upward arrow says the road you are on is one-way; the wide panel shows the flow on the road you are joining."
+        }
+      },
+      {
+        "with": "mandatory.turn-left",
+        "tip": {
+          "tr": "Mavi daire yönü emreder; dikdörtgen yalnız yolun akış yönünü bildirir.",
+          "en": "A blue disc orders a direction; the rectangle tells you the direction of flow."
+        }
+      },
+      {
+        "with": "information.one-way-street--right",
+        "tip": {
+          "tr": "Okun yönüne bak: trafik okun gösterdiği yöne akar.",
+          "en": "Look at the arrow: traffic flows the way it points."
+        }
+      }
+    ],
+    "related": [
+      "information.one-way-street",
+      "prohibitory.no-entry",
+      "information.one-way-street--right"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.one-way-street--right",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/one-way-street--right.svg",
+      "alt": {
+        "tr": "Yatay mavi dikdörtgen; sağa bakan uzun beyaz ok.",
+        "en": "Wide blue rectangle with a long white arrow pointing right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "tek-yonlu-yol-saga",
+      "en": "one-way-traffic-right"
+    },
+    "name": {
+      "tr": "Tek yönlü yol (sağa)",
+      "en": "One-way traffic to the right"
+    },
+    "meaning": {
+      "tr": "Kesiştiğin yol tek yönlüdür ve trafik sağa akar. Genellikle kavşakta, karşıdaki köşeye konur.",
+      "en": "The road you are joining is one-way, with traffic flowing to the right. It is usually placed on the far corner of a junction."
+    },
+    "driverAction": {
+      "tr": "Bu yola yalnız sağa dönerek girebilirsin. Sağa döndükten sonra yolun sol yanında kal.",
+      "en": "You may only turn right into this road. Once in it, keep to the left-hand side."
+    },
+    "confusions": [
+      {
+        "with": "information.one-way-street",
+        "tip": {
+          "tr": "Dikey oklu kare, içinde bulunduğun yolun tek yönlü olduğunu gösterir; yatay oklu dikdörtgen kesiştiğin yolun yönünü.",
+          "en": "The square with an upward arrow says the road you are on is one-way; the wide panel shows the flow on the road you are joining."
+        }
+      },
+      {
+        "with": "mandatory.turn-right",
+        "tip": {
+          "tr": "Mavi daire yönü emreder; dikdörtgen yalnız yolun akış yönünü bildirir.",
+          "en": "A blue disc orders a direction; the rectangle tells you the direction of flow."
+        }
+      },
+      {
+        "with": "information.one-way-street--left",
+        "tip": {
+          "tr": "Okun yönüne bak: trafik okun gösterdiği yöne akar.",
+          "en": "Look at the arrow: traffic flows the way it points."
+        }
+      }
+    ],
+    "related": [
+      "information.one-way-street",
+      "prohibitory.no-entry",
+      "information.one-way-street--left"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.dead-end--left",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/dead-end--left.svg",
+      "alt": {
+        "tr": "Mavi kare; düz giden beyaz yol ve sol yana ayrılıp kırmızı bir çizgiyle biten kısa beyaz yol.",
+        "en": "Blue square with a white road going straight on and a short white side road to the left that ends in a red bar."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "solda-cikmaz-yol",
+      "en": "no-through-road-on-the-left"
+    },
+    "name": {
+      "tr": "Solda çıkmaz yol",
+      "en": "No through road on the left"
+    },
+    "meaning": {
+      "tr": "Soldaki yan yol çıkmazdır ve başka bir yere bağlanmaz. Düz giden yol devam eder.",
+      "en": "The side road on the left is a dead end and leads nowhere else. The main road continues."
+    },
+    "driverAction": {
+      "tr": "Yan yola yalnız oraya gideceksen gir; çıkışta geri dönmek için dar yerde manevra yapman gerekebilir.",
+      "en": "Turn into the side road only if your destination is there; you may need to turn round in a tight space."
+    },
+    "confusions": [
+      {
+        "with": "information.dead-end",
+        "tip": {
+          "tr": "Kırmızı çizgi yolun üstündeyse düz giden yol çıkmazdır; yan taraftaysa yalnız yan yol çıkmazdır.",
+          "en": "A red bar at the top means the road ahead is a dead end; a red bar at the side means only the side road is."
+        }
+      },
+      {
+        "with": "warning.side-road--left",
+        "tip": {
+          "tr": "Kırmızı üçgendeki yan yol kavşak uyarısıdır, çıkmaz yol bildirmez.",
+          "en": "A side road in a red triangle warns of a junction and says nothing about a dead end."
+        }
+      }
+    ],
+    "related": [
+      "information.dead-end",
+      "information.dead-end--right"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.dead-end--right",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/dead-end--right.svg",
+      "alt": {
+        "tr": "Mavi kare; düz giden beyaz yol ve sağ yana ayrılıp kırmızı bir çizgiyle biten kısa beyaz yol.",
+        "en": "Blue square with a white road going straight on and a short white side road to the right that ends in a red bar."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "sagda-cikmaz-yol",
+      "en": "no-through-road-on-the-right"
+    },
+    "name": {
+      "tr": "Sağda çıkmaz yol",
+      "en": "No through road on the right"
+    },
+    "meaning": {
+      "tr": "Sağdaki yan yol çıkmazdır ve başka bir yere bağlanmaz. Düz giden yol devam eder.",
+      "en": "The side road on the right is a dead end and leads nowhere else. The main road continues."
+    },
+    "driverAction": {
+      "tr": "Yan yola yalnız oraya gideceksen gir; çıkışta geri dönmek için dar yerde manevra yapman gerekebilir.",
+      "en": "Turn into the side road only if your destination is there; you may need to turn round in a tight space."
+    },
+    "confusions": [
+      {
+        "with": "information.dead-end",
+        "tip": {
+          "tr": "Kırmızı çizgi yolun üstündeyse düz giden yol çıkmazdır; yan taraftaysa yalnız yan yol çıkmazdır.",
+          "en": "A red bar at the top means the road ahead is a dead end; a red bar at the side means only the side road is."
+        }
+      },
+      {
+        "with": "warning.side-road--right",
+        "tip": {
+          "tr": "Kırmızı üçgendeki yan yol kavşak uyarısıdır, çıkmaz yol bildirmez.",
+          "en": "A side road in a red triangle warns of a junction and says nothing about a dead end."
+        }
+      }
+    ],
+    "related": [
+      "information.dead-end",
+      "information.dead-end--left"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.recommended-speed--50",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/recommended-speed--50.svg",
+      "alt": {
+        "tr": "Mavi kare; ortasında beyaz 50 rakamı.",
+        "en": "Blue square with the white number 50."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "tavsiye-edilen-hiz-50",
+      "en": "recommended-speed-50"
+    },
+    "name": {
+      "tr": "Tavsiye edilen hız (50 km/sa)",
+      "en": "Recommended speed 50 km/h"
+    },
+    "meaning": {
+      "tr": "İleriki kesimde, örneğin bir virajda, saatte 50 kilometre önerilen hızdır. Zorunlu bir sınır değildir.",
+      "en": "On the stretch ahead, such as a bend, 50 km/h is the advised speed. It is not a compulsory limit."
+    },
+    "driverAction": {
+      "tr": "Önerilen hıza kadar yavaşla; yol ıslak ya da karanlıksa daha da yavaş git. Geçerli azami sınırı aşma.",
+      "en": "Slow down to the advised speed, or lower on a wet or dark road. Never exceed the legal limit."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.speed-limit--50",
+        "tip": {
+          "tr": "Kırmızı halkadaki 50 zorunlu sınırdır; mavi karedeki 50 öneridir.",
+          "en": "A 50 in a red ring is a legal limit; a 50 on a blue square is advice."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.speed-limit--50",
+      "warning.bend--left"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.home-zone",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/home-zone.svg",
+      "alt": {
+        "tr": "Mavi kare; beyaz bir ev, bir yetişkin ve top oynayan bir çocuk, altta yandan görünen beyaz otomobil.",
+        "en": "Blue square with a white house, an adult and a child playing with a ball, and a white car below."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yasam-alani",
+      "en": "home-zone"
+    },
+    "name": {
+      "tr": "Yaşam alanı",
+      "en": "Home zone"
+    },
+    "meaning": {
+      "tr": "Bu sokaklar yaya ve çocukların oyun alanı olarak da kullanılır. Yayaların önceliği vardır; taşıtlar yürüme hızına yakın gider.",
+      "en": "These streets are also used by people on foot and children at play. Pedestrians have priority; vehicles move at little more than walking pace."
+    },
+    "driverAction": {
+      "tr": "Çok yavaş git, yayalara ve oynayan çocuklara yol ver ve yalnız işaretli yerlere park et.",
+      "en": "Drive very slowly, give way to pedestrians and children at play, and park only in marked places."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.speed-limit-zone--20",
+        "tip": {
+          "tr": "Bölge hız levhası yalnız hızı sınırlar; yaşam alanı levhası yayalara öncelik de verir.",
+          "en": "The zone speed panel only limits speed; the home-zone sign also gives pedestrians priority."
+        }
+      },
+      {
+        "with": "warning.children",
+        "tip": {
+          "tr": "Üçgendeki çocuklar okul ya da oyun alanı uyarısıdır; mavi kare bir bölgenin kurallarını başlatır.",
+          "en": "Children in a triangle warn of a school or playground; the blue square starts the rules of a zone."
+        }
+      }
+    ],
+    "related": [
+      "information.end-of-home-zone",
+      "prohibitory.speed-limit-zone--20"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "Girne'de yerleşim alanı ve bölge levhaları fotoğraflandı; bu levhanın kuzeydeki tam biçimi doğrulanmadı.",
+        "en": "Residential area and zone signs have been photographed in Girne; the exact form of this sign in the north is not confirmed."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.end-of-home-zone",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/end-of-home-zone.svg",
+      "alt": {
+        "tr": "Yaşam alanı levhası; üzerinden geçen kırmızı çapraz çizgi.",
+        "en": "The home zone sign crossed by a red diagonal bar."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yasam-alani-sonu",
+      "en": "end-of-home-zone"
+    },
+    "name": {
+      "tr": "Yaşam alanı sonu",
+      "en": "End of home zone"
+    },
+    "meaning": {
+      "tr": "Yaşam alanı burada biter. Bundan sonra genel trafik kuralları geçerlidir.",
+      "en": "The home zone ends here. Normal traffic rules apply from now on."
+    },
+    "driverAction": {
+      "tr": "Hızını yolun sınırına göre ayarla; yayalar artık yolda öncelikli değildir ama dikkatli olmaya devam et.",
+      "en": "Adjust your speed to the road's limit; pedestrians no longer have priority, but stay careful."
+    },
+    "confusions": [
+      {
+        "with": "information.home-zone",
+        "tip": {
+          "tr": "Kırmızı çapraz çizgi bölgenin bittiğini gösterir.",
+          "en": "The red bar shows the zone has ended."
+        }
+      }
+    ],
+    "related": [
+      "information.home-zone"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.direction-sign",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/direction-sign.svg",
+      "alt": {
+        "tr": "Beyaz çerçeveli mavi dikdörtgen; sola bakan okla GİRNE, yukarı bakan okla LEFKOŞA yazısı.",
+        "en": "Blue rectangle with a white border: GİRNE with an arrow pointing left and LEFKOŞA with an arrow pointing up."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yon-levhasi",
+      "en": "direction-sign"
+    },
+    "name": {
+      "tr": "Yön levhası",
+      "en": "Direction sign"
+    },
+    "meaning": {
+      "tr": "Kavşaktan sonra hangi yolun hangi yerleşim yerine gittiğini gösterir. Bu örnekte Girne sola, Lefkoşa düz ileridedir.",
+      "en": "Shows which road leads to which town after the junction. In this example Girne is to the left and Lefkoşa straight ahead."
+    },
+    "driverAction": {
+      "tr": "Levhayı erken oku, şeridini kavşaktan önce seç ve sinyalini zamanında ver.",
+      "en": "Read the sign early, choose your lane before the junction and signal in good time."
+    },
+    "confusions": [
+      {
+        "with": "information.town-start",
+        "tip": {
+          "tr": "Okları olan levha yön gösterir; oksuz yer adı levhası yerleşim yerinin başladığını.",
+          "en": "A panel with arrows gives directions; a place name without arrows marks the start of a town."
+        }
+      }
+    ],
+    "related": [
+      "information.town-start",
+      "information.airport"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Kırsal yollarda beyaz Türkçe yer adlı mavi yön levhaları fotoğraflandı. Ana yol ve turistik bölge renk düzeni doğrulanmadı.",
+        "en": "Blue direction panels with white Turkish place names have been photographed on rural roads. The colour scheme for main roads and tourist areas is not confirmed."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "information.street-name",
+    "category": "information",
+    "image": {
+      "src": "/signs/information/street-name.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli sarı dikdörtgen; siyah harflerle ARASTA SOKAK yazısı.",
+        "en": "Yellow rectangle with a black border and the words ARASTA SOKAK in black."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "sokak-adi-levhasi",
+      "en": "street-name-sign"
+    },
+    "name": {
+      "tr": "Sokak adı levhası",
+      "en": "Street name sign"
+    },
+    "meaning": {
+      "tr": "Bulunduğun sokağın ya da caddenin adını gösterir. KKTC'de sokak adları sarı zemin üzerine siyah Türkçe harflerle yazılır.",
+      "en": "Shows the name of the street. In KKTC street names are written in black Turkish letters on a yellow background."
+    },
+    "driverAction": {
+      "tr": "Adres ararken levhaları yavaşlamadan önce oku; levhaya bakmak için aniden fren yapma.",
+      "en": "When looking for an address, read the signs in good time; do not brake suddenly to read one."
+    },
+    "confusions": [
+      {
+        "with": "information.direction-sign",
+        "tip": {
+          "tr": "Sarı levha bulunduğun sokağın adıdır; mavi oklu levha başka yerlere giden yönleri gösterir.",
+          "en": "The yellow plate names the street you are in; a blue panel with arrows shows directions to other places."
+        }
+      }
+    ],
+    "related": [
+      "information.direction-sign"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Sarı zemin üzerine siyah Türkçe sokak adları kaynaklarda bildiriliyor; Ara Bölge yakınında üç dilli levhalar da var.",
+        "en": "Black Turkish street names on yellow are reported in sources; trilingual plates exist near the Green Line."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  }
+]

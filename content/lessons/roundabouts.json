@@ -1,0 +1,238 @@
+{
+  "id": "roundabouts",
+  "title": {
+    "tr": "Çember rehberi",
+    "en": "Roundabout guide"
+  },
+  "summary": {
+    "tr": "Sol trafikte çembere (dönel kavşağa) yaklaşmayı, kime yol vereceğini, her çıkış için hangi sinyali vereceğini ve sağdan trafikten gelen sürücülerin en sık yaptığı hataları çizimlerle anlatır.",
+    "en": "How to approach a roundabout in left-hand traffic, who to give way to, which signal to give for each exit, and the mistakes drivers from right-hand traffic make most often, with diagrams."
+  },
+  "sections": [
+    {
+      "heading": {
+        "tr": "Yaklaşırken çıkışını ve şeridini seç",
+        "en": "Choose your exit and lane on the approach"
+      },
+      "body": {
+        "tr": "Çember uyarı levhasını gördüğünde hızını düşürmeye başla. Yön levhalarından hangi çıkışı kullanacağını belirle. Çıkışları girdiğin yerden başlayarak saat yönünde say.\n\n- Tek şeritli yolda yolun solunda kal. Çembere de bu şeritten girersin.\n- Yolda şerit okları varsa okun gösterdiği şeride erken geç. Son anda şerit değiştirme.\n- Ok ya da levha yoksa ayna görüntüsüyle düşün: sol şerit ilk çıkışa, sağ şerit sonraki çıkışlara yakındır. Çok şeritli çemberlerde hangi şeridi kullanacağını kursuna da sor.\n- Girişe yaklaşırken aynana bak, çıkışına uygun sinyali ver ve sağına bakmaya başla.\n\nİlk çıkıştan, yani sola çıkacaksan iş kısadır: yaklaşırken sol sinyal ver, solda kal ve sinyalin açıkken çık. Sağdan trafikte uzun olan bu dönüş burada en kısa yoldur.\n\nÇıkışını kaçırırsan telaşlanma. Bir tur daha dön ve doğru çıkıştan çık.",
+        "en": "Start slowing down when you see the roundabout warning sign. Use the direction signs to decide which exit you need. Count the exits clockwise from where you join.\n\n- On a single-lane road, stay on the left. You join the roundabout from this lane too.\n- If there are lane arrows on the road, move early into the lane your arrow shows. Do not change lane at the last moment.\n- With no arrows or signs, think in mirror image: the left lane is nearer the first exit, the right lane nearer the later ones. On roundabouts with several lanes, also ask your driving school which lane to use.\n- As you near the entry, check your mirror, give the signal your exit needs and start looking right.\n\nThe first exit, to the left, is the simple case: signal left on the approach, stay on the left and leave with the signal still on. The turn that is long in right-hand traffic is the shortest way here.\n\nIf you miss your exit, stay calm. Go round again and leave at the right one."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null,
+      "figure": {
+        "src": "/diagrams/roundabout-first-exit.svg",
+        "alt": {
+          "tr": "Üstten görünen dört kollu çember. Turkuaz araç alttaki yolun sol şeridinden yaklaşıyor ve sol sinyali yanıyor. Ok, çemberin kısa bir bölümünden geçerek soldaki ilk çıkışa gidiyor.",
+          "en": "A four-way roundabout seen from above. The teal car approaches in the left lane of the bottom road with its left indicator on. The arrow follows a short stretch of the roundabout to the first exit on the left."
+        },
+        "caption": {
+          "tr": "İlk çıkış: yaklaşırken sol sinyal ver ve solda kal.",
+          "en": "First exit: signal left on the approach and keep to the left."
+        }
+      }
+    },
+    {
+      "heading": {
+        "tr": "Kime yol verirsin",
+        "en": "Who gives way"
+      },
+      "body": {
+        "tr": "Bakanlığın trafik broşüründe çember için üç kural var:\n\n- Çembere yaklaşırken yavaşla.\n- Sağdan araç geliyorsa çembere girme.\n- Çemberin içindeki araç önceliklidir.\n\nÇemberde trafik saat yönünde döndüğü için içerideki araçlar girişe hep **sağından** gelir. Bu yüzden girişte önce sağına bak. Sağından gelen ya da çemberde dönen bir araç varsa yol ver çizgisinde dur ve yeterli bir boşluk bekle.\n\nÇemberin içine girdiğinde öncelik sendedir; girişlerde bekleyen araçlar sana yol verir. Yine de bir aracın yavaşlamadan girdiğini görürsen frene hazır ol.",
+        "en": "The ministry's traffic leaflet gives three rules for roundabouts:\n\n- Slow down as you approach.\n- Do not enter if a vehicle is coming from the right.\n- A vehicle already on the roundabout has priority.\n\nBecause traffic goes round clockwise, vehicles on the roundabout always reach the entry from your **right**. So at the entry, look right first. If a vehicle is coming from the right or circulating towards you, stop at the give way line and wait for a safe gap.\n\nOnce you are on the roundabout you have priority, and drivers waiting at the entries give way to you. Even so, be ready to brake if you see someone pulling out without slowing down."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null,
+      "figure": {
+        "src": "/diagrams/roundabout-give-way.svg",
+        "alt": {
+          "tr": "Üstten görünen çember. Turkuaz araç alttaki girişte yol ver çizgisinde bekliyor. Sağında, çemberin içinde gri bir araç saat yönünde ona doğru geliyor. Turkuaz aracın önünden sağa açılan soluk bir alan bakması gereken yönü gösteriyor. Soldaki girişte gri bir araç da bekliyor.",
+          "en": "A roundabout seen from above. The teal car waits at the give way line on the bottom entry. To its right, a grey car on the roundabout is coming towards it, clockwise. A pale area opening to the right of the teal car shows where to look. Another grey car waits at the left-hand entry."
+        },
+        "caption": {
+          "tr": "Çemberde dönen araç sağından geliyor: yol ver çizgisinde bekle.",
+          "en": "A vehicle on the roundabout is coming from your right: wait at the give way line."
+        }
+      }
+    },
+    {
+      "heading": {
+        "tr": "Düz geçerken sinyal",
+        "en": "Signalling when going straight on"
+      },
+      "body": {
+        "tr": "Düz geçeceksen girişte sinyal vermezsin. Çembere sola doğru gir ve saat yönünde dön.\n\nÇıkışından bir önceki çıkışı geçer geçmez sol sinyal ver ve sola doğru çık. Sol sinyal, çıkışındaki ve sonraki girişte bekleyen sürücülere çemberden ayrılacağını söyler.\n\nSinyali erken verme. Bir önceki çıkışı geçmeden sol sinyal verirsen, o yoldan girmek için bekleyen sürücü senin orada çıkacağını sanıp önüne çıkabilir. Tersine, sinyali hiç vermezsen seni bekleyenler gereksiz yere bekler.\n\nÖzet:\n\n- **Sola, ilk çıkış:** yaklaşırken sol sinyal.\n- **Düz:** girişte sinyal yok, bir önceki çıkışı geçince sol sinyal.\n- **Sağa ya da geri dönüş:** yaklaşırken sağ sinyal, bir önceki çıkışı geçince sol sinyal.",
+        "en": "If you are going straight on, you give no signal as you join. Turn left onto the roundabout and go round clockwise.\n\nAs soon as you pass the exit before yours, signal left and turn left to leave. A left signal tells drivers waiting at your exit and the next entry that you are leaving the roundabout.\n\nDo not signal too early. If you signal left before passing the previous exit, a driver waiting to join from that road may think you are turning off there and pull out in front of you. If you never signal, drivers waiting for you have to wait for nothing.\n\nIn short:\n\n- **Left, first exit:** signal left on the approach.\n- **Straight on:** no signal on the approach, then left once you pass the exit before yours.\n- **Right or going back:** signal right on the approach, then left once you pass the exit before yours."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null,
+      "figure": {
+        "src": "/diagrams/roundabout-straight-on.svg",
+        "alt": {
+          "tr": "Üstten görünen çember. Turkuaz araç alttaki yoldan sinyalsiz yaklaşıyor. Ok çemberin sol yarısından saat yönünde dolaşıp üstteki çıkışa gidiyor. Soldaki çıkışı yeni geçmiş ikinci bir turkuaz araçta sol sinyal yanıyor.",
+          "en": "A roundabout seen from above. The teal car approaches from the bottom road with no indicator on. The arrow goes clockwise round the left half of the roundabout to the top exit. A second teal car, just past the left-hand exit, has its left indicator on."
+        },
+        "caption": {
+          "tr": "Düz geçiş: girişte sinyal yok, bir önceki çıkışı geçince sol sinyal.",
+          "en": "Straight on: no signal as you join, then left once you pass the exit before yours."
+        }
+      }
+    },
+    {
+      "heading": {
+        "tr": "Sağa dönüş ve geri dönüş",
+        "en": "Turning right and going back"
+      },
+      "body": {
+        "tr": "Sağa dönmek için, dört kollu bir çemberde üçüncü çıkışa, çemberin etrafında uzun yoldan gidersin. Ortadaki ada hep sağında kalır.\n\n- Yaklaşırken sağ sinyal ver. Tek şeritli yolda yine solda kalırsın. Şerit okları varsa sağa dönüş için gösterilen şeridi kullan.\n- Çemberde dönerken sağ sinyalin açık kalsın. Bu sinyal ilk çıkışlardan çıkmayacağını gösterir.\n- Çıkışından bir önceki çıkışı geçince sağ sinyali kapat, sol sinyal ver ve sola doğru çık.\n\nGeldiğin yola geri dönmek istiyorsan çemberin etrafında tam dönersin. Sinyaller sağa dönüştekiyle aynıdır.\n\nAdanın solundan kısa yoldan dönmeye kalkma. Bu, çemberde ters yöne girmek ve karşıdan gelen trafiğe doğru sürmek demektir.",
+        "en": "To turn right, the third exit on a four-way roundabout, you take the long way round. The central island stays on your right the whole time.\n\n- Signal right on the approach. On a single-lane road you still keep to the left. If there are lane arrows, use the lane marked for turning right.\n- Keep your right signal on as you go round. It shows you are not leaving at the first exits.\n- Once you pass the exit before yours, switch off the right signal, signal left and turn left to leave.\n\nTo go back the way you came, go all the way round. Signal as for turning right.\n\nNever take the short way round, passing left of the island. That means driving the wrong way on the roundabout, head-on into traffic."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null,
+      "figure": {
+        "src": "/diagrams/roundabout-right-turn.svg",
+        "alt": {
+          "tr": "Üstten görünen çember. Turkuaz araç alttaki yoldan sağ sinyalle yaklaşıyor. Ok çemberin etrafında saat yönünde dörtte üç tur dönüp sağdaki çıkışa gidiyor. Soldaki çıkışın yanındaki turkuaz araçta sağ sinyal, üstteki çıkışı geçmiş turkuaz araçta sol sinyal yanıyor.",
+          "en": "A roundabout seen from above. The teal car approaches from the bottom road with its right indicator on. The arrow goes three quarters of the way round clockwise to the right-hand exit. A teal car near the left-hand exit still shows a right indicator; another, past the top exit, shows a left indicator."
+        },
+        "caption": {
+          "tr": "Sağa dönüş: yaklaşırken ve dönerken sağ sinyal, bir önceki çıkışı geçince sol sinyal.",
+          "en": "Turning right: signal right on the approach and on the roundabout, then left once you pass the exit before yours."
+        }
+      }
+    },
+    {
+      "heading": {
+        "tr": "Mini çember",
+        "en": "Mini roundabouts"
+      },
+      "body": {
+        "tr": "Bazı kavşaklarda ortadaki ada yalnız yola boyanmış bir daire ya da alçak bir tümsektir. Kurallar büyük çemberdekiyle aynıdır:\n\n- Girişte yavaşla ve sağından gelene yol ver.\n- Daireyi sağında tutarak saat yönünde dön. Dairenin üstünden geçme, kısa yoldan kesme.\n- Sinyalleri büyük çemberdeki gibi ver.\n- Alan dar olduğu için diğer girişlerdeki sürücüleri izle. İki araç aynı anda gelirse sağdakine yol ver.\n\nUzun bir araç dönerken dairenin üstünden geçmek zorunda kalabilir. Böyle bir araç görürsen girişte bekle ve ona yer bırak.",
+        "en": "At some junctions the central island is just a circle painted on the road or a low dome. The rules are the same as on a large roundabout:\n\n- Slow down at the entry and give way to traffic from your right.\n- Go round clockwise with the circle on your right. Do not drive over it or cut across it.\n- Signal as you would on a large roundabout.\n- Space is tight, so watch the drivers at the other entries. If two of you arrive together, give way to the one on the right.\n\nA long vehicle may have to drive over the circle to get round. If you see one, wait at the entry and give it room."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null,
+      "figure": {
+        "src": "/diagrams/mini-roundabout.svg",
+        "alt": {
+          "tr": "Üstten görünen T kavşak, ortasında boyalı beyaz bir daire. Turkuaz araç alttaki yoldan sağ sinyalle yaklaşıyor. Ok dairenin solundan ve üstünden dolaşıp sağa gidiyor. Sağdaki yoldan gelen gri bir araç dairenin altından sola geçiyor.",
+          "en": "A T-junction seen from above, with a white circle painted in the middle. The teal car approaches from the bottom road with its right indicator on. The arrow goes round the left and top of the circle and off to the right. A grey car from the right-hand road passes below the circle towards the left."
+        },
+        "caption": {
+          "tr": "Mini çember: daireyi sağında tut ve sağdan gelene yol ver.",
+          "en": "Mini roundabout: keep the circle on your right and give way to traffic from the right."
+        }
+      }
+    },
+    {
+      "heading": {
+        "tr": "Yayalar, bisikletliler ve ağır vasıtalar",
+        "en": "Pedestrians, cyclists and heavy vehicles"
+      },
+      "body": {
+        "tr": "- **Yayalar:** çıkışlarda çoğu zaman yaya geçidi olur. Çemberden çıkarken hızını düşük tut. Geçitten geçen ya da geçmeye hazırlanan bir yaya varsa dur ve yol ver.\n- **Bisikletliler ve motosikletliler:** küçük oldukları için girişte kolayca gözden kaçarlar. Sağına bakarken yalnız otomobil arama. Bisikletli çemberin dış kenarında kalıp birkaç çıkışı geçebilir; onu çemberde sollamaya çalışma, arkasında kal.\n- **Ağır vasıtalar ve otobüsler:** uzun araçlar dönerken iki şeridi birden kullanabilir ve arka tekerlekleri içeriden keser. Uzun bir aracın yanında gitme; arkasında mesafe bırak.\n- **Acil araçlar:** sireni çalan bir araç gelirse çemberin içinde durma. Güvenli bir çıkıştan çık, sonra sinyal verip sola yanaş.",
+        "en": "- **Pedestrians:** there is often a pedestrian crossing at the exits. Keep your speed low as you leave. If someone is crossing or about to cross, stop and give way.\n- **Cyclists and motorcyclists:** they are small and easy to miss at the entry. When you look right, look for more than cars. A cyclist may keep to the outside edge and go past several exits; do not try to overtake them on the roundabout, stay behind.\n- **Lorries and buses:** long vehicles may need both lanes to get round, and their rear wheels cut inside. Do not drive alongside a long vehicle; keep well back.\n- **Emergency vehicles:** if one comes with its siren on, do not stop on the roundabout. Leave at a safe exit, then signal and pull in to the left."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null,
+      "figure": {
+        "src": "/diagrams/roundabout-pedestrians.svg",
+        "alt": {
+          "tr": "Üstten görünen çember. Turkuaz araç soldaki çıkıştan çıkmış, yaya geçidinin önünde duruyor. Geçitte bir yaya karşıya geçiyor. Çemberin sağ tarafında, dış kenarda bir bisikletli saat yönünde dönüyor.",
+          "en": "A roundabout seen from above. The teal car has left by the left-hand exit and is stopped before a pedestrian crossing, where a pedestrian is crossing. On the right of the roundabout, a cyclist goes round clockwise near the outside edge."
+        },
+        "caption": {
+          "tr": "Çıkıştaki geçitte yayaya yol ver; bisikletliye çemberde yer bırak.",
+          "en": "Give way to pedestrians at the exit crossing; give cyclists room on the roundabout."
+        }
+      }
+    },
+    {
+      "heading": {
+        "tr": "Sağdan trafikten geliyorsan sık yapılan hatalar",
+        "en": "Common mistakes if you learned on the right"
+      },
+      "body": {
+        "tr": "Sağdan trafikte sürmeye alışkınsan çemberde en çok şu hataları yaparsın:\n\n- **Sola bakmak.** Alışkanlıkla sola bakarsın, oysa çemberdeki trafik sağından gelir. Girişte önce sağına bak.\n- **Sağa doğru girmek.** Çembere sağa dönerek girmek seni trafiğe karşı sokar. Her girişte sola doğru dönersin.\n- **Sağa dönüşte kısa yol.** Adayı solunda bırakarak dönmek de ters yöne girmektir. Ada hep sağında kalır.\n- **Ters sinyal.** Ezberlediğin sinyal sırası burada ayna görüntüsüdür. Çemberden çıkarken her zaman sol sinyal verirsin.\n- **Çıkıştan sonra sağa kaymak.** Çemberden çıkınca yolun sağına geçmek çok kolaydır, özellikle boş yolda. Çıkar çıkmaz kendine \"solda kal\" de.\n- **Sinyal yerine silecek.** Aracın sinyal kolu alıştığın taraftan farklı olabilir. Çembere girmeden önce kolun yerini bil.\n- **Yayaların da ters bakması.** Turistler ve yeni gelen öğrenciler çıkıştaki geçitte yanlış yöne bakabilir. Geçide yavaş yaklaş.",
+        "en": "If you are used to right-hand traffic, these are the mistakes you are most likely to make on a roundabout:\n\n- **Looking left.** Habit makes you look left, but traffic on the roundabout comes from your right. At the entry, look right first.\n- **Turning right to join.** Joining by turning right puts you against the traffic. You always turn left onto the roundabout.\n- **Taking the short way when turning right.** Going round with the island on your left is driving the wrong way too. The island always stays on your right.\n- **Signalling the wrong way.** The signal pattern you learned is mirrored here. When you leave a roundabout, you always signal left.\n- **Drifting right after the exit.** It is easy to move to the right-hand side after leaving, especially on an empty road. As you leave, tell yourself \"keep left\".\n- **Wipers instead of the indicator.** The indicator stalk may be on the other side from what you know. Find it before you reach the roundabout.\n- **Pedestrians looking the wrong way too.** Tourists and newly arrived students may look the wrong way at the exit crossing. Approach it slowly."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    }
+  ],
+  "keyPoints": [
+    {
+      "text": {
+        "tr": "Çembere yaklaşırken yavaşla; sağdan araç geliyorsa girme.",
+        "en": "Slow down as you approach a roundabout; do not enter if a vehicle is coming from the right."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Çemberin içindeki araç önceliklidir.",
+        "en": "A vehicle already on the roundabout has priority."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Çemberde saat yönünde dönersin; ortadaki ada hep sağında kalır.",
+        "en": "You go round clockwise, with the central island always on your right."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Sola çıkacaksan yaklaşırken sol, sağa ya da geri döneceksen sağ sinyal ver; düz geçerken girişte sinyal verme.",
+        "en": "Signal left on the approach for the first exit and right for turning right or going back; give no signal on the approach when going straight on."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Çıkışından bir önceki çıkışı geçince sol sinyal ver.",
+        "en": "Signal left once you pass the exit before yours."
+      },
+      "basis": "practice",
+      "sourceId": null,
+      "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Çıkıştaki yaya geçidinde geçen ya da geçmeye hazırlanan yayaya yol ver.",
+        "en": "At the exit crossing, give way to anyone crossing or about to cross."
+      },
+      "basis": "law",
+      "sourceId": "s1",
+      "sourceRef": null
+    }
+  ],
+  "relatedSigns": [
+    "mandatory.roundabout",
+    "warning.roundabout-ahead",
+    "priority.give-way",
+    "priority.give-way-ahead",
+    "priority.stop",
+    "warning.pedestrian-crossing",
+    "information.pedestrian-crossing",
+    "warning.cyclists",
+    "mandatory.keep-left"
+  ],
+  "reviewedAt": "2026-10-20"
+}

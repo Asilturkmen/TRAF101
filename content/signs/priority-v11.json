@@ -1,0 +1,59 @@
+[
+  {
+    "id": "priority.stop-ahead",
+    "category": "priority",
+    "image": {
+      "src": "/signs/priority/stop-ahead.svg",
+      "alt": {
+        "tr": "Kırmızı kenarlı beyaz ters üçgen; içinde DUR yazılı küçük kırmızı sekizgen. Altında siyah çerçeveli beyaz levhada mesafe yazısı.",
+        "en": "White inverted triangle with a red border and a small red octagon reading DUR inside, above a white plate with a black frame showing a distance."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "ileride-dur",
+      "en": "stop-ahead"
+    },
+    "name": {
+      "tr": "İleride dur",
+      "en": "Stop ahead"
+    },
+    "meaning": {
+      "tr": "Levhada yazan mesafede bir DUR levhası var. Orada tam durman gerekecek.",
+      "en": "There is a stop sign at the distance shown on the plate, where you will have to stop completely."
+    },
+    "driverAction": {
+      "tr": "Hızını şimdiden düşür ve DUR çizgisinde tam durmaya hazırlan.",
+      "en": "Start slowing down now and get ready to stop fully at the stop line."
+    },
+    "confusions": [
+      {
+        "with": "priority.give-way-ahead",
+        "tip": {
+          "tr": "İçinde DUR yazılı sekizgen varsa ileride tam durursun. Ters üçgen boşsa ileride yalnız yol verirsin.",
+          "en": "With the DUR octagon inside, you must stop ahead. With an empty inverted triangle, you only give way ahead."
+        }
+      },
+      {
+        "with": "priority.stop",
+        "tip": {
+          "tr": "Mesafe levhası varsa kural ileride başlar. DUR levhasının kendisi durma noktasındadır.",
+          "en": "With a distance plate, the rule applies further ahead. The DUR sign itself stands where you stop."
+        }
+      }
+    ],
+    "related": [
+      "priority.stop",
+      "priority.give-way-ahead"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  }
+]

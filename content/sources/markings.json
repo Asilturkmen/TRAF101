@@ -1,0 +1,42 @@
+[
+  {
+    "id": "mk-vienna-road-traffic",
+    "kind": "reference",
+    "title": "Viyana Karayolu Trafiği Sözleşmesi (1968), madde 6: yetkili görevlilerin talimatları",
+    "url": "https://unece.org/DAM/trans/conventn/Conv_road_traffic_EN.pdf",
+    "checkedAt": "2026-10-20",
+    "note": "Convention on Road Traffic, art. 6: officials directing traffic; arm raised, arms outstretched, precedence over signs, lights and markings. KKTC is not a party; used for the general international meaning only."
+  },
+  {
+    "id": "mk-vienna-signs",
+    "kind": "reference",
+    "title": "Viyana Yol İşaretleri ve Sinyalleri Sözleşmesi (1968), BM antlaşma kaydı",
+    "url": "https://treaties.un.org/Pages/ViewDetailsIII.aspx?src=TREATY&mtdsg_no=XI-B-20&chapter=11&Temp=mtdsg3&clang=_en",
+    "checkedAt": "2026-10-20",
+    "note": "Convention on Road Signs and Signals: traffic light signals and road markings. KKTC is not a party; Türkiye and the Republic of Cyprus are."
+  },
+  {
+    "id": "mk-hc-authorised-persons",
+    "kind": "reference",
+    "title": "The Highway Code (UK), Signals by authorised persons",
+    "url": "https://www.gov.uk/guidance/the-highway-code/signals-by-authorised-persons",
+    "checkedAt": "2026-10-20",
+    "note": "Police signals for left-hand traffic: stop traffic from the front, from behind, from both; beckon traffic on from the front, behind or side."
+  },
+  {
+    "id": "mk-hc-light-signals",
+    "kind": "reference",
+    "title": "The Highway Code (UK), Light signals controlling traffic",
+    "url": "https://www.gov.uk/guidance/the-highway-code/light-signals-controlling-traffic",
+    "checkedAt": "2026-10-20",
+    "note": "Traffic light meanings, green filter arrows and flashing amber in left-hand traffic."
+  },
+  {
+    "id": "mk-hc-road-markings",
+    "kind": "reference",
+    "title": "The Highway Code (UK), Road markings",
+    "url": "https://www.gov.uk/guidance/the-highway-code/road-markings",
+    "checkedAt": "2026-10-20",
+    "note": "Centre lines, double lines (obey the line nearer to you), hatched areas, box junctions and lane arrows in left-hand traffic."
+  }
+]

@@ -1,0 +1,356 @@
+[
+  {
+    "id": "light.red",
+    "category": "light",
+    "image": {
+      "src": "/signs/light/red.svg",
+      "alt": {
+        "tr": "Siyah bir trafik ışığı; üstte kırmızı, ortada sarı, altta yeşil lamba. Yalnız kırmızı lamba yanıyor.",
+        "en": "A black traffic light with red at the top, amber in the middle and green at the bottom. Only the red lamp is lit."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "kirmizi-isik",
+      "en": "red-light"
+    },
+    "name": {
+      "tr": "Kırmızı ışık",
+      "en": "Red light"
+    },
+    "meaning": {
+      "tr": "Dur. Dur çizgisini geçmeden, çizgi yoksa ışığın gerisinde beklersin.",
+      "en": "Stop. You wait behind the stop line, or behind the signal if there is no line."
+    },
+    "driverAction": {
+      "tr": "Çizginin gerisinde tamamen dur ve yeşil yanana kadar bekle. Yol boş görünse de kırmızıda geçme.",
+      "en": "Stop completely behind the line and wait until green shows. Do not go on red even if the road looks clear."
+    },
+    "confusions": [
+      {
+        "with": "light.amber",
+        "tip": {
+          "tr": "Sürekli kırmızı her zaman dur demektir. Sarıda çizgiye çok yakınsan geçebilirsin, kırmızıda hiç geçmezsin.",
+          "en": "Steady red always means stop. On amber you may go if you are very close to the line; on red you never go."
+        }
+      }
+    ],
+    "related": [
+      "light.amber",
+      "light.green",
+      "marking.stop-line"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "KKTC'de ışıklı kavşaklar vardır ve kırmızı ışıkta geçmek cezalı bir suçtur. Işıkların sırasını ve anlamlarını yazan bir KKTC metni bulunamadı; anlatım Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamı verir.",
+        "en": "North Cyprus has signal-controlled junctions, and running a red light is a fined offence. No KKTC text setting out the light sequence and meanings was found; the explanation gives the general meaning under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "light.amber",
+    "category": "light",
+    "image": {
+      "src": "/signs/light/amber.svg",
+      "alt": {
+        "tr": "Siyah bir trafik ışığı; üstte kırmızı, ortada sarı, altta yeşil lamba. Yalnız sarı lamba yanıyor.",
+        "en": "A black traffic light with red at the top, amber in the middle and green at the bottom. Only the amber lamp is lit."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "sari-isik",
+      "en": "amber-light"
+    },
+    "name": {
+      "tr": "Sarı ışık",
+      "en": "Amber light"
+    },
+    "meaning": {
+      "tr": "Dur. Işık kırmızıya dönmek üzeredir. Sarı yandığında çizgiye çok yakınsan ve güvenle duramayacaksan geçebilirsin.",
+      "en": "Stop. The light is about to turn red. If amber shows when you are so close to the line that you cannot stop safely, you may go on."
+    },
+    "driverAction": {
+      "tr": "Yaklaşırken sarıyı görürsen yavaşla ve çizgide dur. Sarıyı hızlanma işareti sayma.",
+      "en": "If you see amber as you approach, slow down and stop at the line. Never treat amber as a signal to speed up."
+    },
+    "confusions": [
+      {
+        "with": "light.amber-flashing",
+        "tip": {
+          "tr": "Sürekli sarı dur demektir. Yanıp sönen sarı dikkatli geç demektir ve öncelik kurallarını uygularsın.",
+          "en": "Steady amber means stop. Flashing amber means proceed with care, applying the priority rules."
+        }
+      }
+    ],
+    "related": [
+      "light.red",
+      "light.amber-flashing"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "KKTC'de ışıklı kavşaklar vardır ve kırmızı ışıkta geçmek cezalı bir suçtur. Işıkların sırasını ve anlamlarını yazan bir KKTC metni bulunamadı; anlatım Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamı verir.",
+        "en": "North Cyprus has signal-controlled junctions, and running a red light is a fined offence. No KKTC text setting out the light sequence and meanings was found; the explanation gives the general meaning under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "light.green",
+    "category": "light",
+    "image": {
+      "src": "/signs/light/green.svg",
+      "alt": {
+        "tr": "Siyah bir trafik ışığı; üstte kırmızı, ortada sarı, altta yeşil lamba. Yalnız yeşil lamba yanıyor.",
+        "en": "A black traffic light with red at the top, amber in the middle and green at the bottom. Only the green lamp is lit."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yesil-isik",
+      "en": "green-light"
+    },
+    "name": {
+      "tr": "Yeşil ışık",
+      "en": "Green light"
+    },
+    "meaning": {
+      "tr": "Yol boşsa geçebilirsin. Yeşil, kavşakta kalmış araçlara ve geçen yayalara yol verme yükümlülüğünü kaldırmaz.",
+      "en": "You may go if the way is clear. Green does not remove your duty to give way to vehicles still in the junction and to pedestrians crossing."
+    },
+    "driverAction": {
+      "tr": "Kalkmadan önce kavşağın boş olduğuna bak. Dönerken geçen yayalara yol ver. Kavşağın öbür tarafında yer yoksa girme.",
+      "en": "Before moving off, check the junction is clear. Give way to pedestrians crossing when you turn. Do not enter if there is no room on the far side."
+    },
+    "confusions": [
+      {
+        "with": "light.green-filter-arrow",
+        "tip": {
+          "tr": "Tam yeşil ışık her yöne izin verir. Yeşil ok yalnız okun gösterdiği yöne izin verir.",
+          "en": "A full green light allows every direction. A green arrow allows only the direction it points."
+        }
+      }
+    ],
+    "related": [
+      "light.red",
+      "light.green-filter-arrow",
+      "marking.box-junction"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "KKTC'de ışıklı kavşaklar vardır ve kırmızı ışıkta geçmek cezalı bir suçtur. Işıkların sırasını ve anlamlarını yazan bir KKTC metni bulunamadı; anlatım Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamı verir.",
+        "en": "North Cyprus has signal-controlled junctions, and running a red light is a fined offence. No KKTC text setting out the light sequence and meanings was found; the explanation gives the general meaning under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "light.amber-flashing",
+    "category": "light",
+    "image": {
+      "src": "/signs/light/amber-flashing.svg",
+      "alt": {
+        "tr": "Siyah bir trafik ışığı; üstte kırmızı, ortada sarı, altta yeşil lamba. Ortadaki sarı lamba yanıp sönüyor; çevresindeki kısa sarı çizgiler yanıp sönmeyi gösteriyor.",
+        "en": "A black traffic light with red at the top, amber in the middle and green at the bottom. The amber lamp in the middle is flashing; short amber rays around it show the flashing."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yanip-sonen-sari-isik",
+      "en": "flashing-amber-light"
+    },
+    "name": {
+      "tr": "Yanıp sönen sarı ışık",
+      "en": "Flashing amber light"
+    },
+    "meaning": {
+      "tr": "Dikkatli ol. Işık kavşağı yönetmiyor. Kavşaktaki levhalara, levha yoksa sağdan gelene yol verme kuralına uyarsın.",
+      "en": "Take care. The light is not controlling the junction. Follow the signs at the junction, or the rule of giving way to traffic from the right if there are none."
+    },
+    "driverAction": {
+      "tr": "Yavaşla ve kavşağa ışık yokmuş gibi yaklaş. Geçiş üstünlüğünün kimde olduğuna bakmadan kavşağa girme.",
+      "en": "Slow down and approach as if there were no lights. Do not enter until you have worked out who has priority."
+    },
+    "confusions": [
+      {
+        "with": "light.amber",
+        "tip": {
+          "tr": "Sürekli sarı dur demektir. Yanıp sönen sarı sana öncelik de vermez, seni durdurmaz da; dikkatli geçmeni ister.",
+          "en": "Steady amber means stop. Flashing amber neither gives you priority nor stops you; it asks you to go on with care."
+        }
+      }
+    ],
+    "related": [
+      "light.amber",
+      "priority.give-way"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Bu ışığın KKTC'deki anlamını yazan bir metin bulunamadı. Anlatım, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamı verir.",
+        "en": "No KKTC text giving the meaning of this signal was found. The explanation gives the general meaning under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "light.green-filter-arrow",
+    "category": "light",
+    "image": {
+      "src": "/signs/light/green-filter-arrow.svg",
+      "alt": {
+        "tr": "Siyah bir trafik ışığında kırmızı lamba yanıyor. Işığın altındaki lambanın solunda ayrı bir siyah kutu var ve içinde sola gösteren yeşil bir ok yanıyor.",
+        "en": "A black traffic light shows red. Beside its bottom lamp, on the left, is a separate black box with a green arrow pointing left."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yesil-ok-isigi",
+      "en": "green-filter-arrow"
+    },
+    "name": {
+      "tr": "Yeşil ok ışığı",
+      "en": "Green filter arrow"
+    },
+    "meaning": {
+      "tr": "Ana ışık kırmızı olsa bile okun gösterdiği yöne gidebilirsin. Öbür yönler için kırmızı geçerlidir.",
+      "en": "You may go in the direction of the arrow even though the main light is red. Red still applies to the other directions."
+    },
+    "driverAction": {
+      "tr": "Okun yönüne gideceksen dikkatle ilerle ve döndüğün yoldaki yayalara yol ver. Düz gideceksen ya da öbür yöne döneceksen kırmızıda bekle.",
+      "en": "If you are going the way of the arrow, go on with care and give way to pedestrians in the road you turn into. If you are going ahead or the other way, wait at the red."
+    },
+    "confusions": [
+      {
+        "with": "light.green",
+        "tip": {
+          "tr": "Yeşil ok yalnız okun yönüne izin verir. Tam yeşil ışık her yöne izin verir.",
+          "en": "A green arrow allows only its own direction. A full green light allows every direction."
+        }
+      }
+    ],
+    "related": [
+      "light.green",
+      "light.red",
+      "marking.lane-arrows"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC'de yeşil ok kullanılıp kullanılmadığı ve hangi yön için kullanıldığı doğrulanamadı. Çizim, sol trafikte yaygın olan sola dönüş okunu gösterir.",
+        "en": "Whether green arrows are used in North Cyprus, and for which direction, could not be confirmed. The drawing shows the left-turn arrow common in left-hand traffic."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "light.pedestrian-red",
+    "category": "light",
+    "image": {
+      "src": "/signs/light/pedestrian-red.svg",
+      "alt": {
+        "tr": "İki bölmeli siyah bir yaya ışığı. Üst bölmede ayakta duran kırmızı bir insan figürü yanıyor; alt bölmedeki yürüyen figür sönük.",
+        "en": "A black two-part pedestrian signal. The top part shows a red standing figure lit; the walking figure below is unlit."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yaya-icin-kirmizi-isik",
+      "en": "pedestrian-red-signal"
+    },
+    "name": {
+      "tr": "Yayalar için kırmızı ışık",
+      "en": "Pedestrian red signal"
+    },
+    "meaning": {
+      "tr": "Yayalar karşıya geçmemelidir. Sürücü olarak senin için kendi trafik ışığın geçerlidir.",
+      "en": "Pedestrians must not start to cross. As a driver, you follow your own traffic light."
+    },
+    "driverAction": {
+      "tr": "Kendi ışığını izle, yaya ışığına göre kalkma. Yaya ışığı kırmızıya dönmüş olsa da geç kalmış biri hâlâ yolda olabilir; ona yol ver.",
+      "en": "Watch your own light; do not move off because of the pedestrian signal. Even after it turns red, someone may still be crossing; give way to them."
+    },
+    "confusions": [
+      {
+        "with": "light.pedestrian-green",
+        "tip": {
+          "tr": "Kırmızı figür ayakta durur, yeşil figür yürür. İkisi de yayalar içindir; sürücü kendi ışığına uyar.",
+          "en": "The red figure stands; the green figure walks. Both are for pedestrians; drivers follow their own light."
+        }
+      }
+    ],
+    "related": [
+      "light.pedestrian-green",
+      "marking.zebra-crossing"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Bu ışığın KKTC'deki anlamını yazan bir metin bulunamadı. Anlatım, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamı verir.",
+        "en": "No KKTC text giving the meaning of this signal was found. The explanation gives the general meaning under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "light.pedestrian-green",
+    "category": "light",
+    "image": {
+      "src": "/signs/light/pedestrian-green.svg",
+      "alt": {
+        "tr": "İki bölmeli siyah bir yaya ışığı. Alt bölmede yürüyen yeşil bir insan figürü yanıyor; üst bölmedeki duran figür sönük.",
+        "en": "A black two-part pedestrian signal. The bottom part shows a green walking figure lit; the standing figure above is unlit."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yaya-icin-yesil-isik",
+      "en": "pedestrian-green-signal"
+    },
+    "name": {
+      "tr": "Yayalar için yeşil ışık",
+      "en": "Pedestrian green signal"
+    },
+    "meaning": {
+      "tr": "Yayalar karşıya geçebilir. Bu sırada döndüğün yolda yayalar geçiyor olabilir.",
+      "en": "Pedestrians may cross. While it shows, people may be crossing the road you are turning into."
+    },
+    "driverAction": {
+      "tr": "Kavşakta dönerken döndüğün yoldaki geçide bak ve geçen yayalara yol ver.",
+      "en": "When you turn at a junction, look at the crossing in the road you turn into and give way to anyone crossing."
+    },
+    "confusions": [
+      {
+        "with": "light.pedestrian-red",
+        "tip": {
+          "tr": "Yeşil figür yayalara geç der; senin ışığın da yeşilse dönerken yayalara yol verirsin.",
+          "en": "The green figure tells pedestrians to cross; if your light is also green, you give way to them as you turn."
+        }
+      }
+    ],
+    "related": [
+      "light.pedestrian-red",
+      "marking.zebra-crossing",
+      "light.green"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Bu ışığın KKTC'deki anlamını yazan bir metin bulunamadı. Anlatım, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamı verir.",
+        "en": "No KKTC text giving the meaning of this signal was found. The explanation gives the general meaning under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  }
+]

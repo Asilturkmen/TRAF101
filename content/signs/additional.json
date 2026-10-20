@@ -1,0 +1,859 @@
+[
+  {
+    "id": "additional.distance",
+    "category": "additional",
+    "image": {
+      "src": "/signs/additional/distance.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz dikdörtgen ek levha; 100 m yazısı.",
+        "en": "White rectangular plate with a black border reading 100 m."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "mesafe-ek-levhasi",
+      "en": "distance-plate"
+    },
+    "name": {
+      "tr": "Mesafe ek levhası",
+      "en": "Distance plate"
+    },
+    "meaning": {
+      "tr": "Üstündeki levhanın gösterdiği tehlike ya da kuralın, bu mesafe kadar ileride başladığını söyler. Örnekte 100 metre sonra.",
+      "en": "Tells you that the hazard or rule shown on the sign above begins this far ahead. In the example, after 100 metres."
+    },
+    "driverAction": {
+      "tr": "Ana levhanın anlamını şimdiden hesaba kat ve yazan mesafede hazır ol; örneğin ileride yol ver levhası varsa yavaşlamaya başla.",
+      "en": "Act on the main sign in good time and be ready at that distance; for example, start slowing for a give way ahead."
+    },
+    "confusions": [
+      {
+        "with": "additional.section-length",
+        "tip": {
+          "tr": "Yalnız mesafe varsa kural o kadar ileride başlar; dikey çift ok ve mesafe varsa kural o uzunluk boyunca sürer.",
+          "en": "A distance alone says how far ahead the rule starts; a vertical double arrow with a distance says how long it lasts."
+        }
+      },
+      {
+        "with": "additional.weight",
+        "tip": {
+          "tr": "Sonunda m varsa mesafe, t varsa ağırlık sınırıdır.",
+          "en": "A figure ending in m is a distance; one ending in t is a weight."
+        }
+      }
+    ],
+    "related": [
+      "additional.section-length",
+      "priority.give-way-ahead"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "Mesafe ek levhası yol ver levhasının altında kullanılıyor; öteki levhalarla kullanımı doğrulanmadı.",
+        "en": "The distance plate is used under give way signs; its use with other signs is not confirmed."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "additional.section-length",
+    "category": "additional",
+    "image": {
+      "src": "/signs/additional/section-length.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz ek levha; solda dikey çift yönlü ok, yanında 2 km yazısı.",
+        "en": "White plate with a black border, a vertical double-headed arrow on the left and the words 2 km."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "kesim-uzunlugu-ek-levhasi",
+      "en": "length-of-section-plate"
+    },
+    "name": {
+      "tr": "Kesim uzunluğu ek levhası",
+      "en": "Length of section plate"
+    },
+    "meaning": {
+      "tr": "Üstündeki levhanın geçerli olduğu yol kesiminin uzunluğunu gösterir. Örnekte kural 2 kilometre boyunca sürer.",
+      "en": "Shows how long the stretch is over which the sign above applies. In the example, the rule lasts for 2 kilometres."
+    },
+    "driverAction": {
+      "tr": "Kesim bitene kadar ana levhaya uy; örneğin virajlı yol uyarısıysa 2 kilometre boyunca dikkatli git.",
+      "en": "Obey the main sign until the stretch ends; for a bends warning, for example, take care for the whole 2 kilometres."
+    },
+    "confusions": [
+      {
+        "with": "additional.distance",
+        "tip": {
+          "tr": "Çift ok kuralın ne kadar sürdüğünü, yalın mesafe kuralın ne kadar ileride başladığını gösterir.",
+          "en": "The double arrow shows how long the rule lasts; a distance alone shows how far ahead it starts."
+        }
+      }
+    ],
+    "related": [
+      "additional.distance",
+      "additional.restriction-continues"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Ek levhaların kuzeydeki tam biçimi doğrulanmadı. Çizim Viyana Sözleşmesi ve Türkiye uygulamasındaki genel biçimi izler.",
+        "en": "The exact form of additional plates in the north is not confirmed. The drawing follows the general form used under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "additional.restriction-start",
+    "category": "additional",
+    "image": {
+      "src": "/signs/additional/restriction-start.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz ek levha; alttaki yatay çizgiden yukarı çıkan siyah ok.",
+        "en": "White plate with a black border and a black arrow pointing up from a horizontal line at the bottom."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yasagin-basladigi-yer",
+      "en": "start-of-restriction"
+    },
+    "name": {
+      "tr": "Yasağın başladığı yer",
+      "en": "Start of restriction"
+    },
+    "meaning": {
+      "tr": "Üstündeki levhanın kuralı bu noktada başlar ve ileriye doğru geçerlidir. Çoğunlukla park ve duraklama yasaklarıyla kullanılır.",
+      "en": "The rule on the sign above starts at this point and applies ahead. It is mostly used with parking and stopping bans."
+    },
+    "driverAction": {
+      "tr": "Levhadan sonra yasak başlar; levhayı geçince park etme ya da durma.",
+      "en": "The ban starts at the sign; do not park or stop beyond it."
+    },
+    "confusions": [
+      {
+        "with": "additional.restriction-end",
+        "tip": {
+          "tr": "Ok çizgiden yukarı çıkıyorsa yasak başlar; ok aşağıdaki çizgiye iniyorsa yasak biter.",
+          "en": "An arrow rising from the line means the ban starts; an arrow coming down onto the line means it ends."
+        }
+      },
+      {
+        "with": "additional.restriction-continues",
+        "tip": {
+          "tr": "Çift yönlü ok yasağın sürdüğünü söyler.",
+          "en": "A double-headed arrow says the ban continues."
+        }
+      }
+    ],
+    "related": [
+      "additional.restriction-continues",
+      "additional.restriction-end",
+      "prohibitory.no-parking"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Ek levhaların kuzeydeki tam biçimi doğrulanmadı. Çizim Viyana Sözleşmesi ve Türkiye uygulamasındaki genel biçimi izler.",
+        "en": "The exact form of additional plates in the north is not confirmed. The drawing follows the general form used under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "additional.restriction-continues",
+    "category": "additional",
+    "image": {
+      "src": "/signs/additional/restriction-continues.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz ek levha; yukarı ve aşağı bakan dikey çift yönlü siyah ok.",
+        "en": "White plate with a black border and a vertical black arrow pointing both up and down."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yasak-devam-ediyor",
+      "en": "restriction-continues"
+    },
+    "name": {
+      "tr": "Yasak devam ediyor",
+      "en": "Restriction continues"
+    },
+    "meaning": {
+      "tr": "Üstündeki levhanın kuralı bu noktanın hem önünde hem arkasında geçerlidir; yasak sürüyor.",
+      "en": "The rule on the sign above applies both before and after this point; the ban continues."
+    },
+    "driverAction": {
+      "tr": "Bu kesimde de ana levhaya uy; bitiş levhasını görene kadar park etme.",
+      "en": "Keep obeying the main sign here; do not park until you see the end plate."
+    },
+    "confusions": [
+      {
+        "with": "additional.restriction-start",
+        "tip": {
+          "tr": "Tek yönlü ok ve çizgi başlangıç ya da bitişi, çift yönlü ok devamı gösterir.",
+          "en": "A single arrow with a line marks a start or end; a double-headed arrow marks a continuation."
+        }
+      }
+    ],
+    "related": [
+      "additional.restriction-start",
+      "additional.restriction-end"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Ek levhaların kuzeydeki tam biçimi doğrulanmadı. Çizim Viyana Sözleşmesi ve Türkiye uygulamasındaki genel biçimi izler.",
+        "en": "The exact form of additional plates in the north is not confirmed. The drawing follows the general form used under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "additional.restriction-end",
+    "category": "additional",
+    "image": {
+      "src": "/signs/additional/restriction-end.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz ek levha; yukarıdan aşağıdaki yatay çizgiye inen siyah ok.",
+        "en": "White plate with a black border and a black arrow pointing down onto a horizontal line at the bottom."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yasagin-bittigi-yer",
+      "en": "end-of-restriction"
+    },
+    "name": {
+      "tr": "Yasağın bittiği yer",
+      "en": "End of restriction"
+    },
+    "meaning": {
+      "tr": "Üstündeki levhanın kuralı bu noktaya kadar geçerlidir ve burada biter.",
+      "en": "The rule on the sign above applies up to this point and ends here."
+    },
+    "driverAction": {
+      "tr": "Levhayı geçtikten sonra genel kurallara göre davranabilirsin; park etmeden önce başka levha olup olmadığına bak.",
+      "en": "Past the sign, the general rules apply; check for other signs before you park."
+    },
+    "confusions": [
+      {
+        "with": "additional.restriction-start",
+        "tip": {
+          "tr": "Aşağı inen ok bitişi, yukarı çıkan ok başlangıcı gösterir.",
+          "en": "An arrow pointing down marks the end; an arrow pointing up marks the start."
+        }
+      }
+    ],
+    "related": [
+      "additional.restriction-start",
+      "additional.restriction-continues"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Ek levhaların kuzeydeki tam biçimi doğrulanmadı. Çizim Viyana Sözleşmesi ve Türkiye uygulamasındaki genel biçimi izler.",
+        "en": "The exact form of additional plates in the north is not confirmed. The drawing follows the general form used under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "additional.direction--left",
+    "category": "additional",
+    "image": {
+      "src": "/signs/additional/direction--left.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz ek levha; sola bakan yatay siyah ok.",
+        "en": "White plate with a black border and a horizontal black arrow pointing left."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "sol-yon-ek-levhasi",
+      "en": "direction-plate-left"
+    },
+    "name": {
+      "tr": "Sol yön ek levhası",
+      "en": "Direction plate, left"
+    },
+    "meaning": {
+      "tr": "Üstündeki levhanın kuralının ya da gösterdiği yerin sol tarafta olduğunu söyler. Örneğin levhanın solundaki kesimde park yasaktır.",
+      "en": "Tells you that the rule or place shown on the sign above is to the left. For example, parking is banned on the stretch to the left of the sign."
+    },
+    "driverAction": {
+      "tr": "Ana levhayı okun gösterdiği yöne uygula; okun öbür yanında başka bir levha olup olmadığına bak.",
+      "en": "Apply the main sign in the direction of the arrow, and check for other signs on the other side."
+    },
+    "confusions": [
+      {
+        "with": "additional.restriction-start",
+        "tip": {
+          "tr": "Yatay ok yönü gösterir; dikey ok yasağın başladığı, sürdüğü ya da bittiği yeri.",
+          "en": "A horizontal arrow shows the side; a vertical arrow shows where a ban starts, continues or ends."
+        }
+      }
+    ],
+    "related": [
+      "additional.direction--right",
+      "additional.direction--both"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Ek levhaların kuzeydeki tam biçimi doğrulanmadı. Çizim Viyana Sözleşmesi ve Türkiye uygulamasındaki genel biçimi izler.",
+        "en": "The exact form of additional plates in the north is not confirmed. The drawing follows the general form used under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "additional.direction--right",
+    "category": "additional",
+    "image": {
+      "src": "/signs/additional/direction--right.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz ek levha; sağa bakan yatay siyah ok.",
+        "en": "White plate with a black border and a horizontal black arrow pointing right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "sag-yon-ek-levhasi",
+      "en": "direction-plate-right"
+    },
+    "name": {
+      "tr": "Sağ yön ek levhası",
+      "en": "Direction plate, right"
+    },
+    "meaning": {
+      "tr": "Üstündeki levhanın kuralının ya da gösterdiği yerin sağ tarafta olduğunu söyler. Örneğin levhanın sağındaki kesimde park yasaktır.",
+      "en": "Tells you that the rule or place shown on the sign above is to the right. For example, parking is banned on the stretch to the right of the sign."
+    },
+    "driverAction": {
+      "tr": "Ana levhayı okun gösterdiği yöne uygula; okun öbür yanında başka bir levha olup olmadığına bak.",
+      "en": "Apply the main sign in the direction of the arrow, and check for other signs on the other side."
+    },
+    "confusions": [
+      {
+        "with": "additional.restriction-start",
+        "tip": {
+          "tr": "Yatay ok yönü gösterir; dikey ok yasağın başladığı, sürdüğü ya da bittiği yeri.",
+          "en": "A horizontal arrow shows the side; a vertical arrow shows where a ban starts, continues or ends."
+        }
+      }
+    ],
+    "related": [
+      "additional.direction--left",
+      "additional.direction--both"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Ek levhaların kuzeydeki tam biçimi doğrulanmadı. Çizim Viyana Sözleşmesi ve Türkiye uygulamasındaki genel biçimi izler.",
+        "en": "The exact form of additional plates in the north is not confirmed. The drawing follows the general form used under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "additional.direction--both",
+    "category": "additional",
+    "image": {
+      "src": "/signs/additional/direction--both.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz ek levha; iki yana bakan yatay siyah ok.",
+        "en": "White plate with a black border and a horizontal black arrow pointing both ways."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "iki-yon-ek-levhasi",
+      "en": "direction-plate-both-ways"
+    },
+    "name": {
+      "tr": "İki yön ek levhası",
+      "en": "Direction plate, both ways"
+    },
+    "meaning": {
+      "tr": "Üstündeki levhanın kuralı levhanın her iki yanında geçerlidir. Örneğin park yasağı levhanın sağında ve solunda sürer.",
+      "en": "The rule on the sign above applies on both sides of the sign. For example, a parking ban runs both ways from it."
+    },
+    "driverAction": {
+      "tr": "Ana levhayı okun gösterdiği yöne uygula; okun öbür yanında başka bir levha olup olmadığına bak.",
+      "en": "Apply the main sign in the direction of the arrow, and check for other signs on the other side."
+    },
+    "confusions": [
+      {
+        "with": "additional.restriction-start",
+        "tip": {
+          "tr": "Yatay ok yönü gösterir; dikey ok yasağın başladığı, sürdüğü ya da bittiği yeri.",
+          "en": "A horizontal arrow shows the side; a vertical arrow shows where a ban starts, continues or ends."
+        }
+      }
+    ],
+    "related": [
+      "additional.direction--left",
+      "additional.direction--right"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Ek levhaların kuzeydeki tam biçimi doğrulanmadı. Çizim Viyana Sözleşmesi ve Türkiye uygulamasındaki genel biçimi izler.",
+        "en": "The exact form of additional plates in the north is not confirmed. The drawing follows the general form used under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "additional.time-window",
+    "category": "additional",
+    "image": {
+      "src": "/signs/additional/time-window.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz ek levha; 08.00 - 18.00 yazısı.",
+        "en": "White plate with a black border reading 08.00 - 18.00."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "saat-ek-levhasi",
+      "en": "time-plate"
+    },
+    "name": {
+      "tr": "Saat ek levhası",
+      "en": "Time plate"
+    },
+    "meaning": {
+      "tr": "Üstündeki levhanın kuralı yalnız yazan saatler arasında geçerlidir. Örnekte sabah sekizden akşam altıya kadar.",
+      "en": "The rule on the sign above applies only between the times shown. In the example, from 8 in the morning to 6 in the evening."
+    },
+    "driverAction": {
+      "tr": "Saate bak: aralığın içindeysen ana levhaya uy. Aralığın dışında genel kurallar geçerlidir.",
+      "en": "Check the time: inside the window, obey the main sign; outside it, the general rules apply."
+    },
+    "confusions": [
+      {
+        "with": "additional.distance",
+        "tip": {
+          "tr": "Noktalı iki sayı ve tire saat aralığıdır; m ile biten sayı mesafedir.",
+          "en": "Two dotted numbers joined by a dash are a time window; a figure ending in m is a distance."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-parking",
+      "prohibitory.no-stopping"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Ek levhaların kuzeydeki tam biçimi doğrulanmadı. Çizim Viyana Sözleşmesi ve Türkiye uygulamasındaki genel biçimi izler.",
+        "en": "The exact form of additional plates in the north is not confirmed. The drawing follows the general form used under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "additional.vehicle--lorry",
+    "category": "additional",
+    "image": {
+      "src": "/signs/additional/vehicle--lorry.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz ek levha; yandan görünen siyah kamyon çizimi.",
+        "en": "White plate with a black border and a black lorry seen from the side."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "kamyon-ek-levhasi",
+      "en": "vehicle-plate-lorries"
+    },
+    "name": {
+      "tr": "Kamyon ek levhası",
+      "en": "Vehicle plate: lorries"
+    },
+    "meaning": {
+      "tr": "Üstündeki levhanın kuralı yalnız kamyonlar için geçerlidir. Öteki taşıtlar bu kurala bağlı değildir.",
+      "en": "The rule on the sign above applies only to lorries. Other vehicles are not bound by it."
+    },
+    "driverAction": {
+      "tr": "Kamyon kullanıyorsan ana levhaya uy. Başka bir taşıttaysan kural sana uygulanmaz ama kamyonlar yavaşlayabilir ya da dönebilir, hazırlıklı ol.",
+      "en": "If you are driving one, obey the main sign. In any other vehicle the rule does not apply to you, but expect lorries to slow or turn."
+    },
+    "confusions": [
+      {
+        "with": "additional.vehicle--bus",
+        "tip": {
+          "tr": "Çizimdeki taşıt türüne bak; kural yalnız o türe uygulanır.",
+          "en": "Look at which vehicle is drawn; the rule applies only to that type."
+        }
+      },
+      {
+        "with": "prohibitory.no-goods-vehicles",
+        "tip": {
+          "tr": "Kırmızı halkalı dairedeki taşıt o taşıtın girişini yasaklar; beyaz ek levhadaki taşıt ana levhayı o taşıtla sınırlar.",
+          "en": "A vehicle in a red ring bans that vehicle; a vehicle on a white plate limits the main sign to that vehicle."
+        }
+      }
+    ],
+    "related": [
+      "additional.vehicle--bus",
+      "additional.vehicle--motorcycle"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Ek levhaların kuzeydeki tam biçimi doğrulanmadı. Çizim Viyana Sözleşmesi ve Türkiye uygulamasındaki genel biçimi izler.",
+        "en": "The exact form of additional plates in the north is not confirmed. The drawing follows the general form used under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "additional.vehicle--bus",
+    "category": "additional",
+    "image": {
+      "src": "/signs/additional/vehicle--bus.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz ek levha; yandan görünen siyah otobüs çizimi.",
+        "en": "White plate with a black border and a black bus seen from the side."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "otobus-ek-levhasi",
+      "en": "vehicle-plate-buses"
+    },
+    "name": {
+      "tr": "Otobüs ek levhası",
+      "en": "Vehicle plate: buses"
+    },
+    "meaning": {
+      "tr": "Üstündeki levhanın kuralı yalnız otobüsler için geçerlidir. Öteki taşıtlar bu kurala bağlı değildir.",
+      "en": "The rule on the sign above applies only to buses. Other vehicles are not bound by it."
+    },
+    "driverAction": {
+      "tr": "Otobüs kullanıyorsan ana levhaya uy. Başka bir taşıttaysan kural sana uygulanmaz ama otobüsler yavaşlayabilir ya da dönebilir, hazırlıklı ol.",
+      "en": "If you are driving one, obey the main sign. In any other vehicle the rule does not apply to you, but expect buses to slow or turn."
+    },
+    "confusions": [
+      {
+        "with": "additional.vehicle--lorry",
+        "tip": {
+          "tr": "Çizimdeki taşıt türüne bak; kural yalnız o türe uygulanır.",
+          "en": "Look at which vehicle is drawn; the rule applies only to that type."
+        }
+      },
+      {
+        "with": "prohibitory.no-buses",
+        "tip": {
+          "tr": "Kırmızı halkalı dairedeki taşıt o taşıtın girişini yasaklar; beyaz ek levhadaki taşıt ana levhayı o taşıtla sınırlar.",
+          "en": "A vehicle in a red ring bans that vehicle; a vehicle on a white plate limits the main sign to that vehicle."
+        }
+      }
+    ],
+    "related": [
+      "additional.vehicle--lorry",
+      "additional.vehicle--motorcycle"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Ek levhaların kuzeydeki tam biçimi doğrulanmadı. Çizim Viyana Sözleşmesi ve Türkiye uygulamasındaki genel biçimi izler.",
+        "en": "The exact form of additional plates in the north is not confirmed. The drawing follows the general form used under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "additional.vehicle--motorcycle",
+    "category": "additional",
+    "image": {
+      "src": "/signs/additional/vehicle--motorcycle.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz ek levha; yandan görünen siyah motosiklet çizimi.",
+        "en": "White plate with a black border and a black motorcycle seen from the side."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "motosiklet-ek-levhasi",
+      "en": "vehicle-plate-motorcycles"
+    },
+    "name": {
+      "tr": "Motosiklet ek levhası",
+      "en": "Vehicle plate: motorcycles"
+    },
+    "meaning": {
+      "tr": "Üstündeki levhanın kuralı yalnız motosikletler için geçerlidir. Öteki taşıtlar bu kurala bağlı değildir.",
+      "en": "The rule on the sign above applies only to motorcycles. Other vehicles are not bound by it."
+    },
+    "driverAction": {
+      "tr": "Motosiklet kullanıyorsan ana levhaya uy. Başka bir taşıttaysan kural sana uygulanmaz ama motosikletler yavaşlayabilir ya da dönebilir, hazırlıklı ol.",
+      "en": "If you are driving one, obey the main sign. In any other vehicle the rule does not apply to you, but expect motorcycles to slow or turn."
+    },
+    "confusions": [
+      {
+        "with": "additional.vehicle--lorry",
+        "tip": {
+          "tr": "Çizimdeki taşıt türüne bak; kural yalnız o türe uygulanır.",
+          "en": "Look at which vehicle is drawn; the rule applies only to that type."
+        }
+      },
+      {
+        "with": "prohibitory.no-motorcycles",
+        "tip": {
+          "tr": "Kırmızı halkalı dairedeki taşıt o taşıtın girişini yasaklar; beyaz ek levhadaki taşıt ana levhayı o taşıtla sınırlar.",
+          "en": "A vehicle in a red ring bans that vehicle; a vehicle on a white plate limits the main sign to that vehicle."
+        }
+      }
+    ],
+    "related": [
+      "additional.vehicle--lorry",
+      "additional.vehicle--bus"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Ek levhaların kuzeydeki tam biçimi doğrulanmadı. Çizim Viyana Sözleşmesi ve Türkiye uygulamasındaki genel biçimi izler.",
+        "en": "The exact form of additional plates in the north is not confirmed. The drawing follows the general form used under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "additional.slow",
+    "category": "additional",
+    "image": {
+      "src": "/signs/additional/slow.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz ek levha; büyük siyah harflerle YAVAŞ yazısı.",
+        "en": "White plate with a black border and the word YAVAŞ in large black letters."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "yavas-ek-levhasi",
+      "en": "slow-plate"
+    },
+    "name": {
+      "tr": "YAVAŞ ek levhası",
+      "en": "SLOW plate"
+    },
+    "meaning": {
+      "tr": "Hızını düşürmen gerektiğini söyler. Genellikle bir uyarı levhasının altında, tehlikeyi güçlendirmek için kullanılır.",
+      "en": "Tells you to reduce your speed. It is usually placed under a warning sign to stress the hazard."
+    },
+    "driverAction": {
+      "tr": "Hemen yavaşla ve ana levhanın bildirdiği tehlikeye hazırlan.",
+      "en": "Slow down at once and get ready for the hazard on the main sign."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.speed-limit--30",
+        "tip": {
+          "tr": "YAVAŞ yazısı bir hız değeri vermez; rakamlı kırmızı halka zorunlu azami hızdır.",
+          "en": "YAVAŞ gives no figure; a number in a red ring is a compulsory maximum."
+        }
+      }
+    ],
+    "related": [
+      "warning.other-danger",
+      "warning.road-works"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "seen",
+      "note": {
+        "tr": "Kuzeyde Türkçe YAVAŞ levhaları fotoğraflandı; eski levhalarda İngilizce ve Rumca karşılığı da yazılı olabilir.",
+        "en": "Turkish YAVAŞ plates have been photographed in the north; older ones may also carry English and Greek wording."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "additional.weight",
+    "category": "additional",
+    "image": {
+      "src": "/signs/additional/weight.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz ek levha; 7,5t yazısı.",
+        "en": "White plate with a black border reading 7,5t."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "agirlik-ek-levhasi",
+      "en": "weight-plate"
+    },
+    "name": {
+      "tr": "Ağırlık ek levhası",
+      "en": "Weight plate"
+    },
+    "meaning": {
+      "tr": "Üstündeki levhanın kuralı yalnız yüklü ağırlığı yazan değeri aşan taşıtlar için geçerlidir.",
+      "en": "The rule on the sign above applies only to vehicles whose laden weight is over the figure shown."
+    },
+    "driverAction": {
+      "tr": "Aracının yüklü ağırlığını bil; değeri aşıyorsan ana levhaya uy.",
+      "en": "Know your vehicle's laden weight; if it is over the figure, obey the main sign."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.weight-limit",
+        "tip": {
+          "tr": "Kırmızı halkadaki ağırlık kendi başına bir sınırdır; beyaz ek levhadaki ağırlık ana levhayı ağır taşıtlarla sınırlar.",
+          "en": "A weight in a red ring is a limit on its own; a weight on a white plate narrows the main sign to heavier vehicles."
+        }
+      },
+      {
+        "with": "additional.distance",
+        "tip": {
+          "tr": "Sonunda t varsa ağırlık, m varsa mesafedir.",
+          "en": "A figure ending in t is a weight; one ending in m is a distance."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.weight-limit",
+      "additional.vehicle--lorry"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Ek levhaların kuzeydeki tam biçimi doğrulanmadı. Çizim Viyana Sözleşmesi ve Türkiye uygulamasındaki genel biçimi izler.",
+        "en": "The exact form of additional plates in the north is not confirmed. The drawing follows the general form used under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "additional.priority-road-direction--left",
+    "category": "additional",
+    "image": {
+      "src": "/signs/additional/priority-road-direction--left.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz ek levha; aşağıdan gelip sola dönen kalın siyah çizgi ve kavşağa bağlanan iki ince çizgi.",
+        "en": "White plate with a black border; a thick black line coming up from below and turning left, with two thin lines joining the junction."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "ana-yolun-yonu-sola",
+      "en": "direction-of-priority-road-left"
+    },
+    "name": {
+      "tr": "Ana yolun yönü (sola)",
+      "en": "Direction of the priority road (left)"
+    },
+    "meaning": {
+      "tr": "Kavşakta öncelikli yolun sola döndüğünü gösterir. Kalın çizgi ana yolu, ince çizgiler öteki yolları gösterir.",
+      "en": "Shows that the priority road turns left at the junction. The thick line is the main road; the thin lines are the other roads."
+    },
+    "driverAction": {
+      "tr": "Ana yolu izliyorsan da dönüş için sinyal ver. İnce çizgideki bir yoldan geliyorsan kalın çizgideki trafiğe yol ver.",
+      "en": "Signal even when you follow the main road round the turn. If you come from a road shown by a thin line, give way to traffic on the thick line."
+    },
+    "confusions": [
+      {
+        "with": "additional.priority-road-direction--right",
+        "tip": {
+          "tr": "Kalın çizginin döndüğü yöne bak.",
+          "en": "Look at which way the thick line turns."
+        }
+      },
+      {
+        "with": "warning.crossroads",
+        "tip": {
+          "tr": "Üçgen içindeki çizim kavşak uyarısıdır; beyaz ek levha ana yolun yönünü gösterir.",
+          "en": "The drawing in a triangle warns of a junction; the white plate shows the direction of the main road."
+        }
+      }
+    ],
+    "related": [
+      "priority.give-way",
+      "priority.stop"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Ek levhaların kuzeydeki tam biçimi doğrulanmadı. Çizim Viyana Sözleşmesi ve Türkiye uygulamasındaki genel biçimi izler.",
+        "en": "The exact form of additional plates in the north is not confirmed. The drawing follows the general form used under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "additional.priority-road-direction--right",
+    "category": "additional",
+    "image": {
+      "src": "/signs/additional/priority-road-direction--right.svg",
+      "alt": {
+        "tr": "Siyah çerçeveli beyaz ek levha; aşağıdan gelip sağa dönen kalın siyah çizgi ve kavşağa bağlanan iki ince çizgi.",
+        "en": "White plate with a black border; a thick black line coming up from below and turning right, with two thin lines joining the junction."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "ana-yolun-yonu-saga",
+      "en": "direction-of-priority-road-right"
+    },
+    "name": {
+      "tr": "Ana yolun yönü (sağa)",
+      "en": "Direction of the priority road (right)"
+    },
+    "meaning": {
+      "tr": "Kavşakta öncelikli yolun sağa döndüğünü gösterir. Kalın çizgi ana yolu, ince çizgiler öteki yolları gösterir.",
+      "en": "Shows that the priority road turns right at the junction. The thick line is the main road; the thin lines are the other roads."
+    },
+    "driverAction": {
+      "tr": "Ana yolu izliyorsan da dönüş için sinyal ver. İnce çizgideki bir yoldan geliyorsan kalın çizgideki trafiğe yol ver.",
+      "en": "Signal even when you follow the main road round the turn. If you come from a road shown by a thin line, give way to traffic on the thick line."
+    },
+    "confusions": [
+      {
+        "with": "additional.priority-road-direction--left",
+        "tip": {
+          "tr": "Kalın çizginin döndüğü yöne bak.",
+          "en": "Look at which way the thick line turns."
+        }
+      },
+      {
+        "with": "warning.crossroads",
+        "tip": {
+          "tr": "Üçgen içindeki çizim kavşak uyarısıdır; beyaz ek levha ana yolun yönünü gösterir.",
+          "en": "The drawing in a triangle warns of a junction; the white plate shows the direction of the main road."
+        }
+      }
+    ],
+    "related": [
+      "priority.give-way",
+      "priority.stop"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Ek levhaların kuzeydeki tam biçimi doğrulanmadı. Çizim Viyana Sözleşmesi ve Türkiye uygulamasındaki genel biçimi izler.",
+        "en": "The exact form of additional plates in the north is not confirmed. The drawing follows the general form used under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  }
+]

@@ -1,0 +1,353 @@
+[
+  {
+    "id": "police.raised-arm",
+    "category": "police",
+    "image": {
+      "src": "/signs/police/raised-arm.svg",
+      "alt": {
+        "tr": "Mavi üniformalı ve şapkalı bir polis sana bakıyor; bir kolu başının üstünde, dimdik yukarıda.",
+        "en": "A police officer in a blue uniform and cap faces you, with one arm held straight up above his head."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "polis-kolu-yukarida",
+      "en": "police-arm-raised"
+    },
+    "name": {
+      "tr": "Polisin kolu yukarıda",
+      "en": "Officer's arm raised"
+    },
+    "meaning": {
+      "tr": "Dikkat, dur. Bu işaret her yönden gelenleri durdurur. Yalnız artık güvenle duramayacak kadar yakın olanlar geçer; kavşağın içindeysen kavşağı boşaltırsın.",
+      "en": "Attention, stop. This signal stops traffic from every direction. Only drivers too close to stop safely go on; if you are already in the junction, you clear it."
+    },
+    "driverAction": {
+      "tr": "Yavaşla ve dur çizgisinde ya da polisin gerisinde dur. Polis seni geçirene kadar bekle.",
+      "en": "Slow down and stop at the stop line or before the officer. Wait until the officer lets you go."
+    },
+    "confusions": [
+      {
+        "with": "police.stop-from-front",
+        "tip": {
+          "tr": "Dimdik yukarı kalkmış kol her yönü durdurur. Sana dönük avuç, polisin önünden gelen trafiği durdurur. İkisinde de durursun.",
+          "en": "An arm held straight up stops every direction. A palm turned towards you stops traffic coming from in front of the officer. Either way, you stop."
+        }
+      }
+    ],
+    "related": [
+      "police.stop-from-front",
+      "police.stop-front-and-behind",
+      "light.red"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC polisinin el ve kol işaretlerini gösteren bir metin bulunamadı. Çizim ve anlatım, Viyana Sözleşmesi ile Birleşik Krallık Karayolu Kuralları'ndaki genel işaretlere dayanır.",
+        "en": "No KKTC text showing police hand and arm signals was found. The drawing and explanation follow the general signals in the Vienna Convention and the UK Highway Code."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "police.stop-from-front",
+    "category": "police",
+    "image": {
+      "src": "/signs/police/stop-from-front.svg",
+      "alt": {
+        "tr": "Mavi üniformalı ve şapkalı bir polis sana bakıyor; bir elini omzunun yanında kaldırmış ve avucunu sana gösteriyor.",
+        "en": "A police officer in a blue uniform and cap faces you, one hand raised beside his shoulder with the palm towards you."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "polis-onden-gelen-dur",
+      "en": "police-stop-traffic-from-front"
+    },
+    "name": {
+      "tr": "Önden gelen trafik için dur",
+      "en": "Stop: traffic from the front"
+    },
+    "meaning": {
+      "tr": "Polis sana bakıyor ve avucunu sana gösteriyor: durursun.",
+      "en": "The officer faces you and shows you his palm: you stop."
+    },
+    "driverAction": {
+      "tr": "Polisin gösterdiği yerde dur. Polis seni geçirene kadar bekle; ışık yeşil olsa da kalkma.",
+      "en": "Stop where the officer shows you. Wait until he waves you on; do not move off even if the light is green."
+    },
+    "confusions": [
+      {
+        "with": "police.beckon-from-front",
+        "tip": {
+          "tr": "Duran, sana dönük avuç dur demektir. Polise doğru sallanan el gel, geç demektir.",
+          "en": "A still palm turned towards you means stop. A hand swinging back towards the officer means come on."
+        }
+      }
+    ],
+    "related": [
+      "police.raised-arm",
+      "police.beckon-from-front"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC polisinin el ve kol işaretlerini gösteren bir metin bulunamadı. Çizim ve anlatım, Viyana Sözleşmesi ile Birleşik Krallık Karayolu Kuralları'ndaki genel işaretlere dayanır.",
+        "en": "No KKTC text showing police hand and arm signals was found. The drawing and explanation follow the general signals in the Vienna Convention and the UK Highway Code."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "police.stop-from-behind",
+    "category": "police",
+    "image": {
+      "src": "/signs/police/stop-from-behind.svg",
+      "alt": {
+        "tr": "Mavi üniformalı ve şapkalı bir polis sana sırtını dönmüş; bir elini omzunun yanında kaldırmış ve avucu sana dönük.",
+        "en": "A police officer in a blue uniform and cap has his back to you, one hand raised beside his shoulder with the palm turned towards you."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "polis-arkadan-gelen-dur",
+      "en": "police-stop-traffic-from-behind"
+    },
+    "name": {
+      "tr": "Arkadan gelen trafik için dur",
+      "en": "Stop: traffic from behind"
+    },
+    "meaning": {
+      "tr": "Polis sana sırtını dönmüş ama elini arkaya, sana doğru kaldırmış. Polisin arkasından gelen trafik olarak durursun.",
+      "en": "The officer has his back to you but holds a hand up towards you. As traffic coming from behind him, you stop."
+    },
+    "driverAction": {
+      "tr": "Dur ve bekle. Polisin önündeki trafiğe bakıp ne zaman geçeceğine kendin karar verme.",
+      "en": "Stop and wait. Do not decide for yourself when to go by watching the traffic in front of him."
+    },
+    "confusions": [
+      {
+        "with": "police.beckon-from-behind",
+        "tip": {
+          "tr": "Duran, sana dönük el dur demektir. İleriye doğru sallanan el arkadaki trafiği çağırır.",
+          "en": "A still hand turned towards you means stop. A hand swinging forward calls on the traffic behind."
+        }
+      }
+    ],
+    "related": [
+      "police.stop-from-front",
+      "police.beckon-from-behind"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC polisinin el ve kol işaretlerini gösteren bir metin bulunamadı. Çizim ve anlatım, Viyana Sözleşmesi ile Birleşik Krallık Karayolu Kuralları'ndaki genel işaretlere dayanır.",
+        "en": "No KKTC text showing police hand and arm signals was found. The drawing and explanation follow the general signals in the Vienna Convention and the UK Highway Code."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "police.stop-front-and-behind",
+    "category": "police",
+    "image": {
+      "src": "/signs/police/stop-front-and-behind.svg",
+      "alt": {
+        "tr": "Mavi üniformalı ve şapkalı bir polis sana bakıyor; iki kolunu da omuz hizasında yanlara açmış.",
+        "en": "A police officer in a blue uniform and cap faces you, both arms stretched out to the sides at shoulder height."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "polis-kollari-yana-acik",
+      "en": "police-arms-outstretched"
+    },
+    "name": {
+      "tr": "Polisin kolları iki yana açık",
+      "en": "Officer's arms stretched out to the sides"
+    },
+    "meaning": {
+      "tr": "Polisin önünden ve arkasından gelen trafik durur. Polisin yanından, kollarının uzandığı doğrultuda gelen trafik geçebilir. Polis kollarını indirse de anlam değişmez.",
+      "en": "Traffic coming from in front of and behind the officer stops. Traffic coming from his sides, along the line of his arms, may go. The meaning stays the same if he lowers his arms."
+    },
+    "driverAction": {
+      "tr": "Polisin göğsünü ya da sırtını görüyorsan dur. Polisin yanını görüyorsan, yani kolu senin geliş doğrultunu gösteriyorsa dikkatle geçebilirsin.",
+      "en": "If you see the officer's chest or back, stop. If you see his side, so that his arm points along your direction of travel, you may go on with care."
+    },
+    "confusions": [
+      {
+        "with": "police.raised-arm",
+        "tip": {
+          "tr": "Dimdik yukarı kalkmış kol her yönü durdurur. İki yana açık kollar yalnız polisin önünden ve arkasından geleni durdurur.",
+          "en": "An arm held straight up stops every direction. Arms stretched to the sides stop only traffic from in front of and behind the officer."
+        }
+      }
+    ],
+    "related": [
+      "police.raised-arm",
+      "police.stop-from-front",
+      "police.stop-from-behind"
+    ],
+    "examPriority": "core",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC polisinin el ve kol işaretlerini gösteren bir metin bulunamadı. Çizim ve anlatım, Viyana Sözleşmesi ile Birleşik Krallık Karayolu Kuralları'ndaki genel işaretlere dayanır.",
+        "en": "No KKTC text showing police hand and arm signals was found. The drawing and explanation follow the general signals in the Vienna Convention and the UK Highway Code."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "police.beckon-from-front",
+    "category": "police",
+    "image": {
+      "src": "/signs/police/beckon-from-front.svg",
+      "alt": {
+        "tr": "Mavi üniformalı ve şapkalı bir polis sana bakıyor; ön kolunu kaldırmış, eğri bir ok elinin omzuna doğru sallandığını gösteriyor.",
+        "en": "A police officer in a blue uniform and cap faces you with his forearm raised; a curved arrow shows his hand swinging back towards his shoulder."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "polis-onden-gelen-gec",
+      "en": "police-proceed-from-front"
+    },
+    "name": {
+      "tr": "Önden gelen trafik için geç",
+      "en": "Come on: traffic from the front"
+    },
+    "meaning": {
+      "tr": "Polis seni kendine doğru çağırıyor: geçebilirsin.",
+      "en": "The officer is calling you towards him: you may go."
+    },
+    "driverAction": {
+      "tr": "Çevreni kontrol ederek yavaşça ilerle ve polisin gösterdiği yöne git. Dönerken yayalara yine yol ver.",
+      "en": "Move off slowly, checking around you, and go the way the officer shows. Still give way to pedestrians when you turn."
+    },
+    "confusions": [
+      {
+        "with": "police.stop-from-front",
+        "tip": {
+          "tr": "Sallanan el gel demektir, duran avuç dur demektir.",
+          "en": "A swinging hand means come on; a still palm means stop."
+        }
+      }
+    ],
+    "related": [
+      "police.stop-from-front",
+      "police.beckon-from-behind"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC polisinin el ve kol işaretlerini gösteren bir metin bulunamadı. Çizim ve anlatım, Viyana Sözleşmesi ile Birleşik Krallık Karayolu Kuralları'ndaki genel işaretlere dayanır.",
+        "en": "No KKTC text showing police hand and arm signals was found. The drawing and explanation follow the general signals in the Vienna Convention and the UK Highway Code."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "police.beckon-from-behind",
+    "category": "police",
+    "image": {
+      "src": "/signs/police/beckon-from-behind.svg",
+      "alt": {
+        "tr": "Mavi üniformalı ve şapkalı bir polis sana sırtını dönmüş; kolunu kaldırmış, eğri bir ok elinin omzunun üstünden ileriye doğru sallandığını gösteriyor.",
+        "en": "A police officer in a blue uniform and cap has his back to you with his arm raised; a curved arrow shows his hand swinging forward over his shoulder."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "polis-arkadan-gelen-gec",
+      "en": "police-proceed-from-behind"
+    },
+    "name": {
+      "tr": "Arkadan gelen trafik için geç",
+      "en": "Come on: traffic from behind"
+    },
+    "meaning": {
+      "tr": "Polis arkasındaki trafiği ileri çağırıyor: geçebilirsin.",
+      "en": "The officer is calling the traffic behind him forward: you may go."
+    },
+    "driverAction": {
+      "tr": "Polisin yanından dikkatle ve yavaşça geç. Önüne çıkabilecek yaya ve araçlara bak.",
+      "en": "Pass the officer slowly and carefully. Watch for pedestrians and vehicles ahead of you."
+    },
+    "confusions": [
+      {
+        "with": "police.stop-from-behind",
+        "tip": {
+          "tr": "İleri sallanan el gel demektir, duran el dur demektir.",
+          "en": "A hand swinging forward means come on; a still hand means stop."
+        }
+      }
+    ],
+    "related": [
+      "police.stop-from-behind",
+      "police.beckon-from-front"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC polisinin el ve kol işaretlerini gösteren bir metin bulunamadı. Çizim ve anlatım, Viyana Sözleşmesi ile Birleşik Krallık Karayolu Kuralları'ndaki genel işaretlere dayanır.",
+        "en": "No KKTC text showing police hand and arm signals was found. The drawing and explanation follow the general signals in the Vienna Convention and the UK Highway Code."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "police.slow-down",
+    "category": "police",
+    "image": {
+      "src": "/signs/police/slow-down.svg",
+      "alt": {
+        "tr": "Mavi üniformalı ve şapkalı bir polis sana bakıyor; bir kolunu yana uzatmış, avucu aşağıda. Yukarı ve aşağı gösteren oklar kolun inip kalktığını gösteriyor.",
+        "en": "A police officer in a blue uniform and cap faces you, one arm held out to the side with the palm down. Up and down arrows show the arm moving up and down."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "polis-yavasla",
+      "en": "police-slow-down"
+    },
+    "name": {
+      "tr": "Yavaşla",
+      "en": "Slow down"
+    },
+    "meaning": {
+      "tr": "Hızını düşür. İleride bir tehlike, kaza ya da kontrol olabilir.",
+      "en": "Reduce speed. There may be a hazard, a crash or a check ahead."
+    },
+    "driverAction": {
+      "tr": "Yavaşla, durmaya hazır ol ve polisin sonraki işaretini izle.",
+      "en": "Slow down, be ready to stop and watch for the officer's next signal."
+    },
+    "confusions": [
+      {
+        "with": "police.stop-front-and-behind",
+        "tip": {
+          "tr": "İnip kalkan tek kol yavaşla demektir. İki yana açık, hareketsiz kollar dur demektir.",
+          "en": "One arm moving up and down means slow down. Both arms held still out to the sides means stop."
+        }
+      }
+    ],
+    "related": [
+      "police.stop-front-and-behind"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "Bu işaret Viyana Sözleşmesi'nde yer almaz; birçok ülkede kullanılan genel bir işarettir. KKTC'de kullanılıp kullanılmadığı doğrulanamadı.",
+        "en": "This signal is not in the Vienna Convention; it is a general signal used in many countries. Whether it is used in North Cyprus could not be confirmed."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  }
+]

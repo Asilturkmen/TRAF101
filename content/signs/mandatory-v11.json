@@ -1,0 +1,375 @@
+[
+  {
+    "id": "mandatory.turn-left-or-right",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/turn-left-or-right.svg",
+      "alt": {
+        "tr": "Mavi daire; aşağıdan gelip sola ve sağa ayrılan beyaz T biçimli ok.",
+        "en": "Blue disc with a white T-shaped arrow coming up from below and splitting left and right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "sola-veya-saga-mecburi-yon",
+      "en": "turn-left-or-right"
+    },
+    "name": {
+      "tr": "Sola veya sağa mecburi yön",
+      "en": "Turn left or right"
+    },
+    "meaning": {
+      "tr": "İleride ya sola ya da sağa dönmek zorundasın. Düz gitmek yasaktır.",
+      "en": "Ahead you must turn either left or right. Going straight on is not allowed."
+    },
+    "driverAction": {
+      "tr": "Kavşağa gelmeden hangi yöne döneceğine karar ver ve doğru şeride geç. Sağa dönerken karşıdan gelene yol ver.",
+      "en": "Decide which way you will turn before the junction and get in the right lane. When turning right, give way to oncoming traffic."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.ahead-or-left",
+        "tip": {
+          "tr": "Okun biri yukarı bakıyorsa düz gitmek serbesttir; T biçimli okta düz gidilemez.",
+          "en": "If one arrow points up you may go straight on; with the T-shaped arrow you may not."
+        }
+      },
+      {
+        "with": "warning.t-junction",
+        "tip": {
+          "tr": "Üçgendeki T kavşağı uyarıdır; mavi dairedeki T biçimli ok emirdir.",
+          "en": "A T in a triangle is a warning; the T-shaped arrow on a blue disc is an order."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.turn-left-ahead",
+      "mandatory.turn-right-ahead",
+      "mandatory.ahead-or-left"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "likely",
+      "note": {
+        "tr": "",
+        "en": ""
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.buses-only",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/buses-only.svg",
+      "alt": {
+        "tr": "Mavi daire; yandan görünen beyaz otobüs.",
+        "en": "Blue disc with a white bus seen from the side."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "otobus-yolu",
+      "en": "buses-only"
+    },
+    "name": {
+      "tr": "Otobüs yolu",
+      "en": "Buses only"
+    },
+    "meaning": {
+      "tr": "Bu yol ya da şerit yalnız otobüsler içindir. Öteki taşıtlar kullanamaz.",
+      "en": "This road or lane is for buses only. Other vehicles must not use it."
+    },
+    "driverAction": {
+      "tr": "Otobüs kullanmıyorsan bu yola girme; levhadan önce başka bir yol ya da şerit seç.",
+      "en": "If you are not driving a bus, do not enter; pick another road or lane before the sign."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-buses",
+        "tip": {
+          "tr": "Kırmızı halkalı dairedeki otobüs yasaktır; mavi dairedeki otobüs zorunludur.",
+          "en": "A bus in a red ring is a ban; a bus on a blue disc is an order."
+        }
+      },
+      {
+        "with": "information.bus-lane",
+        "tip": {
+          "tr": "Mavi karedeki otobüs şeridi levhası şeridi gösterir; mavi daire yolun tamamını otobüslere ayırır.",
+          "en": "The square bus-lane sign shows a lane; the blue disc reserves the whole road for buses."
+        }
+      }
+    ],
+    "related": [
+      "information.bus-lane",
+      "prohibitory.no-buses"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.shared-path",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/shared-path.svg",
+      "alt": {
+        "tr": "Mavi daire; üstte beyaz yaya, altta beyaz bisiklet, aralarında yatay beyaz çizgi.",
+        "en": "Blue disc with a white pedestrian above a white bicycle, separated by a horizontal white line."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "bisiklet-ve-yaya-ortak-yolu",
+      "en": "shared-cycle-and-pedestrian-route"
+    },
+    "name": {
+      "tr": "Bisiklet ve yaya ortak yolu",
+      "en": "Shared route for cyclists and pedestrians"
+    },
+    "meaning": {
+      "tr": "Bu yol yayalar ve bisikletliler içindir ve ikisi aynı yüzeyi paylaşır. Motorlu taşıtlar giremez.",
+      "en": "This path is for pedestrians and cyclists, who share the same surface. Motor vehicles must not use it."
+    },
+    "driverAction": {
+      "tr": "Bisikletliysen yavaş git, yayaları zile basarak uyar ve geçerken geniş yer bırak. Sürücüysen bu yola girme.",
+      "en": "As a cyclist, ride slowly, warn pedestrians early and leave them plenty of room. As a driver, do not enter."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.segregated-path",
+        "tip": {
+          "tr": "Yatay çizgi ortak kullanımdır; dikey çizgi yolun ikiye ayrıldığını gösterir.",
+          "en": "A horizontal line means shared use; a vertical line means the path is split in two."
+        }
+      },
+      {
+        "with": "mandatory.cycle-route",
+        "tip": {
+          "tr": "Yalnız bisiklet varsa yol bisikletlilerindir.",
+          "en": "A bicycle alone means the path is for cyclists only."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.segregated-path",
+      "mandatory.cycle-route",
+      "mandatory.pedestrian-route"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.segregated-path",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/segregated-path.svg",
+      "alt": {
+        "tr": "Dikey beyaz çizgiyle ikiye bölünmüş mavi daire; solda beyaz bisiklet, sağda beyaz yaya.",
+        "en": "Blue disc split by a vertical white line, with a white bicycle on the left and a white pedestrian on the right."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "ayrilmis-bisiklet-ve-yaya-yolu",
+      "en": "segregated-cycle-and-pedestrian-route"
+    },
+    "name": {
+      "tr": "Ayrılmış bisiklet ve yaya yolu",
+      "en": "Segregated route for cyclists and pedestrians"
+    },
+    "meaning": {
+      "tr": "Yol ikiye ayrılmıştır: bir yanı bisikletliler, öbür yanı yayalar içindir. Levhadaki yerleşim yoldaki yerleşimi gösterir.",
+      "en": "The path is divided: one side for cyclists, the other for pedestrians. The layout on the sign matches the layout on the ground."
+    },
+    "driverAction": {
+      "tr": "Kendi yanında kal. Bisikletliysen yaya tarafına geçme; yayaysan bisiklet tarafında yürüme.",
+      "en": "Keep to your own side. Cyclists stay off the pedestrian side, and pedestrians off the cycle side."
+    },
+    "confusions": [
+      {
+        "with": "mandatory.shared-path",
+        "tip": {
+          "tr": "Dikey çizgi ayrı bölümler, yatay çizgi ortak yüzey demektir.",
+          "en": "A vertical line means separate sides; a horizontal line means a shared surface."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.shared-path",
+      "mandatory.cycle-route",
+      "mandatory.pedestrian-route"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.minimum-speed--30",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/minimum-speed--30.svg",
+      "alt": {
+        "tr": "Mavi daire; ortasında beyaz 30 rakamı.",
+        "en": "Blue disc with the white number 30."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "asgari-hiz-30",
+      "en": "minimum-speed-30"
+    },
+    "name": {
+      "tr": "Asgari hız sınırı (30 km/sa)",
+      "en": "Minimum speed 30 km/h"
+    },
+    "meaning": {
+      "tr": "Bu yolda koşullar elverdiği sürece saatte 30 kilometreden yavaş gidemezsin. Bu hıza çıkamayan taşıtlar bu yolu kullanmamalıdır.",
+      "en": "On this road you must not drive slower than 30 km/h unless conditions make it unsafe. Vehicles that cannot reach this speed should not use the road."
+    },
+    "driverAction": {
+      "tr": "Trafikle birlikte akarak en az levhadaki hızda git; yoğun trafik, sis ya da kaza varsa daha yavaş gitmen gerekebilir.",
+      "en": "Keep at least the speed shown as you flow with traffic; in heavy traffic, fog or after a crash you may need to go slower."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.speed-limit--30",
+        "tip": {
+          "tr": "Kırmızı halkadaki 30 en çok hızdır; mavi dairedeki 30 en az hızdır.",
+          "en": "A 30 in a red ring is a maximum; a 30 on a blue disc is a minimum."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.end-of-minimum-speed--30",
+      "prohibitory.speed-limit--30"
+    ],
+    "examPriority": "common",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.end-of-minimum-speed--30",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/end-of-minimum-speed--30.svg",
+      "alt": {
+        "tr": "Mavi daire; beyaz 30 rakamı ve üzerinden geçen kırmızı çapraz çizgi.",
+        "en": "Blue disc with the white number 30 crossed by a red diagonal bar."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "asgari-hiz-sonu-30",
+      "en": "end-of-minimum-speed-30"
+    },
+    "name": {
+      "tr": "Asgari hız sınırı sonu (30 km/sa)",
+      "en": "End of minimum speed 30 km/h"
+    },
+    "meaning": {
+      "tr": "30 km/sa asgari hız zorunluluğu burada biter.",
+      "en": "The 30 km/h minimum speed ends here."
+    },
+    "driverAction": {
+      "tr": "Artık daha yavaş gidebilirsin; yolun azami hız sınırına uymaya devam et.",
+      "en": "You may now go slower; keep within the road's maximum limit."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.end-of-speed-limit--30",
+        "tip": {
+          "tr": "Beyaz zeminli, siyah çizgili daire azami hızın bittiğini gösterir; mavi zeminli, kırmızı çaprazlı daire asgari hızın bittiğini.",
+          "en": "A white disc with black lines ends a maximum limit; a blue disc with a red bar ends a minimum."
+        }
+      }
+    ],
+    "related": [
+      "mandatory.minimum-speed--30"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  },
+  {
+    "id": "mandatory.horse-riders",
+    "category": "mandatory",
+    "image": {
+      "src": "/signs/mandatory/horse-riders.svg",
+      "alt": {
+        "tr": "Mavi daire; at üstünde beyaz bir binici.",
+        "en": "Blue disc with a white rider on a horse."
+      },
+      "basedOn": []
+    },
+    "slug": {
+      "tr": "atli-yolu",
+      "en": "route-for-horse-riders"
+    },
+    "name": {
+      "tr": "Atlı yolu",
+      "en": "Route for horse riders"
+    },
+    "meaning": {
+      "tr": "Bu yol atlılar içindir. Motorlu taşıtlar giremez.",
+      "en": "This path is for horse riders. Motor vehicles must not use it."
+    },
+    "driverAction": {
+      "tr": "Sürücüysen bu yola girme. Yakınından geçerken yavaşla ve korna çalma; at ürkebilir.",
+      "en": "As a driver, do not enter. When passing nearby, slow down and do not sound your horn; horses startle easily."
+    },
+    "confusions": [
+      {
+        "with": "prohibitory.no-animal-drawn-vehicles",
+        "tip": {
+          "tr": "Kırmızı halkalı dairedeki at ve araba yasaktır; mavi dairedeki atlı zorunlu yoldur.",
+          "en": "A horse and cart in a red ring is a ban; a rider on a blue disc marks a required route."
+        }
+      }
+    ],
+    "related": [
+      "prohibitory.no-animal-drawn-vehicles",
+      "mandatory.pedestrian-route"
+    ],
+    "examPriority": "rare",
+    "kktc": {
+      "status": "unverified",
+      "note": {
+        "tr": "KKTC yollarında bu levhanın kullanıldığı henüz doğrulanmadı. Anlam, Viyana Sözleşmesi ve Türkiye uygulamasındaki genel anlamdır.",
+        "en": "Use of this sign on KKTC roads has not been confirmed yet. The meaning given is the general one under the Vienna Convention and in Türkiye."
+      }
+    },
+    "reviewedAt": "2026-10-20"
+  }
+]
