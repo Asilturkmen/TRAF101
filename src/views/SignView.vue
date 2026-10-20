@@ -5,7 +5,7 @@ import { useI18n } from 'vue-i18n';
 import { CircleAlert, Eye, MapPin, ArrowLeftRight } from 'lucide-vue-next';
 import { usePage, useLang, absolute } from '../composables/usePage.js';
 import { useProgress } from '../stores/progress.js';
-import { signBySlug, signById, categoryById, signQuestion } from '../content/signs.js';
+import { signBySlug, signById, categoryById, signQuestion, kindOf } from '../content/signs.js';
 import { to, categoryPath, signPath } from '../lib/paths.js';
 import { tx, fmtDate } from '../lib/text.js';
 import PageHero from '../components/PageHero.vue';
@@ -55,7 +55,11 @@ const answer = ref(null);
 watch(() => sign.value?.id, () => (answer.value = null));
 
 usePage({
-  title: computed(() => (sign.value ? (lang.value === 'tr' ? `${sign.value.name.tr} levhası` : `${sign.value.name.en} sign (${sign.value.name.tr})`) : '404')),
+  title: computed(() => {
+    if (!sign.value) return '404';
+    const suffix = kindOf(sign.value.category).suffix[lang.value];
+    return lang.value === 'tr' ? `${sign.value.name.tr}${suffix}` : `${sign.value.name.en}${suffix} (${sign.value.name.tr})`;
+  }),
   description: computed(() => (sign.value ? `${tx(sign.value.meaning, lang.value)} ${tx(sign.value.driverAction, lang.value)}` : '')),
   alternates: computed(() => (sign.value ? { tr: signPath(sign.value, 'tr'), en: signPath(sign.value, 'en') } : null)),
   noindex: computed(() => !sign.value),

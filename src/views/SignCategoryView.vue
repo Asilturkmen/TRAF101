@@ -3,7 +3,7 @@ import { computed } from 'vue';
 import { RouterLink, useRoute } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { usePage, useLang } from '../composables/usePage.js';
-import { categoryBySlug, signsInCategory } from '../content/signs.js';
+import { categoryBySlug, signsInCategory, countLabel } from '../content/signs.js';
 import { to, categoryPath, signPath } from '../lib/paths.js';
 import { tx } from '../lib/text.js';
 import PageHero from '../components/PageHero.vue';
@@ -44,7 +44,7 @@ usePage({
       ]"
     >
       <div class="hero-chips">
-        <span class="hero-chip">{{ t('common.signsCount', { n: list.length }) }}</span>
+        <span class="hero-chip">{{ countLabel(category.id, list.length, lang) }}</span>
       </div>
     </PageHero>
 

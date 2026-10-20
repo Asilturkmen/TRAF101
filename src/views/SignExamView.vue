@@ -7,7 +7,7 @@ import { useI18n } from 'vue-i18n';
 import { Eye, ThumbsUp, ThumbsDown, Signpost } from 'lucide-vue-next';
 import { usePage, useLang } from '../composables/usePage.js';
 import { usePool } from '../composables/usePool.js';
-import { signs, signsInCategory, categoryById, signQuestion } from '../content/signs.js';
+import { signs, signsInCategory, categoryById, signQuestion, kindOf } from '../content/signs.js';
 import { examProfile } from '../content/meta.js';
 import { mastery, dayNumber } from '../lib/leitner.js';
 import { shuffle } from '../lib/random.js';
@@ -92,7 +92,11 @@ const knownCount = computed(() => results.value.filter((r) => r.knew).length);
 
 function build() {
   const day = dayNumber();
-  const source = category.value ? signsInCategory(category.value.id) : signs;
+  // The oral exam is about road signs: by default, no markings, lights, police
+  // signals or rare signs (they can still be rehearsed from their category page).
+  const source = category.value
+    ? signsInCategory(category.value.id)
+    : signs.filter((s) => !['marking', 'light', 'police'].includes(s.category) && s.examPriority !== 'rare');
   // Weakest first, core signs before rare ones, then a shuffle inside each band.
   const scored = shuffle(source).map((s) => ({ s, m: mastery(progress.items[`sign:${s.id}`], day), core: s.examPriority === 'core' ? 0 : 1 }));
   scored.sort((a, b) => a.m - b.m || a.core - b.core);
@@ -148,7 +152,7 @@ function grade(knew) {
         </div>
 
         <div class="quiz-card sign-card">
-          <h2 class="quiz-title">{{ c.prompt }}</h2>
+          <h2 class="quiz-title">{{ kindOf(current.category).prompt[lang] }}</h2>
           <div class="quiz-sign big">
             <SignImage :sign="current" :lang="lang" :size="220" :quiz="!revealed" eager />
           </div>

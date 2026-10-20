@@ -41,6 +41,16 @@ const ICON = {
   mandatory: 'mandatory.ahead-only',
   information: 'information.parking',
 };
+// Markings, lights and police signals are not "signs"; each kind has its own noun.
+const KIND = {
+  marking: { count: { tr: 'çizgi', en: 'markings' }, prompt: { tr: 'Bu yol çizgisi ne anlama gelir?', en: 'What does this road marking mean?' }, suffix: { tr: '', en: '' } },
+  light: { count: { tr: 'ışık', en: 'signals' }, prompt: { tr: 'Bu ışık ne anlama gelir?', en: 'What does this light signal mean?' }, suffix: { tr: '', en: '' } },
+  police: { count: { tr: 'işaret', en: 'signals' }, prompt: { tr: 'Polisin bu işareti ne anlama gelir?', en: "What does this police officer's signal mean?" }, suffix: { tr: '', en: '' } },
+};
+const SIGN_KIND = { count: { tr: 'levha', en: 'signs' }, prompt: { tr: 'Bu levha ne anlama gelir?', en: 'What does this sign mean?' }, suffix: { tr: ' levhası', en: ' sign' } };
+export const kindOf = (categoryId) => KIND[categoryId] || SIGN_KIND;
+export const countLabel = (categoryId, n, lang) => `${n} ${kindOf(categoryId).count[lang]}`;
+
 export const categoryIcon = (id) => signById(ICON[id]) || signsInCategory(id)[0] || null;
 
 // Variants that mean the same thing must never be offered as each other's distractor.
@@ -74,7 +84,7 @@ export function signQuestion(sign) {
     tracks: ['car', 'moto', 'heavy'],
     difficulty: sign.examPriority === 'core' ? 'easy' : 'medium',
     examPriority: sign.examPriority,
-    prompt: { tr: 'Bu levha ne anlama gelir?', en: 'What does this sign mean?' },
+    prompt: kindOf(sign.category).prompt,
     options: ordered.map((s, i) => ({ id: letters[i], text: s.name })),
     answer: letters[ordered.indexOf(sign)],
     why: sign.meaning,

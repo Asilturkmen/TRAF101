@@ -8,7 +8,7 @@ import {
 } from 'lucide-vue-next';
 import { usePage, useLang } from '../composables/usePage.js';
 import { useProgress } from '../stores/progress.js';
-import { categories, signs, signsInCategory, categoryIcon } from '../content/signs.js';
+import { categories, signs, signsInCategory, categoryIcon, countLabel } from '../content/signs.js';
 import { scenarios } from '../content/scenarios.js';
 import { isDue, inMistakes, dayNumber } from '../lib/leitner.js';
 import { tracks, formatById, examProfile } from '../content/meta.js';
@@ -223,7 +223,7 @@ const sampleCorrect = computed(() => picked.value && sample.value?.choices.find(
                 <span class="card-glow" aria-hidden="true" />
                 <SignImage class="card-icon" :sign="categoryIcon(cat.id)" :lang="lang" :size="64" decorative eager />
                 <span class="card-title">{{ tx(cat.name, lang) }}</span>
-                <span class="card-count">{{ t('common.signsCount', { n: signsInCategory(cat.id).length }) }}</span>
+                <span class="card-count">{{ countLabel(cat.id, signsInCategory(cat.id).length, lang) }}</span>
               </RouterLink>
             </li>
             <li>

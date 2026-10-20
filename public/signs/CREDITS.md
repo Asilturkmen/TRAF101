@@ -36,3 +36,14 @@ The previous hotlinked images from CySigns are not used anywhere in this set.
 ## Accuracy note
 
 No illustrated KKTC sign catalogue is published online. The set shows the clean, canonical form of signs in use in KKTC, adapted for left-hand traffic and Turkish wording. Real signs on the road may differ in detail. Each sign's evidence status is recorded in `kktc.status` in `content/signs/*.json`.
+
+## Version 1.1 additions
+
+The set now has 214 drawings: 125 signs, plates, road markings, traffic lights and police signals were added in v1.1, plus 6 roundabout diagrams in `public/diagrams/`. They were drawn the same way, with the same primitives (`scripts/signs/lib.mjs`, `scripts/signs/defs/*.mjs`, `scripts/diagrams/build-roundabouts.mjs`), and are released under the same CC0 1.0 dedication. No external artwork was copied or traced.
+
+| Material consulted | What was checked | Licence |
+|---|---|---|
+| Vienna Convention on Road Signs and Signals (1968) and Convention on Road Traffic, annexes | General meaning and form of markings, light signals and police signals | International treaty text (not reproduced) |
+| The Highway Code (UK), light signals, road markings and signals by authorised persons | Left-hand-traffic conventions | Open Government Licence (not reproduced) |
+
+Road markings, lights and police signals without a documented KKTC meaning are marked `unverified` in their data, and their pages say so.

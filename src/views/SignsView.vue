@@ -4,7 +4,7 @@ import { RouterLink } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { ArrowRight, Search } from 'lucide-vue-next';
 import { usePage, useLang } from '../composables/usePage.js';
-import { categories, signs, signsInCategory } from '../content/signs.js';
+import { categories, signs, signsInCategory, countLabel } from '../content/signs.js';
 import { to, categoryPath, signPath, both } from '../lib/paths.js';
 import { tx } from '../lib/text.js';
 import PageHero from '../components/PageHero.vue';
@@ -89,7 +89,7 @@ const results = computed(() => {
             <RouterLink :to="categoryPath(cat, lang)" class="category-card card">
               <div class="category-header">
                 <h2>{{ tx(cat.name, lang) }}</h2>
-                <span class="category-count">{{ t('common.signsCount', { n: signsInCategory(cat.id).length }) }}</span>
+                <span class="category-count">{{ countLabel(cat.id, signsInCategory(cat.id).length, lang) }}</span>
               </div>
               <div class="category-body">
                 <p>{{ tx(cat.description, lang) }}</p>
