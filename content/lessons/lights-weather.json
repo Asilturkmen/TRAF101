@@ -114,12 +114,12 @@
     },
     {
       "text": {
-        "tr": "Işık kurallarına uymamak 2023 ceza listesinde 10 ceza puanıdır.",
-        "en": "Breaking the lighting rules carries 10 penalty points in the 2023 list."
+        "tr": "Işık kurallarına uymamak 16/2025 sayılı yasanın cetvelinde 10 ceza puanıdır.",
+        "en": "Breaking the lighting rules carries 10 penalty points in the schedule of Law 16/2025."
       },
-      "basis": "secondary",
-      "sourceId": "s31",
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 036 (Tüzük md. 49(10))"
     }
   ],
   "relatedSigns": [

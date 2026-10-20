@@ -52,3 +52,24 @@ Kalan yaklaşık 110 levha, yol çizgileri, trafik ışıkları, polis işaretle
 ## Senin için açık konular
 
 `docs/LAUNCH.md` bölüm 4: alan adı ve isteğe bağlı sürücü kursu doğrulaması (`docs/verification-checklist.md`). Logo, ekip ve hata bildirme kararları kapandı.
+
+## v1.1 (2026-10-20)
+
+Planın 9. bölümündeki bütün işler tamamlandı ve `v1.1.0` olarak etiketlendi.
+
+| Ajan | İş | Sonuç |
+|---|---|---|
+| Levha A | Kalan uyarı ve öncelik levhaları | 29 levha |
+| Levha B | Kalan yasak, mecburiyet, bilgi levhaları ve ek levhalar | 67 levha |
+| Çizim C | Yol çizgileri, trafik ışıkları, polis işaretleri, dersi ve soruları | 29 çizim, 1 ders, 30 soru |
+| Çember D | Çember rehberi dersi, 6 çizim, sorular | 1 ders, 18 soru |
+| Kaynak E | "Genel uygulama" etiketli öğeler için KKTC kaynağı | 77 öğe yasaya dayandırıldı, 4 resmi kaynak eklendi, 1 çelişki düzeltildi |
+
+Lider (ana oturum): emin değilim seçeneği, soru başına hata bildirimi, terim sözlüğü, yazdırılabilir levha listesi, çalışma günleri, iPhone (WebKit) testleri, deneme sınavında levha sorusu payı, yeni kategorilerin adlandırılması, erişilebilirlik ve performans düzeltmeleri.
+
+**Kararlar:**
+- Yol çizgisi, ışık ve polis işaretleri levha sayfası şablonunu kullanıyor ama kendi adlarıyla anılıyor ("Bu ışık ne anlama gelir?").
+- Levha sınavı provası varsayılan olarak yalnız yol levhalarını soruyor; çizgi, ışık ve polis işaretleri kendi kategori sayfalarından prova edilebiliyor.
+- Deneme sınavının "kurallar ve levhalar" bölümünde levha tanıma soruları en çok yüzde 40; nadir levhalar dışarıda.
+- Yerel test sunucusu artık gzip ile sıkıştırıyor; v1.0'daki uygulama ekranı LCP değerleri bu yüzden fazla kötümserdi.
+- 9/1988 Yol Güvenliği Yasası 10/2022 ile yürürlükten kalkmış; içerik yeni yasaya taşındı.

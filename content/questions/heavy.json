@@ -589,7 +589,7 @@
     },
     "signId": null,
     "basis": "law",
-    "sourceId": "s8",
+    "sourceId": "up-yg-2022",
     "sourceRef": "md. 2",
     "reviewedAt": "2026-10-20"
   },
@@ -643,7 +643,7 @@
     },
     "signId": null,
     "basis": "law",
-    "sourceId": "s8",
+    "sourceId": "up-yg-2022",
     "sourceRef": "md. 2",
     "reviewedAt": "2026-10-20"
   },
@@ -692,13 +692,13 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "Bazı ilaçlar dikkati ve tepki süresini alkol kadar etkileyebilir. Reçeteli olması güvenli olduğu anlamına gelmez. Emin değilsen sürme.",
-      "en": "Some medicines can affect attention and reaction time as much as alcohol. Being on prescription does not make a medicine safe for driving. If in doubt, do not drive."
+      "tr": "Bazı ilaçlar dikkati ve tepki süresini alkol kadar etkileyebilir; sürüş yeteneğini bozan bir ilacın etkisindeyken araç kullanmak yasada suçtur. Reçeteli olması güvenli olduğu anlamına gelmez.",
+      "en": "Some medicines can affect attention and reaction time as much as alcohol, and driving while a medicine impairs your ability to drive is an offence in law. Being on prescription does not make a medicine safe for driving."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-mayt-2025",
+    "sourceRef": "md. 4 (Yasa md. 9)",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -1290,9 +1290,9 @@
       "en": "This sign bans vehicles taller than the height shown. Know your vehicle's height, including the load, before you set off."
     },
     "signId": "prohibitory.height-limit",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 157 (Tüzük md. 57(1)(k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -1344,9 +1344,9 @@
       "en": "The weight limit applies to the vehicle's actual total weight, including the load. If you are over it, use another route."
     },
     "signId": "prohibitory.weight-limit",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 157 (Tüzük md. 57(1)(k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -2420,13 +2420,13 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Koridordaki eşya ani frende fırlayabilir, yolcuları düşürebilir ve acil bir durumda çıkışı kapatır. Koridoru boş tut.",
-      "en": "Luggage in the aisle can fly forward under hard braking, trip passengers and block the way out in an emergency. Keep the aisle clear."
+      "tr": "Otobüste yolcuları tehlikeye koyacak ya da rahatsız edecek biçimde yük taşımak yasada suçtur. Koridordaki eşya ani frende fırlayabilir ve acil bir durumda çıkışı kapatır.",
+      "en": "Carrying a load in a bus in a way that endangers or disturbs passengers is an offence in law. Luggage in the aisle can fly forward under hard braking and block the way out in an emergency."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 067 (Tüzük md. 51(3))",
     "reviewedAt": "2026-10-20"
   },
   {

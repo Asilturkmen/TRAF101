@@ -51,7 +51,7 @@
     },
     "signId": null,
     "basis": "law",
-    "sourceId": "s8",
+    "sourceId": "up-yg-2022",
     "sourceRef": "md. 2, saptanan sınır",
     "reviewedAt": "2026-10-20"
   },
@@ -107,7 +107,7 @@
     },
     "signId": null,
     "basis": "law",
-    "sourceId": "s8",
+    "sourceId": "up-yg-2022",
     "sourceRef": "md. 2, saptanan sınır",
     "reviewedAt": "2026-10-20"
   },
@@ -162,7 +162,7 @@
     },
     "signId": null,
     "basis": "law",
-    "sourceId": "s8",
+    "sourceId": "up-yg-2022",
     "sourceRef": "md. 2, saptanan sınır",
     "reviewedAt": "2026-10-20"
   },
@@ -381,13 +381,13 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Bu düzeyde alkolle yakalanan sürücü için sabit ceza yoktur. Dava mahkemeye gider; hapis ve ehliyetten men cezası verilebilir.",
-      "en": "At this level there is no fixed penalty. The case goes to court, which can impose prison and a driving ban."
+      "tr": "Bu düzeyde alkol için yasada sabit ceza yoktur, dava mahkemeye gider. Mahkeme asgari ücretin 15 katına kadar para cezası, 3 yıla kadar hapis ve 6 aya kadar ehliyetten men verebilir.",
+      "en": "At this level the law has no fixed penalty and the case goes to court. The court can impose a fine of up to 15 times the minimum wage, up to 3 years in prison and a driving ban of up to 6 months."
     },
     "signId": null,
-    "basis": "secondary",
-    "sourceId": "s28",
-    "sourceRef": "5.4.2025 tarihinden itibaren uygulanan değişiklikler",
+    "basis": "law",
+    "sourceId": "up-yg-2025",
+    "sourceRef": "md. 2 (Yol Güvenliği Yasası md. 9(1)(C))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -437,13 +437,13 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Sınırı az farkla aşmak bile para cezasına ek olarak 100 ceza puanı getirir. Alkollü araç kullanma hiçbir zaman küçük bir ihlal sayılmaz.",
-      "en": "Even a small excess brings 100 penalty points on top of a fine. Drink-driving is never treated as a minor offence."
+      "tr": "16/2025 sayılı yasanın cetveline göre sınırı az farkla aşmak bile asgari ücretin yüzde 50'si kadar para cezası ve 100 ceza puanı getirir. Alkollü araç kullanma hiçbir zaman küçük bir ihlal sayılmaz.",
+      "en": "Under the schedule of Law 16/2025, even a small excess brings a fine of 50% of the minimum wage and 100 penalty points. Drink-driving is never treated as a minor offence."
     },
     "signId": null,
-    "basis": "secondary",
-    "sourceId": "s28",
-    "sourceRef": "5.4.2025 tarihinden itibaren uygulanan değişiklikler",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 111 (Yol Güvenliği Yasası md. 3 ve 9(1)(A))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -605,13 +605,13 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Açık cam ve yüksek müzik uykuyu ancak kısa süre erteler. Tek gerçek çözüm durup dinlenmek, gerekirse kısa bir süre uyumaktır.",
-      "en": "Fresh air and loud music only delay sleep briefly. The only real fix is to stop and rest, with a short nap if needed."
+      "tr": "Açık cam ve yüksek müzik uykuyu ancak kısa süre erteler. Aşırı yorgunken araç kullanmak yasada suçtur; tek gerçek çözüm durup dinlenmektir.",
+      "en": "Fresh air and loud music only delay sleep briefly. Driving while impaired by excessive tiredness is an offence in law; the only real fix is to stop and rest."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "s6",
+    "sourceRef": "md. 10",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -717,13 +717,13 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Bazı ilaçlar tepkiyi ve dikkati alkol gibi bozar. Prospektüsteki uyarıyı ciddiye al; ilacı kendi başına bırakma ya da değiştirme.",
-      "en": "Some medicines slow reactions and attention in the same way as alcohol. Take the leaflet warning seriously, and do not stop or change your medicine without advice."
+      "tr": "Bazı ilaçlar tepkiyi ve dikkati alkol gibi bozar; sürüş yeteneğini bozan bir ilacın etkisindeyken araç kullanmak yasada suçtur. İlacı kendi başına bırakma ya da değiştirme.",
+      "en": "Some medicines slow reactions and attention in the same way as alcohol, and driving while a medicine impairs your ability to drive is an offence in law. Do not stop or change your medicine without advice."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-mayt-2025",
+    "sourceRef": "md. 4 (Yasa md. 9)",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -773,13 +773,13 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "Uyuşturucular mesafe ve hız algısını, dikkati ve tepkiyi bozar; kullanan kişi bunu çoğu zaman fark etmez. Ona araç kullandırma, başka bir yol bul.",
-      "en": "Drugs distort judgement of distance and speed, attention and reactions, and users often do not notice. Do not let them drive; find another way home."
+      "tr": "Uyuşturucular mesafe ve hız algısını, dikkati ve tepkiyi bozar; kullanan kişi bunu çoğu zaman fark etmez. Yasa uyuşturucu için bütün sürücülerde sınırı sıfır koyar; ona araç kullandırma.",
+      "en": "Drugs distort judgement of distance and speed, attention and reactions, and users often do not notice. The law sets a zero limit for drugs for every driver, so do not let them drive."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-yg-2022",
+    "sourceRef": "md. 2 (saptanan sınır) ve md. 3(2)",
     "reviewedAt": "2026-10-20"
   },
   {

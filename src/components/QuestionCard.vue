@@ -207,6 +207,12 @@ function stateClass(o) {
 }
 .feedback-links {
   justify-content: space-between;
+  gap: 0.5rem 1rem;
+}
+.feedback-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
 }
 .report-link {
   color: var(--color-text-secondary) !important;

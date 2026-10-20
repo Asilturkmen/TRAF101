@@ -1,6 +1,49 @@
-# QA raporu (v1.0.0)
+# QA raporu (v1.1.0)
 
-Ölçüm tarihi: 2026-10-20. Ölçümler yayın derlemesi (`npm run build`) üzerinde, yerel statik sunucuyla (`npm run preview`), Microsoft Edge (Chromium) ile alındı. Tekrar etmek için komutlar her bölümün altında.
+Ölçüm tarihi: 2026-10-20. Ölçümler yayın derlemesi (`npm run build`) üzerinde, yerel statik sunucuyla (`npm run preview`), Microsoft Edge (Chromium) ve Playwright WebKit ile alındı. Yerel sunucu, her gerçek statik barındırma gibi metin dosyalarını gzip ile sıkıştırarak gönderir.
+
+## v1.1 özeti
+
+| Kapı | Hedef | Sonuç |
+|---|---|---|
+| İçerik doğrulama (katı) | hatasız | 0 hata: 214 levha, 415 yazılı soru, 35 senaryo, 19 ders |
+| Birim testleri (Vitest) | hepsi geçer | 33 / 33 |
+| Uçtan uca testler: masaüstü Edge, telefon Edge, iPhone 13 WebKit | hepsi geçer | 48 geçti, 6 bilinçli atlandı |
+| axe erişilebilirlik, 28 sayfa × 390 ve 1440 piksel, açık menü ve cevaplanmış soru dahil | 0 | 0 ihlal |
+| Kırık iç bağlantı (568 sayfa) | 0 | 0 |
+| hreflang karşılıklılığı | iki yönlü | 512 sayfa, 0 hata |
+| Yana kayma (360, 390, 430 piksel; WebKit dahil) | yok | yok |
+| Dış istek | 0 | 0 |
+| CLS | yaklaşık 0 | en yüksek 0,009 |
+| LCP, yavaş 4G + 4 kat yavaş işlemci, telefon | 2,5 sn altı | İçerik sayfaları 0,5-1,1 sn. Kişiye özel uygulama ekranları 0,5-2,7 sn (aşağıda) |
+
+### LCP tablosu (v1.1, sıkıştırmalı)
+
+| Sayfa | LCP |
+|---|---|
+| `/` | 0,80-1,08 sn |
+| `/en/` | 0,68 sn |
+| `/levhalar/` | 0,58 sn |
+| `/levhalar/oncelik/dur/` | 0,81 sn |
+| `/levhalar/yol-cizgileri/` | 0,54 sn |
+| `/konular/cember-rehberi/` | 0,66 sn |
+| `/terimler/` | 0,59 sn |
+| `/calis/`, `/deneme-sinavi/`, `/ilerleme/` | 0,50-0,58 sn |
+| `/deneme-sinavi/otomobil/` | 0,50-0,52 sn |
+| `/senaryolar/` | 0,51 sn |
+| `/calis/bugun/` | 0,51-2,69 sn |
+| `/calis/levha-sinavi/` | 0,49-2,31 sn |
+| `/hatalarim/` | 2,61-2,65 sn |
+
+Kişiye özel ekranlar, kartlarını sayfa tarayıcıda canlandıktan (hidrasyon) sonra çizer. Kart, sayfa başlığından büyükse LCP o ana kayar. Bu yüzden aynı sayfada ölçümler 0,5 ile 2,7 saniye arasında değişiyor. 2,6 saniye, yavaşlatılmış işlemcide uygulamanın canlanma süresinin tabanıdır. Bu ekranlar arama motoruna kapalıdır ve ikinci ziyarette önbellekten açılır.
+
+**Ölçüm düzeltmesi:** v1.0 raporundaki 3,2-4,6 saniyelik uygulama ekranı değerleri sıkıştırmasız yerel sunucuyla alınmıştı. Gerçek barındırmalar dosyaları sıkıştırdığı için o değerler fazla kötümserdi. v1.1'de test sunucusu da sıkıştırıyor.
+
+**Boyutlar:** `dist/` 75 MB; bunun büyük kısmı 512 sayfanın OG paylaşım görselleri. Çevrimdışı önbellek 2,9 MB.
+
+---
+
+# v1.0.0 ölçümleri (tarihçe)
 
 ## Özet: plan bölüm 10'daki kapılar
 

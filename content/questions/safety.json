@@ -106,9 +106,9 @@
       "en": "A vehicle stopped at a crossing is usually giving way to someone it hides from you. Be ready to stop rather than pass it."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": "sa-hc-road",
-    "sourceRef": "rule 191",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 076 (Tüzük md. 57(1)(y))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -441,9 +441,9 @@
       "en": "When you park on the left, the driver's door opens into traffic. A cyclist or motorcyclist coming from behind could ride into it."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 105 (Tüzük md. 62(a))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -945,9 +945,9 @@
       "en": "The vehicle ahead may stop for a pedestrian you cannot see. Do not overtake on the approach to a crossing."
     },
     "signId": "warning.pedestrian-crossing",
-    "basis": "practice",
-    "sourceId": "sa-hc-road",
-    "sourceRef": "rule 167",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 051, 076 ve 157 (Tüzük md. 57(1)(o), (y), (k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -1837,13 +1837,13 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Alacakaranlıkta gri ya da koyu renkli bir araç neredeyse görünmez olur. Kısa farlar seni gösterir ve kimsenin gözünü almaz.",
-      "en": "At dusk a grey or dark car can almost disappear. Dipped headlights make you visible without dazzling anyone."
+      "tr": "Yasa, güneş battıktan yarım saat sonradan doğmadan yarım saat öncesine kadar yeterli ışık yakmanı zorunlu kılar. Görüş daha önce azalırsa kısa farları daha erken yakarsın; seni gösterir ve kimsenin gözünü almaz.",
+      "en": "The law requires adequate lights from half an hour after sunset to half an hour before sunrise. If visibility falls earlier, switch dipped headlights on earlier: they make you visible without dazzling anyone."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": "sa-hc-general",
-    "sourceRef": "rule 115",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 130 (Araç Işıkları Yasası md. 3)",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -2281,13 +2281,13 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Polisin açıkladığı 2025 değişikliklerine göre bu suç asgari ücretin yüzde 20'si kadar para cezası ve 10 ceza puanı getirir.",
-      "en": "Under the 2025 changes announced by the police, it brings a fine of 20% of the minimum wage and 10 penalty points."
+      "tr": "16/2025 sayılı yasanın cetveline göre emniyet kemeri ya da çocuk koruma sistemi kullanmamak asgari ücretin yüzde 20'si kadar para cezası ve 10 ceza puanı getirir.",
+      "en": "Under the schedule of Law 16/2025, not using a seat belt or child restraint brings a fine of 20% of the minimum wage and 10 penalty points."
     },
     "signId": null,
-    "basis": "secondary",
-    "sourceId": "s28",
-    "sourceRef": "05.04.2025 değişiklikleri",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 072 ve 073 (Emniyet Kemeri Yasası md. 5)",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -2672,13 +2672,13 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "KKTC'de kaldırım soldadır. Kaldırım tarafından inen çocuklar trafiğe hiç çıkmadan güvende kalır.",
-      "en": "In North Cyprus the kerb is on the left. Getting out on the kerb side keeps children away from passing traffic."
+      "tr": "KKTC'de kaldırım soldadır. Kaldırım tarafından inen çocuklar trafiğe hiç çıkmaz; trafik tarafındaki kapıyı güvenli olmadan açmak da yasada suçtur.",
+      "en": "In North Cyprus the kerb is on the left. Getting out on the kerb side keeps children away from traffic, and opening a door on the traffic side when it is not safe is an offence in law."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 105 (Tüzük md. 62(a))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -2841,9 +2841,9 @@
       "en": "You are driving, so do not move off until everyone is safely restrained. Young children can undo belts, so keep an eye on them during the trip."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": "sa-hc-drivers",
-    "sourceRef": "rule 100",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 073 (Emniyet Kemeri Yasası md. 5(2)-(4))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -2893,13 +2893,13 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Dörtlü flaşör, yaklaşan sürücülere aracın durduğunu hemen gösterir. Sonra aracı mümkünse yoldan çıkar ve yolcuları güvenli bir yere al.",
-      "en": "Hazard lights tell approaching drivers at once that you have stopped. Then move the car off the road if you can and get passengers to safety."
+      "tr": "Dörtlü flaşör, yaklaşan sürücülere aracın durduğunu hemen gösterir; gece yolda zorunlu olarak durduğunda yakman yasayla zorunludur. Sonra aracı mümkünse yoldan çıkar ve yolcuları güvenli bir yere al.",
+      "en": "Hazard lights tell approaching drivers at once that you have stopped, and the law requires them when you are forced to stop on the road at night. Then move the car off the road if you can and get passengers to safety."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": "sa-hc-breakdowns",
-    "sourceRef": "rule 276",
+    "basis": "law",
+    "sourceId": "s6",
+    "sourceRef": "md. 14(2)(B)",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -3015,7 +3015,7 @@
   },
   {
     "id": "safety.warning-triangle-placement",
-    "rev": 1,
+    "rev": 2,
     "topic": "safety",
     "lesson": "emergencies",
     "tracks": [
@@ -3025,8 +3025,8 @@
     ],
     "difficulty": "medium",
     "prompt": {
-      "tr": "Aracında reflektör (uyarı üçgeni) varsa arıza sırasında onu nereye koyarsın?",
-      "en": "If you carry a warning triangle, where do you place it after a breakdown?"
+      "tr": "Aracın arızalandı ve yolda duruyor. Reflektörü (uyarı üçgenini) nereye koyarsın?",
+      "en": "Your car has broken down and is standing on the road. Where do you place the warning triangle?"
     },
     "options": [
       {
@@ -3060,13 +3060,13 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Reflektör, sürücülere araca varmadan önce yavaşlama zamanı verir. Virajdaysan virajdan önce görülecek yere koy ve koyarken trafiğe dikkat et.",
-      "en": "The triangle gives drivers time to slow down before they reach you. On a bend, place it where it is seen before the bend, and watch for traffic while you do it."
+      "tr": "Her motorlu araçta reflektör bulundurmak zorunludur; reflektör sürücülere araca varmadan yavaşlama zamanı verir. Gece aracı yolda bırakırsan önüne ve arkasına reflektör konması gerekir.",
+      "en": "Every motor vehicle must carry a warning triangle; it gives drivers time to slow down before they reach you. If you leave the vehicle on the road at night, triangles must be placed in front of it and behind it."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": "sa-hc-breakdowns",
-    "sourceRef": "rule 276",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 077 ve 009 (Tüzük md. 57(1)(z); Yasa md. 14(2)(A))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -3787,13 +3787,13 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "Basında yer alan ceza listesine göre geçiş üstünlüğü olan araca yol vermemek para cezası ve ceza puanı gerektirir. O araç bir hayat kurtarmak için yetişmeye çalışıyor olabilir.",
-      "en": "Under the published fine list, failing to give way to an emergency vehicle brings a fine and penalty points. That vehicle may be racing to save a life."
+      "tr": "Siren kullanan ambulansa, itfaiyeye ya da polis aracına yol vermemek yasada suçtur ve para cezası ile ceza puanı gerektirir. O araç bir hayat kurtarmak için yetişmeye çalışıyor olabilir.",
+      "en": "Failing to give way to an ambulance, fire engine or police vehicle using its siren is an offence in law and brings a fine and penalty points. That vehicle may be racing to save a life."
     },
     "signId": null,
-    "basis": "secondary",
-    "sourceId": "s31",
-    "sourceRef": "Ceza listesi, 2023",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 011 (Tüzük md. 57(1)(aa); Yasa md. 14A)",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -4071,9 +4071,9 @@
       "en": "The limit is the most you may do in good conditions. In rain, crowds or poor visibility, the safe speed is lower."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": "s3",
-    "sourceRef": "md. 22(7)",
+    "basis": "law",
+    "sourceId": "s6",
+    "sourceRef": "md. 6(1), 6(2) ve 6(4)",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -4127,9 +4127,9 @@
       "en": "A driver too close behind may hit you if you stop suddenly. A bigger gap ahead lets you brake gently, giving them time to stop as well."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "s7",
+    "sourceRef": "md. 2(c)",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -4183,9 +4183,9 @@
       "en": "Braking in a bend reduces grip and can cause a skid. Set your speed before the bend, while the road is straight."
     },
     "signId": "warning.bend--left",
-    "basis": "practice",
-    "sourceId": "sa-hc-general",
-    "sourceRef": "rule 154",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 057 (Tüzük md. 57(1)(ü))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -4403,13 +4403,13 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Korna yalnız varlığını bildirip bir tehlikeyi önlemek içindir. Öfke ya da acele için çalınan korna başkalarını şaşırtır ve gerginlik yaratır.",
-      "en": "The horn is only for letting others know you are there so that danger is avoided. Using it in anger or impatience startles people and raises tension."
+      "tr": "Korna yalnız varlığını bildirip bir tehlikeyi önlemek içindir. Yerleşim yerinde gereksiz korna çalmak yasada suçtur; öfke ya da acele için çalınan korna başkalarını şaşırtır.",
+      "en": "The horn is only for letting others know you are there so that danger is avoided. Needless use of the horn in a built-up area is an offence in law, and sounding it in anger startles people."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": "sa-hc-general",
-    "sourceRef": "rule 112",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 055 (Tüzük md. 57(1)(s))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -4907,13 +4907,13 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "2025 değişiklikleriyle telefon kullanmanın cezası asgari ücretin tamamı kadar para cezası ve 50 ceza puanı oldu. Ayrıca ceza puanı yasasına göre 15 ay içinde 100 puana ulaşan sürücünün ehliyeti 3 ay geri alınır.",
-      "en": "Since the 2025 changes, phone use brings a fine equal to the full minimum wage and 50 penalty points. Separately, under the penalty-points law, a driver who reaches 100 points within 15 months loses their licence for 3 months."
+      "tr": "16/2025 sayılı yasanın cetveline göre sürerken telefonu eline alıp kullanmanın cezası asgari ücretin tamamı kadar para cezası ve 50 ceza puanıdır. Ayrıca ceza puanı yasasına göre 15 ay içinde 100 puana ulaşan sürücünün ehliyeti 3 ay geri alınır.",
+      "en": "Under the schedule of Law 16/2025, handling a phone while driving brings a fine equal to the full minimum wage and 50 penalty points. Separately, under the penalty-points law, a driver who reaches 100 points within 15 months loses their licence for 3 months."
     },
     "signId": null,
-    "basis": "secondary",
-    "sourceId": "s28",
-    "sourceRef": "05.04.2025 değişiklikleri",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 176 (Tüzük md. 57(3)(c))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -4963,13 +4963,13 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Basına yansıyan 2025 düzenlemesine göre telefonu tutmadan Bluetooth ile konuşmak suç değildir. Yine de konuşma dikkatini yoldan alabilir; zor koşullarda aramayı ertele.",
-      "en": "Under the 2025 change as reported in the press, using Bluetooth without holding the phone is not an offence. A call can still pull your attention from the road, so leave it for later in difficult conditions."
+      "tr": "Yasadaki suç, telefonu eline alıp konuşmak ya da kullanmak, ya da elde olsun olmasın cihazla yazı yazmak, okumak ya da izlemektir. Telefonu tutmadan Bluetooth ile konuşmak bunların dışında kalır, ama konuşma dikkatini yine dağıtabilir.",
+      "en": "The offence in law is holding a phone to talk or use it, or writing, reading or watching on a device whether you hold it or not. Talking over Bluetooth without holding the phone falls outside this, but a call can still pull your attention from the road."
     },
     "signId": null,
-    "basis": "secondary",
-    "sourceId": "s29",
-    "sourceRef": "Bluetooth kullanımı",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 176 (Tüzük md. 57(3)(c))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -5023,9 +5023,9 @@
       "en": "Handling the phone takes your eyes and hands off the road. Enter the route before you set off and then just follow the spoken directions."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": "sa-hc-general",
-    "sourceRef": "rule 150",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 176 (Tüzük md. 57(3)(c))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -5079,9 +5079,9 @@
       "en": "Talking with the phone in your hand is banned and weakens your control of the car. The call can wait until you have stopped safely."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 176 (Tüzük md. 57(3)(c))",
     "reviewedAt": "2026-10-20"
   }
 ]

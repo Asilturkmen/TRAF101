@@ -427,13 +427,13 @@ Toplam tahmin tek kişiyle yaklaşık 25 iş günü. Ajanlarla F2, F3 ve F4 para
 
 K9 gereği bunlar v1.0'dan sonra yapılacak olarak planlıdır.
 
-- [ ] Kalan levhalar, yaklaşık 110 görsel: sağ ve sol türevler, ek levhalar, yerleşim yeri girişi ve çıkışı, bölge levhaları, hız kamerası ve benzerleri (`road-signs.md` bölüm 4.3).
-- [ ] Yol çizgileri, yaklaşık 15 çizim (`road-signs.md` bölüm 4.4).
-- [ ] Trafik ışıkları ve yanıp sönen ışık durumları (`road-signs.md` bölüm 4.5).
-- [ ] Polis el işaretleri.
-- [ ] "Emin değildim" seçeneği ve soru başına "Bu soruda hata var" bağlantısı.
-- [ ] Dönel kavşak anlatımı, yazdırılabilir levha listesi, TR-EN terim sözlüğü sayfası.
-- [ ] Sıralama tablosu olmadan, sessiz bir çalışma günü serisi.
+- [x] Kalan levhalar, yaklaşık 110 görsel: sağ ve sol türevler, ek levhalar, yerleşim yeri girişi ve çıkışı, bölge levhaları, hız kamerası ve benzerleri (`road-signs.md` bölüm 4.3).
+- [x] Yol çizgileri, yaklaşık 15 çizim (`road-signs.md` bölüm 4.4).
+- [x] Trafik ışıkları ve yanıp sönen ışık durumları (`road-signs.md` bölüm 4.5).
+- [x] Polis el işaretleri.
+- [x] "Emin değildim" seçeneği ve soru başına "Bu soruda hata var" bağlantısı.
+- [x] Dönel kavşak anlatımı, yazdırılabilir levha listesi, TR-EN terim sözlüğü sayfası.
+- [x] Sıralama tablosu olmadan, sessiz bir çalışma günü serisi.
 
 Daha sonra: FSRS tekrar algoritması, soruları sesli okuma, KKTC yollarından kendi fotoğraflarımızla tehlike soruları, Rusça ve Arapça gibi ek diller.
 

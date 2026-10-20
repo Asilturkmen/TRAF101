@@ -774,13 +774,13 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Yola atılan çöp doğayı kirletir, motosiklet ve bisiklet sürücüleri için tehlike yaratır ve kanalları tıkar.",
-      "en": "Litter thrown on the road pollutes, puts motorcyclists and cyclists at risk and blocks drains."
+      "tr": "Kamu yoluna çöp ya da başka bir madde bırakmak yasada suçtur. Yola atılan çöp doğayı kirletir, motosiklet ve bisiklet sürücüleri için tehlike yaratır ve kanalları tıkar.",
+      "en": "Leaving rubbish or any other matter on a public road is an offence in law. Litter on the road pollutes, puts motorcyclists and cyclists at risk and blocks drains."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 118 (Kamu Yolları Yasası md. 3(d))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -942,13 +942,13 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Sürekli koyu ya da mavimsi duman, yakıtın ya da yağın iyi yanmadığını gösterir. Böyle bir araç hem daha çok kirletir hem daha çok yakar.",
-      "en": "Constant dark or bluish smoke means fuel or oil is not burning properly. The vehicle pollutes more and uses more fuel."
+      "tr": "Sürekli koyu ya da mavimsi duman, yakıtın ya da yağın iyi yanmadığını gösterir. Böyle bir araç daha çok kirletir, ve egzozdan duman ve zehirli gaz çıkarmak yasada suçtur.",
+      "en": "Constant dark or bluish smoke means fuel or oil is not burning properly. The vehicle pollutes more, and giving off smoke and toxic gas from the exhaust is an offence in law."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 043 (Tüzük md. 49(18))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -998,13 +998,13 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Kaldırım yayaların alanıdır. Kaldırımı kapatan araç, en korunmasız yol kullanıcılarını trafiğin içine iter.",
-      "en": "The pavement is the pedestrians' space. A car blocking it pushes the most vulnerable road users into traffic."
+      "tr": "Kaldırım yayaların alanıdır ve kaldırımda araç sürmek, durmak ya da park etmek yasada suçtur. Kaldırımı kapatan araç, en korunmasız yol kullanıcılarını trafiğin içine iter.",
+      "en": "The pavement is the pedestrians' space, and driving, stopping or parking on it is an offence in law. A car blocking it pushes the most vulnerable road users into traffic."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 090 (Tüzük md. 57(4))",
     "reviewedAt": "2026-10-20"
   },
   {

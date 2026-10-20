@@ -28,12 +28,12 @@
         "en": "Passing on the left is an offence"
       },
       "body": {
-        "tr": "Bir aracı sol tarafından geçmek trafik suçudur. 2023 ceza listesinde asgari ücretin yüzde 15'i ve 20 ceza puanı olarak yer alır.\n\nÇift şeritli yolda yavaş bir araç sağ şeritte gidiyor diye onu soldan geçme. Sürücü sol şeride dönene kadar bekle, sonra sağdan solla.",
-        "en": "Passing a vehicle on its left is an offence. The 2023 penalty list sets it at 15% of the minimum wage and 20 penalty points.\n\nOn a dual carriageway, do not pass a slow vehicle on the left just because it is sitting in the right lane. Wait until the driver moves back to the left, then overtake on the right."
+        "tr": "Bir aracı sol tarafından geçmek trafik suçudur. 16/2025 sayılı yasanın cetvelinde asgari ücretin yüzde 15'i ve 20 ceza puanı olarak yer alır.\n\nÇift şeritli yolda yavaş bir araç sağ şeritte gidiyor diye onu soldan geçme. Sürücü sol şeride dönene kadar bekle, sonra sağdan solla.",
+        "en": "Passing a vehicle on its left is an offence. The schedule of Law 16/2025 sets it at 15% of the minimum wage and 20 penalty points.\n\nOn a dual carriageway, do not pass a slow vehicle on the left just because it is sitting in the right lane. Wait until the driver moves back to the left, then overtake on the right."
       },
-      "basis": "secondary",
-      "sourceId": "s31",
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 084 (Tüzük md. 57(2)(b))"
     },
     {
       "heading": {
@@ -67,8 +67,21 @@
         "en": "Being overtaken, and dual carriageways"
       },
       "body": {
-        "tr": "Biri seni sollarken solda kal, hızını artırma ve gerekirse biraz yavaşla; böylece önüne güvenle dönebilir.\n\nÇift şeritli yolda normalde sol şeritte gidersin. Sağ şeridi sollamak için kullanır, sollama bitince sola dönersin. Sağ şeritte gereksiz yere kalmak arkadan gelenleri seni soldan geçmeye iter.\n\nÇift şeritli yolda çıkışı kaçırırsan geri geri gitme ve U dönüşü yapma. Bir sonraki kavşağa ya da çembere kadar devam et.",
-        "en": "When someone overtakes you, keep left, do not speed up, and ease off a little if needed so they can pull in safely ahead of you.\n\nOn a dual carriageway you normally drive in the left lane. You use the right lane to overtake and move back left when you have finished. Sitting in the right lane for no reason pushes drivers behind to pass you on the left.\n\nIf you miss your exit on a dual carriageway, never reverse or make a U-turn. Carry on to the next junction or roundabout."
+        "tr": "Biri seni sollarken solda kal, hızını artırma ve gerekirse biraz yavaşla; böylece önüne güvenle dönebilir.\n\nÇift şeritli yolda normalde sol şeritte gidersin. Sağ şeridi sollamak için kullanır, sollama bitince sola dönersin. Sağ şeritte gereksiz yere kalmak arkadan gelenleri seni soldan geçmeye iter.",
+        "en": "When someone overtakes you, keep left, do not speed up, and ease off a little if needed so they can pull in safely ahead of you.\n\nOn a dual carriageway you normally drive in the left lane. You use the right lane to overtake and move back left when you have finished. Sitting in the right lane for no reason pushes drivers behind to pass you on the left."
+      },
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 078, 080, 084 ve 085 (Tüzük md. 57(2)(a), (b), (c)); Fasıl 334 md. 2(c)"
+    },
+    {
+      "heading": {
+        "tr": "Çıkışı kaçırırsan",
+        "en": "If you miss your exit"
+      },
+      "body": {
+        "tr": "Çift şeritli yolda çıkışı kaçırırsan geri geri gitme ve U dönüşü yapma. Bir sonraki kavşağa ya da çembere kadar devam et.",
+        "en": "If you miss your exit on a dual carriageway, never reverse or make a U-turn. Carry on to the next junction or roundabout."
       },
       "basis": "practice",
       "sourceId": null,
@@ -99,9 +112,9 @@
         "tr": "Bir aracı solundan geçmek trafik suçudur.",
         "en": "Passing a vehicle on its left is an offence."
       },
-      "basis": "secondary",
-      "sourceId": "s31",
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 084 (Tüzük md. 57(2)(b))"
     },
     {
       "text": {

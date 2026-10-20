@@ -274,9 +274,9 @@
       "en": "Side-wall damage means the inner structure of the tyre is weakened. A tyre like this can burst without warning."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 033 (Tüzük md. 49(5))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -830,13 +830,13 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Basında yayımlanan ceza listesinde ışık kurallarına aykırılık, para cezası ve ceza puanıyla yer alır. Işıklar seni görünür kılar; bozuksa yola çıkmadan onar.",
-      "en": "The fines list published in the press includes light offences, with a fine and penalty points. Lights make you visible, so fix a fault before you drive."
+      "tr": "Işık kurallarına aykırılık ya da yetersiz ışıkla araç kullanmak yasada para cezası ve ceza puanı gerektiren bir suçtur. Işıklar seni görünür kılar; bozuksa yola çıkmadan onar.",
+      "en": "Breaking the lighting rules or driving with inadequate lights is an offence in law, with a fine and penalty points. Lights make you visible, so fix a fault before you drive."
     },
     "signId": null,
-    "basis": "secondary",
-    "sourceId": "s31",
-    "sourceRef": "ışık kurallarına aykırılık, 2023 ceza listesi",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 036 ve 037 (Tüzük md. 49(10))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -1058,9 +1058,9 @@
       "en": "Worn blades badly reduce your view, especially at night against oncoming headlights. Blades are cheap and quick to replace."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 059 (Tüzük md. 49(22))",
     "reviewedAt": "2026-10-20"
   },
   {

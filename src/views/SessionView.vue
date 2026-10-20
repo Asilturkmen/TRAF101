@@ -9,7 +9,7 @@ import { usePage, useLang } from '../composables/usePage.js';
 import { usePool } from '../composables/usePool.js';
 import { lessonMetaBySlug } from '../content/meta.js';
 import { buildDailyReview, buildLessonPractice, buildMistakes } from '../lib/sessions.js';
-import { dayNumber } from '../lib/leitner.js';
+import { dayNumber, inMistakes } from '../lib/leitner.js';
 import { to, lessonPath, lessonPracticePath, lessonTitle, both } from '../lib/paths.js';
 import { tx } from '../lib/text.js';
 import PageHero from '../components/PageHero.vue';
@@ -119,6 +119,14 @@ function build() {
 }
 
 onMounted(async () => {
+  // My mistakes with no saved mistakes: show the empty state at once instead of
+  // waiting for the question bank.
+  progress.load();
+  if (mode.value === 'mistakes' && !Object.values(progress.items).some(inMistakes)) {
+    queue.value = [];
+    ready.value = true;
+    return;
+  }
   await poolReady;
   build();
 });

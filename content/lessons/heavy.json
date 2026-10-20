@@ -41,12 +41,12 @@
         "en": "Alcohol and tiredness"
       },
       "body": {
-        "tr": "Toplu taşıma aracı kullanan sürücüler için alkol sınırı **sıfırdır**. Otobüs ya da dolmuş sürücüsü olarak tek bir içki bile seni sınırın üstüne çıkarır.\n\nAşırı yorgunken araç kullanmak da suçtur. Uzun yolda düzenli mola ver ve uykusuz direksiyona geçme.",
-        "en": "For drivers of public-transport vehicles the alcohol limit is **zero**. As a bus or dolmuş driver, a single drink puts you over the limit.\n\nDriving when overtired is also an offence. On long journeys take regular breaks and never start a shift without sleep."
+        "tr": "Toplu taşıma aracı kullanan sürücüler için alkol sınırı **sıfırdır**. Otobüs ya da dolmuş sürücüsü olarak tek bir içki bile seni sınırın üstüne çıkarır. 2025 değişikliğiyle kira ya da ücret karşılığı yük taşıma izni olan kamyonet ve kamyon sürücülerine de alkol cezası sıfırdan başlar.\n\nAşırı yorgunken araç kullanmak da suçtur. Uzun yolda düzenli mola ver ve uykusuz direksiyona geçme.",
+        "en": "For drivers of public-transport vehicles the alcohol limit is **zero**. As a bus or dolmuş driver, a single drink puts you over the limit. Since the 2025 amendment, drink-driving penalties also start from zero for drivers of vans and lorries with a permit to carry goods for hire or reward.\n\nDriving when overtired is also an offence. On long journeys take regular breaks and never start a shift without sleep."
       },
       "basis": "law",
-      "sourceId": "s8",
-      "sourceRef": "md. 2"
+      "sourceId": "up-yg-2022",
+      "sourceRef": "md. 2; ticari araçlar için 14/2025 md. 2 (Yol Güvenliği Yasası md. 9(1)(Ç)); yorgunluk için 21/1974 md. 10"
     },
     {
       "heading": {
@@ -104,7 +104,7 @@
         "en": "For public-transport drivers the alcohol limit is zero."
       },
       "basis": "law",
-      "sourceId": "s8",
+      "sourceId": "up-yg-2022",
       "sourceRef": "md. 2"
     },
     {

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "up-cetvel-2025",
+    "kind": "official",
+    "title": "Yol ve Trafik Suçlarının Davasız Halli ve Ceza Puanı (Değişiklik) Yasası (16/2025) ve Ek Cetvel",
+    "url": "https://evrakcm.gov.ct.tr/siteler/belgeler/Yasalar/Shared%20Documents/2025/16-2025.docx",
+    "checkedAt": "2026-10-20",
+    "note": "Law 16/2025 (Cumhuriyet Meclisi, 24 March 2025) replacing the schedule of offences that can be settled by fixed penalty. Each row names the offence, the fixed fine as a percentage of the minimum wage, the penalty points and the article of the Motorlu Araçlar ve Yol Trafik Yasası or Tüzük that it breaks (for example Tüzük md. 57). Cited here by schedule code (kod). Amended only on revenue allocation by 44/2025. Checked against later laws up to 70/2026: no further change to the schedule found."
+  },
+  {
+    "id": "up-yg-2022",
+    "kind": "official",
+    "title": "Yol Güvenliği Yasası (10/2022)",
+    "url": "https://evrakcm.gov.ct.tr/siteler/belgeler/Yasalar/Shared%20Documents/2022/10-2022.docx",
+    "checkedAt": "2026-10-20",
+    "note": "Law 10/2022, which repeals and replaces the 1988 Yol Güvenliği Yasası (9/1988) (md. 11). md. 2 sets the limits (24 µg/100 ml breath, 50 mg/100 ml blood, 65 mg/100 ml urine; 0 for public-transport drivers; 0 for drugs for all drivers). md. 3(1) bans driving over the alcohol limit, md. 3(2) bans driving under the influence of drugs."
+  },
+  {
+    "id": "up-yg-2025",
+    "kind": "official",
+    "title": "Yol Güvenliği (Değişiklik) Yasası (14/2025)",
+    "url": "https://evrakcm.gov.ct.tr/siteler/belgeler/Yasalar/Shared%20Documents/2025/14-2025.docx",
+    "checkedAt": "2026-10-20",
+    "note": "Law 14/2025, new md. 9 of the Yol Güvenliği Yasası: penalty bands for alcohol (A: above 50 up to 100 mg blood, B: above 100 up to 150 mg, C: above 150 mg, court case, up to 15 times the monthly minimum wage or 3 years, licence ban up to 6 months). md. 9(1)(Ç): for drivers of vehicles used for the public (taxi, passenger minibus, bus, kamyonet, kamyon and heavy lorry with a hire or reward permit) band A starts from 0."
+  },
+  {
+    "id": "up-mayt-2025",
+    "kind": "official",
+    "title": "Motorlu Araçlar ve Yol Trafik (Değişiklik) Yasası (15/2025)",
+    "url": "https://evrakcm.gov.ct.tr/siteler/belgeler/Yasalar/Shared%20Documents/2025/15-2025.docx",
+    "checkedAt": "2026-10-20",
+    "note": "Law 15/2025 amending 21/1974. md. 4 replaces Yasa md. 9: driving or attempting to drive while the ability to drive safely is impaired by a medicine is an offence (up to 5 times the monthly minimum wage or 2 years, licence ban up to 1 year). Also adds electronic enforcement (camera) to Yasa md. 5(2)."
+  }
+]

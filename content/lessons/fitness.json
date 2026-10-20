@@ -15,12 +15,12 @@
         "en": "Alcohol limits"
       },
       "body": {
-        "tr": "Yol Güvenliği Yasası'ndaki sınırlar şunlardır:\n\n- **Kanda:** 100 ml'de 50 mg\n- **Nefeste:** 100 ml'de 24 mikrogram\n- **İdrarda:** 100 ml'de 65 mg\n\n**Toplu taşıma** aracı kullanan sürücüler için sınır **sıfırdır**.\n\nAlkolün etkisi kişiye, yorgunluğa ve yediklerine göre değişir. Ne kadar içkinin seni sınırın altında tutacağını bilemezsin. Araç kullanacaksan hiç içmemek en güvenlisidir.",
-        "en": "The limits in the Road Safety Law (Yol Güvenliği Yasası) are:\n\n- **Blood:** 50 mg per 100 ml\n- **Breath:** 24 micrograms per 100 ml\n- **Urine:** 65 mg per 100 ml\n\nFor drivers of **public-transport** vehicles the limit is **zero**.\n\nThe effect of alcohol depends on the person, how tired they are and what they have eaten. You cannot know how much keeps you under the limit. If you are driving, the safest choice is not to drink at all."
+        "tr": "Yol Güvenliği Yasası'ndaki sınırlar şunlardır:\n\n- **Kanda:** 100 ml'de 50 mg\n- **Nefeste:** 100 ml'de 24 mikrogram\n- **İdrarda:** 100 ml'de 65 mg\n\n**Toplu taşıma** aracı kullanan sürücüler için sınır **sıfırdır**. 2025 değişikliğiyle kira ya da ücret karşılığı yolcu veya yük taşıma izni olan taksi, minibüs, otobüs, kamyonet ve kamyon sürücülerine de alkol cezası sıfırdan başlar.\n\nAlkolün etkisi kişiye, yorgunluğa ve yediklerine göre değişir. Ne kadar içkinin seni sınırın altında tutacağını bilemezsin. Araç kullanacaksan hiç içmemek en güvenlisidir.",
+        "en": "The limits in the Road Safety Law (Yol Güvenliği Yasası) are:\n\n- **Blood:** 50 mg per 100 ml\n- **Breath:** 24 micrograms per 100 ml\n- **Urine:** 65 mg per 100 ml\n\nFor drivers of **public-transport** vehicles the limit is **zero**. Since the 2025 amendment, drink-driving penalties also start from zero for drivers of taxis, minibuses, buses, vans and lorries with a permit to carry passengers or goods for hire or reward.\n\nThe effect of alcohol depends on the person, how tired they are and what they have eaten. You cannot know how much keeps you under the limit. If you are driving, the safest choice is not to drink at all."
       },
       "basis": "law",
-      "sourceId": "s8",
-      "sourceRef": "md. 2"
+      "sourceId": "up-yg-2022",
+      "sourceRef": "md. 2; ticari araçlar için 14/2025 md. 2 (Yol Güvenliği Yasası md. 9(1)(Ç))"
     },
     {
       "heading": {
@@ -28,12 +28,12 @@
         "en": "Drink-driving penalties"
       },
       "body": {
-        "tr": "5 Nisan 2025'ten bu yana kandaki alkol oranına göre:\n\n- **51–100 mg** (nefeste 24–47 mikrogram): asgari ücretin yarısı ve 100 ceza puanı\n- **101–150 mg:** asgari ücretin tamamı ve 100 ceza puanı\n- **150 mg üstü:** sabit ceza yoktur, sürücü mahkemeye çıkarılır. Mahkeme hapis cezası ve ehliyetten men kararı verebilir.\n\n100 ceza puanı tek başına ehliyetin askıya alınmasına yeter.",
-        "en": "Since 5 April 2025, by blood-alcohol level:\n\n- **51–100 mg** (breath 24–47 micrograms): half the minimum wage and 100 penalty points\n- **101–150 mg:** the full minimum wage and 100 penalty points\n- **Over 150 mg:** no fixed penalty; the driver goes to court, which can order prison and a driving ban.\n\n100 penalty points on its own is enough for a licence suspension."
+        "tr": "16/2025 ve 14/2025 sayılı yasalara göre, kandaki alkol oranına bağlı olarak:\n\n- **51–100 mg** (nefeste 24–47 mikrogram): asgari ücretin yarısı ve 100 ceza puanı\n- **101–150 mg:** asgari ücretin tamamı ve 100 ceza puanı\n- **150 mg üstü:** sabit ceza yoktur, sürücü mahkemeye çıkarılır. Mahkeme hapis cezası ve ehliyetten men kararı verebilir.\n\n100 ceza puanı tek başına ehliyetin askıya alınmasına yeter.",
+        "en": "Under Laws 16/2025 and 14/2025, by blood-alcohol level:\n\n- **51–100 mg** (breath 24–47 micrograms): half the minimum wage and 100 penalty points\n- **101–150 mg:** the full minimum wage and 100 penalty points\n- **Over 150 mg:** no fixed penalty; the driver goes to court, which can order prison and a driving ban.\n\n100 penalty points on its own is enough for a licence suspension."
       },
-      "basis": "secondary",
-      "sourceId": "s28",
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 111 ve 170; 150 mg üstü için 14/2025 md. 2 (Yol Güvenliği Yasası md. 9(1)(C))"
     },
     {
       "heading": {
@@ -67,12 +67,12 @@
         "en": "Medicines, drugs and health"
       },
       "body": {
-        "tr": "Bazı ilaçlar, örneğin bazı alerji, ağrı ve uyku ilaçları, uyku hali yapar ve tepki süreni uzatır. Prospektüsü oku; emin değilsen eczacına ya da doktoruna sor.\n\nUyuşturucu etkisindeyken araç kullanma. Hastalık, ateş, öfke ve üzüntü de sürüşünü bozar. Gözlük ya da lens kullanıyorsan sürerken tak.",
-        "en": "Some medicines, such as certain allergy, pain and sleeping tablets, cause drowsiness and slow your reactions. Read the leaflet, and if you are not sure, ask a pharmacist or doctor.\n\nNever drive under the influence of drugs. Illness, fever, anger and grief also affect your driving. If you need glasses or contact lenses, wear them when you drive."
+        "tr": "Bazı ilaçlar, örneğin bazı alerji, ağrı ve uyku ilaçları, uyku hali yapar ve tepki süreni uzatır. Prospektüsü oku; emin değilsen eczacına ya da doktoruna sor.\n\nSürüş yeteneğini bozan bir ilacın etkisindeyken araç kullanmak suçtur. Uyuşturucu için sınır bütün sürücülerde sıfırdır; etkisindeyken araç kullanmak yasaktır. Hastalık, ateş, öfke ve üzüntü de sürüşünü bozar. Gözlük ya da lens kullanıyorsan sürerken tak.",
+        "en": "Some medicines, such as certain allergy, pain and sleeping tablets, cause drowsiness and slow your reactions. Read the leaflet, and if you are not sure, ask a pharmacist or doctor.\n\nDriving while a medicine impairs your ability to drive is an offence. For drugs the limit is zero for every driver, and driving under their influence is banned. Illness, fever, anger and grief also affect your driving. If you need glasses or contact lenses, wear them when you drive."
       },
-      "basis": "practice",
-      "sourceId": null,
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-mayt-2025",
+      "sourceRef": "md. 4 (Yasa md. 9); uyuşturucu için 10/2022 md. 2 ve 3(2)"
     }
   ],
   "keyPoints": [
@@ -82,7 +82,7 @@
         "en": "The alcohol limit is 50 mg per 100 ml of blood and 24 micrograms per 100 ml of breath."
       },
       "basis": "law",
-      "sourceId": "s8",
+      "sourceId": "up-yg-2022",
       "sourceRef": "md. 2"
     },
     {
@@ -91,7 +91,7 @@
         "en": "For public-transport drivers the alcohol limit is zero."
       },
       "basis": "law",
-      "sourceId": "s8",
+      "sourceId": "up-yg-2022",
       "sourceRef": "md. 2"
     },
     {
@@ -99,9 +99,9 @@
         "tr": "51 ile 150 mg arasındaki alkol cezaları 100 ceza puanı getirir; 150 mg üstünde sabit ceza yoktur, sürücü mahkemeye çıkarılır.",
         "en": "Drink-driving penalties between 51 and 150 mg bring 100 penalty points; above 150 mg there is no fixed penalty and the driver goes to court."
       },
-      "basis": "secondary",
-      "sourceId": "s29",
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 111 ve 170; 150 mg üstü için 14/2025 md. 2"
     },
     {
       "text": {
@@ -126,9 +126,9 @@
         "tr": "Telefon kullanmak 50 ceza puanıdır; telefonu elde tutmadan Bluetooth ile konuşmak suç sayılmaz.",
         "en": "Using a phone costs 50 penalty points; talking over Bluetooth without holding the phone is not an offence."
       },
-      "basis": "secondary",
-      "sourceId": "s29",
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 176 (Tüzük md. 57(3)(c))"
     }
   ],
   "relatedSigns": [],

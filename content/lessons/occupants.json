@@ -126,9 +126,9 @@
         "tr": "Kemer ya da çocuk koltuğu kuralına uymamak 10 ceza puanıdır.",
         "en": "Breaking the seat-belt or child-seat rule costs 10 penalty points."
       },
-      "basis": "secondary",
-      "sourceId": "s28",
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 072 ve 073 (Emniyet Kemeri Yasası md. 5)"
     }
   ],
   "relatedSigns": [],

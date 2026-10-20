@@ -139,9 +139,9 @@
         "tr": "Telefon kullanmak 50, emniyet kemeri takmamak 10, polisin dur ihtarına uymamak 100 ceza puanıdır.",
         "en": "Using a phone costs 50 points, not wearing a seat belt 10, and ignoring a police order to stop 100."
       },
-      "basis": "secondary",
-      "sourceId": "s28",
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 176, 072 ve 152"
     }
   ],
   "relatedSigns": [],

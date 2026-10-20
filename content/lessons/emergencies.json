@@ -28,12 +28,25 @@
         "en": "If you break down"
       },
       "body": {
-        "tr": "- Dörtlü flaşörü yak ve aracı mümkünse yolun en soluna, bankete ya da bir cebe çek.\n- Motoru durdur, el frenini çek.\n- Yolcuları kaldırım tarafından, yani soldan indir ve yoldan uzakta, varsa bariyerin arkasında beklet.\n- Reflektörün (uyarı üçgenin) varsa aracının arkasına, aynı tarafta ve yaklaşan sürücülerin zamanında göreceği bir uzaklığa koy. Koyarken trafiğe arkanı dönme.\n- Gece ya da kötü havada açık renkli, yansıtıcı bir yelek giy.\n\nAracınla trafik arasında hiçbir zaman durma.",
-        "en": "- Switch on your hazard lights and, if you can, move the car as far left as possible, onto the verge or into a lay-by.\n- Switch off the engine and apply the handbrake.\n- Let passengers out on the kerb side, which is the left, and keep them well away from the road, behind a barrier if there is one.\n- If you have a warning triangle, place it behind the car, on the same side and far enough back for approaching drivers to see it in time. Do not turn your back on the traffic while you do it.\n- At night or in bad weather, wear a light-coloured reflective vest.\n\nNever stand between your car and the traffic."
+        "tr": "- Dörtlü flaşörü yak ve aracı mümkünse yolun en soluna, bankete ya da bir cebe çek.\n- Motoru durdur, el frenini çek.\n- Yolcuları kaldırım tarafından, yani soldan indir ve yoldan uzakta, varsa bariyerin arkasında beklet.\n- Reflektörü (uyarı üçgenini) aracının arkasına, aynı tarafta ve yaklaşan sürücülerin zamanında göreceği bir uzaklığa koy. Koyarken trafiğe arkanı dönme.\n- Gece ya da kötü havada açık renkli, yansıtıcı bir yelek giy.\n\nAracınla trafik arasında hiçbir zaman durma.",
+        "en": "- Switch on your hazard lights and, if you can, move the car as far left as possible, onto the verge or into a lay-by.\n- Switch off the engine and apply the handbrake.\n- Let passengers out on the kerb side, which is the left, and keep them well away from the road, behind a barrier if there is one.\n- Place your warning triangle behind the car, on the same side and far enough back for approaching drivers to see it in time. Do not turn your back on the traffic while you do it.\n- At night or in bad weather, wear a light-coloured reflective vest.\n\nNever stand between your car and the traffic."
       },
       "basis": "practice",
       "sourceId": null,
       "sourceRef": null
+    },
+    {
+      "heading": {
+        "tr": "Yasanın senden istedikleri",
+        "en": "What the law requires"
+      },
+      "body": {
+        "tr": "- Her motorlu araçta bir **reflektör** (uyarı üçgeni) ve bir **ilk yardım çantası** bulunmalıdır.\n- Gece aracı kamuya açık bir yolda bırakırsan önüne ve arkasına reflektör konması gerekir.\n- Gece yolda zorunlu olarak durursan dörtlü flaşörü yak ya da aracın üstünde sürekli yanıp sönen bir ışık tut.\n- Kazaya karıştıysan öbür taraf istediğinde kimliğini, ehliyetini ve araç belgelerini gösterirsin.\n- Karıştığın trafik kazasını 24 saat içinde polise bildirirsin.",
+        "en": "- Every motor vehicle must carry a **warning triangle** and a **first-aid kit**.\n- If you leave the vehicle on a public road at night, triangles must be placed in front of it and behind it.\n- If you are forced to stop on the road at night, switch on your hazard lights or keep a flashing light on top of the vehicle.\n- If you are involved in a crash, show your identity, driving licence and vehicle documents when the other party asks.\n- Report any traffic accident you were involved in to the police within 24 hours."
+      },
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 077, 154, 009, 095 ve 098 (Tüzük md. 57(1)(z), 49(28), 60(1), 60(2); Yasa md. 14(2))"
     },
     {
       "heading": {
@@ -106,6 +119,15 @@
       "basis": "practice",
       "sourceId": null,
       "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Araçta reflektör ve ilk yardım çantası bulundur; karıştığın kazayı 24 saat içinde polise bildir.",
+        "en": "Carry a warning triangle and a first-aid kit, and report any crash you were in to the police within 24 hours."
+      },
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 077, 154 ve 098"
     },
     {
       "text": {

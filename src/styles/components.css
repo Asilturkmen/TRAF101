@@ -465,6 +465,10 @@
 }
 .basis-line a {
   color: var(--color-primary);
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  min-width: 24px;
 }
 .basis-tag {
   font-weight: 700;

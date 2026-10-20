@@ -218,9 +218,9 @@
       "en": "A police officer directing traffic overrides lights and signs. The officer can see what is happening at the junction better than a signal can."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 048 ve 152 (Tüzük md. 57(1)(j))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -498,9 +498,9 @@
       "en": "This sign orders you to pass on the left of the obstacle. In left-hand traffic, the right side of an island usually belongs to traffic coming the other way."
     },
     "signId": "mandatory.keep-left",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 157 (Tüzük md. 57(1)(k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -554,9 +554,9 @@
       "en": "This sign bans vehicles from entering at this end. The street is often one-way from the other end, so entering would put you head-on with traffic."
     },
     "signId": "prohibitory.no-entry",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 157 (Tüzük md. 57(1)(k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -608,9 +608,9 @@
       "en": "This sign bans goods vehicles from the road. If a plate shows a weight or times, the ban is limited to those; without a plate, you do not enter."
     },
     "signId": "prohibitory.no-goods-vehicles",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 157 (Tüzük md. 57(1)(k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -662,9 +662,9 @@
       "en": "The height on the sign is the tallest vehicle that can pass. Knowing your vehicle's height and planning the route is the driver's job."
     },
     "signId": "prohibitory.height-limit",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 157 (Tüzük md. 57(1)(k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -716,9 +716,9 @@
       "en": "This sign bans motorcycles from the road. The ban does not depend on engine size, passengers or speed."
     },
     "signId": "prohibitory.no-motorcycles",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 157 (Tüzük md. 57(1)(k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -1052,9 +1052,9 @@
       "en": "This sign means you must give way to traffic on the main road. If the road is clear you may go on without stopping, but you must not make a driver on the main road slow down or swerve."
     },
     "signId": "priority.give-way",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 157 (Tüzük md. 57(1)(k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -1108,9 +1108,9 @@
       "en": "At a STOP (DUR) sign you must stop even when the road is clear. Once stopped, look both ways properly and move off only when it is safe."
     },
     "signId": "priority.stop",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 052 ve 157 (Tüzük md. 57(1)(ö), (k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -1164,9 +1164,9 @@
       "en": "Priority to the right applies only where there are no signs, lights or markings. Where there is a sign, the sign decides."
     },
     "signId": "priority.give-way",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 157 (Tüzük md. 57(1)(k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -1440,13 +1440,13 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Acil araca yol vermemek KKTC ceza listesinde yer alan bir suçtur. Ocak 2023 listesine göre cezası asgari ücretin yüzde 15'i kadar para cezası ve 10 ceza puanıdır. TL tutarı asgari ücretle birlikte değişir.",
-      "en": "Failing to give way to an emergency vehicle is on the North Cyprus list of offences. The January 2023 list sets a fine of 15% of the minimum wage and 10 penalty points. The amount in TL changes with the minimum wage."
+      "tr": "Acil araca yol vermemek yasada suçtur. 16/2025 sayılı yasanın cetveline göre cezası asgari ücretin yüzde 15'i kadar para cezası ve 10 ceza puanıdır. TL tutarı asgari ücretle birlikte değişir.",
+      "en": "Failing to give way to an emergency vehicle is an offence in law. The schedule of Law 16/2025 sets a fine of 15% of the minimum wage and 10 penalty points. The amount in TL changes with the minimum wage."
     },
     "signId": null,
-    "basis": "secondary",
-    "sourceId": "s31",
-    "sourceRef": "Ocak 2023 ceza listesi",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 011 (Tüzük md. 57(1)(aa); Yasa md. 14A)",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -1496,13 +1496,13 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "Sol trafikte sağa dönüş karşı yönün şeridini keser, bu yüzden karşıdan gelene yol verirsin. Sağa dönerken karşıdan gelene yol vermemek ceza listesinde suçtur.",
-      "en": "In left-hand traffic a right turn crosses the oncoming lane, so you give way to oncoming traffic. Failing to do so is an offence on the fine list."
+      "tr": "Sol trafikte sağa dönüş karşı yönün şeridini keser, bu yüzden karşıdan gelene yol verirsin. Karşıdan düz gelene yol vermeden sağa dönmek yasada suçtur.",
+      "en": "In left-hand traffic a right turn crosses the oncoming lane, so you give way to oncoming traffic. Turning right without giving way to traffic coming straight on is an offence in law."
     },
     "signId": null,
-    "basis": "secondary",
-    "sourceId": "s31",
-    "sourceRef": "2023 ceza listesi",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 054 (Tüzük md. 57(1)(r))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -1612,9 +1612,9 @@
       "en": "This sign tells you to give way to oncoming traffic through the narrow section. You go once the other side is clear."
     },
     "signId": "priority.give-way-to-oncoming",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 157 (Tüzük md. 57(1)(k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -2284,9 +2284,9 @@
       "en": "A blue mandatory sign means you may only go the way the arrow shows. You correct your route after the turn."
     },
     "signId": "mandatory.turn-left",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 157 (Tüzük md. 57(1)(k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -2340,9 +2340,9 @@
       "en": "This sign bans right turns at that junction, whatever the oncoming traffic. Correct your route at the next suitable junction or roundabout."
     },
     "signId": "prohibitory.no-right-turn",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 157 (Tüzük md. 57(1)(k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -2396,9 +2396,9 @@
       "en": "This sign bans U-turns at that point. Reversing back to the street you missed is dangerous too, so use a roundabout or suitable junction further on."
     },
     "signId": "prohibitory.no-u-turn",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 157 (Tüzük md. 57(1)(k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -3379,9 +3379,9 @@
       "en": "A speed-limit sign in a red ring is a maximum, not a target. In rain, heavy traffic or poor visibility you drive below it."
     },
     "signId": "prohibitory.speed-limit--65",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "s6",
+    "sourceRef": "md. 6(2) ve 6(4)",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -3435,9 +3435,9 @@
       "en": "A posted limit replaces the general limit on that road. Lower limits are usually set on narrow streets and near schools or busy pedestrian areas."
     },
     "signId": "prohibitory.speed-limit--30",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "s6",
+    "sourceRef": "md. 6(2) ve 6(4)",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -3491,9 +3491,9 @@
       "en": "A speed limit is a maximum set for good conditions. On a wet road stopping distances grow and visibility drops, so choosing a suitable speed is the driver's job."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "s6",
+    "sourceRef": "md. 6(1)",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -3547,9 +3547,9 @@
       "en": "Driving unnecessarily slowly pushes others into risky overtakes. In left-hand traffic, keeping left and letting them by at a suitable place is safer for everyone."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 078 ve 085 (Tüzük md. 57(2)(a), (c))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -3991,13 +3991,13 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Basında yer alan 2023 ceza listesinde bir aracı solundan sollamanın cezası asgari ücretin yüzde 15'i ve 20 ceza puanıdır. Sollama her zaman sağdan yapılır.",
-      "en": "On the 2023 fine list reported in the press, overtaking a vehicle on its left costs 15% of the minimum wage and 20 penalty points. You always overtake on the right."
+      "tr": "16/2025 sayılı yasanın cetveline göre aynı yöne giden bir aracı solundan geçmenin cezası asgari ücretin yüzde 15'i ve 20 ceza puanıdır. Sollama her zaman sağdan yapılır.",
+      "en": "Under the schedule of Law 16/2025, passing a vehicle going the same way on its left costs 15% of the minimum wage and 20 penalty points. You always overtake on the right."
     },
     "signId": null,
-    "basis": "secondary",
-    "sourceId": "s31",
-    "sourceRef": "2023 ceza listesi",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 084 (Tüzük md. 57(2)(b))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -4051,9 +4051,9 @@
       "en": "This sign bans overtaking motor vehicles until a sign shows the restriction has ended. It is usually placed where you cannot see far enough ahead."
     },
     "signId": "prohibitory.no-overtaking",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 157 (Tüzük md. 57(1)(k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -4219,9 +4219,9 @@
       "en": "The keep-left rule also applies on roads with several lanes. Use the right lane to overtake, then move back to the left."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 078, 080 ve 084 (Tüzük md. 57(2)(a)(ii), (b))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -4331,9 +4331,9 @@
       "en": "This sign warns that two-way traffic starts ahead. If you stay in the right-hand lane, you may meet oncoming traffic head-on."
     },
     "signId": "warning.two-way-traffic",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "s7",
+    "sourceRef": "md. 2(a)",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -4387,9 +4387,9 @@
       "en": "This sign warns that the road narrows on both sides. Two vehicles may barely fit, so slowing down and keeping left avoids a collision."
     },
     "signId": "warning.road-narrows--both",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 078 ve 086 (Tüzük md. 57(2)(a), (d))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -4497,9 +4497,9 @@
       "en": "A stopped vehicle can hide a pedestrian from you. If someone is using or about to use the crossing, you must stop and give way."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 051 ve 076 (Tüzük md. 57(1)(o), (y))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -4549,13 +4549,13 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Kavşak yakınına park etmek ceza listesindeki park suçlarındandır. Park eden araç yayaları ve öbür araçları gizler, dönüşleri de zorlaştırır.",
-      "en": "Parking near a junction is one of the parking offences on the fine list. A parked car hides pedestrians and other vehicles and makes turning harder."
+      "tr": "Yasa bir köşeye 9,15 metreden yakın park etmeyi yasaklar. Park eden araç yayaları ve öbür araçları gizler, dönüşleri de zorlaştırır.",
+      "en": "The law bans parking within 9.15 metres of a corner. A parked car hides pedestrians and other vehicles and makes turning harder."
     },
     "signId": null,
-    "basis": "secondary",
-    "sourceId": "s31",
-    "sourceRef": "2023 ceza listesi",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 057 (Tüzük md. 57(1)(ü))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -4605,13 +4605,13 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Otobüs durağına park etmek ceza listesinde suçtur. Durağı kapatan araç otobüsü yolda durmaya, yolcuları da trafiğe inmeye zorlar.",
-      "en": "Parking at a bus stop is an offence on the fine list. A car in the stop forces the bus to halt in the road and passengers to step into traffic."
+      "tr": "Yasa otobüs durağına ve yaya geçidine 13,70 metreden yakın park etmeyi yasaklar. Durağı kapatan araç otobüsü yolda durmaya, yolcuları da trafiğe inmeye zorlar.",
+      "en": "The law bans parking within 13.70 metres of a bus stop or pedestrian crossing. A car in the stop forces the bus to halt in the road and passengers to step into traffic."
     },
     "signId": "information.bus-stop",
-    "basis": "secondary",
-    "sourceId": "s31",
-    "sourceRef": "2023 ceza listesi",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 057 (Tüzük md. 57(1)(ü))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -4661,13 +4661,13 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "Kaldırıma park etmek ceza listesindeki suçlardandır. Yayaları, özellikle bebek arabalı ve tekerlekli sandalyeli kişileri yola inmeye zorlar.",
-      "en": "Parking on the pavement is on the list of offences. It forces pedestrians, especially people with pushchairs or wheelchairs, into the road."
+      "tr": "Kaldırımda araç sürmek, durmak ya da park etmek yasada suçtur. Yayaları, özellikle bebek arabalı ve tekerlekli sandalyeli kişileri yola inmeye zorlar.",
+      "en": "Driving, stopping or parking on the pavement is an offence in law. It forces pedestrians, especially people with pushchairs or wheelchairs, into the road."
     },
     "signId": null,
-    "basis": "secondary",
-    "sourceId": "s31",
-    "sourceRef": "2023 ceza listesi",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 090 (Tüzük md. 57(4))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -4717,13 +4717,13 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Ceza listesine göre itfaiye, hastane ve okul önlerine, kavşaklara, otobüs duraklarına ve kaldırımlara park etmek yasaktır. Bu yerlerde park eden araç acil durumda hayati zaman kaybettirir.",
-      "en": "The fine list bans parking outside fire stations, hospitals and schools, at junctions, at bus stops and on pavements. A car parked there can cost precious time in an emergency."
+      "tr": "Yasa itfaiye, polis karakolu, hastane, klinik, okul ve garaj gibi yerlerin giriş ve çıkışına park etmeyi yasaklar. Bu yerlerde park eden araç acil durumda hayati zaman kaybettirir.",
+      "en": "The law bans parking at the entrance or exit of places such as fire stations, police stations, hospitals, clinics, schools and garages. A car parked there can cost precious time in an emergency."
     },
     "signId": null,
-    "basis": "secondary",
-    "sourceId": "s31",
-    "sourceRef": "2023 ceza listesi",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 058 (Tüzük md. 57(1)(v))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -4777,9 +4777,9 @@
       "en": "In left-hand traffic the edge of your lane is the left kerb. Parking against the flow means crossing the oncoming lane to park and to leave."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 075 ve 078 (Tüzük md. 57(1)(v)(ii), 57(2)(a))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -4833,9 +4833,9 @@
       "en": "This sign bans both parking and stopping, even briefly; dropping off a passenger counts as stopping. Hazard lights do not lift the ban."
     },
     "signId": "prohibitory.no-stopping",
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 049 ve 157 (Tüzük md. 57(1)(k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -5057,9 +5057,9 @@
       "en": "A door opened suddenly can knock down a cyclist or motorcyclist coming from behind. Open it slowly and only a little at first, then fully once clear."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 105 (Tüzük md. 62(a))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -5113,9 +5113,9 @@
       "en": "Drivers coming up behind see a car stopped on a bend or hilltop only at the last moment. If you must stop, choose a place with a clear view where you can get off the road."
     },
     "signId": null,
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "s6",
+    "sourceRef": "md. 14(1)",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -5445,13 +5445,13 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Polisin açıkladığı 2025 değişikliklerine göre sınırı en çok 20 km/sa aşmanın cezası 10 puan, 21 ile 40 km/sa arasında aşmanın cezası 30 puandır. Birkaç ciddi hız ihlali seni 100 puan sınırına yaklaştırır.",
-      "en": "Under the 2025 changes announced by the police, up to 20 km/h over the limit costs 10 points, and 21 to 40 km/h over costs 30 points. A few serious speeding offences bring you close to 100 points."
+      "tr": "16/2025 sayılı yasanın cetveline göre sınırı en çok 20 km/sa aşmanın cezası 10 puan, 20 ile 40 km/sa arasında aşmanın cezası 30 puan, 40 km/sa üstünde aşmanın cezası 50 puandır. Birkaç ciddi hız ihlali seni 100 puan sınırına yaklaştırır.",
+      "en": "Under the schedule of Law 16/2025, up to 20 km/h over the limit costs 10 points, 20 to 40 km/h over costs 30 points and more than 40 km/h over costs 50 points. A few serious speeding offences bring you close to 100 points."
     },
     "signId": null,
-    "basis": "secondary",
-    "sourceId": "s28",
-    "sourceRef": "05.04.2025 yasa değişiklikleri",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 001 ve 002 (Yasa md. 6)",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -5501,13 +5501,13 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "2025 değişikliklerine göre ehliyetsiz araç kullanmak ve polisin dur ihtarına uymamak 100 puandır. Telefon kullanmak 50, hafif hız aşımı ve kemer takmamak 10 puandır.",
-      "en": "Under the 2025 changes, driving without a licence and ignoring a police order to stop each bring 100 points. Phone use brings 50, and minor speeding and not wearing a seat belt 10 each."
+      "tr": "16/2025 sayılı yasanın cetveline göre ehliyetsiz araç kullanmak ve polisin dur talimatına uymamak 100 puandır. Telefon kullanmak 50, hafif hız aşımı ve kemer takmamak 10 puandır.",
+      "en": "Under the schedule of Law 16/2025, driving without a licence and ignoring a police order to stop each bring 100 points. Phone use brings 50, and minor speeding and not wearing a seat belt 10 each."
     },
     "signId": null,
-    "basis": "secondary",
-    "sourceId": "s28",
-    "sourceRef": "05.04.2025 yasa değişiklikleri",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 025, 152, 176, 001 ve 072",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -6275,13 +6275,13 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Öğrenci sürücünün aracında L levhası bulunmaması ceza listesinde suçtur. L levhası öbür sürücülere deneyimsiz biriyle karşılaştıklarını söyler.",
-      "en": "Driving as a learner without an L-plate is an offence on the fine list. The plate tells other drivers they are dealing with someone still learning."
+      "tr": "L plakası olmadan öğrenci ehliyetiyle araç kullanmak yasada suçtur. L levhası öbür sürücülere deneyimsiz biriyle karşılaştıklarını söyler.",
+      "en": "Driving on a learner licence without an L-plate is an offence in law. The plate tells other drivers they are dealing with someone still learning."
     },
     "signId": null,
-    "basis": "secondary",
-    "sourceId": "s31",
-    "sourceRef": "2023 ceza listesi",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 028 (Tüzük md. 29(4)(c))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -6331,13 +6331,13 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Öğrenci ehliyeti tek başına araç kullanma izni vermez. Refakatçi sürücü olmadan araç kullanmak ceza listesinde suç olarak yer alır.",
-      "en": "A learner licence does not allow you to drive alone. Driving without an accompanying driver is an offence on the fine list."
+      "tr": "Öğrenci ehliyeti tek başına araç kullanma izni vermez. Yanında ruhsatlı bir sürücü olmadan araç kullanmak yasada suçtur.",
+      "en": "A learner licence does not allow you to drive alone. Driving without a licensed driver beside you is an offence in law."
     },
     "signId": null,
-    "basis": "secondary",
-    "sourceId": "s31",
-    "sourceRef": "2023 ceza listesi",
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 027 (Tüzük md. 29(4)(a))",
     "reviewedAt": "2026-10-20"
   },
   {

@@ -993,8 +993,8 @@
       }
     ],
     "explanation": {
-      "tr": "Olay yerinde önce güvenlik: aracını trafiği engellemeyen bir yere çek, dörtlü flaşörü yak, varsa reflektörü (uyarı üçgeni) koy. Sonra 112'yi (ambulans) ve 155'i (polis) ara. Yangın gibi yakın bir tehlike yoksa yaralıyı yerinden oynatma.",
-      "en": "Safety comes first at the scene: park where you do not block traffic, switch on your hazard lights and put out a warning triangle if you have one. Then call 112 (ambulance) and 155 (police). Do not move an injured person unless there is an immediate danger such as fire."
+      "tr": "Olay yerinde önce güvenlik: aracını trafiği engellemeyen bir yere çek, dörtlü flaşörü yak, reflektörü (uyarı üçgeni) koy. Sonra 112'yi (ambulans) ve 155'i (polis) ara. Yangın gibi yakın bir tehlike yoksa yaralıyı yerinden oynatma.",
+      "en": "Safety comes first at the scene: park where you do not block traffic, switch on your hazard lights and put out your warning triangle. Then call 112 (ambulance) and 155 (police). Do not move an injured person unless there is an immediate danger such as fire."
     },
     "basis": "law",
     "sourceId": "s1",
@@ -1787,9 +1787,9 @@
       "tr": "Ağır vasıta sürücüsü aracının yük dahil yüksekliğini ve ağırlığını bilmelidir. Yükseklik ve ağırlık levhalarını önceden fark et ve rotanı buna göre planla.",
       "en": "A heavy-vehicle driver must know the vehicle's height and weight, including the load. Spot height and weight signs early and plan your route around them."
     },
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 157 (Tüzük md. 57(1)(k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -2055,9 +2055,9 @@
       "tr": "Karşıdan gelene yol ver levhası, darlıkta ya da köprü girişinde hangi yönün bekleyeceğini gösterir. Karşı yöndeki sürücüler önceliği gösteren levhayı görür. Öncelik sende olsa bile karşıdaki sürücünün yol verdiğinden emin ol.",
       "en": "The give-way-to-oncoming sign shows which direction must wait at a narrow section or bridge. Drivers coming the other way see a sign giving them priority. Even when priority is yours, make sure the other driver is actually giving way."
     },
-    "basis": "practice",
-    "sourceId": null,
-    "sourceRef": null,
+    "basis": "law",
+    "sourceId": "up-cetvel-2025",
+    "sourceRef": "Cetvel kod 157 (Tüzük md. 57(1)(k))",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -2320,8 +2320,8 @@
       }
     ],
     "explanation": {
-      "tr": "Arıza olunca sol kenara çek ve dörtlü flaşörü yak. Reflektörün (uyarı üçgeni) varsa onu ancak güvenle koyabiliyorsan koy. Yolcuları trafikten uzağa al. Araç trafiği tehlikeye sokuyorsa 155'i ara.",
-      "en": "If you break down, pull over to the left edge and switch on the hazard lights. Only put out a warning triangle, if you have one, when it is safe to do so. Get passengers away from the traffic. If the car is a danger to traffic, call 155."
+      "tr": "Arıza olunca sol kenara çek ve dörtlü flaşörü yak. Reflektörü (uyarı üçgenini) ancak güvenle koyabiliyorsan koy. Yolcuları trafikten uzağa al. Araç trafiği tehlikeye sokuyorsa 155'i ara.",
+      "en": "If you break down, pull over to the left edge and switch on the hazard lights. Only put out your warning triangle when it is safe to do so. Get passengers away from the traffic. If the car is a danger to traffic, call 155."
     },
     "basis": "practice",
     "sourceId": null,

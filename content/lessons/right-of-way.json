@@ -41,12 +41,12 @@
         "en": "Give way to oncoming traffic when turning right"
       },
       "body": {
-        "tr": "Sağa dönmek için karşı yönün şeridini kesersin. Bu yüzden karşıdan gelen araçlara yol vermek zorundasın. Bunu yapmamak trafik suçudur; 2023 ceza listesinde asgari ücretin yüzde 10'u ve 5 ceza puanı olarak yer alır.\n\nDar bir yolda ya da köprüde öncelik levhayla da gösterilebilir. Kırmızı halkalı, iki oklu yuvarlak levha karşıdan gelene yol vermen gerektiğini söyler.",
-        "en": "To turn right you cut across the opposite lane, so you must give way to oncoming traffic. Failing to do so is an offence; the 2023 penalty list sets it at 10% of the minimum wage and 5 penalty points.\n\nOn a narrow road or a bridge, priority may also be shown by a sign. The round sign with a red ring and two arrows tells you to give way to oncoming traffic."
+        "tr": "Sağa dönmek için karşı yönün şeridini kesersin. Bu yüzden karşıdan gelen araçlara yol vermek zorundasın. Bunu yapmamak trafik suçudur; 16/2025 sayılı yasanın cetvelinde asgari ücretin yüzde 10'u ve 5 ceza puanı olarak yer alır.\n\nDar bir yolda ya da köprüde öncelik levhayla da gösterilebilir. Kırmızı halkalı, iki oklu yuvarlak levha karşıdan gelene yol vermen gerektiğini söyler.",
+        "en": "To turn right you cut across the opposite lane, so you must give way to oncoming traffic. Failing to do so is an offence; the schedule of Law 16/2025 sets it at 10% of the minimum wage and 5 penalty points.\n\nOn a narrow road or a bridge, priority may also be shown by a sign. The round sign with a red ring and two arrows tells you to give way to oncoming traffic."
       },
-      "basis": "secondary",
-      "sourceId": "s31",
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 054 (Tüzük md. 57(1)(r))"
     },
     {
       "heading": {
@@ -90,9 +90,9 @@
         "tr": "Sağa dönerken karşıdan gelen araçlara yol verirsin.",
         "en": "When turning right, you give way to oncoming traffic."
       },
-      "basis": "secondary",
-      "sourceId": "s31",
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 054 (Tüzük md. 57(1)(r))"
     },
     {
       "text": {
@@ -108,9 +108,9 @@
         "tr": "Siren çalan acil araca yol vermemek trafik suçudur.",
         "en": "Failing to give way to an emergency vehicle using its siren is an offence."
       },
-      "basis": "secondary",
-      "sourceId": "s31",
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 011 (Tüzük md. 57(1)(aa)); Yasa md. 14A"
     },
     {
       "text": {

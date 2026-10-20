@@ -117,9 +117,9 @@
         "tr": "Kırmızı ışıkta geçmek cezalıdır.",
         "en": "Going through a red light is a fineable offence."
       },
-      "basis": "secondary",
-      "sourceId": "s30",
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 160 (Tüzük md. 57(1)(k))"
     }
   ],
   "relatedSigns": [

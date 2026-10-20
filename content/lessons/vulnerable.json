@@ -87,12 +87,12 @@
     },
     {
       "text": {
-        "tr": "Yaya geçidinde yayaya yol vermemek 2023 ceza listesinde 20 ceza puanıdır.",
-        "en": "Failing to give way to a pedestrian on a crossing carries 20 penalty points in the 2023 list."
+        "tr": "Yaya geçidini kullanan ya da kullanmak üzere olan yayaya yol vermemek 16/2025 sayılı yasanın cetvelinde 20 ceza puanıdır.",
+        "en": "Failing to give way to a pedestrian using, or about to use, a crossing carries 20 penalty points in the schedule of Law 16/2025."
       },
-      "basis": "secondary",
-      "sourceId": "s31",
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 076 (Tüzük md. 57(1)(y))"
     },
     {
       "text": {

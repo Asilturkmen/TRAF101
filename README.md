@@ -2,8 +2,8 @@
 
 KKTC (Kuzey Kıbrıs) ehliyet sınavına ücretsiz ve kayıtsız hazırlık sitesi. Türkçe ve İngilizce.
 
-- Levhalar: KKTC'de kullanılan çekirdek set, kendi çizimimiz (CC0), her levhanın anlamı, ne yapılması gerektiği ve neyle karıştırıldığı.
-- Konular: sınavın kapsadığı 17 konu, kaynak etiketli kısa okumalar.
+- Levhalar: 214 çizim, hepsi kendi çizimimiz (CC0): uyarı, öncelik, yasak ve kısıtlama, mecburiyet, bilgi ve ek levhalar, yol çizgileri, trafik ışıkları ve polis işaretleri. Her birinin anlamı, ne yapılması gerektiği ve neyle karıştırıldığı kendi sayfasında. Yazdırılabilir liste ve TR-EN terim sözlüğü var.
+- Konular: 19 konu, çizimli çember rehberi dahil, kaynak etiketli kısa okumalar.
 - Çalış: günlük tekrar (Leitner kutuları), konu çalışması, Hatalarım, levha sınavı provası (bugünkü sözlü sınav gibi), senaryolar.
 - Deneme sınavı: 2017 yönetmeliğindeki yazılı sınav biçimi (otomobil ve motosiklet 50 soru / 40 doğru / 60 dakika, ağır vasıta 100 / 80 / 120), sonuçlar sonda.
 - İlerleme yalnız tarayıcıda saklanır. Backend, hesap ve çerez yoktur.

@@ -77,11 +77,24 @@
     {
       "heading": {
         "tr": "Araçta bulunması gerekenler",
-        "en": "What to keep in the car"
+        "en": "What the law says you must carry"
       },
       "body": {
-        "tr": "Polise göre moped ve motosiklet dışındaki her motorlu araçta bir yangın söndürücü bulunmalıdır. Söndürücünün dolu olduğunu ve son kullanma tarihinin geçmediğini kontrol et.\n\nBir ilk yardım çantası, bir reflektör (uyarı üçgeni) ve yansıtıcı bir yelek de arızada ve kazada işe yarar.",
-        "en": "According to the police, every motor vehicle except mopeds and motorcycles must carry a fire extinguisher. Check that it is charged and in date.\n\nA first-aid kit, a warning triangle and a reflective vest are also useful in a breakdown or a crash."
+        "tr": "Yasa, her motorlu araçta şunları ister:\n\n- bir **reflektör** (uyarı üçgeni),\n- bir **ilk yardım çantası**,\n- çalışan bir **korna**, **dikiz aynası** ve yeterli **cam silecekleri**.\n\nKamu araçlarında, yani ticari yolcu ve yük taşıyan araçlarda, yangın söndürücü de zorunludur. Bunları bulundurmamak sabit para cezası gerektiren bir suçtur.",
+        "en": "The law requires every motor vehicle to have:\n\n- a **warning triangle**,\n- a **first-aid kit**,\n- a working **horn**, a **rear-view mirror** and adequate **windscreen wipers**.\n\nVehicles used for the public, that is commercial passenger and goods vehicles, must also carry a fire extinguisher. Not having these is an offence with a fixed fine."
+      },
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 077, 154, 034, 035, 059 ve 153 (Tüzük md. 57(1)(z), 49(28), (7), (8), (22), (27))"
+    },
+    {
+      "heading": {
+        "tr": "Yangın söndürücü",
+        "en": "Fire extinguisher"
+      },
+      "body": {
+        "tr": "Polise göre moped ve motosiklet dışındaki her motorlu araçta bir yangın söndürücü bulunmalıdır. Söndürücünün dolu olduğunu ve son kullanma tarihinin geçmediğini kontrol et.\n\nYansıtıcı bir yelek de arızada ve kazada işe yarar.",
+        "en": "According to the police, every motor vehicle except mopeds and motorcycles must carry a fire extinguisher. Check that it is charged and in date.\n\nA reflective vest is also useful in a breakdown or a crash."
       },
       "basis": "secondary",
       "sourceId": "s38",
@@ -133,6 +146,15 @@
       "basis": "secondary",
       "sourceId": "s38",
       "sourceRef": null
+    },
+    {
+      "text": {
+        "tr": "Her motorlu araçta reflektör ve ilk yardım çantası bulunmalıdır.",
+        "en": "Every motor vehicle must carry a warning triangle and a first-aid kit."
+      },
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 077 ve 154 (Tüzük md. 57(1)(z), 49(28))"
     }
   ],
   "relatedSigns": [],

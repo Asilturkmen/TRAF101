@@ -103,18 +103,18 @@
         "tr": "DUR levhasında yol boş olsa bile tamamen durursun.",
         "en": "At a DUR sign you stop completely, even if the road is empty."
       },
-      "basis": "practice",
-      "sourceId": null,
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 052 ve 157 (Tüzük md. 57(1)(ö), (k))"
     },
     {
       "text": {
         "tr": "Yol ver levhasında hızını düşürür, gerekirse durursun.",
         "en": "At a give way sign you slow down and stop if you need to."
       },
-      "basis": "practice",
-      "sourceId": null,
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 157 (Tüzük md. 57(1)(k))"
     },
     {
       "text": {

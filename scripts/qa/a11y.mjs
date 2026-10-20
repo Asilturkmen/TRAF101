@@ -11,7 +11,7 @@ const axeSource = fs.readFileSync(require.resolve('axe-core/axe.min.js'), 'utf8'
 const [base, ...rest] = process.argv.slice(2);
 const paths = rest.length
   ? rest
-  : ['/', '/en/', '/levhalar/', '/levhalar/oncelik/dur/', '/en/signs/warning/', '/konular/', '/konular/oncelik-kurallari/', '/calis/', '/calis/bugun/', '/calis/levha-sinavi/', '/senaryolar/', '/deneme-sinavi/', '/deneme-sinavi/otomobil/', '/ilerleme/', '/sinav-nasil-yapilir/', '/kaynaklar/', '/hakkinda/', '/gizlilik/', '/en/driving-on-the-left/', '/yok/'];
+  : ['/', '/en/', '/levhalar/', '/levhalar/oncelik/dur/', '/en/signs/warning/', '/konular/', '/konular/oncelik-kurallari/', '/calis/', '/calis/bugun/', '/calis/levha-sinavi/', '/senaryolar/', '/deneme-sinavi/', '/deneme-sinavi/otomobil/', '/ilerleme/', '/sinav-nasil-yapilir/', '/kaynaklar/', '/hakkinda/', '/gizlilik/', '/en/driving-on-the-left/', '/terimler/', '/levhalar/yazdir/', '/levhalar/yol-cizgileri/', '/levhalar/trafik-isiklari/', '/en/signs/police-signals/', '/levhalar/ek-levhalar/', '/konular/cember-rehberi/', '/konular/yol-cizgileri-isiklar-ve-polis/', '/yok/'];
 
 const browser = await chromium.launch({ executablePath: 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe' });
 let total = 0;

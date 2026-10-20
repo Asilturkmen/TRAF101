@@ -99,18 +99,18 @@
         "tr": "Kornayı yalnız bir tehlikeyi bildirmek için kullan.",
         "en": "Use the horn only to warn of danger."
       },
-      "basis": "practice",
-      "sourceId": null,
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 055 (Tüzük md. 57(1)(s))"
     },
     {
       "text": {
         "tr": "Araçtan çöp ya da sigara izmariti atma.",
         "en": "Never throw litter or cigarette ends from the car."
       },
-      "basis": "practice",
-      "sourceId": null,
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 118 (Kamu Yolları Yasası md. 3(d))"
     },
     {
       "text": {

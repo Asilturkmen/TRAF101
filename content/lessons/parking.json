@@ -28,12 +28,12 @@
         "en": "Where parking is an offence"
       },
       "body": {
-        "tr": "KKTC ceza listesinde şu yerlere park etmek ayrı suçlar olarak geçer:\n\n- itfaiye istasyonu, hastane ve okul önleri,\n- kavşaklar,\n- otobüs durakları,\n- kaldırımlar.\n\nKaldırıma park etmek yayaları, özellikle bebek arabası iten ya da tekerlekli sandalye kullanan insanları yola inmeye zorlar.",
-        "en": "The North Cyprus penalty list names parking in these places as offences:\n\n- in front of fire stations, hospitals and schools,\n- at junctions,\n- at bus stops,\n- on pavements.\n\nParking on the pavement forces pedestrians, especially people with pushchairs or wheelchairs, out into the road."
+        "tr": "16/2025 sayılı yasanın cetvelinde şu yerlere park etmek ayrı suçlar olarak geçer:\n\n- itfaiye, polis karakolu, hastane, klinik, okul, cami, kilise, sinema, tiyatro, banka ve garajın giriş ya da çıkışı,\n- bir köşeye 9,15 metreden yakın yerler,\n- yaya geçidine ve otobüs durağına 13,70 metreden yakın yerler,\n- kaldırımlar.\n\nKaldırıma park etmek yayaları, özellikle bebek arabası iten ya da tekerlekli sandalye kullanan insanları yola inmeye zorlar.",
+        "en": "The schedule of Law 16/2025 names parking in these places as separate offences:\n\n- at the entrance or exit of a fire station, police station, hospital, clinic, school, mosque, church, cinema, theatre, bank or garage,\n- within 9.15 metres of a corner,\n- within 13.70 metres of a pedestrian crossing or a bus stop,\n- on pavements.\n\nParking on the pavement forces pedestrians, especially people with pushchairs or wheelchairs, out into the road."
       },
-      "basis": "secondary",
-      "sourceId": "s31",
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 057, 058 ve 090 (Tüzük md. 57(1)(ü), (v), 57(4))"
     },
     {
       "heading": {
@@ -81,18 +81,18 @@
         "tr": "Yolun sol kenarına, trafikle aynı yöne bakarak park et.",
         "en": "Park on the left-hand side, facing the direction of traffic."
       },
-      "basis": "practice",
-      "sourceId": null,
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 075 ve 078 (Tüzük md. 57(1)(v)(ii), 57(2)(a))"
     },
     {
       "text": {
-        "tr": "Kavşak, otobüs durağı, kaldırım ile itfaiye, hastane ve okul önü park edilmeyecek yerlerdir.",
-        "en": "Junctions, bus stops, pavements and the fronts of fire stations, hospitals and schools are no-parking places."
+        "tr": "Köşeye 9,15 metreden, yaya geçidine ve otobüs durağına 13,70 metreden yakın, kaldırıma ve itfaiye, hastane ya da okul girişine park edilmez.",
+        "en": "Do not park within 9.15 metres of a corner, within 13.70 metres of a crossing or bus stop, on the pavement, or at the entrance of a fire station, hospital or school."
       },
-      "basis": "secondary",
-      "sourceId": "s31",
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 057, 058 ve 090"
     },
     {
       "text": {
@@ -117,9 +117,9 @@
         "tr": "Kapıyı açmadan önce arkadan gelen bisikletli ve motosikletliye bak.",
         "en": "Before opening the door, look for cyclists and motorcyclists coming from behind."
       },
-      "basis": "practice",
-      "sourceId": null,
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 105 (Tüzük md. 62(a))"
     }
   ],
   "relatedSigns": [

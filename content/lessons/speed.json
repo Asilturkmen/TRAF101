@@ -44,9 +44,9 @@
         "tr": "Levhadaki sayı iyi koşullar için en yüksek değerdir. Şu durumlarda daha yavaş gitmen gerekir:\n\n- yağmurda, sisli havada ya da gece,\n- okul, park ve pazar yeri çevresinde,\n- dar, virajlı ya da bakımsız yollarda,\n- yayaların, bisikletlilerin ya da hayvanların olabileceği yerlerde.\n\nOkul çevresinde yerel levhaya uy ve hızını çocukların ani hareketlerine göre ayarla.\n\nÇok yavaş gitmek de tehlikeli olabilir. Yavaş gitmen gerekiyorsa sol şeritte kal ve arkandakilerin seni güvenle geçmesine izin ver.",
         "en": "The number on the sign is the maximum in good conditions. You need to go more slowly:\n\n- in rain, in fog or at night,\n- around schools, parks and markets,\n- on narrow, winding or poorly kept roads,\n- wherever there may be pedestrians, cyclists or animals.\n\nNear a school, obey the local sign and set your speed so you can react if a child moves suddenly.\n\nDriving very slowly can also be dangerous. If you need to go slowly, keep to the left lane and let the drivers behind pass you safely."
       },
-      "basis": "practice",
-      "sourceId": null,
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "s6",
+      "sourceRef": "md. 6(1)"
     },
     {
       "heading": {
@@ -67,12 +67,12 @@
         "en": "Speeding penalties"
       },
       "body": {
-        "tr": "5 Nisan 2025'ten bu yana uygulanan değişikliklere göre hız sınırını en fazla 20 km/sa aşmak 10 ceza puanı, 21 ile 40 km/sa arasında aşmak 30 ceza puanıdır. Para cezaları asgari ücrete bağlıdır, bu yüzden tutarları zamanla değişir.\n\nCeza puanının ehliyetini nasıl askıya aldırabileceği Belgeler ve ceza puanı dersinde.",
-        "en": "Under the changes in force since 5 April 2025, exceeding the limit by up to 20 km/h costs 10 penalty points, and by 21 to 40 km/h costs 30 points. Fines are tied to the minimum wage, so the amounts change over time.\n\nHow penalty points can lead to a suspension is covered in the lesson on documents and penalty points."
+        "tr": "16/2025 sayılı yasanın cetveline göre hız sınırını en fazla 20 km/sa aşmak 10 ceza puanı, 20 ile 40 km/sa arasında aşmak 30 ceza puanı, 40 km/sa üstünde aşmak 50 ceza puanıdır. Sabit radarla tespit edilen hız aşımında da aynı puanlar uygulanır. Para cezaları asgari ücrete bağlıdır, bu yüzden tutarları zamanla değişir.\n\nCeza puanının ehliyetini nasıl askıya aldırabileceği Belgeler ve ceza puanı dersinde.",
+        "en": "Under the schedule of Law 16/2025, exceeding the limit by up to 20 km/h costs 10 penalty points, by 20 to 40 km/h costs 30 points and by more than 40 km/h costs 50 points. The same points apply when a fixed speed camera catches you. Fines are tied to the minimum wage, so the amounts change over time.\n\nHow penalty points can lead to a suspension is covered in the lesson on documents and penalty points."
       },
-      "basis": "secondary",
-      "sourceId": "s28",
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "up-cetvel-2025",
+      "sourceRef": "Cetvel kod 001, 002, 161 ve 171-173 (Yasa md. 6)"
     }
   ],
   "keyPoints": [
@@ -108,9 +108,9 @@
         "tr": "Hız sınırı bir hedef değildir; koşullar kötüyse daha yavaş git.",
         "en": "A speed limit is not a target; go slower when conditions are poor."
       },
-      "basis": "practice",
-      "sourceId": null,
-      "sourceRef": null
+      "basis": "law",
+      "sourceId": "s6",
+      "sourceRef": "md. 6(1) ve 6(4)"
     },
     {
       "text": {
