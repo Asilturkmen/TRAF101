@@ -1,5 +1,6 @@
 // Helpers for bilingual content objects ({ tr, en }) and the small prose format
-// used in content files: blank-line paragraphs, "- " bullets and **bold**.
+// used in content files: blank-line paragraphs, "- " bullets, **bold** and
+// [label](https://...) links (https only, opened in a new tab).
 
 export const LANGS = ['tr', 'en'];
 export const DEFAULT_LANG = 'tr';
@@ -13,8 +14,12 @@ export function tx(value, lang) {
 const ESCAPES = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
 export const escapeHtml = (s) => String(s).replace(/[&<>"']/g, (c) => ESCAPES[c]);
 
+const LINK = /\[([^\]\n]+)\]\((https:\/\/[^\s()]+)\)/g;
+
 function inline(s) {
-  return escapeHtml(s).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+  return escapeHtml(s)
+    .replace(LINK, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
 }
 
 export function proseToHtml(text) {
@@ -41,7 +46,7 @@ export function proseToHtml(text) {
 }
 
 export function plain(text) {
-  return String(text || '').replace(/\*\*/g, '').replace(/^- /gm, '').replace(/\s+/g, ' ').trim();
+  return String(text || '').replace(LINK, '$1').replace(/\*\*/g, '').replace(/^- /gm, '').replace(/\s+/g, ' ').trim();
 }
 
 export function truncate(text, max = 155) {

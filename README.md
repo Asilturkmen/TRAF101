@@ -114,7 +114,7 @@ Bir soruda, levhada ya da kuralda hata görürsen [buradan bildirebilirsin](http
 
 ## Hakkında
 
-Test2Drive, Doğu Akdeniz Üniversitesi'nde (DAÜ) TRAF101 Trafik Güvenliği dersi için başlayan bir projedir. Siteyi **Asil Türkmen** ve **Arda Günsüren** birlikte hazırladı. Dersin öğretim üyesi Doç. Dr. Metin Kurt'a teşekkür ederiz.
+Test2Drive, Doğu Akdeniz Üniversitesi'nde (DAÜ) TRAF101 Trafik Güvenliği dersi için başlayan bir projedir. Siteyi [Asil Türkmen](https://asilturkmen.com) ve [Arda Günsüren](https://www.ardagunsuren.com) birlikte hazırladı. Dersin öğretim üyesi Doç. Dr. Metin Kurt'a teşekkür ederiz.
 
 Levha çizimleri herkesin serbestçe kullanabilmesi için kamuya açık bırakılmıştır (CC0).
 

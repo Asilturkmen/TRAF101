@@ -87,6 +87,13 @@ describe('prose rendering', () => {
     expect(html).toContain('<strong>kalın</strong>');
     expect(html).toContain('<ul><li>bir</li><li>iki</li></ul>');
   });
+
+  it('renders https links only', () => {
+    const html = proseToHtml('[Site](https://ornek.com) ve [kötü](javascript:alert(1)) [düz](http://ornek.com)');
+    expect(html).toContain('<a href="https://ornek.com" target="_blank" rel="noopener">Site</a>');
+    expect(html).not.toContain('javascript:alert(1)"');
+    expect(html).not.toContain('href="http://');
+  });
 });
 
 describe('storage', () => {

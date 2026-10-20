@@ -177,6 +177,13 @@ svg {
   font-weight: 700;
 }
 
+.prose a {
+  color: var(--color-primary);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 body {
   font-family: var(--font-sans);
   background: var(--color-bg);

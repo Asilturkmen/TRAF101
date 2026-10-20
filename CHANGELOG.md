@@ -3,6 +3,8 @@
 ## Yayınlanmamış
 
 - README artık siteyi ekran görüntüleriyle tanıtıyor. Komutlar ve yapı bilgisi docs/DEVELOPMENT.md'ye taşındı.
+- Footer'da her sayfada "Hazırlayanlar: Asil Türkmen ve Arda Günsüren" satırı. Adlar asilturkmen.com ve ardagunsuren.com'a bağlı; Hakkında sayfasında da öyle.
+- İçerik metinlerinde https bağlantısı yazılabiliyor: [metin](https://...).
 
 ## 1.1.0 (2026-10-20)
 

@@ -216,6 +216,10 @@ const footer = computed(() => [
         <div class="footer-section footer-brand">
           <img src="/logo-320.png" alt="Test2Drive" class="footer-logo-img" width="160" height="40" loading="lazy" />
           <p class="footer-tagline">{{ t('tagline') }}</p>
+          <i18n-t keypath="footer.credit" tag="p" class="footer-credit" scope="global">
+            <template #asil><a href="https://asilturkmen.com" target="_blank" rel="noopener">Asil Türkmen</a></template>
+            <template #arda><a href="https://www.ardagunsuren.com" target="_blank" rel="noopener">Arda Günsüren</a></template>
+          </i18n-t>
         </div>
         <nav v-for="col in footer" :key="col.title" class="footer-section" :aria-label="col.title">
           <h2 class="footer-heading" :lang="col.title === 'Test2Drive' ? 'en' : undefined">{{ col.title }}</h2>
@@ -561,6 +565,25 @@ const footer = computed(() => [
   font-size: 0.9375rem;
   color: var(--color-text-secondary);
   margin: 0;
+}
+
+.footer-credit {
+  margin: 0.75rem 0 0;
+  font-size: 0.9375rem;
+  color: var(--color-text-secondary);
+}
+.footer-section .footer-credit a {
+  display: inline;
+  min-height: 0;
+  font-weight: 600;
+  color: var(--color-text);
+  text-decoration: underline;
+  text-decoration-color: var(--color-border);
+  text-underline-offset: 3px;
+}
+.footer-section .footer-credit a:hover {
+  color: var(--color-primary);
+  text-decoration-color: currentColor;
 }
 
 .footer-heading {
