@@ -1719,8 +1719,8 @@
       }
     ],
     "explanation": {
-      "tr": "Uzun inişte vitesi inişe başlamadan seç. Motor freni hızı sabit tutar; ayak frenini kısa ve kararlı basışlarla kullan. Bildiriye göre bu yolda 10 ya da daha fazla yaşındaki kamyon ve otobüsler için sınır 20 km/sa.",
-      "en": "On a long descent, choose your gear before you start down. Engine braking holds your speed; use the footbrake in short, firm applications. Under the notice, lorries and buses 10 or more years old are limited to 20 km/h on this road."
+      "tr": "Uzun inişte vitesi inişe başlamadan seç. Motor freni hızı sabit tutar; ayak frenini kısa ve kararlı basışlarla kullan. Bildiriye göre bu yolda 10 yaşından büyük kamyon ve otobüsler için sınır 20 km/sa.",
+      "en": "On a long descent, choose your gear before you start down. Engine braking holds your speed; use the footbrake in short, firm applications. Under the notice, lorries and buses more than 10 years old are limited to 20 km/h on this road."
     },
     "basis": "secondary",
     "sourceId": "s27",

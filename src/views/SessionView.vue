@@ -8,11 +8,10 @@ import { PartyPopper, CircleAlert, Inbox } from 'lucide-vue-next';
 import { usePage, useLang } from '../composables/usePage.js';
 import { usePool } from '../composables/usePool.js';
 import { lessonMetaBySlug } from '../content/meta.js';
-import { lessonById } from '../content/docs.js';
 import { questionsFor } from '../content/questions.js';
 import { buildDailyReview, buildLessonPractice, buildMistakes } from '../lib/sessions.js';
 import { dayNumber } from '../lib/leitner.js';
-import { to, lessonPath, lessonPracticePath, both } from '../lib/paths.js';
+import { to, lessonPath, lessonPracticePath, lessonTitle, both } from '../lib/paths.js';
 import { tx } from '../lib/text.js';
 import PageHero from '../components/PageHero.vue';
 import QuestionCard from '../components/QuestionCard.vue';
@@ -26,7 +25,9 @@ const { progress, pool } = usePool();
 const mode = computed(() => route.meta.key); // review | lessonPractice | mistakes
 
 const lessonMeta = computed(() => (mode.value === 'lessonPractice' ? lessonMetaBySlug(lang.value, route.params.lesson) : null));
-const lesson = computed(() => (lessonMeta.value ? lessonById(lessonMeta.value.id) : null));
+const lesson = computed(() =>
+  lessonMeta.value && lessonTitle(lessonMeta.value.id) ? { ...lessonMeta.value, doc: { title: lessonTitle(lessonMeta.value.id) } } : null,
+);
 
 const copy = {
   tr: {

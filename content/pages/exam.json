@@ -72,10 +72,10 @@
     {
       "heading": { "tr": "Motosiklet ve moped kursu", "en": "Motorcycle and moped course" },
       "body": {
-        "tr": "Motosiklet ya da moped için öğrenci ehliyeti alan herkes **12 saatlik temel kursa** katılır. Bu kurs günde en çok 3 saat yapılabilir.",
-        "en": "Anyone who gets a learner licence for a motorcycle or moped must attend a **12-hour basic course**. The course can run for at most 3 hours a day."
+        "tr": "Moped, motosiklet ya da üç tekerlekli motosiklet için öğrenci ehliyeti almak isteyen kişi, önce onaylı bir eğitmenden **en az 12 saatlik temel kurs** almak zorundadır. Bu kurs günde en çok 3 saat yapılabilir.",
+        "en": "Anyone who wants a learner licence for a moped, motorcycle or motor tricycle must first take a **basic course of at least 12 hours** with an approved instructor. The course can run for at most 3 hours a day."
       },
-      "basis": "law", "sourceId": "s10", "sourceRef": "md. 29(7)"
+      "basis": "law", "sourceId": "s10", "sourceRef": "Tüzük md. 29(7), A.E. 424 ile eklendi"
     },
     {
       "heading": { "tr": "Direksiyon sınavı", "en": "The practical test" },

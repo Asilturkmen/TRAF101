@@ -3,6 +3,7 @@
   "tagline": "Practice. Evaluate. Drive Safe.",
   "nav": {
     "label": "Main menu",
+    "breadcrumb": "Breadcrumb",
     "home": "Home",
     "practise": "Practise",
     "signs": "Signs",

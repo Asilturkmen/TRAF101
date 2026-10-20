@@ -120,6 +120,9 @@
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem 1.5rem 3rem;
+  /* Quiz screens are built on the client; reserving the height keeps the footer
+     from jumping when the first question replaces the loading state. */
+  min-height: 100vh;
 }
 .progress-section {
   margin-bottom: 1.5rem;

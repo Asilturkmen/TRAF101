@@ -6,7 +6,7 @@ import { TABLE, fill } from '../router/table.js';
 const SLUGS = typeof __SLUG_MAP__ !== 'undefined' ? __SLUG_MAP__ : {};
 const KEEP_QUERY = { mockResult: 'id', signExam: 'c' };
 
-export function otherLanguagePath(route) {
+export function otherLanguagePath(route, { withQuery = true } = {}) {
   const lang = route.meta?.lang || 'tr';
   const other = lang === 'tr' ? 'en' : 'tr';
   const key = route.meta?.key;
@@ -25,6 +25,6 @@ export function otherLanguagePath(route) {
     return TABLE.home[other];
   }
   const q = KEEP_QUERY[key];
-  const value = q ? route.query?.[q] : undefined;
+  const value = q && withQuery ? route.query?.[q] : undefined;
   return value == null ? path : `${path}?${q}=${encodeURIComponent(String(value))}`;
 }

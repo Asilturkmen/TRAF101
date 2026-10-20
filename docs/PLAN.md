@@ -191,45 +191,45 @@ Mevcut "Our Solutions" bölümünün doğru olan vaatleri 4. ve 9. bölümlere d
 Her madde, kabul ölçütü sağlanınca işaretlenir.
 
 ### 4.1 Altyapı
-- [ ] Her sayfa önceden üretilmiş HTML olarak çıkar. JavaScript kapalıyken sayfa içeriği okunur.
-- [ ] Her sayfanın kendi başlığı, açıklaması, canonical adresi, `hreflang` bağlantıları (tr, en, x-default) ve OG görseli vardır.
-- [ ] `sitemap.xml` ve `robots.txt` derlemede üretilir. Site adresi bir ortam değişkeninden gelir (`SITE_URL`).
-- [ ] Bilinmeyen adres 404 sayfası gösterir. Statik barındırmalar için `404.html` üretilir.
-- [ ] Site çevrimdışı çalışır. Güncelleme, deneme sınavı sırasında asla devreye girmez.
-- [ ] Inter yerel olarak barındırılır, yalnız kullanılan ağırlıklarla. Dış istek sayısı sıfırdır.
+- [x] Her sayfa önceden üretilmiş HTML olarak çıkar. JavaScript kapalıyken sayfa içeriği okunur.
+- [x] Her sayfanın kendi başlığı, açıklaması, canonical adresi, `hreflang` bağlantıları (tr, en, x-default) ve OG görseli vardır.
+- [x] `sitemap.xml` ve `robots.txt` derlemede üretilir. Site adresi bir ortam değişkeninden gelir (`SITE_URL`).
+- [x] Bilinmeyen adres 404 sayfası gösterir. Statik barındırmalar için `404.html` üretilir.
+- [x] Site çevrimdışı çalışır. Güncelleme, deneme sınavı sırasında asla devreye girmez.
+- [x] Inter yerel olarak barındırılır, yalnız kullanılan ağırlıklarla. Dış istek sayısı sıfırdır.
 
 ### 4.2 İçerik
-- [ ] Çekirdek levha seti: yaklaşık 90 levha, kendi SVG'lerimiz, CC0 lisanslı. Her levhada TR ve EN ad, anlam, "ne yapmalısın", en az bir "sık karıştırılan" bilgisi ve KKTC kanıt durumu vardır.
-- [ ] Ortak soru havuzu en az 240 soru: kurallar ve levhalar 110, güvenlik ve davranış 75, araç bilgisi 20, çevre 15, kişisel durum 15, ilk yardım 15.
-- [ ] Motosiklete özel en az 20, ağır vasıtaya özel en az 40 soru.
-- [ ] Her soruda TR ve EN metin, kısa gerekçe, kaynak ve etiket vardır (bölüm 5.1).
-- [ ] Doğru cevabın şık konumu dengelidir. Doğrulama betiği her harfin payının yüzde 15 ile 35 arasında olduğunu denetler. Şıklar ayrıca ekranda karıştırılır.
-- [ ] Mevcut 15 senaryonun hepsi KKTC'ye göre düzeltilir. Senaryo sayısı en az 30'a çıkar.
-- [ ] Konu sayfaları: `studyData.js` içindeki kural, güvenlik ve acil durum içeriği kaynaklarla doğrulanıp konu sayfalarına taşınır.
-- [ ] Rehber sayfaları: Sınav nasıl yapılır, Ehliyet nasıl alınır, Soldan trafik, Kaynaklar, Hakkında, Gizlilik.
-- [ ] İngilizce sayfalarda her levhanın Türkçe adı da görünür, örneğin "Stop · DUR".
+- [x] Çekirdek levha seti: yaklaşık 90 levha, kendi SVG'lerimiz, CC0 lisanslı. Her levhada TR ve EN ad, anlam, "ne yapmalısın", en az bir "sık karıştırılan" bilgisi ve KKTC kanıt durumu vardır.
+- [x] Ortak soru havuzu en az 240 soru: kurallar ve levhalar 110, güvenlik ve davranış 75, araç bilgisi 20, çevre 15, kişisel durum 15, ilk yardım 15.
+- [x] Motosiklete özel en az 20, ağır vasıtaya özel en az 40 soru.
+- [x] Her soruda TR ve EN metin, kısa gerekçe, kaynak ve etiket vardır (bölüm 5.1).
+- [x] Doğru cevabın şık konumu dengelidir. Doğrulama betiği her harfin payının yüzde 15 ile 35 arasında olduğunu denetler. Şıklar ayrıca ekranda karıştırılır.
+- [x] Mevcut 15 senaryonun hepsi KKTC'ye göre düzeltilir. Senaryo sayısı en az 30'a çıkar.
+- [x] Konu sayfaları: `studyData.js` içindeki kural, güvenlik ve acil durum içeriği kaynaklarla doğrulanıp konu sayfalarına taşınır.
+- [x] Rehber sayfaları: Sınav nasıl yapılır, Ehliyet nasıl alınır, Soldan trafik, Kaynaklar, Hakkında, Gizlilik.
+- [x] İngilizce sayfalarda her levhanın Türkçe adı da görünür, örneğin "Stop · DUR".
 
 ### 4.3 Öğrenme özellikleri
-- [ ] Konu çalışması, günlük tekrar, levha sınavı provası, Hatalarım, iki yazılı sınav provası ve senaryolar bölüm 3.2 ve 3.3'teki gibi çalışır.
-- [ ] Test her zaman söylenen sayıda soruyla gelir. Bir konuda soru yetmezse derleme hata verir.
-- [ ] Yarım kalan deneme sınavı, sayfa yenilenince kaldığı yerden devam eder. Sınavdan çıkarken uyarı gösterilir.
-- [ ] Sonuç sayfası yenilenince kaybolmaz.
-- [ ] İlerleme sayfası hazırlık durumunu, eksikleri ve geçmiş denemeleri gösterir.
-- [ ] İlerleme dışa aktarılabilir, içe aktarılabilir ve onay adımıyla sıfırlanabilir.
-- [ ] localStorage erişilemiyorsa site çalışmaya devam eder ve kullanıcıya ilerlemenin kaydedilemediğini söyler.
+- [x] Konu çalışması, günlük tekrar, levha sınavı provası, Hatalarım, iki yazılı sınav provası ve senaryolar bölüm 3.2 ve 3.3'teki gibi çalışır.
+- [x] Test her zaman söylenen sayıda soruyla gelir. Bir konuda soru yetmezse derleme hata verir.
+- [x] Yarım kalan deneme sınavı, sayfa yenilenince kaldığı yerden devam eder. Sınavdan çıkarken uyarı gösterilir.
+- [x] Sonuç sayfası yenilenince kaybolmaz.
+- [x] İlerleme sayfası hazırlık durumunu, eksikleri ve geçmiş denemeleri gösterir.
+- [x] İlerleme dışa aktarılabilir, içe aktarılabilir ve onay adımıyla sıfırlanabilir.
+- [x] localStorage erişilemiyorsa site çalışmaya devam eder ve kullanıcıya ilerlemenin kaydedilemediğini söyler.
 
 ### 4.4 Erişilebilirlik (WCAG 2.2 AA)
-- [ ] Tıklanabilir her kart gerçek bir bağlantı ya da düğmedir. Klavyeyle her şey yapılabilir.
-- [ ] Soru yapısı `fieldset`, `legend` ve gerçek radyo düğmelerinden oluşur. Geri bildirim bir canlı bölgeden (`role="status"`) duyurulur. Odak bir sonraki soruya taşınır.
-- [ ] Levha penceresi gerçek bir `dialog`'dur: odağı alır, içinde tutar, Escape ile kapanır, açan öğeye geri döner, 390 piksele sığar.
-- [ ] Görünür odak çerçevesi, sayfa başına atlama bağlantısı ve `prefers-reduced-motion` desteği vardır.
-- [ ] Her metin en az 4,5:1 kontrast sağlar (bölüm 7.2).
-- [ ] Doğru ve yanlış yalnız renkle değil, ikon ve yazıyla da belirtilir.
-- [ ] Sınav sorusunda levhanın alt metni cevabı vermez.
+- [x] Tıklanabilir her kart gerçek bir bağlantı ya da düğmedir. Klavyeyle her şey yapılabilir.
+- [x] Soru yapısı `fieldset`, `legend` ve gerçek radyo düğmelerinden oluşur. Geri bildirim bir canlı bölgeden (`role="status"`) duyurulur. Odak bir sonraki soruya taşınır.
+- [x] Levha penceresi gerçek bir `dialog`'dur: odağı alır, içinde tutar, Escape ile kapanır, açan öğeye geri döner, 390 piksele sığar.
+- [x] Görünür odak çerçevesi, sayfa başına atlama bağlantısı ve `prefers-reduced-motion` desteği vardır.
+- [x] Her metin en az 4,5:1 kontrast sağlar (bölüm 7.2).
+- [x] Doğru ve yanlış yalnız renkle değil, ikon ve yazıyla da belirtilir.
+- [x] Sınav sorusunda levhanın alt metni cevabı vermez.
 
 ### 4.5 Arayüz durumları
-- [ ] Her ekranın yükleniyor, hata, boş ve çevrimdışı durumu vardır. Metinler `benchmark.md` bölüm 3.5'teki gibidir.
-- [ ] 360 ile 430 piksel arasında yana kayma yoktur. Menünün her öğesine ulaşılır.
+- [x] Her ekranın yükleniyor, hata, boş ve çevrimdışı durumu vardır. Metinler `benchmark.md` bölüm 3.5'teki gibidir.
+- [x] 360 ile 430 piksel arasında yana kayma yoktur. Menünün her öğesine ulaşılır.
 
 ---
 
@@ -365,56 +365,56 @@ Süreler tek kişinin iş günü cinsinden tahmindir. Ajanlarla paralel çalış
 Ajan kuralları: önce bu planı ve `docs/DESIGN.md`'yi okur. Kendi geliştirme sunucusu portunu kullanır. Derlemeyi kendi klasörüne yapar (`--outDir .builds/<ad>`). Ekran görüntülerini depo dışına kaydeder. Commit'i yalnız lider yapar.
 
 ### F0. Hazırlık (1 gün)
-- [ ] F0.1 `docs/PROGRESS.md` ve `docs/DESIGN.md` oluşturulur. DESIGN.md mevcut tasarım sistemini, token'ları ve bölüm 7'yi anlatır.
-- [ ] F0.2 `docs/inventory-map.md`: `current-site-audit.md` bölüm 8'deki her öğenin yeni yeri ya da kaldırılma gerekçesi.
-- [ ] F0.3 Test altyapısı (Vitest, Playwright) ve CI.
-- [ ] F0.4 Ölü kod temizliği: `HelloWorld.vue`, `assets/vue.svg`, kullanılmayan CSS sınıfları. `QuestionCard.vue`, `ResultsSummary.vue` ve `QuizProgress.vue` içindeki iyi fikirler not edilir; bu dosyalar F3'te yeni bileşenlere dönüşür.
+- [x] F0.1 `docs/PROGRESS.md` ve `docs/DESIGN.md` oluşturulur. DESIGN.md mevcut tasarım sistemini, token'ları ve bölüm 7'yi anlatır.
+- [x] F0.2 `docs/inventory-map.md`: `current-site-audit.md` bölüm 8'deki her öğenin yeni yeri ya da kaldırılma gerekçesi.
+- [x] F0.3 Test altyapısı (Vitest, Playwright) ve CI.
+- [x] F0.4 Ölü kod temizliği: `HelloWorld.vue`, `assets/vue.svg`, kullanılmayan CSS sınıfları. `QuestionCard.vue`, `ResultsSummary.vue` ve `QuizProgress.vue` içindeki iyi fikirler not edilir; bu dosyalar F3'te yeni bileşenlere dönüşür.
 
 ### F1. Altyapı (3 gün)
-- [ ] F1.1 vite-ssg ve vue-i18n kurulumu, rota tablosu, `localePath`, eski adres yönlendirmeleri.
-- [ ] F1.2 `content/` yapısı, şemalar ve doğrulama betiği. Mevcut 118 levha ve 40 soru yeni şemaya taşınır, F2'de düzeltilir.
-- [ ] F1.3 Kabuk: telefon menüsü, yeni alt bilgi, dil düğmesi, atlama bağlantısı, odak stilleri, erişilebilirlik token'ları, ikon seti.
-- [ ] F1.4 Ortak durum bileşenleri: yükleniyor, hata, boş, çevrimdışı, 404.
-- [ ] F1.5 localStorage katmanı ve Pinia store'ları.
+- [x] F1.1 vite-ssg ve vue-i18n kurulumu, rota tablosu, `localePath`, eski adres yönlendirmeleri.
+- [x] F1.2 `content/` yapısı, şemalar ve doğrulama betiği. Mevcut 118 levha ve 40 soru yeni şemaya taşınır, F2'de düzeltilir.
+- [x] F1.3 Kabuk: telefon menüsü, yeni alt bilgi, dil düğmesi, atlama bağlantısı, odak stilleri, erişilebilirlik token'ları, ikon seti.
+- [x] F1.4 Ortak durum bileşenleri: yükleniyor, hata, boş, çevrimdışı, 404.
+- [x] F1.5 localStorage katmanı ve Pinia store'ları.
 
 ### F2. İçerik (8 ile 10 gün, ajanlarla paralel)
-- [ ] F2.1 `docs/verification-checklist.md` ve `content/sources.json`.
-- [ ] F2.2 Çekirdek levha seti: yaklaşık 90 SVG ve verisi. Kurallar `road-signs.md` bölüm 5.2'de. Güney Kıbrıs'a ait yazılar ve tasarımlar KKTC karşılıklarıyla değişir: DUR, kızılay, Türkçe yazılar, saat yönünde dönel kavşak.
-- [ ] F2.3 Soru bankası: altı konu, bölüm 4.2'deki sayılar. Mevcut 40 soru `kktc-regulations.md` bölüm 7'ye göre düzeltilir; silinmesi gerekenler `inventory-map.md`'ye yazılır.
-- [ ] F2.4 Senaryolar: mevcut 15'in düzeltilmesi ve en az 15 yeni senaryo. Her senaryo emoji yerine bir levha ya da basit bir çizimle gösterilir.
-- [ ] F2.5 Konu sayfaları, `studyData.js` içeriği dahil.
-- [ ] F2.6 Rehber sayfaları ve Hakkında. Hakkında sayfası projenin hikâyesini, Asil Türkmen ve Arda Günsüren adlarını, TRAF101 dersini, Doç. Dr. Metin Kurt'u ve DAÜ'yü anlatır. DAÜ logosu izin gelene kadar kullanılmaz.
-- [ ] F2.7 TR ve EN dil kontrolü: bir ajan iki dili baştan sona okur, terim tutarlılığını ve Türkçe karakterleri denetler.
+- [x] F2.1 `docs/verification-checklist.md` ve `content/sources.json`.
+- [x] F2.2 Çekirdek levha seti: yaklaşık 90 SVG ve verisi. Kurallar `road-signs.md` bölüm 5.2'de. Güney Kıbrıs'a ait yazılar ve tasarımlar KKTC karşılıklarıyla değişir: DUR, kızılay, Türkçe yazılar, saat yönünde dönel kavşak.
+- [x] F2.3 Soru bankası: altı konu, bölüm 4.2'deki sayılar. Mevcut 40 soru `kktc-regulations.md` bölüm 7'ye göre düzeltilir; silinmesi gerekenler `inventory-map.md`'ye yazılır.
+- [x] F2.4 Senaryolar: mevcut 15'in düzeltilmesi ve en az 15 yeni senaryo. Her senaryo emoji yerine bir levha ya da basit bir çizimle gösterilir.
+- [x] F2.5 Konu sayfaları, `studyData.js` içeriği dahil.
+- [x] F2.6 Rehber sayfaları ve Hakkında. Hakkında sayfası projenin hikâyesini, Asil Türkmen ve Arda Günsüren adlarını, TRAF101 dersini, Doç. Dr. Metin Kurt'u ve DAÜ'yü anlatır. DAÜ logosu izin gelene kadar kullanılmaz.
+- [x] F2.7 TR ve EN dil kontrolü: bir ajan iki dili baştan sona okur, terim tutarlılığını ve Türkçe karakterleri denetler.
 
 ### F3. Öğrenme motoru (4 gün)
-- [ ] F3.1 Soru bileşeni: erişilebilir yapı, karıştırma, geri bildirim, kaynak satırı.
-- [ ] F3.2 Konu çalışması, günlük tekrar, Hatalarım ve Leitner zamanlaması.
-- [ ] F3.3 Levha sınavı provası.
-- [ ] F3.4 Yazılı sınav provası: sayaç, işaretleme, kaldığı yerden devam, çıkış uyarısı, sonuç.
-- [ ] F3.5 Senaryolar yeni yapıda. Yanlış cevaplanan senaryolar sonuçta listelenir.
-- [ ] F3.6 İlerleme sayfası: hazırlık durumu, eksikler, geçmiş, dışa aktarma, içe aktarma, sıfırlama.
+- [x] F3.1 Soru bileşeni: erişilebilir yapı, karıştırma, geri bildirim, kaynak satırı.
+- [x] F3.2 Konu çalışması, günlük tekrar, Hatalarım ve Leitner zamanlaması.
+- [x] F3.3 Levha sınavı provası.
+- [x] F3.4 Yazılı sınav provası: sayaç, işaretleme, kaldığı yerden devam, çıkış uyarısı, sonuç.
+- [x] F3.5 Senaryolar yeni yapıda. Yanlış cevaplanan senaryolar sonuçta listelenir.
+- [x] F3.6 İlerleme sayfası: hazırlık durumu, eksikler, geçmiş, dışa aktarma, içe aktarma, sıfırlama.
 
 ### F4. Sayfalar (3 gün)
-- [ ] F4.1 Ana sayfa, bölüm 3.6'daki sırayla.
-- [ ] F4.2 Levhalar, kategori ve levha sayfası şablonu (`benchmark.md` bölüm 4.4'teki sıra).
-- [ ] F4.3 Konular, Çalış merkezi ve üç araç kartıyla Deneme sınavı seçimi.
-- [ ] F4.4 Rehber sayfalarının görünümü.
+- [x] F4.1 Ana sayfa, bölüm 3.6'daki sırayla.
+- [x] F4.2 Levhalar, kategori ve levha sayfası şablonu (`benchmark.md` bölüm 4.4'teki sıra).
+- [x] F4.3 Konular, Çalış merkezi ve üç araç kartıyla Deneme sınavı seçimi.
+- [x] F4.4 Rehber sayfalarının görünümü.
 
 ### F5. Arama motoru ve çevrimdışı (2 gün)
-- [ ] F5.1 Sayfa başına başlık, açıklama, canonical, hreflang ve yapılandırılmış veri (WebSite, BreadcrumbList, DefinedTermSet).
-- [ ] F5.2 Sitemap, robots, OG görselleri, sekme ikonu, uygulama ikonları ve manifest. İkonlar mevcut logodan üretilir.
-- [ ] F5.3 PWA ve çevrimdışı sayfa.
+- [x] F5.1 Sayfa başına başlık, açıklama, canonical, hreflang ve yapılandırılmış veri (WebSite, BreadcrumbList, DefinedTermSet).
+- [x] F5.2 Sitemap, robots, OG görselleri, sekme ikonu, uygulama ikonları ve manifest. İkonlar mevcut logodan üretilir.
+- [x] F5.3 PWA ve çevrimdışı sayfa.
 
 ### F6. QA ve bağımsız inceleme (2 ile 3 gün)
-- [ ] F6.1 Bölüm 10'daki ölçümler. Sonuçlar sayılarla `docs/QA-REPORT.md`'ye yazılır.
-- [ ] F6.2 İki turlu bağımsız inceleme: önce altyapı ve öğrenme motoru, sonra içerik ve sayfalar.
-- [ ] F6.3 Düzeltmeler ve ölçümlerin yeniden alınması.
+- [x] F6.1 Bölüm 10'daki ölçümler. Sonuçlar sayılarla `docs/QA-REPORT.md`'ye yazılır.
+- [x] F6.2 İki turlu bağımsız inceleme: önce altyapı ve öğrenme motoru, sonra içerik ve sayfalar.
+- [x] F6.3 Düzeltmeler ve ölçümlerin yeniden alınması.
 
 ### F7. Teslim (1 gün)
-- [ ] F7.1 README: ürün tanımı, komutlar, içerik ekleme rehberi, herhangi bir statik barındırmaya yayın adımları.
-- [ ] F7.2 `docs/LAUNCH.md`: barındırma seçilince yapılacaklar. Alan adı, `SITE_URL`, yönlendirmeler, 404 ayarı, önbellek başlıkları.
-- [ ] F7.3 Sürüm notu ve `dev` üzerinde `v1.0.0` etiketi. `main`'e dokunulmaz.
-- [ ] F7.4 Asil'e rapor: ne yapıldı, ölçümler, yayından önce ondan beklenenler.
+- [x] F7.1 README: ürün tanımı, komutlar, içerik ekleme rehberi, herhangi bir statik barındırmaya yayın adımları.
+- [x] F7.2 `docs/LAUNCH.md`: barındırma seçilince yapılacaklar. Alan adı, `SITE_URL`, yönlendirmeler, 404 ayarı, önbellek başlıkları.
+- [x] F7.3 Sürüm notu ve `dev` üzerinde `v1.0.0` etiketi. `main`'e dokunulmaz.
+- [x] F7.4 Asil'e rapor: ne yapıldı, ölçümler, yayından önce ondan beklenenler.
 
 Toplam tahmin tek kişiyle yaklaşık 25 iş günü. Ajanlarla F2, F3 ve F4 paralel yürür ve süre yaklaşık 12 ile 15 güne iner.
 

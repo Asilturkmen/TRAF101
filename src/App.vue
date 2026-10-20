@@ -1,6 +1,6 @@
 ﻿<script setup>
 import { computed, onMounted, ref, watch, nextTick } from 'vue';
-import { RouterView, RouterLink, useRoute } from 'vue-router';
+import { RouterView, RouterLink, useRoute, useRouter } from 'vue-router';
 import { useI18n } from 'vue-i18n';
 import { Menu, X, WifiOff, Languages } from 'lucide-vue-next';
 import { useProgress } from './stores/progress.js';
@@ -15,8 +15,25 @@ const { t } = useI18n();
 const lang = useLang();
 const progress = useProgress();
 
+// A page chunk that fails to download (offline, or a stale tab after an update)
+// shows an error with a retry instead of a blank page.
+const router = useRouter();
+const loadError = ref(false);
+router.onError((err) => {
+  if (/Failed to fetch dynamically imported module|Importing a module script failed|error loading dynamically imported module/i.test(String(err?.message || err))) {
+    loadError.value = true;
+  }
+});
+watch(() => route.fullPath, () => (loadError.value = false));
+function reloadPage() {
+  window.location.reload();
+}
+
 const other = computed(() => (lang.value === 'tr' ? 'en' : 'tr'));
-const otherPath = computed(() => otherLanguagePath(route));
+// Query parameters exist only in the browser; they are added after hydration so the
+// prerendered link and the first client render agree.
+const hydrated = ref(false);
+const otherPath = computed(() => otherLanguagePath(route, { withQuery: hydrated.value }));
 
 const nav = computed(() => [
   { key: 'practise', label: t('nav.practise'), path: to('practise', lang.value), match: ['practise', 'review', 'lessonPractice', 'signExam', 'mistakes', 'scenarios'] },
@@ -49,6 +66,7 @@ const showLangHint = ref(false);
 const inExam = computed(() => route.meta.key === 'mockExam');
 
 onMounted(async () => {
+  hydrated.value = true;
   progress.load();
   online.value = navigator.onLine;
   window.addEventListener('online', () => (online.value = true));
@@ -173,6 +191,11 @@ const footer = computed(() => [
       <button type="button" class="notice-dismiss" @click="dismissLangHint">
         <X :size="16" aria-hidden="true" /><span class="visually-hidden">{{ t('states.dismiss') }}</span>
       </button>
+    </div>
+
+    <div v-if="loadError" class="notice" role="alert">
+      <span>{{ t('states.error') }}</span>
+      <button type="button" class="btn btn-primary notice-retry" @click="reloadPage">{{ t('common.retry') }}</button>
     </div>
 
     <main id="main" class="main-content" tabindex="-1">
@@ -455,6 +478,10 @@ const footer = computed(() => [
   color: var(--color-text);
   font-size: 0.9375rem;
   text-align: center;
+}
+.notice-retry {
+  padding: 0.5rem 1rem;
+  width: auto;
 }
 .notice-lang {
   background: var(--color-bg-secondary);

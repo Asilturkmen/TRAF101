@@ -1,5 +1,8 @@
 <script setup>
 import { RouterLink } from 'vue-router';
+import { useI18n } from 'vue-i18n';
+
+const { t } = useI18n();
 
 defineProps({
   title: { type: String, required: true },
@@ -12,7 +15,7 @@ defineProps({
 <template>
   <section class="page-hero full-bleed">
     <div class="page-hero-inner" :class="{ narrow }">
-      <nav v-if="crumbs.length" aria-label="Breadcrumb">
+      <nav v-if="crumbs.length" :aria-label="t('nav.breadcrumb')">
         <ol class="crumbs">
           <li v-for="(c, i) in crumbs" :key="i">
             <RouterLink v-if="c.path && i < crumbs.length - 1" :to="c.path">{{ c.label }}</RouterLink>

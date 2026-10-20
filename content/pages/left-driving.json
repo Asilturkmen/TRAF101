@@ -132,8 +132,8 @@
     {
       "heading": { "tr": "Hız sınırları kısaca", "en": "Speed limits in brief" },
       "body": {
-        "tr": "- Yerleşim yerlerinde hız sınırı 50 km/sa.\n- Şehir dışında sınır, yolun türüne göre 65 ile 90 km/sa arasında değişir.\n- Çift şeritli yollarda otomobil için sınır 100 km/sa.\n\nLevhada başka bir sınır yazıyorsa levhaya uy. Hız kilometreyle ölçülür, mille değil.",
-        "en": "- In built-up areas the limit is 50 km/h.\n- Outside towns it is between 65 and 90 km/h, depending on the road.\n- On dual carriageways the limit for cars is 100 km/h.\n\nIf a sign shows a different limit, follow the sign. Speeds are in kilometres per hour, not miles."
+        "tr": "- Yerleşim yerlerinde hız sınırı 50 km/sa.\n- Şehir dışında sınır, yolun ve aracın türüne göre 65 ile 90 km/sa arasında değişir.\n- Çift şeritli yollarda otomobil için sınır 100 km/sa.\n\nLevhada başka bir sınır yazıyorsa levhaya uy. Hız kilometreyle ölçülür, mille değil.",
+        "en": "- In built-up areas the limit is 50 km/h.\n- Outside towns it is between 65 and 90 km/h, depending on the road and the vehicle.\n- On dual carriageways the limit for cars is 100 km/h.\n\nIf a sign shows a different limit, follow the sign. Speeds are in kilometres per hour, not miles."
       },
       "basis": "law", "sourceId": "s1", "sourceRef": null
     },

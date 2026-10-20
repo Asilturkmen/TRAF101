@@ -15,8 +15,8 @@
         "en": "The main speed limits"
       },
       "body": {
-        "tr": "Bakanlığın trafik broşürüne göre otomobiller için temel sınırlar şunlardır:\n\n- **Yerleşim yeri (meskûn mahal) içinde:** 50 km/sa\n- **Yerleşim yeri dışında:** yolun türüne göre 65 ile 90 km/sa arası\n- **Çift şeritli (bölünmüş) yolda:** 100 km/sa\n\nLevha başka bir değer gösteriyorsa levhaya uyarsın.",
-        "en": "According to the ministry's traffic leaflet, the main limits for cars are:\n\n- **In built-up areas (meskûn mahal):** 50 km/h\n- **Outside built-up areas:** 65 to 90 km/h, depending on the road\n- **On dual carriageways (divided roads):** 100 km/h\n\nIf a sign shows a different limit, you follow the sign."
+        "tr": "Bakanlığın trafik broşürüne göre temel sınırlar şunlardır:\n\n- **Yerleşim yeri (meskûn mahal) içinde:** 50 km/sa\n- **Yerleşim yeri dışında:** yolun ve aracın türüne göre 65 ile 90 km/sa arası\n- **Çift şeritli (bölünmüş) yolda:** 100 km/sa\n\nLevha başka bir değer gösteriyorsa levhaya uyarsın.",
+        "en": "According to the ministry's traffic leaflet, the main limits are:\n\n- **In built-up areas (meskûn mahal):** 50 km/h\n- **Outside built-up areas:** 65 to 90 km/h, depending on the road and the vehicle\n- **On dual carriageways (divided roads):** 100 km/h\n\nIf a sign shows a different limit, you follow the sign."
       },
       "basis": "law",
       "sourceId": "s1",
@@ -87,8 +87,8 @@
     },
     {
       "text": {
-        "tr": "Yerleşim yeri dışında sınır yolun türüne göre 65 ile 90 km/sa arasıdır.",
-        "en": "Outside built-up areas the limit is 65 to 90 km/h, depending on the road."
+        "tr": "Yerleşim yeri dışında sınır yolun ve aracın türüne göre 65 ile 90 km/sa arasıdır.",
+        "en": "Outside built-up areas the limit is 65 to 90 km/h, depending on the road and the vehicle."
       },
       "basis": "law",
       "sourceId": "s1",

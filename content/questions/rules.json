@@ -1440,13 +1440,13 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Acil araca yol vermemek KKTC ceza listesinde yer alan bir suçtur. Ağustos 2026'da basında yer alan listeye göre cezası 10.633 TL'dir.",
-      "en": "Failing to give way to an emergency vehicle is on the North Cyprus list of offences. The list reported in August 2026 puts the fine at 10,633 TL."
+      "tr": "Acil araca yol vermemek KKTC ceza listesinde yer alan bir suçtur. Ocak 2023 listesine göre cezası asgari ücretin yüzde 15'i kadar para cezası ve 10 ceza puanıdır. TL tutarı asgari ücretle birlikte değişir.",
+      "en": "Failing to give way to an emergency vehicle is on the North Cyprus list of offences. The January 2023 list sets a fine of 15% of the minimum wage and 10 penalty points. The amount in TL changes with the minimum wage."
     },
     "signId": null,
     "basis": "secondary",
-    "sourceId": "s30",
-    "sourceRef": "Ağustos 2026 ceza listesi",
+    "sourceId": "s31",
+    "sourceRef": "Ocak 2023 ceza listesi",
     "reviewedAt": "2026-10-20"
   },
   {
@@ -2689,8 +2689,8 @@
     ],
     "difficulty": "medium",
     "prompt": {
-      "tr": "Yerleşim yeri dışında, çift şeritli olmayan yollarda otomobillerin hız sınırı nasıldır?",
-      "en": "Outside built-up areas, on roads that are not dual carriageways, what are the speed limits for cars?"
+      "tr": "Yerleşim yeri dışında, çift şeritli olmayan yollarda hız sınırı nasıldır?",
+      "en": "Outside built-up areas, on roads that are not dual carriageways, what are the speed limits?"
     },
     "options": [
       {
@@ -2724,8 +2724,8 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Bakanlığın broşürüne göre şehir dışındaki yollarda sınır, yolun sınıfına göre 65 ile 90 km/sa arasındadır. 100 km/sa sınırı yalnız çift şeritli yollar içindir.",
-      "en": "According to the ministry leaflet, limits outside towns range from 65 to 90 km/h depending on the road class. 100 km/h applies only on dual carriageways."
+      "tr": "Bakanlığın broşürüne göre şehir dışındaki yollarda sınır, yolun ve aracın türüne göre 65 ile 90 km/sa arasındadır. 100 km/sa sınırı yalnız çift şeritli yollar içindir.",
+      "en": "According to the ministry leaflet, limits outside towns range from 65 to 90 km/h depending on the road and the vehicle. 100 km/h applies only on dual carriageways."
     },
     "signId": null,
     "basis": "law",
@@ -3211,8 +3211,8 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "2019 hız bildirisine göre arızalı araç çeken bir araç için yerleşim yerinde sınır 25 km/sa. Çift şeritli yolda bile 50 km/sa hızı aşamazsın.",
-      "en": "Under the 2019 speed notice, a vehicle towing a broken-down vehicle is limited to 25 km/h in built-up areas, and to 50 km/h even on a dual carriageway."
+      "tr": "2019 hız bildirisine göre arızalı araç çeken bir araç yerleşim yeri içinde ve dışında 25 km/sa hızı aşamaz. Yerleşim yerindeki genel 50 km/sa sınırı bu araçlar için geçerli değildir.",
+      "en": "Under the 2019 speed notice, a vehicle towing a broken-down vehicle may not exceed 25 km/h inside or outside built-up areas. The general 50 km/h town limit does not apply to it."
     },
     "signId": null,
     "basis": "secondary",
@@ -3319,8 +3319,8 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "2019 hız bildirisine göre kamyon ve otobüsler dağ yolunda üçüncü viteste, en çok 35 km/sa ile gider. Araç 10 yaşında ya da daha eskiyse sınır 20 km/sa.",
-      "en": "Under the 2019 speed notice, lorries and buses on the mountain road use third gear and do no more than 35 km/h, or 20 km/h if the vehicle is 10 or more years old."
+      "tr": "2019 hız bildirisine göre 10 yaşından küçük kamyon ve otobüsler dağ yolunda üçüncü viteste, en çok 35 km/sa ile gider. Araç 10 yaşından büyükse sınır 20 km/sa ve ikinci vites zorunludur.",
+      "en": "Under the 2019 speed notice, lorries and buses under 10 years old use third gear on the mountain road and do no more than 35 km/h. If the vehicle is more than 10 years old, the limit is 20 km/h in second gear."
     },
     "signId": null,
     "basis": "secondary",
@@ -5974,15 +5974,15 @@
       {
         "id": "b",
         "text": {
-          "tr": "24 saatlik, günde en çok 8 saat",
-          "en": "24 hours, at most 8 hours a day"
+          "tr": "En az 24 saatlik, günde en çok 8 saat",
+          "en": "At least 24 hours, at most 8 hours a day"
         }
       },
       {
         "id": "c",
         "text": {
-          "tr": "12 saatlik, günde en çok 3 saat",
-          "en": "12 hours, at most 3 hours a day"
+          "tr": "En az 12 saatlik, günde en çok 3 saat",
+          "en": "At least 12 hours, at most 3 hours a day"
         }
       },
       {
@@ -5995,8 +5995,8 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "2013 tüzük değişikliğine göre motosiklet ve moped öğrencileri 12 saatlik temel kursu, günde en çok 3 saat olmak üzere tamamlar.",
-      "en": "Under the 2013 amendment to the regulation, motorcycle and moped learners complete a 12-hour basic course, with no more than 3 hours a day."
+      "tr": "2013 tüzük değişikliğine (md. 29(7)) göre motosiklet ve moped öğrencileri en az 12 saatlik temel kursu, günde en çok 3 saat olmak üzere tamamlar.",
+      "en": "Under the 2013 amendment to the regulation, motorcycle and moped learners complete a basic course of at least 12 hours, with no more than 3 hours a day (art. 29(7))."
     },
     "signId": null,
     "basis": "law",

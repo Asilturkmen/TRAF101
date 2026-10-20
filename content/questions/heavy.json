@@ -368,8 +368,8 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Bildiri bu yolda kamyon ve otobüsleri 3. viteste 35 km/sa ile, 10 yaş ve üstündekileri 20 km/sa ile sınırlar. Otomobil, minibüs ve kamyonet için sınır 45 km/sa.",
-      "en": "The notice limits lorries and buses on this road to 35 km/h in third gear, or 20 km/h if they are 10 or more years old. Cars, minibuses and vans are limited to 45 km/h."
+      "tr": "Bildiri bu yolda 10 yaşından küçük kamyon ve otobüsleri 3. viteste 35 km/sa ile, 10 yaşından büyük olanları 2. viteste 20 km/sa ile sınırlar. Otomobil, minibüs ve kamyonet için sınır 45 km/sa.",
+      "en": "The notice limits lorries and buses under 10 years old on this road to 35 km/h in third gear, and those more than 10 years old to 20 km/h in second gear. Cars, minibuses and vans are limited to 45 km/h."
     },
     "signId": null,
     "basis": "secondary",
@@ -387,29 +387,29 @@
     ],
     "difficulty": "medium",
     "prompt": {
-      "tr": "Kurtarıcıyla arızalı bir aracı çekerek çift şeritli yolda gidiyorsun. Hız sınırın nedir?",
-      "en": "You are towing a broken-down vehicle with a recovery vehicle on a dual carriageway. What is your speed limit?"
+      "tr": "Kurtarıcıyla arızalı bir aracı çekerek birinci sınıf bir yolda, örneğin Lefkoşa–Güzelyurt yolunda gidiyorsun. Hız sınırın nedir?",
+      "en": "You are towing a broken-down vehicle with a recovery vehicle on a first-class road such as Lefkoşa–Güzelyurt. What is your speed limit?"
     },
     "options": [
       {
         "id": "a",
+        "text": {
+          "tr": "10 km/sa",
+          "en": "10 km/h"
+        }
+      },
+      {
+        "id": "b",
         "text": {
           "tr": "25 km/sa",
           "en": "25 km/h"
         }
       },
       {
-        "id": "b",
+        "id": "c",
         "text": {
           "tr": "50 km/sa",
           "en": "50 km/h"
-        }
-      },
-      {
-        "id": "c",
-        "text": {
-          "tr": "65 km/sa",
-          "en": "65 km/h"
         }
       },
       {
@@ -422,8 +422,8 @@
     ],
     "answer": "b",
     "why": {
-      "tr": "Bildiriye göre arızalı araç çeken araçlar çift şeritli yolda 50 km/sa, birinci sınıf yolda 25 km/sa, ikinci sınıf yolda 20 km/sa, köy yolunda 10 km/sa ile sınırlıdır. Yerleşim yerinde sınır 25 km/sa.",
-      "en": "Under the notice, vehicles towing a broken-down vehicle are limited to 50 km/h on dual carriageways, 25 km/h on first-class roads, 20 km/h on second-class roads and 10 km/h on village roads. In built-up areas the limit is 25 km/h."
+      "tr": "Bildiriye göre arızalı araç çeken araçlar yerleşim yeri içinde ve dışında 25 km/sa hızı aşamaz. Birinci sınıf yolda sınır 25 km/sa; ikinci sınıf ve köy yollarında daha da düşüktür.",
+      "en": "Under the notice, vehicles towing a broken-down vehicle may not exceed 25 km/h inside or outside built-up areas. On a first-class road the limit is 25 km/h, and on second-class and village roads it is lower still."
     },
     "signId": null,
     "basis": "secondary",

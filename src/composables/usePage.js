@@ -55,7 +55,7 @@ export function usePage(opts) {
       { property: 'og:locale:alternate', content: lang.value === 'tr' ? 'en_GB' : 'tr_TR' },
       { name: 'twitter:card', content: 'summary_large_image' },
     ];
-    if (self.value) {
+    if (self.value && !noindex) {
       meta.push({ property: 'og:url', content: absolute(self.value) });
       meta.push({ property: 'og:image', content: absolute(ogImagePath(self.value)) });
       meta.push({ property: 'og:image:width', content: '1200' });

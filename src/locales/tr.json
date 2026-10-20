@@ -3,6 +3,7 @@
   "tagline": "Practice. Evaluate. Drive Safe.",
   "nav": {
     "label": "Ana menü",
+    "breadcrumb": "Bulunduğun yer",
     "home": "Ana sayfa",
     "practise": "Çalış",
     "signs": "Levhalar",

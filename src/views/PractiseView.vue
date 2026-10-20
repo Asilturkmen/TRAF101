@@ -81,11 +81,11 @@ const modes = computed(() => [
     <PageHero :title="c.title" :subtitle="c.subtitle" :crumbs="[{ label: t('nav.home'), path: to('home', lang) }, { label: c.title }]" />
     <section class="section-block alt full-bleed">
       <div class="page-wrap">
-        <ClientOnly>
+        
           <div class="picker-wrap card">
             <TrackPicker :model-value="track" :lang="lang" @update:model-value="setTrack" />
           </div>
-        </ClientOnly>
+        
         <ul class="mode-grid">
           <li v-for="m in modes" :key="m.key">
             <RouterLink :to="to(m.key, lang)" class="card mode-card is-link" :class="{ primary: m.primary }">

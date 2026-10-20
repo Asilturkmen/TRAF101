@@ -48,7 +48,17 @@ function contentStats() {
   // Questions per lesson (generated sign questions belong to signs-basics).
   const byLesson = { 'signs-basics': signs.length };
   for (const q of written) byLesson[q.lesson] = (byLesson[q.lesson] || 0) + 1;
-  return { signs: signs.length, questions: written.length + signs.length, scenarios: scenarios.length, byLesson };
+  // Small lookup tables so light pages need not import the full sign or lesson data.
+  const catFile = 'content/signs/categories.json';
+  const categorySlugs = fs.existsSync(path.join(root, catFile))
+    ? Object.fromEntries(readJson(catFile).map((c) => [c.id, c.slug]))
+    : {};
+  const lessonTitles = {};
+  for (const l of readJson('content/lessons.json')) {
+    const f = path.join(root, 'content/lessons', `${l.id}.json`);
+    if (fs.existsSync(f)) lessonTitles[l.id] = JSON.parse(fs.readFileSync(f, 'utf8')).title;
+  }
+  return { signs: signs.length, questions: written.length + signs.length, scenarios: scenarios.length, byLesson, categorySlugs, lessonTitles };
 }
 
 // TR <-> EN slug pairs for every route parameter, so the language switch can find

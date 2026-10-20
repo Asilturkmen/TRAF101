@@ -6,11 +6,10 @@ import { Download, Upload, Trash2, Gauge, ClipboardList, BarChart3 } from 'lucid
 import { usePage, useLang } from '../composables/usePage.js';
 import { usePool } from '../composables/usePool.js';
 import { trackById, formatForTrack, lessonMetaById } from '../content/meta.js';
-import { lessonById } from '../content/docs.js';
 import { readiness } from '../lib/sessions.js';
 import { dayNumber } from '../lib/leitner.js';
 import { requestPersistence } from '../lib/storage.js';
-import { to, lessonPracticePath, mockPath, both } from '../lib/paths.js';
+import { to, lessonPracticePath, mockPath, lessonTitle, both } from '../lib/paths.js';
 import { tx, fmtDate, fmtDuration, fmtPercent } from '../lib/text.js';
 import PageHero from '../components/PageHero.vue';
 import StateBlock from '../components/StateBlock.vue';
@@ -128,7 +127,12 @@ const r = computed(() =>
   }),
 );
 const STATES = ['start', 'onTheWay', 'close', 'ready'];
-const weakLessons = computed(() => r.value.weakLessons.map((id) => lessonById(id)).filter(Boolean).slice(0, 6));
+const weakLessons = computed(() =>
+  r.value.weakLessons
+    .filter((id) => lessonTitle(id))
+    .map((id) => ({ ...lessonMetaById(id), doc: { title: lessonTitle(id) } }))
+    .slice(0, 6),
+);
 const history = computed(() => progress.mockAttempts.slice().reverse());
 
 const message = ref('');
@@ -275,6 +279,8 @@ function doReset() {
 
 <style scoped>
 .progress-wrap {
+  min-height: 100vh;
+  align-content: start;
   max-width: 960px;
   display: grid;
   gap: 1.5rem;

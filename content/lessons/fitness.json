@@ -96,11 +96,11 @@
     },
     {
       "text": {
-        "tr": "Sınırı aşan her alkol cezası 100 ceza puanı getirir.",
-        "en": "Every drink-driving penalty above the limit brings 100 penalty points."
+        "tr": "51 ile 150 mg arasındaki alkol cezaları 100 ceza puanı getirir; 150 mg üstünde sabit ceza yoktur, sürücü mahkemeye çıkarılır.",
+        "en": "Drink-driving penalties between 51 and 150 mg bring 100 penalty points; above 150 mg there is no fixed penalty and the driver goes to court."
       },
       "basis": "secondary",
-      "sourceId": "s28",
+      "sourceId": "s29",
       "sourceRef": null
     },
     {

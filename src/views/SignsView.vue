@@ -66,8 +66,11 @@ const results = computed(() => {
 
     <section class="categories-section full-bleed">
       <div class="section-padding">
+        <!-- Always mounted, so screen readers register it before the first result count. -->
+        <p class="results-count" :class="{ 'visually-hidden': !results }" role="status">
+          {{ results ? (results.length ? c.results(results.length) : c.none) : '' }}
+        </p>
         <div v-if="results" class="search-results">
-          <p class="results-count" role="status">{{ results.length ? c.results(results.length) : c.none }}</p>
           <ul class="tile-grid">
             <li v-for="s in results" :key="s.id">
               <RouterLink :to="signPath(s, lang)" class="sign-tile">
@@ -259,7 +262,8 @@ const results = computed(() => {
   margin: 0 auto;
 }
 .results-count {
-  margin-bottom: 1.25rem;
+  max-width: 1400px;
+  margin: 0 auto 1.25rem;
   font-weight: 600;
 }
 .tile-grid {

@@ -178,8 +178,8 @@
       {
         "id": "a",
         "text": {
-          "tr": "12 saat sürer ve günde en çok 3 saat yapılır",
-          "en": "It lasts 12 hours, with at most 3 hours a day"
+          "tr": "En az 12 saat, günde en çok 3 saat",
+          "en": "At least 12 hours, at most 3 hours a day"
         }
       },
       {
@@ -206,8 +206,8 @@
     ],
     "answer": "a",
     "why": {
-      "tr": "Tüzük md. 29(7) motosiklet ve moped adaylarına 12 saatlik bir temel kurs öngörür ve günde en çok 3 saat ders yapılabilir. Güncel ders sayısını sürücü kursuna sor.",
-      "en": "Regulation art. 29(7) requires a 12-hour basic course for motorcycle and moped learners, with at most 3 hours of lessons a day. Ask your driving school for the current number of lessons."
+      "tr": "Tüzük md. 29(7) motosiklet ve moped adaylarına en az 12 saatlik bir temel kurs öngörür ve günde en çok 3 saat ders yapılabilir. Güncel ders sayısını sürücü kursuna sor.",
+      "en": "Regulation art. 29(7) requires a basic course of at least 12 hours for motorcycle and moped learners, with at most 3 hours of lessons a day. Ask your driving school for the current number of lessons."
     },
     "signId": null,
     "basis": "law",

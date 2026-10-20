@@ -118,7 +118,7 @@ const timeFactor = computed({
         <p class="split-note">{{ c.splitNote }} {{ c.checked(fmtDate(examProfile.checkedAt, lang)) }}</p>
 
         <div class="lower-grid">
-          <ClientOnly>
+          
             <fieldset class="card time-card">
               <legend><Clock :size="20" aria-hidden="true" /> {{ c.timeTitle }}</legend>
               <div class="time-options">
@@ -129,7 +129,7 @@ const timeFactor = computed({
               </div>
               <p>{{ c.timeNote }}</p>
             </fieldset>
-          </ClientOnly>
+          
           <div class="card oral-card">
             <Signpost :size="36" :stroke-width="1.75" class="track-icon" aria-hidden="true" />
             <h2>{{ c.oralTitle }}</h2>

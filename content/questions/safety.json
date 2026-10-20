@@ -1109,8 +1109,8 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "Islak yolda durma mesafesi kuru yoldakinin en az iki katıdır. Lastikler daha az tutar; boşluğu buna göre artır.",
-      "en": "On a wet road stopping distances are at least double those on a dry one. Tyres grip less, so leave more space."
+      "tr": "Birleşik Krallık Karayolu Kuralları gibi yaygın rehberlere göre ıslak yolda durma mesafesi kuru yoldakinin en az iki katıdır; bu, KKTC mevzuatında yazılı bir ölçü değildir. Lastikler daha az tutar; boşluğu buna göre artır.",
+      "en": "Widely used guidance such as the UK Highway Code says stopping distances on a wet road are at least double those on a dry one; this measure is not written in North Cyprus law. Tyres grip less, so leave more space."
     },
     "signId": null,
     "basis": "secondary",
@@ -3920,8 +3920,8 @@
     ],
     "difficulty": "medium",
     "prompt": {
-      "tr": "Kuru ve hızlı bir yolda önündeki araçla aranda en az ne kadar zaman boşluğu bırakırsın?",
-      "en": "On a dry, fast road, what is the smallest time gap to leave behind the vehicle ahead?"
+      "tr": "Yaygın kullanılan takip mesafesi kuralına göre, kuru ve hızlı bir yolda önündeki araçla aranda en az ne kadar zaman boşluğu bırakırsın?",
+      "en": "Under the widely used following-distance guideline, what is the smallest time gap to leave behind the vehicle ahead on a dry, fast road?"
     },
     "options": [
       {
@@ -3955,8 +3955,8 @@
     ],
     "answer": "d",
     "why": {
-      "tr": "Öndeki araç bir direği geçince saymaya başla; sen aynı yere iki saniyeden önce varıyorsan çok yakınsın. Islak yolda bu boşluk en az iki katına çıkar.",
-      "en": "Start counting when the vehicle ahead passes a fixed point. If you reach it in less than two seconds, you are too close; on a wet road at least double it."
+      "tr": "Bu, Birleşik Krallık Karayolu Kuralları gibi rehberlerde yer alan yaygın bir ölçüdür; KKTC mevzuatında yazılı bir süre değildir. Öndeki araç bir direği geçince saymaya başla; aynı yere iki saniyeden önce varıyorsan çok yakınsın. Islak yolda bu boşluğu en az iki katına çıkar.",
+      "en": "This is a widely used guideline from sources such as the UK Highway Code, not a time set in North Cyprus law. Start counting when the vehicle ahead passes a fixed point. If you reach it in less than two seconds, you are too close; on a wet road at least double it."
     },
     "signId": null,
     "basis": "secondary",
@@ -4907,8 +4907,8 @@
     ],
     "answer": "c",
     "why": {
-      "tr": "2025 değişiklikleriyle telefon kullanmanın cezası asgari ücretin tamamı kadar para cezası ve 50 ceza puanı oldu. 15 ay içinde 100 puana ulaşan sürücünün ehliyeti 3 ay geri alınır.",
-      "en": "Since the 2025 changes, phone use brings a fine equal to the full minimum wage and 50 penalty points. A driver who reaches 100 points within 15 months loses their licence for 3 months."
+      "tr": "2025 değişiklikleriyle telefon kullanmanın cezası asgari ücretin tamamı kadar para cezası ve 50 ceza puanı oldu. Ayrıca ceza puanı yasasına göre 15 ay içinde 100 puana ulaşan sürücünün ehliyeti 3 ay geri alınır.",
+      "en": "Since the 2025 changes, phone use brings a fine equal to the full minimum wage and 50 penalty points. Separately, under the penalty-points law, a driver who reaches 100 points within 15 months loses their licence for 3 months."
     },
     "signId": null,
     "basis": "secondary",

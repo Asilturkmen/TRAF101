@@ -35,4 +35,6 @@ export const createApp = ViteSSG(
       i18n.global.locale.value = lang;
     });
   },
+  // Hydrate the prerendered HTML instead of rendering the page again on the client.
+  { hydration: true },
 );

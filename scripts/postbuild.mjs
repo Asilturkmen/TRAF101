@@ -100,7 +100,8 @@ if (!skipOg) {
   };
   const h = (type, style, children) => ({ type, props: { style, children } });
   let n = 0;
-  for (const p of pages) {
+  // Only pages people share and search engines index get a card.
+  for (const p of indexable) {
     const out = path.join(dist, 'og', p.path.slice(1), 'card.png');
     const sign = signImg(p);
     const tagline = p.lang === 'tr' ? 'KKTC ehliyet sınavına hazırlık' : 'North Cyprus driving theory test practice';
