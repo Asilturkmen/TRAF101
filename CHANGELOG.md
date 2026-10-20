@@ -1,5 +1,9 @@
 # Sürüm notları
 
+## Yayınlanmamış
+
+- README artık siteyi ekran görüntüleriyle tanıtıyor. Komutlar ve yapı bilgisi docs/DEVELOPMENT.md'ye taşındı.
+
 ## 1.1.0 (2026-10-20)
 
 Planın 9. bölümündeki bütün v1.1 işleri.
